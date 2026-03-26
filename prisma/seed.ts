@@ -606,6 +606,145 @@ async function main() {
       ],
     },
 
+    {
+      slug: "sean-obi",
+      firstName: "Sean",
+      lastName: "Obi",
+      birthYear: 1994,
+      hometown: "Kaduna, Nigeria",
+      isFeatured: false,
+      bio: "A 6'9\" transfer from Rice who joined Duke for the 2014-15 championship season but sat out due to NCAA transfer rules. At Rice he averaged 11.4 points and a Conference USA-leading 9.3 rebounds as a freshman. After earning his sociology degree at Duke he graduate-transferred to Maryland for one final season.",
+      status: {
+        occupationType: "OTHER",
+        currentTitle: "Former College Basketball Player",
+        statusNote:
+          "Sat out the 2014-15 championship season due to NCAA transfer rules, then played limited minutes in 2015-16 before a knee injury ended his 2016-17 season. Graduate-transferred to Maryland (2017-18) to play one final season under coach Mark Turgeon. Was not drafted. Post-basketball career not publicly documented; earned a sociology degree with a marketing minor from Duke.",
+        sourceUrl: "https://goduke.com/sports/mens-basketball/roster/sean-obi/4420",
+      },
+      membership: {
+        role: "PLAYER",
+        jerseyNumber: 34,
+        position: "Forward / Center",
+        yearsAtSchool: "2014-2017",
+        statsNote:
+          "Sat out 2014-15 (transfer rules) • 6'9\", 270 lbs • C-USA All-Freshman at Rice (11.4 ppg, 9.3 rpg) • Graduate transfer to Maryland (2017-18)",
+      },
+      careerEvents: [
+        {
+          year: 2014,
+          title: "Transferred from Rice University to Duke; sat out 2014-15 per NCAA transfer rules",
+          eventType: "OTHER",
+        },
+        {
+          year: 2015,
+          title: "Part of Duke's national championship roster (non-playing)",
+          eventType: "CHAMPIONSHIP",
+        },
+        {
+          year: 2017,
+          title: "Graduate transfer to University of Maryland for final season of eligibility",
+          eventType: "OTHER",
+        },
+      ],
+    },
+    {
+      slug: "sean-kelly",
+      firstName: "Sean",
+      lastName: "Kelly",
+      birthYear: 1993,
+      hometown: "Raleigh, NC",
+      isFeatured: false,
+      bio: "A walk-on guard who spent three years as a student manager before earning a spot on the roster his senior year — never having played varsity basketball in high school. His father played at Yale and professionally in France; his older brother Ryan Kelly played at Duke from 2010-13. One of the most unique paths to a national championship in college basketball history.",
+      status: {
+        occupationType: "OTHER",
+        currentTitle: "Admissions Professional",
+        currentEmployer: "Carlthorp School",
+        location: "Santa Monica, CA",
+        statusNote:
+          "After graduating from Duke, Kelly worked in admissions at Carlthorp School in Santa Monica, CA, where he became an early advocate for student social media literacy. Also an accomplished distance runner — completed the NYC Marathon and has shared training advice for beginner runners balancing family and work life.",
+        sourceUrl:
+          "https://thesocialinstitute.com/blog/qa-sean-kelly/",
+      },
+      membership: {
+        role: "PLAYER",
+        jerseyNumber: 42,
+        position: "Guard",
+        yearsAtSchool: "2011-2015",
+        statsNote:
+          "Walk-on (former 3-year student manager) • Never played varsity hoops in high school • Brother of Ryan Kelly (Duke 2010-13)",
+      },
+      careerEvents: [
+        {
+          year: 2015,
+          title: "Won NCAA National Championship with Duke as a walk-on",
+          eventType: "CHAMPIONSHIP",
+        },
+        {
+          year: 2015,
+          title: "Joined Carlthorp School (Santa Monica, CA) as admissions associate",
+          eventType: "OTHER",
+        },
+        {
+          year: 2023,
+          title: "Completed NYC Marathon while working full-time and raising a family",
+          eventType: "OTHER",
+        },
+      ],
+    },
+    {
+      slug: "nick-pagliuca",
+      firstName: "Nick",
+      lastName: "Pagliuca",
+      birthYear: 1994,
+      hometown: "Weston, MA",
+      isFeatured: false,
+      bio: "A walk-on guard and computer science major who turned down smaller D1 programs to walk on at Duke. His father Steve Pagliuca is a co-owner of the Boston Celtics and a 1977 Duke grad. Nick won the Deryl Hart Award (team's top scholar-athlete), was a National Merit Scholar, and interned at Apple — then went on to Harvard Business School and Palantir Technologies.",
+      status: {
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Software / Data Professional",
+        currentEmployer: "Palantir Technologies",
+        location: "New York, NY",
+        statusNote:
+          "After graduating from Duke with a computer science degree (National Merit Scholar, Deryl Hart Award winner), Pagliuca attended Harvard Business School. Now works at Palantir Technologies in New York, a high-profile data analytics and AI company. A standout example of a walk-on athlete excelling academically and professionally.",
+        sourceUrl: "https://www.bostonglobe.com/metro/regionals/west/2015/04/16/campus-angle-nick-pagliuca-weston-duke-university-basketball/gC95R2oHaumOwKDWsNYjuJ/story.html",
+      },
+      membership: {
+        role: "PLAYER",
+        jerseyNumber: 45,
+        position: "Guard",
+        yearsAtSchool: "2013-2017",
+        statsNote:
+          "Walk-on • Computer science major • National Merit Scholar • Deryl Hart Award (top scholar-athlete) • Played in 29 career games including 2015 NCAA Tournament",
+      },
+      careerEvents: [
+        {
+          year: 2015,
+          title: "Won NCAA National Championship with Duke; played in two NCAA Tournament games including semifinal vs Michigan State",
+          eventType: "CHAMPIONSHIP",
+        },
+        {
+          year: 2015,
+          title: "Interned at Apple in Palo Alto as computer science major",
+          eventType: "OTHER",
+        },
+        {
+          year: 2017,
+          title: "Won Deryl Hart Award — Duke basketball's top scholar-athlete",
+          eventType: "AWARD",
+        },
+        {
+          year: 2018,
+          title: "Enrolled at Harvard Business School",
+          eventType: "STUDENT",
+        },
+        {
+          year: 2020,
+          title: "Joined Palantir Technologies in New York as software/data professional",
+          eventType: "OTHER",
+        },
+      ],
+    },
+
     // ── Coaches ──────────────────────────────────────────────────────────────
     {
       slug: "mike-krzyzewski",
