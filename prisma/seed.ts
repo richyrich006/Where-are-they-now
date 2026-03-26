@@ -490,12 +490,15 @@ async function main() {
       birthYear: 1994,
       hometown: "Houston, TX",
       isFeatured: false,
-      bio: "A key contributor in the first half of the 2014-15 season, Sulaimon was dismissed from the team in January 2015. He transferred to Maryland and went on to play in the NBA Summer League.",
+      bio: "A key contributor in the first half of the 2014-15 season before being dismissed from the team in January 2015. He finished his Duke degree in three years, transferred to Maryland for one final season, and went on to build a decade-long professional career in Europe — winning a league MVP award along the way.",
       status: {
-        occupationType: "OTHER",
-        currentTitle: "Former Professional Basketball Player",
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Shooting Guard",
+        currentEmployer: "KK Buducnost VOLI",
+        league: "ABA Liga",
+        location: "Podgorica, Montenegro",
         statusNote:
-          "Transferred to Maryland for his senior season. Went undrafted in 2016. Played in the NBA Summer League with the Chicago Bulls. Career in professional basketball was limited thereafter.",
+          "Built a long and productive professional career in Europe since 2016. Played in France (JDA Dijon Bourgogne, Boulogne Metropolitans, JL Bourg en Bresse), Spain (Baloncesto Zaragoza), Turkey (Konyaspor Basketball), Lithuania (Wolves Vilnius), and Montenegro (KK Buducnost VOLI). Won a league MVP award overseas. Averaging 12.3 ppg for Buducnost in the ABA Liga.",
         sourceUrl: "https://en.wikipedia.org/wiki/Rasheed_Sulaimon",
       },
       membership: {
@@ -504,7 +507,7 @@ async function main() {
         position: "Shooting Guard",
         yearsAtSchool: "2012-2015",
         statsNote:
-          "Dismissed from team January 2015 • Subsequently transferred to University of Maryland",
+          "Dismissed from team January 2015 • Transferred to Maryland (2015-16 All-Big Ten honorable mention, 11.3 ppg)",
       },
       careerEvents: [
         {
@@ -514,13 +517,43 @@ async function main() {
         },
         {
           year: 2015,
-          title: "Transferred to University of Maryland",
+          title: "Transferred to University of Maryland; earned All-Big Ten honorable mention averaging 11.3 ppg",
           eventType: "OTHER",
         },
         {
           year: 2016,
-          title: "Went undrafted; participated in NBA Summer League with Chicago Bulls",
-          eventType: "OTHER",
+          title: "Signed with Greensboro Swarm (NBA G-League)",
+          eventType: "SIGNING",
+        },
+        {
+          year: 2017,
+          title: "Signed with JDA Dijon Bourgogne (France, Pro A)",
+          eventType: "SIGNING",
+        },
+        {
+          year: 2020,
+          title: "Signed with Baloncesto Zaragoza (Spain, Liga ACB)",
+          eventType: "SIGNING",
+        },
+        {
+          year: 2022,
+          title: "Signed with JL Bourg en Bresse (France, Pro A)",
+          eventType: "SIGNING",
+        },
+        {
+          year: 2022,
+          title: "Won league MVP award playing professionally overseas",
+          eventType: "AWARD",
+        },
+        {
+          year: 2023,
+          title: "Signed with Konyaspor Basketball (Turkey, BSL)",
+          eventType: "SIGNING",
+        },
+        {
+          year: 2024,
+          title: "Signed with KK Buducnost VOLI (Montenegro, ABA Liga)",
+          eventType: "SIGNING",
         },
       ],
     },
@@ -529,21 +562,48 @@ async function main() {
       firstName: "Brennan",
       lastName: "Besser",
       birthYear: 1996,
-      hometown: "Charlotte, NC",
+      hometown: "Chicago, IL",
       isFeatured: false,
-      bio: "A walk-on guard who was part of the 2015 championship roster.",
+      bio: "A walk-on guard who was part of the 2015 championship roster. After Duke, Besser channeled the walk-on spirit into life — founding 'Walk On! America,' a charity supporting people with intellectual and developmental disabilities (IDD), inspired by his sister Jacqueline. He completed a 3,400-mile cross-country bike ride in 69 days raising over $343,000 for the IDD community.",
       status: {
-        occupationType: "OTHER",
-        currentTitle: "Private Citizen",
-        statusNote: "Did not pursue professional basketball after Duke.",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Sports Business Professional / Entrepreneur",
+        currentEmployer: "Intersport",
+        location: "Chicago, IL",
+        statusNote:
+          "Founded 'Walk On! America,' a charity for the intellectual and developmental disability (IDD) community inspired by his sister Jacqueline, who has autism. Completed a 3,400-mile cross-country bike ride in 69 days, raising over $343,000. Now works at Intersport in Chicago on NFL and sports marketing partnerships. Also involved in startup investing and venture financing.",
+        sourceUrl:
+          "https://www.espn.com/mens-college-basketball/story/_/id/24123073/duke-blue-devils-brennan-besser-completes-bike-ride-america",
       },
       membership: {
         role: "PLAYER",
         jerseyNumber: 53,
         position: "Guard",
         yearsAtSchool: "2014-2018",
-        statsNote: "Walk-on • Part of 2015 national championship team",
+        statsNote: "Walk-on • Part of 2015 national championship team • Political science major",
       },
+      careerEvents: [
+        {
+          year: 2015,
+          title: "Won NCAA National Championship with Duke",
+          eventType: "CHAMPIONSHIP",
+        },
+        {
+          year: 2018,
+          title: "Founded 'Walk On! America' — charity for the IDD community inspired by his sister Jacqueline",
+          eventType: "OTHER",
+        },
+        {
+          year: 2018,
+          title: "Completed 3,400-mile cross-country bike ride in 69 days, raising over $343,000 for IDD organizations",
+          eventType: "OTHER",
+        },
+        {
+          year: 2019,
+          title: "Joined Intersport in Chicago as sports business professional",
+          eventType: "OTHER",
+        },
+      ],
     },
 
     // ── Coaches ──────────────────────────────────────────────────────────────
@@ -751,52 +811,55 @@ async function main() {
   ];
 
   for (const p of people) {
+    const personData = {
+      firstName: p.firstName,
+      lastName: p.lastName,
+      birthYear: p.birthYear,
+      hometown: p.hometown,
+      imageUrl: p.imageUrl ?? null,
+      bio: p.bio ?? null,
+      isFeatured: p.isFeatured ?? false,
+    };
+
     const person = await prisma.person.upsert({
       where: { slug: p.slug },
-      update: {},
-      create: {
-        slug: p.slug,
-        firstName: p.firstName,
-        lastName: p.lastName,
-        birthYear: p.birthYear,
-        hometown: p.hometown,
-        imageUrl: p.imageUrl ?? null,
-        bio: p.bio ?? null,
-        isFeatured: p.isFeatured ?? false,
-      },
+      update: personData,
+      create: { slug: p.slug, ...personData },
     });
+
+    const statusData = {
+      occupationType: p.status.occupationType,
+      currentTitle: p.status.currentTitle ?? null,
+      currentEmployer: p.status.currentEmployer ?? null,
+      league: p.status.league ?? null,
+      location: p.status.location ?? null,
+      statusNote: p.status.statusNote ?? null,
+      asOfDate: new Date("2026-03-01"),
+      sourceUrl: p.status.sourceUrl ?? null,
+    };
 
     await prisma.currentStatus.upsert({
       where: { personId: person.id },
-      update: {},
-      create: {
-        personId: person.id,
-        occupationType: p.status.occupationType,
-        currentTitle: p.status.currentTitle ?? null,
-        currentEmployer: p.status.currentEmployer ?? null,
-        league: p.status.league ?? null,
-        location: p.status.location ?? null,
-        statusNote: p.status.statusNote ?? null,
-        asOfDate: new Date("2026-03-01"),
-        sourceUrl: p.status.sourceUrl ?? null,
-      },
+      update: statusData,
+      create: { personId: person.id, ...statusData },
     });
+
+    const membershipData = {
+      role: p.membership.role,
+      jerseyNumber: p.membership.jerseyNumber ?? null,
+      position: p.membership.position ?? null,
+      yearsAtSchool: p.membership.yearsAtSchool ?? null,
+      statsNote: p.membership.statsNote ?? null,
+    };
 
     await prisma.teamMembership.upsert({
       where: { personId_teamId: { personId: person.id, teamId: team.id } },
-      update: {},
-      create: {
-        personId: person.id,
-        teamId: team.id,
-        role: p.membership.role,
-        jerseyNumber: p.membership.jerseyNumber ?? null,
-        position: p.membership.position ?? null,
-        yearsAtSchool: p.membership.yearsAtSchool ?? null,
-        statsNote: p.membership.statsNote ?? null,
-      },
+      update: membershipData,
+      create: { personId: person.id, teamId: team.id, ...membershipData },
     });
 
     if (p.careerEvents) {
+      await prisma.careerEvent.deleteMany({ where: { personId: person.id } });
       for (const event of p.careerEvents) {
         await prisma.careerEvent.create({
           data: {
