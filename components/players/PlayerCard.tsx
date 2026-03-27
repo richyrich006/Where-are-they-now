@@ -13,7 +13,9 @@ type PlayerCardProps = {
 
 export function PlayerCard({ person }: PlayerCardProps) {
   const membership = person.memberships[0];
-  const imageUrl = getImageUrl(person.imageUrl, person.firstName, person.lastName);
+  const collegeImage = getImageUrl(person.collegeImageUrl, person.firstName, person.lastName);
+  const todayImage = getImageUrl(person.imageUrl, person.firstName, person.lastName);
+  const hasTodayPhoto = !!person.imageUrl;
 
   return (
     <Link
@@ -21,13 +23,29 @@ export function PlayerCard({ person }: PlayerCardProps) {
       className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:shadow-md hover:-translate-y-0.5"
     >
       <div className="relative h-48 w-full overflow-hidden bg-gray-100">
+        {/* College photo — default */}
         <Image
-          src={imageUrl}
-          alt={`${person.firstName} ${person.lastName}`}
+          src={collegeImage}
+          alt={`${person.firstName} ${person.lastName} at Duke`}
           fill
-          className="object-cover transition group-hover:scale-105"
+          className="object-cover transition-opacity duration-500 group-hover:opacity-0"
           unoptimized
         />
+        {/* Today photo — revealed on hover */}
+        {hasTodayPhoto && (
+          <Image
+            src={todayImage}
+            alt={`${person.firstName} ${person.lastName} today`}
+            fill
+            className="object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+            unoptimized
+          />
+        )}
+        {hasTodayPhoto && (
+          <span className="absolute bottom-2 right-2 rounded bg-black/50 px-1.5 py-0.5 text-xs text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            Today
+          </span>
+        )}
       </div>
       <div className="flex flex-1 flex-col p-4">
         <div className="flex items-start justify-between gap-2">

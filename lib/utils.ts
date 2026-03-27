@@ -13,6 +13,7 @@ export function formatOccupationType(type: OccupationType): string {
   const map: Record<OccupationType, string> = {
     ACTIVE_PRO_ATHLETE: "Pro Athlete",
     RETIRED_ATHLETE: "Retired Athlete",
+    RETIRED_COACH: "Retired Coach",
     COACH: "Coach",
     FRONT_OFFICE: "Front Office",
     BROADCASTER_ANALYST: "Broadcaster / Analyst",
@@ -27,6 +28,7 @@ export function occupationBadgeColor(type: OccupationType): string {
   const map: Record<OccupationType, string> = {
     ACTIVE_PRO_ATHLETE: "bg-green-100 text-green-800",
     RETIRED_ATHLETE: "bg-gray-100 text-gray-700",
+    RETIRED_COACH: "bg-gray-100 text-gray-700",
     COACH: "bg-blue-100 text-blue-800",
     FRONT_OFFICE: "bg-purple-100 text-purple-800",
     BROADCASTER_ANALYST: "bg-orange-100 text-orange-800",

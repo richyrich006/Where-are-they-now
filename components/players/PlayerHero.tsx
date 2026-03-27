@@ -11,19 +11,37 @@ type PlayerHeroProps = {
 
 export function PlayerHero({ person }: PlayerHeroProps) {
   const membership = person.memberships[0];
-  const imageUrl = getImageUrl(person.imageUrl, person.firstName, person.lastName);
+  const collegeImage = getImageUrl(person.collegeImageUrl, person.firstName, person.lastName);
+  const todayImage = getImageUrl(person.imageUrl, person.firstName, person.lastName);
+  const hasTodayPhoto = !!person.imageUrl;
 
   return (
     <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
-      <div className="relative h-32 w-32 shrink-0 overflow-hidden rounded-2xl bg-gray-100 shadow-md sm:h-40 sm:w-40">
+      <div className="group relative h-32 w-32 shrink-0 overflow-hidden rounded-2xl bg-gray-100 shadow-md sm:h-40 sm:w-40">
+        {/* College photo — default */}
         <Image
-          src={imageUrl}
-          alt={`${person.firstName} ${person.lastName}`}
+          src={collegeImage}
+          alt={`${person.firstName} ${person.lastName} at Duke`}
           fill
-          className="object-cover"
+          className="object-cover transition-opacity duration-500 group-hover:opacity-0"
           unoptimized
           priority
         />
+        {/* Today photo — revealed on hover */}
+        {hasTodayPhoto && (
+          <Image
+            src={todayImage}
+            alt={`${person.firstName} ${person.lastName} today`}
+            fill
+            className="object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+            unoptimized
+          />
+        )}
+        {hasTodayPhoto && (
+          <span className="absolute bottom-1 right-1 rounded bg-black/50 px-1.5 py-0.5 text-xs text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            Today
+          </span>
+        )}
       </div>
       <div>
         <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">

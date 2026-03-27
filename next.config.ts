@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "ui-avatars.com" },
       { protocol: "https", hostname: "cdn.nba.com" },
       { protocol: "https", hostname: "a.espncdn.com" },
+      { protocol: "https", hostname: "upload.wikimedia.org" },
     ],
   },
 };

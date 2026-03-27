@@ -13,6 +13,7 @@ datasource db {
 enum OccupationType {
   ACTIVE_PRO_ATHLETE
   RETIRED_ATHLETE
+  RETIRED_COACH
   COACH
   FRONT_OFFICE
   BROADCASTER_ANALYST
@@ -48,8 +49,9 @@ model Person {
   lastName      String
   birthYear     Int?
   hometown      String?
-  imageUrl      String?
-  bio           String?
+  imageUrl        String?
+  collegeImageUrl String?
+  bio             String?
   isFeatured    Boolean          @default(false)
   memberships   TeamMembership[]
   currentStatus CurrentStatus?
