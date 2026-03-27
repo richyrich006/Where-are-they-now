@@ -29,6 +29,12 @@ enum Role {
   MANAGER
 }
 
+enum StatLevel {
+  HIGH_SCHOOL
+  COLLEGE
+  PROFESSIONAL
+}
+
 model Team {
   id             Int              @id @default(autoincrement())
   slug           String           @unique
@@ -59,6 +65,7 @@ model Person {
   memberships   TeamMembership[]
   currentStatus CurrentStatus?
   careerEvents  CareerEvent[]
+  seasonStats   SeasonStats[]
   createdAt     DateTime         @default(now())
   updatedAt     DateTime         @updatedAt
 }
@@ -93,22 +100,29 @@ model TeamMembership {
   pointsPerGame   Float?
   reboundsPerGame Float?
   assistsPerGame  Float?
-  seasonStats     SeasonStats[]
 
   @@unique([personId, teamId])
 }
 
 model SeasonStats {
-  id               Int            @id @default(autoincrement())
-  membershipId     Int
-  membership       TeamMembership @relation(fields: [membershipId], references: [id])
+  id               Int       @id @default(autoincrement())
+  personId         Int
+  person           Person    @relation(fields: [personId], references: [id])
+  level            StatLevel
+  teamName         String
   season           String
   yearLabel        String
   sortOrder        Int
   gamesPlayed      Int?
+  minutesPerGame   Float?
   pointsPerGame    Float?
   reboundsPerGame  Float?
   assistsPerGame   Float?
+  stealsPerGame    Float?
+  blocksPerGame    Float?
+  fieldGoalPct     Float?
+  threePointPct    Float?
+  freeThrowPct     Float?
 }
 
 model CareerEvent {
