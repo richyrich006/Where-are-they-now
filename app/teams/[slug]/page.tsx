@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { getTeamBySlug, getAllTeamSlugs } from "@/lib/queries";
-import { RosterGrid } from "@/components/teams/RosterGrid";
+import { RosterFilterGrid } from "@/components/teams/RosterFilterGrid";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -26,10 +26,7 @@ export default async function TeamPage({ params }: Props) {
   const team = await getTeamBySlug(slug);
   if (!team) notFound();
 
-  const players = team.memberships.filter((m) => m.role === "PLAYER");
-  const coaches = team.memberships.filter((m) =>
-    ["HEAD_COACH", "ASSISTANT_COACH"].includes(m.role)
-  );
+  const membersWithTeam = team.memberships.map((m) => ({ ...m, team }));
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
@@ -51,9 +48,6 @@ export default async function TeamPage({ params }: Props) {
               <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 {team.name}
               </h1>
-              {team.mascotName && (
-                <span className="text-lg text-gray-500">({team.mascotName}s)</span>
-              )}
               {team.accomplishment && (
                 <span className="rounded-full bg-yellow-100 px-3 py-1 text-sm font-bold text-yellow-800">
                   🏆 {team.accomplishment}
@@ -70,7 +64,7 @@ export default async function TeamPage({ params }: Props) {
         </div>
       </div>
 
-      <RosterGrid players={players} coaches={coaches} />
+      <RosterFilterGrid members={membersWithTeam} />
     </div>
   );
 }

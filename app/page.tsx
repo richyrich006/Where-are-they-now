@@ -1,17 +1,32 @@
 import Link from "next/link";
 import { Suspense } from "react";
-import { getFeaturedPlayers, getPersonCount } from "@/lib/queries";
+import { getFeaturedPlayers, getPersonCount, getTeamCount, getRemarkableStories } from "@/lib/queries";
 import { PlayerCard } from "@/components/players/PlayerCard";
 import { SearchBar } from "@/components/search/SearchBar";
+import { formatOccupationType } from "@/lib/utils";
 
 export const metadata = {
-  title: "Where Are They Now? | 2015 Duke Basketball",
+  title: "Where Are They Now? | Championship Teams",
+};
+
+const storyIcon: Record<string, string> = {
+  ACTIVE_PRO_ATHLETE: "🏀",
+  RETIRED_ATHLETE: "🎓",
+  COACH: "📣",
+  RETIRED_COACH: "📣",
+  OTHER: "⭐",
+  ENTREPRENEUR_BUSINESS: "💼",
+  FRONT_OFFICE: "🏢",
+  BROADCASTER_ANALYST: "🎙️",
+  STUDENT: "📚",
 };
 
 export default async function HomePage() {
-  const [featured, totalCount] = await Promise.all([
+  const [featured, totalCount, teamCount, stories] = await Promise.all([
     getFeaturedPlayers(),
     getPersonCount(),
+    getTeamCount(),
+    getRemarkableStories(),
   ]);
 
   return (
@@ -28,7 +43,7 @@ export default async function HomePage() {
             </h1>
             <p className="mt-4 text-lg text-blue-100">
               From NBA championships to the U.S. Army, from the sidelines to the boardroom.
-              Follow the extraordinary journeys of the 2015 NCAA champion Duke basketball team.
+              Follow the extraordinary journeys of the greatest teams in college basketball history.
             </p>
             <div className="mt-8 max-w-md">
               <Suspense>
@@ -43,7 +58,8 @@ export default async function HomePage() {
                 View Full Roster →
               </Link>
               <span className="flex items-center text-blue-200">
-                {totalCount} athletes tracked
+                {totalCount} athletes tracked across {teamCount}{" "}
+                {teamCount === 1 ? "team" : "teams"}
               </span>
             </div>
           </div>
@@ -68,49 +84,42 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Story Highlights */}
-      <section className="bg-white border-y border-gray-200">
-        <div className="mx-auto max-w-6xl px-4 py-12">
-          <h2 className="mb-6 text-2xl font-bold text-gray-900">Remarkable Journeys</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              {
-                emoji: "🏀",
-                title: "Still in the NBA",
-                description:
-                  "Tyus Jones and Grayson Allen are both active NBA players — teammates again on the Phoenix Suns.",
-                slug: "tyus-jones",
-              },
-              {
-                emoji: "🪖",
-                title: "From the Court to Combat",
-                description:
-                  "Marshall Plumlee left basketball for the U.S. Army, completing the elite Ranger School program.",
-                slug: "marshall-plumlee",
-              },
-              {
-                emoji: "📣",
-                title: "The Successor",
-                description:
-                  "Jon Scheyer went from role player to Coach K's hand-picked successor as Duke's head coach.",
-                slug: "jon-scheyer",
-              },
-            ].map((story) => (
-              <Link
-                key={story.slug}
-                href={`/players/${story.slug}`}
-                className="group rounded-xl border border-gray-200 bg-gray-50 p-5 hover:border-blue-300 hover:bg-blue-50 transition"
-              >
-                <div className="mb-2 text-3xl">{story.emoji}</div>
-                <h3 className="font-bold text-gray-900 group-hover:text-blue-700">
-                  {story.title}
-                </h3>
-                <p className="mt-1 text-sm text-gray-600">{story.description}</p>
-              </Link>
-            ))}
+      {/* Remarkable Journeys — generated from DB */}
+      {stories.length > 0 && (
+        <section className="border-y border-gray-200 bg-white">
+          <div className="mx-auto max-w-6xl px-4 py-12">
+            <h2 className="mb-6 text-2xl font-bold text-gray-900">Remarkable Journeys</h2>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {stories.map((person) => {
+                const status = person.currentStatus!;
+                const icon = storyIcon[status.occupationType] ?? "⭐";
+                const headline = [status.currentTitle, status.currentEmployer]
+                  .filter(Boolean)
+                  .join(" · ");
+                const excerpt = status.statusNote
+                  ? status.statusNote.split(".")[0] + "."
+                  : formatOccupationType(status.occupationType);
+                return (
+                  <Link
+                    key={person.slug}
+                    href={`/players/${person.slug}`}
+                    className="group rounded-xl border border-gray-200 bg-gray-50 p-5 transition hover:border-blue-300 hover:bg-blue-50"
+                  >
+                    <div className="mb-2 text-3xl">{icon}</div>
+                    <h3 className="font-bold text-gray-900 group-hover:text-blue-700">
+                      {person.firstName} {person.lastName}
+                    </h3>
+                    {headline && (
+                      <p className="mt-0.5 text-sm font-medium text-blue-700">{headline}</p>
+                    )}
+                    <p className="mt-1 text-sm text-gray-600">{excerpt}</p>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </div>
   );
 }

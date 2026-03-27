@@ -75,6 +75,24 @@ export async function searchPeople(query: string) {
   });
 }
 
+export async function getRemarkableStories() {
+  const [pro, unique, coach] = await Promise.all([
+    prisma.person.findFirst({
+      where: { isFeatured: true, currentStatus: { occupationType: "ACTIVE_PRO_ATHLETE" } },
+      include: { currentStatus: true },
+    }),
+    prisma.person.findFirst({
+      where: { isFeatured: true, currentStatus: { occupationType: "OTHER" } },
+      include: { currentStatus: true },
+    }),
+    prisma.person.findFirst({
+      where: { isFeatured: true, currentStatus: { occupationType: "COACH" } },
+      include: { currentStatus: true },
+    }),
+  ]);
+  return [pro, unique, coach].filter((p) => p !== null);
+}
+
 export async function getTeamCount() {
   return prisma.team.count();
 }
