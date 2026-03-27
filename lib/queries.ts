@@ -6,6 +6,7 @@ const personWithStatus = {
   memberships: {
     include: {
       team: true,
+      seasonStats: { orderBy: { sortOrder: "asc" as const } },
     },
   },
 };

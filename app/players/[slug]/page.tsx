@@ -55,10 +55,44 @@ export default async function PlayerPage({ params }: Props) {
       )}
 
       {/* College Career */}
-      {(membership?.statsNote || membership?.gamesPlayed != null) && (
+      {membership && (membership.statsNote || membership.gamesPlayed != null || membership.seasonStats.length > 0) && (
         <div className="mt-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
           <h2 className="mb-3 text-xl font-bold text-gray-900">College Career</h2>
-          {membership.gamesPlayed != null && (
+
+          {membership.seasonStats.length > 0 ? (
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-gray-200 text-left text-xs font-semibold uppercase tracking-wide text-gray-500">
+                    <th className="py-2 pr-4">Year</th>
+                    <th className="py-2 pr-4">Season</th>
+                    <th className="py-2 pr-4 text-center">G</th>
+                    <th className="py-2 pr-4 text-center">PPG</th>
+                    <th className="py-2 pr-4 text-center">RPG</th>
+                    <th className="py-2 text-center">APG</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {membership.seasonStats.map((row) => (
+                    <tr key={row.id} className="border-b border-gray-100 last:border-0">
+                      <td className="py-2 pr-4 font-medium text-gray-900">{row.yearLabel}</td>
+                      <td className="py-2 pr-4 text-gray-600">{row.season}</td>
+                      <td className="py-2 pr-4 text-center text-gray-700">{row.gamesPlayed ?? "—"}</td>
+                      <td className="py-2 pr-4 text-center text-gray-700">
+                        {row.pointsPerGame != null ? row.pointsPerGame.toFixed(1) : "—"}
+                      </td>
+                      <td className="py-2 pr-4 text-center text-gray-700">
+                        {row.reboundsPerGame != null ? row.reboundsPerGame.toFixed(1) : "—"}
+                      </td>
+                      <td className="py-2 text-center text-gray-700">
+                        {row.assistsPerGame != null ? row.assistsPerGame.toFixed(1) : "—"}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : membership.gamesPlayed != null ? (
             <div className="mb-4 grid grid-cols-4 gap-3 text-center">
               <div className="rounded-lg bg-gray-50 p-3">
                 <p className="text-2xl font-bold text-gray-900">{membership.gamesPlayed}</p>
@@ -83,9 +117,10 @@ export default async function PlayerPage({ params }: Props) {
                 </div>
               )}
             </div>
-          )}
+          ) : null}
+
           {membership.statsNote && (
-            <p className="text-sm leading-relaxed text-gray-700">{membership.statsNote}</p>
+            <p className="mt-3 text-sm leading-relaxed text-gray-700">{membership.statsNote}</p>
           )}
         </div>
       )}
