@@ -123,14 +123,16 @@ async function main() {
         assistsPerGame: 1.3,
       },
       seasonStats: [
+        // High School
+        { level: "HIGH_SCHOOL", teamName: "Whitney Young Magnet High School", season: "2013-14", yearLabel: "Senior", sortOrder: 101, pointsPerGame: 24.1, reboundsPerGame: 11.3 },
         // College
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 38, minutesPerGame: 27.4, pointsPerGame: 17.3, reboundsPerGame: 8.5, assistsPerGame: 1.3, stealsPerGame: 0.6, blocksPerGame: 1.4, fieldGoalPct: 0.676, freeThrowPct: 0.638 },
         // NBA
-        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2015-16", yearLabel: "2015-16", sortOrder: 301, gamesPlayed: 53, minutesPerGame: 24.9, pointsPerGame: 17.5, reboundsPerGame: 7.0, assistsPerGame: 1.2, stealsPerGame: 0.7, blocksPerGame: 1.2, fieldGoalPct: 0.573, freeThrowPct: 0.656 },
-        { level: "PROFESSIONAL", teamName: "76ers / Nets", season: "2016-17", yearLabel: "2016-17", sortOrder: 302, gamesPlayed: 47, minutesPerGame: 24.7, pointsPerGame: 11.7, reboundsPerGame: 6.3, assistsPerGame: 0.9, stealsPerGame: 0.5, blocksPerGame: 0.9, fieldGoalPct: 0.524, freeThrowPct: 0.614 },
-        { level: "PROFESSIONAL", teamName: "Nets / Pelicans", season: "2017-18", yearLabel: "2017-18", sortOrder: 303, gamesPlayed: 38, minutesPerGame: 16.0, pointsPerGame: 7.5, reboundsPerGame: 4.3, assistsPerGame: 0.6, stealsPerGame: 0.4, blocksPerGame: 0.6, fieldGoalPct: 0.530, freeThrowPct: 0.671 },
-        { level: "PROFESSIONAL", teamName: "New Orleans Pelicans", season: "2018-19", yearLabel: "2018-19", sortOrder: 304, gamesPlayed: 28, minutesPerGame: 14.2, pointsPerGame: 5.7, reboundsPerGame: 3.5, assistsPerGame: 0.7, stealsPerGame: 0.3, blocksPerGame: 0.5, fieldGoalPct: 0.527, freeThrowPct: 0.647 },
-        { level: "PROFESSIONAL", teamName: "Detroit Pistons", season: "2019-20", yearLabel: "2019-20", sortOrder: 305, gamesPlayed: 29, minutesPerGame: 15.7, pointsPerGame: 7.6, reboundsPerGame: 4.0, assistsPerGame: 0.7, stealsPerGame: 0.5, blocksPerGame: 0.8, fieldGoalPct: 0.513, freeThrowPct: 0.714 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2015-16", yearLabel: "2015-16", sortOrder: 301, gamesPlayed: 53, minutesPerGame: 30.0, pointsPerGame: 17.5, reboundsPerGame: 7.0, assistsPerGame: 1.2, blocksPerGame: 1.2, fieldGoalPct: 0.508, freeThrowPct: 0.686 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2016-17", yearLabel: "2016-17", sortOrder: 302, gamesPlayed: 50, minutesPerGame: 22.7, pointsPerGame: 11.1, reboundsPerGame: 4.7, blocksPerGame: 0.8, fieldGoalPct: 0.519 },
+        { level: "PROFESSIONAL", teamName: "76ers / Nets", season: "2017-18", yearLabel: "2017-18", sortOrder: 303, gamesPlayed: 28, minutesPerGame: 12.4, pointsPerGame: 6.3, reboundsPerGame: 2.8, fieldGoalPct: 0.530 },
+        { level: "PROFESSIONAL", teamName: "New Orleans Pelicans", season: "2018-19", yearLabel: "2018-19", sortOrder: 304, gamesPlayed: 59, minutesPerGame: 15.8, pointsPerGame: 8.2, reboundsPerGame: 4.7, assistsPerGame: 0.7, stealsPerGame: 0.3, blocksPerGame: 0.7, fieldGoalPct: 0.586, freeThrowPct: 0.663 },
+        { level: "PROFESSIONAL", teamName: "Detroit Pistons", season: "2019-20", yearLabel: "2019-20", sortOrder: 305, gamesPlayed: 27, pointsPerGame: 5.4, reboundsPerGame: 2.4, assistsPerGame: 0.5, blocksPerGame: 0.2, fieldGoalPct: 0.616 },
       ],
       careerEvents: [
         {
@@ -193,18 +195,21 @@ async function main() {
         assistsPerGame: 5.6,
       },
       seasonStats: [
+        // High School
+        { level: "HIGH_SCHOOL", teamName: "Apple Valley High School", season: "2013-14", yearLabel: "Senior", sortOrder: 101, pointsPerGame: 25.6, reboundsPerGame: 4.5, assistsPerGame: 8.1, fieldGoalPct: 0.580, threePointPct: 0.440, freeThrowPct: 0.870 },
         // College
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 39, minutesPerGame: 30.2, pointsPerGame: 11.8, reboundsPerGame: 3.5, assistsPerGame: 5.6, stealsPerGame: 1.5, fieldGoalPct: 0.468, threePointPct: 0.408, freeThrowPct: 0.844 },
         // NBA
-        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2015-16", yearLabel: "2015-16", sortOrder: 301, gamesPlayed: 30, minutesPerGame: 14.8, pointsPerGame: 4.2, reboundsPerGame: 1.0, assistsPerGame: 2.3, stealsPerGame: 1.1, fieldGoalPct: 0.461, threePointPct: 0.333, freeThrowPct: 0.821 },
-        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2016-17", yearLabel: "2016-17", sortOrder: 302, gamesPlayed: 63, minutesPerGame: 16.7, pointsPerGame: 6.3, reboundsPerGame: 2.0, assistsPerGame: 3.9, stealsPerGame: 0.9, fieldGoalPct: 0.448, threePointPct: 0.378, freeThrowPct: 0.818 },
-        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2017-18", yearLabel: "2017-18", sortOrder: 303, gamesPlayed: 68, minutesPerGame: 15.6, pointsPerGame: 7.6, reboundsPerGame: 2.0, assistsPerGame: 3.4, stealsPerGame: 1.1, fieldGoalPct: 0.470, threePointPct: 0.407, freeThrowPct: 0.843 },
-        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2018-19", yearLabel: "2018-19", sortOrder: 304, gamesPlayed: 59, minutesPerGame: 20.6, pointsPerGame: 8.8, reboundsPerGame: 2.5, assistsPerGame: 4.4, stealsPerGame: 1.0, fieldGoalPct: 0.484, threePointPct: 0.396, freeThrowPct: 0.831 },
-        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2019-20", yearLabel: "2019-20", sortOrder: 305, gamesPlayed: 43, minutesPerGame: 18.5, pointsPerGame: 6.7, reboundsPerGame: 1.9, assistsPerGame: 4.1, stealsPerGame: 1.0, fieldGoalPct: 0.477, threePointPct: 0.378, freeThrowPct: 0.879 },
-        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2020-21", yearLabel: "2020-21", sortOrder: 306, gamesPlayed: 56, minutesPerGame: 21.1, pointsPerGame: 8.0, reboundsPerGame: 2.6, assistsPerGame: 5.5, stealsPerGame: 1.2, fieldGoalPct: 0.491, threePointPct: 0.393, freeThrowPct: 0.855 },
-        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2021-22", yearLabel: "2021-22", sortOrder: 307, gamesPlayed: 56, minutesPerGame: 19.6, pointsPerGame: 7.8, reboundsPerGame: 2.5, assistsPerGame: 6.0, stealsPerGame: 1.2, fieldGoalPct: 0.508, threePointPct: 0.376, freeThrowPct: 0.864 },
-        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2022-23", yearLabel: "2022-23", sortOrder: 308, gamesPlayed: 66, minutesPerGame: 21.5, pointsPerGame: 8.3, reboundsPerGame: 2.3, assistsPerGame: 5.9, stealsPerGame: 1.2, fieldGoalPct: 0.489, threePointPct: 0.344, freeThrowPct: 0.850 },
-        { level: "PROFESSIONAL", teamName: "Phoenix Suns", season: "2023-24", yearLabel: "2023-24", sortOrder: 309, gamesPlayed: 66, minutesPerGame: 25.2, pointsPerGame: 9.7, reboundsPerGame: 2.2, assistsPerGame: 6.5, stealsPerGame: 0.9, fieldGoalPct: 0.450, threePointPct: 0.380, freeThrowPct: 0.843 },
+        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2015-16", yearLabel: "2015-16", sortOrder: 301, gamesPlayed: 37, pointsPerGame: 4.2, reboundsPerGame: 1.3, assistsPerGame: 2.9, fieldGoalPct: 0.359, threePointPct: 0.302 },
+        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2016-17", yearLabel: "2016-17", sortOrder: 302, gamesPlayed: 60, minutesPerGame: 12.9, pointsPerGame: 3.5, reboundsPerGame: 1.1, assistsPerGame: 2.6, fieldGoalPct: 0.414, threePointPct: 0.356 },
+        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2017-18", yearLabel: "2017-18", sortOrder: 303, gamesPlayed: 82, pointsPerGame: 5.1, reboundsPerGame: 1.6, assistsPerGame: 2.8, fieldGoalPct: 0.457, threePointPct: 0.349 },
+        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2018-19", yearLabel: "2018-19", sortOrder: 304, gamesPlayed: 68, pointsPerGame: 6.9, reboundsPerGame: 2.0, assistsPerGame: 4.8, stealsPerGame: 1.2, fieldGoalPct: 0.415, threePointPct: 0.317 },
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2019-20", yearLabel: "2019-20", sortOrder: 305, gamesPlayed: 65, pointsPerGame: 7.4, reboundsPerGame: 1.6, assistsPerGame: 4.4, fieldGoalPct: 0.459, threePointPct: 0.379 },
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2020-21", yearLabel: "2020-21", sortOrder: 306, gamesPlayed: 73, pointsPerGame: 8.7, reboundsPerGame: 2.4, assistsPerGame: 4.4, fieldGoalPct: 0.451, threePointPct: 0.392, freeThrowPct: 0.822 },
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2021-22", yearLabel: "2021-22", sortOrder: 307, gamesPlayed: 73, minutesPerGame: 21.2, pointsPerGame: 8.7, reboundsPerGame: 2.4, assistsPerGame: 4.4, fieldGoalPct: 0.444, threePointPct: 0.390, freeThrowPct: 0.818 },
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2022-23", yearLabel: "2022-23", sortOrder: 308, gamesPlayed: 80, pointsPerGame: 10.3 },
+        { level: "PROFESSIONAL", teamName: "Washington Wizards", season: "2023-24", yearLabel: "2023-24", sortOrder: 309, gamesPlayed: 66, pointsPerGame: 12.0, reboundsPerGame: 2.7, assistsPerGame: 7.3, stealsPerGame: 1.1, fieldGoalPct: 0.490, threePointPct: 0.410, freeThrowPct: 0.800 },
+        { level: "PROFESSIONAL", teamName: "Phoenix Suns", season: "2024-25", yearLabel: "2024-25", sortOrder: 310, gamesPlayed: 81, minutesPerGame: 26.8, pointsPerGame: 10.2, reboundsPerGame: 2.4, assistsPerGame: 5.3, threePointPct: 0.414, freeThrowPct: 0.895 },
       ],
       careerEvents: [
         {
@@ -257,18 +262,22 @@ async function main() {
         statsNote: "16 pts in 2015 title game • 4-year starter • 2018 ACC Player of the Year",
       },
       seasonStats: [
+        // High School
+        { level: "HIGH_SCHOOL", teamName: "Providence School", season: "2013-14", yearLabel: "Senior", sortOrder: 101, pointsPerGame: 22.8, reboundsPerGame: 6.7, assistsPerGame: 4.2 },
+        // College
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 4.4, reboundsPerGame: 1.0, assistsPerGame: 0.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 21.6, reboundsPerGame: 4.6, assistsPerGame: 3.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 14.5, reboundsPerGame: 3.0, assistsPerGame: 3.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2017-18", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 37, pointsPerGame: 15.5, reboundsPerGame: 3.3, assistsPerGame: 4.6 },
         // NBA
-        { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2018-19", yearLabel: "2018-19", sortOrder: 301, gamesPlayed: 33, minutesPerGame: 8.4, pointsPerGame: 4.1, reboundsPerGame: 0.8, assistsPerGame: 0.7, stealsPerGame: 0.3, fieldGoalPct: 0.422, threePointPct: 0.373, freeThrowPct: 0.875 },
-        { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2019-20", yearLabel: "2019-20", sortOrder: 302, gamesPlayed: 70, minutesPerGame: 16.5, pointsPerGame: 8.9, reboundsPerGame: 2.2, assistsPerGame: 1.8, stealsPerGame: 0.7, fieldGoalPct: 0.456, threePointPct: 0.416, freeThrowPct: 0.853 },
-        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2020-21", yearLabel: "2020-21", sortOrder: 303, gamesPlayed: 63, minutesPerGame: 19.6, pointsPerGame: 10.6, reboundsPerGame: 2.4, assistsPerGame: 2.0, stealsPerGame: 0.6, fieldGoalPct: 0.441, threePointPct: 0.405, freeThrowPct: 0.799 },
-        { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2021-22", yearLabel: "2021-22", sortOrder: 304, gamesPlayed: 54, minutesPerGame: 23.3, pointsPerGame: 10.8, reboundsPerGame: 3.5, assistsPerGame: 2.3, stealsPerGame: 0.7, fieldGoalPct: 0.446, threePointPct: 0.406, freeThrowPct: 0.883 },
-        { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2022-23", yearLabel: "2022-23", sortOrder: 305, gamesPlayed: 73, minutesPerGame: 29.0, pointsPerGame: 14.8, reboundsPerGame: 4.4, assistsPerGame: 2.3, stealsPerGame: 0.8, fieldGoalPct: 0.467, threePointPct: 0.411, freeThrowPct: 0.887 },
-        { level: "PROFESSIONAL", teamName: "Phoenix Suns", season: "2023-24", yearLabel: "2023-24", sortOrder: 306, gamesPlayed: 73, minutesPerGame: 27.8, pointsPerGame: 13.1, reboundsPerGame: 4.1, assistsPerGame: 2.5, stealsPerGame: 0.8, fieldGoalPct: 0.455, threePointPct: 0.378, freeThrowPct: 0.867 },
-        { level: "PROFESSIONAL", teamName: "Phoenix Suns", season: "2024-25", yearLabel: "2024-25", sortOrder: 307, gamesPlayed: 66, minutesPerGame: 25.0, pointsPerGame: 11.6, reboundsPerGame: 3.8, assistsPerGame: 2.3, stealsPerGame: 0.7, fieldGoalPct: 0.440, threePointPct: 0.364, freeThrowPct: 0.854 },
+        { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2018-19", yearLabel: "2018-19", sortOrder: 301, gamesPlayed: 38, minutesPerGame: 11.0, pointsPerGame: 5.6 },
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2019-20", yearLabel: "2019-20", sortOrder: 302, gamesPlayed: 50, minutesPerGame: 18.9, pointsPerGame: 10.6, reboundsPerGame: 2.2, assistsPerGame: 1.4, stealsPerGame: 0.9, fieldGoalPct: 0.418, threePointPct: 0.391, freeThrowPct: 0.868 },
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2020-21", yearLabel: "2020-21", sortOrder: 303, minutesPerGame: 25.2, pointsPerGame: 10.6, reboundsPerGame: 3.2, assistsPerGame: 2.2, stealsPerGame: 0.9, fieldGoalPct: 0.419, threePointPct: 0.391, freeThrowPct: 0.868 },
+        { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2021-22", yearLabel: "2021-22", sortOrder: 304, gamesPlayed: 66, pointsPerGame: 11.1, reboundsPerGame: 3.4, assistsPerGame: 1.5, fieldGoalPct: 0.448, threePointPct: 0.409, freeThrowPct: 0.866 },
+        { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2022-23", yearLabel: "2022-23", sortOrder: 305, gamesPlayed: 72, pointsPerGame: 10.4, reboundsPerGame: 3.3, stealsPerGame: 0.9, threePointPct: 0.399, freeThrowPct: 0.905 },
+        { level: "PROFESSIONAL", teamName: "Phoenix Suns", season: "2023-24", yearLabel: "2023-24", sortOrder: 306, gamesPlayed: 75, minutesPerGame: 33.5, pointsPerGame: 13.5, reboundsPerGame: 3.9, assistsPerGame: 3.0, fieldGoalPct: 0.499, threePointPct: 0.461, freeThrowPct: 0.878 },
+        { level: "PROFESSIONAL", teamName: "Phoenix Suns", season: "2024-25", yearLabel: "2024-25", sortOrder: 307, minutesPerGame: 24.1, pointsPerGame: 10.6, reboundsPerGame: 3.0, assistsPerGame: 2.1, threePointPct: 0.426 },
+        { level: "PROFESSIONAL", teamName: "Phoenix Suns", season: "2025-26", yearLabel: "2025-26", sortOrder: 308, gamesPlayed: 45, pointsPerGame: 17.3, reboundsPerGame: 3.0, assistsPerGame: 4.1, fieldGoalPct: 0.407, threePointPct: 0.356, freeThrowPct: 0.859 },
       ],
       careerEvents: [
         {
@@ -322,15 +331,18 @@ async function main() {
         assistsPerGame: 2.1,
       },
       seasonStats: [
+        // High School
+        { level: "HIGH_SCHOOL", teamName: "St. John's School", season: "2013-14", yearLabel: "Senior", sortOrder: 101, pointsPerGame: 27.5, reboundsPerGame: 13.6, assistsPerGame: 3.5 },
         // College
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 39, minutesPerGame: 30.9, pointsPerGame: 12.6, reboundsPerGame: 6.5, assistsPerGame: 2.1, stealsPerGame: 1.4, blocksPerGame: 0.6, fieldGoalPct: 0.441, threePointPct: 0.341, freeThrowPct: 0.685 },
         // NBA
-        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2015-16", yearLabel: "2015-16", sortOrder: 301, gamesPlayed: 58, minutesPerGame: 21.7, pointsPerGame: 7.4, reboundsPerGame: 4.9, assistsPerGame: 2.2, stealsPerGame: 1.0, blocksPerGame: 0.5, fieldGoalPct: 0.376, threePointPct: 0.244, freeThrowPct: 0.699 },
-        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2016-17", yearLabel: "2016-17", sortOrder: 302, gamesPlayed: 56, minutesPerGame: 28.1, pointsPerGame: 11.3, reboundsPerGame: 5.7, assistsPerGame: 3.7, stealsPerGame: 1.1, blocksPerGame: 0.5, fieldGoalPct: 0.410, threePointPct: 0.311, freeThrowPct: 0.694 },
-        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2017-18", yearLabel: "2017-18", sortOrder: 303, gamesPlayed: 66, minutesPerGame: 29.9, pointsPerGame: 12.6, reboundsPerGame: 5.4, assistsPerGame: 3.8, stealsPerGame: 1.2, blocksPerGame: 0.5, fieldGoalPct: 0.415, threePointPct: 0.338, freeThrowPct: 0.712 },
-        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2018-19", yearLabel: "2018-19", sortOrder: 304, gamesPlayed: 23, minutesPerGame: 29.8, pointsPerGame: 13.8, reboundsPerGame: 5.5, assistsPerGame: 3.5, stealsPerGame: 1.3, blocksPerGame: 0.6, fieldGoalPct: 0.437, threePointPct: 0.371, freeThrowPct: 0.686 },
-        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2019-20", yearLabel: "2019-20", sortOrder: 305, gamesPlayed: 9, minutesPerGame: 22.1, pointsPerGame: 8.0, reboundsPerGame: 4.0, assistsPerGame: 2.9, stealsPerGame: 0.9, fieldGoalPct: 0.383, threePointPct: 0.314, freeThrowPct: 0.636 },
-        { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2020-21", yearLabel: "2020-21", sortOrder: 306, gamesPlayed: 30, minutesPerGame: 22.0, pointsPerGame: 7.4, reboundsPerGame: 4.3, assistsPerGame: 2.5, stealsPerGame: 0.9, blocksPerGame: 0.4, fieldGoalPct: 0.387, threePointPct: 0.329, freeThrowPct: 0.680 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2015-16", yearLabel: "2015-16", sortOrder: 301, gamesPlayed: 73, minutesPerGame: 24.8, pointsPerGame: 5.0, reboundsPerGame: 4.0, assistsPerGame: 1.5, fieldGoalPct: 0.407, threePointPct: 0.231, freeThrowPct: 0.585 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2016-17", yearLabel: "2016-17", sortOrder: 302, gamesPlayed: 29, minutesPerGame: 25.7, pointsPerGame: 6.5, reboundsPerGame: 4.5, assistsPerGame: 1.7, fieldGoalPct: 0.402, threePointPct: 0.292, freeThrowPct: 0.664 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2017-18", yearLabel: "2017-18", sortOrder: 303, gamesPlayed: 54, minutesPerGame: 27.3, pointsPerGame: 7.7, reboundsPerGame: 5.5, assistsPerGame: 2.1, fieldGoalPct: 0.429, threePointPct: 0.301, freeThrowPct: 0.622 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2018-19", yearLabel: "2018-19", sortOrder: 304, gamesPlayed: 75, minutesPerGame: 30.5, pointsPerGame: 11.0, reboundsPerGame: 5.7, assistsPerGame: 4.0, fieldGoalPct: 0.429, threePointPct: 0.310, freeThrowPct: 0.674 },
+        { level: "PROFESSIONAL", teamName: "Heat / Grizzlies", season: "2019-20", yearLabel: "2019-20", sortOrder: 305, gamesPlayed: 11, minutesPerGame: 26.8, pointsPerGame: 9.6, reboundsPerGame: 5.4, assistsPerGame: 3.5, fieldGoalPct: 0.437, threePointPct: 0.304, freeThrowPct: 0.655 },
+        { level: "PROFESSIONAL", teamName: "LA Clippers", season: "2020-21", yearLabel: "2020-21", sortOrder: 306, gamesPlayed: 37, minutesPerGame: 13.3, pointsPerGame: 4.2, reboundsPerGame: 3.6, assistsPerGame: 1.4, stealsPerGame: 0.6, blocksPerGame: 0.5, fieldGoalPct: 0.446, threePointPct: 0.180, freeThrowPct: 0.613 },
+        { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2022-23", yearLabel: "2022-23", sortOrder: 307, gamesPlayed: 29, minutesPerGame: 26.8, pointsPerGame: 6.8, reboundsPerGame: 5.0, assistsPerGame: 3.4, stealsPerGame: 1.0, blocksPerGame: 0.4, fieldGoalPct: 0.409, threePointPct: 0.310, freeThrowPct: 0.714 },
       ],
       careerEvents: [
         {
@@ -375,14 +387,18 @@ async function main() {
         statsNote: "Team captain • 4-year starter • 2015 ACC Tournament champion",
       },
       seasonStats: [
+        // High School (Oak Hill Academy, VA — McDonald's All-American)
+        { level: "HIGH_SCHOOL", teamName: "Oak Hill Academy", season: "2010-11", yearLabel: "Senior", sortOrder: 101, pointsPerGame: 19.1, assistsPerGame: 10.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 4.4, reboundsPerGame: 1.0, assistsPerGame: 1.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 36, pointsPerGame: 11.7, reboundsPerGame: 3.8, assistsPerGame: 5.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 11.6, reboundsPerGame: 2.2, assistsPerGame: 4.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 39, pointsPerGame: 15.3, reboundsPerGame: 2.5, assistsPerGame: 2.6 },
         // NBA
-        { level: "PROFESSIONAL", teamName: "Golden State Warriors", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 40, minutesPerGame: 13.8, pointsPerGame: 8.2, reboundsPerGame: 1.5, assistsPerGame: 1.9, stealsPerGame: 0.6, fieldGoalPct: 0.476, threePointPct: 0.415, freeThrowPct: 0.846 },
-        { level: "PROFESSIONAL", teamName: "Golden State Warriors", season: "2018-19", yearLabel: "2018-19", sortOrder: 302, gamesPlayed: 55, minutesPerGame: 15.2, pointsPerGame: 7.4, reboundsPerGame: 1.7, assistsPerGame: 1.7, stealsPerGame: 0.5, fieldGoalPct: 0.457, threePointPct: 0.395, freeThrowPct: 0.839 },
-        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2019-20", yearLabel: "2019-20", sortOrder: 303, gamesPlayed: 53, minutesPerGame: 12.7, pointsPerGame: 6.7, reboundsPerGame: 1.2, assistsPerGame: 1.3, stealsPerGame: 0.4, fieldGoalPct: 0.458, threePointPct: 0.415, freeThrowPct: 0.857 },
+        { level: "PROFESSIONAL", teamName: "Dallas Mavericks", season: "2016-17", yearLabel: "2016-17", sortOrder: 301, gamesPlayed: 14, minutesPerGame: 13.4, pointsPerGame: 5.6, reboundsPerGame: 0.5, assistsPerGame: 1.9, fieldGoalPct: 0.500, threePointPct: 0.423, freeThrowPct: 0.400 },
+        { level: "PROFESSIONAL", teamName: "Golden State Warriors", season: "2017-18", yearLabel: "2017-18", sortOrder: 302, gamesPlayed: 33, minutesPerGame: 22.4, pointsPerGame: 9.5, reboundsPerGame: 2.5, assistsPerGame: 2.7, fieldGoalPct: 0.484, threePointPct: 0.442, freeThrowPct: 0.880 },
+        { level: "PROFESSIONAL", teamName: "Golden State Warriors", season: "2018-19", yearLabel: "2018-19", sortOrder: 303, gamesPlayed: 74, minutesPerGame: 14.3, pointsPerGame: 6.9, reboundsPerGame: 2.1, assistsPerGame: 1.6, fieldGoalPct: 0.465, threePointPct: 0.405, freeThrowPct: 0.769 },
+        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2019-20", yearLabel: "2019-20", sortOrder: 304, gamesPlayed: 44, minutesPerGame: 11.5, pointsPerGame: 5.1, reboundsPerGame: 1.2, assistsPerGame: 1.1, fieldGoalPct: 0.425, threePointPct: 0.365, freeThrowPct: 0.786 },
+        { level: "PROFESSIONAL", teamName: "Lakers / Cavaliers", season: "2020-21", yearLabel: "2020-21", sortOrder: 305, gamesPlayed: 23, minutesPerGame: 6.8, pointsPerGame: 3.3, reboundsPerGame: 0.7, assistsPerGame: 0.8, fieldGoalPct: 0.426, threePointPct: 0.423, freeThrowPct: 0.875 },
       ],
       careerEvents: [
         {
@@ -435,9 +451,9 @@ async function main() {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, pointsPerGame: 6.1, reboundsPerGame: 5.8, assistsPerGame: 0.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Medical RS", sortOrder: 204, gamesPlayed: 9, pointsPerGame: 11.4, reboundsPerGame: 10.3, assistsPerGame: 0.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Senior", sortOrder: 205, gamesPlayed: 35, pointsPerGame: 10.9, reboundsPerGame: 8.4, assistsPerGame: 1.5 },
-        // NBA
-        { level: "PROFESSIONAL", teamName: "Orlando Magic", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 22, minutesPerGame: 6.8, pointsPerGame: 1.9, reboundsPerGame: 2.2, assistsPerGame: 0.3, stealsPerGame: 0.2, blocksPerGame: 0.3, fieldGoalPct: 0.471, freeThrowPct: 0.667 },
-        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2018-19", yearLabel: "2018-19", sortOrder: 302, gamesPlayed: 14, minutesPerGame: 5.7, pointsPerGame: 1.6, reboundsPerGame: 1.6, assistsPerGame: 0.2, stealsPerGame: 0.2, blocksPerGame: 0.3, fieldGoalPct: 0.500, freeThrowPct: 0.500 },
+        // NBA (2017-18 was G-League only with MIN; Jefferson joined ORL 2018-19)
+        { level: "PROFESSIONAL", teamName: "Orlando Magic", season: "2018-19", yearLabel: "2018-19", sortOrder: 301, gamesPlayed: 12, minutesPerGame: 5.7, pointsPerGame: 2.3, reboundsPerGame: 1.8, assistsPerGame: 0.3, fieldGoalPct: 0.625 },
+        { level: "PROFESSIONAL", teamName: "Orlando Magic", season: "2019-20", yearLabel: "2019-20", sortOrder: 302, gamesPlayed: 18, minutesPerGame: 4.1, pointsPerGame: 0.8, reboundsPerGame: 1.3 },
       ],
       careerEvents: [
         {
@@ -543,9 +559,9 @@ async function main() {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 27, pointsPerGame: 2.2, reboundsPerGame: 2.5, assistsPerGame: 0.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, pointsPerGame: 2.2, reboundsPerGame: 2.4, assistsPerGame: 0.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 36, pointsPerGame: 8.3, reboundsPerGame: 8.6, assistsPerGame: 1.1 },
-        // NBA
-        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2016-17", yearLabel: "2016-17", sortOrder: 301, gamesPlayed: 36, minutesPerGame: 8.2, pointsPerGame: 2.1, reboundsPerGame: 2.7, assistsPerGame: 0.5, stealsPerGame: 0.2, blocksPerGame: 0.2, fieldGoalPct: 0.618, freeThrowPct: 0.611 },
-        { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2017-18", yearLabel: "2017-18", sortOrder: 302, gamesPlayed: 38, minutesPerGame: 6.8, pointsPerGame: 2.4, reboundsPerGame: 2.2, assistsPerGame: 0.5, stealsPerGame: 0.2, blocksPerGame: 0.3, fieldGoalPct: 0.580, freeThrowPct: 0.667 },
+        // NBA (career: 29 total games, 1.9 PPG, 2.3 RPG, 51.5% FG)
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2016-17", yearLabel: "2016-17", sortOrder: 301, gamesPlayed: 9, minutesPerGame: 9.0, pointsPerGame: 1.9, reboundsPerGame: 2.3, fieldGoalPct: 0.515 },
+        { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2017-18", yearLabel: "2017-18", sortOrder: 302, gamesPlayed: 20, minutesPerGame: 6.5, pointsPerGame: 1.8, reboundsPerGame: 2.1, assistsPerGame: 0.3, fieldGoalPct: 0.515 },
       ],
       careerEvents: [
         {
@@ -617,11 +633,11 @@ async function main() {
         // SMU College
         { level: "COLLEGE", teamName: "SMU Mustangs", season: "2016-17", yearLabel: "Jr. (SMU)", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 18.9, reboundsPerGame: 6.8, assistsPerGame: 2.2, fieldGoalPct: 0.497, threePointPct: 0.385, freeThrowPct: 0.757 },
         // NBA
-        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 57, minutesPerGame: 15.5, pointsPerGame: 4.7, reboundsPerGame: 2.1, assistsPerGame: 0.6, stealsPerGame: 0.5, fieldGoalPct: 0.408, threePointPct: 0.394, freeThrowPct: 0.686 },
-        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2018-19", yearLabel: "2018-19", sortOrder: 302, gamesPlayed: 53, minutesPerGame: 14.1, pointsPerGame: 4.4, reboundsPerGame: 2.0, assistsPerGame: 0.5, stealsPerGame: 0.5, fieldGoalPct: 0.360, threePointPct: 0.356, freeThrowPct: 0.750 },
-        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2019-20", yearLabel: "2019-20", sortOrder: 303, gamesPlayed: 56, minutesPerGame: 15.6, pointsPerGame: 5.7, reboundsPerGame: 2.4, assistsPerGame: 0.7, stealsPerGame: 0.6, fieldGoalPct: 0.429, threePointPct: 0.363, freeThrowPct: 0.733 },
-        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2020-21", yearLabel: "2020-21", sortOrder: 304, gamesPlayed: 47, minutesPerGame: 14.3, pointsPerGame: 5.6, reboundsPerGame: 2.3, assistsPerGame: 0.8, stealsPerGame: 0.5, fieldGoalPct: 0.440, threePointPct: 0.368, freeThrowPct: 0.760 },
-        { level: "PROFESSIONAL", teamName: "Bucks / Clippers", season: "2021-22", yearLabel: "2021-22", sortOrder: 305, gamesPlayed: 44, minutesPerGame: 10.2, pointsPerGame: 3.1, reboundsPerGame: 1.6, assistsPerGame: 0.4, stealsPerGame: 0.3, fieldGoalPct: 0.400, threePointPct: 0.347, freeThrowPct: 0.722 },
+        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 73, minutesPerGame: 15.8, pointsPerGame: 2.7, reboundsPerGame: 2.2, assistsPerGame: 0.3, fieldGoalPct: 0.346, threePointPct: 0.320 },
+        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2018-19", yearLabel: "2018-19", sortOrder: 302, gamesPlayed: 56, minutesPerGame: 10.6, pointsPerGame: 3.3, reboundsPerGame: 1.5, assistsPerGame: 0.4, fieldGoalPct: 0.424, threePointPct: 0.315 },
+        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2019-20", yearLabel: "2019-20", sortOrder: 303, gamesPlayed: 69, minutesPerGame: 14.6, pointsPerGame: 3.4, reboundsPerGame: 2.1, assistsPerGame: 0.5, fieldGoalPct: 0.408, threePointPct: 0.378 },
+        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2020-21", yearLabel: "2020-21", sortOrder: 304, gamesPlayed: 56, minutesPerGame: 17.0, pointsPerGame: 4.6, reboundsPerGame: 2.6, assistsPerGame: 0.7, fieldGoalPct: 0.403, threePointPct: 0.367 },
+        { level: "PROFESSIONAL", teamName: "Bucks / Clippers", season: "2021-22", yearLabel: "2021-22", sortOrder: 305, gamesPlayed: 20, minutesPerGame: 15.4, pointsPerGame: 2.9, reboundsPerGame: 2.9, fieldGoalPct: 0.255, threePointPct: 0.214 },
       ],
       careerEvents: [
         {
@@ -1061,6 +1077,10 @@ async function main() {
         statsNote:
           "Director of Basketball Operations → Assistant Coach → Associate Head Coach → Head Coach",
       },
+      seasonStats: [
+        // High School — IL Mr. Basketball, #4 all-time IL scorer (3,034 career pts)
+        { level: "HIGH_SCHOOL", teamName: "Glenbrook North High School", season: "2005-06", yearLabel: "Senior", sortOrder: 101, pointsPerGame: 32.0, reboundsPerGame: 6.0, assistsPerGame: 5.0 },
+      ],
       careerEvents: [
         {
           year: 2013,
