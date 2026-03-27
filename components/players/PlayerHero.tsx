@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Person, TeamMembership, Team } from "@/app/generated/prisma/client";
-import { getImageUrl } from "@/lib/utils";
 
 type PlayerHeroProps = {
   person: Person & {
@@ -9,26 +8,34 @@ type PlayerHeroProps = {
   };
 };
 
+function InitialsBlock({ firstName, lastName }: { firstName: string; lastName: string }) {
+  const initials = `${firstName[0]}${lastName[0]}`.toUpperCase();
+  return (
+    <div className="flex h-full w-full items-center justify-center rounded-2xl bg-blue-900">
+      <span className="text-4xl font-bold tracking-tight text-white/80">{initials}</span>
+    </div>
+  );
+}
+
 export function PlayerHero({ person }: PlayerHeroProps) {
   const membership = person.memberships[0];
-  // Hierarchy: NBA/today photo → college photo → initials avatar
-  const photo = getImageUrl(
-    person.imageUrl ?? person.collegeImageUrl,
-    person.firstName,
-    person.lastName
-  );
+  const photo = person.imageUrl ?? person.collegeImageUrl ?? null;
 
   return (
     <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
       <div className="relative h-32 w-32 shrink-0 overflow-hidden rounded-2xl bg-gray-100 shadow-md sm:h-40 sm:w-40">
-        <Image
-          src={photo}
-          alt={`${person.firstName} ${person.lastName}`}
-          fill
-          className="object-cover"
-          unoptimized
-          priority
-        />
+        {photo ? (
+          <Image
+            src={photo}
+            alt={`${person.firstName} ${person.lastName}`}
+            fill
+            className="object-cover"
+            unoptimized
+            priority
+          />
+        ) : (
+          <InitialsBlock firstName={person.firstName} lastName={person.lastName} />
+        )}
       </div>
       <div>
         <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">

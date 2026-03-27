@@ -82,7 +82,6 @@ async function main() {
       hometown: "Chicago, IL",
       isFeatured: true,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626143.png",
-      collegeImageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jahlil_Okafor.jpg?width=400",
       bio: "One-and-done center who was the ACC Player of the Year and a consensus All-American in 2015. Selected #3 overall in the NBA Draft by the Philadelphia 76ers.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -140,7 +139,6 @@ async function main() {
       hometown: "Apple Valley, MN",
       isFeatured: true,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png",
-      collegeImageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Tyus_Jones.jpg?width=400",
       bio: "The heart of the 2015 championship team. Jones scored 23 points in the national title game against Wisconsin to earn Most Outstanding Player honors.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -194,7 +192,6 @@ async function main() {
       hometown: "Jacksonville, FL",
       isFeatured: true,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
-      collegeImageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Grayson_Allen_%282018%29.jpg?width=400",
       bio: "Came off the bench as a freshman to score 16 points in the national championship game. Stayed at Duke all four years before entering the NBA Draft.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -248,7 +245,6 @@ async function main() {
       hometown: "Houston, TX",
       isFeatured: false,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626159.png",
-      collegeImageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Justise_Winslow.jpg?width=400",
       bio: "A versatile defensive stopper who anchored Duke's perimeter defense during the championship run. Selected 10th overall by the Miami Heat.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -294,7 +290,6 @@ async function main() {
       hometown: "Washington, D.C.",
       isFeatured: false,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626188.png",
-      collegeImageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Quinn_Cook.jpg?width=400",
       bio: "The senior captain who led Duke's locker room culture during the championship season. Despite going undrafted, Cook carved out a six-year NBA career and won two championships.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -439,7 +434,6 @@ async function main() {
       hometown: "Warsaw, IN",
       isFeatured: true,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1627850.png",
-      collegeImageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Marshall_Plumlee.jpg?width=400",
       bio: "The youngest of three Plumlee brothers to play at Duke. After his NBA stint, Marshall pursued one of the most unique post-career paths in college basketball history — the U.S. Army.",
       status: {
         occupationType: "OTHER",
@@ -493,7 +487,6 @@ async function main() {
       hometown: "Aurora, CO",
       isFeatured: false,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628400.png",
-      collegeImageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Semi_Ojeleye.jpg?width=400",
       bio: "Transferred from Duke to SMU where he became a star before being drafted by the Boston Celtics. Has continued his professional career in European leagues.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -809,7 +802,6 @@ async function main() {
       birthYear: 1947,
       hometown: "Chicago, IL",
       isFeatured: true,
-      imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/20131203_Mike_Krzyzewski.jpg?width=400",
       bio: "Known simply as \"Coach K,\" Krzyzewski is the most decorated coach in college basketball history. He won five national championships at Duke and coached the U.S. Olympic team to three gold medals. He retired in 2022 as the all-time wins leader in Division I men's basketball.",
       status: {
         occupationType: "RETIRED_COACH",
@@ -861,7 +853,6 @@ async function main() {
       birthYear: 1975,
       hometown: "Fayetteville, NC",
       isFeatured: false,
-      imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jeff_Capel_III.jpg?width=400",
       bio: "A former Duke player himself, Capel returned to Durham as an assistant coach and was instrumental in recruiting the 2014 #1-ranked recruiting class. He went on to become a head coach.",
       status: {
         occupationType: "COACH",
@@ -900,7 +891,6 @@ async function main() {
       birthYear: 1988,
       hometown: "Northbrook, IL",
       isFeatured: true,
-      imageUrl: "https://commons.wikimedia.org/wiki/Special:FilePath/Jon_Scheyer.jpg?width=400",
       bio: "A former Duke star player who joined Coach K's staff and rose through the ranks to become his successor. At just 34, Scheyer became one of the youngest head coaches of a major program in the country.",
       status: {
         occupationType: "COACH",

@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Person, CurrentStatus, TeamMembership, Team } from "@/app/generated/prisma/client";
 import { Badge } from "@/components/ui/Badge";
-import { getImageUrl } from "@/lib/utils";
 
 type PlayerCardProps = {
   person: Person & {
@@ -11,14 +10,18 @@ type PlayerCardProps = {
   };
 };
 
+function InitialsBlock({ firstName, lastName }: { firstName: string; lastName: string }) {
+  const initials = `${firstName[0]}${lastName[0]}`.toUpperCase();
+  return (
+    <div className="flex h-full w-full items-center justify-center bg-blue-900">
+      <span className="text-5xl font-bold tracking-tight text-white/80">{initials}</span>
+    </div>
+  );
+}
+
 export function PlayerCard({ person }: PlayerCardProps) {
   const membership = person.memberships[0];
-  // Hierarchy: NBA/today photo → college photo → initials avatar
-  const photo = getImageUrl(
-    person.imageUrl ?? person.collegeImageUrl,
-    person.firstName,
-    person.lastName
-  );
+  const photo = person.imageUrl ?? person.collegeImageUrl ?? null;
 
   return (
     <Link
@@ -26,13 +29,17 @@ export function PlayerCard({ person }: PlayerCardProps) {
       className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:shadow-md hover:-translate-y-0.5"
     >
       <div className="relative h-48 w-full overflow-hidden bg-gray-100">
-        <Image
-          src={photo}
-          alt={`${person.firstName} ${person.lastName}`}
-          fill
-          className="object-cover"
-          unoptimized
-        />
+        {photo ? (
+          <Image
+            src={photo}
+            alt={`${person.firstName} ${person.lastName}`}
+            fill
+            className="object-cover"
+            unoptimized
+          />
+        ) : (
+          <InitialsBlock firstName={person.firstName} lastName={person.lastName} />
+        )}
       </div>
       <div className="flex flex-1 flex-col p-4">
         <div className="flex items-start justify-between gap-2">
