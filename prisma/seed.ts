@@ -82,7 +82,6 @@ async function main() {
       hometown: "Chicago, IL",
       isFeatured: true,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626143.png",
-      collegeImageUrl: "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/3135048.png",
       bio: "One-and-done center who was the ACC Player of the Year and a consensus All-American in 2015. Selected #3 overall in the NBA Draft by the Philadelphia 76ers.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -140,7 +139,6 @@ async function main() {
       hometown: "Apple Valley, MN",
       isFeatured: true,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png",
-      collegeImageUrl: "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/3135046.png",
       bio: "The heart of the 2015 championship team. Jones scored 23 points in the national title game against Wisconsin to earn Most Outstanding Player honors.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -194,7 +192,6 @@ async function main() {
       hometown: "Jacksonville, FL",
       isFeatured: true,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
-      collegeImageUrl: "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/3135045.png",
       bio: "Came off the bench as a freshman to score 16 points in the national championship game. Stayed at Duke all four years before entering the NBA Draft.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -248,7 +245,6 @@ async function main() {
       hometown: "Houston, TX",
       isFeatured: false,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626159.png",
-      collegeImageUrl: "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/3135047.png",
       bio: "A versatile defensive stopper who anchored Duke's perimeter defense during the championship run. Selected 10th overall by the Miami Heat.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -294,7 +290,6 @@ async function main() {
       hometown: "Washington, D.C.",
       isFeatured: false,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626188.png",
-      collegeImageUrl: "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/2566745.png",
       bio: "The senior captain who led Duke's locker room culture during the championship season. Despite going undrafted, Cook carved out a six-year NBA career and won two championships.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -340,7 +335,6 @@ async function main() {
       hometown: "Philadelphia, PA",
       isFeatured: false,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628518.png",
-      collegeImageUrl: "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/2982249.png",
       bio: "A workhorse power forward who chose to return to Duke multiple times. After a brief NBA career, he transitioned into coaching.",
       status: {
         occupationType: "COACH",
@@ -440,7 +434,6 @@ async function main() {
       hometown: "Warsaw, IN",
       isFeatured: true,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1627850.png",
-      collegeImageUrl: "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/2566748.png",
       bio: "The youngest of three Plumlee brothers to play at Duke. After his NBA stint, Marshall pursued one of the most unique post-career paths in college basketball history — the U.S. Army.",
       status: {
         occupationType: "OTHER",
@@ -449,6 +442,7 @@ async function main() {
         statusNote:
           "Commissioned into the New York Army National Guard in 2017. Completed Army Ranger School in 2019 — one of the most demanding military training courses in the world. Subsequently enrolled at Harvard Business School.",
         sourceUrl: "https://en.wikipedia.org/wiki/Marshall_Plumlee",
+        linkedInUrl: "https://www.linkedin.com/in/marshallplumlee/",
       },
       membership: {
         role: "PLAYER",
@@ -493,7 +487,6 @@ async function main() {
       hometown: "Aurora, CO",
       isFeatured: false,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628400.png",
-      collegeImageUrl: "https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/3056602.png",
       bio: "Transferred from Duke to SMU where he became a star before being drafted by the Boston Celtics. Has continued his professional career in European leagues.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -552,6 +545,7 @@ async function main() {
         statusNote:
           "Built a long and productive professional career in Europe since 2016. Played in France (JDA Dijon Bourgogne, Boulogne Metropolitans, JL Bourg en Bresse), Spain (Baloncesto Zaragoza), Turkey (Konyaspor Basketball), Lithuania (Wolves Vilnius), and Montenegro (KK Buducnost VOLI). Won a league MVP award overseas. Averaging 12.3 ppg for Buducnost in the ABA Liga.",
         sourceUrl: "https://en.wikipedia.org/wiki/Rasheed_Sulaimon",
+        linkedInUrl: "https://www.linkedin.com/in/rasheed-sulaimon-3aa0b515a/",
       },
       membership: {
         role: "PLAYER",
@@ -673,6 +667,7 @@ async function main() {
         statusNote:
           "Sat out the 2014-15 championship season due to NCAA transfer rules, then played limited minutes in 2015-16 before a knee injury ended his 2016-17 season. Graduate-transferred to Maryland (2017-18) to play one final season under coach Mark Turgeon. Was not drafted. Post-basketball career not publicly documented; earned a sociology degree with a marketing minor from Duke.",
         sourceUrl: "https://goduke.com/sports/mens-basketball/roster/sean-obi/4420",
+        linkedInUrl: "https://www.linkedin.com/in/sean-obi-4949bb141",
       },
       membership: {
         role: "PLAYER",
@@ -808,7 +803,6 @@ async function main() {
       hometown: "Chicago, IL",
       isFeatured: true,
       imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20131203_Mike_Krzyzewski.jpg/400px-20131203_Mike_Krzyzewski.jpg",
-      collegeImageUrl: "https://a.espncdn.com/i/headshots/college-basketball/coaches/full/190.png",
       bio: "Known simply as \"Coach K,\" Krzyzewski is the most decorated coach in college basketball history. He won five national championships at Duke and coached the U.S. Olympic team to three gold medals. He retired in 2022 as the all-time wins leader in Division I men's basketball.",
       status: {
         occupationType: "RETIRED_COACH",
@@ -870,6 +864,7 @@ async function main() {
         statusNote:
           "Named head coach at Pittsburgh in 2018. Has rebuilt the program into an ACC contender.",
         sourceUrl: "https://en.wikipedia.org/wiki/Jeff_Capel",
+        linkedInUrl: "https://www.linkedin.com/in/jeff-capel-94aa964/",
       },
       membership: {
         role: "ASSISTANT_COACH",
@@ -907,6 +902,7 @@ async function main() {
         statusNote:
           "Succeeded Mike Krzyzewski as Duke head coach in 2022. Led Duke to the Elite Eight in his first season. Continuning to build on Coach K's legacy.",
         sourceUrl: "https://en.wikipedia.org/wiki/Jon_Scheyer",
+        linkedInUrl: "https://www.linkedin.com/in/jonathan-scheyer-10714532/",
       },
       membership: {
         role: "ASSISTANT_COACH",
@@ -954,6 +950,7 @@ async function main() {
         statusNote:
           "Left Duke in 2021 to become head coach at Austin Peay State University (21-39 in two seasons, dismissed 2023). In October 2025, joined Howard University as Associate Head Coach under fellow Duke alum Kenny Blakeney — a homecoming to the DMV area where James grew up. Brings high-level recruiting and development experience from 13 years under Coach K.",
         sourceUrl: "https://hubison.com/news/2025/10/20/mens-basketball-mens-basketball-welcomes-nate-james-to-the-bison-family.aspx",
+        linkedInUrl: "https://www.linkedin.com/in/nate-james-a176b242",
       },
       membership: {
         role: "ASSISTANT_COACH",
@@ -999,6 +996,7 @@ async function main() {
         location: "Durham, NC",
         statusNote: "Promoted to Associate Head Coach in 2021 and serves as Duke's offensive coordinator under Jon Scheyer. Has helped develop NBA Draft picks Mark Williams (2022), Dereck Lively II (2023), and Kyle Filipowski (2024). Duke has gone 258-48 in his six seasons on staff.",
         sourceUrl: "https://en.wikipedia.org/wiki/Chris_Carrawell",
+        linkedInUrl: "https://www.linkedin.com/in/chris-carrawell-60b9bb7b/",
       },
       membership: {
         role: "ASSISTANT_COACH",
