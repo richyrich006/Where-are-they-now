@@ -71,6 +71,7 @@ async function main() {
       birthYear: 1995,
       hometown: "Chicago, IL",
       isFeatured: true,
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626143.png",
       bio: "One-and-done center who was the ACC Player of the Year and a consensus All-American in 2015. Selected #3 overall in the NBA Draft by the Philadelphia 76ers.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -124,6 +125,7 @@ async function main() {
       birthYear: 1996,
       hometown: "Apple Valley, MN",
       isFeatured: true,
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png",
       bio: "The heart of the 2015 championship team. Jones scored 23 points in the national title game against Wisconsin to earn Most Outstanding Player honors.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -173,6 +175,7 @@ async function main() {
       birthYear: 1995,
       hometown: "Jacksonville, FL",
       isFeatured: true,
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
       bio: "Came off the bench as a freshman to score 16 points in the national championship game. Stayed at Duke all four years before entering the NBA Draft.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -222,6 +225,7 @@ async function main() {
       birthYear: 1996,
       hometown: "Houston, TX",
       isFeatured: false,
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626159.png",
       bio: "A versatile defensive stopper who anchored Duke's perimeter defense during the championship run. Selected 10th overall by the Miami Heat.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -263,6 +267,7 @@ async function main() {
       birthYear: 1993,
       hometown: "Washington, D.C.",
       isFeatured: false,
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626188.png",
       bio: "The senior captain who led Duke's locker room culture during the championship season. Despite going undrafted, Cook carved out a six-year NBA career and won two championships.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -303,6 +308,7 @@ async function main() {
       birthYear: 1994,
       hometown: "Philadelphia, PA",
       isFeatured: false,
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628518.png",
       bio: "A workhorse power forward who chose to return to Duke multiple times. After a brief NBA career, he transitioned into coaching.",
       status: {
         occupationType: "COACH",
@@ -394,6 +400,7 @@ async function main() {
       birthYear: 1992,
       hometown: "Warsaw, IN",
       isFeatured: true,
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1627850.png",
       bio: "The youngest of three Plumlee brothers to play at Duke. After his NBA stint, Marshall pursued one of the most unique post-career paths in college basketball history — the U.S. Army.",
       status: {
         occupationType: "OTHER",
@@ -442,6 +449,7 @@ async function main() {
       birthYear: 1995,
       hometown: "Aurora, CO",
       isFeatured: false,
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628400.png",
       bio: "Transferred from Duke to SMU where he became a star before being drafted by the Boston Celtics. Has continued his professional career in European leagues.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -753,6 +761,7 @@ async function main() {
       birthYear: 1947,
       hometown: "Chicago, IL",
       isFeatured: true,
+      imageUrl: "https://a.espncdn.com/i/headshots/college-basketball/coaches/full/190.png",
       bio: "Known simply as \"Coach K,\" Krzyzewski is the most decorated coach in college basketball history. He won five national championships at Duke and coached the U.S. Olympic team to three gold medals. He retired in 2022 as the all-time wins leader in Division I men's basketball.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -888,31 +897,41 @@ async function main() {
       birthYear: 1978,
       hometown: "Roanoke Rapids, NC",
       isFeatured: false,
-      bio: "A former Duke player and longtime assistant under Coach K who has remained part of the Duke basketball family.",
+      bio: "A former Duke player who spent 13 years on Coach K's staff, rising to Associate Head Coach and winning two national championships as a coach. After a brief head coaching stint at Austin Peay, he returned to the DMV area where he grew up, joining Howard University.",
       status: {
         occupationType: "COACH",
         currentTitle: "Associate Head Coach",
-        currentEmployer: "Duke Blue Devils Men's Basketball",
-        league: "NCAA Division I (ACC)",
-        location: "Durham, NC",
+        currentEmployer: "Howard University",
+        league: "NCAA Division I (MEAC)",
+        location: "Washington, D.C.",
         statusNote:
-          "Has remained at Duke through the coaching transition from Krzyzewski to Scheyer. A key bridge between the two eras.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Nate_James",
+          "Left Duke in 2021 to become head coach at Austin Peay State University (21-39 in two seasons, dismissed 2023). In October 2025, joined Howard University as Associate Head Coach under fellow Duke alum Kenny Blakeney — a homecoming to the DMV area where James grew up. Brings high-level recruiting and development experience from 13 years under Coach K.",
+        sourceUrl: "https://hubison.com/news/2025/10/20/mens-basketball-mens-basketball-welcomes-nate-james-to-the-bison-family.aspx",
       },
       membership: {
         role: "ASSISTANT_COACH",
-        yearsAtSchool: "2010-present",
-        statsNote: "Assistant Coach → Associate Head Coach",
+        yearsAtSchool: "2007-2021",
+        statsNote: "Assistant Coach → Associate Head Coach • Won 2010 and 2015 NCAA titles as assistant",
       },
       careerEvents: [
         {
           year: 2015,
-          title: "Won NCAA National Championship as assistant coach at Duke",
+          title: "Won NCAA National Championship as associate head coach at Duke",
           eventType: "CHAMPIONSHIP",
         },
         {
-          year: 2022,
-          title: "Named Associate Head Coach under Jon Scheyer",
+          year: 2021,
+          title: "Named Head Coach of Austin Peay State University",
+          eventType: "COACHING_HIRE",
+        },
+        {
+          year: 2023,
+          title: "Dismissed as head coach at Austin Peay after two seasons (21-39)",
+          eventType: "OTHER",
+        },
+        {
+          year: 2025,
+          title: "Joined Howard University as Associate Head Coach under Kenny Blakeney",
           eventType: "COACHING_HIRE",
         },
       ],
@@ -927,11 +946,11 @@ async function main() {
       bio: "A former Duke ACC Player of the Year who returned to his alma mater as a coach.",
       status: {
         occupationType: "COACH",
-        currentTitle: "Assistant Coach / Director of Player Development",
+        currentTitle: "Associate Head Coach / Offensive Coordinator",
         currentEmployer: "Duke Blue Devils Men's Basketball",
         league: "NCAA Division I (ACC)",
         location: "Durham, NC",
-        statusNote: "Remains part of the Duke basketball coaching staff under Jon Scheyer.",
+        statusNote: "Promoted to Associate Head Coach in 2021 and serves as Duke's offensive coordinator under Jon Scheyer. Has helped develop NBA Draft picks Mark Williams (2022), Dereck Lively II (2023), and Kyle Filipowski (2024). Duke has gone 258-48 in his six seasons on staff.",
         sourceUrl: "https://en.wikipedia.org/wiki/Chris_Carrawell",
       },
       membership: {
