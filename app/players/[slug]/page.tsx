@@ -55,10 +55,38 @@ export default async function PlayerPage({ params }: Props) {
       )}
 
       {/* College Career */}
-      {membership?.statsNote && (
+      {(membership?.statsNote || membership?.gamesPlayed != null) && (
         <div className="mt-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h2 className="mb-2 text-xl font-bold text-gray-900">College Career</h2>
-          <p className="text-sm leading-relaxed text-gray-700">{membership.statsNote}</p>
+          <h2 className="mb-3 text-xl font-bold text-gray-900">College Career</h2>
+          {membership.gamesPlayed != null && (
+            <div className="mb-4 grid grid-cols-4 gap-3 text-center">
+              <div className="rounded-lg bg-gray-50 p-3">
+                <p className="text-2xl font-bold text-gray-900">{membership.gamesPlayed}</p>
+                <p className="text-xs font-medium uppercase tracking-wide text-gray-500">G</p>
+              </div>
+              {membership.pointsPerGame != null && (
+                <div className="rounded-lg bg-gray-50 p-3">
+                  <p className="text-2xl font-bold text-gray-900">{membership.pointsPerGame.toFixed(1)}</p>
+                  <p className="text-xs font-medium uppercase tracking-wide text-gray-500">PPG</p>
+                </div>
+              )}
+              {membership.reboundsPerGame != null && (
+                <div className="rounded-lg bg-gray-50 p-3">
+                  <p className="text-2xl font-bold text-gray-900">{membership.reboundsPerGame.toFixed(1)}</p>
+                  <p className="text-xs font-medium uppercase tracking-wide text-gray-500">RPG</p>
+                </div>
+              )}
+              {membership.assistsPerGame != null && (
+                <div className="rounded-lg bg-gray-50 p-3">
+                  <p className="text-2xl font-bold text-gray-900">{membership.assistsPerGame.toFixed(1)}</p>
+                  <p className="text-xs font-medium uppercase tracking-wide text-gray-500">APG</p>
+                </div>
+              )}
+            </div>
+          )}
+          {membership.statsNote && (
+            <p className="text-sm leading-relaxed text-gray-700">{membership.statsNote}</p>
+          )}
         </div>
       )}
 

@@ -6,18 +6,21 @@ const prisma = new PrismaClient({ adapter } as any);
 
 async function main() {
   // ── Team ──────────────────────────────────────────────────────────────────
+  const teamData = {
+    name: "Duke Blue Devils",
+    season: "2014-2015",
+    sport: "Men's Basketball",
+    school: "Duke University",
+    conference: "ACC",
+    accomplishment: "NCAA National Champions",
+    logoUrl: "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+    mascotName: "Blue Devil",
+  };
+
   const team = await prisma.team.upsert({
     where: { slug: "duke-basketball-2015" },
-    update: {},
-    create: {
-      slug: "duke-basketball-2015",
-      name: "Duke Blue Devils",
-      season: "2014-2015",
-      sport: "Men's Basketball",
-      school: "Duke University",
-      conference: "ACC",
-      accomplishment: "NCAA National Champions",
-    },
+    update: teamData,
+    create: { slug: "duke-basketball-2015", ...teamData },
   });
 
   // ── Helpers ───────────────────────────────────────────────────────────────
@@ -48,6 +51,7 @@ async function main() {
       location?: string;
       statusNote?: string;
       sourceUrl?: string;
+      linkedInUrl?: string;
     };
     membership: {
       role: "PLAYER" | "HEAD_COACH" | "ASSISTANT_COACH" | "MANAGER";
@@ -55,6 +59,10 @@ async function main() {
       position?: string;
       yearsAtSchool?: string;
       statsNote?: string;
+      gamesPlayed?: number;
+      pointsPerGame?: number;
+      reboundsPerGame?: number;
+      assistsPerGame?: number;
     };
     careerEvents?: {
       year: number;
@@ -89,8 +97,11 @@ async function main() {
         jerseyNumber: 15,
         position: "Center",
         yearsAtSchool: "2014-2015",
-        statsNote:
-          "ACC Player of the Year • National Freshman of the Year • Averaged 17.3 pts, 8.5 reb per game",
+        statsNote: "ACC Player of the Year • National Freshman of the Year • 67.6 FG%",
+        gamesPlayed: 35,
+        pointsPerGame: 17.3,
+        reboundsPerGame: 8.5,
+        assistsPerGame: 1.3,
       },
       careerEvents: [
         {
@@ -146,8 +157,11 @@ async function main() {
         jerseyNumber: 5,
         position: "Point Guard",
         yearsAtSchool: "2014-2015",
-        statsNote:
-          "2015 NCAA Tournament Most Outstanding Player • 23 points in championship game vs. Wisconsin",
+        statsNote: "2015 NCAA Tournament Most Outstanding Player • 23 pts in championship game",
+        gamesPlayed: 35,
+        pointsPerGame: 11.8,
+        reboundsPerGame: 3.5,
+        assistsPerGame: 5.6,
       },
       careerEvents: [
         {
@@ -197,8 +211,11 @@ async function main() {
         jerseyNumber: 3,
         position: "Shooting Guard",
         yearsAtSchool: "2014-2018",
-        statsNote:
-          "16 points in the 2015 national championship game • 4-year starter at Duke • 2018 ACC Player of the Year",
+        statsNote: "16 pts in 2015 title game • 4-year starter • 2018 ACC Player of the Year",
+        gamesPlayed: 35,
+        pointsPerGame: 5.0,
+        reboundsPerGame: 1.8,
+        assistsPerGame: 0.6,
       },
       careerEvents: [
         {
@@ -245,8 +262,11 @@ async function main() {
         jerseyNumber: 12,
         position: "Small Forward / Shooting Guard",
         yearsAtSchool: "2014-2015",
-        statsNote:
-          "10th overall pick, 2015 NBA Draft (Miami Heat) • Key defensive stopper on championship team",
+        statsNote: "10th overall pick, 2015 NBA Draft • Key defensive stopper",
+        gamesPlayed: 35,
+        pointsPerGame: 12.6,
+        reboundsPerGame: 6.5,
+        assistsPerGame: 2.1,
       },
       careerEvents: [
         {
@@ -289,6 +309,10 @@ async function main() {
         position: "Point Guard",
         yearsAtSchool: "2011-2015",
         statsNote: "Team captain • 4-year starter • 2015 ACC Tournament champion",
+        gamesPlayed: 35,
+        pointsPerGame: 13.0,
+        reboundsPerGame: 3.2,
+        assistsPerGame: 4.3,
       },
       careerEvents: [
         {
@@ -334,6 +358,10 @@ async function main() {
         position: "Power Forward",
         yearsAtSchool: "2013-2017",
         statsNote: "4x All-ACC Academic Team • 103 starts in 150 career games",
+        gamesPlayed: 35,
+        pointsPerGame: 6.1,
+        reboundsPerGame: 5.8,
+        assistsPerGame: 1.1,
       },
       careerEvents: [
         {
@@ -380,8 +408,11 @@ async function main() {
         jerseyNumber: 13,
         position: "Shooting Guard",
         yearsAtSchool: "2013-2016",
-        statsNote:
-          "4-7 from three in Elite Eight vs Gonzaga • South Region All-Tournament Team",
+        statsNote: "4-7 from three in Elite Eight vs Gonzaga • South Region All-Tournament Team",
+        gamesPlayed: 35,
+        pointsPerGame: 6.3,
+        reboundsPerGame: 2.6,
+        assistsPerGame: 1.4,
       },
       careerEvents: [
         {
@@ -424,8 +455,11 @@ async function main() {
         jerseyNumber: 42,
         position: "Center",
         yearsAtSchool: "2011-2016",
-        statsNote:
-          "Team captain • Started all 36 games as a senior (8.3 ppg, 8.6 rpg) • Brother of Mason and Miles Plumlee",
+        statsNote: "Team captain • Brother of Mason and Miles Plumlee",
+        gamesPlayed: 31,
+        pointsPerGame: 5.2,
+        reboundsPerGame: 5.1,
+        assistsPerGame: 0.5,
       },
       careerEvents: [
         {
@@ -592,6 +626,7 @@ async function main() {
           "Founded 'Walk On! America,' a charity for the intellectual and developmental disability (IDD) community inspired by his sister Jacqueline, who has autism. Completed a 3,400-mile cross-country bike ride in 69 days, raising over $343,000. Now works at Intersport in Chicago on NFL and sports marketing partnerships. Also involved in startup investing and venture financing.",
         sourceUrl:
           "https://www.espn.com/mens-college-basketball/story/_/id/24123073/duke-blue-devils-brennan-besser-completes-bike-ride-america",
+        linkedInUrl: "https://www.linkedin.com/in/brennan-besser-10a7921a7/",
       },
       membership: {
         role: "PLAYER",
@@ -725,6 +760,7 @@ async function main() {
         statusNote:
           "After graduating from Duke with a computer science degree (National Merit Scholar, Deryl Hart Award winner), Pagliuca attended Harvard Business School. Now works at Palantir Technologies in New York, a high-profile data analytics and AI company. A standout example of a walk-on athlete excelling academically and professionally.",
         sourceUrl: "https://www.bostonglobe.com/metro/regionals/west/2015/04/16/campus-angle-nick-pagliuca-weston-duke-university-basketball/gC95R2oHaumOwKDWsNYjuJ/story.html",
+        linkedInUrl: "https://www.linkedin.com/in/nick-pagliuca-6b0a62b3/",
       },
       membership: {
         role: "PLAYER",
@@ -1006,6 +1042,7 @@ async function main() {
       statusNote: p.status.statusNote ?? null,
       asOfDate: new Date("2026-03-01"),
       sourceUrl: p.status.sourceUrl ?? null,
+      linkedInUrl: p.status.linkedInUrl ?? null,
     };
 
     await prisma.currentStatus.upsert({
@@ -1020,6 +1057,10 @@ async function main() {
       position: p.membership.position ?? null,
       yearsAtSchool: p.membership.yearsAtSchool ?? null,
       statsNote: p.membership.statsNote ?? null,
+      gamesPlayed: p.membership.gamesPlayed ?? null,
+      pointsPerGame: p.membership.pointsPerGame ?? null,
+      reboundsPerGame: p.membership.reboundsPerGame ?? null,
+      assistsPerGame: p.membership.assistsPerGame ?? null,
     };
 
     await prisma.teamMembership.upsert({

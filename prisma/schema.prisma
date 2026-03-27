@@ -38,6 +38,8 @@ model Team {
   school         String
   conference     String?
   accomplishment String?
+  logoUrl        String?
+  mascotName     String?
   memberships    TeamMembership[]
   createdAt      DateTime         @default(now())
 }
@@ -72,19 +74,24 @@ model CurrentStatus {
   statusNote      String?
   asOfDate        DateTime?
   sourceUrl       String?
+  linkedInUrl     String?
 }
 
 model TeamMembership {
-  id            Int     @id @default(autoincrement())
-  personId      Int
-  teamId        Int
-  person        Person  @relation(fields: [personId], references: [id])
-  team          Team    @relation(fields: [teamId], references: [id])
-  role          Role
-  jerseyNumber  Int?
-  position      String?
-  yearsAtSchool String?
-  statsNote     String?
+  id              Int     @id @default(autoincrement())
+  personId        Int
+  teamId          Int
+  person          Person  @relation(fields: [personId], references: [id])
+  team            Team    @relation(fields: [teamId], references: [id])
+  role            Role
+  jerseyNumber    Int?
+  position        String?
+  yearsAtSchool   String?
+  statsNote       String?
+  gamesPlayed     Int?
+  pointsPerGame   Float?
+  reboundsPerGame Float?
+  assistsPerGame  Float?
 
   @@unique([personId, teamId])
 }
