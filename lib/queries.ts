@@ -3,10 +3,10 @@ import { prisma } from "./prisma";
 const personWithStatus = {
   currentStatus: true,
   careerEvents: { orderBy: { year: "asc" as const } },
+  seasonStats: { orderBy: { sortOrder: "asc" as const } },
   memberships: {
     include: {
       team: true,
-      seasonStats: { orderBy: { sortOrder: "asc" as const } },
     },
   },
 };
