@@ -51,6 +51,7 @@ model Person {
   lastName      String
   birthYear     Int?
   hometown      String?
+  highSchool    String?
   imageUrl        String?
   collegeImageUrl String?
   bio             String?
@@ -92,8 +93,22 @@ model TeamMembership {
   pointsPerGame   Float?
   reboundsPerGame Float?
   assistsPerGame  Float?
+  seasonStats     SeasonStats[]
 
   @@unique([personId, teamId])
+}
+
+model SeasonStats {
+  id               Int            @id @default(autoincrement())
+  membershipId     Int
+  membership       TeamMembership @relation(fields: [membershipId], references: [id])
+  season           String
+  yearLabel        String
+  sortOrder        Int
+  gamesPlayed      Int?
+  pointsPerGame    Float?
+  reboundsPerGame  Float?
+  assistsPerGame   Float?
 }
 
 model CareerEvent {
