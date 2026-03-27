@@ -11,37 +11,24 @@ type PlayerHeroProps = {
 
 export function PlayerHero({ person }: PlayerHeroProps) {
   const membership = person.memberships[0];
-  const collegeImage = getImageUrl(person.collegeImageUrl, person.firstName, person.lastName);
-  const todayImage = getImageUrl(person.imageUrl, person.firstName, person.lastName);
-  const hasTodayPhoto = !!person.imageUrl;
+  // Hierarchy: NBA/today photo → college photo → initials avatar
+  const photo = getImageUrl(
+    person.imageUrl ?? person.collegeImageUrl,
+    person.firstName,
+    person.lastName
+  );
 
   return (
     <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
-      <div className="group relative h-32 w-32 shrink-0 overflow-hidden rounded-2xl bg-gray-100 shadow-md sm:h-40 sm:w-40">
-        {/* College photo — default */}
+      <div className="relative h-32 w-32 shrink-0 overflow-hidden rounded-2xl bg-gray-100 shadow-md sm:h-40 sm:w-40">
         <Image
-          src={collegeImage}
-          alt={`${person.firstName} ${person.lastName} at Duke`}
+          src={photo}
+          alt={`${person.firstName} ${person.lastName}`}
           fill
-          className="object-cover transition-opacity duration-500 group-hover:opacity-0"
+          className="object-cover"
           unoptimized
           priority
         />
-        {/* Today photo — revealed on hover */}
-        {hasTodayPhoto && (
-          <Image
-            src={todayImage}
-            alt={`${person.firstName} ${person.lastName} today`}
-            fill
-            className="object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-            unoptimized
-          />
-        )}
-        {hasTodayPhoto && (
-          <span className="absolute bottom-1 right-1 rounded bg-black/50 px-1.5 py-0.5 text-xs text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-            Today
-          </span>
-        )}
       </div>
       <div>
         <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
