@@ -434,14 +434,15 @@ async function main() {
       hometown: "Warsaw, IN",
       isFeatured: true,
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1627850.png",
-      bio: "The youngest of three Plumlee brothers to play at Duke. After his NBA stint, Marshall pursued one of the most unique post-career paths in college basketball history — the U.S. Army.",
+      bio: "The youngest of three Plumlee brothers to play at Duke. After his NBA career, Marshall took one of the most extraordinary paths in college basketball history — from the 75th Ranger Regiment to Harvard Business School to Blackstone.",
       status: {
-        occupationType: "OTHER",
-        currentTitle: "U.S. Army Officer / Business Student",
-        location: "United States",
+        occupationType: "FRONT_OFFICE",
+        currentTitle: "Tactical Opportunities",
+        currentEmployer: "Blackstone",
+        location: "New York, NY",
         statusNote:
-          "Commissioned into the New York Army National Guard in 2017. Completed Army Ranger School in 2019 — one of the most demanding military training courses in the world. Subsequently enrolled at Harvard Business School.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Marshall_Plumlee",
+          "After the NBA, commissioned into the New York Army National Guard (2017) and completed Army Ranger School (2019). Served as Battalion Mortar Platoon Leader with the elite 75th Ranger Regiment at Fort Moore, GA (Dec 2020–May 2022). Enrolled at Harvard Business School, interning at Blackstone's Tactical Opportunities group (2022–2023). Joined Blackstone full-time in August 2024 — one of the most remarkable post-basketball trajectories in college sports history.",
+        sourceUrl: "https://www.linkedin.com/in/marshallplumlee/",
         linkedInUrl: "https://www.linkedin.com/in/marshallplumlee/",
       },
       membership: {
@@ -473,9 +474,21 @@ async function main() {
           detail: "One of the most elite military training courses in the world",
         },
         {
+          year: 2020,
+          title: "Served as Battalion Mortar Platoon Leader, 75th Ranger Regiment, U.S. Army",
+          eventType: "OTHER",
+          detail: "Fort Moore, Georgia — Dec 2020 to May 2022",
+        },
+        {
           year: 2022,
-          title: "Enrolled at Harvard Business School",
+          title: "Enrolled at Harvard Business School; Blackstone Tactical Opportunities summer associate",
           eventType: "STUDENT",
+        },
+        {
+          year: 2024,
+          title: "Joined Blackstone full-time — Tactical Opportunities group",
+          eventType: "OTHER",
+          detail: "New York City",
         },
       ],
     },
@@ -543,7 +556,7 @@ async function main() {
         league: "ABA Liga",
         location: "Podgorica, Montenegro",
         statusNote:
-          "Built a long and productive professional career in Europe since 2016. Played in France (JDA Dijon Bourgogne, Boulogne Metropolitans, JL Bourg en Bresse), Spain (Baloncesto Zaragoza), Turkey (Konyaspor Basketball), Lithuania (Wolves Vilnius), and Montenegro (KK Buducnost VOLI). Won a league MVP award overseas. Averaging 12.3 ppg for Buducnost in the ABA Liga.",
+          "Built a long and productive professional career in Europe since 2016. Played in France, Spain, Turkey, and Lithuania before landing in Montenegro. In 2024-25 won both the Montenegrin National Championship and National Cup with KK Budućnost VOLI, averaging 13.8 PPG on 47.6% shooting in 18 ABA Liga games.",
         sourceUrl: "https://en.wikipedia.org/wiki/Rasheed_Sulaimon",
         linkedInUrl: "https://www.linkedin.com/in/rasheed-sulaimon-3aa0b515a/",
       },
@@ -598,8 +611,14 @@ async function main() {
         },
         {
           year: 2024,
-          title: "Signed with KK Buducnost VOLI (Montenegro, ABA Liga)",
+          title: "Signed with KK Budućnost VOLI (Montenegro, ABA Liga)",
           eventType: "SIGNING",
+        },
+        {
+          year: 2025,
+          title: "Won Montenegrin National Championship and National Cup with KK Budućnost VOLI",
+          eventType: "CHAMPIONSHIP",
+          detail: "13.8 PPG, 47.6% FG in 18 ABA Liga games",
         },
       ],
     },
@@ -613,11 +632,11 @@ async function main() {
       bio: "A walk-on guard who was part of the 2015 championship roster. After Duke, Besser channeled the walk-on spirit into life — founding 'Walk On! America,' a charity supporting people with intellectual and developmental disabilities (IDD), inspired by his sister Jacqueline. He completed a 3,400-mile cross-country bike ride in 69 days raising over $343,000 for the IDD community.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "Sports Business Professional / Entrepreneur",
-        currentEmployer: "Intersport",
+        currentTitle: "CEO",
+        currentEmployer: "Ecostar Collaborative",
         location: "Chicago, IL",
         statusNote:
-          "Founded 'Walk On! America,' a charity for the intellectual and developmental disability (IDD) community inspired by his sister Jacqueline, who has autism. Completed a 3,400-mile cross-country bike ride in 69 days, raising over $343,000. Now works at Intersport in Chicago on NFL and sports marketing partnerships. Also involved in startup investing and venture financing.",
+          "Founded 'Walk On! America,' a charity for the IDD community inspired by his sister Jacqueline, who has autism — completing a 3,400-mile cross-country bike ride raising over $343,000. Previously worked at Intersport on NFL and sports marketing. Now serves as CEO of Ecostar Collaborative.",
         sourceUrl:
           "https://www.espn.com/mens-college-basketball/story/_/id/24123073/duke-blue-devils-brennan-besser-completes-bike-ride-america",
         linkedInUrl: "https://www.linkedin.com/in/brennan-besser-10a7921a7/",
@@ -648,6 +667,11 @@ async function main() {
         {
           year: 2019,
           title: "Joined Intersport in Chicago as sports business professional",
+          eventType: "OTHER",
+        },
+        {
+          year: 2024,
+          title: "Became CEO of Ecostar Collaborative",
           eventType: "OTHER",
         },
       ],
@@ -861,7 +885,7 @@ async function main() {
         league: "NCAA Division I (ACC)",
         location: "Pittsburgh, PA",
         statusNote:
-          "Named head coach at Pittsburgh in 2018. Has rebuilt the program into an ACC contender.",
+          "Named head coach at Pittsburgh in 2018. Retained for his 9th season (2026-27) with a contract through 2029-30, per the Pitt AD's announcement in March 2026.",
         sourceUrl: "https://en.wikipedia.org/wiki/Jeff_Capel",
         linkedInUrl: "https://www.linkedin.com/in/jeff-capel-94aa964/",
       },
@@ -899,7 +923,7 @@ async function main() {
         league: "NCAA Division I (ACC)",
         location: "Durham, NC",
         statusNote:
-          "Succeeded Mike Krzyzewski as Duke head coach in 2022. Led Duke to the Elite Eight in his first season. Continuning to build on Coach K's legacy.",
+          "Succeeded Mike Krzyzewski in 2022. Led Duke to the Elite Eight in year one, then orchestrated a historic 35-3 season in 2024-25, reaching the Final Four and winning the John McLendon National Coach of the Year Award. Contract extended through 2030-31.",
         sourceUrl: "https://en.wikipedia.org/wiki/Jon_Scheyer",
         linkedInUrl: "https://www.linkedin.com/in/jonathan-scheyer-10714532/",
       },
@@ -928,6 +952,11 @@ async function main() {
         {
           year: 2023,
           title: "Led Duke to the Elite Eight in first season as head coach",
+          eventType: "AWARD",
+        },
+        {
+          year: 2025,
+          title: "Led Duke to the Final Four (35-3 record); won John McLendon National Coach of the Year Award; contract extended through 2030-31",
           eventType: "AWARD",
         },
       ],
@@ -989,7 +1018,7 @@ async function main() {
       bio: "A former Duke ACC Player of the Year who returned to his alma mater as a coach.",
       status: {
         occupationType: "COACH",
-        currentTitle: "Associate Head Coach / Offensive Coordinator",
+        currentTitle: "Morris Williams Associate Head Coach / Offensive Coordinator",
         currentEmployer: "Duke Blue Devils Men's Basketball",
         league: "NCAA Division I (ACC)",
         location: "Durham, NC",
