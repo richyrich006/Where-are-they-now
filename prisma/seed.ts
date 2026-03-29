@@ -1104,7 +1104,7 @@ async function main() {
       seasonStats: [
         // Duke College (1993-97) — NC HS Player of the Year; no shooting splits publicly available for early-90s ACC
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1993-94", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 8.6, reboundsPerGame: 2.7, assistsPerGame: 3.2 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1994-95", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 29, pointsPerGame: 12.5, assistsPerGame: 4.1 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1994-95", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 29, pointsPerGame: 12.5, reboundsPerGame: 2.7, assistsPerGame: 4.1, threePointPct: 0.460 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1995-96", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 31, minutesPerGame: 35.0, pointsPerGame: 16.6, reboundsPerGame: 3.0, assistsPerGame: 3.7 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1996-97", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 33, pointsPerGame: 12.4, assistsPerGame: 2.6 },
         // Pro playing career — undrafted 1997; played in CBA and France
@@ -1310,13 +1310,13 @@ async function main() {
         // Duke College (1996-2000) — 2000 ACC Player of the Year, All-American
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1996-97", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 31, minutesPerGame: 16.2, pointsPerGame: 5.5, reboundsPerGame: 3.1, assistsPerGame: 1.1, fieldGoalPct: 0.576 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, minutesPerGame: 22.2, pointsPerGame: 10.1, reboundsPerGame: 3.7, assistsPerGame: 1.1, fieldGoalPct: 0.482, threePointPct: 0.368 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, pointsPerGame: 9.9, reboundsPerGame: 4.8, assistsPerGame: 3.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, minutesPerGame: 27.2, pointsPerGame: 9.9, reboundsPerGame: 4.8, assistsPerGame: 3.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 34, minutesPerGame: 35.6, pointsPerGame: 16.9, reboundsPerGame: 6.1, assistsPerGame: 3.2, fieldGoalPct: 0.480, threePointPct: 0.360, freeThrowPct: 0.780 },
         // Pro playing career — drafted 41st by San Antonio Spurs (2000); never played for Spurs
         { level: "PROFESSIONAL", teamName: "Asheville Altitude (NBA D-League)", season: "2001-02", yearLabel: "Year 1", sortOrder: 301, gamesPlayed: 56, minutesPerGame: 22.9, pointsPerGame: 7.3, reboundsPerGame: 3.6, assistsPerGame: 1.8 },
         { level: "PROFESSIONAL", teamName: "Žalgiris Kaunas (Lithuania)", season: "2002-03", yearLabel: "Year 2", sortOrder: 302 },
         { level: "PROFESSIONAL", teamName: "Various (Germany)", season: "2003-04", yearLabel: "Year 3", sortOrder: 303 },
-        { level: "PROFESSIONAL", teamName: "Sydney Kings (Australian NBL)", season: "2004-05", yearLabel: "Year 4", sortOrder: 304, gamesPlayed: 18, pointsPerGame: 13.1, reboundsPerGame: 7.1, assistsPerGame: 2.7 },
+        { level: "PROFESSIONAL", teamName: "Sydney Kings (Australian NBL)", season: "2003-04", yearLabel: "Year 3 (NBL)", sortOrder: 304, gamesPlayed: 18, pointsPerGame: 13.1, reboundsPerGame: 7.1, assistsPerGame: 2.7, fieldGoalPct: 0.520 },
         { level: "PROFESSIONAL", teamName: "Alaska Aces (Philippines PBA)", season: "2002-03", yearLabel: "Year 2b (PBA)", sortOrder: 305, gamesPlayed: 3, pointsPerGame: 18.3, reboundsPerGame: 8.7, fieldGoalPct: 0.440, threePointPct: 0.000, freeThrowPct: 0.355 },
         { level: "PROFESSIONAL", teamName: "Fayetteville Patriots (ABA)", season: "2005-06", yearLabel: "Year 5 — ABA MVP & Champion", sortOrder: 306 },
         { level: "PROFESSIONAL", teamName: "Nijmegen Magixx (Netherlands)", season: "2006-07", yearLabel: "Year 6", sortOrder: 307 },
