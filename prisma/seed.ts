@@ -840,6 +840,12 @@ async function main() {
         statsNote:
           "Sat out 2014-15 (transfer rules) • 6'9\", 270 lbs • C-USA All-Freshman at Rice (11.4 ppg, 9.3 rpg) • Graduate transfer to Maryland (2017-18)",
       },
+      seasonStats: [
+        // Rice — Conference USA All-Freshman (led CUSA in rebounding)
+        { level: "COLLEGE", teamName: "Rice Owls", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 30, minutesPerGame: 26.4, pointsPerGame: 11.4, reboundsPerGame: 9.3, fieldGoalPct: 0.591 },
+        // Duke — sat out 2014-15 per NCAA transfer rules; played limited minutes 2015-16 before knee injury
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Sophomore (Transfer)", sortOrder: 202, gamesPlayed: 10, pointsPerGame: 0.5, reboundsPerGame: 1.0 },
+      ],
       careerEvents: [
         {
           year: 2014,
@@ -1038,6 +1044,13 @@ async function main() {
         statsNote:
           "Associate Head Coach • Led recruitment of nation's #1 recruiting class in 2014",
       },
+      seasonStats: [
+        // Duke College (1993-97) — NC HS Player of the Year; no shooting splits publicly available for early-90s ACC
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1993-94", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 8.6, reboundsPerGame: 2.7, assistsPerGame: 3.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1994-95", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 29, pointsPerGame: 12.5, assistsPerGame: 4.1 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1995-96", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 31, minutesPerGame: 35.0, pointsPerGame: 16.6, reboundsPerGame: 3.0, assistsPerGame: 3.7 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1996-97", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 33, pointsPerGame: 12.4, assistsPerGame: 2.6 },
+      ],
       careerEvents: [
         {
           year: 2015,
@@ -1080,6 +1093,11 @@ async function main() {
       seasonStats: [
         // High School — IL Mr. Basketball, #4 all-time IL scorer (3,034 career pts)
         { level: "HIGH_SCHOOL", teamName: "Glenbrook North High School", season: "2005-06", yearLabel: "Senior", sortOrder: 101, pointsPerGame: 32.0, reboundsPerGame: 6.0, assistsPerGame: 5.0 },
+        // Duke College (2010 NCAA Championship team; 2009 ACC Tournament MVP)
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2006-07", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, minutesPerGame: 33.7, pointsPerGame: 12.2, fieldGoalPct: 0.398, threePointPct: 0.365, freeThrowPct: 0.846 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2007-08", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 34, minutesPerGame: 28.3, pointsPerGame: 11.7, reboundsPerGame: 3.9, assistsPerGame: 2.4, fieldGoalPct: 0.444, threePointPct: 0.388, freeThrowPct: 0.889 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 37, minutesPerGame: 32.8, pointsPerGame: 14.9, reboundsPerGame: 3.6, assistsPerGame: 2.8, fieldGoalPct: 0.397, threePointPct: 0.385, freeThrowPct: 0.836 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 40, minutesPerGame: 36.8, pointsPerGame: 18.2, assistsPerGame: 4.9, fieldGoalPct: 0.407, threePointPct: 0.383, freeThrowPct: 0.878 },
       ],
       careerEvents: [
         {
@@ -1134,6 +1152,13 @@ async function main() {
         yearsAtSchool: "2007-2021",
         statsNote: "Assistant Coach → Associate Head Coach • Won 2010 and 2015 NCAA titles as assistant",
       },
+      seasonStats: [
+        // Duke College (1997-2001) — 2001 NCAA champion; career FG% .473
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 6, pointsPerGame: 2.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Redshirt Sophomore", sortOrder: 202, gamesPlayed: 23, minutesPerGame: 14.7, pointsPerGame: 5.0, reboundsPerGame: 2.6 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 11.0, reboundsPerGame: 4.5 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-01", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 39, pointsPerGame: 12.3, reboundsPerGame: 5.2, fieldGoalPct: 0.473 },
+      ],
       careerEvents: [
         {
           year: 2015,
@@ -1181,6 +1206,13 @@ async function main() {
         yearsAtSchool: "2013-present",
         statsNote: "Assistant Coach • Former Duke ACC Player of the Year (2000)",
       },
+      seasonStats: [
+        // Duke College (1996-2000) — 2000 ACC Player of the Year, All-American
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1996-97", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 31, minutesPerGame: 16.2, pointsPerGame: 5.5, reboundsPerGame: 3.1, assistsPerGame: 1.1, fieldGoalPct: 0.576 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 10.1, reboundsPerGame: 3.1 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, pointsPerGame: 9.9, assistsPerGame: 3.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 34, minutesPerGame: 35.6, pointsPerGame: 16.9, reboundsPerGame: 6.1, assistsPerGame: 3.2, fieldGoalPct: 0.480, threePointPct: 0.360, freeThrowPct: 0.780 },
+      ],
       careerEvents: [
         {
           year: 2015,
