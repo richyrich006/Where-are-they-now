@@ -33,6 +33,7 @@ enum StatLevel {
   HIGH_SCHOOL
   COLLEGE
   PROFESSIONAL
+  COACHING
 }
 
 model Team {
@@ -123,6 +124,9 @@ model SeasonStats {
   fieldGoalPct     Float?
   threePointPct    Float?
   freeThrowPct     Float?
+  wins             Int?
+  losses           Int?
+  tournamentResult String?
 }
 
 model CareerEvent {

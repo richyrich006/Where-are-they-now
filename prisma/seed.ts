@@ -66,7 +66,7 @@ async function main() {
       assistsPerGame?: number;
     };
     seasonStats?: {
-      level: "HIGH_SCHOOL" | "COLLEGE" | "PROFESSIONAL";
+      level: "HIGH_SCHOOL" | "COLLEGE" | "PROFESSIONAL" | "COACHING";
       teamName: string;
       season: string;
       yearLabel: string;
@@ -81,6 +81,9 @@ async function main() {
       fieldGoalPct?: number;
       threePointPct?: number;
       freeThrowPct?: number;
+      wins?: number;
+      losses?: number;
+      tournamentResult?: string;
     }[];
     careerEvents?: {
       year: number;
@@ -990,6 +993,57 @@ async function main() {
         statsNote:
           "5 NCAA Championships • 1,202 career wins (all-time Division I record) • Naismith Basketball Hall of Fame",
       },
+      seasonStats: [
+        // Army coaching record (1975-80) — 73-59 total
+        { level: "COACHING", teamName: "Army Black Knights", season: "1975-76", yearLabel: "Year 1", sortOrder: 401, wins: 11, losses: 14 },
+        { level: "COACHING", teamName: "Army Black Knights", season: "1976-77", yearLabel: "Year 2", sortOrder: 402, wins: 20, losses: 8, tournamentResult: "ECAC" },
+        { level: "COACHING", teamName: "Army Black Knights", season: "1977-78", yearLabel: "Year 3", sortOrder: 403, wins: 19, losses: 9, tournamentResult: "NIT" },
+        { level: "COACHING", teamName: "Army Black Knights", season: "1978-79", yearLabel: "Year 4", sortOrder: 404, wins: 12, losses: 14 },
+        { level: "COACHING", teamName: "Army Black Knights", season: "1979-80", yearLabel: "Year 5", sortOrder: 405, wins: 11, losses: 14 },
+        // Duke coaching record (1980-2022) — 1,129-309 in 42 seasons; 5 titles
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1980-81", yearLabel: "Year 1", sortOrder: 411, wins: 17, losses: 13, tournamentResult: "NIT" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1981-82", yearLabel: "Year 2", sortOrder: 412, wins: 10, losses: 17 },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1982-83", yearLabel: "Year 3", sortOrder: 413, wins: 11, losses: 17 },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1983-84", yearLabel: "Year 4", sortOrder: 414, wins: 24, losses: 10, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1984-85", yearLabel: "Year 5", sortOrder: 415, wins: 23, losses: 8, tournamentResult: "NCAA R64" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1985-86", yearLabel: "Year 6", sortOrder: 416, wins: 37, losses: 3, tournamentResult: "NCAA Runner-Up" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1986-87", yearLabel: "Year 7", sortOrder: 417, wins: 24, losses: 9, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1987-88", yearLabel: "Year 8", sortOrder: 418, wins: 28, losses: 7, tournamentResult: "NCAA Final Four" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1988-89", yearLabel: "Year 9", sortOrder: 419, wins: 28, losses: 8, tournamentResult: "NCAA Final Four" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1989-90", yearLabel: "Year 10", sortOrder: 420, wins: 29, losses: 9, tournamentResult: "NCAA Runner-Up" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1990-91", yearLabel: "Year 11", sortOrder: 421, wins: 32, losses: 7, tournamentResult: "NCAA Champion 🏆" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1991-92", yearLabel: "Year 12", sortOrder: 422, wins: 34, losses: 2, tournamentResult: "NCAA Champion 🏆" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1992-93", yearLabel: "Year 13", sortOrder: 423, wins: 24, losses: 8, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1993-94", yearLabel: "Year 14", sortOrder: 424, wins: 28, losses: 6, tournamentResult: "NCAA Runner-Up" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1994-95", yearLabel: "Year 15", sortOrder: 425, wins: 13, losses: 18 },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1995-96", yearLabel: "Year 16", sortOrder: 426, wins: 18, losses: 13, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1996-97", yearLabel: "Year 17", sortOrder: 427, wins: 24, losses: 9, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Year 18", sortOrder: 428, wins: 32, losses: 4, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Year 19", sortOrder: 429, wins: 37, losses: 2, tournamentResult: "NCAA Runner-Up" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Year 20", sortOrder: 430, wins: 29, losses: 5, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2000-01", yearLabel: "Year 21", sortOrder: 431, wins: 35, losses: 4, tournamentResult: "NCAA Champion 🏆" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2001-02", yearLabel: "Year 22", sortOrder: 432, wins: 31, losses: 4, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2002-03", yearLabel: "Year 23", sortOrder: 433, wins: 26, losses: 7, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2003-04", yearLabel: "Year 24", sortOrder: 434, wins: 31, losses: 6, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2004-05", yearLabel: "Year 25", sortOrder: 435, wins: 27, losses: 6, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "Year 26", sortOrder: 436, wins: 32, losses: 4, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2006-07", yearLabel: "Year 27", sortOrder: 437, wins: 22, losses: 11, tournamentResult: "NCAA R64" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2007-08", yearLabel: "Year 28", sortOrder: 438, wins: 28, losses: 6, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "Year 29", sortOrder: 439, wins: 30, losses: 7, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "Year 30", sortOrder: 440, wins: 35, losses: 5, tournamentResult: "NCAA Champion 🏆" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2010-11", yearLabel: "Year 31", sortOrder: 441, wins: 32, losses: 4, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "Year 32", sortOrder: 442, wins: 27, losses: 7, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Year 33", sortOrder: 443, wins: 30, losses: 6, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Year 34", sortOrder: 444, wins: 26, losses: 9, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Year 35", sortOrder: 445, wins: 35, losses: 4, tournamentResult: "NCAA Champion 🏆" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Year 36", sortOrder: 446, wins: 25, losses: 11, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Year 37", sortOrder: 447, wins: 28, losses: 9, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2017-18", yearLabel: "Year 38", sortOrder: 448, wins: 29, losses: 8, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2018-19", yearLabel: "Year 39", sortOrder: 449, wins: 32, losses: 6, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2019-20", yearLabel: "Year 40", sortOrder: 450, wins: 25, losses: 6, tournamentResult: "COVID cancellation" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2020-21", yearLabel: "Year 41", sortOrder: 451, wins: 13, losses: 11 },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2021-22", yearLabel: "Year 42 (final)", sortOrder: 452, wins: 32, losses: 7, tournamentResult: "NCAA Final Four" },
+      ],
       careerEvents: [
         {
           year: 1991,
@@ -1050,6 +1104,29 @@ async function main() {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1994-95", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 29, pointsPerGame: 12.5, assistsPerGame: 4.1 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1995-96", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 31, minutesPerGame: 35.0, pointsPerGame: 16.6, reboundsPerGame: 3.0, assistsPerGame: 3.7 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1996-97", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 33, pointsPerGame: 12.4, assistsPerGame: 2.6 },
+        // Pro playing career — undrafted 1997; played in CBA and France
+        { level: "PROFESSIONAL", teamName: "Grand Rapids Hoops (CBA)", season: "1997-98", yearLabel: "Year 1", sortOrder: 301, gamesPlayed: 56, pointsPerGame: 11.9 },
+        { level: "PROFESSIONAL", teamName: "Élan Chalon (France LNB)", season: "1999", yearLabel: "Year 2", sortOrder: 302, gamesPlayed: 2, pointsPerGame: 5.5 },
+        { level: "PROFESSIONAL", teamName: "Grand Rapids Hoops (CBA)", season: "1999-00", yearLabel: "Year 3", sortOrder: 303, gamesPlayed: 33, pointsPerGame: 8.1 },
+        // Coaching record — VCU head coach (2002-06)
+        { level: "COACHING", teamName: "VCU Rams", season: "2002-03", yearLabel: "VCU Year 1", sortOrder: 401, wins: 18, losses: 10 },
+        { level: "COACHING", teamName: "VCU Rams", season: "2003-04", yearLabel: "VCU Year 2", sortOrder: 402, wins: 23, losses: 8, tournamentResult: "NCAA R64" },
+        { level: "COACHING", teamName: "VCU Rams", season: "2004-05", yearLabel: "VCU Year 3", sortOrder: 403, wins: 19, losses: 13 },
+        { level: "COACHING", teamName: "VCU Rams", season: "2005-06", yearLabel: "VCU Year 4", sortOrder: 404, wins: 21, losses: 11 },
+        // Coaching record — Oklahoma head coach (2006-11)
+        { level: "COACHING", teamName: "Oklahoma Sooners", season: "2006-07", yearLabel: "OU Year 1", sortOrder: 411, wins: 16, losses: 15 },
+        { level: "COACHING", teamName: "Oklahoma Sooners", season: "2007-08", yearLabel: "OU Year 2", sortOrder: 412, wins: 23, losses: 12, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Oklahoma Sooners", season: "2008-09", yearLabel: "OU Year 3", sortOrder: 413, wins: 30, losses: 6, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Oklahoma Sooners", season: "2009-10", yearLabel: "OU Year 4", sortOrder: 414, wins: 13, losses: 18 },
+        { level: "COACHING", teamName: "Oklahoma Sooners", season: "2010-11", yearLabel: "OU Year 5", sortOrder: 415, wins: 14, losses: 18 },
+        // Coaching record — Pittsburgh head coach (2018-present)
+        { level: "COACHING", teamName: "Pittsburgh Panthers", season: "2018-19", yearLabel: "Pitt Year 1", sortOrder: 421, wins: 14, losses: 19 },
+        { level: "COACHING", teamName: "Pittsburgh Panthers", season: "2019-20", yearLabel: "Pitt Year 2", sortOrder: 422, wins: 16, losses: 17 },
+        { level: "COACHING", teamName: "Pittsburgh Panthers", season: "2020-21", yearLabel: "Pitt Year 3", sortOrder: 423, wins: 10, losses: 12 },
+        { level: "COACHING", teamName: "Pittsburgh Panthers", season: "2021-22", yearLabel: "Pitt Year 4", sortOrder: 424, wins: 11, losses: 21 },
+        { level: "COACHING", teamName: "Pittsburgh Panthers", season: "2022-23", yearLabel: "Pitt Year 5", sortOrder: 425, wins: 24, losses: 12, tournamentResult: "NCAA R32 (ACC COY)" },
+        { level: "COACHING", teamName: "Pittsburgh Panthers", season: "2023-24", yearLabel: "Pitt Year 6", sortOrder: 426, wins: 22, losses: 11, tournamentResult: "ACC Tournament Semis" },
+        { level: "COACHING", teamName: "Pittsburgh Panthers", season: "2024-25", yearLabel: "Pitt Year 7", sortOrder: 427, wins: 17, losses: 15 },
       ],
       careerEvents: [
         {
@@ -1098,6 +1175,14 @@ async function main() {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2007-08", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 34, minutesPerGame: 28.3, pointsPerGame: 11.7, reboundsPerGame: 3.9, assistsPerGame: 2.4, fieldGoalPct: 0.444, threePointPct: 0.388, freeThrowPct: 0.889 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 37, minutesPerGame: 32.8, pointsPerGame: 14.9, reboundsPerGame: 3.6, assistsPerGame: 2.8, fieldGoalPct: 0.397, threePointPct: 0.385, freeThrowPct: 0.836 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 40, minutesPerGame: 36.8, pointsPerGame: 18.2, assistsPerGame: 4.9, fieldGoalPct: 0.407, threePointPct: 0.383, freeThrowPct: 0.878 },
+        // Pro playing career — undrafted 2010; career ended at 25 due to eye injury (retinal tear)
+        { level: "PROFESSIONAL", teamName: "Rio Grande Valley Vipers (NBA D-League)", season: "2010-11", yearLabel: "Year 1", sortOrder: 301, gamesPlayed: 16, minutesPerGame: 33.9, pointsPerGame: 13.8, reboundsPerGame: 3.9, assistsPerGame: 4.1 },
+        { level: "PROFESSIONAL", teamName: "Maccabi Tel Aviv (Israel / EuroLeague)", season: "2011-12", yearLabel: "Year 2", sortOrder: 302, gamesPlayed: 23, minutesPerGame: 10.5, pointsPerGame: 2.5 },
+        { level: "PROFESSIONAL", teamName: "Gran Canaria (Spanish Liga ACB)", season: "2012-13", yearLabel: "Year 3", sortOrder: 303, gamesPlayed: 30, minutesPerGame: 20.5, pointsPerGame: 5.6, assistsPerGame: 2.0 },
+        // Coaching record at Duke (2022-present)
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2022-23", yearLabel: "Year 1", sortOrder: 401, wins: 27, losses: 9, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2023-24", yearLabel: "Year 2", sortOrder: 402, wins: 27, losses: 9, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2024-25", yearLabel: "Year 3", sortOrder: 403, wins: 35, losses: 4, tournamentResult: "NCAA Final Four" },
       ],
       careerEvents: [
         {
@@ -1122,7 +1207,7 @@ async function main() {
         },
         {
           year: 2025,
-          title: "Led Duke to the Final Four (35-3 record); won John McLendon National Coach of the Year Award; contract extended through 2030-31",
+          title: "Led Duke to the Final Four (35-4 record); won John McLendon National Coach of the Year Award; contract extended through 2030-31",
           eventType: "AWARD",
         },
       ],
@@ -1158,6 +1243,18 @@ async function main() {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Redshirt Sophomore", sortOrder: 202, gamesPlayed: 23, minutesPerGame: 14.7, pointsPerGame: 5.0, reboundsPerGame: 2.6 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 11.0, reboundsPerGame: 4.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-01", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 39, pointsPerGame: 12.3, reboundsPerGame: 5.2, fieldGoalPct: 0.473 },
+        // Pro playing career — undrafted 2001; played in 12+ countries
+        { level: "PROFESSIONAL", teamName: "Carolinas Basketball League", season: "2002-03", yearLabel: "Year 1", sortOrder: 301 },
+        { level: "PROFESSIONAL", teamName: "Kaposvári KK (Hungary)", season: "2003-04", yearLabel: "Year 2", sortOrder: 302 },
+        { level: "PROFESSIONAL", teamName: "Anjou BC (France)", season: "2003-04", yearLabel: "Year 2b", sortOrder: 303 },
+        { level: "PROFESSIONAL", teamName: "KK Široki (Bosnia-Herzegovina)", season: "2003-04", yearLabel: "Year 3", sortOrder: 304 },
+        { level: "PROFESSIONAL", teamName: "Pitágoras / Minas (Brazil)", season: "2004-05", yearLabel: "Year 4", sortOrder: 305 },
+        { level: "PROFESSIONAL", teamName: "EiffelTowers Nijmegen (Netherlands)", season: "2005-06", yearLabel: "Year 5", sortOrder: 306 },
+        { level: "PROFESSIONAL", teamName: "Toyama Grouses (Japan)", season: "2006-07", yearLabel: "Year 6", sortOrder: 307 },
+        { level: "PROFESSIONAL", teamName: "Basket Kwidzyn (Poland)", season: "2007-08", yearLabel: "Year 7", sortOrder: 308 },
+        // Head coaching record — Austin Peay (2021-23)
+        { level: "COACHING", teamName: "Austin Peay Governors", season: "2021-22", yearLabel: "Year 1", sortOrder: 401, wins: 9, losses: 21 },
+        { level: "COACHING", teamName: "Austin Peay Governors", season: "2022-23", yearLabel: "Year 2", sortOrder: 402, wins: 12, losses: 18 },
       ],
       careerEvents: [
         {
@@ -1212,6 +1309,14 @@ async function main() {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 10.1, reboundsPerGame: 3.1 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, pointsPerGame: 9.9, assistsPerGame: 3.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 34, minutesPerGame: 35.6, pointsPerGame: 16.9, reboundsPerGame: 6.1, assistsPerGame: 3.2, fieldGoalPct: 0.480, threePointPct: 0.360, freeThrowPct: 0.780 },
+        // Pro playing career — drafted 41st by San Antonio Spurs (2000); never played for Spurs
+        { level: "PROFESSIONAL", teamName: "Asheville Altitude (NBA D-League)", season: "2001-02", yearLabel: "Year 1", sortOrder: 301, gamesPlayed: 56, minutesPerGame: 22.9, pointsPerGame: 7.3, reboundsPerGame: 3.6, assistsPerGame: 1.8 },
+        { level: "PROFESSIONAL", teamName: "Žalgiris Kaunas (Lithuania)", season: "2002-03", yearLabel: "Year 2", sortOrder: 302 },
+        { level: "PROFESSIONAL", teamName: "Various (Germany)", season: "2003-04", yearLabel: "Year 3", sortOrder: 303 },
+        { level: "PROFESSIONAL", teamName: "Sydney Kings (Australian NBL)", season: "2004-05", yearLabel: "Year 4", sortOrder: 304, gamesPlayed: 18, pointsPerGame: 13.1, reboundsPerGame: 7.1, assistsPerGame: 2.7 },
+        { level: "PROFESSIONAL", teamName: "Alaska Aces (Philippines PBA)", season: "2004-05", yearLabel: "Year 4b", sortOrder: 305 },
+        { level: "PROFESSIONAL", teamName: "Fayetteville Patriots (ABA)", season: "2005-06", yearLabel: "Year 5 — ABA MVP & Champion", sortOrder: 306 },
+        { level: "PROFESSIONAL", teamName: "Nijmegen Magixx (Netherlands)", season: "2006-07", yearLabel: "Year 6", sortOrder: 307 },
       ],
       careerEvents: [
         {
@@ -1299,6 +1404,9 @@ async function main() {
             fieldGoalPct: stat.fieldGoalPct ?? null,
             threePointPct: stat.threePointPct ?? null,
             freeThrowPct: stat.freeThrowPct ?? null,
+            wins: stat.wins ?? null,
+            losses: stat.losses ?? null,
+            tournamentResult: stat.tournamentResult ?? null,
           },
         });
       }

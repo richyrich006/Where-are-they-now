@@ -45,6 +45,9 @@ type StatRow = {
   fieldGoalPct: number | null;
   threePointPct: number | null;
   freeThrowPct: number | null;
+  wins: number | null;
+  losses: number | null;
+  tournamentResult: string | null;
 };
 
 function hasAny(rows: StatRow[], key: keyof StatRow) {
@@ -112,6 +115,36 @@ function StatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNotesBelow?
   );
 }
 
+function CoachingTable({ rows }: { rows: StatRow[] }) {
+  const showResult = rows.some((r) => r.tournamentResult != null);
+  return (
+    <div className="overflow-x-auto">
+      <table className="w-full text-sm">
+        <thead>
+          <tr className="border-b border-gray-200 text-left text-xs font-semibold uppercase tracking-wide text-gray-500">
+            <th className="py-2 pr-3">Season</th>
+            <th className="py-2 pr-3">School</th>
+            <th className="py-2 pr-3 text-center">W</th>
+            <th className="py-2 pr-3 text-center">L</th>
+            {showResult && <th className="py-2 text-left">Result</th>}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr key={row.id} className="border-b border-gray-100 last:border-0">
+              <td className="py-2 pr-3 font-medium text-gray-900 whitespace-nowrap">{row.yearLabel}</td>
+              <td className="py-2 pr-3 text-gray-600 whitespace-nowrap">{row.teamName}</td>
+              <td className="py-2 pr-3 text-center text-gray-700">{row.wins ?? "—"}</td>
+              <td className="py-2 pr-3 text-center text-gray-700">{row.losses ?? "—"}</td>
+              {showResult && <td className="py-2 text-gray-600 text-sm">{row.tournamentResult ?? "—"}</td>}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 export default async function PlayerPage({ params }: Props) {
   const { slug } = await params;
   const person = await getPlayerBySlug(slug);
@@ -121,6 +154,7 @@ export default async function PlayerPage({ params }: Props) {
   const hsStats = person.seasonStats.filter((s) => s.level === "HIGH_SCHOOL");
   const collegeStats = person.seasonStats.filter((s) => s.level === "COLLEGE");
   const proStats = person.seasonStats.filter((s) => s.level === "PROFESSIONAL");
+  const coachingStats = person.seasonStats.filter((s) => s.level === "COACHING");
 
   // Fallback: show aggregate boxes if no college seasonStats rows exist
   const showCollegeAggregate =
@@ -198,6 +232,14 @@ export default async function PlayerPage({ params }: Props) {
         <div className="mt-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
           <h2 className="mb-3 text-xl font-bold text-gray-900">Professional Career</h2>
           <StatsTable rows={proStats} />
+        </div>
+      )}
+
+      {/* Coaching Career */}
+      {coachingStats.length > 0 && (
+        <div className="mt-8 rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+          <h2 className="mb-3 text-xl font-bold text-gray-900">Coaching Career</h2>
+          <CoachingTable rows={coachingStats} />
         </div>
       )}
 
