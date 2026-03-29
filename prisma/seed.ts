@@ -392,10 +392,10 @@ async function main() {
       seasonStats: [
         // High School (Oak Hill Academy, VA — McDonald's All-American)
         { level: "HIGH_SCHOOL", teamName: "Oak Hill Academy", season: "2010-11", yearLabel: "Senior", sortOrder: 101, pointsPerGame: 19.1, assistsPerGame: 10.9 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 4.4, reboundsPerGame: 1.0, assistsPerGame: 1.9 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 36, pointsPerGame: 11.7, reboundsPerGame: 3.8, assistsPerGame: 5.3 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 11.6, reboundsPerGame: 2.2, assistsPerGame: 4.4 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 39, pointsPerGame: 15.3, reboundsPerGame: 2.5, assistsPerGame: 2.6 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, minutesPerGame: 11.7, pointsPerGame: 4.4, reboundsPerGame: 1.0, assistsPerGame: 1.9, fieldGoalPct: 0.405, threePointPct: 0.250, freeThrowPct: 0.776 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 36, pointsPerGame: 11.7, reboundsPerGame: 3.8, assistsPerGame: 5.3, stealsPerGame: 1.4 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 11.6, reboundsPerGame: 2.2, assistsPerGame: 4.4, stealsPerGame: 1.3, fieldGoalPct: 0.432, threePointPct: 0.371, freeThrowPct: 0.827 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 39, pointsPerGame: 15.3, reboundsPerGame: 3.4, assistsPerGame: 2.6, stealsPerGame: 1.0, threePointPct: 0.395, freeThrowPct: 0.891 },
         // NBA
         { level: "PROFESSIONAL", teamName: "Dallas Mavericks", season: "2016-17", yearLabel: "2016-17", sortOrder: 301, gamesPlayed: 14, minutesPerGame: 13.4, pointsPerGame: 5.6, reboundsPerGame: 0.5, assistsPerGame: 1.9, fieldGoalPct: 0.500, threePointPct: 0.423, freeThrowPct: 0.400 },
         { level: "PROFESSIONAL", teamName: "Golden State Warriors", season: "2017-18", yearLabel: "2017-18", sortOrder: 302, gamesPlayed: 33, minutesPerGame: 22.4, pointsPerGame: 9.5, reboundsPerGame: 2.5, assistsPerGame: 2.7, fieldGoalPct: 0.484, threePointPct: 0.442, freeThrowPct: 0.880 },
@@ -507,10 +507,10 @@ async function main() {
         statsNote: "4-7 from three in Elite Eight vs Gonzaga • South Region All-Tournament Team",
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, pointsPerGame: 1.8, reboundsPerGame: 0.8, assistsPerGame: 0.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, minutesPerGame: 7.3, pointsPerGame: 1.8, reboundsPerGame: 0.8, assistsPerGame: 0.2, fieldGoalPct: 0.294, threePointPct: 0.143 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 39, pointsPerGame: 6.0, reboundsPerGame: 2.3, assistsPerGame: 1.0 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 36, pointsPerGame: 10.4, reboundsPerGame: 2.5, assistsPerGame: 2.3 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 36, pointsPerGame: 6.4, reboundsPerGame: 2.2, assistsPerGame: 1.4 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 10.4, reboundsPerGame: 2.5, assistsPerGame: 2.2, stealsPerGame: 1.0, threePointPct: 0.415 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 37, minutesPerGame: 32.9, pointsPerGame: 7.0, reboundsPerGame: 2.8, assistsPerGame: 1.4, stealsPerGame: 1.7 },
       ],
       careerEvents: [
         {
@@ -558,10 +558,10 @@ async function main() {
         statsNote: "Team captain • Brother of Mason and Miles Plumlee",
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 1.5, reboundsPerGame: 1.8, assistsPerGame: 0.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, minutesPerGame: 11.1, pointsPerGame: 1.5, reboundsPerGame: 1.8, assistsPerGame: 0.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 27, pointsPerGame: 2.2, reboundsPerGame: 2.5, assistsPerGame: 0.4 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, pointsPerGame: 2.2, reboundsPerGame: 2.4, assistsPerGame: 0.3 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 36, pointsPerGame: 8.3, reboundsPerGame: 8.6, assistsPerGame: 1.1 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, minutesPerGame: 9.6, pointsPerGame: 2.2, reboundsPerGame: 2.4, assistsPerGame: 0.3, fieldGoalPct: 0.760, freeThrowPct: 0.710 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 36, minutesPerGame: 30.5, pointsPerGame: 8.3, reboundsPerGame: 8.6, assistsPerGame: 1.1, blocksPerGame: 1.6 },
         // NBA (career: 29 total games, 1.9 PPG, 2.3 RPG, 51.5% FG)
         { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2016-17", yearLabel: "2016-17", sortOrder: 301, gamesPlayed: 21, minutesPerGame: 9.0, pointsPerGame: 1.9, reboundsPerGame: 2.3, fieldGoalPct: 0.515 },
         { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2017-18", yearLabel: "2017-18", sortOrder: 302, gamesPlayed: 8, minutesPerGame: 6.5, pointsPerGame: 1.8, reboundsPerGame: 2.1, assistsPerGame: 0.3, fieldGoalPct: 0.515 },
@@ -631,10 +631,10 @@ async function main() {
       },
       seasonStats: [
         // Duke College
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 17, pointsPerGame: 1.6, reboundsPerGame: 0.9, assistsPerGame: 0.2 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Sophomore (partial)", sortOrder: 202, gamesPlayed: 6, pointsPerGame: 3.0, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
-        // SMU College
-        { level: "COLLEGE", teamName: "SMU Mustangs", season: "2016-17", yearLabel: "Jr. (SMU)", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 18.9, reboundsPerGame: 6.8, assistsPerGame: 2.2, fieldGoalPct: 0.497, threePointPct: 0.385, freeThrowPct: 0.757 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 17, minutesPerGame: 5.0, pointsPerGame: 1.6, reboundsPerGame: 0.9, assistsPerGame: 0.2, fieldGoalPct: 0.500, threePointPct: 0.571, freeThrowPct: 0.909 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Sophomore (partial)", sortOrder: 202, gamesPlayed: 6, minutesPerGame: 10.5, pointsPerGame: 3.0, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
+        // SMU College (redshirt year 2015-16; played 2016-17 as AAC Player of the Year)
+        { level: "COLLEGE", teamName: "SMU Mustangs", season: "2016-17", yearLabel: "Jr. (SMU)", sortOrder: 203, gamesPlayed: 35, minutesPerGame: 34.1, pointsPerGame: 19.0, reboundsPerGame: 6.9, assistsPerGame: 1.5, stealsPerGame: 0.4, blocksPerGame: 0.4, fieldGoalPct: 0.487, threePointPct: 0.424, freeThrowPct: 0.785 },
         // NBA
         { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 73, minutesPerGame: 15.8, pointsPerGame: 2.7, reboundsPerGame: 2.2, assistsPerGame: 0.3, fieldGoalPct: 0.346, threePointPct: 0.320 },
         { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2018-19", yearLabel: "2018-19", sortOrder: 302, gamesPlayed: 56, minutesPerGame: 10.6, pointsPerGame: 3.3, reboundsPerGame: 1.5, assistsPerGame: 0.4, fieldGoalPct: 0.424, threePointPct: 0.315 },
@@ -697,16 +697,19 @@ async function main() {
         // High School
         { level: "HIGH_SCHOOL", teamName: "Strake Jesuit College Preparatory", season: "2011-12", yearLabel: "Senior", sortOrder: 101, gamesPlayed: 31, pointsPerGame: 27.4, reboundsPerGame: 6.4, assistsPerGame: 3.6 },
         // Duke College
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 11.6, reboundsPerGame: 3.4, assistsPerGame: 1.9 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 34, pointsPerGame: 9.9, reboundsPerGame: 2.4, assistsPerGame: 2.4 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Junior (partial)", sortOrder: 203, gamesPlayed: 20, pointsPerGame: 7.5, reboundsPerGame: 2.0, assistsPerGame: 1.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 11.6, reboundsPerGame: 3.4, assistsPerGame: 1.9, threePointPct: 0.371, freeThrowPct: 0.802 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 34, pointsPerGame: 9.9, reboundsPerGame: 2.4, assistsPerGame: 2.4, fieldGoalPct: 0.402, threePointPct: 0.410, freeThrowPct: 0.768 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Junior (partial)", sortOrder: 203, gamesPlayed: 20, minutesPerGame: 19.3, pointsPerGame: 7.5, reboundsPerGame: 2.0, assistsPerGame: 1.8, fieldGoalPct: 0.413 },
         // Maryland College
-        { level: "COLLEGE", teamName: "Maryland Terrapins", season: "2015-16", yearLabel: "Sr. (Maryland)", sortOrder: 204, gamesPlayed: 33, pointsPerGame: 11.3, reboundsPerGame: 3.2, assistsPerGame: 2.2 },
-        // Professional — European career
-        { level: "PROFESSIONAL", teamName: "JDA Dijon (France)", season: "2016-17", yearLabel: "2016-17", sortOrder: 301, gamesPlayed: 24, pointsPerGame: 10.4, reboundsPerGame: 3.2, assistsPerGame: 2.1, fieldGoalPct: 0.440 },
-        { level: "PROFESSIONAL", teamName: "Zaragoza (Spain ACB)", season: "2019-20", yearLabel: "2019-20", sortOrder: 302, gamesPlayed: 26, pointsPerGame: 11.8, reboundsPerGame: 3.0, assistsPerGame: 2.3, fieldGoalPct: 0.453, threePointPct: 0.378 },
-        { level: "PROFESSIONAL", teamName: "JL Bourg (France)", season: "2021-22", yearLabel: "2021-22", sortOrder: 303, gamesPlayed: 30, pointsPerGame: 15.2, reboundsPerGame: 4.1, assistsPerGame: 2.8, fieldGoalPct: 0.476, threePointPct: 0.392 },
-        { level: "PROFESSIONAL", teamName: "KK Budućnost VOLI (Montenegro)", season: "2024-25", yearLabel: "2024-25", sortOrder: 304, gamesPlayed: 18, pointsPerGame: 13.8, reboundsPerGame: 3.5, assistsPerGame: 2.0, fieldGoalPct: 0.476 },
+        { level: "COLLEGE", teamName: "Maryland Terrapins", season: "2015-16", yearLabel: "Sr. (Maryland)", sortOrder: 204, gamesPlayed: 36, minutesPerGame: 32.9, pointsPerGame: 11.3, reboundsPerGame: 3.5, assistsPerGame: 3.5, threePointPct: 0.425 },
+        // Professional — G-League then European career
+        { level: "PROFESSIONAL", teamName: "Greensboro Swarm (NBA G-League)", season: "2016-17", yearLabel: "2016-17", sortOrder: 301, gamesPlayed: 46, pointsPerGame: 12.7, reboundsPerGame: 3.0, assistsPerGame: 2.7 },
+        { level: "PROFESSIONAL", teamName: "JDA Dijon (France LNB Pro A)", season: "2017-18", yearLabel: "2017-18", sortOrder: 302, gamesPlayed: 32, pointsPerGame: 11.2, reboundsPerGame: 2.8, assistsPerGame: 2.1 },
+        { level: "PROFESSIONAL", teamName: "Levallois Metropolitans (France LNB Pro A)", season: "2018-19", yearLabel: "2018-19", sortOrder: 303, gamesPlayed: 34, pointsPerGame: 12.4, reboundsPerGame: 3.1, assistsPerGame: 2.5 },
+        { level: "PROFESSIONAL", teamName: "Zaragoza (Spain ACB)", season: "2019-20", yearLabel: "2019-20", sortOrder: 304, gamesPlayed: 26, pointsPerGame: 11.8, reboundsPerGame: 3.0, assistsPerGame: 2.3, fieldGoalPct: 0.453, threePointPct: 0.378 },
+        { level: "PROFESSIONAL", teamName: "JL Bourg (France LNB Pro A)", season: "2021-22", yearLabel: "2021-22", sortOrder: 305, gamesPlayed: 30, pointsPerGame: 15.2, reboundsPerGame: 4.1, assistsPerGame: 2.8, fieldGoalPct: 0.476, threePointPct: 0.392 },
+        { level: "PROFESSIONAL", teamName: "Konyaspor (Turkey BSL)", season: "2022-23", yearLabel: "2022-23", sortOrder: 306, gamesPlayed: 23, pointsPerGame: 18.0, reboundsPerGame: 4.7, assistsPerGame: 5.2 },
+        { level: "PROFESSIONAL", teamName: "KK Budućnost VOLI (Montenegro ABA Liga)", season: "2024-25", yearLabel: "2024-25", sortOrder: 307, gamesPlayed: 18, pointsPerGame: 13.8, reboundsPerGame: 3.5, assistsPerGame: 2.0, fieldGoalPct: 0.476 },
       ],
       careerEvents: [
         {
@@ -1177,8 +1180,8 @@ async function main() {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 40, minutesPerGame: 36.8, pointsPerGame: 18.2, assistsPerGame: 4.9, fieldGoalPct: 0.407, threePointPct: 0.383, freeThrowPct: 0.878 },
         // Pro playing career — undrafted 2010; career ended at 25 due to eye injury (retinal tear)
         { level: "PROFESSIONAL", teamName: "Rio Grande Valley Vipers (NBA D-League)", season: "2010-11", yearLabel: "Year 1", sortOrder: 301, gamesPlayed: 16, minutesPerGame: 33.9, pointsPerGame: 13.8, reboundsPerGame: 3.9, assistsPerGame: 4.1 },
-        { level: "PROFESSIONAL", teamName: "Maccabi Tel Aviv (Israel / EuroLeague)", season: "2011-12", yearLabel: "Year 2", sortOrder: 302, gamesPlayed: 23, minutesPerGame: 10.5, pointsPerGame: 2.5 },
-        { level: "PROFESSIONAL", teamName: "Gran Canaria (Spanish Liga ACB)", season: "2012-13", yearLabel: "Year 3", sortOrder: 303, gamesPlayed: 30, minutesPerGame: 20.5, pointsPerGame: 5.6, assistsPerGame: 2.0 },
+        { level: "PROFESSIONAL", teamName: "Maccabi Tel Aviv (Israel / EuroLeague)", season: "2011-12", yearLabel: "Year 2", sortOrder: 302, gamesPlayed: 23, minutesPerGame: 10.5, pointsPerGame: 2.5, reboundsPerGame: 0.9, assistsPerGame: 0.7, fieldGoalPct: 0.353, threePointPct: 0.333 },
+        { level: "PROFESSIONAL", teamName: "Gran Canaria (Spanish Liga ACB)", season: "2012-13", yearLabel: "Year 3", sortOrder: 303, gamesPlayed: 30, minutesPerGame: 20.5, pointsPerGame: 5.6, assistsPerGame: 2.0, fieldGoalPct: 0.313 },
         // Coaching record at Duke (2022-present)
         { level: "COACHING", teamName: "Duke Blue Devils", season: "2022-23", yearLabel: "Year 1", sortOrder: 401, wins: 27, losses: 9, tournamentResult: "NCAA Elite Eight" },
         { level: "COACHING", teamName: "Duke Blue Devils", season: "2023-24", yearLabel: "Year 2", sortOrder: 402, wins: 27, losses: 9, tournamentResult: "NCAA R32" },
@@ -1242,7 +1245,7 @@ async function main() {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 6, pointsPerGame: 2.2 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Redshirt Sophomore", sortOrder: 202, gamesPlayed: 23, minutesPerGame: 14.7, pointsPerGame: 5.0, reboundsPerGame: 2.6 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 11.0, reboundsPerGame: 4.5 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-01", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 39, pointsPerGame: 12.3, reboundsPerGame: 5.2, fieldGoalPct: 0.473 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-01", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 39, pointsPerGame: 12.3, reboundsPerGame: 5.2, fieldGoalPct: 0.473, threePointPct: 0.335, freeThrowPct: 0.733 },
         // Pro playing career — undrafted 2001; played in 12+ countries
         { level: "PROFESSIONAL", teamName: "Carolinas Basketball League", season: "2002-03", yearLabel: "Year 1", sortOrder: 301 },
         { level: "PROFESSIONAL", teamName: "Kaposvári KK (Hungary)", season: "2003-04", yearLabel: "Year 2", sortOrder: 302 },
@@ -1306,15 +1309,15 @@ async function main() {
       seasonStats: [
         // Duke College (1996-2000) — 2000 ACC Player of the Year, All-American
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1996-97", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 31, minutesPerGame: 16.2, pointsPerGame: 5.5, reboundsPerGame: 3.1, assistsPerGame: 1.1, fieldGoalPct: 0.576 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 10.1, reboundsPerGame: 3.1 },
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, pointsPerGame: 9.9, assistsPerGame: 3.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, minutesPerGame: 22.2, pointsPerGame: 10.1, reboundsPerGame: 3.7, assistsPerGame: 1.1, fieldGoalPct: 0.482, threePointPct: 0.368 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, pointsPerGame: 9.9, reboundsPerGame: 4.8, assistsPerGame: 3.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 34, minutesPerGame: 35.6, pointsPerGame: 16.9, reboundsPerGame: 6.1, assistsPerGame: 3.2, fieldGoalPct: 0.480, threePointPct: 0.360, freeThrowPct: 0.780 },
         // Pro playing career — drafted 41st by San Antonio Spurs (2000); never played for Spurs
         { level: "PROFESSIONAL", teamName: "Asheville Altitude (NBA D-League)", season: "2001-02", yearLabel: "Year 1", sortOrder: 301, gamesPlayed: 56, minutesPerGame: 22.9, pointsPerGame: 7.3, reboundsPerGame: 3.6, assistsPerGame: 1.8 },
         { level: "PROFESSIONAL", teamName: "Žalgiris Kaunas (Lithuania)", season: "2002-03", yearLabel: "Year 2", sortOrder: 302 },
         { level: "PROFESSIONAL", teamName: "Various (Germany)", season: "2003-04", yearLabel: "Year 3", sortOrder: 303 },
         { level: "PROFESSIONAL", teamName: "Sydney Kings (Australian NBL)", season: "2004-05", yearLabel: "Year 4", sortOrder: 304, gamesPlayed: 18, pointsPerGame: 13.1, reboundsPerGame: 7.1, assistsPerGame: 2.7 },
-        { level: "PROFESSIONAL", teamName: "Alaska Aces (Philippines PBA)", season: "2004-05", yearLabel: "Year 4b", sortOrder: 305 },
+        { level: "PROFESSIONAL", teamName: "Alaska Aces (Philippines PBA)", season: "2002-03", yearLabel: "Year 2b (PBA)", sortOrder: 305, gamesPlayed: 3, pointsPerGame: 18.3, reboundsPerGame: 8.7, fieldGoalPct: 0.440, threePointPct: 0.000, freeThrowPct: 0.355 },
         { level: "PROFESSIONAL", teamName: "Fayetteville Patriots (ABA)", season: "2005-06", yearLabel: "Year 5 — ABA MVP & Champion", sortOrder: 306 },
         { level: "PROFESSIONAL", teamName: "Nijmegen Magixx (Netherlands)", season: "2006-07", yearLabel: "Year 6", sortOrder: 307 },
       ],
