@@ -1,30 +1,12 @@
 import { PrismaClient } from "../app/generated/prisma/client";
 import { PrismaBetterSqlite3 } from "@prisma/adapter-better-sqlite3";
+import { getAlabamaPeople } from "./seeds/alabama-football-2015";
 
 const adapter = new PrismaBetterSqlite3({ url: process.env.DATABASE_PATH ?? "./dev.db" });
 const prisma = new PrismaClient({ adapter } as any);
 
-async function main() {
-  // ── Team ──────────────────────────────────────────────────────────────────
-  const teamData = {
-    name: "Duke Blue Devils",
-    season: "2014-2015",
-    sport: "Men's Basketball",
-    school: "Duke University",
-    conference: "ACC",
-    accomplishment: "NCAA National Champions",
-    logoUrl: "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
-    mascotName: "Blue Devil",
-  };
-
-  const team = await prisma.team.upsert({
-    where: { slug: "duke-basketball-2015" },
-    update: teamData,
-    create: { slug: "duke-basketball-2015", ...teamData },
-  });
-
-  // ── Helpers ───────────────────────────────────────────────────────────────
-  type PersonSeed = {
+// ── Shared Types ────────────────────────────────────────────────────────────
+export type PersonSeed = {
     slug: string;
     firstName: string;
     lastName: string;
@@ -93,7 +75,134 @@ async function main() {
     }[];
   };
 
-  const people: PersonSeed[] = [
+export type TeamSeed = {
+  slug: string;
+  name: string;
+  season: string;
+  sport: string;
+  school: string;
+  conference?: string;
+  accomplishment?: string;
+  logoUrl?: string;
+  mascotName?: string;
+};
+
+async function seedTeam(teamSeed: TeamSeed, people: PersonSeed[]) {
+  const { slug, ...teamData } = teamSeed;
+  const team = await prisma.team.upsert({
+    where: { slug },
+    update: teamData,
+    create: { slug, ...teamData },
+  });
+
+  for (const p of people) {
+    const personData = {
+      firstName: p.firstName,
+      lastName: p.lastName,
+      birthYear: p.birthYear,
+      hometown: p.hometown,
+      highSchool: p.highSchool ?? null,
+      imageUrl: p.imageUrl ?? null,
+      collegeImageUrl: p.collegeImageUrl ?? null,
+      bio: p.bio ?? null,
+      isFeatured: p.isFeatured ?? false,
+    };
+
+    const person = await prisma.person.upsert({
+      where: { slug: p.slug },
+      update: personData,
+      create: { slug: p.slug, ...personData },
+    });
+
+    const statusData = {
+      occupationType: p.status.occupationType,
+      currentTitle: p.status.currentTitle ?? null,
+      currentEmployer: p.status.currentEmployer ?? null,
+      league: p.status.league ?? null,
+      location: p.status.location ?? null,
+      statusNote: p.status.statusNote ?? null,
+      asOfDate: new Date("2026-03-01"),
+      sourceUrl: p.status.sourceUrl ?? null,
+      linkedInUrl: p.status.linkedInUrl ?? null,
+    };
+
+    await prisma.currentStatus.upsert({
+      where: { personId: person.id },
+      update: statusData,
+      create: { personId: person.id, ...statusData },
+    });
+
+    const membershipData = {
+      role: p.membership.role,
+      jerseyNumber: p.membership.jerseyNumber ?? null,
+      position: p.membership.position ?? null,
+      yearsAtSchool: p.membership.yearsAtSchool ?? null,
+      statsNote: p.membership.statsNote ?? null,
+      gamesPlayed: p.membership.gamesPlayed ?? null,
+      pointsPerGame: p.membership.pointsPerGame ?? null,
+      reboundsPerGame: p.membership.reboundsPerGame ?? null,
+      assistsPerGame: p.membership.assistsPerGame ?? null,
+    };
+
+    await prisma.teamMembership.upsert({
+      where: { personId_teamId: { personId: person.id, teamId: team.id } },
+      update: membershipData,
+      create: { personId: person.id, teamId: team.id, ...membershipData },
+    });
+
+    if (p.seasonStats?.length) {
+      await prisma.seasonStats.deleteMany({ where: { personId: person.id } });
+      for (const stat of p.seasonStats) {
+        await prisma.seasonStats.create({
+          data: {
+            personId: person.id,
+            level: stat.level,
+            teamName: stat.teamName,
+            season: stat.season,
+            yearLabel: stat.yearLabel,
+            sortOrder: stat.sortOrder,
+            gamesPlayed: stat.gamesPlayed ?? null,
+            minutesPerGame: stat.minutesPerGame ?? null,
+            pointsPerGame: stat.pointsPerGame ?? null,
+            reboundsPerGame: stat.reboundsPerGame ?? null,
+            assistsPerGame: stat.assistsPerGame ?? null,
+            stealsPerGame: stat.stealsPerGame ?? null,
+            blocksPerGame: stat.blocksPerGame ?? null,
+            fieldGoalPct: stat.fieldGoalPct ?? null,
+            threePointPct: stat.threePointPct ?? null,
+            freeThrowPct: stat.freeThrowPct ?? null,
+            wins: stat.wins ?? null,
+            losses: stat.losses ?? null,
+            tournamentResult: stat.tournamentResult ?? null,
+          },
+        });
+      }
+    }
+
+    if (p.careerEvents) {
+      await prisma.careerEvent.deleteMany({ where: { personId: person.id } });
+      for (const event of p.careerEvents) {
+        await prisma.careerEvent.create({
+          data: {
+            personId: person.id,
+            year: event.year,
+            title: event.title,
+            eventType: event.eventType ?? null,
+            detail: event.detail ?? null,
+          },
+        });
+      }
+    }
+
+    console.log(`  ✓ ${p.firstName} ${p.lastName}`);
+  }
+
+  console.log(`\n✅ Seeded ${people.length} people for ${teamSeed.name} (${teamSeed.season})`);
+}
+
+async function main() {
+  // ── Duke Basketball 2015 ──────────────────────────────────────────────────
+  const dukePeople: PersonSeed[] = [
     // ── Players ──────────────────────────────────────────────────────────────
     {
       slug: "jahlil-okafor",
@@ -1331,109 +1440,36 @@ async function main() {
     },
   ];
 
-  for (const p of people) {
-    const personData = {
-      firstName: p.firstName,
-      lastName: p.lastName,
-      birthYear: p.birthYear,
-      hometown: p.hometown,
-      highSchool: p.highSchool ?? null,
-      imageUrl: p.imageUrl ?? null,
-      collegeImageUrl: p.collegeImageUrl ?? null,
-      bio: p.bio ?? null,
-      isFeatured: p.isFeatured ?? false,
-    };
+  await seedTeam(
+    {
+      slug: "duke-basketball-2015",
+      name: "Duke Blue Devils",
+      season: "2014-2015",
+      sport: "Men's Basketball",
+      school: "Duke University",
+      conference: "ACC",
+      accomplishment: "NCAA National Champions",
+      logoUrl: "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+      mascotName: "Blue Devil",
+    },
+    dukePeople,
+  );
 
-    const person = await prisma.person.upsert({
-      where: { slug: p.slug },
-      update: personData,
-      create: { slug: p.slug, ...personData },
-    });
-
-    const statusData = {
-      occupationType: p.status.occupationType,
-      currentTitle: p.status.currentTitle ?? null,
-      currentEmployer: p.status.currentEmployer ?? null,
-      league: p.status.league ?? null,
-      location: p.status.location ?? null,
-      statusNote: p.status.statusNote ?? null,
-      asOfDate: new Date("2026-03-01"),
-      sourceUrl: p.status.sourceUrl ?? null,
-      linkedInUrl: p.status.linkedInUrl ?? null,
-    };
-
-    await prisma.currentStatus.upsert({
-      where: { personId: person.id },
-      update: statusData,
-      create: { personId: person.id, ...statusData },
-    });
-
-    const membershipData = {
-      role: p.membership.role,
-      jerseyNumber: p.membership.jerseyNumber ?? null,
-      position: p.membership.position ?? null,
-      yearsAtSchool: p.membership.yearsAtSchool ?? null,
-      statsNote: p.membership.statsNote ?? null,
-      gamesPlayed: p.membership.gamesPlayed ?? null,
-      pointsPerGame: p.membership.pointsPerGame ?? null,
-      reboundsPerGame: p.membership.reboundsPerGame ?? null,
-      assistsPerGame: p.membership.assistsPerGame ?? null,
-    };
-
-    const membership = await prisma.teamMembership.upsert({
-      where: { personId_teamId: { personId: person.id, teamId: team.id } },
-      update: membershipData,
-      create: { personId: person.id, teamId: team.id, ...membershipData },
-    });
-
-    if (p.seasonStats?.length) {
-      await prisma.seasonStats.deleteMany({ where: { personId: person.id } });
-      for (const stat of p.seasonStats) {
-        await prisma.seasonStats.create({
-          data: {
-            personId: person.id,
-            level: stat.level,
-            teamName: stat.teamName,
-            season: stat.season,
-            yearLabel: stat.yearLabel,
-            sortOrder: stat.sortOrder,
-            gamesPlayed: stat.gamesPlayed ?? null,
-            minutesPerGame: stat.minutesPerGame ?? null,
-            pointsPerGame: stat.pointsPerGame ?? null,
-            reboundsPerGame: stat.reboundsPerGame ?? null,
-            assistsPerGame: stat.assistsPerGame ?? null,
-            stealsPerGame: stat.stealsPerGame ?? null,
-            blocksPerGame: stat.blocksPerGame ?? null,
-            fieldGoalPct: stat.fieldGoalPct ?? null,
-            threePointPct: stat.threePointPct ?? null,
-            freeThrowPct: stat.freeThrowPct ?? null,
-            wins: stat.wins ?? null,
-            losses: stat.losses ?? null,
-            tournamentResult: stat.tournamentResult ?? null,
-          },
-        });
-      }
-    }
-
-    if (p.careerEvents) {
-      await prisma.careerEvent.deleteMany({ where: { personId: person.id } });
-      for (const event of p.careerEvents) {
-        await prisma.careerEvent.create({
-          data: {
-            personId: person.id,
-            year: event.year,
-            title: event.title,
-            eventType: event.eventType ?? null,
-            detail: event.detail ?? null,
-          },
-        });
-      }
-    }
-
-    console.log(`  ✓ ${p.firstName} ${p.lastName}`);
-  }
-
-  console.log(`\n✅ Seeded ${people.length} people for the ${team.name} (${team.season})`);
+  // ── Alabama Football 2015 ────────────────────────────────────────────────
+  await seedTeam(
+    {
+      slug: "alabama-football-2015",
+      name: "Alabama Crimson Tide",
+      season: "2015-2016",
+      sport: "Football",
+      school: "University of Alabama",
+      conference: "SEC",
+      accomplishment: "CFP National Champions",
+      logoUrl: "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+      mascotName: "Big Al",
+    },
+    getAlabamaPeople(),
+  );
 }
 
 main()

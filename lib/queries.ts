@@ -101,3 +101,12 @@ export async function getTeamCount() {
 export async function getPersonCount() {
   return prisma.person.count();
 }
+
+export async function getAllTeams() {
+  return prisma.team.findMany({
+    include: {
+      _count: { select: { memberships: true } },
+    },
+    orderBy: { season: "desc" },
+  });
+}

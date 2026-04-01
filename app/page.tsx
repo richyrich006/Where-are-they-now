@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Suspense } from "react";
-import { getFeaturedPlayers, getPersonCount, getTeamCount, getRemarkableStories } from "@/lib/queries";
+import { getFeaturedPlayers, getPersonCount, getTeamCount, getRemarkableStories, getAllTeams } from "@/lib/queries";
 import { PlayerCard } from "@/components/players/PlayerCard";
 import { SearchBar } from "@/components/search/SearchBar";
 import { formatOccupationType } from "@/lib/utils";
@@ -21,12 +21,21 @@ const storyIcon: Record<string, string> = {
   STUDENT: "📚",
 };
 
+const sportEmoji: Record<string, string> = {
+  "Men's Basketball": "🏀",
+  "Football": "🏈",
+  "Women's Basketball": "🏀",
+  "Baseball": "⚾",
+  "Soccer": "⚽",
+};
+
 export default async function HomePage() {
-  const [featured, totalCount, teamCount, stories] = await Promise.all([
+  const [featured, totalCount, teamCount, stories, teams] = await Promise.all([
     getFeaturedPlayers(),
     getPersonCount(),
     getTeamCount(),
     getRemarkableStories(),
+    getAllTeams(),
   ]);
 
   return (
@@ -36,14 +45,14 @@ export default async function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:py-24">
           <div className="max-w-2xl">
             <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-blue-300">
-              2015 NCAA National Champions
+              Tracking Championship Legacies
             </p>
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
-              Duke Blue Devils —<br />Where Are They Now?
+              Where Are They Now?
             </h1>
             <p className="mt-4 text-lg text-blue-100">
-              From NBA championships to the U.S. Army, from the sidelines to the boardroom.
-              Follow the extraordinary journeys of the greatest teams in college basketball history.
+              From pro leagues to the boardroom, from the sidelines to startups.
+              Follow the extraordinary journeys of the greatest teams in college sports history.
             </p>
             <div className="mt-8 max-w-md">
               <Suspense>
@@ -52,10 +61,10 @@ export default async function HomePage() {
             </div>
             <div className="mt-6 flex flex-wrap gap-4 text-sm">
               <Link
-                href="/teams/duke-basketball-2015"
+                href="/teams"
                 className="rounded-lg bg-white px-5 py-2.5 font-semibold text-blue-800 hover:bg-blue-50 transition"
               >
-                View Full Roster →
+                Browse All Teams →
               </Link>
               <span className="flex items-center text-blue-200">
                 {totalCount} athletes tracked across {teamCount}{" "}
@@ -66,23 +75,59 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Featured Players */}
+      {/* Teams */}
       <section className="mx-auto max-w-6xl px-4 py-12">
         <div className="mb-6 flex items-center justify-between">
-          <h2 className="text-2xl font-bold text-gray-900">Featured Players</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Teams</h2>
           <Link
-            href="/teams/duke-basketball-2015"
+            href="/teams"
             className="text-sm font-semibold text-blue-700 hover:underline"
           >
-            See full roster →
+            View all teams →
           </Link>
         </div>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-          {featured.map((person) => (
-            <PlayerCard key={person.slug} person={person} />
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {teams.map((team) => (
+            <Link
+              key={team.slug}
+              href={`/teams/${team.slug}`}
+              className="group flex items-center gap-4 rounded-xl border border-gray-200 bg-white p-5 transition hover:border-blue-300 hover:shadow-md"
+            >
+              <span className="text-3xl">{sportEmoji[team.sport] ?? "🏅"}</span>
+              <div className="min-w-0">
+                <h3 className="font-bold text-gray-900 group-hover:text-blue-700 truncate">
+                  {team.name}
+                </h3>
+                <p className="text-sm text-gray-500">
+                  {team.season} · {team.sport}
+                </p>
+                {team.accomplishment && (
+                  <p className="mt-0.5 text-xs font-semibold text-yellow-700">
+                    🏆 {team.accomplishment}
+                  </p>
+                )}
+                <p className="mt-0.5 text-xs text-gray-400">
+                  {team._count.memberships} members tracked
+                </p>
+              </div>
+            </Link>
           ))}
         </div>
       </section>
+
+      {/* Featured Players */}
+      {featured.length > 0 && (
+        <section className="mx-auto max-w-6xl px-4 py-12">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-gray-900">Featured Players</h2>
+          </div>
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+            {featured.map((person) => (
+              <PlayerCard key={person.slug} person={person} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Remarkable Journeys — generated from DB */}
       {stories.length > 0 && (

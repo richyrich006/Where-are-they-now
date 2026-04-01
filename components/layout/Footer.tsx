@@ -10,8 +10,8 @@ export function Footer() {
             Celebrating the journeys of college athletes beyond the game.
           </p>
           <nav className="flex gap-4 text-xs text-gray-500">
-            <Link href="/teams/duke-basketball-2015" className="hover:text-gray-800">
-              2015 Duke Basketball
+            <Link href="/teams" className="hover:text-gray-800">
+              Teams
             </Link>
             <Link href="/search" className="hover:text-gray-800">
               Search
