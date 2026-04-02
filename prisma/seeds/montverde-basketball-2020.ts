@@ -168,8 +168,8 @@ export function getMontverdepeople(): PersonSeed[] {
         currentTitle: "Point Guard",
         league: "NBA",
         statusNote:
-          "After playing at Gonzaga (2021-2024), Nembhard was drafted in the 2024 NBA Draft. He followed in the footsteps of his older brother Andrew Nembhard, who plays for the Indiana Pacers. Ryan was one of seven players from the 2019-20 Montverde team to reach the NBA.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Ryan_Nembhard",
+          "After two years at Creighton where he was Big East Freshman of the Year, Nembhard transferred to Gonzaga and became one of college basketball's top point guards, averaging 13 points and 7 assists. He declared for the 2025 NBA Draft and is projected as a first or second round pick. His older brother Andrew Nembhard plays for the Indiana Pacers.",
+        sourceUrl: "https://www.espn.com/mens-college-basketball/player/_/id/4683230/ryan-nembhard",
       },
       membership: {
         role: "PLAYER",
