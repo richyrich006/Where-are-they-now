@@ -247,29 +247,6 @@ export const dukeBasketball2005: TeamSeed = {
       careerEvents: [{ year: 2009, title: "Named personal aide to President Obama", eventType: "CAREER" }],
     },
     {
-      slug: "eric-boateng",
-      firstName: "Eric",
-      lastName: "Boateng",
-      birthYear: 1985,
-      hometown: "London, England",
-      highSchool: "St. Andrew's School, Middletown, DE",
-      isFeatured: false,
-      bio: "A British center who spent one year at Duke before transferring to Arizona State. He represented Great Britain at the 2012 London Olympics.",
-      status: {
-        occupationType: "OTHER",
-        currentTitle: "Sports Management Professional",
-        location: "London, England",
-        statusNote:
-          "After transferring to Arizona State and going undrafted in 2010, Boateng played in the D-League and overseas. He represented Great Britain at the 2012 London Olympics. He served two terms on the British Olympic Association Athletes' Commission (2014-2022) and mentored Team GB athletes at the 2024 Paris Olympics.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Eric_Boateng",
-      },
-      membership: { role: "PLAYER", jerseyNumber: 45, position: "Center", yearsAtSchool: "2005-2006", statsNote: "Freshman • Transferred to Arizona State" },
-      careerEvents: [
-        { year: 2006, title: "Transferred to Arizona State", eventType: "OTHER" },
-        { year: 2012, title: "Represented Great Britain at London Olympics", eventType: "CAREER" },
-      ],
-    },
-    {
       slug: "david-mcclure",
       firstName: "David",
       lastName: "McClure",
