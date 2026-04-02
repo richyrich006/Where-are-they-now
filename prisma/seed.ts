@@ -4,11 +4,12 @@ import type { TeamSeed, PersonSeed } from "./seeds/types";
 import { dukeBasketball2015 } from "./seeds/duke-basketball-2015";
 import { uscFootball2005 } from "./seeds/usc-football-2005";
 import { montverdeAcademy2020 } from "./seeds/montverde-academy-2020";
+import { alabamaFootball2015 } from "./seeds/alabama-football-2015";
 
 const adapter = new PrismaBetterSqlite3({ url: process.env.DATABASE_PATH ?? "./dev.db" });
 const prisma = new PrismaClient({ adapter } as any);
 
-const allTeams: TeamSeed[] = [dukeBasketball2015, uscFootball2005, montverdeAcademy2020];
+const allTeams: TeamSeed[] = [dukeBasketball2015, uscFootball2005, montverdeAcademy2020, alabamaFootball2015];
 
 async function seedTeam(teamSeed: TeamSeed) {
   const teamData = {

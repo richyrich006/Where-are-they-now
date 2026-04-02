@@ -1,7 +1,16 @@
-import type { PersonSeed } from "../seed";
+import type { TeamSeed } from "./types";
 
-export function getAlabamaPeople(): PersonSeed[] {
-  return [
+export const alabamaFootball2015: TeamSeed = {
+  slug: "alabama-football-2015",
+  name: "Alabama Crimson Tide",
+  season: "2015-2016",
+  sport: "Football",
+  school: "University of Alabama",
+  conference: "SEC",
+  accomplishment: "CFP National Champions (14-1)",
+  logoUrl: "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+  mascotName: "Big Al",
+  people: [
     // ── Coaches ────────────────────────────────────────────────────────────
     {
       slug: "nick-saban",
@@ -1450,5 +1459,5 @@ export function getAlabamaPeople(): PersonSeed[] {
         { year: 2019, title: "Drafted by Carolina Panthers (4th round, #115)", eventType: "DRAFT" },
       ],
     },
-  ];
-}
+  ],
+};
