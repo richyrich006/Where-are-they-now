@@ -5,11 +5,26 @@ import { dukeBasketball2015 } from "./seeds/duke-basketball-2015";
 import { uscFootball2005 } from "./seeds/usc-football-2005";
 import { montverdeAcademy2020 } from "./seeds/montverde-academy-2020";
 import { alabamaFootball2015 } from "./seeds/alabama-football-2015";
+import { dukeBasketball2001 } from "./seeds/duke-basketball-2001";
+import { dukeBasketball2002 } from "./seeds/duke-basketball-2002";
+import { dukeBasketball2003 } from "./seeds/duke-basketball-2003";
+import { dukeBasketball2004 } from "./seeds/duke-basketball-2004";
+import { dukeBasketball2005 } from "./seeds/duke-basketball-2005";
 
 const adapter = new PrismaBetterSqlite3({ url: process.env.DATABASE_PATH ?? "./dev.db" });
 const prisma = new PrismaClient({ adapter } as any);
 
-const allTeams: TeamSeed[] = [dukeBasketball2015, uscFootball2005, montverdeAcademy2020, alabamaFootball2015];
+const allTeams: TeamSeed[] = [
+  dukeBasketball2015,
+  dukeBasketball2005,
+  dukeBasketball2004,
+  dukeBasketball2003,
+  dukeBasketball2002,
+  dukeBasketball2001,
+  uscFootball2005,
+  montverdeAcademy2020,
+  alabamaFootball2015,
+];
 
 async function seedTeam(teamSeed: TeamSeed) {
   const teamData = {
