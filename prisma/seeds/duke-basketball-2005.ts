@@ -55,7 +55,7 @@ export const dukeBasketball2005: TeamSeed = {
       bio: "A dominant shot-blocking center and Duke's all-time blocks leader.",
       status: {
         occupationType: "COACH",
-        currentTitle: "Basketball Coach / Trainer",
+        currentTitle: "Podcast Host / Foundation Director",
         location: "Atlanta, GA",
         statusNote:
           "Selected #5 overall by the Hawks in 2006. Now involved in youth basketball coaching in Atlanta.",
@@ -146,11 +146,12 @@ export const dukeBasketball2005: TeamSeed = {
       isFeatured: false,
       bio: "A McDonald's All-American power forward from Raleigh.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired Basketball Player",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Owner / Investor",
+        currentEmployer: "Big Prime Hauling",
         location: "Raleigh, NC",
         statusNote:
-          "Went undrafted in 2006. Played briefly in the NBA and overseas.",
+          "Randolph went undrafted but played in the NBA with the 76ers and Celtics. He now runs Big Prime Hauling, a trucking company in North Carolina.",
         sourceUrl: "https://en.wikipedia.org/wiki/Shavlik_Randolph",
       },
       membership: {
@@ -178,11 +179,12 @@ export const dukeBasketball2005: TeamSeed = {
       bio: "A sharpshooting guard and four-year contributor.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "Business Professional",
-        location: "Philadelphia, PA",
+        currentTitle: "Sports Agent",
+        currentEmployer: "Wasserman Media Group",
+        location: "Los Angeles, CA",
         statusNote:
-          "After Duke, Melchionni played briefly overseas before transitioning to business in the Philadelphia area.",
-        sourceUrl: "https://goduke.com/sports/mens-basketball/roster/lee-melchionni/4250",
+          "After Duke, Melchionni played one season in Italy then became an NBA player agent at Wasserman Media Group.",
+        sourceUrl: "https://lancasteronline.com/sports/nba/basketball-still-melchionni-s-business/article_f4a85d66-0400-11e4-a2ab-001a4bcf6878.html",
       },
       membership: {
         role: "PLAYER",
@@ -205,12 +207,13 @@ export const dukeBasketball2005: TeamSeed = {
       isFeatured: false,
       bio: "A quick, athletic point guard remembered for his buzzer-beating half-court shot against Virginia Tech.",
       status: {
-        occupationType: "COACH",
-        currentTitle: "Basketball Coach",
-        location: "Milwaukee, WI",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Owner / Basketball Trainer",
+        currentEmployer: "Dockery Basketball Academy",
+        location: "San Antonio, TX",
         statusNote:
-          "After Duke, Dockery played overseas. He transitioned to coaching and youth basketball development.",
-        sourceUrl: "https://goduke.com/sports/mens-basketball/roster/sean-dockery/4252",
+          "After Duke, Dockery played overseas then coached with the Spurs and Grizzlies. He now runs Dockery Basketball Academy in San Antonio.",
+        sourceUrl: "http://www.dockerybasketball.com/about-us/",
       },
       membership: {
         role: "PLAYER",

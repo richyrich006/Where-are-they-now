@@ -121,7 +121,7 @@ export const dukeBasketball2003: TeamSeed = {
       bio: "A dominant shot-blocking center who became Duke's all-time leader in blocked shots. Williams was the 2006 NABC Defensive Player of the Year.",
       status: {
         occupationType: "COACH",
-        currentTitle: "Basketball Coach / Trainer",
+        currentTitle: "Podcast Host / Foundation Director",
         location: "Atlanta, GA",
         statusNote:
           "Selected #5 overall by the Atlanta Hawks in 2006, Williams played six NBA seasons with the Hawks, Kings, Celtics, Nuggets, and Nets. After his playing career, he has been involved in youth basketball coaching and player development in the Atlanta area. He was formerly married to WNBA star Candace Parker.",
@@ -183,11 +183,12 @@ export const dukeBasketball2003: TeamSeed = {
       isFeatured: false,
       bio: "A highly touted McDonald's All-American power forward from nearby Raleigh who joined Duke as a top-10 recruit.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired Basketball Player",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Owner / Investor",
+        currentEmployer: "Big Prime Hauling",
         location: "Raleigh, NC",
         statusNote:
-          "After four years at Duke, Randolph went undrafted in 2006 and played briefly for the Philadelphia 76ers and Miami Heat. He also played overseas in Europe and Asia. After retiring from basketball, he has maintained a private life in the Raleigh area.",
+          "The #1 recruit in the nation when he signed with Duke, Randolph went undrafted in 2005 but played in the NBA with the 76ers and Celtics plus overseas. After retiring, he invested in Big Prime Hauling, a minority-owned trucking and heavy equipment transport company in North Carolina. In 2021 it was acquired by Bright Hope Capital, which invested $2.5 million to expand operations by 2025.",
         sourceUrl: "https://en.wikipedia.org/wiki/Shavlik_Randolph",
       },
       membership: {
@@ -242,11 +243,12 @@ export const dukeBasketball2003: TeamSeed = {
       bio: "A sharpshooting guard who was a four-year contributor and became a reliable perimeter threat for the Blue Devils.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "Business Professional",
-        location: "Philadelphia, PA",
+        currentTitle: "Sports Agent",
+        currentEmployer: "Wasserman Media Group",
+        location: "Los Angeles, CA",
         statusNote:
-          "After graduating from Duke in 2006, Melchionni played professionally overseas briefly before transitioning to a career in business. He has worked in the financial services industry in the Philadelphia area. His father Bill Melchionni was an ABA star with the New York Nets.",
-        sourceUrl: "https://goduke.com/sports/mens-basketball/roster/lee-melchionni/4250",
+          "After graduating from Duke in 2006, Melchionni played one professional season in Italy with Cimberio Novara. He then transitioned to sports representation, becoming an NBA player agent at Wasserman Media Group, representing clients such as Danilo Gallinari. He also attended Loyola Law School. His father Bill Melchionni was an ABA star with the New York Nets.",
+        sourceUrl: "https://lancasteronline.com/sports/nba/basketball-still-melchionni-s-business/article_f4a85d66-0400-11e4-a2ab-001a4bcf6878.html",
       },
       membership: {
         role: "PLAYER",

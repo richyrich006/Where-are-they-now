@@ -122,7 +122,7 @@ export const dukeBasketball2004: TeamSeed = {
       bio: "A dominant shot-blocking center who became Duke's all-time leader in blocked shots.",
       status: {
         occupationType: "COACH",
-        currentTitle: "Basketball Coach / Trainer",
+        currentTitle: "Podcast Host / Foundation Director",
         location: "Atlanta, GA",
         statusNote:
           "Selected #5 overall by the Hawks in 2006, Williams played six NBA seasons. He is now involved in youth basketball coaching in Atlanta.",
@@ -185,11 +185,12 @@ export const dukeBasketball2004: TeamSeed = {
       isFeatured: false,
       bio: "A McDonald's All-American power forward from Raleigh.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired Basketball Player",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Owner / Investor",
+        currentEmployer: "Big Prime Hauling",
         location: "Raleigh, NC",
         statusNote:
-          "Randolph went undrafted in 2006 and played briefly in the NBA and overseas before retiring.",
+          "Randolph went undrafted but played in the NBA with the 76ers and Celtics. After retiring, he invested in Big Prime Hauling, a trucking company in North Carolina.",
         sourceUrl: "https://en.wikipedia.org/wiki/Shavlik_Randolph",
       },
       membership: {
@@ -216,12 +217,13 @@ export const dukeBasketball2004: TeamSeed = {
       isFeatured: false,
       bio: "A quick, athletic point guard who backed up Duhon and is remembered for his buzzer-beating half-court shot against Virginia Tech in 2005.",
       status: {
-        occupationType: "COACH",
-        currentTitle: "Basketball Coach",
-        location: "Milwaukee, WI",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Owner / Basketball Trainer",
+        currentEmployer: "Dockery Basketball Academy",
+        location: "San Antonio, TX",
         statusNote:
-          "After Duke, Dockery played professionally overseas in Israel, Japan, and Europe. He transitioned to coaching and has been involved in youth basketball development. He is best remembered for his buzzer-beating half-court heave that beat Virginia Tech in 2005.",
-        sourceUrl: "https://goduke.com/sports/mens-basketball/roster/sean-dockery/4252",
+          "After Duke, Dockery played professionally overseas before working as a player development coach for the San Antonio Spurs (2016-17) and Memphis Grizzlies (2017-18). He now runs Dockery Basketball Academy in San Antonio, a year-round training program for youth and professional players. Best remembered for his buzzer-beating half-court shot against Virginia Tech in 2005.",
+        sourceUrl: "http://www.dockerybasketball.com/about-us/",
       },
       membership: {
         role: "PLAYER",
