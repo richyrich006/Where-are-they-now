@@ -11,7 +11,6 @@ export function getAlabamaPeople(): PersonSeed[] {
       hometown: "Fairmont, WV",
       highSchool: "Monongah High School, Fairmont, WV",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/3114591.png",
       bio: "Legendary head coach who led Alabama to six national championships including the 2015 CFP title over Clemson. Retired in January 2024 as the most decorated coach in college football history with a 292-71-1 career record.",
       status: {
         occupationType: "BROADCASTER_ANALYST",
@@ -110,7 +109,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       hometown: "Yulee, FL",
       highSchool: "Yulee High School, Yulee, FL",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3043078.png",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3043078.png",
       bio: "Heisman Trophy-winning running back who rushed for 2,219 yards and 28 touchdowns in 2015, leading the nation in both categories. His dominant performance powered Alabama to the CFP National Championship.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -178,7 +177,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       hometown: "Fort Lauderdale, FL",
       highSchool: "Monarch High School, Coconut Creek, FL",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3925357.png",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3925357.png",
       bio: "True freshman wide receiver who made an immediate impact with 68 catches for 1,045 yards and 7 touchdowns in 2015, leading the team in receiving. Went on to become a first-round NFL draft pick.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -212,6 +211,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1994,
       hometown: "Powder Springs, GA",
       highSchool: "Hillgrove High School, Powder Springs, GA",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/2979843.png",
       bio: "Versatile running back who complemented Derrick Henry in the Alabama backfield. Known for his speed and receiving ability, he was a key contributor on the 2015 championship team.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -243,6 +243,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1994,
       hometown: "West Chester, OH",
       highSchool: "Lakota West High School, West Chester, OH",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/2578475.png",
       bio: "Dominant center who won the Remington Trophy as the nation's best center in 2015. Anchored the offensive line that paved the way for Derrick Henry's Heisman season and Alabama's championship run.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -275,6 +276,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1993,
       hometown: "Madison, AL",
       highSchool: "Bob Jones High School, Madison, AL",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/2979855.png",
       bio: "First-team All-American linebacker and SEC Defensive Player of the Year in 2015. Recorded 102 tackles, 7 TFLs, and 2.5 sacks while leading the defense to a championship.",
       status: {
         occupationType: "COACH",
@@ -307,6 +309,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1995,
       hometown: "Fort Worth, TX",
       highSchool: "Arlington Heights High School, Fort Worth, TX",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3054857.png",
       bio: "Consensus All-American defensive lineman who was a dominant force on Alabama's championship defense. Started 29 games over two seasons and was a cornerstone of the 2015 title run.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -339,6 +342,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1992,
       hometown: "Goldsboro, NC",
       highSchool: "Goldsboro High School, Goldsboro, NC",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3115312.png",
       bio: "Junior college transfer who became a dominant interior defensive lineman. Played in all 15 games in 2015 with 57 tackles, helping anchor the defense in the championship run.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -373,7 +377,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       hometown: "Ashburn, VA",
       highSchool: "Stone Bridge High School, Ashburn, VA",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3139477.png",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png",
       bio: "Sophomore defensive lineman in 2015 who developed into one of the best players in college football by 2016, winning numerous defensive player of the year awards. Key contributor to the 2015 championship defense.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -407,6 +411,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1993,
       hometown: "Lauderdale Lakes, FL",
       highSchool: "Boyd Anderson High School, Lauderdale Lakes, FL",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3054847.png",
       bio: "Safety who was a key contributor to the 2015 championship secondary. Known for his ball-hawking ability and versatility on defense.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -441,7 +446,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       hometown: "Old Bridge, NJ",
       highSchool: "St. Peter's Prep, Jersey City, NJ",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3925345.png",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3925345.png",
       bio: "True freshman defensive back in 2015 who went on to become one of the best safeties in the NFL. Contributed immediately as a freshman on the championship team before becoming a star in 2016 and 2017.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -476,7 +481,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1996,
       hometown: "Hoover, AL",
       highSchool: "Hoover High School, Hoover, AL",
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126356.png",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3126356.png",
       bio: "True freshman cornerback in 2015 who contributed immediately to the championship secondary. Son of former NFL running back Bobby Humphrey, he developed into one of the premier corners in the NFL.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -509,6 +514,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1997,
       hometown: "Birmingham, AL",
       highSchool: "Shades Valley High School, Irondale, AL",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3925354.png",
       bio: "Five-star recruit who enrolled as a true freshman in 2015 and contributed on the defensive line. Went on to win another championship in 2017 before becoming a first-round NFL pick.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -540,6 +546,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1993,
       hometown: "Baltimore, MD",
       highSchool: "Gilman School, Baltimore, MD",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/2979849.png",
       bio: "Senior cornerback and elite punt returner in 2015. Named Defensive MVP of the Cotton Bowl after a game-sealing interception in Alabama's 38-0 shutout of Michigan State.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -571,6 +578,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1993,
       hometown: "Fultondale, AL",
       highSchool: "Fultondale High School, Fultondale, AL",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3054860.png",
       bio: "Sophomore wide receiver in 2015 who was a key part of Alabama's receiving corps alongside Calvin Ridley. Had his breakout year in 2016, earning first-team All-SEC honors.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -632,6 +640,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1994,
       hometown: "Autaugaville, AL",
       highSchool: "Autauga Academy, Prattville, AL",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3043080.png",
       bio: "Athletic tight end who was a key receiving threat and blocker. Named MVP of the 2015 National Championship Game with a dominant performance against Clemson.",
       status: {
         occupationType: "COACH",
@@ -692,6 +701,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1995,
       hometown: "West Monroe, LA",
       highSchool: "West Monroe High School, West Monroe, LA",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3115313.png",
       bio: "Sophomore starting left tackle who was the first true freshman to start at left tackle for Alabama since Andre Smith in 2006. Started all 15 games in 2015, anchoring the blind side for Jake Coker and Derrick Henry.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -724,6 +734,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1994,
       hometown: "Roanoke, AL",
       highSchool: "Handley High School, Roanoke, AL",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3054842.png",
       bio: "Versatile offensive lineman who started at right guard in 2015, helping pave the way for Derrick Henry's Heisman season. Later moved to center and became an All-American in 2017.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -755,6 +766,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1995,
       hometown: "Cedar Falls, IA",
       highSchool: "Cedar Falls High School, Cedar Falls, IA",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3126364.png",
       bio: "Redshirt freshman starting left guard in 2015 who went on to start 57 career games at Alabama. Earned All-SEC honors in three consecutive seasons and was a finalist for the Rimington Trophy as a senior center.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -783,14 +795,17 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1994,
       hometown: "San Mateo, CA",
       highSchool: "Homestead High School, Cupertino, CA",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3126357.png",
       bio: "Senior starting right tackle who transferred from College of San Mateo. Started all 15 games in 2015, helping the offensive line allow just 16 sacks while blocking for Derrick Henry's record-setting season.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired",
-        location: "California",
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Offensive Lineman",
+        currentEmployer: "Jacksonville Sharks",
+        league: "Indoor Football League",
+        location: "Jacksonville, FL",
         statusNote:
-          "Jackson went undrafted in 2016 and signed with Washington before spending time on the Detroit Lions roster. His NFL career was brief, primarily as a reserve tackle. He has been out of professional football since the late 2010s.",
-        sourceUrl: "https://www.pro-football-reference.com/players/J/JackDo00.htm",
+          "Jackson went undrafted in 2016 and signed with Washington before spending time on the Detroit Lions roster. After his brief NFL career, he continued playing football and is currently on the 2025 roster of the Jacksonville Sharks in the Indoor Football League, where he has appeared in 4 games.",
+        sourceUrl: "https://jaxsharks.com/sports/football/roster/dominick-jackson/97",
       },
       membership: {
         role: "PLAYER",
@@ -811,6 +826,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1994,
       hometown: "Auburn, AL",
       highSchool: "Auburn High School, Auburn, AL",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3054844.png",
       bio: "Starting WILL linebacker in 2015 who led the team with 10 tackles in the National Championship Game against Clemson. A four-star recruit who was the top inside linebacker of his class.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -842,6 +858,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1993,
       hometown: "Baton Rouge, LA",
       highSchool: "University Lab School, Baton Rouge, LA",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3054862.png",
       bio: "Explosive pass rusher who was a key rotational player off the edge in 2015. Totaled 21 career sacks at Alabama and became a feared edge defender by 2016.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -872,6 +889,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1994,
       hometown: "Daphne, AL",
       highSchool: "Daphne High School, Daphne, AL",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/2976495.png",
       bio: "Outside linebacker who was a rotational player in 2015, contributing to the championship defense. Became a first-team All-SEC selection in 2016 with 19 tackles for loss and 9 sacks.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -902,6 +920,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1995,
       hometown: "Auburn, AL",
       highSchool: "Auburn High School, Auburn, AL",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3126349.png",
       bio: "Sophomore linebacker who was a key backup behind Reggie Ragland and Reuben Foster in 2015. Developed into a starter by 2017 and became a first-round NFL draft pick.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -933,6 +952,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1994,
       hometown: "McDonough, GA",
       highSchool: "Henry County High School, McDonough, GA",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/2979860.png",
       bio: "Backup defensive lineman behind Jarran Reed in 2015 who developed into a key starter by 2016. Played in all 15 games during the championship season.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -996,6 +1016,7 @@ export function getAlabamaPeople(): PersonSeed[] {
       birthYear: 1995,
       hometown: "Denver, CO",
       highSchool: "Mullen High School, Denver, CO",
+      imageUrl: "https://a.espncdn.com/i/headshots/nfl/players/full/3126368.png",
       bio: "True freshman punter in 2015 who immediately became one of the best punters in the country. Holds Alabama's school record for career punting yards (11,074) and career punting average (45.6).",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
