@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "seed": "tsx prisma/seed.ts"
+    "seed": "tsx prisma/seed.ts",
+    "fetch-roster": "tsx prisma/scripts/fetch-roster.ts",
+    "generate-seed": "tsx prisma/scripts/generate-seed.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

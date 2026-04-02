@@ -1,0 +1,22 @@
+{
+  "basketball": {
+    "duke": { "espnId": 150, "name": "Duke Blue Devils", "school": "Duke University" },
+    "unc": { "espnId": 153, "name": "UNC Tar Heels", "school": "University of North Carolina" },
+    "kentucky": { "espnId": 96, "name": "Kentucky Wildcats", "school": "University of Kentucky" },
+    "kansas": { "espnId": 2305, "name": "Kansas Jayhawks", "school": "University of Kansas" },
+    "uconn": { "espnId": 41, "name": "UConn Huskies", "school": "University of Connecticut" },
+    "villanova": { "espnId": 222, "name": "Villanova Wildcats", "school": "Villanova University" },
+    "gonzaga": { "espnId": 2250, "name": "Gonzaga Bulldogs", "school": "Gonzaga University" },
+    "michigan-state": { "espnId": 127, "name": "Michigan State Spartans", "school": "Michigan State University" }
+  },
+  "football": {
+    "usc": { "espnId": 30, "cfbdName": "USC", "name": "USC Trojans", "school": "University of Southern California" },
+    "alabama": { "espnId": 333, "cfbdName": "Alabama", "name": "Alabama Crimson Tide", "school": "University of Alabama" },
+    "ohio-state": { "espnId": 194, "cfbdName": "Ohio State", "name": "Ohio State Buckeyes", "school": "Ohio State University" },
+    "clemson": { "espnId": 228, "cfbdName": "Clemson", "name": "Clemson Tigers", "school": "Clemson University" },
+    "lsu": { "espnId": 99, "cfbdName": "LSU", "name": "LSU Tigers", "school": "Louisiana State University" },
+    "georgia": { "espnId": 61, "cfbdName": "Georgia", "name": "Georgia Bulldogs", "school": "University of Georgia" },
+    "michigan": { "espnId": 130, "cfbdName": "Michigan", "name": "Michigan Wolverines", "school": "University of Michigan" },
+    "texas": { "espnId": 251, "cfbdName": "Texas", "name": "Texas Longhorns", "school": "University of Texas" }
+  }
+}
