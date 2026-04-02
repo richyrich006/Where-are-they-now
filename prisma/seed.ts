@@ -1,6 +1,8 @@
 import { PrismaClient } from "../app/generated/prisma/client";
 import { PrismaBetterSqlite3 } from "@prisma/adapter-better-sqlite3";
 import { getAlabamaPeople } from "./seeds/alabama-football-2015";
+import { getUSCPeople } from "./seeds/usc-football-2005";
+import { getMontverdepeople } from "./seeds/montverde-basketball-2020";
 
 const adapter = new PrismaBetterSqlite3({ url: process.env.DATABASE_PATH ?? "./dev.db" });
 const prisma = new PrismaClient({ adapter } as any);
@@ -1469,6 +1471,37 @@ async function main() {
       mascotName: "Big Al",
     },
     getAlabamaPeople(),
+  );
+
+  // ── USC Football 2005 ─────────────────────────────────────────────────────
+  await seedTeam(
+    {
+      slug: "usc-football-2005",
+      name: "USC Trojans",
+      season: "2005",
+      sport: "Football",
+      school: "University of Southern California",
+      conference: "Pac-10",
+      accomplishment: "BCS National Championship Game (12-1)",
+      logoUrl: "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+      mascotName: "Tommy Trojan",
+    },
+    getUSCPeople(),
+  );
+
+  // ── Montverde Academy Basketball 2019-2020 ────────────────────────────────
+  await seedTeam(
+    {
+      slug: "montverde-basketball-2020",
+      name: "Montverde Academy Eagles",
+      season: "2019-2020",
+      sport: "Men's Basketball",
+      school: "Montverde Academy",
+      accomplishment: "GEICO Nationals Champions",
+      logoUrl: "https://mvasports.com/images/logos/site/site.png",
+      mascotName: "Eagle",
+    },
+    getMontverdepeople(),
   );
 }
 
