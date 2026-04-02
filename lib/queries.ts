@@ -103,6 +103,38 @@ export async function getAllTeams() {
   });
 }
 
+export async function getTeamsBySchool(school: string) {
+  return prisma.team.findMany({
+    where: { school },
+    include: {
+      _count: { select: { memberships: true } },
+    },
+    orderBy: { season: "desc" },
+  });
+}
+
+export async function getAllSchools() {
+  const teams = await prisma.team.findMany({
+    select: { school: true, logoUrl: true, sport: true },
+    orderBy: { school: "asc" },
+  });
+  const schoolMap = new Map<string, { logoUrl: string | null; sports: Set<string> }>();
+  for (const t of teams) {
+    const existing = schoolMap.get(t.school);
+    if (existing) {
+      existing.sports.add(t.sport);
+    } else {
+      schoolMap.set(t.school, { logoUrl: t.logoUrl, sports: new Set([t.sport]) });
+    }
+  }
+  return Array.from(schoolMap.entries()).map(([school, data]) => ({
+    school,
+    logoUrl: data.logoUrl,
+    sports: Array.from(data.sports),
+    slug: school.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""),
+  }));
+}
+
 export async function getTeamCount() {
   return prisma.team.count();
 }
