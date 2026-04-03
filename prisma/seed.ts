@@ -15,6 +15,7 @@ import { kentuckyBasketball2022 } from "./seeds/kentucky-basketball-2022";
 import { kentuckyBasketball2023 } from "./seeds/kentucky-basketball-2023";
 import { kentuckyBasketball2024 } from "./seeds/kentucky-basketball-2024";
 import { kentuckyBasketball2025 } from "./seeds/kentucky-basketball-2025";
+import { kentuckyBasketball2026 } from "./seeds/kentucky-basketball-2026";
 import { dukeBasketball2001 } from "./seeds/duke-basketball-2001";
 import { dukeBasketball2002 } from "./seeds/duke-basketball-2002";
 import { dukeBasketball2003 } from "./seeds/duke-basketball-2003";
@@ -31,6 +32,7 @@ const allTeams: TeamSeed[] = [
   dukeBasketball2003,
   dukeBasketball2002,
   dukeBasketball2001,
+  kentuckyBasketball2026,
   kentuckyBasketball2025,
   kentuckyBasketball2024,
   kentuckyBasketball2023,
