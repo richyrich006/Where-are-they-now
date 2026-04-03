@@ -30,7 +30,7 @@ export const kentuckyBasketball2024: TeamSeed = {
         statusNote: "Drafted #3 overall by the Houston Rockets in 2024 after leading the nation in three-point shooting at 52.1%. Averaging 13.5 PPG in 2025-26, shooting 40.7% from three. Scored 27 points with 9 threes (career high) vs. the Bucks on April 2, 2026. Son of UK legends Jeff Sheppard and Stacey Reed.",
         sourceUrl: "https://www.nba.com/player/1642263/reed-sheppard",
       },
-      membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 12.5 PPG • 52.1% from three (led nation) • #3 overall pick" },
+      membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 12.5 PPG • 52.1% from three (led nation) • #3 overall pick", gamesPlayed: 33, pointsPerGame: 12.5, reboundsPerGame: 4.1, assistsPerGame: 4.5 },
       careerEvents: [
         { year: 2024, title: "Selected #3 overall by the Houston Rockets", eventType: "DRAFT" },
       ],
@@ -54,7 +54,7 @@ export const kentuckyBasketball2024: TeamSeed = {
         statusNote: "Drafted #8 overall by the San Antonio Spurs in 2024 and immediately traded to the Minnesota Timberwolves. Traded again to the Chicago Bulls in February 2026.",
         sourceUrl: "https://en.wikipedia.org/wiki/Rob_Dillingham",
       },
-      membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 15.2 PPG off bench • 44.4% from three • #8 overall pick" },
+      membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 15.2 PPG off bench • 44.4% from three • #8 overall pick", gamesPlayed: 33, pointsPerGame: 15.2, assistsPerGame: 3.9 },
       careerEvents: [
         { year: 2024, title: "Selected #8 overall by San Antonio (traded to Minnesota)", eventType: "DRAFT" },
         { year: 2026, title: "Traded to Chicago Bulls", eventType: "TRADE" },

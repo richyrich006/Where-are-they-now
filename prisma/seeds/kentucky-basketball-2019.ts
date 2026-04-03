@@ -30,7 +30,7 @@ export const kentuckyBasketball2019: TeamSeed = {
         statusNote: "Drafted 13th overall by the Miami Heat in 2019, Herro won the 2022 Sixth Man of the Year award and signed a 4-year, $120M contract extension. He is averaging 21.6 PPG in 2025-26 and has developed into one of the Heat's core players.",
         sourceUrl: "https://en.wikipedia.org/wiki/Tyler_Herro",
       },
-      membership: { role: "PLAYER", jerseyNumber: 14, position: "Guard", yearsAtSchool: "2018-2019", statsNote: "Freshman • 14.0 PPG • Declared for NBA Draft" },
+      membership: { role: "PLAYER", jerseyNumber: 14, position: "Guard", yearsAtSchool: "2018-2019", statsNote: "Freshman • 14.0 PPG • Declared for NBA Draft", gamesPlayed: 37, pointsPerGame: 14.0, reboundsPerGame: 4.5, assistsPerGame: 2.5 },
       careerEvents: [
         { year: 2019, title: "Selected #13 overall by the Miami Heat", eventType: "DRAFT" },
         { year: 2022, title: "Won NBA Sixth Man of the Year", eventType: "AWARD" },
@@ -55,7 +55,7 @@ export const kentuckyBasketball2019: TeamSeed = {
         statusNote: "Drafted 12th overall by the Charlotte Hornets in 2019, Washington was traded to Dallas in February 2024 and signed a 4-year, $89M extension. Averaging 14.2 PPG, 7.1 RPG in 2025-26.",
         sourceUrl: "https://en.wikipedia.org/wiki/P._J._Washington",
       },
-      membership: { role: "PLAYER", jerseyNumber: 25, position: "Forward", yearsAtSchool: "2017-2019", statsNote: "Sophomore • 15.2 PPG • First-round pick" },
+      membership: { role: "PLAYER", jerseyNumber: 25, position: "Forward", yearsAtSchool: "2017-2019", statsNote: "Sophomore • 15.2 PPG • First-round pick", gamesPlayed: 37, pointsPerGame: 15.2, reboundsPerGame: 7.5, assistsPerGame: 1.7 },
       careerEvents: [
         { year: 2019, title: "Selected #12 overall by the Charlotte Hornets", eventType: "DRAFT" },
         { year: 2024, title: "Traded to Dallas Mavericks; signed $89M extension", eventType: "SIGNING" },
@@ -80,7 +80,7 @@ export const kentuckyBasketball2019: TeamSeed = {
         statusNote: "Drafted 29th overall by the San Antonio Spurs in 2019. Now the longest-tenured Spur on the roster, Johnson has been a consistent contributor throughout the team's rebuilding process.",
         sourceUrl: "https://en.wikipedia.org/wiki/Keldon_Johnson",
       },
-      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Forward", yearsAtSchool: "2018-2019", statsNote: "Freshman • 13.5 PPG • First-round pick" },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Forward", yearsAtSchool: "2018-2019", statsNote: "Freshman • 13.5 PPG • First-round pick", gamesPlayed: 37, pointsPerGame: 13.5, reboundsPerGame: 5.9, assistsPerGame: 1.6 },
       careerEvents: [
         { year: 2019, title: "Selected #29 overall by the San Antonio Spurs", eventType: "DRAFT" },
       ],

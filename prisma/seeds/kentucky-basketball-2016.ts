@@ -29,7 +29,7 @@ export const kentuckyBasketball2016: TeamSeed = {
         statusNote: "Drafted #34 by the Phoenix Suns in 2016, Ulis' NBA career was cut short by injuries from a car accident. He returned to Kentucky as a student assistant (2022-24) and led the 'La Familia' TBT team. Now an assistant coach at Arkansas under John Calipari.",
         sourceUrl: "https://arkansasrazorbacks.com/support-staff/tyler-ulis/",
       },
-      membership: { role: "PLAYER", jerseyNumber: 3, position: "Point Guard", yearsAtSchool: "2014-2016", statsNote: "Sophomore • SEC Player of the Year • 17.3 PPG, 7.0 APG" },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Point Guard", yearsAtSchool: "2014-2016", statsNote: "Sophomore • SEC Player of the Year • 17.3 PPG, 7.0 APG", gamesPlayed: 36, pointsPerGame: 17.3, reboundsPerGame: 2.9, assistsPerGame: 7.0 },
       careerEvents: [
         { year: 2016, title: "Won SEC Player of the Year", eventType: "AWARD" },
         { year: 2016, title: "Selected #34 overall by the Phoenix Suns", eventType: "DRAFT" },
@@ -55,7 +55,7 @@ export const kentuckyBasketball2016: TeamSeed = {
         statusNote: "Drafted #7 overall by the Denver Nuggets in 2016, Murray was a key contributor to the Nuggets' 2023 NBA Championship. Named a 2026 NBA All-Star (first career selection), averaging 25.5 PPG and 7.2 APG in 2025-26.",
         sourceUrl: "https://en.wikipedia.org/wiki/Jamal_Murray",
       },
-      membership: { role: "PLAYER", jerseyNumber: 23, position: "Guard", yearsAtSchool: "2015-2016", statsNote: "Freshman • 20.0 PPG • #7 overall pick" },
+      membership: { role: "PLAYER", jerseyNumber: 23, position: "Guard", yearsAtSchool: "2015-2016", statsNote: "Freshman • 20.0 PPG • #7 overall pick", gamesPlayed: 36, pointsPerGame: 20.0, reboundsPerGame: 5.2, assistsPerGame: 2.2 },
       careerEvents: [
         { year: 2016, title: "Selected #7 overall by the Denver Nuggets", eventType: "DRAFT" },
         { year: 2023, title: "Won NBA Championship with the Nuggets", eventType: "CHAMPIONSHIP" },
@@ -192,8 +192,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         occupationType: "OTHER",
         currentTitle: "Youth Basketball Trainer",
         location: "Kentucky",
-        statusNote: "Played professionally overseas in Estonia, Denmark, Latvia-Estonia League, and Slovakia. Last played pro around 2021. Now trains youth players across Kentucky and was inducted into the Madison County Sports Hall of Fame.",
-        sourceUrl: "https://www.linkedin.com/in/dominique-hawkins-25966492/",
+        linkedInUrl: "https://www.linkedin.com/in/dominique-hawkins-25966492/",
+        statusNote: "Named Most Outstanding Player of the 2017 SEC Tournament. After Kentucky, played overseas in Estonia (Avis Rapla), Denmark, Latvia-Estonia League, and Slovakia (Lucenec, where he scored a career-high 31 in a 2021 playoff game). Since retiring around 2021, he runs D-Hawk Training, a youth basketball business in Richmond, KY. Inducted into the Madison County Sports Hall of Fame in 2024.",
+        sourceUrl: "https://www.kentuckytoday.com/sports/dominique-hawkins-inducted-into-the-madison-county-sports-hall-of-fame/article_59f5e238-1648-11ef-b29a-9beeb0cc718f.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 25, position: "Guard", yearsAtSchool: "2013-2017", statsNote: "Junior • Walk-on • 2013 KY Mr. Basketball • Fan favorite" },
       careerEvents: [
@@ -236,9 +237,9 @@ export const kentuckyBasketball2016: TeamSeed = {
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
-        currentEmployer: "Memphis Hustle (G League)",
+        currentEmployer: "Valley Suns (G League)",
         league: "NBA G League",
-        statusNote: "After transferring to Michigan and starting on their 2018 national title game team, Matthews went undrafted in 2019. Has been in the G League since, currently with the Memphis Hustle.",
+        statusNote: "After transferring to Michigan, started on their 2018 national championship game team. Tore his ACL at a Celtics predraft workout and went undrafted in 2019. Played 12 NBA games for the Cleveland Cavaliers in 2020-21. Won the NBL1 Men's MVP award in Australia with the Bendigo Braves in 2025 (20.4 PPG). G League rights traded to the Valley Suns (Suns affiliate) in January 2026.",
         sourceUrl: "https://en.wikipedia.org/wiki/Charles_Matthews_(basketball)",
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Guard", yearsAtSchool: "2015-2016", statsNote: "Freshman • Transferred to Michigan • 2018 NCAA runner-up" },

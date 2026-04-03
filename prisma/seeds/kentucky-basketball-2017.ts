@@ -30,7 +30,7 @@ export const kentuckyBasketball2017: TeamSeed = {
         statusNote: "Drafted #5 overall by the Sacramento Kings in 2017, Fox became a three-time All-Star and franchise player. Traded to the San Antonio Spurs mid-season in 2025-26, scoring 24 points and 13 assists in his Spurs debut. Named 2026 All-Star replacement.",
         sourceUrl: "https://en.wikipedia.org/wiki/De%27Aaron_Fox",
       },
-      membership: { role: "PLAYER", jerseyNumber: 0, position: "Point Guard", yearsAtSchool: "2016-2017", statsNote: "Freshman • 16.7 PPG • 39 pts vs UCLA • #5 overall pick" },
+      membership: { role: "PLAYER", jerseyNumber: 0, position: "Point Guard", yearsAtSchool: "2016-2017", statsNote: "Freshman • 16.7 PPG • 39 pts vs UCLA • #5 overall pick", gamesPlayed: 38, pointsPerGame: 16.7, reboundsPerGame: 4.0, assistsPerGame: 4.6 },
       careerEvents: [
         { year: 2017, title: "Selected #5 overall by the Sacramento Kings", eventType: "DRAFT" },
         { year: 2023, title: "Named NBA All-Star", eventType: "AWARD" },
@@ -56,7 +56,7 @@ export const kentuckyBasketball2017: TeamSeed = {
         statusNote: "Drafted #11 by the Charlotte Hornets in 2017. After stints with Charlotte and the Lakers, Monk signed with the Sacramento Kings in 2022 and is under contract through 2027, averaging 12.6 PPG in 2025-26.",
         sourceUrl: "https://en.wikipedia.org/wiki/Malik_Monk",
       },
-      membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2016-2017", statsNote: "Freshman • 19.8 PPG • 47 pts vs UNC • #11 overall pick" },
+      membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2016-2017", statsNote: "Freshman • 19.8 PPG • 47 pts vs UNC • #11 overall pick", gamesPlayed: 38, pointsPerGame: 19.8, reboundsPerGame: 2.5, assistsPerGame: 2.3 },
       careerEvents: [
         { year: 2017, title: "Selected #11 overall by the Charlotte Hornets", eventType: "DRAFT" },
       ],
@@ -80,7 +80,7 @@ export const kentuckyBasketball2017: TeamSeed = {
         statusNote: "Drafted #14 by the Miami Heat in 2017, Adebayo has become a three-time All-Star, 2020 Olympic gold medalist, and franchise cornerstone. On March 10, 2026, he scored 83 points against the Washington Wizards — the second-highest single-game total in NBA history behind Wilt Chamberlain's 100.",
         sourceUrl: "https://en.wikipedia.org/wiki/Bam_Adebayo",
       },
-      membership: { role: "PLAYER", jerseyNumber: 3, position: "Center / Power Forward", yearsAtSchool: "2016-2017", statsNote: "Freshman • 13.0 PPG, 8.0 RPG • #14 overall pick" },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Center / Power Forward", yearsAtSchool: "2016-2017", statsNote: "Freshman • 13.0 PPG, 8.0 RPG • #14 overall pick", gamesPlayed: 38, pointsPerGame: 13.0, reboundsPerGame: 8.0, assistsPerGame: 1.5 },
       careerEvents: [
         { year: 2017, title: "Selected #14 overall by the Miami Heat", eventType: "DRAFT" },
         { year: 2020, title: "Won Olympic gold medal with Team USA", eventType: "AWARD" },

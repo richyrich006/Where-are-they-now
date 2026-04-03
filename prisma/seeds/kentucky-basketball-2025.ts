@@ -118,8 +118,6 @@ export const kentuckyBasketball2025: TeamSeed = {
       bio: "A dominant defensive center from London who transferred from Drexel and led the SEC in blocks.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
-        currentTitle: "Professional Basketball Player",
-        occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Center",
         currentEmployer: "Boston Celtics",
         league: "NBA",
@@ -158,9 +156,6 @@ export const kentuckyBasketball2025: TeamSeed = {
       isFeatured: false,
       bio: "A journeyman college point guard from Estonia who played at Arizona and West Virginia before finishing his career at Kentucky.",
       status: {
-        occupationType: "ACTIVE_PRO_ATHLETE",
-        currentTitle: "Professional Basketball Player",
-        location: "Europe",
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
         currentEmployer: "University of Cincinnati",
@@ -182,8 +177,6 @@ export const kentuckyBasketball2025: TeamSeed = {
       isFeatured: false,
       bio: "A Canadian sharpshooter who transferred from Dayton and shot over 40% from three at Kentucky.",
       status: {
-        occupationType: "ACTIVE_PRO_ATHLETE",
-        currentTitle: "Professional Basketball Player",
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
         currentEmployer: "Phoenix Suns (two-way)",
@@ -247,8 +240,6 @@ export const kentuckyBasketball2025: TeamSeed = {
       isFeatured: false,
       bio: "Gained fame as a key player in Fairleigh Dickinson's historic 16-over-1 upset of Purdue in the 2023 NCAA Tournament.",
       status: {
-        occupationType: "ACTIVE_PRO_ATHLETE",
-        currentTitle: "Professional Basketball Player",
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard / Forward",
         currentEmployer: "Salon Vilpas",

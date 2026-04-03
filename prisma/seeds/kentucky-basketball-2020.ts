@@ -30,7 +30,7 @@ export const kentuckyBasketball2020: TeamSeed = {
         statusNote: "Drafted 21st overall by the 76ers in 2020, Maxey won the 2024 NBA Most Improved Player award and has become one of the league's premier guards. Averaging 28.8 PPG and 6.8 APG in 2025-26.",
         sourceUrl: "https://en.wikipedia.org/wiki/Tyrese_Maxey",
       },
-      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "2019-2020", statsNote: "Freshman • 14.0 PPG • SEC Champions" },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "2019-2020", statsNote: "Freshman • 14.0 PPG • SEC Champions", gamesPlayed: 31, pointsPerGame: 14.0, reboundsPerGame: 3.7, assistsPerGame: 3.2 },
       careerEvents: [
         { year: 2020, title: "Selected #21 overall by the Philadelphia 76ers", eventType: "DRAFT" },
         { year: 2024, title: "Won NBA Most Improved Player award", eventType: "AWARD" },
@@ -55,7 +55,7 @@ export const kentuckyBasketball2020: TeamSeed = {
         statusNote: "Drafted 25th overall in 2020. Signed 5-year, $162.5M max contract with the Raptors in 2024. Averaging 17.0 PPG in 2025-26.",
         sourceUrl: "https://en.wikipedia.org/wiki/Immanuel_Quickley",
       },
-      membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2018-2020", statsNote: "Sophomore • SEC Player of the Year • 16.1 PPG" },
+      membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2018-2020", statsNote: "Sophomore • SEC Player of the Year • 16.1 PPG", gamesPlayed: 31, pointsPerGame: 16.1, reboundsPerGame: 4.2, assistsPerGame: 1.9 },
       careerEvents: [
         { year: 2020, title: "Won SEC Player of the Year", eventType: "AWARD" },
         { year: 2020, title: "Selected #25 overall by the New York Knicks", eventType: "DRAFT" },
@@ -121,8 +121,8 @@ export const kentuckyBasketball2020: TeamSeed = {
         currentEmployer: "Olimpia Milano",
         league: "Italian Lega Basket Serie A / EuroLeague",
         location: "Milan, Italy",
-        statusNote: "Has built a strong European career playing in Spain's Liga ACB (Valencia Basket) and Italy's Serie A (Olimpia Milano). Signed with Milano in October 2025.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Nate_Sestina",
+        statusNote: "After his graduate year at Kentucky, Sestina built an impressive European career: Israel (Hapoel Holon), Turkey (Denizli Basket, Turk Telekom), EuroLeague debut with Fenerbahce (2023-24), Spain's Valencia Basket (8.4 PPG on 43.4% from three across 33 Liga ACB games), and now Olimpia Milano in Italy's Serie A and EuroLeague (signed October 2025). A Bucknell graduate who has risen to the top tier of European basketball.",
+        sourceUrl: "https://www.eurohoops.net/en/euroleague/1883231/nate-sestina-signs-with-olimpia-milan-euroleague/",
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Forward", yearsAtSchool: "2019-2020", statsNote: "Graduate Senior • Transfer from Bucknell • Stretch four" },
       careerEvents: [
@@ -168,8 +168,8 @@ export const kentuckyBasketball2020: TeamSeed = {
         currentEmployer: "Zenit Saint Petersburg",
         league: "VTB United League (Russia)",
         location: "Saint Petersburg, Russia",
-        statusNote: "After transferring to UCLA and leading them to the 2021 Final Four, Juzang went undrafted twice (2022, 2023). He had a brief NBA stint with the Timberwolves (21 games in 2025-26) before signing with Zenit Saint Petersburg in Russia.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Johnny_Juzang",
+        statusNote: "Transferred to UCLA and became a national sensation leading the 11-seed Bruins to the 2021 Final Four (22.8 PPG in the tournament). Signed with the Utah Jazz and played three seasons (102 games, up to 8.9 PPG with 37.6% three-point shooting). Waived by Utah in 2025, signed with the Timberwolves (21 games) before being waived in February 2026 and signing with Zenit Saint Petersburg in Russia's VTB United League.",
+        sourceUrl: "https://www.hoopsrumors.com/2026/02/johnny-juzang-signs-with-zenit-bc.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Guard", yearsAtSchool: "2019-2020", statsNote: "Freshman • Transferred to UCLA • Led UCLA to 2021 Final Four" },
       careerEvents: [
@@ -190,8 +190,8 @@ export const kentuckyBasketball2020: TeamSeed = {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Professional Basketball Player",
         league: "China NBL",
-        statusNote: "Went undrafted in 2020 after leaving Kentucky mid-season. Has played in the G League, Mexico, Croatia, New Zealand, and China's NBL. Exploring a return to college basketball as of early 2026.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Kahlil_Whitney",
+        statusNote: "One of the most cautionary tales of the one-and-done era. Left Kentucky mid-season as a five-star recruit, went undrafted, and bounced through the G League (Greensboro, RGV), Mexico, Croatia, New Zealand, and China (Suke Lions). In summer 2025 he returned to play for Kentucky's La Familia TBT team. On February 18, 2026, he announced he is exploring a return to college basketball, stating 'Recruitment officially open' and seeking NCAA reinstatement.",
+        sourceUrl: "https://www.on3.com/teams/kentucky-wildcats/news/return-of-the-dragon-kahlil-whitney-wants-to-return-to-college-basketball/",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Forward", yearsAtSchool: "2019-2020", statsNote: "Freshman • Five-star recruit • Left team mid-season" },
       careerEvents: [

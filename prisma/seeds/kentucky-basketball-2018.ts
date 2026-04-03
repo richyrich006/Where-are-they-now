@@ -30,7 +30,7 @@ export const kentuckyBasketball2018: TeamSeed = {
         statusNote: "Drafted #11 by the Charlotte Hornets (traded to Clippers) in 2018, then traded to OKC in 2019. Won the 2024-25 NBA MVP award and is the front-runner for a repeat in 2025-26, averaging 31.7 PPG, 6.6 APG on 55% shooting. Tied Wilt Chamberlain's record of 126 consecutive games with 20+ points. Arguably the best player in the NBA.",
         sourceUrl: "https://en.wikipedia.org/wiki/Shai_Gilgeous-Alexander",
       },
-      membership: { role: "PLAYER", jerseyNumber: 22, position: "Guard", yearsAtSchool: "2017-2018", statsNote: "Freshman • 14.4 PPG, 5.1 APG • #11 overall pick • Now NBA MVP" },
+      membership: { role: "PLAYER", jerseyNumber: 22, position: "Guard", yearsAtSchool: "2017-2018", statsNote: "Freshman • 14.4 PPG, 5.1 APG • #11 overall pick • Now NBA MVP", gamesPlayed: 37, pointsPerGame: 14.4, reboundsPerGame: 4.1, assistsPerGame: 5.1 },
       careerEvents: [
         { year: 2018, title: "Selected #11 overall by Charlotte (traded to Clippers)", eventType: "DRAFT" },
         { year: 2019, title: "Traded to Oklahoma City Thunder", eventType: "TRADE" },
@@ -55,7 +55,7 @@ export const kentuckyBasketball2018: TeamSeed = {
         statusNote: "Drafted #9 by the New York Knicks in 2018. Played for the Knicks, Hawks, Pistons, Blazers, and Warriors. Now in the G League with the Windy City Bulls (16 PPG), working toward another NBA opportunity.",
         sourceUrl: "https://en.wikipedia.org/wiki/Kevin_Knox_II",
       },
-      membership: { role: "PLAYER", jerseyNumber: 5, position: "Forward", yearsAtSchool: "2017-2018", statsNote: "Freshman • 15.6 PPG • #9 overall pick" },
+      membership: { role: "PLAYER", jerseyNumber: 5, position: "Forward", yearsAtSchool: "2017-2018", statsNote: "Freshman • 15.6 PPG • #9 overall pick", gamesPlayed: 37, pointsPerGame: 15.6, reboundsPerGame: 5.4, assistsPerGame: 1.3 },
       careerEvents: [
         { year: 2018, title: "Selected #9 overall by the New York Knicks", eventType: "DRAFT" },
       ],

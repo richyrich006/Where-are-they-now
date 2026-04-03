@@ -30,7 +30,7 @@ export const kentuckyBasketball2022: TeamSeed = {
         statusNote: "Despite winning National Player of the Year, Tshiebwe went undrafted in 2023. He signed two-way deals with the Indiana Pacers and then Utah Jazz. Set a G League record with 30 rebounds in one game. Made 14 NBA appearances in 2024-25 (7.6 PPG, 8.7 RPG).",
         sourceUrl: "https://en.wikipedia.org/wiki/Oscar_Tshiebwe",
       },
-      membership: { role: "PLAYER", jerseyNumber: 34, position: "Forward / Center", yearsAtSchool: "2020-2023", statsNote: "Junior • Consensus National POY • 17.4 PPG, 15.1 RPG" },
+      membership: { role: "PLAYER", jerseyNumber: 34, position: "Forward / Center", yearsAtSchool: "2020-2023", statsNote: "Junior • Consensus National POY • 17.4 PPG, 15.1 RPG", gamesPlayed: 34, pointsPerGame: 17.4, reboundsPerGame: 15.1, assistsPerGame: 1.3 },
       careerEvents: [
         { year: 2022, title: "Won Consensus National Player of the Year", eventType: "AWARD" },
         { year: 2023, title: "Went undrafted; signed with Indiana Pacers", eventType: "SIGNING" },
