@@ -107,6 +107,7 @@ export const kentuckyBasketball2024: TeamSeed = {
     },
     {
       slug: "justin-edwards",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642348.png",
       firstName: "Justin",
       lastName: "Edwards",
       birthYear: 2005,

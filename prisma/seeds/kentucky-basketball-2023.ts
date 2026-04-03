@@ -38,6 +38,7 @@ export const kentuckyBasketball2023: TeamSeed = {
     },
     {
       slug: "oscar-tshiebwe",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631290.png",
       firstName: "Oscar",
       lastName: "Tshiebwe",
       birthYear: 1999,

@@ -13,6 +13,7 @@ export const kentuckyBasketball2022: TeamSeed = {
   people: [
     {
       slug: "oscar-tshiebwe",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631290.png",
       firstName: "Oscar",
       lastName: "Tshiebwe",
       birthYear: 1999,
@@ -37,6 +38,7 @@ export const kentuckyBasketball2022: TeamSeed = {
     },
     {
       slug: "tyty-washington",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631102.png",
       firstName: "TyTy",
       lastName: "Washington Jr.",
       birthYear: 2002,

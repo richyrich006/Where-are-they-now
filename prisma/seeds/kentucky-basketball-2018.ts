@@ -110,6 +110,7 @@ export const kentuckyBasketball2018: TeamSeed = {
     },
     {
       slug: "nick-richards",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4395726.png",
       firstName: "Nick",
       lastName: "Richards",
       birthYear: 1997,
@@ -175,6 +176,7 @@ export const kentuckyBasketball2018: TeamSeed = {
     },
     {
       slug: "wenyen-gabriel",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629117.png",
       firstName: "Wenyen",
       lastName: "Gabriel",
       birthYear: 1997,

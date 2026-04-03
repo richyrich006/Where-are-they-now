@@ -13,6 +13,7 @@ export const dukeBasketball2001: TeamSeed = {
   people: [
     {
       slug: "shane-battier",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/2429.png",
       firstName: "Shane",
       lastName: "Battier",
       birthYear: 1978,
@@ -51,6 +52,7 @@ export const dukeBasketball2001: TeamSeed = {
     },
     {
       slug: "jay-williams",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/998.png",
       firstName: "Jay",
       lastName: "Williams",
       birthYear: 1981,
@@ -88,6 +90,7 @@ export const dukeBasketball2001: TeamSeed = {
     },
     {
       slug: "carlos-boozer",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/2744.png",
       firstName: "Carlos",
       lastName: "Boozer",
       birthYear: 1981,
@@ -124,6 +127,7 @@ export const dukeBasketball2001: TeamSeed = {
     },
     {
       slug: "mike-dunleavy-jr",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1011.png",
       firstName: "Mike",
       lastName: "Dunleavy Jr.",
       birthYear: 1980,

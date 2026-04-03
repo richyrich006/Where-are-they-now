@@ -89,6 +89,7 @@ export const kentuckyBasketball2017: TeamSeed = {
     },
     {
       slug: "wenyen-gabriel",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629117.png",
       firstName: "Wenyen",
       lastName: "Gabriel",
       birthYear: 1997,

@@ -13,6 +13,7 @@ export const kentuckyBasketball2020: TeamSeed = {
   people: [
     {
       slug: "tyrese-maxey",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4431678.png",
       firstName: "Tyrese",
       lastName: "Maxey",
       birthYear: 2000,
@@ -37,6 +38,7 @@ export const kentuckyBasketball2020: TeamSeed = {
     },
     {
       slug: "immanuel-quickley",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4395724.png",
       firstName: "Immanuel",
       lastName: "Quickley",
       birthYear: 1999,
@@ -61,6 +63,7 @@ export const kentuckyBasketball2020: TeamSeed = {
     },
     {
       slug: "nick-richards",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4395726.png",
       firstName: "Nick",
       lastName: "Richards",
       birthYear: 1997,

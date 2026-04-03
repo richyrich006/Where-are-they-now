@@ -13,6 +13,7 @@ export const montverdeAcademy2020: TeamSeed = {
     // ── Batch 1: NBA Stars ──────────────────────────────────────────────────
     {
       slug: "cade-cunningham",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630595.png",
       firstName: "Cade",
       lastName: "Cunningham",
       birthYear: 2001,
@@ -45,6 +46,7 @@ export const montverdeAcademy2020: TeamSeed = {
     },
     {
       slug: "scottie-barnes",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png",
       firstName: "Scottie",
       lastName: "Barnes",
       birthYear: 2001,

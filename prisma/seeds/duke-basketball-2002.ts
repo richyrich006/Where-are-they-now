@@ -14,6 +14,7 @@ export const dukeBasketball2002: TeamSeed = {
     // Returning players reference the same slugs — upserts create one Person with multiple memberships
     {
       slug: "jay-williams",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/998.png",
       firstName: "Jay",
       lastName: "Williams",
       birthYear: 1981,
@@ -50,6 +51,7 @@ export const dukeBasketball2002: TeamSeed = {
     },
     {
       slug: "carlos-boozer",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/2744.png",
       firstName: "Carlos",
       lastName: "Boozer",
       birthYear: 1981,
@@ -84,6 +86,7 @@ export const dukeBasketball2002: TeamSeed = {
     },
     {
       slug: "mike-dunleavy-jr",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1011.png",
       firstName: "Mike",
       lastName: "Dunleavy Jr.",
       birthYear: 1980,
