@@ -31,6 +31,17 @@ export const kentuckyBasketball2018: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Shai_Gilgeous-Alexander",
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Guard", yearsAtSchool: "2017-2018", statsNote: "Freshman • 14.4 PPG, 5.1 APG • #11 overall pick • Now NBA MVP", gamesPlayed: 37, pointsPerGame: 14.4, reboundsPerGame: 4.1, assistsPerGame: 5.1 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-18", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, minutesPerGame: 32.6, pointsPerGame: 14.4, reboundsPerGame: 4.1, assistsPerGame: 5.1, stealsPerGame: 1.6, fieldGoalPct: 0.507, threePointPct: 0.402, freeThrowPct: 0.847 },
+        { level: "PROFESSIONAL", teamName: "LA Clippers", season: "2018-19", yearLabel: "2018-19", sortOrder: 301, gamesPlayed: 82, minutesPerGame: 26.5, pointsPerGame: 10.8, reboundsPerGame: 2.8, assistsPerGame: 3.3, stealsPerGame: 1.2, fieldGoalPct: 0.477, threePointPct: 0.367, freeThrowPct: 0.800 },
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2019-20", yearLabel: "2019-20", sortOrder: 302, gamesPlayed: 70, minutesPerGame: 34.7, pointsPerGame: 19.0, reboundsPerGame: 6.0, assistsPerGame: 3.3, stealsPerGame: 1.1, fieldGoalPct: 0.472, threePointPct: 0.347, freeThrowPct: 0.807 },
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2020-21", yearLabel: "2020-21", sortOrder: 303, gamesPlayed: 35, minutesPerGame: 33.7, pointsPerGame: 23.7, reboundsPerGame: 4.7, assistsPerGame: 5.9, stealsPerGame: 0.8, fieldGoalPct: 0.508, threePointPct: 0.341, freeThrowPct: 0.871 },
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2021-22", yearLabel: "2021-22", sortOrder: 304, gamesPlayed: 56, minutesPerGame: 35.3, pointsPerGame: 24.5, reboundsPerGame: 5.0, assistsPerGame: 5.9, stealsPerGame: 1.3, fieldGoalPct: 0.453, threePointPct: 0.300, freeThrowPct: 0.810 },
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2022-23", yearLabel: "2022-23", sortOrder: 305, gamesPlayed: 68, minutesPerGame: 35.5, pointsPerGame: 31.4, reboundsPerGame: 4.8, assistsPerGame: 5.5, stealsPerGame: 1.6, fieldGoalPct: 0.510, threePointPct: 0.345, freeThrowPct: 0.905 },
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2023-24", yearLabel: "2023-24", sortOrder: 306, gamesPlayed: 75, minutesPerGame: 34.0, pointsPerGame: 30.1, reboundsPerGame: 5.5, assistsPerGame: 6.2, stealsPerGame: 2.0, fieldGoalPct: 0.535, threePointPct: 0.353, freeThrowPct: 0.874 },
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2024-25", yearLabel: "2024-25 (MVP)", sortOrder: 307, gamesPlayed: 78, minutesPerGame: 34.5, pointsPerGame: 32.3, reboundsPerGame: 5.3, assistsPerGame: 6.0, stealsPerGame: 1.9, fieldGoalPct: 0.540, threePointPct: 0.360, freeThrowPct: 0.890 },
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2025-26", yearLabel: "2025-26", sortOrder: 308, gamesPlayed: 60, pointsPerGame: 31.7, reboundsPerGame: 4.5, assistsPerGame: 6.6, fieldGoalPct: 0.550, freeThrowPct: 0.895 },
+      ],
       careerEvents: [
         { year: 2018, title: "Selected #11 overall by Charlotte (traded to Clippers)", eventType: "DRAFT" },
         { year: 2019, title: "Traded to Oklahoma City Thunder", eventType: "TRADE" },

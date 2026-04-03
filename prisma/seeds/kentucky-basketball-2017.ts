@@ -31,6 +31,15 @@ export const kentuckyBasketball2017: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/De%27Aaron_Fox",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Point Guard", yearsAtSchool: "2016-2017", statsNote: "Freshman • 16.7 PPG • 39 pts vs UCLA • #5 overall pick", gamesPlayed: 38, pointsPerGame: 16.7, reboundsPerGame: 4.0, assistsPerGame: 4.6 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-17", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 38, minutesPerGame: 32.2, pointsPerGame: 16.7, reboundsPerGame: 4.0, assistsPerGame: 4.6, stealsPerGame: 1.5, fieldGoalPct: 0.479, threePointPct: 0.246, freeThrowPct: 0.739 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 73, minutesPerGame: 27.8, pointsPerGame: 11.6, reboundsPerGame: 2.8, assistsPerGame: 4.4, stealsPerGame: 1.0, fieldGoalPct: 0.412, threePointPct: 0.307, freeThrowPct: 0.726 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2018-19", yearLabel: "2018-19", sortOrder: 302, gamesPlayed: 81, minutesPerGame: 31.6, pointsPerGame: 17.3, reboundsPerGame: 3.8, assistsPerGame: 7.3, stealsPerGame: 1.6, fieldGoalPct: 0.458, threePointPct: 0.371, freeThrowPct: 0.727 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2019-20", yearLabel: "2019-20", sortOrder: 303, gamesPlayed: 51, minutesPerGame: 32.0, pointsPerGame: 21.1, reboundsPerGame: 3.8, assistsPerGame: 6.8, stealsPerGame: 1.5, fieldGoalPct: 0.480, freeThrowPct: 0.703 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2020-21", yearLabel: "2020-21", sortOrder: 304, gamesPlayed: 58, minutesPerGame: 35.1, pointsPerGame: 25.2, reboundsPerGame: 3.5, assistsPerGame: 7.2, stealsPerGame: 1.5, fieldGoalPct: 0.472, freeThrowPct: 0.719 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2022-23", yearLabel: "2022-23 (All-Star)", sortOrder: 306, gamesPlayed: 73, minutesPerGame: 33.6, pointsPerGame: 25.0, reboundsPerGame: 4.2, assistsPerGame: 6.1, fieldGoalPct: 0.512, freeThrowPct: 0.783 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2023-24", yearLabel: "2023-24", sortOrder: 307, gamesPlayed: 74, minutesPerGame: 35.5, pointsPerGame: 26.6, reboundsPerGame: 4.6, assistsPerGame: 5.6, stealsPerGame: 2.0, fieldGoalPct: 0.466, freeThrowPct: 0.735 },
+      ],
       careerEvents: [
         { year: 2017, title: "Selected #5 overall by the Sacramento Kings", eventType: "DRAFT" },
         { year: 2023, title: "Named NBA All-Star", eventType: "AWARD" },
@@ -81,6 +90,17 @@ export const kentuckyBasketball2017: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Bam_Adebayo",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Center / Power Forward", yearsAtSchool: "2016-2017", statsNote: "Freshman • 13.0 PPG, 8.0 RPG • #14 overall pick", gamesPlayed: 38, pointsPerGame: 13.0, reboundsPerGame: 8.0, assistsPerGame: 1.5 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-17", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 38, minutesPerGame: 24.9, pointsPerGame: 13.0, reboundsPerGame: 8.0, assistsPerGame: 1.5, stealsPerGame: 0.6, blocksPerGame: 1.5, fieldGoalPct: 0.599, freeThrowPct: 0.604 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 69, minutesPerGame: 19.8, pointsPerGame: 6.9, reboundsPerGame: 5.5, assistsPerGame: 1.5, blocksPerGame: 0.5, fieldGoalPct: 0.515, freeThrowPct: 0.721 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2018-19", yearLabel: "2018-19", sortOrder: 302, gamesPlayed: 82, minutesPerGame: 23.3, pointsPerGame: 8.9, reboundsPerGame: 7.3, assistsPerGame: 2.2, blocksPerGame: 0.8, fieldGoalPct: 0.576, freeThrowPct: 0.735 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2019-20", yearLabel: "2019-20 (All-Star)", sortOrder: 303, gamesPlayed: 72, minutesPerGame: 33.6, pointsPerGame: 15.9, reboundsPerGame: 10.2, assistsPerGame: 5.1, stealsPerGame: 1.1, blocksPerGame: 1.3, fieldGoalPct: 0.557, freeThrowPct: 0.691 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2020-21", yearLabel: "2020-21 (All-Star)", sortOrder: 304, gamesPlayed: 64, minutesPerGame: 33.5, pointsPerGame: 18.7, reboundsPerGame: 9.0, assistsPerGame: 5.4, stealsPerGame: 1.2, blocksPerGame: 1.0, fieldGoalPct: 0.570, freeThrowPct: 0.799 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2021-22", yearLabel: "2021-22 (All-Star)", sortOrder: 305, gamesPlayed: 56, minutesPerGame: 32.6, pointsPerGame: 19.1, reboundsPerGame: 10.1, assistsPerGame: 3.4, stealsPerGame: 1.4, blocksPerGame: 0.8, fieldGoalPct: 0.557, freeThrowPct: 0.753 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2022-23", yearLabel: "2022-23", sortOrder: 306, gamesPlayed: 75, minutesPerGame: 34.6, pointsPerGame: 20.4, reboundsPerGame: 9.2, assistsPerGame: 3.2, stealsPerGame: 1.1, blocksPerGame: 0.8, fieldGoalPct: 0.540, freeThrowPct: 0.790 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2023-24", yearLabel: "2023-24", sortOrder: 307, gamesPlayed: 71, minutesPerGame: 34.0, pointsPerGame: 19.3, reboundsPerGame: 10.4, assistsPerGame: 3.9, stealsPerGame: 1.1, blocksPerGame: 0.9, fieldGoalPct: 0.520, freeThrowPct: 0.810 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2025-26", yearLabel: "2025-26 (83-pt game!)", sortOrder: 308, gamesPlayed: 60, pointsPerGame: 20.1, reboundsPerGame: 10.0, assistsPerGame: 3.0, fieldGoalPct: 0.540 },
+      ],
       careerEvents: [
         { year: 2017, title: "Selected #14 overall by the Miami Heat", eventType: "DRAFT" },
         { year: 2020, title: "Won Olympic gold medal with Team USA", eventType: "AWARD" },

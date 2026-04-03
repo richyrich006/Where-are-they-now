@@ -31,6 +31,15 @@ export const kentuckyBasketball2019: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Tyler_Herro",
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Guard", yearsAtSchool: "2018-2019", statsNote: "Freshman • 14.0 PPG • Declared for NBA Draft", gamesPlayed: 37, pointsPerGame: 14.0, reboundsPerGame: 4.5, assistsPerGame: 2.5 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-19", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, minutesPerGame: 28.3, pointsPerGame: 14.0, reboundsPerGame: 4.5, assistsPerGame: 2.5, stealsPerGame: 0.9, fieldGoalPct: 0.462, threePointPct: 0.355, freeThrowPct: 0.935 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2019-20", yearLabel: "2019-20 (NBA Finals)", sortOrder: 301, gamesPlayed: 55, minutesPerGame: 27.4, pointsPerGame: 13.5, reboundsPerGame: 4.1, assistsPerGame: 2.2, stealsPerGame: 0.6, fieldGoalPct: 0.427, threePointPct: 0.389, freeThrowPct: 0.873 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2020-21", yearLabel: "2020-21", sortOrder: 302, gamesPlayed: 54, minutesPerGame: 31.9, pointsPerGame: 15.1, reboundsPerGame: 5.0, assistsPerGame: 3.4, stealsPerGame: 0.8, fieldGoalPct: 0.440, threePointPct: 0.361, freeThrowPct: 0.846 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2021-22", yearLabel: "2021-22 (6MOY)", sortOrder: 303, gamesPlayed: 66, minutesPerGame: 32.6, pointsPerGame: 20.7, reboundsPerGame: 5.0, assistsPerGame: 4.0, stealsPerGame: 0.7, fieldGoalPct: 0.449, threePointPct: 0.399, freeThrowPct: 0.868 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2022-23", yearLabel: "2022-23 (NBA Finals)", sortOrder: 304, gamesPlayed: 59, minutesPerGame: 33.0, pointsPerGame: 20.1, reboundsPerGame: 5.4, assistsPerGame: 4.5, fieldGoalPct: 0.443, threePointPct: 0.385, freeThrowPct: 0.858 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2023-24", yearLabel: "2023-24", sortOrder: 305, gamesPlayed: 42, minutesPerGame: 33.0, pointsPerGame: 20.8, reboundsPerGame: 5.3, assistsPerGame: 4.5, fieldGoalPct: 0.440, threePointPct: 0.390, freeThrowPct: 0.870 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2025-26", yearLabel: "2025-26", sortOrder: 307, gamesPlayed: 55, pointsPerGame: 21.6, reboundsPerGame: 4.7, assistsPerGame: 3.8, fieldGoalPct: 0.450 },
+      ],
       careerEvents: [
         { year: 2019, title: "Selected #13 overall by the Miami Heat", eventType: "DRAFT" },
         { year: 2022, title: "Won NBA Sixth Man of the Year", eventType: "AWARD" },

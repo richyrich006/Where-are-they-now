@@ -35,6 +35,14 @@ export const kentuckyBasketball2020: TeamSeed = {
         { year: 2020, title: "Selected #21 overall by the Philadelphia 76ers", eventType: "DRAFT" },
         { year: 2024, title: "Won NBA Most Improved Player award", eventType: "AWARD" },
       ],
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-20", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 31, minutesPerGame: 30.3, pointsPerGame: 14.0, reboundsPerGame: 3.7, assistsPerGame: 3.2, stealsPerGame: 0.9, fieldGoalPct: 0.427, threePointPct: 0.292, freeThrowPct: 0.833 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2020-21", yearLabel: "2020-21", sortOrder: 301, gamesPlayed: 61, minutesPerGame: 15.3, pointsPerGame: 8.0, reboundsPerGame: 1.7, assistsPerGame: 2.0, stealsPerGame: 0.4, fieldGoalPct: 0.462, threePointPct: 0.301, freeThrowPct: 0.870 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2021-22", yearLabel: "2021-22", sortOrder: 302, gamesPlayed: 75, minutesPerGame: 35.3, pointsPerGame: 17.5, reboundsPerGame: 3.5, assistsPerGame: 4.3, stealsPerGame: 0.7, fieldGoalPct: 0.485, threePointPct: 0.405, freeThrowPct: 0.866 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2022-23", yearLabel: "2022-23", sortOrder: 303, gamesPlayed: 60, minutesPerGame: 34.6, pointsPerGame: 20.3, reboundsPerGame: 3.5, assistsPerGame: 3.5, fieldGoalPct: 0.481, threePointPct: 0.382, freeThrowPct: 0.849 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2023-24", yearLabel: "2023-24 (MIP)", sortOrder: 304, gamesPlayed: 70, minutesPerGame: 37.5, pointsPerGame: 25.9, reboundsPerGame: 3.7, assistsPerGame: 6.2, stealsPerGame: 1.0, fieldGoalPct: 0.450, threePointPct: 0.371, freeThrowPct: 0.870 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2025-26", yearLabel: "2025-26", sortOrder: 306, gamesPlayed: 55, pointsPerGame: 28.8, assistsPerGame: 6.8, fieldGoalPct: 0.470 },
+      ],
     },
     {
       slug: "immanuel-quickley",

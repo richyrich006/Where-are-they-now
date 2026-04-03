@@ -56,6 +56,16 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Jamal_Murray",
       },
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Guard", yearsAtSchool: "2015-2016", statsNote: "Freshman • 20.0 PPG • #7 overall pick", gamesPlayed: 36, pointsPerGame: 20.0, reboundsPerGame: 5.2, assistsPerGame: 2.2 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-16", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, minutesPerGame: 34.5, pointsPerGame: 20.0, reboundsPerGame: 5.2, assistsPerGame: 2.2, stealsPerGame: 1.0, fieldGoalPct: 0.454, threePointPct: 0.408, freeThrowPct: 0.783 },
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2016-17", yearLabel: "2016-17", sortOrder: 301, gamesPlayed: 82, minutesPerGame: 21.5, pointsPerGame: 9.9, reboundsPerGame: 2.1, assistsPerGame: 2.1, fieldGoalPct: 0.404, threePointPct: 0.334, freeThrowPct: 0.880 },
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2017-18", yearLabel: "2017-18", sortOrder: 302, gamesPlayed: 81, minutesPerGame: 31.7, pointsPerGame: 16.7, reboundsPerGame: 3.4, assistsPerGame: 3.4, fieldGoalPct: 0.451, threePointPct: 0.378, freeThrowPct: 0.905 },
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2018-19", yearLabel: "2018-19", sortOrder: 303, gamesPlayed: 75, minutesPerGame: 33.4, pointsPerGame: 18.2, reboundsPerGame: 4.2, assistsPerGame: 4.8, fieldGoalPct: 0.437, threePointPct: 0.366, freeThrowPct: 0.848 },
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2019-20", yearLabel: "2019-20 (Bubble)", sortOrder: 304, gamesPlayed: 59, minutesPerGame: 32.3, pointsPerGame: 18.5, reboundsPerGame: 4.0, assistsPerGame: 4.8, fieldGoalPct: 0.455, threePointPct: 0.346, freeThrowPct: 0.881 },
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2020-21", yearLabel: "2020-21 (ACL)", sortOrder: 305, gamesPlayed: 48, minutesPerGame: 35.5, pointsPerGame: 21.2, reboundsPerGame: 4.0, assistsPerGame: 4.8, fieldGoalPct: 0.477, threePointPct: 0.408, freeThrowPct: 0.867 },
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2022-23", yearLabel: "2022-23 (Champion)", sortOrder: 307, gamesPlayed: 65, minutesPerGame: 32.5, pointsPerGame: 20.0, reboundsPerGame: 4.0, assistsPerGame: 6.2, fieldGoalPct: 0.454, threePointPct: 0.398, freeThrowPct: 0.836 },
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2025-26", yearLabel: "2025-26 (All-Star)", sortOrder: 310, gamesPlayed: 55, pointsPerGame: 25.5, assistsPerGame: 7.2, reboundsPerGame: 4.4 },
+      ],
       careerEvents: [
         { year: 2016, title: "Selected #7 overall by the Denver Nuggets", eventType: "DRAFT" },
         { year: 2023, title: "Won NBA Championship with the Nuggets", eventType: "CHAMPIONSHIP" },
