@@ -232,7 +232,7 @@ export const kentuckyBasketball2018: TeamSeed = {
         currentEmployer: "University of Arkansas",
         league: "SEC",
         location: "Fayetteville, AR",
-        statusNote: "Left Kentucky for Arkansas in April 2024.",
+        statusNote: "After 15 seasons at Kentucky (2009-2024) compiling a 410-127 record, one national championship (2012), four Final Fours, and more NBA Draft picks than any coach in history (42 first-round picks), Calipari left for Arkansas in April 2024 on a 5-year, $35M deal. In his first full season at Arkansas (2025-26), he won the SEC Tournament Championship — becoming the first men's coach to win SEC Tournament titles at multiple schools. He ranks 5th on the all-time NCAA Division I wins list with 900+ career victories.",
         sourceUrl: "https://en.wikipedia.org/wiki/John_Calipari",
       },
       membership: { role: "HEAD_COACH", position: "Head Coach", yearsAtSchool: "2009-2024", statsNote: "26-11 • SEC Tournament Champions • Sweet Sixteen • Future NBA MVP on roster" },

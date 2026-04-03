@@ -62,7 +62,7 @@ export const dukeBasketball2004: TeamSeed = {
         currentEmployer: "Gaston Christian School",
         location: "North Carolina",
         statusNote:
-          "After a nine-year NBA career, Duhon is now head basketball coach at Gaston Christian School.",
+          "After going undrafted in 2004, Duhon signed with the Chicago Bulls as a free agent and played nine NBA seasons with the Bulls, Knicks, Magic, and Lakers. He was a key starter for the Knicks in 2008-09, setting a then-franchise record with 22 assists in a game. After retiring in 2013, he transitioned to coaching — assistant at Marshall (2014-17), Illinois State (2018-19), director of scouting at Bryant (2021-23). Inducted into the Greater New Orleans Sports Hall of Fame in 2024, he now serves as head basketball coach at Gaston Christian School in North Carolina.",
         sourceUrl: "https://en.wikipedia.org/wiki/Chris_Duhon",
       },
       membership: {
@@ -160,7 +160,7 @@ export const dukeBasketball2004: TeamSeed = {
         league: "NBA",
         location: "Los Angeles, CA",
         statusNote:
-          "Selected #32 overall in 2005, Ewing now works as a professional scout for the Lakers.",
+          "Selected 32nd overall by the LA Clippers in 2005, Ewing played briefly in the NBA before spending nearly a decade playing professionally overseas in France, Spain, and Italy. In September 2022, he joined the Los Angeles Lakers as a professional scout in their scouting department under Jesse Buss, evaluating domestic and international talent for one of the NBA's marquee franchises.",
         sourceUrl: "https://en.wikipedia.org/wiki/Daniel_Ewing",
       },
       membership: {
@@ -252,7 +252,7 @@ export const dukeBasketball2004: TeamSeed = {
         currentTitle: "Sports Agent",
         currentEmployer: "Wasserman Media Group",
         location: "Los Angeles, CA",
-        statusNote: "Became an NBA player agent at Wasserman Media Group after a season playing in Italy.",
+        statusNote: "Nicknamed 'The Landlord' at Duke, Williams holds the school's career records for blocks and rebounds. Selected #5 overall by the Atlanta Hawks in 2006, he played six NBA seasons with the Hawks, Kings, Celtics, Nuggets, and Nets. Inducted into the Duke Athletics Hall of Fame in 2018. After retiring, he founded the Shelden Williams Foundation in 2019 to empower student-athletes through education and community involvement, and hosts the 'Bleav in Duke' podcast covering Blue Devils basketball.",
         sourceUrl: "https://lancasteronline.com/sports/nba/basketball-still-melchionni-s-business/article_f4a85d66-0400-11e4-a2ab-001a4bcf6878.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 20, position: "Shooting Guard", yearsAtSchool: "2002-2006", statsNote: "Sophomore • Perimeter shooter" },
@@ -272,7 +272,7 @@ export const dukeBasketball2004: TeamSeed = {
         currentTitle: "Physics Teacher / Author",
         currentEmployer: "Palmerston North Boys' High School",
         location: "Palmerston North, New Zealand",
-        statusNote: "Now a physics teacher and published author in New Zealand after 12 years playing professionally.",
+        statusNote: "After a five-year Duke career including the 2001 national championship and a double major in Physics and English, Horvath played 12 years of professional basketball in Australia (West Sydney Razorbacks, Adelaide 36ers) and New Zealand. After retiring in 2016, he became a physics teacher and head basketball coach at Palmerston North Boys' High School in New Zealand. He has also become a published fiction author, writing the 'Sledge vs.' action-noir book series on Amazon. Featured in Physics World's 'Once a Physicist' series.",
         sourceUrl: "https://en.wikipedia.org/wiki/Nick_Horvath",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Forward", yearsAtSchool: "1999-2004", statsNote: "Fifth-year senior • 2001 champion" },
@@ -292,7 +292,7 @@ export const dukeBasketball2004: TeamSeed = {
         currentTitle: "Partner and Vice President",
         currentEmployer: "Transatlantic Holdings",
         location: "Washington, D.C.",
-        statusNote: "Served as Obama's personal aide, earned Wharton MBA, now partner at Transatlantic Holdings.",
+        statusNote: "After graduating from Duke in 2005 (where he was a two-sport athlete in basketball and football, and member of the 2001 championship team), Love joined Barack Obama's presidential campaign in 2007 and served as the President's personal aide ('body man') from 2009 to 2011. He earned his MBA from Wharton in 2013, published the NYT bestseller 'Power Forward: My Presidential Education,' and built a career in finance and consulting. Previously Partner at RON Transatlantic EG (2012-2019), he is now Senior Advisor at Apollo Global Management.",
         sourceUrl: "https://en.wikipedia.org/wiki/Reggie_Love",
       },
       membership: { role: "PLAYER", jerseyNumber: 42, position: "Forward", yearsAtSchool: "2000-2005", statsNote: "Junior • Two-sport athlete" },
@@ -311,7 +311,7 @@ export const dukeBasketball2004: TeamSeed = {
         occupationType: "COACH",
         currentTitle: "Basketball Coach",
         location: "Memphis, TN",
-        statusNote: "Built career in basketball development. Coached at Memphis under Penny Hardaway (2022-24).",
+        statusNote: "Coach K's nephew (his mother is the sister of Krzyzewski's wife Mickie) and grandson of astronaut Frank Borman. A five-year walk-on who also played soccer at Duke. Built a career in basketball development: Director of Basketball Operations at San Jose State, Director of Player Development at Cal, Executive Director of the New York Renaissance Nike EYBL program (helping 100+ players earn D-I scholarships including Jonathan Kuminga and Hamidou Diallo), and assistant coach at Memphis under Penny Hardaway (2022-2024). Let go from Memphis in May 2024; current role unconfirmed.",
         sourceUrl: "https://gotigersgo.com/sports/mens-basketball/roster/coaches/andy-borman/3542",
       },
       membership: { role: "PLAYER", jerseyNumber: 40, position: "Guard", yearsAtSchool: "1999-2004", statsNote: "Senior walk-on • Coach K's nephew" },
@@ -351,7 +351,7 @@ export const dukeBasketball2004: TeamSeed = {
       status: {
         occupationType: "OTHER",
         currentTitle: "Private Citizen",
-        statusNote: "Transferred to Northwestern in January 2004. Career impacted by heart condition.",
+        statusNote: "A McDonald's All-American center from the highly rated 2002 recruiting class who appeared in 16 games at Duke in 2002-03 and 3 games in 2003-04 before transferring to Northwestern in January 2004. His career at Northwestern was impacted by an irregular heartbeat condition. Post-college career information is limited; he may have played briefly overseas.",
         sourceUrl: "https://www.sports-reference.com/cbb/players/michael-thompson-1.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Center", yearsAtSchool: "2002-2004", statsNote: "Sophomore • Transferred mid-season to Northwestern" },
@@ -395,7 +395,7 @@ export const dukeBasketball2004: TeamSeed = {
         currentEmployer: "NBA / Duke University",
         location: "Durham, NC",
         statusNote:
-          "Retired in 2022 with 1,202 victories and five national championships.",
+          "Retired after the 2021-22 season as the winningest coach in Division I men's basketball history with 1,202 victories across 47 seasons (5 at Army, 42 at Duke). Won five national championships (1991, 1992, 2001, 2010, 2015), reached 13 Final Fours, and won three Olympic gold medals as Team USA coach (2008, 2012, 2016). Now serves as Special Advisor to NBA Commissioner Adam Silver, Ambassador to Duke University, professor at Duke's Fuqua School of Business, and hosts 'Basketball and Beyond with Coach K' on SiriusXM.",
         sourceUrl: "https://en.wikipedia.org/wiki/Mike_Krzyzewski",
       },
       membership: {
