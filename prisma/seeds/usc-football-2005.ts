@@ -38,12 +38,12 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "2004 Heisman Trophy • 3,815 yds, 28 TD, 8 INT in 2005 • 37-2 career record as starter", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "Sophomore (National Champion)", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 3556, reboundsPerGame: 38, assistsPerGame: 9, tournamentResult: "255/383 passing, 3,556 yds, 38 TD, 9 INT" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "Junior (Heisman)", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 3322, reboundsPerGame: 33, assistsPerGame: 6, tournamentResult: "289/412 passing, 3,322 yds, 33 TD, 6 INT" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Senior", sortOrder: 104, gamesPlayed: 12, pointsPerGame: 3815, reboundsPerGame: 28, assistsPerGame: 8, tournamentResult: "236/360 passing, 3,815 yds, 28 TD, 8 INT" },
-        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2006", yearLabel: "2006 (Rookie)", sortOrder: 301, gamesPlayed: 11, pointsPerGame: 2547, reboundsPerGame: 11, assistsPerGame: 12, tournamentResult: "214/377 passing, 2,547 yds, 11 TD, 12 INT" },
-        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2007", yearLabel: "2007", sortOrder: 302, gamesPlayed: 5, pointsPerGame: 396, reboundsPerGame: 2, assistsPerGame: 4, tournamentResult: "40/67 passing, 396 yds, 2 TD, 4 INT" },
-        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2009", yearLabel: "2009", sortOrder: 304, gamesPlayed: 6, pointsPerGame: 500, reboundsPerGame: 2, assistsPerGame: 3, tournamentResult: "43/72 passing, 500 yds, 2 TD, 3 INT" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "Sophomore (National Champion)", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 3556, reboundsPerGame: 38, assistsPerGame: 9, stealsPerGame: 383, fieldGoalPct: 0.666, tournamentResult: "255/383 passing, 3,556 yds, 38 TD, 9 INT" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "Junior (Heisman)", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 3322, reboundsPerGame: 33, assistsPerGame: 6, stealsPerGame: 412, fieldGoalPct: 0.701, tournamentResult: "289/412 passing, 3,322 yds, 33 TD, 6 INT" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Senior", sortOrder: 104, gamesPlayed: 12, pointsPerGame: 3815, reboundsPerGame: 28, assistsPerGame: 8, stealsPerGame: 360, fieldGoalPct: 0.656, tournamentResult: "236/360 passing, 3,815 yds, 28 TD, 8 INT" },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2006", yearLabel: "2006 (Rookie)", sortOrder: 301, gamesPlayed: 11, pointsPerGame: 2547, reboundsPerGame: 11, assistsPerGame: 12, stealsPerGame: 377, fieldGoalPct: 0.568, tournamentResult: "214/377 passing, 2,547 yds, 11 TD, 12 INT" },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2007", yearLabel: "2007", sortOrder: 302, gamesPlayed: 5, pointsPerGame: 396, reboundsPerGame: 2, assistsPerGame: 4, stealsPerGame: 67, fieldGoalPct: 0.597, tournamentResult: "40/67 passing, 396 yds, 2 TD, 4 INT" },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2009", yearLabel: "2009", sortOrder: 304, gamesPlayed: 6, pointsPerGame: 500, reboundsPerGame: 2, assistsPerGame: 3, stealsPerGame: 72, fieldGoalPct: 0.597, tournamentResult: "43/72 passing, 500 yds, 2 TD, 3 INT" },
       ],
       careerEvents: [
         { year: 2004, title: "Won Heisman Trophy", eventType: "AWARD" },
@@ -772,10 +772,10 @@ export const uscFootball2005: TeamSeed = {
       },
             seasonStats: [
         { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Freshman (Redshirt)", sortOrder: 101, gamesPlayed: 0, tournamentResult: "Redshirted behind Matt Leinart" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "Junior (Rose Bowl MVP)", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 3207, reboundsPerGame: 34, assistsPerGame: 10, tournamentResult: "213/351 passing, 3,207 yds, 34 TD, 10 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2009", yearLabel: "2009 (AFC Championship)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 2444, reboundsPerGame: 12, assistsPerGame: 20, tournamentResult: "196/364 passing, 2,444 yds, 12 TD, 20 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2010", yearLabel: "2010 (AFC Championship)", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 3291, reboundsPerGame: 17, assistsPerGame: 13, tournamentResult: "199/369 passing, 3,291 yds, 17 TD, 13 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2012", yearLabel: "2012 (Butt Fumble)", sortOrder: 304, gamesPlayed: 11, pointsPerGame: 1364, reboundsPerGame: 6, assistsPerGame: 14, tournamentResult: "117/225 passing, 1,364 yds, 6 TD, 14 INT" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "Junior (Rose Bowl MVP)", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 3207, reboundsPerGame: 34, assistsPerGame: 10, stealsPerGame: 351, fieldGoalPct: 0.607, tournamentResult: "213/351 passing, 3,207 yds, 34 TD, 10 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2009", yearLabel: "2009 (AFC Championship)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 2444, reboundsPerGame: 12, assistsPerGame: 20, stealsPerGame: 364, fieldGoalPct: 0.538, tournamentResult: "196/364 passing, 2,444 yds, 12 TD, 20 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2010", yearLabel: "2010 (AFC Championship)", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 3291, reboundsPerGame: 17, assistsPerGame: 13, stealsPerGame: 369, fieldGoalPct: 0.539, tournamentResult: "199/369 passing, 3,291 yds, 17 TD, 13 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2012", yearLabel: "2012 (Butt Fumble)", sortOrder: 304, gamesPlayed: 11, pointsPerGame: 1364, reboundsPerGame: 6, assistsPerGame: 14, stealsPerGame: 225, fieldGoalPct: 0.52, tournamentResult: "117/225 passing, 1,364 yds, 6 TD, 14 INT" },
       ],
       careerEvents: [
         { year: 2009, title: "Selected #5 overall by the New York Jets", eventType: "DRAFT" },
@@ -990,9 +990,9 @@ export const uscFootball2005: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 28, position: "Cornerback", yearsAtSchool: "2004-2007", statsNote: "Started first 2 games before knee injury • 2nd-round pick • Super Bowl champ", gamesPlayed: 2 },
             seasonStats: [
         { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Sophomore (knee injury game 2)", sortOrder: 101, gamesPlayed: 2, tournamentResult: "Tore knee ligaments vs Arkansas" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "Senior", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 54, reboundsPerGame: 4, tournamentResult: "54 tackles, 4 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2008", yearLabel: "2008", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 63, reboundsPerGame: 2, tournamentResult: "63 tackles, 2 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2009", yearLabel: "2009", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 57, reboundsPerGame: 5, tournamentResult: "57 tackles, 5 INT" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "Senior", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 54, reboundsPerGame: 4, fieldGoalPct: 4, tournamentResult: "54 tackles, 4 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2008", yearLabel: "2008", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 63, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "63 tackles, 2 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2009", yearLabel: "2009", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 57, reboundsPerGame: 5, fieldGoalPct: 5, tournamentResult: "57 tackles, 5 INT" },
         { level: "PROFESSIONAL", teamName: "New York Giants", season: "2011", yearLabel: "2011 (Super Bowl Champion)", sortOrder: 304, gamesPlayed: 4, pointsPerGame: 12, tournamentResult: "12 tackles (torn ACL, won Super Bowl XLVI)" },
       ],
       careerEvents: [
