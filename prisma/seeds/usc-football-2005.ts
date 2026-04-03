@@ -59,7 +59,7 @@ export const uscFootball2005: TeamSeed = {
         currentTitle: "Retired NFL Player / Media Personality",
         location: "Los Angeles, CA",
         statusNote:
-          "Selected 2nd overall by the New Orleans Saints in 2006, Bush won Super Bowl XLIV in 2010 and played 11 NFL seasons with six teams before retiring in 2017. His Heisman Trophy was controversially vacated in 2010 due to NCAA violations but was officially restored in April 2024 amid the NIL era's shifting attitudes. He served as a Fox Sports college football analyst on Big Noon Kickoff from 2019 to 2023. Bush continues to advocate for student-athlete rights and maintains a strong media presence.",
+          "Selected 2nd overall by the New Orleans Saints in 2006, Bush won Super Bowl XLIV in 2010 and played 11 NFL seasons with six teams before retiring in 2017. His Heisman Trophy was controversially vacated in 2010 but officially restored in April 2024 amid the NIL era. He served as Fox Sports analyst on Big Noon Kickoff (2019-2023) before parting ways over contract disagreements. Now actively pursuing a defamation lawsuit against the NCAA over being 'labeled a cheater,' and a separate NIL compensation lawsuit against USC, the Pac-12, and the NCAA.",
         sourceUrl: "https://en.wikipedia.org/wiki/Reggie_Bush",
       },
       membership: {
