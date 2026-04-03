@@ -62,7 +62,7 @@ function fmtPct(v: number | null) {
   return v != null ? (v * 100).toFixed(1) + "%" : "—";
 }
 
-function StatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNotesBelow?: string }) {
+function BasketballStatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNotesBelow?: string }) {
   const showMin = hasAny(rows, "minutesPerGame");
   const showSpg = hasAny(rows, "stealsPerGame");
   const showBpg = hasAny(rows, "blocksPerGame");
@@ -115,6 +115,36 @@ function StatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNotesBelow?
   );
 }
 
+function FootballStatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNotesBelow?: string }) {
+  return (
+    <div className="overflow-x-auto">
+      <table className="w-full text-sm">
+        <thead>
+          <tr className="border-b border-gray-200 text-left text-xs font-semibold uppercase tracking-wide text-gray-500">
+            <th className="py-2 pr-3">Year</th>
+            <th className="py-2 pr-3">Team</th>
+            <th className="py-2 pr-3 text-center">G</th>
+            <th className="py-2 pr-3">Stats</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr key={row.id} className="border-b border-gray-100 last:border-0">
+              <td className="py-2 pr-3 font-medium text-gray-900 whitespace-nowrap">{row.yearLabel}</td>
+              <td className="py-2 pr-3 text-gray-600 whitespace-nowrap">{row.teamName}</td>
+              <td className="py-2 pr-3 text-center text-gray-700">{row.gamesPlayed ?? "—"}</td>
+              <td className="py-2 pr-3 text-gray-700">{row.tournamentResult ?? "—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      {showNotesBelow && (
+        <p className="mt-3 text-sm leading-relaxed text-gray-700">{showNotesBelow}</p>
+      )}
+    </div>
+  );
+}
+
 function CoachingTable({ rows }: { rows: StatRow[] }) {
   const showResult = rows.some((r) => r.tournamentResult != null);
   return (
@@ -151,10 +181,13 @@ export default async function PlayerPage({ params }: Props) {
   if (!person) notFound();
 
   const membership = person.memberships[0];
+  const isFootball = membership?.team?.sport === "Football";
   const hsStats = person.seasonStats.filter((s) => s.level === "HIGH_SCHOOL");
   const collegeStats = person.seasonStats.filter((s) => s.level === "COLLEGE");
   const proStats = person.seasonStats.filter((s) => s.level === "PROFESSIONAL");
   const coachingStats = person.seasonStats.filter((s) => s.level === "COACHING");
+
+  const StatsTable = isFootball ? FootballStatsTable : BasketballStatsTable;
 
   // Fallback: show aggregate boxes if no college seasonStats rows exist
   const showCollegeAggregate =
