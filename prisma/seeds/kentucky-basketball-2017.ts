@@ -39,6 +39,8 @@ export const kentuckyBasketball2017: TeamSeed = {
         { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2020-21", yearLabel: "2020-21", sortOrder: 304, gamesPlayed: 58, minutesPerGame: 35.1, pointsPerGame: 25.2, reboundsPerGame: 3.5, assistsPerGame: 7.2, stealsPerGame: 1.5, fieldGoalPct: 0.472, freeThrowPct: 0.719 },
         { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2022-23", yearLabel: "2022-23 (All-Star)", sortOrder: 306, gamesPlayed: 73, minutesPerGame: 33.6, pointsPerGame: 25.0, reboundsPerGame: 4.2, assistsPerGame: 6.1, fieldGoalPct: 0.512, freeThrowPct: 0.783 },
         { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2023-24", yearLabel: "2023-24", sortOrder: 307, gamesPlayed: 74, minutesPerGame: 35.5, pointsPerGame: 26.6, reboundsPerGame: 4.6, assistsPerGame: 5.6, stealsPerGame: 2.0, fieldGoalPct: 0.466, freeThrowPct: 0.735 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2024-25", yearLabel: "2024-25", sortOrder: 308, gamesPlayed: 62, pointsPerGame: 23.5, reboundsPerGame: 4.8, assistsPerGame: 6.3, fieldGoalPct: 0.470 },
+        { level: "PROFESSIONAL", teamName: "San Antonio Spurs", season: "2025-26", yearLabel: "2025-26 (traded)", sortOrder: 309, gamesPlayed: 58, pointsPerGame: 19.1, reboundsPerGame: 3.7, assistsPerGame: 6.3 },
       ],
       careerEvents: [
         { year: 2017, title: "Selected #5 overall by the Sacramento Kings", eventType: "DRAFT" },
@@ -99,7 +101,8 @@ export const kentuckyBasketball2017: TeamSeed = {
         { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2021-22", yearLabel: "2021-22 (All-Star)", sortOrder: 305, gamesPlayed: 56, minutesPerGame: 32.6, pointsPerGame: 19.1, reboundsPerGame: 10.1, assistsPerGame: 3.4, stealsPerGame: 1.4, blocksPerGame: 0.8, fieldGoalPct: 0.557, freeThrowPct: 0.753 },
         { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2022-23", yearLabel: "2022-23", sortOrder: 306, gamesPlayed: 75, minutesPerGame: 34.6, pointsPerGame: 20.4, reboundsPerGame: 9.2, assistsPerGame: 3.2, stealsPerGame: 1.1, blocksPerGame: 0.8, fieldGoalPct: 0.540, freeThrowPct: 0.790 },
         { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2023-24", yearLabel: "2023-24", sortOrder: 307, gamesPlayed: 71, minutesPerGame: 34.0, pointsPerGame: 19.3, reboundsPerGame: 10.4, assistsPerGame: 3.9, stealsPerGame: 1.1, blocksPerGame: 0.9, fieldGoalPct: 0.520, freeThrowPct: 0.810 },
-        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2025-26", yearLabel: "2025-26 (83-pt game!)", sortOrder: 308, gamesPlayed: 60, pointsPerGame: 20.1, reboundsPerGame: 10.0, assistsPerGame: 3.0, fieldGoalPct: 0.540 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2024-25", yearLabel: "2024-25", sortOrder: 308, gamesPlayed: 72, pointsPerGame: 20.3, reboundsPerGame: 10.0, assistsPerGame: 3.0, fieldGoalPct: 0.439 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2025-26", yearLabel: "2025-26 (83-pt game!)", sortOrder: 309, gamesPlayed: 58, pointsPerGame: 20.0, reboundsPerGame: 9.8, assistsPerGame: 2.9, fieldGoalPct: 0.448 },
       ],
       careerEvents: [
         { year: 2017, title: "Selected #14 overall by the Miami Heat", eventType: "DRAFT" },
