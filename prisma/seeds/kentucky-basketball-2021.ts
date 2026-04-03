@@ -165,7 +165,7 @@ export const kentuckyBasketball2021: TeamSeed = {
         currentTitle: "Professional Basketball Player",
         currentEmployer: "Noblesville Boom (G League)",
         league: "NBA G League",
-        statusNote: "Went undrafted in 2024. Played 14 games for the Pelicans (10.1 PPG). Now with the Pacers' G League affiliate.",
+        statusNote: "A four-star recruit who played three seasons at Kentucky (2019-22), averaging 10.8 PPG as a junior. Transferred to Washington for his senior year, then went undrafted in the 2024 NBA Draft. Signed a two-way deal with the New Orleans Pelicans in January 2025 and made his NBA debut on February 5, 2025, averaging 10.1 PPG in 14 NBA appearances. Now with the Noblesville Boom (Pacers' G League affiliate).",
         sourceUrl: "https://en.wikipedia.org/wiki/Keion_Brooks_Jr.",
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Forward", yearsAtSchool: "2019-2022", statsNote: "Sophomore • Key returning player" },

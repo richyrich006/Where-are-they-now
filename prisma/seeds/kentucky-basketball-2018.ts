@@ -211,7 +211,7 @@ export const kentuckyBasketball2018: TeamSeed = {
         currentEmployer: "Eisbaren Bremerhaven",
         league: "German ProA",
         location: "Germany",
-        statusNote: "After transferring through Arizona, Fresno State, and New Mexico, Baker is now playing professionally in Germany.",
+        statusNote: "After missing his entire freshman year at Kentucky with a torn meniscus (while teammates SGA and Kevin Knox headed to the NBA), Baker transferred through four colleges — Arizona, Fresno State, and New Mexico. Graduated in 2024 and began his professional career in Denmark's top league with the Svendborg Rabbits, then signed with Eisbaren Bremerhaven in Germany's ProA where he's averaging 14.8 PPG and was named 'Man of the Match' after hitting seven three-pointers against VfL Bochum.",
         sourceUrl: "https://basketball.eurobasket.com/player/Jemarl-Baker-Jr/421563",
       },
       membership: { role: "PLAYER", jerseyNumber: 13, position: "Guard", yearsAtSchool: "2017-2019", statsNote: "Freshman • Missed season with knee injury" },
