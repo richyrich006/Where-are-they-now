@@ -248,6 +248,9 @@ export const kentuckyBasketball2018: TeamSeed = {
         sourceUrl: "https://basketball.eurobasket.com/player/Jemarl-Baker-Jr/421563",
       },
       membership: { role: "PLAYER", jerseyNumber: 13, position: "Guard", yearsAtSchool: "2017-2019", statsNote: "Freshman • Missed season with knee injury" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman (missed season — knee injury)", sortOrder: 201, gamesPlayed: 0 },
+      ],
       careerEvents: [{ year: 2019, title: "Transferred to University of Arizona", eventType: "OTHER" }],
     },
     {

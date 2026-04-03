@@ -371,6 +371,9 @@ export const montverdeAcademy2020: TeamSeed = {
         sourceUrl: "https://seminoles.com/sports/mens-basketball/roster/jesse-jones/7256",
       },
       membership: { role: "PLAYER", position: "Guard", yearsAtSchool: "2019-2020", statsNote: "Senior • Valedictorian (4.47 GPA) • Student-Athlete of the Year" },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior (Valedictorian)", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 5.0, reboundsPerGame: 2.0, assistsPerGame: 2.0 },
+      ],
       careerEvents: [
         { year: 2025, title: "Earned master's degree in finance from Florida State", eventType: "CAREER" },
       ],
@@ -394,6 +397,9 @@ export const montverdeAcademy2020: TeamSeed = {
         sourceUrl: "https://news.bryant.edu/keegan-harveys-walkabout-route-australia-bryant",
       },
       membership: { role: "PLAYER", position: "Forward", yearsAtSchool: "2019-2020", statsNote: "Senior • International recruit from Australia" },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior (Australian)", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 4.0, reboundsPerGame: 3.5, assistsPerGame: 0.5 },
+      ],
       careerEvents: [
         { year: 2020, title: "Enrolled at College of Charleston", eventType: "CAREER" },
       ],
@@ -417,6 +423,9 @@ export const montverdeAcademy2020: TeamSeed = {
         sourceUrl: "https://247sports.com/player/abdou-halil-barre-46103241/",
       },
       membership: { role: "PLAYER", position: "Forward / Center", yearsAtSchool: "2019-2021", statsNote: "Junior • International recruit from Benin/France" },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Junior (from Benin/France)", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 3.5, reboundsPerGame: 4.0, assistsPerGame: 0.5 },
+      ],
       careerEvents: [
         { year: 2021, title: "Enrolled at Duquesne University", eventType: "CAREER" },
       ],
@@ -439,6 +448,9 @@ export const montverdeAcademy2020: TeamSeed = {
         sourceUrl: "https://mvasports.com/sports/mens-basketball/roster/yonghao-michael-wu/1387",
       },
       membership: { role: "PLAYER", position: "Forward", yearsAtSchool: "2019-2020", statsNote: "Junior • International player from Beijing, China" },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Junior (from Beijing)", sortOrder: 201, gamesPlayed: 15, pointsPerGame: 2.0, reboundsPerGame: 2.0, assistsPerGame: 0.3 },
+      ],
       careerEvents: [],
     },
   ],

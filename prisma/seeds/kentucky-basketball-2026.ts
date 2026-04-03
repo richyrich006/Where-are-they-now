@@ -123,6 +123,9 @@ export const kentuckyBasketball2026: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Guard", yearsAtSchool: "2025-present", statsNote: "Transfer from Florida • Canadian" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior (transfer from Florida)", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 8.0, reboundsPerGame: 2.5, assistsPerGame: 1.5 },
+      ],
       careerEvents: [],
     },
     {
@@ -234,6 +237,9 @@ export const kentuckyBasketball2026: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 24, position: "Center", yearsAtSchool: "2025-present", statsNote: "Freshman • 6-11 center" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 4.5, reboundsPerGame: 3.0, assistsPerGame: 0.5 },
+      ],
       careerEvents: [],
     },
     {
@@ -255,6 +261,9 @@ export const kentuckyBasketball2026: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Forward", yearsAtSchool: "2025-present", statsNote: "Freshman • 6-11 Croatian forward" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Freshman (Croatian)", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 3.0, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
+      ],
       careerEvents: [],
     },
     {
@@ -276,6 +285,9 @@ export const kentuckyBasketball2026: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Forward", yearsAtSchool: "2025-present", statsNote: "Freshman • Four-star recruit" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 5.0, reboundsPerGame: 3.5, assistsPerGame: 0.5 },
+      ],
       careerEvents: [],
     },
     {
@@ -297,6 +309,9 @@ export const kentuckyBasketball2026: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Center", yearsAtSchool: "2025-present", statsNote: "Transfer from Miami (OH) • 7-1 center" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior (transfer from Miami OH)", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 3.5, reboundsPerGame: 4.0, assistsPerGame: 0.5 },
+      ],
       careerEvents: [],
     },
     {

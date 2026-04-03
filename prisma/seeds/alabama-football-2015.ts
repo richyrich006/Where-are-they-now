@@ -390,6 +390,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Consensus All-American · 2x SEC Champion · 29 starts",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Consensus All-American · 2x SEC Champion · 29 starts" },
+      ],
       careerEvents: [
         { year: 2016, title: "Drafted by Detroit Lions (2nd round, #46)", eventType: "DRAFT" },
         { year: 2022, title: "Won Super Bowl LVI with Los Angeles Rams", eventType: "CHAMPIONSHIP" },
@@ -423,6 +426,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "57 tackles · 1 sack · 28 career starts at Alabama",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "57 tackles · 1 sack · 28 career starts at Alabama" },
+      ],
       careerEvents: [
         { year: 2016, title: "Drafted by Seattle Seahawks (2nd round, #49)", eventType: "DRAFT" },
         { year: 2018, title: "Career-high 10.5 sacks", eventType: "MILESTONE" },
@@ -668,6 +674,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Cotton Bowl Defensive MVP · 4 punt return TDs in 2015 · 42 returns for 530 yards",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Cotton Bowl Defensive MVP · 4 punt return TDs in 2015 · 42 returns for 530 yards" },
+      ],
       careerEvents: [
         { year: 2016, title: "Drafted by New England Patriots (2nd round, #60)", eventType: "DRAFT" },
         { year: 2018, title: "Claimed by Baltimore Ravens", eventType: "SIGNING" },
@@ -700,6 +709,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Key sophomore contributor in 2015 · Led team receiving in 2016",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Key sophomore contributor in 2015 · Led team receiving in 2016" },
+      ],
       careerEvents: [
         { year: 2017, title: "Drafted by New York Jets (3rd round, #79)", eventType: "DRAFT" },
         { year: 2018, title: "Released by Jets", eventType: "RELEASE" },
@@ -731,6 +743,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "38 catches · 5 TDs · Played in all 15 games · Graduate transfer from Oregon State",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "38 catches · 5 TDs · Played in all 15 games · Graduate transfer from Oregon State" },
+      ],
       careerEvents: [
         { year: 2016, title: "Signed as UDFA with Houston Texans", eventType: "SIGNING" },
         { year: 2019, title: "Played for Arizona Hotshots (AAF)", eventType: "SIGNING" },
@@ -803,6 +818,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "357 career points · 57 FGs · 55-yard FG vs LSU · Crucial onside kick in championship",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "357 career points · 57 FGs · 55-yard FG vs LSU · Crucial onside kick in championship" },
+      ],
       careerEvents: [
         { year: 2015, title: "55-yard field goal vs LSU", eventType: "MILESTONE" },
         { year: 2016, title: "Onside kick in CFP Championship vs Clemson", eventType: "MILESTONE", detail: "Critical play that shifted momentum in 45-40 win" },
@@ -874,6 +892,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Started at RG in 2015 · Moved to center in 2017 · All-American · 31 career starts",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Started at RG in 2015 · Moved to center in 2017 · All-American · 31 career starts" },
+      ],
       careerEvents: [
         { year: 2018, title: "Drafted by Baltimore Ravens (6th round, #215)", eventType: "DRAFT" },
         { year: 2022, title: "Signed with Carolina Panthers", eventType: "SIGNING" },
@@ -906,6 +927,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Started at LG in 2015 · 57 career starts · 3x All-SEC · Rimington Trophy finalist",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Started at LG in 2015 · 57 career starts · 3x All-SEC · Rimington Trophy finalist" },
+      ],
       careerEvents: [
         { year: 2019, title: "Drafted by Washington (5th round, #153)", eventType: "DRAFT" },
       ],
@@ -937,6 +961,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Started all 15 games at RT · JUCO transfer · 48 knockdowns in 2015",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Started all 15 games at RT · JUCO transfer · 48 knockdowns in 2015" },
+      ],
       careerEvents: [
         { year: 2016, title: "Signed as UDFA with Washington", eventType: "SIGNING" },
       ],
@@ -1040,6 +1067,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Rotational OLB in 2015 · 1st-team All-SEC in 2016 · 19 career sacks",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Rotational OLB in 2015 · 1st-team All-SEC in 2016 · 19 career sacks" },
+      ],
       careerEvents: [
         { year: 2017, title: "Drafted by Washington (2nd round, #49)", eventType: "DRAFT" },
         { year: 2022, title: "Signed with Pittsburgh Steelers", eventType: "SIGNING" },
@@ -1155,6 +1185,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "50 career games · 25 starts · 83 tackles · 6 sacks · 13 QB hurries",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "50 career games · 25 starts · 83 tackles · 6 sacks · 13 QB hurries" },
+      ],
       careerEvents: [
         { year: 2016, title: "Joined Alabama football staff as personnel assistant", eventType: "CAREER_CHANGE" },
         { year: 2017, title: "Promoted to Director of Player Development at Alabama", eventType: "CAREER_CHANGE" },
@@ -1471,6 +1504,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "True freshman contributor in 2015 · 2x National Champion",
         gamesPlayed: 12,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 12, tournamentResult: "True freshman contributor in 2015 · 2x National Champion" },
+      ],
       careerEvents: [
         { year: 2018, title: "Drafted by Jacksonville Jaguars (3rd round, #93)", eventType: "DRAFT" },
         { year: 2020, title: "Traded to Cleveland Browns", eventType: "TRADE" },
@@ -1501,6 +1537,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Backup MLB in 2015 · Team captain in 2017 · 2x National Champion",
         gamesPlayed: 14,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 14, tournamentResult: "Backup MLB in 2015 · Team captain in 2017 · 2x National Champion" },
+      ],
       careerEvents: [
         { year: 2018, title: "Drafted by Washington (6th round, #197)", eventType: "DRAFT" },
       ],
@@ -1530,6 +1569,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "#1 overall recruit in 2014 class · Rotational DE in 2015",
         gamesPlayed: 12,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 12, tournamentResult: "#1 overall recruit in 2014 class · Rotational DE in 2015" },
+      ],
       careerEvents: [
         { year: 2018, title: "Drafted by Detroit Lions (4th round, #114)", eventType: "DRAFT" },
       ],
@@ -1558,6 +1600,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Depth WR in 2015 · Breakout NFL rookie season in 2018",
         gamesPlayed: 12,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 12, tournamentResult: "Depth WR in 2015 · Breakout NFL rookie season in 2018" },
+      ],
       careerEvents: [
         { year: 2018, title: "Signed as UDFA with Buffalo Bills", eventType: "SIGNING" },
         { year: 2018, title: "541 receiving yards in final 7 games as rookie", eventType: "MILESTONE" },
@@ -1587,6 +1632,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Walk-on who earned scholarship · Reserve DB in 2015",
         gamesPlayed: 5,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 5, tournamentResult: "Walk-on who earned scholarship · Reserve DB in 2015" },
+      ],
       careerEvents: [
         { year: 2018, title: "Signed as UDFA with Buffalo Bills", eventType: "SIGNING" },
         { year: 2022, title: "Signed with Pittsburgh Steelers", eventType: "SIGNING" },
@@ -1616,6 +1664,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "True freshman OLB in 2015 · Part of deep pass-rush rotation",
         gamesPlayed: 8,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 8, tournamentResult: "True freshman OLB in 2015 · Part of deep pass-rush rotation" },
+      ],
       careerEvents: [
         { year: 2019, title: "Drafted by Carolina Panthers (4th round, #115)", eventType: "DRAFT" },
       ],
@@ -1638,6 +1689,9 @@ export const alabamaFootball2015: TeamSeed = {
         sourceUrl: "https://tdalabamamag.com/2026/01/08/former-alabama-ol-says-he-is-not-losing-sleep-over-offensive-line-transfers",
       },
       membership: { role: "PLAYER", jerseyNumber: 50, position: "Offensive Guard", yearsAtSchool: "2012-2015", statsNote: "Senior starter · Starting RG on championship O-line", gamesPlayed: 15 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior starter · Starting RG on championship O-line" },
+      ],
       careerEvents: [{ year: 2016, title: "Signed as UDFA with Cleveland Browns", eventType: "SIGNING" }],
     },
     {
@@ -1657,6 +1711,9 @@ export const alabamaFootball2015: TeamSeed = {
         sourceUrl: "https://www.pro-football-reference.com/players/B/BrowTo03.htm",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Cornerback", yearsAtSchool: "2015-2017", statsNote: "True freshman · 5-star recruit · Later drafted by Packers", gamesPlayed: 12 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 12, tournamentResult: "True freshman · 5-star recruit · Later drafted by Packers" },
+      ],
       careerEvents: [{ year: 2018, title: "Drafted by Green Bay Packers (6th round)", eventType: "DRAFT" }],
     },
     {
@@ -1676,6 +1733,9 @@ export const alabamaFootball2015: TeamSeed = {
         sourceUrl: "https://www.pro-football-reference.com/players/A/AverAn00.htm",
       },
       membership: { role: "PLAYER", jerseyNumber: 28, position: "Cornerback", yearsAtSchool: "2014-2017", statsNote: "Sophomore contributor · Later drafted by Ravens (4th round)", gamesPlayed: 12 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 12, tournamentResult: "Sophomore contributor · Later drafted by Ravens (4th round)" },
+      ],
       careerEvents: [{ year: 2018, title: "Drafted by Baltimore Ravens (4th round)", eventType: "DRAFT" }],
     },
     {
@@ -1694,6 +1754,9 @@ export const alabamaFootball2015: TeamSeed = {
         sourceUrl: "https://rolltide.com/sports/football/roster",
       },
       membership: { role: "PLAYER", jerseyNumber: 24, position: "Safety", yearsAtSchool: "2012-2015", statsNote: "Senior starter · Starting safety alongside Eddie Jackson", gamesPlayed: 15 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior starter · Starting safety alongside Eddie Jackson" },
+      ],
       careerEvents: [],
     },
     {
@@ -1712,6 +1775,9 @@ export const alabamaFootball2015: TeamSeed = {
         sourceUrl: "https://rolltide.com/sports/football/roster",
       },
       membership: { role: "PLAYER", jerseyNumber: 57, position: "Defensive Tackle", yearsAtSchool: "2012-2015", statsNote: "Senior · Rotational DT alongside Robinson and Reed", gamesPlayed: 15 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior · Rotational DT alongside Robinson and Reed" },
+      ],
       careerEvents: [],
     },
     {
@@ -1730,6 +1796,9 @@ export const alabamaFootball2015: TeamSeed = {
         sourceUrl: "https://www.sports-reference.com/cfb/players/xzavier-dickson-1.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 47, position: "Defensive End / Outside Linebacker", yearsAtSchool: "2012-2015", statsNote: "Senior · Pass rush contributor", gamesPlayed: 15 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior · Pass rush contributor" },
+      ],
       careerEvents: [{ year: 2016, title: "Signed as UDFA with Cincinnati Bengals", eventType: "SIGNING" }],
     },
   ],

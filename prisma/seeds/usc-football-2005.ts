@@ -431,6 +431,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2003-2005",
         statsNote: "Two-year starter protecting Matt Leinart's blind side", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Starter", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Two-year starter protecting Matt Leinart's blind side" },
+      ],
       careerEvents: [
         { year: 2006, title: "Selected #39 overall by the Philadelphia Eagles", eventType: "DRAFT" },
         { year: 2012, title: "Final NFL season with the Indianapolis Colts", eventType: "CAREER" },
@@ -460,6 +463,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2004-2007",
         statsNote: "Started as sophomore on 2005 line • First-round pick", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Started as sophomore on 2005 line • First-round pick" },
+      ],
       careerEvents: [
         { year: 2008, title: "Selected #21 overall by the Atlanta Falcons", eventType: "DRAFT" },
         { year: 2013, title: "Retired from the NFL due to chronic knee injuries", eventType: "RETIREMENT" },
@@ -490,6 +496,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2004-2007",
         statsNote: "8 sacks in senior season • First-round pick", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 13, tournamentResult: "8 sacks in senior season • First-round pick" },
+      ],
       careerEvents: [
         { year: 2008, title: "Selected #28 overall by the Seattle Seahawks", eventType: "DRAFT" },
         { year: 2012, title: "Final NFL season with the Detroit Lions", eventType: "CAREER" },
@@ -520,6 +529,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2003-2005",
         statsNote: "Key starter in secondary • Originally recruited as WR/ATH", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Starter", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Key starter in secondary • Originally recruited as WR/ATH" },
+      ],
       careerEvents: [
         { year: 2006, title: "Went undrafted; signed as free agent with Oakland Raiders", eventType: "SIGNING" },
       ],
@@ -549,6 +561,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2002-2005",
         statsNote: "Four-year contributor • Steady tackler and defensive leader", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Four-year contributor • Steady tackler and defensive leader" },
+      ],
       careerEvents: [
         { year: 2006, title: "Went undrafted; brief stint with Cleveland Browns", eventType: "SIGNING" },
       ],
@@ -578,6 +593,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2002-2005",
         statsNote: "Lead blocker for Bush and White • Key contributor to USC's rushing attack", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Lead blocker for Bush and White • Key contributor to USC's rushing attack" },
+      ],
       careerEvents: [
         { year: 2006, title: "Went undrafted; signed as free agent with San Diego Chargers", eventType: "SIGNING" },
       ],
@@ -605,6 +623,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2002-2005",
         statsNote: "Starting cornerback in 2005 secondary", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 13 },
+      ],
       careerEvents: [
         { year: 2006, title: "Signed as undrafted free agent with Houston Texans", eventType: "SIGNING" },
       ],
@@ -854,6 +875,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2003-2007",
         statsNote: "Backup QB in 2005 • Started for USC in 2007", gamesPlayed: 10,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 10, tournamentResult: "Backup QB in 2005 • Started for USC in 2007" },
+      ],
       careerEvents: [
         { year: 2008, title: "Selected by the Minnesota Vikings (5th round)", eventType: "DRAFT" },
       ],
@@ -881,6 +905,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2005-2007",
         statsNote: "True freshman in 2005 • 13 rec, 145 yds, 2 TD • Second-round NFL pick", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 13, tournamentResult: "True freshman in 2005 • 13 rec, 145 yds, 2 TD • Second-round NFL pick" },
+      ],
       careerEvents: [
         { year: 2008, title: "Selected #48 overall by the Washington Redskins", eventType: "DRAFT" },
         { year: 2015, title: "Final NFL season with the New England Patriots", eventType: "CAREER" },
@@ -909,6 +936,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2002-2005",
         statsNote: "Key run blocker for Bush and White • Second-round NFL pick", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Key run blocker for Bush and White • Second-round NFL pick" },
+      ],
       careerEvents: [
         { year: 2006, title: "Selected #41 overall by the Arizona Cardinals", eventType: "DRAFT" },
         { year: 2009, title: "Played in Super Bowl XLIII with the Cardinals", eventType: "CHAMPIONSHIP" },
@@ -938,6 +968,9 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2002-2005",
         statsNote: "Versatile TE • Third-round NFL pick", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Versatile TE • Third-round NFL pick" },
+      ],
       careerEvents: [
         { year: 2006, title: "Selected #71 overall by the St. Louis Rams", eventType: "DRAFT" },
       ],
@@ -1016,6 +1049,9 @@ export const uscFootball2005: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Scott_Ware",
       },
       membership: { role: "PLAYER", jerseyNumber: 29, position: "Free Safety", yearsAtSchool: "2002-2005", statsNote: "Senior starter • All-Pac-10 second team", gamesPlayed: 13 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Senior starter • All-Pac-10 second team" },
+      ],
       careerEvents: [{ year: 2006, title: "Signed as UDFA by Philadelphia Eagles", eventType: "SIGNING" }],
     },
     {
@@ -1034,6 +1070,9 @@ export const uscFootball2005: TeamSeed = {
         sourceUrl: "https://usctrojans.com/sports/football/roster/justin-wyatt/1822",
       },
       membership: { role: "PLAYER", jerseyNumber: 24, position: "Cornerback", yearsAtSchool: "2002-2005", statsNote: "Senior starter • Two-year starting CB", gamesPlayed: 13 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Senior starter • Two-year starting CB" },
+      ],
       careerEvents: [{ year: 2006, title: "Signed as UDFA with Arizona Cardinals", eventType: "SIGNING" }],
     },
     {
@@ -1054,6 +1093,9 @@ export const uscFootball2005: TeamSeed = {
         sourceUrl: "https://www.thebishoprealestategroup.com/dallas-sartz",
       },
       membership: { role: "PLAYER", jerseyNumber: 42, position: "Linebacker", yearsAtSchool: "2002-2005", statsNote: "Senior starter • 2x team captain • Dislocated shoulder vs Arkansas", gamesPlayed: 3 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 3, tournamentResult: "Senior starter • 2x team captain • Dislocated shoulder vs Arkansas" },
+      ],
       careerEvents: [{ year: 2007, title: "Selected by Washington Redskins (5th round)", eventType: "DRAFT" }],
     },
     {
@@ -1072,6 +1114,9 @@ export const uscFootball2005: TeamSeed = {
         sourceUrl: "https://usctrojans.com/news/2012/8/5/Ex_USC_Lineman_Fred_Matua_Dies",
       },
       membership: { role: "PLAYER", jerseyNumber: 51, position: "Offensive Guard", yearsAtSchool: "2003-2006", statsNote: "3-year starter • All-Pac-10 second team • 7th-round pick", gamesPlayed: 13 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Starter", sortOrder: 201, gamesPlayed: 13, tournamentResult: "3-year starter • All-Pac-10 second team • 7th-round pick" },
+      ],
       careerEvents: [
         { year: 2006, title: "Selected by Detroit Lions (7th round)", eventType: "DRAFT" },
         { year: 2012, title: "Passed away at age 28 due to heart-related issue", eventType: "OTHER" },
@@ -1093,6 +1138,9 @@ export const uscFootball2005: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Mario_Danelo",
       },
       membership: { role: "PLAYER", jerseyNumber: 19, position: "Placekicker", yearsAtSchool: "2004-2006", statsNote: "83-of-86 PATs (NCAA record) • 11-of-12 FGs in 2005", gamesPlayed: 13 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 13, tournamentResult: "83-of-86 PATs (NCAA record) • 11-of-12 FGs in 2005" },
+      ],
       careerEvents: [{ year: 2007, title: "Passed away at age 21", eventType: "OTHER" }],
     },
     {
@@ -1111,6 +1159,9 @@ export const uscFootball2005: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Tom_Malone_(American_football)",
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Punter", yearsAtSchool: "2002-2005", statsNote: "4-year starter • First-team All-American • First All-American punter in USC history", gamesPlayed: 13 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Starter", sortOrder: 201, gamesPlayed: 13, tournamentResult: "4-year starter • First-team All-American • First All-American punter in USC history" },
+      ],
       careerEvents: [{ year: 2006, title: "Signed as UDFA by San Francisco 49ers", eventType: "SIGNING" }],
     },
     {
@@ -1131,6 +1182,9 @@ export const uscFootball2005: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Chris_McFoy",
       },
       membership: { role: "PLAYER", jerseyNumber: 82, position: "Wide Receiver", yearsAtSchool: "2002-2005", statsNote: "Started 6 games • 17 rec, 172 yds in 2005", gamesPlayed: 13 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Started 6 games • 17 rec, 172 yds in 2005" },
+      ],
       careerEvents: [{ year: 2007, title: "Signed as free agent with Oakland Raiders", eventType: "SIGNING" }],
     },
     {
@@ -1149,6 +1203,9 @@ export const uscFootball2005: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Patrick_Turner",
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Wide Receiver", yearsAtSchool: "2005-2008", statsNote: "Freshman • 12 rec, 170 yds, 2 TD • Later 3rd-round pick", gamesPlayed: 13 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Freshman • 12 rec, 170 yds, 2 TD • Later 3rd-round pick" },
+      ],
       careerEvents: [{ year: 2009, title: "Selected by Miami Dolphins (3rd round, #87)", eventType: "DRAFT" }],
     },
     {
@@ -1167,6 +1224,9 @@ export const uscFootball2005: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Chauncey_Washington",
       },
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Running Back", yearsAtSchool: "2003-2007", statsNote: "Backup RB behind Bush and White", gamesPlayed: 13 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Backup RB behind Bush and White" },
+      ],
       careerEvents: [{ year: 2008, title: "Selected by Jacksonville Jaguars (7th round)", eventType: "DRAFT" }],
     },
     {
