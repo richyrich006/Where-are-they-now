@@ -145,10 +145,11 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "A two-time All-American wide receiver who was Leinart's top target, Jarrett caught 91 passes for 1,274 yards and 16 TDs in 2005.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Private Citizen",
+        occupationType: "OTHER",
+        currentTitle: "Entrepreneur",
+        location: "Southern California",
         statusNote:
-          "Selected 45th overall by the Carolina Panthers in 2007, Jarrett struggled to replicate his college success in the NFL, totaling just 35 catches over four seasons. He was released following a second DUI arrest in 2010. A brief stint with the Saskatchewan Roughriders in 2012 ended his playing career at age 25. Since retiring, Jarrett has maintained a very low public profile and stepped largely out of the spotlight.",
+          "USC's all-time receptions leader (216) and Pac-10 all-time TD receptions leader (41), Jarrett was drafted 45th overall by the Panthers in 2007 but struggled in the NFL (35 career catches). Two DUI arrests led to his release in 2010, and a brief CFL stint in 2012 ended his career at 25. LinkedIn profiles suggest he may be involved in media production (AVI Media LLC) or entrepreneurship (Fast&Curious36), though specifics are unconfirmed. He maintains an Instagram presence (@dwaynejarrett_) and appears to reside in the Los Angeles area.",
         sourceUrl: "https://en.wikipedia.org/wiki/Dwayne_Jarrett",
       },
       membership: {
@@ -474,11 +475,13 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "An explosive pass rusher who developed into one of the Pac-10's top defensive ends during his time at USC. Jackson had 8 sacks in his senior season.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired NFL Player",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Social Entrepreneur / Community Leader",
+        currentEmployer: "A World Fit For Kids / Torch LA",
+        location: "Inglewood, CA",
         statusNote:
-          "Selected in the first round (28th overall) by the Seattle Seahawks in 2008, Jackson played four NFL seasons with Seattle and Detroit. He recorded 10.5 career sacks before leaving the league in 2012. Since retirement, he has maintained a quiet private life.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Lawrence_Jackson_(American_football)",
+          "Selected 28th overall by the Seattle Seahawks in 2008, Jackson played four NFL seasons with Seattle and Detroit (10.5 career sacks). After retiring in 2013, he became a social entrepreneur and community leader in his hometown of Inglewood. He serves as Chair of the USC Black Alumni Young Professionals Association, co-chairs the American Heart Association's Inglewood Active Community Coalition, and is Director of Torch LA. He also works with A World Fit For Kids, empowering underserved communities through youth mentoring. He was a speaker at the MIT Sloan Sports Analytics Conference.",
+        sourceUrl: "https://worldfitforkids.org/our_team/lawrence-jackson/",
       },
       membership: {
         role: "PLAYER",
@@ -592,7 +595,7 @@ export const uscFootball2005: TeamSeed = {
         occupationType: "OTHER",
         currentTitle: "Private Citizen",
         statusNote:
-          "Pinkard went undrafted in 2006 and was signed by the Houston Texans as an undrafted free agent. He appeared in 15 games for Houston before being released. After a brief professional career, he stepped away from football and has maintained a low public profile.",
+          "Pinkard went undrafted in 2006, signed with the Houston Texans, and appeared in 15 games before being released. He later signed with the Seahawks but was waived after failing his physical. After football, Pinkard has chosen to live entirely out of the public eye — extensive searches of LinkedIn, social media, and news sources have not revealed his current occupation. Some former players prefer complete privacy after their careers end.",
         sourceUrl: "https://en.wikipedia.org/wiki/Josh_Pinkard",
       },
       membership: {
@@ -1140,9 +1143,9 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "A freshman backup wide receiver who caught 12 passes for 170 yards and 2 TDs in 2005 and later became a 3rd-round NFL pick.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired NFL Player",
-        statusNote: "Selected in the 3rd round (87th overall) by the Miami Dolphins in the 2009 NFL Draft. Also played for the NY Jets. Career: 24 games, 10 receptions. Has maintained a private life since retiring.",
+        occupationType: "OTHER",
+        currentTitle: "Private Citizen",
+        statusNote: "Selected 87th overall by the Miami Dolphins in 2009, Turner caught just 10 passes in 24 NFL games before leaving football in 2012. A native of Madison, TN who attended Goodpasture Christian School, Turner has chosen to live privately since his playing career ended. Extensive searches have not revealed his current profession.",
         sourceUrl: "https://en.wikipedia.org/wiki/Patrick_Turner",
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Wide Receiver", yearsAtSchool: "2005-2008", statsNote: "Freshman • 12 rec, 170 yds, 2 TD • Later 3rd-round pick", gamesPlayed: 13 },
