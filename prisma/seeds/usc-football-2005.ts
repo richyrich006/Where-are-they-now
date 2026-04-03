@@ -530,11 +530,13 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "A reliable inside linebacker who was a four-year contributor at USC. Lua was a steady tackler and leader on the defensive side of the ball.",
       status: {
-        occupationType: "OTHER",
-        currentTitle: "Private Citizen",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "President / Partner",
+        currentEmployer: "Statewide Services Inc.",
+        location: "Indio, CA",
         statusNote:
-          "Lua went undrafted in 2006 and had a brief stint with the Cleveland Browns before his professional football career ended. He returned to Southern California and has maintained a private life since leaving the sport. Limited public information is available about his post-football career.",
-        sourceUrl: "https://usctrojans.com/sports/football/roster/oscar-lua/1734",
+          "After a brief NFL stint with the Patriots (7th round, 2007) and Browns, Lua returned to his hometown of Indio, CA and pivoted to construction and property development. He worked his way up in property management in Orange County before becoming president and partner at Statewide Services Inc., a general contractor building affordable housing developments in the Coachella Valley. In 2024, his company completed a major new apartment complex in Indio, giving back to the community where he grew up.",
+        sourceUrl: "https://kesq.com/news/2024/05/24/local-native-and-former-nfl-player-gives-back-to-community-with-new-apartments/",
       },
       membership: {
         role: "PLAYER",
