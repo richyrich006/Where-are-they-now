@@ -35,7 +35,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 11,
         position: "Quarterback",
         yearsAtSchool: "2001-2005",
-        statsNote: "2004 Heisman Trophy • 3,815 yds, 28 TD, 8 INT in 2005 • 37-2 career record as starter",
+        statsNote: "2004 Heisman Trophy • 3,815 yds, 28 TD, 8 INT in 2005 • 37-2 career record as starter", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2004, title: "Won Heisman Trophy", eventType: "AWARD" },
@@ -67,7 +67,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 5,
         position: "Running Back",
         yearsAtSchool: "2003-2005",
-        statsNote: "2005 Heisman Trophy • 1,740 rush yds, 16 TD • 478 rec yds in 2005",
+        statsNote: "2005 Heisman Trophy • 1,740 rush yds, 16 TD • 478 rec yds in 2005", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2005, title: "Won Heisman Trophy (later vacated, restored 2024)", eventType: "AWARD" },
@@ -100,7 +100,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 25,
         position: "Running Back",
         yearsAtSchool: "2003-2005",
-        statsNote: "1,302 rush yds, 24 TD in 2005 • 2,624 career rush yds at USC",
+        statsNote: "1,302 rush yds, 24 TD in 2005 • 2,624 career rush yds at USC", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2006, title: "Selected #45 overall by the Tennessee Titans", eventType: "DRAFT" },
@@ -129,7 +129,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 8,
         position: "Wide Receiver",
         yearsAtSchool: "2004-2006",
-        statsNote: "Two-time All-American • 91 rec, 1,274 yds, 16 TD in 2005",
+        statsNote: "Two-time All-American • 91 rec, 1,274 yds, 16 TD in 2005", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2007, title: "Selected #45 overall by the Carolina Panthers", eventType: "DRAFT" },
@@ -160,7 +160,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 2,
         position: "Wide Receiver",
         yearsAtSchool: "2003-2006",
-        statsNote: "63 rec, 959 yds, 6 TD in 2005 • All-American",
+        statsNote: "63 rec, 959 yds, 6 TD in 2005 • All-American", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2007, title: "Selected #51 overall by the New York Giants", eventType: "DRAFT" },
@@ -190,7 +190,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 55,
         position: "Linebacker",
         yearsAtSchool: "2004-2007",
-        statsNote: "Wore USC's prestigious #55 • 240 career tackles, 18.5 TFL",
+        statsNote: "Wore USC's prestigious #55 • 240 career tackles, 18.5 TFL", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2008, title: "Selected #9 overall by the Cincinnati Bengals", eventType: "DRAFT" },
@@ -221,7 +221,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 58,
         position: "Linebacker",
         yearsAtSchool: "2005-2008",
-        statsNote: "Bednarik Award winner • Unanimous All-American • 4 Rose Bowls • 2008 Rose Bowl Defensive MVP",
+        statsNote: "Bednarik Award winner • Unanimous All-American • 4 Rose Bowls • 2008 Rose Bowl Defensive MVP", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2009, title: "Selected #38 overall by the Cincinnati Bengals", eventType: "DRAFT" },
@@ -253,7 +253,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 10,
         position: "Linebacker",
         yearsAtSchool: "2005-2008",
-        statsNote: "True freshman in 2005 • Part of legendary USC LB corps with Rivers, Maualuga, Clay Matthews",
+        statsNote: "True freshman in 2005 • Part of legendary USC LB corps with Rivers, Maualuga, Clay Matthews", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2009, title: "Selected #15 overall by the Houston Texans", eventType: "DRAFT" },
@@ -284,7 +284,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 49,
         position: "Defensive Tackle",
         yearsAtSchool: "2004-2007",
-        statsNote: "Unanimous All-American • Pac-10 Defensive Player of the Year 2007",
+        statsNote: "Unanimous All-American • Pac-10 Defensive Player of the Year 2007", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2008, title: "Selected #7 overall by the New Orleans Saints", eventType: "DRAFT" },
@@ -315,7 +315,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 90,
         position: "Defensive End",
         yearsAtSchool: "2002-2005",
-        statsNote: "First Team All-Pac-10 2005 • Transfer from Colorado State",
+        statsNote: "First Team All-Pac-10 2005 • Transfer from Colorado State", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2006, title: "Selected #91 overall by the Cincinnati Bengals", eventType: "DRAFT" },
@@ -344,7 +344,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 74,
         position: "Offensive Tackle",
         yearsAtSchool: "2003-2005",
-        statsNote: "Two-year starter protecting Matt Leinart's blind side",
+        statsNote: "Two-year starter protecting Matt Leinart's blind side", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2006, title: "Selected #39 overall by the Philadelphia Eagles", eventType: "DRAFT" },
@@ -373,7 +373,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 72,
         position: "Offensive Tackle",
         yearsAtSchool: "2004-2007",
-        statsNote: "Started as sophomore on 2005 line • First-round pick",
+        statsNote: "Started as sophomore on 2005 line • First-round pick", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2008, title: "Selected #21 overall by the Atlanta Falcons", eventType: "DRAFT" },
@@ -401,7 +401,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 86,
         position: "Defensive End",
         yearsAtSchool: "2004-2007",
-        statsNote: "8 sacks in senior season • First-round pick",
+        statsNote: "8 sacks in senior season • First-round pick", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2008, title: "Selected #28 overall by the Seattle Seahawks", eventType: "DRAFT" },
@@ -430,7 +430,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 27,
         position: "Safety",
         yearsAtSchool: "2003-2005",
-        statsNote: "Key starter in secondary • Originally recruited as WR/ATH",
+        statsNote: "Key starter in secondary • Originally recruited as WR/ATH", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2006, title: "Went undrafted; signed as free agent with Oakland Raiders", eventType: "SIGNING" },
@@ -457,7 +457,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 46,
         position: "Inside Linebacker",
         yearsAtSchool: "2002-2005",
-        statsNote: "Four-year contributor • Steady tackler and defensive leader",
+        statsNote: "Four-year contributor • Steady tackler and defensive leader", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2006, title: "Went undrafted; brief stint with Cleveland Browns", eventType: "SIGNING" },
@@ -484,7 +484,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 40,
         position: "Fullback",
         yearsAtSchool: "2002-2005",
-        statsNote: "Lead blocker for Bush and White • Key contributor to USC's rushing attack",
+        statsNote: "Lead blocker for Bush and White • Key contributor to USC's rushing attack", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2006, title: "Went undrafted; signed as free agent with San Diego Chargers", eventType: "SIGNING" },
@@ -511,7 +511,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 19,
         position: "Cornerback",
         yearsAtSchool: "2002-2005",
-        statsNote: "Starting cornerback in 2005 secondary",
+        statsNote: "Starting cornerback in 2005 secondary", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2006, title: "Signed as undrafted free agent with Houston Texans", eventType: "SIGNING" },
@@ -637,7 +637,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 47,
         position: "Outside Linebacker",
         yearsAtSchool: "2004-2008",
-        statsNote: "Walk-on turned star • 3x USC Special Teams Player of the Year",
+        statsNote: "Walk-on turned star • 3x USC Special Teams Player of the Year", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2009, title: "Selected #26 overall by the Green Bay Packers", eventType: "DRAFT" },
@@ -668,7 +668,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 6,
         position: "Quarterback",
         yearsAtSchool: "2005-2008",
-        statsNote: "Redshirt freshman in 2005 • Led USC to 2009 Rose Bowl victory as junior starter",
+        statsNote: "Redshirt freshman in 2005 • Led USC to 2009 Rose Bowl victory as junior starter", gamesPlayed: 0,
       },
       careerEvents: [
         { year: 2009, title: "Selected #5 overall by the New York Jets", eventType: "DRAFT" },
@@ -700,7 +700,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 67,
         position: "Center",
         yearsAtSchool: "2003-2006",
-        statsNote: "Two-year starter • First-team All-Pac-10 • Anchored line for Leinart and Bush",
+        statsNote: "Two-year starter • First-team All-Pac-10 • Anchored line for Leinart and Bush", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2007, title: "Selected #59 overall by the Carolina Panthers", eventType: "DRAFT" },
@@ -731,7 +731,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 10,
         position: "Quarterback",
         yearsAtSchool: "2003-2007",
-        statsNote: "Backup QB in 2005 • Started for USC in 2007",
+        statsNote: "Backup QB in 2005 • Started for USC in 2007", gamesPlayed: 10,
       },
       careerEvents: [
         { year: 2008, title: "Selected by the Minnesota Vikings (5th round)", eventType: "DRAFT" },
@@ -758,7 +758,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 85,
         position: "Tight End",
         yearsAtSchool: "2005-2007",
-        statsNote: "True freshman in 2005 • 13 rec, 145 yds, 2 TD • Second-round NFL pick",
+        statsNote: "True freshman in 2005 • 13 rec, 145 yds, 2 TD • Second-round NFL pick", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2008, title: "Selected #48 overall by the Washington Redskins", eventType: "DRAFT" },
@@ -786,7 +786,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 78,
         position: "Offensive Guard",
         yearsAtSchool: "2002-2005",
-        statsNote: "Key run blocker for Bush and White • Second-round NFL pick",
+        statsNote: "Key run blocker for Bush and White • Second-round NFL pick", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2006, title: "Selected #41 overall by the Arizona Cardinals", eventType: "DRAFT" },
@@ -814,7 +814,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 86,
         position: "Tight End",
         yearsAtSchool: "2002-2005",
-        statsNote: "Versatile TE • Third-round NFL pick",
+        statsNote: "Versatile TE • Third-round NFL pick", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2006, title: "Selected #71 overall by the St. Louis Rams", eventType: "DRAFT" },
@@ -841,7 +841,7 @@ export const uscFootball2005: TeamSeed = {
         jerseyNumber: 9,
         position: "Safety / Linebacker",
         yearsAtSchool: "2002-2005",
-        statsNote: "Versatile defender • Fifth-round NFL pick",
+        statsNote: "Versatile defender • Fifth-round NFL pick", gamesPlayed: 13,
       },
       careerEvents: [
         { year: 2006, title: "Selected by the San Diego Chargers (5th round)", eventType: "DRAFT" },
@@ -865,7 +865,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "Selected in the 2nd round by the NY Giants in 2008, Thomas won Super Bowl XLVI and had 5 INTs in 2009. After retiring, he became a real estate agent at eXp Realty, a Senior Football Analyst at Boston College, and published a book titled 'DIG.' He is also a strategic advisor at First Women's Bank.",
         sourceUrl: "https://life.exprealty.com/terrell-thomas-ny-giants-exp-realty/",
       },
-      membership: { role: "PLAYER", jerseyNumber: 28, position: "Cornerback", yearsAtSchool: "2004-2007", statsNote: "Started first 2 games before knee injury • 2nd-round pick • Super Bowl champ" },
+      membership: { role: "PLAYER", jerseyNumber: 28, position: "Cornerback", yearsAtSchool: "2004-2007", statsNote: "Started first 2 games before knee injury • 2nd-round pick • Super Bowl champ", gamesPlayed: 2 },
       careerEvents: [
         { year: 2008, title: "Selected in 2nd round by the NY Giants", eventType: "DRAFT" },
         { year: 2012, title: "Won Super Bowl XLVI with the Giants", eventType: "CHAMPIONSHIP" },
@@ -886,7 +886,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "Senior starting free safety who earned All-Pac-10 second team honors. Signed as a UDFA by the Eagles in 2006, also played for the Colts and Sacramento Mountain Lions (UFL).",
         sourceUrl: "https://en.wikipedia.org/wiki/Scott_Ware",
       },
-      membership: { role: "PLAYER", jerseyNumber: 29, position: "Free Safety", yearsAtSchool: "2002-2005", statsNote: "Senior starter • All-Pac-10 second team" },
+      membership: { role: "PLAYER", jerseyNumber: 29, position: "Free Safety", yearsAtSchool: "2002-2005", statsNote: "Senior starter • All-Pac-10 second team", gamesPlayed: 13 },
       careerEvents: [{ year: 2006, title: "Signed as UDFA by Philadelphia Eagles", eventType: "SIGNING" }],
     },
     {
@@ -904,7 +904,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "Senior starting cornerback in 2005. Signed as UDFA with the Arizona Cardinals. Had a brief NFL career before leaving football.",
         sourceUrl: "https://usctrojans.com/sports/football/roster/justin-wyatt/1822",
       },
-      membership: { role: "PLAYER", jerseyNumber: 24, position: "Cornerback", yearsAtSchool: "2002-2005", statsNote: "Senior starter • Two-year starting CB" },
+      membership: { role: "PLAYER", jerseyNumber: 24, position: "Cornerback", yearsAtSchool: "2002-2005", statsNote: "Senior starter • Two-year starting CB", gamesPlayed: 13 },
       careerEvents: [{ year: 2006, title: "Signed as UDFA with Arizona Cardinals", eventType: "SIGNING" }],
     },
     {
@@ -924,7 +924,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "Selected in the 5th round by the Washington Redskins in 2007. Also played for the Vikings and Seahawks. Now a real estate agent in Placer County, CA and head coach for girls' flag football at Granite Bay High School.",
         sourceUrl: "https://www.thebishoprealestategroup.com/dallas-sartz",
       },
-      membership: { role: "PLAYER", jerseyNumber: 42, position: "Linebacker", yearsAtSchool: "2002-2005", statsNote: "Senior starter • 2x team captain • Dislocated shoulder vs Arkansas" },
+      membership: { role: "PLAYER", jerseyNumber: 42, position: "Linebacker", yearsAtSchool: "2002-2005", statsNote: "Senior starter • 2x team captain • Dislocated shoulder vs Arkansas", gamesPlayed: 3 },
       careerEvents: [{ year: 2007, title: "Selected by Washington Redskins (5th round)", eventType: "DRAFT" }],
     },
     {
@@ -942,7 +942,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "Starting guard who left after his junior year for the 2006 NFL Draft. Selected in the 7th round by the Detroit Lions. Tragically died on August 5, 2012 at age 28 due to a heart-related issue in Los Angeles.",
         sourceUrl: "https://usctrojans.com/news/2012/8/5/Ex_USC_Lineman_Fred_Matua_Dies",
       },
-      membership: { role: "PLAYER", jerseyNumber: 51, position: "Offensive Guard", yearsAtSchool: "2003-2006", statsNote: "3-year starter • All-Pac-10 second team • 7th-round pick" },
+      membership: { role: "PLAYER", jerseyNumber: 51, position: "Offensive Guard", yearsAtSchool: "2003-2006", statsNote: "3-year starter • All-Pac-10 second team • 7th-round pick", gamesPlayed: 13 },
       careerEvents: [
         { year: 2006, title: "Selected by Detroit Lions (7th round)", eventType: "DRAFT" },
         { year: 2012, title: "Passed away at age 28 due to heart-related issue", eventType: "OTHER" },
@@ -963,7 +963,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "Set NCAA/Pac-10/USC record with 83-of-86 PATs and went 11-of-12 on field goals in 2005. Tragically died on January 6, 2007 at age 21, found at the bottom of a cliff near his family home in San Pedro. His father Joe Danelo was an NFL kicker for the NY Giants.",
         sourceUrl: "https://en.wikipedia.org/wiki/Mario_Danelo",
       },
-      membership: { role: "PLAYER", jerseyNumber: 19, position: "Placekicker", yearsAtSchool: "2004-2006", statsNote: "83-of-86 PATs (NCAA record) • 11-of-12 FGs in 2005" },
+      membership: { role: "PLAYER", jerseyNumber: 19, position: "Placekicker", yearsAtSchool: "2004-2006", statsNote: "83-of-86 PATs (NCAA record) • 11-of-12 FGs in 2005", gamesPlayed: 13 },
       careerEvents: [{ year: 2007, title: "Passed away at age 21", eventType: "OTHER" }],
     },
     {
@@ -981,7 +981,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "USC's first-ever All-American punter. Signed as UDFA by the 49ers in 2006, also played for the Patriots, Seahawks, Rams, and in the UFL (2006-2012).",
         sourceUrl: "https://en.wikipedia.org/wiki/Tom_Malone_(American_football)",
       },
-      membership: { role: "PLAYER", jerseyNumber: 14, position: "Punter", yearsAtSchool: "2002-2005", statsNote: "4-year starter • First-team All-American • First All-American punter in USC history" },
+      membership: { role: "PLAYER", jerseyNumber: 14, position: "Punter", yearsAtSchool: "2002-2005", statsNote: "4-year starter • First-team All-American • First All-American punter in USC history", gamesPlayed: 13 },
       careerEvents: [{ year: 2006, title: "Signed as UDFA by San Francisco 49ers", eventType: "SIGNING" }],
     },
     {
@@ -1001,7 +1001,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "Signed as a free agent by the Oakland Raiders in 2007 and played in the last 3 games. After football, he transitioned to insurance sales and currently works as a Regional General Agent at American Income Life Insurance Company.",
         sourceUrl: "https://en.wikipedia.org/wiki/Chris_McFoy",
       },
-      membership: { role: "PLAYER", jerseyNumber: 82, position: "Wide Receiver", yearsAtSchool: "2002-2005", statsNote: "Started 6 games • 17 rec, 172 yds in 2005" },
+      membership: { role: "PLAYER", jerseyNumber: 82, position: "Wide Receiver", yearsAtSchool: "2002-2005", statsNote: "Started 6 games • 17 rec, 172 yds in 2005", gamesPlayed: 13 },
       careerEvents: [{ year: 2007, title: "Signed as free agent with Oakland Raiders", eventType: "SIGNING" }],
     },
     {
@@ -1019,7 +1019,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "Selected in the 3rd round (87th overall) by the Miami Dolphins in the 2009 NFL Draft. Also played for the NY Jets. Career: 24 games, 10 receptions. Has maintained a private life since retiring.",
         sourceUrl: "https://en.wikipedia.org/wiki/Patrick_Turner",
       },
-      membership: { role: "PLAYER", jerseyNumber: 1, position: "Wide Receiver", yearsAtSchool: "2005-2008", statsNote: "Freshman • 12 rec, 170 yds, 2 TD • Later 3rd-round pick" },
+      membership: { role: "PLAYER", jerseyNumber: 1, position: "Wide Receiver", yearsAtSchool: "2005-2008", statsNote: "Freshman • 12 rec, 170 yds, 2 TD • Later 3rd-round pick", gamesPlayed: 13 },
       careerEvents: [{ year: 2009, title: "Selected by Miami Dolphins (3rd round, #87)", eventType: "DRAFT" }],
     },
     {
@@ -1037,7 +1037,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "Selected in the 7th round by the Jacksonville Jaguars in the 2008 NFL Draft. Also played for the Rams and Cowboys.",
         sourceUrl: "https://en.wikipedia.org/wiki/Chauncey_Washington",
       },
-      membership: { role: "PLAYER", jerseyNumber: 23, position: "Running Back", yearsAtSchool: "2003-2007", statsNote: "Backup RB behind Bush and White" },
+      membership: { role: "PLAYER", jerseyNumber: 23, position: "Running Back", yearsAtSchool: "2003-2007", statsNote: "Backup RB behind Bush and White", gamesPlayed: 13 },
       careerEvents: [{ year: 2008, title: "Selected by Jacksonville Jaguars (7th round)", eventType: "DRAFT" }],
     },
     {
@@ -1055,7 +1055,7 @@ export const uscFootball2005: TeamSeed = {
         statusNote: "Selected in the 3rd round by the Indianapolis Colts in the 2010 NFL Draft after developing into a starter at USC.",
         sourceUrl: "https://en.wikipedia.org/wiki/Kevin_Thomas_(cornerback,_born_1986)",
       },
-      membership: { role: "PLAYER", jerseyNumber: 15, position: "Cornerback", yearsAtSchool: "2005-2009", statsNote: "Freshman reserve • Later 3rd-round pick by Colts" },
+      membership: { role: "PLAYER", jerseyNumber: 15, position: "Cornerback", yearsAtSchool: "2005-2009", statsNote: "Freshman reserve • Later 3rd-round pick by Colts", gamesPlayed: 9 },
       careerEvents: [{ year: 2010, title: "Selected by Indianapolis Colts (3rd round)", eventType: "DRAFT" }],
     },
     {

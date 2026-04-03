@@ -135,8 +135,7 @@ export const alabamaFootball2015: TeamSeed = {
         jerseyNumber: 2,
         position: "Running Back",
         yearsAtSchool: "2013-2015",
-        statsNote: "Heisman Trophy · 2,219 rush yards · 28 TDs · Doak Walker Award · Maxwell Award",
-        gamesPlayed: 15,
+        statsNote: "Heisman Trophy · 2,219 rush yards · 28 TDs · Doak Walker Award · Maxwell Award", gamesPlayed: 15,
       },
       careerEvents: [
         { year: 2015, title: "Won Heisman Trophy", eventType: "AWARD", detail: "Led nation with 2,219 rushing yards and 28 TDs" },
@@ -204,8 +203,7 @@ export const alabamaFootball2015: TeamSeed = {
         jerseyNumber: 3,
         position: "Wide Receiver",
         yearsAtSchool: "2015-2017",
-        statsNote: "68 catches · 1,045 yards · 7 TDs as freshman · Led team in receiving",
-        gamesPlayed: 15,
+        statsNote: "68 catches · 1,045 yards · 7 TDs as freshman · Led team in receiving", gamesPlayed: 15,
       },
       careerEvents: [
         { year: 2018, title: "Drafted by Atlanta Falcons (1st round, #26)", eventType: "DRAFT" },
@@ -728,8 +726,7 @@ export const alabamaFootball2015: TeamSeed = {
         jerseyNumber: 75,
         position: "Offensive Tackle",
         yearsAtSchool: "2014-2016",
-        statsNote: "Started all 15 games at LT · First true freshman LT since Andre Smith · Outland Trophy winner (2016)",
-        gamesPlayed: 15,
+        statsNote: "Started all 15 games at LT · First true freshman LT since Andre Smith · Outland Trophy winner (2016)", gamesPlayed: 15,
       },
       careerEvents: [
         { year: 2017, title: "Drafted by Jacksonville Jaguars (2nd round, #34)", eventType: "DRAFT" },
@@ -1475,7 +1472,7 @@ export const alabamaFootball2015: TeamSeed = {
         statusNote: "Signed as an undrafted free agent with the Cleveland Browns in 2016. Had brief NFL stints but did not have a long professional career. Has maintained a private life since leaving football.",
         sourceUrl: "https://www.sports-reference.com/cfb/players/alphonse-taylor-1.html",
       },
-      membership: { role: "PLAYER", jerseyNumber: 50, position: "Offensive Guard", yearsAtSchool: "2012-2015", statsNote: "Senior starter · Starting RG on championship O-line" },
+      membership: { role: "PLAYER", jerseyNumber: 50, position: "Offensive Guard", yearsAtSchool: "2012-2015", statsNote: "Senior starter · Starting RG on championship O-line", gamesPlayed: 15 },
       careerEvents: [{ year: 2016, title: "Signed as UDFA with Cleveland Browns", eventType: "SIGNING" }],
     },
     {
@@ -1494,7 +1491,7 @@ export const alabamaFootball2015: TeamSeed = {
         statusNote: "Drafted by the Green Bay Packers in the 6th round of the 2018 NFL Draft. Played for the Packers (2018-2019) and had stints with the Bengals. Currently out of the NFL and pursuing post-football opportunities.",
         sourceUrl: "https://www.pro-football-reference.com/players/B/BrowTo03.htm",
       },
-      membership: { role: "PLAYER", jerseyNumber: 2, position: "Cornerback", yearsAtSchool: "2015-2017", statsNote: "True freshman · 5-star recruit · Later drafted by Packers" },
+      membership: { role: "PLAYER", jerseyNumber: 2, position: "Cornerback", yearsAtSchool: "2015-2017", statsNote: "True freshman · 5-star recruit · Later drafted by Packers", gamesPlayed: 12 },
       careerEvents: [{ year: 2018, title: "Drafted by Green Bay Packers (6th round)", eventType: "DRAFT" }],
     },
     {
@@ -1513,7 +1510,7 @@ export const alabamaFootball2015: TeamSeed = {
         statusNote: "Drafted by the Baltimore Ravens in the 4th round of the 2018 NFL Draft. Played for the Ravens from 2018-2022 and had a stint with the Las Vegas Raiders. Currently a free agent.",
         sourceUrl: "https://www.pro-football-reference.com/players/A/AverAn00.htm",
       },
-      membership: { role: "PLAYER", jerseyNumber: 28, position: "Cornerback", yearsAtSchool: "2014-2017", statsNote: "Sophomore contributor · Later drafted by Ravens (4th round)" },
+      membership: { role: "PLAYER", jerseyNumber: 28, position: "Cornerback", yearsAtSchool: "2014-2017", statsNote: "Sophomore contributor · Later drafted by Ravens (4th round)", gamesPlayed: 12 },
       careerEvents: [{ year: 2018, title: "Drafted by Baltimore Ravens (4th round)", eventType: "DRAFT" }],
     },
     {
@@ -1531,7 +1528,7 @@ export const alabamaFootball2015: TeamSeed = {
         statusNote: "A senior starter at safety in 2015 who was a key contributor in the defensive backfield. Was not drafted and did not have a significant NFL career.",
         sourceUrl: "https://rolltide.com/sports/football/roster",
       },
-      membership: { role: "PLAYER", jerseyNumber: 24, position: "Safety", yearsAtSchool: "2012-2015", statsNote: "Senior starter · Starting safety alongside Eddie Jackson" },
+      membership: { role: "PLAYER", jerseyNumber: 24, position: "Safety", yearsAtSchool: "2012-2015", statsNote: "Senior starter · Starting safety alongside Eddie Jackson", gamesPlayed: 15 },
       careerEvents: [],
     },
     {
@@ -1549,7 +1546,7 @@ export const alabamaFootball2015: TeamSeed = {
         statusNote: "Senior defensive tackle who was part of the rotation alongside Robinson and Reed on the championship defensive line. Was not drafted after the 2015 season.",
         sourceUrl: "https://rolltide.com/sports/football/roster",
       },
-      membership: { role: "PLAYER", jerseyNumber: 57, position: "Defensive Tackle", yearsAtSchool: "2012-2015", statsNote: "Senior · Rotational DT alongside Robinson and Reed" },
+      membership: { role: "PLAYER", jerseyNumber: 57, position: "Defensive Tackle", yearsAtSchool: "2012-2015", statsNote: "Senior · Rotational DT alongside Robinson and Reed", gamesPlayed: 15 },
       careerEvents: [],
     },
     {
@@ -1567,7 +1564,7 @@ export const alabamaFootball2015: TeamSeed = {
         statusNote: "Senior contributor on the 2015 defensive line. Went undrafted in 2016 and had a brief stint with the Cincinnati Bengals before leaving football.",
         sourceUrl: "https://www.sports-reference.com/cfb/players/xzavier-dickson-1.html",
       },
-      membership: { role: "PLAYER", jerseyNumber: 47, position: "Defensive End / Outside Linebacker", yearsAtSchool: "2012-2015", statsNote: "Senior · Pass rush contributor" },
+      membership: { role: "PLAYER", jerseyNumber: 47, position: "Defensive End / Outside Linebacker", yearsAtSchool: "2012-2015", statsNote: "Senior · Pass rush contributor", gamesPlayed: 15 },
       careerEvents: [{ year: 2016, title: "Signed as UDFA with Cincinnati Bengals", eventType: "SIGNING" }],
     },
   ],
