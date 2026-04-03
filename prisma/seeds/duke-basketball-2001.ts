@@ -41,6 +41,9 @@ export const dukeBasketball2001: TeamSeed = {
         reboundsPerGame: 7.3,
         assistsPerGame: 2.2,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 19.9, reboundsPerGame: 7.3, assistsPerGame: 2.2 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2001, title: "Selected #6 overall by the Memphis Grizzlies", eventType: "DRAFT" },
@@ -80,6 +83,9 @@ export const dukeBasketball2001: TeamSeed = {
         reboundsPerGame: 3.7,
         assistsPerGame: 5.9,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 21.6, reboundsPerGame: 3.7, assistsPerGame: 5.9 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2002, title: "Selected #2 overall by the Chicago Bulls", eventType: "DRAFT" },
@@ -117,6 +123,9 @@ export const dukeBasketball2001: TeamSeed = {
         pointsPerGame: 8.8,
         reboundsPerGame: 5.9,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 8.8, reboundsPerGame: 5.9 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2002, title: "Selected #35 overall by the Cleveland Cavaliers", eventType: "DRAFT" },
@@ -155,6 +164,9 @@ export const dukeBasketball2001: TeamSeed = {
         reboundsPerGame: 4.5,
         assistsPerGame: 2.5,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 10.2, reboundsPerGame: 4.5, assistsPerGame: 2.5 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2002, title: "Selected #3 overall by the Golden State Warriors", eventType: "DRAFT" },
@@ -191,6 +203,9 @@ export const dukeBasketball2001: TeamSeed = {
         pointsPerGame: 4.3,
         assistsPerGame: 3.2,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 4.3, assistsPerGame: 3.2 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke (freshman)", eventType: "CHAMPIONSHIP" },
         { year: 2004, title: "Signed with Chicago Bulls as undrafted free agent", eventType: "SIGNING" },
@@ -226,6 +241,9 @@ export const dukeBasketball2001: TeamSeed = {
         pointsPerGame: 7.0,
         reboundsPerGame: 3.6,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 7.0, reboundsPerGame: 3.6 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke (co-captain)", eventType: "CHAMPIONSHIP" },
         { year: 2001, title: "Joined Duke coaching staff", eventType: "CAREER" },
@@ -261,6 +279,9 @@ export const dukeBasketball2001: TeamSeed = {
         pointsPerGame: 3.4,
         reboundsPerGame: 3.2,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.4, reboundsPerGame: 3.2 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2003, title: "Went undrafted; began overseas career", eventType: "CAREER" },

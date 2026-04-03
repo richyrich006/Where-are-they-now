@@ -31,6 +31,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Oscar_Tshiebwe",
       },
       membership: { role: "PLAYER", jerseyNumber: 34, position: "Forward / Center", yearsAtSchool: "2020-2023", statsNote: "Junior • Consensus National POY • 17.4 PPG, 15.1 RPG", gamesPlayed: 34, pointsPerGame: 17.4, reboundsPerGame: 15.1, assistsPerGame: 1.3 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 17.4, reboundsPerGame: 15.1, assistsPerGame: 1.3 },
+      ],
       careerEvents: [
         { year: 2022, title: "Won Consensus National Player of the Year", eventType: "AWARD" },
         { year: 2023, title: "Went undrafted; signed with Indiana Pacers", eventType: "SIGNING" },

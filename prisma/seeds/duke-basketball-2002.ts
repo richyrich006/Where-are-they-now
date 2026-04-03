@@ -42,6 +42,9 @@ export const dukeBasketball2002: TeamSeed = {
         reboundsPerGame: 3.5,
         assistsPerGame: 5.3,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 21.3, reboundsPerGame: 3.5, assistsPerGame: 5.3 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2002, title: "Selected #2 overall by the Chicago Bulls", eventType: "DRAFT" },
@@ -78,6 +81,9 @@ export const dukeBasketball2002: TeamSeed = {
         pointsPerGame: 18.2,
         reboundsPerGame: 8.2,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 18.2, reboundsPerGame: 8.2 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2002, title: "Selected #35 overall by the Cleveland Cavaliers", eventType: "DRAFT" },
@@ -114,6 +120,9 @@ export const dukeBasketball2002: TeamSeed = {
         reboundsPerGame: 7.2,
         assistsPerGame: 3.0,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 17.3, reboundsPerGame: 7.2, assistsPerGame: 3.0 },
+      ],
       careerEvents: [
         { year: 2002, title: "Selected #3 overall by the Golden State Warriors", eventType: "DRAFT" },
         { year: 2023, title: "Named General Manager of the Golden State Warriors", eventType: "CAREER" },
@@ -147,6 +156,9 @@ export const dukeBasketball2002: TeamSeed = {
         pointsPerGame: 8.5,
         assistsPerGame: 5.9,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 8.5, assistsPerGame: 5.9 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke (freshman)", eventType: "CHAMPIONSHIP" },
         { year: 2004, title: "Signed with Chicago Bulls as undrafted free agent", eventType: "SIGNING" },
@@ -181,6 +193,9 @@ export const dukeBasketball2002: TeamSeed = {
         pointsPerGame: 11.1,
         reboundsPerGame: 4.2,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 11.1, reboundsPerGame: 4.2 },
+      ],
       careerEvents: [
         { year: 2003, title: "Selected #20 overall by the Celtics (traded to Memphis)", eventType: "DRAFT" },
         { year: 2016, title: "Won NBA Championship with Cleveland Cavaliers", eventType: "CHAMPIONSHIP" },

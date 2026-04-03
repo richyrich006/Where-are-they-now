@@ -64,6 +64,9 @@ export const kentuckyBasketball2020: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Immanuel_Quickley",
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2018-2020", statsNote: "Sophomore • SEC Player of the Year • 16.1 PPG", gamesPlayed: 31, pointsPerGame: 16.1, reboundsPerGame: 4.2, assistsPerGame: 1.9 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 16.1, reboundsPerGame: 4.2, assistsPerGame: 1.9 },
+      ],
       careerEvents: [
         { year: 2020, title: "Won SEC Player of the Year", eventType: "AWARD" },
         { year: 2020, title: "Selected #25 overall by the New York Knicks", eventType: "DRAFT" },

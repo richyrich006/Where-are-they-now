@@ -30,6 +30,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://arkansasrazorbacks.com/support-staff/tyler-ulis/",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Point Guard", yearsAtSchool: "2014-2016", statsNote: "Sophomore • SEC Player of the Year • 17.3 PPG, 7.0 APG", gamesPlayed: 36, pointsPerGame: 17.3, reboundsPerGame: 2.9, assistsPerGame: 7.0 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 17.3, reboundsPerGame: 2.9, assistsPerGame: 7.0 },
+      ],
       careerEvents: [
         { year: 2016, title: "Won SEC Player of the Year", eventType: "AWARD" },
         { year: 2016, title: "Selected #34 overall by the Phoenix Suns", eventType: "DRAFT" },

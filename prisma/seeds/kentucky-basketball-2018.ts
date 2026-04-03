@@ -67,6 +67,9 @@ export const kentuckyBasketball2018: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Kevin_Knox_II",
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Forward", yearsAtSchool: "2017-2018", statsNote: "Freshman • 15.6 PPG • #9 overall pick", gamesPlayed: 37, pointsPerGame: 15.6, reboundsPerGame: 5.4, assistsPerGame: 1.3 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 15.6, reboundsPerGame: 5.4, assistsPerGame: 1.3 },
+      ],
       careerEvents: [
         { year: 2018, title: "Selected #9 overall by the New York Knicks", eventType: "DRAFT" },
       ],

@@ -40,6 +40,9 @@ export const dukeBasketball2005: TeamSeed = {
         gamesPlayed: 33,
         pointsPerGame: 21.8,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 21.8 },
+      ],
       careerEvents: [
         { year: 2006, title: "Selected #11 overall by the Orlando Magic", eventType: "DRAFT" },
         { year: 2024, title: "Named head coach of the Los Angeles Lakers", eventType: "CAREER" },
@@ -72,6 +75,9 @@ export const dukeBasketball2005: TeamSeed = {
         pointsPerGame: 14.5,
         reboundsPerGame: 9.7,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14.5, reboundsPerGame: 9.7 },
+      ],
       careerEvents: [
         { year: 2006, title: "Selected #5 overall by the Atlanta Hawks", eventType: "DRAFT" },
       ],
@@ -105,6 +111,9 @@ export const dukeBasketball2005: TeamSeed = {
         pointsPerGame: 16.2,
         assistsPerGame: 3.8,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 16.2, assistsPerGame: 3.8 },
+      ],
       careerEvents: [
         { year: 2005, title: "Selected #32 overall by the LA Clippers", eventType: "DRAFT" },
       ],
@@ -167,6 +176,9 @@ export const dukeBasketball2005: TeamSeed = {
         pointsPerGame: 8.2,
         reboundsPerGame: 5.1,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.2, reboundsPerGame: 5.1 },
+      ],
       careerEvents: [
         { year: 2006, title: "Went undrafted; signed with 76ers", eventType: "SIGNING" },
       ],

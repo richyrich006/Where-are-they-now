@@ -66,6 +66,9 @@ export const kentuckyBasketball2019: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/P._J._Washington",
       },
       membership: { role: "PLAYER", jerseyNumber: 25, position: "Forward", yearsAtSchool: "2017-2019", statsNote: "Sophomore • 15.2 PPG • First-round pick", gamesPlayed: 37, pointsPerGame: 15.2, reboundsPerGame: 7.5, assistsPerGame: 1.7 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 15.2, reboundsPerGame: 7.5, assistsPerGame: 1.7 },
+      ],
       careerEvents: [
         { year: 2019, title: "Selected #12 overall by the Charlotte Hornets", eventType: "DRAFT" },
         { year: 2024, title: "Traded to Dallas Mavericks; signed $89M extension", eventType: "SIGNING" },
@@ -91,6 +94,9 @@ export const kentuckyBasketball2019: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Keldon_Johnson",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Forward", yearsAtSchool: "2018-2019", statsNote: "Freshman • 13.5 PPG • First-round pick", gamesPlayed: 37, pointsPerGame: 13.5, reboundsPerGame: 5.9, assistsPerGame: 1.6 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 13.5, reboundsPerGame: 5.9, assistsPerGame: 1.6 },
+      ],
       careerEvents: [
         { year: 2019, title: "Selected #29 overall by the San Antonio Spurs", eventType: "DRAFT" },
       ],

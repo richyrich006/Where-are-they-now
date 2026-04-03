@@ -68,6 +68,9 @@ export const kentuckyBasketball2017: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Malik_Monk",
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2016-2017", statsNote: "Freshman • 19.8 PPG • 47 pts vs UNC • #11 overall pick", gamesPlayed: 38, pointsPerGame: 19.8, reboundsPerGame: 2.5, assistsPerGame: 2.3 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 38, pointsPerGame: 19.8, reboundsPerGame: 2.5, assistsPerGame: 2.3 },
+      ],
       careerEvents: [
         { year: 2017, title: "Selected #11 overall by the Charlotte Hornets", eventType: "DRAFT" },
       ],

@@ -31,6 +31,9 @@ export const kentuckyBasketball2024: TeamSeed = {
         sourceUrl: "https://www.nba.com/player/1642263/reed-sheppard",
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 12.5 PPG • 52.1% from three (led nation) • #3 overall pick", gamesPlayed: 33, pointsPerGame: 12.5, reboundsPerGame: 4.1, assistsPerGame: 4.5 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12.5, reboundsPerGame: 4.1, assistsPerGame: 4.5 },
+      ],
       careerEvents: [
         { year: 2024, title: "Selected #3 overall by the Houston Rockets", eventType: "DRAFT" },
       ],
@@ -55,6 +58,9 @@ export const kentuckyBasketball2024: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Rob_Dillingham",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 15.2 PPG off bench • 44.4% from three • #8 overall pick", gamesPlayed: 33, pointsPerGame: 15.2, assistsPerGame: 3.9 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15.2, assistsPerGame: 3.9 },
+      ],
       careerEvents: [
         { year: 2024, title: "Selected #8 overall by San Antonio (traded to Minnesota)", eventType: "DRAFT" },
         { year: 2026, title: "Traded to Chicago Bulls", eventType: "TRADE" },

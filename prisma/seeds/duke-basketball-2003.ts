@@ -39,6 +39,9 @@ export const dukeBasketball2003: TeamSeed = {
         pointsPerGame: 9.8,
         assistsPerGame: 5.7,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 9.8, assistsPerGame: 5.7 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2004, title: "Signed with Chicago Bulls as undrafted free agent", eventType: "SIGNING" },
@@ -73,6 +76,9 @@ export const dukeBasketball2003: TeamSeed = {
         pointsPerGame: 14.4,
         reboundsPerGame: 4.7,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14.4, reboundsPerGame: 4.7 },
+      ],
       careerEvents: [
         { year: 2003, title: "Selected #20 overall by the Celtics (traded to Memphis)", eventType: "DRAFT" },
         { year: 2016, title: "Won NBA Championship with Cleveland Cavaliers", eventType: "CHAMPIONSHIP" },
@@ -169,6 +175,9 @@ export const dukeBasketball2003: TeamSeed = {
         pointsPerGame: 10.5,
         assistsPerGame: 2.8,
       },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 10.5, assistsPerGame: 2.8 },
+      ],
       careerEvents: [
         { year: 2005, title: "Selected #32 overall by the LA Clippers", eventType: "DRAFT" },
         { year: 2022, title: "Joined Lakers as professional scout", eventType: "CAREER" },
@@ -357,6 +366,9 @@ export const dukeBasketball2003: TeamSeed = {
         sourceUrl: "http://www.dockerybasketball.com/about-us/",
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Point Guard", yearsAtSchool: "2002-2006", statsNote: "Freshman • McDonald's All-American • 3.3 PPG", gamesPlayed: 33, pointsPerGame: 3.3 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 3.3 },
+      ],
       careerEvents: [{ year: 2005, title: "Hit half-court buzzer-beater vs Virginia Tech", eventType: "OTHER" }],
     },
     {
