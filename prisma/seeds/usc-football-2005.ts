@@ -504,10 +504,11 @@ export const uscFootball2005: TeamSeed = {
       bio: "A hard-hitting safety who was one of the most highly recruited players in the country coming out of high school. Bing was a key contributor in USC's secondary.",
       status: {
         occupationType: "OTHER",
-        currentTitle: "Private Citizen",
+        currentTitle: "Educator / Graduate Student",
+        location: "Los Angeles, CA",
         statusNote:
-          "Bing went undrafted after the 2006 NFL Draft and had brief stints with the Oakland Raiders and Arizona Cardinals before leaving professional football. He has maintained a very low public profile since retiring from football and is believed to reside in the Los Angeles area.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Darnell_Bing",
+          "One of the most highly recruited players in the country out of high school, Bing went undrafted in 2006 and had brief stints with the Raiders, 49ers, Jets, Lions, and Texans before his career ended. In an inspiring post-football chapter, he returned to USC to pursue his master's degree in education, even trying to hide his identity from undergrads by claiming he worked in real estate. His return to school shows the value of education beyond football.",
+        sourceUrl: "https://news.usc.edu/trojan-family/football-players-return-to-usc-nfl/",
       },
       membership: {
         role: "PLAYER",
@@ -559,10 +560,12 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "A bruising fullback who served as the lead blocker for Reggie Bush and LenDale White. Kirtman was a selfless player who made the ground game go.",
       status: {
-        occupationType: "OTHER",
-        currentTitle: "Private Citizen",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Sales Trader, Japanese Equities",
+        currentEmployer: "Merrill Lynch Japan Securities",
+        location: "Tokyo, Japan",
         statusNote:
-          "Kirtman went undrafted after the 2006 draft and had a brief NFL stint with the San Diego Chargers. He later played in NFL Europe for the Hamburg Sea Devils. After leaving football, Kirtman returned to Southern California and has kept a low profile.",
+          "After 4 years in the NFL (Chargers, Hamburg Sea Devils in NFL Europe), Kirtman made a remarkable career pivot — moving to Tokyo to work in finance. He traded on the Merrill Lynch Japan Securities proprietary desk for a year, then after the 2011 Tohoku earthquake, moved to the sell side as a sales trader for Japanese equities. Graduated from USC with a degree in business with a marketing emphasis. His blocking for Reggie Bush and LenDale White earned him the catchphrase 'Another Touchdown Courtesy of Kirtman.'",
         sourceUrl: "https://en.wikipedia.org/wiki/David_Kirtman",
       },
       membership: {
@@ -946,11 +949,11 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "An athletic safety/linebacker hybrid who was a key contributor in USC's secondary and special teams during the 2005 season.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired NFL Player",
+        occupationType: "OTHER",
+        currentTitle: "Deceased",
         statusNote:
-          "Selected in the fifth round by the San Diego Chargers in 2006, Ellison played three NFL seasons as a safety/special teams contributor with San Diego and Detroit. After leaving football, he has kept a low public profile and is believed to reside in the Los Angeles area.",
-        sourceUrl: "https://usctrojans.com/sports/football/roster/kevin-ellison/1710",
+          "Selected in the 5th round by the San Diego Chargers in 2006, Ellison played one NFL season before being released. After brief stints with the Seahawks, he coached at the high school level and played arena football. Tragically, Kevin Ellison passed away on October 4, 2018, at age 31. His family believed he was suffering from CTE, which was posthumously confirmed by Boston University researchers in September 2019 as Stage II chronic traumatic encephalopathy. His story highlights the devastating long-term effects of football on brain health.",
+        sourceUrl: "https://www.espn.com/college-football/story/_/id/24918562/former-usc-trojans-safety-kevin-ellison-dies-31",
       },
       membership: {
         role: "PLAYER",
