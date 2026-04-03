@@ -224,7 +224,8 @@ export const kentuckyBasketball2018: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 32, position: "Forward", yearsAtSchool: "2016-2018", statsNote: "Sophomore • Versatile wing" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 7.4, reboundsPerGame: 5.0, assistsPerGame: 0.5 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.3, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 7.4, reboundsPerGame: 5.0, assistsPerGame: 0.5 },
       ],
       careerEvents: [{ year: 2018, title: "Went undrafted; began pro career", eventType: "CAREER" }],
     },

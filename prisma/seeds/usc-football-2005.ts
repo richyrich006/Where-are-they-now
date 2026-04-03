@@ -193,6 +193,13 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2003-2006",
         statsNote: "63 rec, 959 yds, 6 TD in 2005 • All-American", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "Junior", sortOrder: 102, gamesPlayed: 13, tournamentResult: "49 rec, 635 yds, 3 TD" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Senior", sortOrder: 103, gamesPlayed: 12, tournamentResult: "63 rec, 959 yds, 6 TD" },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2007", yearLabel: "2007", sortOrder: 301, gamesPlayed: 10, tournamentResult: "11 rec, 108 yds, 0 TD" },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2009", yearLabel: "2009 (Pro Bowl alt)", sortOrder: 303, gamesPlayed: 16, tournamentResult: "107 rec, 1,220 yds, 7 TD" },
+        { level: "PROFESSIONAL", teamName: "Philadelphia Eagles", season: "2011", yearLabel: "2011", sortOrder: 305, gamesPlayed: 15, tournamentResult: "11 rec, 124 yds, 0 TD" },
+      ],
       careerEvents: [
         { year: 2007, title: "Selected #51 overall by the New York Giants", eventType: "DRAFT" },
         { year: 2009, title: "Pro Bowl alternate season: 107 receptions, 1,220 yards", eventType: "CAREER" },
@@ -223,6 +230,14 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2004-2007",
         statsNote: "Wore USC's prestigious #55 • 240 career tackles, 18.5 TFL", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 13, tournamentResult: "80 tackles, 7 TFL" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "Junior", sortOrder: 103, gamesPlayed: 13, tournamentResult: "81 tackles, 10 TFL" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "Senior", sortOrder: 104, gamesPlayed: 13, tournamentResult: "79 tackles, 1.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2008", yearLabel: "2008 (#9 pick, broken jaw)", sortOrder: 301, gamesPlayed: 7, tournamentResult: "24 tackles (broken jaw, Hines Ward block)" },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2010", yearLabel: "2010", sortOrder: 303, gamesPlayed: 15, tournamentResult: "55 tackles" },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2012", yearLabel: "2012", sortOrder: 305, gamesPlayed: 16, tournamentResult: "52 tackles" },
+      ],
       careerEvents: [
         { year: 2008, title: "Selected #9 overall by the Cincinnati Bengals", eventType: "DRAFT" },
         { year: 2015, title: "Retired from the NFL after seven seasons", eventType: "RETIREMENT" },
@@ -254,6 +269,15 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2005-2008",
         statsNote: "Bednarik Award winner • Unanimous All-American • 4 Rose Bowls • 2008 Rose Bowl Defensive MVP", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Freshman", sortOrder: 101, gamesPlayed: 13, tournamentResult: "Limited role as true freshman" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 13, tournamentResult: "74 tackles, 6.5 sacks" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "Junior (Rose Bowl Def. MVP)", sortOrder: 103, gamesPlayed: 14, tournamentResult: "92 tackles, 7.0 sacks" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "Senior (Bednarik Award)", sortOrder: 104, gamesPlayed: 13, tournamentResult: "86 tackles, 3.5 sacks (unanimous All-American)" },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2009", yearLabel: "2009", sortOrder: 301, gamesPlayed: 16, tournamentResult: "63 tackles" },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2012", yearLabel: "2012", sortOrder: 304, gamesPlayed: 16, tournamentResult: "83 tackles" },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2015", yearLabel: "2015", sortOrder: 307, gamesPlayed: 16, tournamentResult: "52 tackles" },
+      ],
       careerEvents: [
         { year: 2009, title: "Selected #38 overall by the Cincinnati Bengals", eventType: "DRAFT" },
         { year: 2017, title: "Final NFL season with the Miami Dolphins", eventType: "CAREER" },
@@ -286,6 +310,14 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2005-2008",
         statsNote: "True freshman in 2005 • Part of legendary USC LB corps with Rivers, Maualuga, Clay Matthews", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Freshman", sortOrder: 101, gamesPlayed: 13, tournamentResult: "Limited role as true freshman LB" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "Junior", sortOrder: 103, gamesPlayed: 13, tournamentResult: "64 tackles, 5.5 sacks" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "Senior", sortOrder: 104, gamesPlayed: 13, tournamentResult: "75 tackles, 4.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "Houston Texans", season: "2009", yearLabel: "2009 (DROY)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "89 tackles, 4.0 sacks (AP Def. Rookie of Year)" },
+        { level: "PROFESSIONAL", teamName: "Houston Texans", season: "2011", yearLabel: "2011", sortOrder: 303, gamesPlayed: 16, tournamentResult: "81 tackles, 5.5 sacks (Pro Bowl)" },
+        { level: "PROFESSIONAL", teamName: "Houston Texans", season: "2014", yearLabel: "2014", sortOrder: 306, gamesPlayed: 13, tournamentResult: "60 tackles, 2.0 sacks" },
+      ],
       careerEvents: [
         { year: 2009, title: "Selected #15 overall by the Houston Texans", eventType: "DRAFT" },
         { year: 2009, title: "Won AP NFL Defensive Rookie of the Year", eventType: "AWARD" },
@@ -317,6 +349,14 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2004-2007",
         statsNote: "Unanimous All-American • Pac-10 Defensive Player of the Year 2007", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 13, tournamentResult: "35 tackles, 4.0 sacks" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "Junior", sortOrder: 103, gamesPlayed: 13, tournamentResult: "42 tackles, 5.5 sacks" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "Senior (Pac-10 DPOY)", sortOrder: 104, gamesPlayed: 13, tournamentResult: "55 tackles, 12.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2008", yearLabel: "2008 (#7 pick)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "30 tackles, 2.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2009", yearLabel: "2009 (Super Bowl Champion)", sortOrder: 302, gamesPlayed: 16, tournamentResult: "37 tackles, 2.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2010", yearLabel: "2010", sortOrder: 303, gamesPlayed: 16, tournamentResult: "44 tackles, 6.0 sacks" },
+      ],
       careerEvents: [
         { year: 2008, title: "Selected #7 overall by the New Orleans Saints", eventType: "DRAFT" },
         { year: 2010, title: "Won Super Bowl XLIV with the Saints", eventType: "CHAMPIONSHIP" },
@@ -348,6 +388,14 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2002-2005",
         statsNote: "First Team All-Pac-10 2005 • Transfer from Colorado State", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "Junior", sortOrder: 102, gamesPlayed: 13, tournamentResult: "28 tackles, 3.5 sacks" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Senior (All-Pac-10)", sortOrder: 103, gamesPlayed: 13, tournamentResult: "38 tackles, 5.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2006", yearLabel: "2006", sortOrder: 301, gamesPlayed: 16, tournamentResult: "22 tackles, 2.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2010", yearLabel: "2010", sortOrder: 305, gamesPlayed: 16, tournamentResult: "32 tackles, 3.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2013", yearLabel: "2013", sortOrder: 308, gamesPlayed: 16, tournamentResult: "37 tackles, 4.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2016", yearLabel: "2016", sortOrder: 311, gamesPlayed: 16, tournamentResult: "25 tackles, 3.0 sacks" },
+      ],
       careerEvents: [
         { year: 2006, title: "Selected #91 overall by the Cincinnati Bengals", eventType: "DRAFT" },
         { year: 2018, title: "Retired after 13 NFL seasons and 170 games", eventType: "RETIREMENT" },
@@ -709,6 +757,13 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2005-2008",
         statsNote: "Redshirt freshman in 2005 • Led USC to 2009 Rose Bowl victory as junior starter", gamesPlayed: 0,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Freshman (Redshirt)", sortOrder: 101, gamesPlayed: 0, tournamentResult: "Redshirted behind Matt Leinart" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "Junior (Rose Bowl MVP)", sortOrder: 104, gamesPlayed: 13, tournamentResult: "213/351 passing, 3,207 yds, 34 TD, 10 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2009", yearLabel: "2009 (AFC Championship)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "196/364 passing, 2,444 yds, 12 TD, 20 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2010", yearLabel: "2010 (AFC Championship)", sortOrder: 302, gamesPlayed: 16, tournamentResult: "199/369 passing, 3,291 yds, 17 TD, 13 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2012", yearLabel: "2012 (Butt Fumble)", sortOrder: 304, gamesPlayed: 11, tournamentResult: "117/225 passing, 1,364 yds, 6 TD, 14 INT" },
+      ],
       careerEvents: [
         { year: 2009, title: "Selected #5 overall by the New York Jets", eventType: "DRAFT" },
         { year: 2010, title: "Led Jets to AFC Championship Game (back-to-back years)", eventType: "CAREER" },
@@ -741,6 +796,17 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2003-2006",
         statsNote: "Two-year starter • First-team All-Pac-10 • Anchored line for Leinart and Bush", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "Sophomore", sortOrder: 101, gamesPlayed: 13, tournamentResult: "Started 13 games at center" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Junior", sortOrder: 102, gamesPlayed: 12, tournamentResult: "Started 12 games, All-Pac-10" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "Senior", sortOrder: 103, gamesPlayed: 13, tournamentResult: "Started 13 games" },
+        { level: "PROFESSIONAL", teamName: "Carolina Panthers", season: "2007", yearLabel: "2007", sortOrder: 301, gamesPlayed: 16, tournamentResult: "Started 16 games" },
+        { level: "PROFESSIONAL", teamName: "Carolina Panthers", season: "2009", yearLabel: "2009 (Pro Bowl)", sortOrder: 303, gamesPlayed: 16, tournamentResult: "Started 16 games" },
+        { level: "PROFESSIONAL", teamName: "Carolina Panthers", season: "2011", yearLabel: "2011 (Pro Bowl)", sortOrder: 305, gamesPlayed: 16, tournamentResult: "Started 16 games" },
+        { level: "PROFESSIONAL", teamName: "Carolina Panthers", season: "2013", yearLabel: "2013 (Pro Bowl)", sortOrder: 307, gamesPlayed: 16, tournamentResult: "Started 16 games" },
+        { level: "PROFESSIONAL", teamName: "Carolina Panthers", season: "2015", yearLabel: "2015 (Super Bowl, Pro Bowl)", sortOrder: 309, gamesPlayed: 16, tournamentResult: "Started 16 games, Super Bowl 50" },
+        { level: "PROFESSIONAL", teamName: "Carolina Panthers", season: "2018", yearLabel: "2018 (Pro Bowl)", sortOrder: 312, gamesPlayed: 16, tournamentResult: "Started 16 games" },
+      ],
       careerEvents: [
         { year: 2007, title: "Selected #59 overall by the Carolina Panthers", eventType: "DRAFT" },
         { year: 2019, title: "Retired after 12 NFL seasons (5x Pro Bowl)", eventType: "RETIREMENT" },
@@ -905,6 +971,13 @@ export const uscFootball2005: TeamSeed = {
         sourceUrl: "https://life.exprealty.com/terrell-thomas-ny-giants-exp-realty/",
       },
       membership: { role: "PLAYER", jerseyNumber: 28, position: "Cornerback", yearsAtSchool: "2004-2007", statsNote: "Started first 2 games before knee injury • 2nd-round pick • Super Bowl champ", gamesPlayed: 2 },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Sophomore (knee injury game 2)", sortOrder: 101, gamesPlayed: 2, tournamentResult: "Tore knee ligaments vs Arkansas" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "Senior", sortOrder: 103, gamesPlayed: 13, tournamentResult: "54 tackles, 4 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2008", yearLabel: "2008", sortOrder: 301, gamesPlayed: 16, tournamentResult: "63 tackles, 2 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2009", yearLabel: "2009", sortOrder: 302, gamesPlayed: 16, tournamentResult: "57 tackles, 5 INT" },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2011", yearLabel: "2011 (Super Bowl Champion)", sortOrder: 304, gamesPlayed: 4, tournamentResult: "12 tackles (torn ACL, won Super Bowl XLVI)" },
+      ],
       careerEvents: [
         { year: 2008, title: "Selected in 2nd round by the NY Giants", eventType: "DRAFT" },
         { year: 2012, title: "Won Super Bowl XLVI with the Giants", eventType: "CHAMPIONSHIP" },

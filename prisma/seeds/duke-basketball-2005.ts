@@ -76,7 +76,9 @@ export const dukeBasketball2005: TeamSeed = {
         reboundsPerGame: 9.7,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14.5, reboundsPerGame: 9.7 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.2, reboundsPerGame: 5.9, assistsPerGame: 0.5 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 11.2, reboundsPerGame: 8.3, assistsPerGame: 0.6 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 14.5, reboundsPerGame: 9.7, assistsPerGame: 0.7 },
       ],
       careerEvents: [
         { year: 2006, title: "Selected #5 overall by the Atlanta Hawks", eventType: "DRAFT" },
@@ -112,7 +114,10 @@ export const dukeBasketball2005: TeamSeed = {
         assistsPerGame: 3.8,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 16.2, assistsPerGame: 3.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 6.5, reboundsPerGame: 2.2, assistsPerGame: 1.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 10.5, reboundsPerGame: 2.5, assistsPerGame: 2.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 37, pointsPerGame: 13.5, reboundsPerGame: 3.0, assistsPerGame: 3.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Senior (Captain)", sortOrder: 204, gamesPlayed: 33, pointsPerGame: 16.2, reboundsPerGame: 3.5, assistsPerGame: 3.8 },
       ],
       careerEvents: [
         { year: 2005, title: "Selected #32 overall by the LA Clippers", eventType: "DRAFT" },
@@ -213,7 +218,9 @@ export const dukeBasketball2005: TeamSeed = {
         statsNote: "Junior • Reliable perimeter shooter",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 7.7, reboundsPerGame: 3.4, assistsPerGame: 0.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 21, pointsPerGame: 1.0, reboundsPerGame: 0.7, assistsPerGame: 0.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 6.5, reboundsPerGame: 2.2, assistsPerGame: 1.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 7.7, reboundsPerGame: 3.4, assistsPerGame: 0.8 },
       ],
       careerEvents: [
         { year: 2006, title: "Graduated from Duke", eventType: "CAREER" },
@@ -245,7 +252,9 @@ export const dukeBasketball2005: TeamSeed = {
         statsNote: "Sophomore • Hit legendary buzzer-beater vs Virginia Tech",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 6.2, reboundsPerGame: 2.2, assistsPerGame: 2.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 3.3, reboundsPerGame: 1.4, assistsPerGame: 1.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 3.0, reboundsPerGame: 1.4, assistsPerGame: 1.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior (buzzer-beater vs VT)", sortOrder: 203, gamesPlayed: 27, pointsPerGame: 6.2, reboundsPerGame: 2.8, assistsPerGame: 2.3 },
       ],
       careerEvents: [
         { year: 2005, title: "Hit half-court buzzer-beater to beat Virginia Tech", eventType: "OTHER" },

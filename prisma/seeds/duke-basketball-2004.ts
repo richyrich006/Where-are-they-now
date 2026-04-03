@@ -79,7 +79,13 @@ export const dukeBasketball2004: TeamSeed = {
         assistsPerGame: 6.2,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 10.2, assistsPerGame: 6.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Freshman (National Champion)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 4.3, reboundsPerGame: 1.7, assistsPerGame: 3.2, stealsPerGame: 1.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 8.5, reboundsPerGame: 2.8, assistsPerGame: 5.9, stealsPerGame: 1.9 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 9.8, reboundsPerGame: 2.5, assistsPerGame: 5.7, stealsPerGame: 1.6 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Senior (Captain)", sortOrder: 204, gamesPlayed: 37, pointsPerGame: 10.2, reboundsPerGame: 3.0, assistsPerGame: 6.2, stealsPerGame: 1.8, fieldGoalPct: 0.413, threePointPct: 0.386, freeThrowPct: 0.815 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2004-05", yearLabel: "2004-05", sortOrder: 301, gamesPlayed: 82, pointsPerGame: 5.9, reboundsPerGame: 2.1, assistsPerGame: 4.9, stealsPerGame: 0.8, fieldGoalPct: 0.381, threePointPct: 0.361 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2005-06", yearLabel: "2005-06", sortOrder: 302, gamesPlayed: 82, pointsPerGame: 6.0, reboundsPerGame: 2.5, assistsPerGame: 5.0, fieldGoalPct: 0.397, threePointPct: 0.386 },
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2008-09", yearLabel: "2008-09 (22-ast game)", sortOrder: 305, gamesPlayed: 79, pointsPerGame: 11.1, reboundsPerGame: 3.5, assistsPerGame: 7.2, stealsPerGame: 1.3, fieldGoalPct: 0.397, threePointPct: 0.395 },
       ],
       careerEvents: [
         { year: 2004, title: "Signed with Chicago Bulls as undrafted free agent", eventType: "SIGNING" },
@@ -301,7 +307,10 @@ export const dukeBasketball2004: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Forward", yearsAtSchool: "1999-2004", statsNote: "Fifth-year senior • 2001 champion" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Fifth-year Senior", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 3.2, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore (6 games, knee injury)", sortOrder: 201, gamesPlayed: 6, pointsPerGame: 2.8, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 202, gamesPlayed: 31, pointsPerGame: 1.5, reboundsPerGame: 2.1, assistsPerGame: 0.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 4.5, reboundsPerGame: 2.8, assistsPerGame: 0.4 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Fifth-year Senior", sortOrder: 204, gamesPlayed: 37, pointsPerGame: 3.2, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
       ],
       careerEvents: [{ year: 2016, title: "Became physics teacher in New Zealand", eventType: "CAREER" }],
     },

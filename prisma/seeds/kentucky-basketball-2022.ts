@@ -181,7 +181,9 @@ export const kentuckyBasketball2022: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Forward", yearsAtSchool: "2020-2023", statsNote: "Junior • Obi Toppin's brother • High-flying dunker" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 6.2, reboundsPerGame: 3.2, assistsPerGame: 0.7 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 24, pointsPerGame: 5.0, reboundsPerGame: 3.3, assistsPerGame: 0.6 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Junior", sortOrder: 202, gamesPlayed: 34, pointsPerGame: 6.2, reboundsPerGame: 3.2, assistsPerGame: 0.7 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 8.2, reboundsPerGame: 4.6, assistsPerGame: 1.0 },
       ],
       careerEvents: [{ year: 2023, title: "Went undrafted; signed two-way with Hawks", eventType: "SIGNING" }],
     },
@@ -205,7 +207,8 @@ export const kentuckyBasketball2022: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Guard", yearsAtSchool: "2020-2022", statsNote: "Graduate • Second year at UK • Veteran leader" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Graduate", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 5.3, reboundsPerGame: 1.8, assistsPerGame: 1.4 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 11.5, reboundsPerGame: 2.8, assistsPerGame: 2.5 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Super Senior", sortOrder: 202, gamesPlayed: 34, pointsPerGame: 5.3, reboundsPerGame: 1.8, assistsPerGame: 1.4 },
       ],
       careerEvents: [{ year: 2022, title: "Went undrafted; began European career", eventType: "CAREER" }],
     },
@@ -299,7 +302,8 @@ export const kentuckyBasketball2022: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 55, position: "Forward", yearsAtSchool: "2020-2022", statsNote: "Sophomore • Physical rebounder" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 2.0, reboundsPerGame: 2.4, assistsPerGame: 0.5 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 24, pointsPerGame: 2.2, reboundsPerGame: 2.6, assistsPerGame: 0.4 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 30, pointsPerGame: 2.0, reboundsPerGame: 2.4, assistsPerGame: 0.5 },
       ],
       careerEvents: [{ year: 2025, title: "Signed in Greece after UT Arlington", eventType: "SIGNING" }],
     },

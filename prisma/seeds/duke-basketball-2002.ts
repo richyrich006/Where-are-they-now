@@ -43,7 +43,9 @@ export const dukeBasketball2002: TeamSeed = {
         assistsPerGame: 5.3,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 21.3, reboundsPerGame: 3.5, assistsPerGame: 5.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-2000", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 14.5, reboundsPerGame: 3.3, assistsPerGame: 4.2, stealsPerGame: 2.2, fieldGoalPct: 0.454, threePointPct: 0.341, freeThrowPct: 0.646 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore (National Champion)", sortOrder: 202, gamesPlayed: 36, minutesPerGame: 35.8, pointsPerGame: 21.6, reboundsPerGame: 3.7, assistsPerGame: 5.9, stealsPerGame: 2.4, fieldGoalPct: 0.472, threePointPct: 0.362, freeThrowPct: 0.838 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior (Naismith/Wooden POY)", sortOrder: 203, gamesPlayed: 35, minutesPerGame: 35.5, pointsPerGame: 21.3, reboundsPerGame: 3.5, assistsPerGame: 5.3, stealsPerGame: 2.0, fieldGoalPct: 0.465, threePointPct: 0.348, freeThrowPct: 0.850 },
       ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
@@ -82,7 +84,13 @@ export const dukeBasketball2002: TeamSeed = {
         reboundsPerGame: 8.2,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 18.2, reboundsPerGame: 8.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Freshman (National Champion)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 8.8, reboundsPerGame: 5.9, assistsPerGame: 0.8, fieldGoalPct: 0.592, freeThrowPct: 0.680 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 18.2, reboundsPerGame: 8.2, assistsPerGame: 1.0, fieldGoalPct: 0.596, freeThrowPct: 0.686 },
+        { level: "PROFESSIONAL", teamName: "Cleveland Cavaliers", season: "2002-03", yearLabel: "2002-03", sortOrder: 301, gamesPlayed: 81, pointsPerGame: 15.5, reboundsPerGame: 7.5, assistsPerGame: 1.9, fieldGoalPct: 0.504, freeThrowPct: 0.722 },
+        { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2004-05", yearLabel: "2004-05", sortOrder: 303, gamesPlayed: 51, pointsPerGame: 17.8, reboundsPerGame: 9.0, assistsPerGame: 3.0, fieldGoalPct: 0.505, freeThrowPct: 0.725 },
+        { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2006-07", yearLabel: "2006-07 (All-Star)", sortOrder: 305, gamesPlayed: 74, pointsPerGame: 20.9, reboundsPerGame: 11.7, assistsPerGame: 3.0, fieldGoalPct: 0.561, freeThrowPct: 0.739 },
+        { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2007-08", yearLabel: "2007-08 (All-Star)", sortOrder: 306, gamesPlayed: 81, pointsPerGame: 21.1, reboundsPerGame: 10.4, assistsPerGame: 2.5, fieldGoalPct: 0.545, freeThrowPct: 0.718 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2010-11", yearLabel: "2010-11", sortOrder: 309, gamesPlayed: 59, pointsPerGame: 17.5, reboundsPerGame: 9.6, assistsPerGame: 2.5, fieldGoalPct: 0.500, freeThrowPct: 0.708 },
       ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
@@ -121,7 +129,14 @@ export const dukeBasketball2002: TeamSeed = {
         assistsPerGame: 3.0,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 17.3, reboundsPerGame: 7.2, assistsPerGame: 3.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-2000", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 7.2, reboundsPerGame: 3.1, assistsPerGame: 1.5, fieldGoalPct: 0.442, threePointPct: 0.356 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore (National Champion)", sortOrder: 202, gamesPlayed: 36, pointsPerGame: 10.2, reboundsPerGame: 4.5, assistsPerGame: 2.5, fieldGoalPct: 0.458, threePointPct: 0.368 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 17.3, reboundsPerGame: 7.2, assistsPerGame: 3.0, fieldGoalPct: 0.454, threePointPct: 0.378 },
+        { level: "PROFESSIONAL", teamName: "Golden State Warriors", season: "2002-03", yearLabel: "2002-03", sortOrder: 301, gamesPlayed: 82, pointsPerGame: 11.7, reboundsPerGame: 4.7, assistsPerGame: 2.0, fieldGoalPct: 0.413, threePointPct: 0.323 },
+        { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2007-08", yearLabel: "2007-08", sortOrder: 306, gamesPlayed: 82, pointsPerGame: 19.1, reboundsPerGame: 6.5, assistsPerGame: 3.5, fieldGoalPct: 0.479, threePointPct: 0.407 },
+        { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2011-12", yearLabel: "2011-12", sortOrder: 310, gamesPlayed: 55, pointsPerGame: 12.3, reboundsPerGame: 5.3, assistsPerGame: 3.0, threePointPct: 0.388 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2014-15", yearLabel: "2014-15", sortOrder: 313, gamesPlayed: 63, pointsPerGame: 9.4, reboundsPerGame: 4.1, assistsPerGame: 2.3, threePointPct: 0.407 },
+        { level: "PROFESSIONAL", teamName: "Cleveland Cavaliers", season: "2015-16", yearLabel: "2015-16 (Champion)", sortOrder: 314, gamesPlayed: 37, pointsPerGame: 6.5, reboundsPerGame: 2.3, threePointPct: 0.418 },
       ],
       careerEvents: [
         { year: 2002, title: "Selected #3 overall by the Golden State Warriors", eventType: "DRAFT" },

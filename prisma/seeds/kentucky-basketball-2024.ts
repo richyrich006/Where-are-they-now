@@ -111,7 +111,8 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Guard", yearsAtSchool: "2022-2024", statsNote: "Graduate Senior • Team's leading scorer • 14.8 PPG" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 16.6, reboundsPerGame: 2.6, assistsPerGame: 1.5 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior (SEC Co-6MOY)", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 14.6, reboundsPerGame: 2.5, assistsPerGame: 1.3 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate Senior", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 16.6, reboundsPerGame: 2.6, assistsPerGame: 1.5 },
       ],
       careerEvents: [
         { year: 2024, title: "Selected #47 overall by the Orlando Magic", eventType: "DRAFT" },
@@ -187,7 +188,8 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Forward", yearsAtSchool: "2022-2024", statsNote: "Sophomore • 5.7 PPG • Later led Arkansas at 15.1 PPG" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 5.7, reboundsPerGame: 3.1, assistsPerGame: 1.1 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 4.5, reboundsPerGame: 2.8, assistsPerGame: 0.9 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 5.7, reboundsPerGame: 3.1, assistsPerGame: 1.1 },
       ],
       careerEvents: [
         { year: 2024, title: "Transferred to Arkansas", eventType: "OTHER" },
@@ -263,7 +265,8 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Center", yearsAtSchool: "2022-2024", statsNote: "Sophomore • Elite shot-blocker" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 3.2, reboundsPerGame: 3.0, assistsPerGame: 0.2 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 2.6, reboundsPerGame: 2.6, assistsPerGame: 0.2 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 30, pointsPerGame: 3.2, reboundsPerGame: 3.0, assistsPerGame: 0.2 },
       ],
       careerEvents: [
         { year: 2026, title: "Set ACC Tournament blocks record at Virginia", eventType: "OTHER" },

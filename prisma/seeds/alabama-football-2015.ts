@@ -186,6 +186,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "3,000+ passing yards · 21 TDs · 15-0 as starter · CFP Champion",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Senior (National Champion)", sortOrder: 101, gamesPlayed: 15, tournamentResult: "250/393 passing, 3,110 yds, 21 TD, 8 INT" },
+      ],
       careerEvents: [
         { year: 2016, title: "Signed as UDFA with Arizona Cardinals", eventType: "SIGNING" },
         { year: 2017, title: "Retired from professional football", eventType: "RETIREMENT", detail: "Knee injuries ended NFL pursuit" },
@@ -261,6 +264,14 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Complementary back to Derrick Henry · Key pass-catching RB",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Senior (National Champion)", sortOrder: 101, gamesPlayed: 14, tournamentResult: "408 rush yds, 6 TD, 22 rec, 267 rec yds, 4 KR TD" },
+        { level: "PROFESSIONAL", teamName: "Miami Dolphins", season: "2016", yearLabel: "2016", sortOrder: 301, gamesPlayed: 16, tournamentResult: "179 rush yds, 1 TD, 21 rec" },
+        { level: "PROFESSIONAL", teamName: "Miami Dolphins", season: "2018", yearLabel: "2018", sortOrder: 303, gamesPlayed: 16, tournamentResult: "535 rush yds, 4 TD, 22 rec" },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2019", yearLabel: "2019", sortOrder: 304, gamesPlayed: 14, tournamentResult: "643 rush yds, 8 TD (traded mid-season)" },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2020", yearLabel: "2020", sortOrder: 305, gamesPlayed: 16, tournamentResult: "955 rush yds, 10 TD, 25 rec" },
+        { level: "PROFESSIONAL", teamName: "Las Vegas Raiders", season: "2021", yearLabel: "2021", sortOrder: 306, gamesPlayed: 12, tournamentResult: "254 rush yds, 2 TD" },
+      ],
       careerEvents: [
         { year: 2016, title: "Drafted by Miami Dolphins (3rd round, #73)", eventType: "DRAFT" },
         { year: 2018, title: "'Miracle in Miami' walk-off touchdown", eventType: "MILESTONE", detail: "52-yard TD on a lateral play to beat the Patriots" },
@@ -293,6 +304,16 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Remington Trophy · Jacobs Blocking Trophy · Rimington Trophy finalist · Consensus All-American",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2012", yearLabel: "Freshman", sortOrder: 101, gamesPlayed: 13, tournamentResult: "Started 13 games at center" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2013", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 13, tournamentResult: "Started 13 games" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 15, tournamentResult: "Started 15 games" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Senior (Rimington Award, National Champion)", sortOrder: 104, gamesPlayed: 15, tournamentResult: "Started 15 games, Rimington Trophy (best center)" },
+        { level: "PROFESSIONAL", teamName: "Indianapolis Colts", season: "2016", yearLabel: "2016 (1st round)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "Started 16 games" },
+        { level: "PROFESSIONAL", teamName: "Indianapolis Colts", season: "2018", yearLabel: "2018 (Pro Bowl)", sortOrder: 303, gamesPlayed: 16, tournamentResult: "Started 16 games" },
+        { level: "PROFESSIONAL", teamName: "Indianapolis Colts", season: "2020", yearLabel: "2020", sortOrder: 305, gamesPlayed: 16, tournamentResult: "Started 16 games" },
+        { level: "PROFESSIONAL", teamName: "Indianapolis Colts", season: "2022", yearLabel: "2022", sortOrder: 307, gamesPlayed: 12, tournamentResult: "Started 12 games" },
+      ],
       careerEvents: [
         { year: 2016, title: "Drafted by Indianapolis Colts (1st round, #18)", eventType: "DRAFT" },
         { year: 2020, title: "Signed 4-year, $50M extension with Colts", eventType: "CONTRACT", detail: "Became highest-paid center in NFL" },
@@ -327,6 +348,14 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "SEC Defensive Player of the Year · 1st-team All-American · 102 tackles · 7 TFL",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Senior (National Champion)", sortOrder: 101, gamesPlayed: 15, tournamentResult: "102 tackles, 6 TFL, 1.5 sacks (Butkus finalist)" },
+        { level: "PROFESSIONAL", teamName: "Buffalo Bills", season: "2016", yearLabel: "2016 (torn ACL)", sortOrder: 301, gamesPlayed: 0, tournamentResult: "Torn ACL in training camp; missed entire season" },
+        { level: "PROFESSIONAL", teamName: "Kansas City Chiefs", season: "2017", yearLabel: "2017 (traded)", sortOrder: 302, gamesPlayed: 14, tournamentResult: "30 tackles" },
+        { level: "PROFESSIONAL", teamName: "Kansas City Chiefs", season: "2018", yearLabel: "2018", sortOrder: 303, gamesPlayed: 16, tournamentResult: "42 tackles" },
+        { level: "PROFESSIONAL", teamName: "Kansas City Chiefs", season: "2019", yearLabel: "2019 (Super Bowl Champion)", sortOrder: 304, gamesPlayed: 14, tournamentResult: "30 tackles" },
+        { level: "PROFESSIONAL", teamName: "Detroit Lions", season: "2020", yearLabel: "2020", sortOrder: 305, gamesPlayed: 15, tournamentResult: "44 tackles" },
+      ],
       careerEvents: [
         { year: 2016, title: "Drafted by Buffalo Bills (2nd round, #41)", eventType: "DRAFT" },
         { year: 2017, title: "Traded to Kansas City Chiefs", eventType: "TRADE" },
@@ -471,6 +500,14 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Ball-hawking safety · Key member of 2015 championship secondary",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Junior (National Champion)", sortOrder: 101, gamesPlayed: 14, tournamentResult: "68 tackles, 2 INT, 1 FR" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Senior", sortOrder: 102, gamesPlayed: 8, tournamentResult: "28 tackles, 2 INT (broken leg)" },
+        { level: "PROFESSIONAL", teamName: "Chicago Bears", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 15, tournamentResult: "70 tackles, 6 INT (All-Pro)" },
+        { level: "PROFESSIONAL", teamName: "Chicago Bears", season: "2018", yearLabel: "2018 (1st Team All-Pro)", sortOrder: 302, gamesPlayed: 16, tournamentResult: "51 tackles, 6 INT, 2 defensive TD" },
+        { level: "PROFESSIONAL", teamName: "Chicago Bears", season: "2020", yearLabel: "2020", sortOrder: 304, gamesPlayed: 16, tournamentResult: "64 tackles, 3 INT" },
+        { level: "PROFESSIONAL", teamName: "Chicago Bears", season: "2023", yearLabel: "2023", sortOrder: 307, gamesPlayed: 15, tournamentResult: "66 tackles, 2 INT" },
+      ],
       careerEvents: [
         { year: 2017, title: "Drafted by Chicago Bears (4th round, #112)", eventType: "DRAFT" },
         { year: 2018, title: "Named First-Team All-Pro", eventType: "AWARD" },
@@ -551,6 +588,15 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Immediate contributor as true freshman · Championship secondary member",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Freshman", sortOrder: 101, gamesPlayed: 14, tournamentResult: "27 tackles, 1 INT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Sophomore (National Champion)", sortOrder: 102, gamesPlayed: 15, tournamentResult: "37 tackles, 2 INT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Junior", sortOrder: 103, gamesPlayed: 14, tournamentResult: "32 tackles, 3 INT" },
+        { level: "PROFESSIONAL", teamName: "Baltimore Ravens", season: "2017", yearLabel: "2017 (1st round)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "33 tackles, 2 INT" },
+        { level: "PROFESSIONAL", teamName: "Baltimore Ravens", season: "2019", yearLabel: "2019 (All-Pro)", sortOrder: 303, gamesPlayed: 16, tournamentResult: "65 tackles, 3 INT, 3 FF, 2 FR" },
+        { level: "PROFESSIONAL", teamName: "Baltimore Ravens", season: "2020", yearLabel: "2020 (Pro Bowl)", sortOrder: 304, gamesPlayed: 16, tournamentResult: "82 tackles, 1 INT, 8 FF" },
+        { level: "PROFESSIONAL", teamName: "Baltimore Ravens", season: "2023", yearLabel: "2023", sortOrder: 307, gamesPlayed: 17, tournamentResult: "79 tackles, 2 INT" },
+      ],
       careerEvents: [
         { year: 2017, title: "Drafted by Baltimore Ravens (1st round, #16)", eventType: "DRAFT" },
         { year: 2019, title: "Named to Pro Bowl", eventType: "AWARD" },
@@ -584,6 +630,14 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Five-star recruit · Contributed as true freshman · Won 2 national titles",
         gamesPlayed: 10,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 15, tournamentResult: "23 tackles, 1.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 15, tournamentResult: "40 tackles, 2.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 15, tournamentResult: "53 tackles, 3.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "Washington", season: "2018", yearLabel: "2018 (1st round, #13)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "41 tackles, 5.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Washington Commanders", season: "2021", yearLabel: "2021", sortOrder: 304, gamesPlayed: 17, tournamentResult: "61 tackles, 4.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Washington Commanders", season: "2022", yearLabel: "2022 (Pro Bowl)", sortOrder: 305, gamesPlayed: 17, tournamentResult: "64 tackles, 3.5 sacks" },
+      ],
       careerEvents: [
         { year: 2018, title: "Drafted by Washington (1st round, #13)", eventType: "DRAFT" },
         { year: 2023, title: "Signed 4-year, $90M extension with Commanders", eventType: "CONTRACT" },
@@ -709,6 +763,16 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "CFP Championship Game MVP · 114 career catches · 1,726 receiving yards",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Sophomore", sortOrder: 101, gamesPlayed: 14, tournamentResult: "17 rec, 260 yds, 2 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Junior (National Champion)", sortOrder: 102, gamesPlayed: 15, tournamentResult: "38 rec, 602 yds, 2 TD (Natl Title game: 5 rec, 208 yds)" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Senior", sortOrder: 103, gamesPlayed: 14, tournamentResult: "45 rec, 595 yds, 3 TD" },
+        { level: "PROFESSIONAL", teamName: "Tampa Bay Buccaneers", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 16, tournamentResult: "26 rec, 432 yds, 6 TD" },
+        { level: "PROFESSIONAL", teamName: "Tampa Bay Buccaneers", season: "2018", yearLabel: "2018", sortOrder: 302, gamesPlayed: 10, tournamentResult: "34 rec, 565 yds, 5 TD" },
+        { level: "PROFESSIONAL", teamName: "Tampa Bay Buccaneers", season: "2020", yearLabel: "2020 (Super Bowl Champion)", sortOrder: 304, gamesPlayed: 4, tournamentResult: "11 rec, 146 yds, 2 TD (torn Achilles)" },
+        { level: "PROFESSIONAL", teamName: "Buffalo Bills", season: "2022", yearLabel: "2022", sortOrder: 306, gamesPlayed: 17, tournamentResult: "23 rec, 247 yds, 3 TD" },
+        { level: "PROFESSIONAL", teamName: "Houston Texans", season: "2023", yearLabel: "2023", sortOrder: 307, gamesPlayed: 17, tournamentResult: "15 rec, 169 yds, 3 TD" },
+      ],
       careerEvents: [
         { year: 2017, title: "Drafted by Tampa Bay Buccaneers (1st round, #19)", eventType: "DRAFT" },
         { year: 2021, title: "Won Super Bowl LV with Buccaneers", eventType: "CHAMPIONSHIP" },
@@ -770,6 +834,15 @@ export const alabamaFootball2015: TeamSeed = {
         yearsAtSchool: "2014-2016",
         statsNote: "Started all 15 games at LT · First true freshman LT since Andre Smith · Outland Trophy winner (2016)", gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Freshman (started as true freshman)", sortOrder: 101, gamesPlayed: 15, tournamentResult: "Started 15 games at LT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Sophomore (National Champion)", sortOrder: 102, gamesPlayed: 15, tournamentResult: "Started 15 games" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Junior (Outland Trophy)", sortOrder: 103, gamesPlayed: 14, tournamentResult: "Started 14 games, Outland Trophy winner" },
+        { level: "PROFESSIONAL", teamName: "Jacksonville Jaguars", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 14, tournamentResult: "Started 14 games" },
+        { level: "PROFESSIONAL", teamName: "Jacksonville Jaguars", season: "2020", yearLabel: "2020", sortOrder: 304, gamesPlayed: 16, tournamentResult: "Started 16 games" },
+        { level: "PROFESSIONAL", teamName: "Jacksonville Jaguars", season: "2023", yearLabel: "2023 (franchise tag)", sortOrder: 307, gamesPlayed: 16, tournamentResult: "Started 16 games" },
+        { level: "PROFESSIONAL", teamName: "Minnesota Vikings", season: "2024", yearLabel: "2024", sortOrder: 308, gamesPlayed: 15, tournamentResult: "Started 15 games" },
+      ],
       careerEvents: [
         { year: 2017, title: "Drafted by Jacksonville Jaguars (2nd round, #34)", eventType: "DRAFT" },
         { year: 2016, title: "Won Outland Trophy", eventType: "AWARD" },
@@ -893,6 +966,12 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "222 career tackles · 23 TFL · Led team with 10 tackles in CFP Championship Game",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Sophomore (National Champion)", sortOrder: 102, gamesPlayed: 15, tournamentResult: "73 tackles, 1.5 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Junior (Butkus Award)", sortOrder: 103, gamesPlayed: 14, tournamentResult: "115 tackles, 5.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "San Francisco 49ers", season: "2017", yearLabel: "2017 (1st round)", sortOrder: 301, gamesPlayed: 10, tournamentResult: "72 tackles, 1.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "SF 49ers / Washington", season: "2018", yearLabel: "2018", sortOrder: 302, gamesPlayed: 6, tournamentResult: "29 tackles (released, claimed by WAS)" },
+      ],
       careerEvents: [
         { year: 2017, title: "Drafted by San Francisco 49ers (1st round, #31)", eventType: "DRAFT" },
         { year: 2018, title: "Released by 49ers, claimed by Washington", eventType: "RELEASE" },
@@ -925,6 +1004,11 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "21 career sacks · Key rotational pass rusher in 2015 · 31 TFL",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Sophomore (National Champion)", sortOrder: 101, gamesPlayed: 14, tournamentResult: "19 tackles, 5.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Junior", sortOrder: 102, gamesPlayed: 15, tournamentResult: "29 tackles, 10.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "Baltimore Ravens", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 12, tournamentResult: "5 tackles, 1.5 sacks" },
+      ],
       careerEvents: [
         { year: 2017, title: "Drafted by Baltimore Ravens (3rd round, #78)", eventType: "DRAFT" },
         { year: 2019, title: "Waived by Ravens", eventType: "RELEASE" },
@@ -989,6 +1073,14 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Key backup LB in 2015 · Starter by 2017 · Butkus Award semifinalist",
         gamesPlayed: 12,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 13, tournamentResult: "14 tackles" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 15, tournamentResult: "37 tackles, 5.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 14, tournamentResult: "66 tackles, 6.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2018", yearLabel: "2018 (1st round, #22)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "58 tackles, 1.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2020", yearLabel: "2020", sortOrder: 303, gamesPlayed: 16, tournamentResult: "96 tackles, 1.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Atlanta Falcons", season: "2022", yearLabel: "2022", sortOrder: 305, gamesPlayed: 16, tournamentResult: "79 tackles, 1.0 sacks" },
+      ],
       careerEvents: [
         { year: 2018, title: "Drafted by Tennessee Titans (1st round, #22)", eventType: "DRAFT" },
         { year: 2022, title: "Signed with Atlanta Falcons", eventType: "SIGNING", detail: "Career-high 159 tackles" },
@@ -1021,6 +1113,15 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Backup DE in 2015 · Starter in 2016 · 122 career tackles at Alabama",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Sophomore", sortOrder: 101, gamesPlayed: 14, tournamentResult: "26 tackles, 1.5 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Junior (National Champion)", sortOrder: 102, gamesPlayed: 15, tournamentResult: "36 tackles, 3.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Senior", sortOrder: 103, gamesPlayed: 15, tournamentResult: "62 tackles, 3.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 16, tournamentResult: "49 tackles, 1.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2019", yearLabel: "2019", sortOrder: 303, gamesPlayed: 16, tournamentResult: "49 tackles, 3.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "Minnesota Vikings", season: "2021", yearLabel: "2021", sortOrder: 305, gamesPlayed: 16, tournamentResult: "37 tackles, 3.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Cleveland Browns", season: "2023", yearLabel: "2023", sortOrder: 307, gamesPlayed: 15, tournamentResult: "34 tackles, 2.0 sacks" },
+      ],
       careerEvents: [
         { year: 2017, title: "Drafted by New York Giants (2nd round, #55)", eventType: "DRAFT" },
         { year: 2021, title: "Signed 2-year, $22M deal with Minnesota Vikings", eventType: "CONTRACT" },
@@ -1086,6 +1187,13 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Alabama career record: 11,074 punting yards · 45.6 avg · 1st-team All-SEC (2016)",
         gamesPlayed: 15,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 15, tournamentResult: "55 punts, 45.4 avg, 16 inside 20" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 15, tournamentResult: "59 punts, 47.3 avg" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 15, tournamentResult: "51 punts, 44.7 avg" },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2018", yearLabel: "2018 (5th round)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "71 punts, 44.7 avg" },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2019", yearLabel: "2019", sortOrder: 302, gamesPlayed: 16, tournamentResult: "64 punts, 43.4 avg" },
+      ],
       careerEvents: [
         { year: 2018, title: "Drafted by Green Bay Packers (5th round, #172)", eventType: "DRAFT" },
         { year: 2024, title: "Signed with Los Angeles Chargers", eventType: "SIGNING" },
@@ -1288,6 +1396,15 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Backup RB as freshman in 2015 · 3,070 career rush yards · 2x National Champion",
         gamesPlayed: 10,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 14, tournamentResult: "157 rush yds, 1 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 15, tournamentResult: "1,037 rush yds, 2 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 15, tournamentResult: "1,000 rush yds, 11 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2018", yearLabel: "Senior", sortOrder: 104, gamesPlayed: 15, tournamentResult: "876 rush yds, 9 TD" },
+        { level: "PROFESSIONAL", teamName: "New England Patriots", season: "2019", yearLabel: "2019", sortOrder: 301, gamesPlayed: 4, tournamentResult: "12 rush yds" },
+        { level: "PROFESSIONAL", teamName: "New England Patriots", season: "2021", yearLabel: "2021", sortOrder: 303, gamesPlayed: 15, tournamentResult: "929 rush yds, 15 TD" },
+        { level: "PROFESSIONAL", teamName: "Buffalo Bills", season: "2023", yearLabel: "2023", sortOrder: 305, gamesPlayed: 9, tournamentResult: "245 rush yds, 1 TD" },
+      ],
       careerEvents: [
         { year: 2019, title: "Drafted by New England Patriots (3rd round, #87)", eventType: "DRAFT" },
         { year: 2024, title: "Retired from NFL", eventType: "RETIREMENT", detail: "Retired at age 27 due to neck/concussion injuries" },
@@ -1318,6 +1435,11 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Redshirted 2015 (ACL) · 1,512 career rush yards · 2x National Champion",
         gamesPlayed: 4,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 13, tournamentResult: "298 rush yds, 6 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 11, tournamentResult: "594 rush yds, 6 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 15, tournamentResult: "596 rush yds, 8 TD (Natl Title game: 93 yds)" },
+      ],
       careerEvents: [
         { year: 2018, title: "Drafted by Dallas Cowboys (7th round, #236)", eventType: "DRAFT" },
         { year: 2022, title: "Won USFL Championship with Birmingham Stallions", eventType: "CHAMPIONSHIP" },

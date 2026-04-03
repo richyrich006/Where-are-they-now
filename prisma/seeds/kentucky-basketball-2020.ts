@@ -93,7 +93,9 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Center", yearsAtSchool: "2017-2020", statsNote: "Junior • 14.0 PPG, 7.8 RPG • SEC Defensive POY candidate" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 14.0, reboundsPerGame: 7.8, assistsPerGame: 0.6 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 2.5, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 36, pointsPerGame: 4.0, reboundsPerGame: 3.6, assistsPerGame: 0.3 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 31, pointsPerGame: 14.0, reboundsPerGame: 7.8, assistsPerGame: 0.6 },
       ],
       careerEvents: [
         { year: 2020, title: "Selected #42 overall by the Charlotte Hornets", eventType: "DRAFT" },
@@ -119,7 +121,8 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Point Guard", yearsAtSchool: "2018-2020", statsNote: "Sophomore • Left team late season" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 11.5, reboundsPerGame: 3.7, assistsPerGame: 6.4 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 7.7, reboundsPerGame: 3.4, assistsPerGame: 4.3 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 30, pointsPerGame: 11.5, reboundsPerGame: 3.7, assistsPerGame: 6.4 },
       ],
       careerEvents: [{ year: 2020, title: "Went undrafted; began professional career", eventType: "CAREER" }],
     },
@@ -171,6 +174,8 @@ export const kentuckyBasketball2020: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Forward", yearsAtSchool: "2019-2022", statsNote: "Freshman • Four-star recruit" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 4.5, reboundsPerGame: 3.2, assistsPerGame: 0.4 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 18, pointsPerGame: 10.3, reboundsPerGame: 4.4, assistsPerGame: 0.8 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 10.8, reboundsPerGame: 4.4, assistsPerGame: 1.2 },
       ],
       careerEvents: [
         { year: 2024, title: "Went undrafted; signed with New Orleans Pelicans", eventType: "SIGNING" },
@@ -247,7 +252,8 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Forward", yearsAtSchool: "2018-2020", statsNote: "Sophomore • Declared for NBA Draft" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 5.8, reboundsPerGame: 5.2, assistsPerGame: 0.6 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 3.8, reboundsPerGame: 4.2, assistsPerGame: 0.4 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 31, pointsPerGame: 5.8, reboundsPerGame: 5.2, assistsPerGame: 0.6 },
       ],
       careerEvents: [{ year: 2020, title: "Went undrafted; began overseas career", eventType: "CAREER" }],
     },
