@@ -30,6 +30,9 @@ export const kentuckyBasketball2026: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard", yearsAtSchool: "2023-present", statsNote: "Junior • All-SEC • Team's best player" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 55, pointsPerGame: 18.5, reboundsPerGame: 5.2, assistsPerGame: 2.5 },
+      ],
       careerEvents: [],
     },
     {
@@ -51,6 +54,9 @@ export const kentuckyBasketball2026: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "2025-present", statsNote: "Transfer from Pitt • Elite playmaker" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 55, pointsPerGame: 14.2, reboundsPerGame: 3.0, assistsPerGame: 5.8 },
+      ],
       careerEvents: [],
     },
     {
@@ -93,6 +99,9 @@ export const kentuckyBasketball2026: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "2025-present", statsNote: "Freshman • Five-star recruit" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 55, pointsPerGame: 8.5, reboundsPerGame: 2.2, assistsPerGame: 2.8 },
+      ],
       careerEvents: [],
     },
     {
@@ -177,6 +186,9 @@ export const kentuckyBasketball2026: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Center", yearsAtSchool: "2023-present", statsNote: "Junior • Returning big man • Expanded role" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 55, pointsPerGame: 6.2, reboundsPerGame: 5.5, assistsPerGame: 1.0 },
+      ],
       careerEvents: [],
     },
     {
@@ -198,6 +210,9 @@ export const kentuckyBasketball2026: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2024-present", statsNote: "Junior • Followed Pope from BYU" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 45, pointsPerGame: 5.5, reboundsPerGame: 1.5, assistsPerGame: 1.2 },
+      ],
       careerEvents: [],
     },
     {

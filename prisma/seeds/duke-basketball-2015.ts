@@ -709,6 +709,9 @@ export const dukeBasketball2015: TeamSeed = {
         yearsAtSchool: "2014-2018",
         statsNote: "Walk-on • Part of 2015 national championship team • Political science major",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-2016", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 6, pointsPerGame: 0.0, reboundsPerGame: 0.0, assistsPerGame: 0.0 },
+      ],
       careerEvents: [
         {
           year: 2015,
@@ -814,6 +817,9 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote:
           "Walk-on (former 3-year student manager) • Never played varsity hoops in high school • Brother of Ryan Kelly (Duke 2010-13)",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-2016", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 8, pointsPerGame: 0.4, reboundsPerGame: 0.1, assistsPerGame: 0.1 },
+      ],
       careerEvents: [
         {
           year: 2015,
@@ -859,6 +865,9 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote:
           "Walk-on • Computer science major • National Merit Scholar • Deryl Hart Award (top scholar-athlete) • Played in 29 career games including 2015 NCAA Tournament",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-2016", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 29, pointsPerGame: 0.6, reboundsPerGame: 0.3, assistsPerGame: 0.2 },
+      ],
       careerEvents: [
         {
           year: 2015,

@@ -228,6 +228,9 @@ export const dukeBasketball2002: TeamSeed = {
         yearsAtSchool: "2001-2005",
         statsNote: "Freshman contributor • Developed into four-year starter",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 5.5, reboundsPerGame: 1.8, assistsPerGame: 1.5 },
+      ],
       careerEvents: [
         { year: 2005, title: "Selected #32 overall by the LA Clippers", eventType: "DRAFT" },
         { year: 2022, title: "Joined Los Angeles Lakers as professional scout", eventType: "CAREER" },
@@ -249,6 +252,9 @@ export const dukeBasketball2002: TeamSeed = {
         statusNote: "Starting center on Duke's 2001 championship team who went undrafted in 2003 and played professionally overseas for 6.5 years across Sweden, Venezuela, Poland, Hungary, Latvia, and the NBA D-League (Roanoke Dazzle). After retiring from basketball, worked in medical device sales and pharmaceutical marketing (including GlaxoSmithKline). Now self-employed as a financial representative in Tampa, FL, actively mentoring students at his alma mater Tampa Prep on financial literacy.",
       },
       membership: { role: "PLAYER", jerseyNumber: 20, position: "Center", yearsAtSchool: "1999-2003", statsNote: "Junior starter • Rim protector" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 4.2, reboundsPerGame: 3.8, assistsPerGame: 0.3 },
+      ],
       careerEvents: [{ year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" }],
     },
     {
@@ -269,6 +275,9 @@ export const dukeBasketball2002: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Nick_Horvath",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Forward", yearsAtSchool: "1999-2004", statsNote: "Junior contributor" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 5.2, reboundsPerGame: 3.0, assistsPerGame: 0.6 },
+      ],
       careerEvents: [{ year: 2016, title: "Became physics teacher in New Zealand", eventType: "CAREER" }],
     },
     {
@@ -289,6 +298,9 @@ export const dukeBasketball2002: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Reggie_Love",
       },
       membership: { role: "PLAYER", jerseyNumber: 42, position: "Forward", yearsAtSchool: "2000-2005", statsNote: "Sophomore • Two-sport athlete" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 1.0, reboundsPerGame: 0.6, assistsPerGame: 0.2 },
+      ],
       careerEvents: [{ year: 2009, title: "Named personal aide to President Obama", eventType: "CAREER" }],
     },
     {
@@ -309,6 +321,9 @@ export const dukeBasketball2002: TeamSeed = {
         sourceUrl: "https://teambuckner.sportngin.com/andre-buckner",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "1999-2003", statsNote: "Junior walk-on" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 1.8, reboundsPerGame: 1.0, assistsPerGame: 0.5 },
+      ],
       careerEvents: [{ year: 2009, title: "Co-founded Higher Goals Now", eventType: "CAREER" }],
     },
     {
@@ -328,6 +343,9 @@ export const dukeBasketball2002: TeamSeed = {
         sourceUrl: "https://gotigersgo.com/sports/mens-basketball/roster/coaches/andy-borman/3542",
       },
       membership: { role: "PLAYER", jerseyNumber: 40, position: "Guard", yearsAtSchool: "1999-2004", statsNote: "Sophomore walk-on • Coach K's nephew" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior walk-on", sortOrder: 201, gamesPlayed: 15, pointsPerGame: 0.3, reboundsPerGame: 0.2, assistsPerGame: 0.1 },
+      ],
       careerEvents: [{ year: 2022, title: "Joined Memphis as assistant coach", eventType: "CAREER" }],
     },
     {

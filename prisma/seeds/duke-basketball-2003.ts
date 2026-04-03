@@ -111,6 +111,9 @@ export const dukeBasketball2003: TeamSeed = {
         yearsAtSchool: "2002-2006",
         statsNote: "Freshman contributor • Duke's all-time leading scorer (2,769 pts)",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15.0, reboundsPerGame: 2.0, assistsPerGame: 2.0 },
+      ],
       careerEvents: [
         { year: 2006, title: "Selected #11 overall by the Orlando Magic", eventType: "DRAFT" },
         { year: 2021, title: "Retired from NBA after 15 seasons", eventType: "RETIREMENT" },
@@ -141,6 +144,9 @@ export const dukeBasketball2003: TeamSeed = {
         yearsAtSchool: "2002-2006",
         statsNote: "Freshman contributor • Duke's all-time blocks leader",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.8, reboundsPerGame: 6.3, assistsPerGame: 0.5 },
+      ],
       careerEvents: [
         { year: 2006, title: "Selected #5 overall by the Atlanta Hawks", eventType: "DRAFT" },
         { year: 2012, title: "Final NBA season with Brooklyn Nets", eventType: "CAREER" },
@@ -208,6 +214,9 @@ export const dukeBasketball2003: TeamSeed = {
         yearsAtSchool: "2002-2006",
         statsNote: "McDonald's All-American • Local recruit from Raleigh",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 5.8, reboundsPerGame: 3.5, assistsPerGame: 0.3 },
+      ],
       careerEvents: [
         { year: 2006, title: "Went undrafted; signed with Philadelphia 76ers", eventType: "SIGNING" },
       ],
@@ -237,6 +246,9 @@ export const dukeBasketball2003: TeamSeed = {
         yearsAtSchool: "1999-2004",
         statsNote: "Junior contributor • Physics/English double major",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 4.5, reboundsPerGame: 2.8, assistsPerGame: 0.4 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2016, title: "Became physics teacher in New Zealand", eventType: "CAREER" },
@@ -268,6 +280,9 @@ export const dukeBasketball2003: TeamSeed = {
         yearsAtSchool: "2002-2006",
         statsNote: "Freshman contributor • Sharpshooter",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 4.2, reboundsPerGame: 1.5, assistsPerGame: 0.8 },
+      ],
       careerEvents: [
         { year: 2006, title: "Graduated from Duke; played briefly overseas", eventType: "CAREER" },
       ],
@@ -289,6 +304,9 @@ export const dukeBasketball2003: TeamSeed = {
         sourceUrl: "https://blog.tampaprep.org/allschoolnews/alumni-spotlight-casey-sanders",
       },
       membership: { role: "PLAYER", jerseyNumber: 20, position: "Center", yearsAtSchool: "1999-2003", statsNote: "Senior • Starting center" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 3.5, reboundsPerGame: 3.2, assistsPerGame: 0.2 },
+      ],
       careerEvents: [{ year: 2001, title: "Won NCAA National Championship", eventType: "CHAMPIONSHIP" }],
     },
     {
@@ -309,6 +327,9 @@ export const dukeBasketball2003: TeamSeed = {
         sourceUrl: "https://teambuckner.sportngin.com/andre-buckner",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "1999-2003", statsNote: "Senior walk-on" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 1.5, reboundsPerGame: 0.7, assistsPerGame: 0.4 },
+      ],
       careerEvents: [{ year: 2009, title: "Co-founded Higher Goals Now", eventType: "CAREER" }],
     },
     {
@@ -328,6 +349,9 @@ export const dukeBasketball2003: TeamSeed = {
         sourceUrl: "https://gotigersgo.com/sports/mens-basketball/roster/coaches/andy-borman/3542",
       },
       membership: { role: "PLAYER", jerseyNumber: 40, position: "Guard", yearsAtSchool: "1999-2004", statsNote: "Junior walk-on • Coach K's nephew" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior walk-on", sortOrder: 201, gamesPlayed: 18, pointsPerGame: 0.4, reboundsPerGame: 0.2, assistsPerGame: 0.1 },
+      ],
       careerEvents: [{ year: 2022, title: "Joined Memphis as assistant coach", eventType: "CAREER" }],
     },
     {

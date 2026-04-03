@@ -144,6 +144,9 @@ export const dukeBasketball2005: TeamSeed = {
         yearsAtSchool: "2004-2008",
         statsNote: "Freshman contributor • ACC All-Defensive Team (later years)",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 3.5, reboundsPerGame: 2.0, assistsPerGame: 0.8 },
+      ],
       careerEvents: [
         { year: 2008, title: "Graduated from Duke; went undrafted", eventType: "CAREER" },
       ],
@@ -209,6 +212,9 @@ export const dukeBasketball2005: TeamSeed = {
         yearsAtSchool: "2002-2006",
         statsNote: "Junior • Reliable perimeter shooter",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.5, reboundsPerGame: 2.5, assistsPerGame: 1.2 },
+      ],
       careerEvents: [
         { year: 2006, title: "Graduated from Duke", eventType: "CAREER" },
       ],
@@ -238,6 +244,9 @@ export const dukeBasketball2005: TeamSeed = {
         yearsAtSchool: "2003-2007",
         statsNote: "Sophomore • Hit legendary buzzer-beater vs Virginia Tech",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 6.2, reboundsPerGame: 2.2, assistsPerGame: 2.0 },
+      ],
       careerEvents: [
         { year: 2005, title: "Hit half-court buzzer-beater to beat Virginia Tech", eventType: "OTHER" },
       ],
@@ -260,6 +269,9 @@ export const dukeBasketball2005: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Reggie_Love",
       },
       membership: { role: "PLAYER", jerseyNumber: 42, position: "Forward", yearsAtSchool: "2000-2005", statsNote: "Senior • Two-sport athlete" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 1.8, reboundsPerGame: 1.0, assistsPerGame: 0.4 },
+      ],
       careerEvents: [{ year: 2009, title: "Named personal aide to President Obama", eventType: "CAREER" }],
     },
     {
@@ -282,6 +294,9 @@ export const dukeBasketball2005: TeamSeed = {
         sourceUrl: "https://nbacoaches.com/david-mcclure/",
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Small Forward", yearsAtSchool: "2004-2009", statsNote: "Freshman walk-on • Earned scholarship" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Freshman walk-on", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 0.5, reboundsPerGame: 0.4, assistsPerGame: 0.1 },
+      ],
       careerEvents: [
         { year: 2009, title: "Graduated from Duke", eventType: "CAREER" },
         { year: 2014, title: "Joined San Antonio Spurs player development staff", eventType: "CAREER" },
@@ -304,6 +319,9 @@ export const dukeBasketball2005: TeamSeed = {
         sourceUrl: "https://goduke.com/sports/mens-basketball/roster/joe-pagliuca/4286",
       },
       membership: { role: "PLAYER", jerseyNumber: 43, position: "Guard", yearsAtSchool: "2000-2004", statsNote: "Fifth-year walk-on • Hart Award winner" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 6, pointsPerGame: 0.0, reboundsPerGame: 0.0, assistsPerGame: 0.0 },
+      ],
       careerEvents: [{ year: 2004, title: "Won Dr. Deryl Hart Award as top scholar-athlete", eventType: "AWARD" }],
     },
     {
@@ -325,6 +343,9 @@ export const dukeBasketball2005: TeamSeed = {
         sourceUrl: "https://www.citrusowls.com/sports/mbkb/coaches/PatrickJohnson",
       },
       membership: { role: "PLAYER", jerseyNumber: 24, position: "Forward / Center", yearsAtSchool: "2002-2006", statsNote: "Walk-on turned scholarship player • 22 games in 2004-05" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior walk-on", sortOrder: 201, gamesPlayed: 22, pointsPerGame: 0.4, reboundsPerGame: 1.1, assistsPerGame: 0.1 },
+      ],
       careerEvents: [
         { year: 2006, title: "Graduated from Duke with B.A. in Political Science", eventType: "CAREER" },
         { year: 2015, title: "Named head men's basketball coach at Citrus College", eventType: "CAREER" },

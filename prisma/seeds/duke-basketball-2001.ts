@@ -313,6 +313,9 @@ export const dukeBasketball2001: TeamSeed = {
         yearsAtSchool: "1999-2004",
         statsNote: "2001 National Champion • Minnesota Mr. Basketball 1999 • Physics/English double major",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.8, reboundsPerGame: 2.5, assistsPerGame: 0.5 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2004, title: "Began pro career in Australia NBL", eventType: "CAREER" },
@@ -345,6 +348,9 @@ export const dukeBasketball2001: TeamSeed = {
         yearsAtSchool: "2000-2005",
         statsNote: "2001 National Champion • Two-sport athlete (basketball & football)",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, pointsPerGame: 1.2, reboundsPerGame: 0.8, assistsPerGame: 0.3 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2009, title: "Named Special Assistant and Personal Aide to President Obama", eventType: "CAREER" },
@@ -378,6 +384,9 @@ export const dukeBasketball2001: TeamSeed = {
         yearsAtSchool: "1995-2001",
         statsNote: "2001 National Champion • Took 2 years off for Mormon mission",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 2.1, reboundsPerGame: 1.8, assistsPerGame: 0.3 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2004, title: "Earned MBA from Harvard Business School", eventType: "CAREER" },
@@ -408,6 +417,9 @@ export const dukeBasketball2001: TeamSeed = {
         yearsAtSchool: "1999-2003",
         statsNote: "Walk-on • 2001 National Champion",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 1.5, reboundsPerGame: 0.8, assistsPerGame: 0.6 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2009, title: "Co-founded Higher Goals Now youth basketball program", eventType: "CAREER" },
@@ -436,6 +448,9 @@ export const dukeBasketball2001: TeamSeed = {
         yearsAtSchool: "1997-2001",
         statsNote: "Walk-on • Senior tri-captain • 2001 National Champion",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Senior walk-on", sortOrder: 201, gamesPlayed: 18, pointsPerGame: 0.4, reboundsPerGame: 0.2, assistsPerGame: 0.2 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke (tri-captain)", eventType: "CHAMPIONSHIP" },
       ],
@@ -465,6 +480,9 @@ export const dukeBasketball2001: TeamSeed = {
         yearsAtSchool: "2000-2001",
         statsNote: "Freshman • Played 7 games • Transferred to Seton Hall",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 7, pointsPerGame: 1.3, reboundsPerGame: 0.6, assistsPerGame: 0.1 },
+      ],
       careerEvents: [
         { year: 2001, title: "Received championship ring; transferred to Seton Hall", eventType: "OTHER" },
       ],
@@ -495,6 +513,9 @@ export const dukeBasketball2001: TeamSeed = {
         yearsAtSchool: "1997-2001",
         statsNote: "Walk-on • 2001 National Champion",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Junior walk-on", sortOrder: 201, gamesPlayed: 15, pointsPerGame: 0.3, reboundsPerGame: 0.1, assistsPerGame: 0.1 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2011, title: "Co-founded CircleUp fintech platform", eventType: "CAREER" },
@@ -525,6 +546,9 @@ export const dukeBasketball2001: TeamSeed = {
         yearsAtSchool: "1999-2004",
         statsNote: "Walk-on • Coach K's nephew • Grandson of astronaut Frank Borman",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore walk-on", sortOrder: 201, gamesPlayed: 12, pointsPerGame: 0.2, reboundsPerGame: 0.1, assistsPerGame: 0.1 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2014, title: "Named Executive Director of NY Renaissance Nike EYBL", eventType: "CAREER" },

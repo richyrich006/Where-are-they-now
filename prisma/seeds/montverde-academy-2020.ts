@@ -37,6 +37,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2020",
         statsNote: "Naismith Prep Player of the Year • McDonald's All-American • Led 25-0 season",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 24.0, reboundsPerGame: 7.5, assistsPerGame: 4.0 },
+      ],
       careerEvents: [
         { year: 2020, title: "Named Naismith Prep Player of the Year", eventType: "AWARD" },
         { year: 2021, title: "Selected #1 overall by the Detroit Pistons", eventType: "DRAFT" },
@@ -70,6 +73,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2018-2020",
         statsNote: "McDonald's All-American • Five-star recruit • Ultimate versatile playmaker",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 16.0, reboundsPerGame: 8.0, assistsPerGame: 5.5 },
+      ],
       careerEvents: [
         { year: 2021, title: "Selected #4 overall by the Toronto Raptors", eventType: "DRAFT" },
         { year: 2022, title: "Won NBA Rookie of the Year", eventType: "AWARD" },
@@ -102,6 +108,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2020",
         statsNote: "McDonald's All-American • Dominant rebounder and rim protector",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 12.5, reboundsPerGame: 9.0, assistsPerGame: 1.0 },
+      ],
       careerEvents: [
         { year: 2021, title: "Selected #29 overall by the Suns (traded to Nets)", eventType: "DRAFT" },
         { year: 2025, title: "Signed one-year, $6.25M deal with Brooklyn Nets", eventType: "SIGNING" },
@@ -132,6 +141,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2020",
         statsNote: "McDonald's All-American • Five-star recruit • Elite shooter",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 14.0, reboundsPerGame: 5.5, assistsPerGame: 1.5 },
+      ],
       careerEvents: [
         { year: 2021, title: "Selected #14 overall by the Golden State Warriors", eventType: "DRAFT" },
         { year: 2022, title: "Won NBA Championship with the Warriors as a rookie", eventType: "CHAMPIONSHIP" },
@@ -163,6 +175,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2021",
         statsNote: "Top international recruit • Elite perimeter shooter",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 10.0, reboundsPerGame: 4.0, assistsPerGame: 1.0 },
+      ],
       careerEvents: [
         { year: 2022, title: "Selected #32 overall by the Orlando Magic", eventType: "DRAFT" },
         { year: 2025, title: "Signed with the Atlanta Hawks", eventType: "SIGNING" },
@@ -195,6 +210,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2022",
         statsNote: "McDonald's All-American (2022) • Five-star recruit",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 8.0, reboundsPerGame: 3.5, assistsPerGame: 1.0 },
+      ],
       careerEvents: [
         { year: 2023, title: "Selected #31 overall by the Pacers (traded to Nets)", eventType: "DRAFT" },
         { year: 2025, title: "Waived by the Brooklyn Nets", eventType: "OTHER" },
@@ -226,6 +244,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2021",
         statsNote: "Five-star recruit • McDonald's All-American nominee",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 11.0, reboundsPerGame: 3.0, assistsPerGame: 2.0 },
+      ],
       careerEvents: [
         { year: 2021, title: "Enrolled at Baylor University", eventType: "CAREER" },
         { year: 2025, title: "Transferred to Georgetown University", eventType: "CAREER" },
@@ -256,6 +277,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2020",
         statsNote: "Four-star recruit • Floor general and facilitator",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 8.5, reboundsPerGame: 2.5, assistsPerGame: 3.5 },
+      ],
       careerEvents: [
         { year: 2020, title: "Enrolled at University of Michigan", eventType: "CAREER" },
         { year: 2023, title: "Transferred to VCU", eventType: "CAREER" },
@@ -287,6 +311,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2020",
         statsNote: "Elite passer and floor general • Canadian national team prospect",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 7.0, reboundsPerGame: 2.0, assistsPerGame: 4.5 },
+      ],
       careerEvents: [
         { year: 2021, title: "Enrolled at Creighton University", eventType: "CAREER" },
         { year: 2023, title: "Transferred to Gonzaga University", eventType: "CAREER" },

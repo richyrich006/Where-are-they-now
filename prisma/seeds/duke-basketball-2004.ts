@@ -252,6 +252,9 @@ export const dukeBasketball2004: TeamSeed = {
         yearsAtSchool: "2003-2007",
         statsNote: "Freshman backup PG • Athletic defender",
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 5.8, reboundsPerGame: 2.0, assistsPerGame: 1.8 },
+      ],
       careerEvents: [
         { year: 2007, title: "Graduated from Duke; began overseas career", eventType: "CAREER" },
       ],
@@ -274,6 +277,9 @@ export const dukeBasketball2004: TeamSeed = {
         sourceUrl: "https://lancasteronline.com/sports/nba/basketball-still-melchionni-s-business/article_f4a85d66-0400-11e4-a2ab-001a4bcf6878.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 20, position: "Shooting Guard", yearsAtSchool: "2002-2006", statsNote: "Sophomore • Perimeter shooter" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 6.5, reboundsPerGame: 2.2, assistsPerGame: 1.0 },
+      ],
       careerEvents: [{ year: 2010, title: "Became NBA agent at Wasserman Media Group", eventType: "CAREER" }],
     },
     {
@@ -294,6 +300,9 @@ export const dukeBasketball2004: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Nick_Horvath",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Forward", yearsAtSchool: "1999-2004", statsNote: "Fifth-year senior • 2001 champion" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Fifth-year Senior", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 3.2, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
+      ],
       careerEvents: [{ year: 2016, title: "Became physics teacher in New Zealand", eventType: "CAREER" }],
     },
     {
@@ -314,6 +323,9 @@ export const dukeBasketball2004: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Reggie_Love",
       },
       membership: { role: "PLAYER", jerseyNumber: 42, position: "Forward", yearsAtSchool: "2000-2005", statsNote: "Junior • Two-sport athlete" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 1.5, reboundsPerGame: 0.9, assistsPerGame: 0.3 },
+      ],
       careerEvents: [{ year: 2009, title: "Named personal aide to President Obama", eventType: "CAREER" }],
     },
     {
@@ -333,6 +345,9 @@ export const dukeBasketball2004: TeamSeed = {
         sourceUrl: "https://gotigersgo.com/sports/mens-basketball/roster/coaches/andy-borman/3542",
       },
       membership: { role: "PLAYER", jerseyNumber: 40, position: "Guard", yearsAtSchool: "1999-2004", statsNote: "Senior walk-on • Coach K's nephew" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Senior walk-on", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 0.5, reboundsPerGame: 0.3, assistsPerGame: 0.1 },
+      ],
       careerEvents: [{ year: 2022, title: "Joined Memphis as assistant coach", eventType: "CAREER" }],
     },
     {
@@ -355,6 +370,9 @@ export const dukeBasketball2004: TeamSeed = {
         sourceUrl: "https://www.linkedin.com/in/joseph-pagliuca-81352436/",
       },
       membership: { role: "PLAYER", jerseyNumber: 43, position: "Guard", yearsAtSchool: "2000-2004", statsNote: "Senior walk-on • Hart Award winner • Son of Celtics co-owner" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 4, pointsPerGame: 0.0, reboundsPerGame: 0.0, assistsPerGame: 0.0 },
+      ],
       careerEvents: [{ year: 2004, title: "Won Dr. Deryl Hart Award as top scholar-athlete", eventType: "AWARD" }],
     },
     {
@@ -373,6 +391,9 @@ export const dukeBasketball2004: TeamSeed = {
         sourceUrl: "https://www.sports-reference.com/cbb/players/michael-thompson-1.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Center", yearsAtSchool: "2002-2004", statsNote: "Sophomore • Transferred mid-season to Northwestern" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 3, pointsPerGame: 0.7, reboundsPerGame: 0.3, assistsPerGame: 0.0 },
+      ],
       careerEvents: [{ year: 2004, title: "Transferred to Northwestern", eventType: "OTHER" }],
     },
     {
@@ -393,6 +414,9 @@ export const dukeBasketball2004: TeamSeed = {
         sourceUrl: "https://goduke.com/sports/mens-basketball/roster/matt-christensen/11543",
       },
       membership: { role: "PLAYER", jerseyNumber: 41, position: "Forward / Center", yearsAtSchool: "1995-2004", statsNote: "Senior • 97 career games • 2001 National Champion" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 2.5, reboundsPerGame: 2.0, assistsPerGame: 0.3 },
+      ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
         { year: 2004, title: "Earned MBA from Harvard Business School", eventType: "CAREER" },
