@@ -97,7 +97,7 @@ export const kentuckyBasketball2024: TeamSeed = {
         currentTitle: "Guard",
         currentEmployer: "Charlotte Hornets (two-way)",
         league: "NBA / G League",
-        statusNote: "Drafted #47 in 2024 by Orlando, traded to New Orleans, now two-way with Charlotte Hornets.",
+        statusNote: "A sharpshooting transfer from Illinois State who won SEC Co-Sixth Man of the Year in 2022-23, then returned as the team's leading scorer in 2023-24 (14.8 PPG). Drafted #47 overall by the Orlando Magic in 2024 and traded to the New Orleans Pelicans. Waived by New Orleans in July 2025, then signed a two-way deal with the Charlotte Hornets. In limited NBA minutes (7.6 MPG), shooting 47.4% from the field and 50.0% from three. Mostly plays for the Greensboro Swarm (G League).",
         sourceUrl: "https://www.nba.com/player/1641810/antonio-reeves",
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Guard", yearsAtSchool: "2022-2024", statsNote: "Graduate Senior • Team's leading scorer • 14.8 PPG" },
