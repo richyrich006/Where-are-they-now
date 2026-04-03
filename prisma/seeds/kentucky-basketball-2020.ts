@@ -92,6 +92,9 @@ export const kentuckyBasketball2020: TeamSeed = {
         sourceUrl: "https://www.basketball-reference.com/players/r/richani01.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Center", yearsAtSchool: "2017-2020", statsNote: "Junior • 14.0 PPG, 7.8 RPG • SEC Defensive POY candidate" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 14.0, reboundsPerGame: 7.8, assistsPerGame: 0.6 },
+      ],
       careerEvents: [
         { year: 2020, title: "Selected #42 overall by the Charlotte Hornets", eventType: "DRAFT" },
       ],
@@ -115,6 +118,9 @@ export const kentuckyBasketball2020: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Ashton_Hagans",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Point Guard", yearsAtSchool: "2018-2020", statsNote: "Sophomore • Left team late season" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 11.5, reboundsPerGame: 3.7, assistsPerGame: 6.4 },
+      ],
       careerEvents: [{ year: 2020, title: "Went undrafted; began professional career", eventType: "CAREER" }],
     },
     {
@@ -136,6 +142,9 @@ export const kentuckyBasketball2020: TeamSeed = {
         sourceUrl: "https://www.eurohoops.net/en/euroleague/1883231/nate-sestina-signs-with-olimpia-milan-euroleague/",
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Forward", yearsAtSchool: "2019-2020", statsNote: "Graduate Senior • Transfer from Bucknell • Stretch four" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 5.7, reboundsPerGame: 4.6, assistsPerGame: 0.7 },
+      ],
       careerEvents: [
         { year: 2020, title: "Began professional career in Europe", eventType: "CAREER" },
         { year: 2025, title: "Signed with Olimpia Milano (EuroLeague)", eventType: "SIGNING" },
@@ -160,6 +169,9 @@ export const kentuckyBasketball2020: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Keion_Brooks_Jr.",
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Forward", yearsAtSchool: "2019-2022", statsNote: "Freshman • Four-star recruit" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 4.5, reboundsPerGame: 3.2, assistsPerGame: 0.4 },
+      ],
       careerEvents: [
         { year: 2024, title: "Went undrafted; signed with New Orleans Pelicans", eventType: "SIGNING" },
       ],
@@ -183,6 +195,9 @@ export const kentuckyBasketball2020: TeamSeed = {
         sourceUrl: "https://www.hoopsrumors.com/2026/02/johnny-juzang-signs-with-zenit-bc.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Guard", yearsAtSchool: "2019-2020", statsNote: "Freshman • Transferred to UCLA • Led UCLA to 2021 Final Four" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 2.9, reboundsPerGame: 1.9, assistsPerGame: 0.4 },
+      ],
       careerEvents: [
         { year: 2020, title: "Transferred to UCLA", eventType: "OTHER" },
         { year: 2021, title: "Led UCLA to Final Four as Most Outstanding Player candidate", eventType: "CAREER" },
@@ -205,6 +220,9 @@ export const kentuckyBasketball2020: TeamSeed = {
         sourceUrl: "https://www.on3.com/teams/kentucky-wildcats/news/return-of-the-dragon-kahlil-whitney-wants-to-return-to-college-basketball/",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Forward", yearsAtSchool: "2019-2020", statsNote: "Freshman • Five-star recruit • Left team mid-season" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 10, pointsPerGame: 3.3, reboundsPerGame: 1.2, assistsPerGame: 0.3 },
+      ],
       careerEvents: [
         { year: 2020, title: "Left Kentucky mid-season; declared for NBA Draft", eventType: "OTHER" },
       ],
@@ -228,6 +246,9 @@ export const kentuckyBasketball2020: TeamSeed = {
         sourceUrl: "https://www.proballers.com/basketball/player/178401/montgomery-e-j",
       },
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Forward", yearsAtSchool: "2018-2020", statsNote: "Sophomore • Declared for NBA Draft" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 5.8, reboundsPerGame: 5.2, assistsPerGame: 0.6 },
+      ],
       careerEvents: [{ year: 2020, title: "Went undrafted; began overseas career", eventType: "CAREER" }],
     },
     {

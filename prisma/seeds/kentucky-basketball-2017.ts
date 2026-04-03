@@ -133,6 +133,9 @@ export const kentuckyBasketball2017: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Wenyen_Gabriel",
       },
       membership: { role: "PLAYER", jerseyNumber: 32, position: "Forward", yearsAtSchool: "2016-2018", statsNote: "Freshman • South Sudanese-American • Versatile wing" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.3, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
+      ],
       careerEvents: [
         { year: 2018, title: "Went undrafted; began G League/NBA journey", eventType: "CAREER" },
       ],
@@ -181,6 +184,9 @@ export const kentuckyBasketball2017: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Isaiah_Briscoe",
       },
       membership: { role: "PLAYER", jerseyNumber: 13, position: "Guard", yearsAtSchool: "2015-2017", statsNote: "Sophomore • 13.5 PPG • Team's second-leading scorer" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 13.2, reboundsPerGame: 5.4, assistsPerGame: 3.1 },
+      ],
       careerEvents: [{ year: 2017, title: "Went undrafted", eventType: "CAREER" }],
     },
     {
@@ -202,6 +208,9 @@ export const kentuckyBasketball2017: TeamSeed = {
         sourceUrl: "https://parisbasketball.com/en/2025/07/derek-willis-arrives-in-paris/",
       },
       membership: { role: "PLAYER", jerseyNumber: 35, position: "Power Forward", yearsAtSchool: "2013-2017", statsNote: "Senior • In-state recruit" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 8.6, reboundsPerGame: 4.1, assistsPerGame: 0.7 },
+      ],
       careerEvents: [{ year: 2017, title: "Graduated; began European career", eventType: "CAREER" }],
     },
     {
@@ -221,6 +230,9 @@ export const kentuckyBasketball2017: TeamSeed = {
         sourceUrl: "https://www.linkedin.com/in/dominique-hawkins-25966492/",
       },
       membership: { role: "PLAYER", jerseyNumber: 25, position: "Guard", yearsAtSchool: "2013-2017", statsNote: "Senior • Walk-on • 2013 KY Mr. Basketball" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 3.4, reboundsPerGame: 1.7, assistsPerGame: 1.7 },
+      ],
       careerEvents: [{ year: 2017, title: "Graduated from Kentucky", eventType: "CAREER" }],
     },
     {
@@ -242,6 +254,9 @@ export const kentuckyBasketball2017: TeamSeed = {
         sourceUrl: "https://www.adelaide36ers.com/player/isaac-humphries",
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Center", yearsAtSchool: "2015-2017", statsNote: "Sophomore • 7-footer from Australia" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 4.5, reboundsPerGame: 3.1, assistsPerGame: 0.5 },
+      ],
       careerEvents: [{ year: 2023, title: "Came out publicly as gay — first in a top league", eventType: "OTHER" }],
     },
     {
@@ -263,6 +278,9 @@ export const kentuckyBasketball2017: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Sacha_Killeya-Jones",
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Power Forward / Center", yearsAtSchool: "2016-2018", statsNote: "Freshman • Five-star recruit" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 24, pointsPerGame: 1.7, reboundsPerGame: 1.0, assistsPerGame: 0.1 },
+      ],
       careerEvents: [
         { year: 2018, title: "Transferred to NC State", eventType: "OTHER" },
         { year: 2024, title: "Signed with Kawasaki Brave Thunders (Japan)", eventType: "SIGNING" },
@@ -285,6 +303,9 @@ export const kentuckyBasketball2017: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Tai_Wynyard",
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Forward", yearsAtSchool: "2016-2018", statsNote: "Freshman • First New Zealander at Kentucky" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 22, pointsPerGame: 1.4, reboundsPerGame: 0.9, assistsPerGame: 0.2 },
+      ],
       careerEvents: [{ year: 2018, title: "Left Kentucky; suspended", eventType: "OTHER" }],
     },
     {

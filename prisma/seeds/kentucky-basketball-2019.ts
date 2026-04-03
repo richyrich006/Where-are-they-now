@@ -120,6 +120,9 @@ export const kentuckyBasketball2019: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Ashton_Hagans",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "2018-2020", statsNote: "Freshman • Led SEC in steals • Elite defender" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 7.7, reboundsPerGame: 3.4, assistsPerGame: 4.3 },
+      ],
       careerEvents: [
         { year: 2020, title: "Went undrafted; began G League career", eventType: "CAREER" },
       ],
@@ -144,6 +147,9 @@ export const kentuckyBasketball2019: TeamSeed = {
         sourceUrl: "https://www.basketball-reference.com/players/r/richani01.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Center", yearsAtSchool: "2017-2020", statsNote: "Sophomore • Developing shot-blocker" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 4.0, reboundsPerGame: 3.6, assistsPerGame: 0.3 },
+      ],
       careerEvents: [
         { year: 2020, title: "Selected #42 overall by the Charlotte Hornets", eventType: "DRAFT" },
       ],
@@ -165,6 +171,9 @@ export const kentuckyBasketball2019: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Reid_Travis",
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Forward", yearsAtSchool: "2018-2019", statsNote: "Graduate Senior • Transfer from Stanford • Team leader" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 11.2, reboundsPerGame: 7.2, assistsPerGame: 0.6 },
+      ],
       careerEvents: [
         { year: 2019, title: "Went undrafted; began overseas career", eventType: "CAREER" },
       ],
@@ -188,6 +197,9 @@ export const kentuckyBasketball2019: TeamSeed = {
         sourceUrl: "https://www.proballers.com/basketball/player/178401/montgomery-e-j",
       },
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Forward", yearsAtSchool: "2018-2020", statsNote: "Freshman • Five-star recruit" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 3.8, reboundsPerGame: 4.2, assistsPerGame: 0.4 },
+      ],
       careerEvents: [
         { year: 2020, title: "Went undrafted; began G League/overseas career", eventType: "CAREER" },
       ],
@@ -212,6 +224,9 @@ export const kentuckyBasketball2019: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Immanuel_Quickley",
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2018-2020", statsNote: "Freshman • Developed into 2020 SEC POY as sophomore" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 5.2, reboundsPerGame: 1.5, assistsPerGame: 0.9 },
+      ],
       careerEvents: [
         { year: 2020, title: "Selected #25 overall by the New York Knicks", eventType: "DRAFT" },
         { year: 2024, title: "Signed 5-year, $162.5M contract with Toronto Raptors", eventType: "SIGNING" },
@@ -258,6 +273,9 @@ export const kentuckyBasketball2019: TeamSeed = {
         sourceUrl: "https://arkansasrazorbacks.com/coache/brad-calipari/",
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Guard", yearsAtSchool: "2016-2019", statsNote: "Junior walk-on • Coach's son" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Junior walk-on", sortOrder: 201, gamesPlayed: 14, pointsPerGame: 0.4, reboundsPerGame: 0.2, assistsPerGame: 0.2 },
+      ],
       careerEvents: [
         { year: 2024, title: "Joined Arkansas staff under father John Calipari", eventType: "CAREER" },
       ],

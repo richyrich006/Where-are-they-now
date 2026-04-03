@@ -94,6 +94,9 @@ export const kentuckyBasketball2018: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/P._J._Washington",
       },
       membership: { role: "PLAYER", jerseyNumber: 25, position: "Forward", yearsAtSchool: "2017-2019", statsNote: "Freshman • 10.8 PPG, 5.7 RPG • Returned for sophomore year" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 10.8, reboundsPerGame: 5.7, assistsPerGame: 1.0 },
+      ],
       careerEvents: [
         { year: 2019, title: "Selected #12 overall by the Charlotte Hornets", eventType: "DRAFT" },
       ],
@@ -117,6 +120,9 @@ export const kentuckyBasketball2018: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Hamidou_Diallo",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "2016-2018", statsNote: "Redshirt Freshman • 10.0 PPG • 2019 Dunk Contest winner" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Redshirt Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 10.0, reboundsPerGame: 3.6, assistsPerGame: 1.2 },
+      ],
       careerEvents: [
         { year: 2018, title: "Selected #45 overall by the Brooklyn Nets", eventType: "DRAFT" },
         { year: 2019, title: "Won NBA Slam Dunk Contest", eventType: "AWARD" },
@@ -142,6 +148,9 @@ export const kentuckyBasketball2018: TeamSeed = {
         sourceUrl: "https://www.basketball-reference.com/players/r/richani01.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Center", yearsAtSchool: "2017-2020", statsNote: "Freshman • 5.5 PPG, 3.3 RPG" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 2.5, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
+      ],
       careerEvents: [{ year: 2020, title: "Selected #42 overall by Charlotte Hornets", eventType: "DRAFT" }],
     },
     {
@@ -164,6 +173,9 @@ export const kentuckyBasketball2018: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Jarred_Vanderbilt",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Forward", yearsAtSchool: "2017-2018", statsNote: "Freshman • Limited by injury • #41 overall pick" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 14, pointsPerGame: 5.9, reboundsPerGame: 7.1, assistsPerGame: 1.4 },
+      ],
       careerEvents: [
         { year: 2018, title: "Selected #41 overall by Orlando (traded to Denver)", eventType: "DRAFT" },
         { year: 2023, title: "Signed 4-year, $48M extension with Lakers", eventType: "SIGNING" },
@@ -186,6 +198,9 @@ export const kentuckyBasketball2018: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Quade_Green",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Point Guard", yearsAtSchool: "2017-2018", statsNote: "Freshman • 9.3 PPG • Transferred to Washington" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 9.3, reboundsPerGame: 2.0, assistsPerGame: 2.7 },
+      ],
       careerEvents: [{ year: 2018, title: "Transferred to University of Washington", eventType: "OTHER" }],
     },
     {
@@ -208,6 +223,9 @@ export const kentuckyBasketball2018: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Wenyen_Gabriel",
       },
       membership: { role: "PLAYER", jerseyNumber: 32, position: "Forward", yearsAtSchool: "2016-2018", statsNote: "Sophomore • Versatile wing" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 7.4, reboundsPerGame: 5.0, assistsPerGame: 0.5 },
+      ],
       careerEvents: [{ year: 2018, title: "Went undrafted; began pro career", eventType: "CAREER" }],
     },
     {

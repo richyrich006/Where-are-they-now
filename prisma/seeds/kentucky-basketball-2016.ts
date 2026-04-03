@@ -95,6 +95,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Skal_Labissi%C3%A8re",
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Center / Forward", yearsAtSchool: "2015-2016", statsNote: "Freshman • #1 recruit • #28 overall pick" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 12.6, reboundsPerGame: 6.3, assistsPerGame: 0.6 },
+      ],
       careerEvents: [
         { year: 2016, title: "Selected #28 overall by the Sacramento Kings", eventType: "DRAFT" },
       ],
@@ -118,6 +121,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://www.proballers.com/basketball/player/12067/alex-poythress",
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Power Forward", yearsAtSchool: "2012-2016", statsNote: "Senior • Overcame torn ACL • Veteran leader" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 10.2, reboundsPerGame: 5.5, assistsPerGame: 0.8 },
+      ],
       careerEvents: [
         { year: 2016, title: "Went undrafted; began overseas career", eventType: "CAREER" },
       ],
@@ -141,6 +147,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Marcus_Lee",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Forward", yearsAtSchool: "2013-2016", statsNote: "Junior • Athletic rim-runner • Transferred to Cal" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 4.2, reboundsPerGame: 4.7, assistsPerGame: 0.5 },
+      ],
       careerEvents: [
         { year: 2016, title: "Withdrew from NBA Draft; transferred to Cal", eventType: "OTHER" },
       ],
@@ -164,6 +173,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://parisbasketball.com/en/2025/07/derek-willis-arrives-in-paris/",
       },
       membership: { role: "PLAYER", jerseyNumber: 35, position: "Power Forward", yearsAtSchool: "2013-2017", statsNote: "Junior • In-state recruit • Stretch four" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 6.8, reboundsPerGame: 3.4, assistsPerGame: 0.5 },
+      ],
       careerEvents: [
         { year: 2017, title: "Went undrafted; began European career", eventType: "CAREER" },
         { year: 2025, title: "Signed with Paris Basketball (EuroLeague)", eventType: "SIGNING" },
@@ -188,6 +200,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Isaiah_Briscoe",
       },
       membership: { role: "PLAYER", jerseyNumber: 13, position: "Guard", yearsAtSchool: "2015-2017", statsNote: "Freshman • McDonald's All-American" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 9.6, reboundsPerGame: 5.3, assistsPerGame: 3.1 },
+      ],
       careerEvents: [
         { year: 2017, title: "Went undrafted; began professional career", eventType: "CAREER" },
       ],
@@ -210,6 +225,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://www.kentuckytoday.com/sports/dominique-hawkins-inducted-into-the-madison-county-sports-hall-of-fame/article_59f5e238-1648-11ef-b29a-9beeb0cc718f.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 25, position: "Guard", yearsAtSchool: "2013-2017", statsNote: "Junior • Walk-on • 2013 KY Mr. Basketball • Fan favorite" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.5, reboundsPerGame: 1.9, assistsPerGame: 1.8 },
+      ],
       careerEvents: [
         { year: 2017, title: "Graduated from Kentucky; played overseas", eventType: "CAREER" },
       ],
@@ -233,6 +251,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://www.adelaide36ers.com/player/isaac-humphries",
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Center", yearsAtSchool: "2015-2017", statsNote: "Freshman • 7-footer from Australia" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 1.6, reboundsPerGame: 1.2, assistsPerGame: 0.2 },
+      ],
       careerEvents: [
         { year: 2017, title: "NBL Rookie of the Year with Sydney Kings", eventType: "AWARD" },
         { year: 2023, title: "Came out as first openly gay active male pro basketball player in top league", eventType: "OTHER" },
@@ -256,6 +277,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Charles_Matthews_(basketball)",
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Guard", yearsAtSchool: "2015-2016", statsNote: "Freshman • Transferred to Michigan • 2018 NCAA runner-up" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 2.5, reboundsPerGame: 1.4, assistsPerGame: 0.4 },
+      ],
       careerEvents: [
         { year: 2016, title: "Transferred to University of Michigan", eventType: "OTHER" },
         { year: 2018, title: "Started on Michigan's NCAA Championship game team", eventType: "CAREER" },
@@ -280,6 +304,9 @@ export const kentuckyBasketball2016: TeamSeed = {
         sourceUrl: "https://www.cebl.ca/bandits-ink-nba-experienced-guard-mulder",
       },
       membership: { role: "PLAYER", jerseyNumber: 11, position: "Guard", yearsAtSchool: "2013-2017", statsNote: "Junior • Canadian sharpshooter" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 3.3, reboundsPerGame: 1.0, assistsPerGame: 0.5 },
+      ],
       careerEvents: [
         { year: 2020, title: "Signed with Golden State Warriors (NBA)", eventType: "SIGNING" },
       ],
