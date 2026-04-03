@@ -115,7 +115,43 @@ function BasketballStatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showN
   );
 }
 
-function FootballStatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNotesBelow?: string }) {
+function FootballStatsTable({ rows, showNotesBelow, position }: { rows: StatRow[]; showNotesBelow?: string; position?: string }) {
+  // Determine column headers based on position
+  const pos = (position ?? "").toLowerCase();
+  const isOffensiveSkill = pos.includes("quarterback") || pos.includes("running back") || pos.includes("wide receiver") || pos.includes("tight end") || pos.includes("fullback");
+  const isOL = pos.includes("offensive") && (pos.includes("tackle") || pos.includes("guard") || pos.includes("line")) || pos.includes("center");
+  const isDefensive = pos.includes("linebacker") || pos.includes("defensive") || pos.includes("safety") || pos.includes("cornerback");
+  const isSpecialTeams = pos.includes("kicker") || pos.includes("punter") || pos.includes("placekicker");
+
+  // Use numeric fields with position-appropriate headers
+  const hasPpg = hasAny(rows, "pointsPerGame");
+  const hasRpg = hasAny(rows, "reboundsPerGame");
+  const hasApg = hasAny(rows, "assistsPerGame");
+  const hasResult = hasAny(rows, "tournamentResult");
+
+  // Column labels based on position group
+  let col1Label = "STAT1";
+  let col2Label = "STAT2";
+  let col3Label = "STAT3";
+
+  if (pos.includes("quarterback")) {
+    col1Label = "YDS"; col2Label = "TD"; col3Label = "INT";
+  } else if (pos.includes("running back") || pos.includes("fullback")) {
+    col1Label = "YDS"; col2Label = "TD"; col3Label = "REC";
+  } else if (pos.includes("wide receiver") || pos.includes("tight end")) {
+    col1Label = "REC"; col2Label = "YDS"; col3Label = "TD";
+  } else if (isOL) {
+    col1Label = "STARTS"; col2Label = "—"; col3Label = "—";
+  } else if (pos.includes("linebacker") || pos.includes("defensive end") || pos.includes("defensive tackle")) {
+    col1Label = "TKL"; col2Label = "SACKS"; col3Label = "FF";
+  } else if (pos.includes("cornerback") || pos.includes("safety")) {
+    col1Label = "TKL"; col2Label = "INT"; col3Label = "PD";
+  } else if (pos.includes("kicker") || pos.includes("placekicker")) {
+    col1Label = "FGM"; col2Label = "PAT"; col3Label = "PTS";
+  } else if (pos.includes("punter")) {
+    col1Label = "PUNTS"; col2Label = "AVG"; col3Label = "IN20";
+  }
+
   return (
     <div className="overflow-x-auto">
       <table className="w-full text-sm">
@@ -124,7 +160,10 @@ function FootballStatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNot
             <th className="py-2 pr-3">Year</th>
             <th className="py-2 pr-3">Team</th>
             <th className="py-2 pr-3 text-center">G</th>
-            <th className="py-2 pr-3">Stats</th>
+            {hasPpg && <th className="py-2 pr-3 text-center">{col1Label}</th>}
+            {hasRpg && <th className="py-2 pr-3 text-center">{col2Label}</th>}
+            {hasApg && <th className="py-2 pr-3 text-center">{col3Label}</th>}
+            {hasResult && <th className="py-2 pr-3">Details</th>}
           </tr>
         </thead>
         <tbody>
@@ -133,7 +172,10 @@ function FootballStatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNot
               <td className="py-2 pr-3 font-medium text-gray-900 whitespace-nowrap">{row.yearLabel}</td>
               <td className="py-2 pr-3 text-gray-600 whitespace-nowrap">{row.teamName}</td>
               <td className="py-2 pr-3 text-center text-gray-700">{row.gamesPlayed ?? "—"}</td>
-              <td className="py-2 pr-3 text-gray-700">{row.tournamentResult ?? "—"}</td>
+              {hasPpg && <td className="py-2 pr-3 text-center text-gray-700">{row.pointsPerGame != null ? Math.round(row.pointsPerGame).toLocaleString() : "—"}</td>}
+              {hasRpg && <td className="py-2 pr-3 text-center text-gray-700">{row.reboundsPerGame != null ? (Number.isInteger(row.reboundsPerGame) ? row.reboundsPerGame : row.reboundsPerGame.toFixed(1)) : "—"}</td>}
+              {hasApg && <td className="py-2 pr-3 text-center text-gray-700">{row.assistsPerGame != null ? Math.round(row.assistsPerGame) : "—"}</td>}
+              {hasResult && <td className="py-2 pr-3 text-gray-600 text-sm">{row.tournamentResult ?? ""}</td>}
             </tr>
           ))}
         </tbody>
@@ -187,7 +229,10 @@ export default async function PlayerPage({ params }: Props) {
   const proStats = person.seasonStats.filter((s) => s.level === "PROFESSIONAL");
   const coachingStats = person.seasonStats.filter((s) => s.level === "COACHING");
 
-  const StatsTable = isFootball ? FootballStatsTable : BasketballStatsTable;
+  const playerPosition = membership?.position ?? "";
+  const StatsTable = isFootball
+    ? (props: { rows: StatRow[]; showNotesBelow?: string }) => <FootballStatsTable {...props} position={playerPosition} />
+    : BasketballStatsTable;
 
   // Fallback: show aggregate boxes if no college seasonStats rows exist
   const showCollegeAggregate =
