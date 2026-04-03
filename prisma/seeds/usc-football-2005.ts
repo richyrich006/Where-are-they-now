@@ -37,6 +37,14 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2001-2005",
         statsNote: "2004 Heisman Trophy • 3,815 yds, 28 TD, 8 INT in 2005 • 37-2 career record as starter", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "Sophomore (National Champion)", sortOrder: 102, gamesPlayed: 13, tournamentResult: "255/383 passing, 3,556 yds, 38 TD, 9 INT" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "Junior (Heisman)", sortOrder: 103, gamesPlayed: 13, tournamentResult: "289/412 passing, 3,322 yds, 33 TD, 6 INT" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Senior", sortOrder: 104, gamesPlayed: 12, tournamentResult: "236/360 passing, 3,815 yds, 28 TD, 8 INT" },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2006", yearLabel: "2006 (Rookie)", sortOrder: 301, gamesPlayed: 11, tournamentResult: "214/377 passing, 2,547 yds, 11 TD, 12 INT" },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2007", yearLabel: "2007", sortOrder: 302, gamesPlayed: 5, tournamentResult: "40/67 passing, 396 yds, 2 TD, 4 INT" },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2009", yearLabel: "2009", sortOrder: 304, gamesPlayed: 6, tournamentResult: "43/72 passing, 500 yds, 2 TD, 3 INT" },
+      ],
       careerEvents: [
         { year: 2004, title: "Won Heisman Trophy", eventType: "AWARD" },
         { year: 2005, title: "BCS National Championship Game vs Texas (lost 41-38)", eventType: "CHAMPIONSHIP" },
@@ -69,6 +77,16 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2003-2005",
         statsNote: "2005 Heisman Trophy • 1,740 rush yds, 16 TD • 478 rec yds in 2005", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "Freshman", sortOrder: 101, gamesPlayed: 13, tournamentResult: "521 rush yds, 8 TD, 15 rec" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 13, tournamentResult: "908 rush yds, 9 TD, 37 rec" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Junior (Heisman)", sortOrder: 103, gamesPlayed: 12, tournamentResult: "1,740 rush yds, 16 TD, 37 rec, 478 rec yds" },
+        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2006", yearLabel: "2006 (Rookie)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "565 rush yds, 6 TD, 88 rec" },
+        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2009", yearLabel: "2009 (Super Bowl Champion)", sortOrder: 304, gamesPlayed: 14, tournamentResult: "390 rush yds, 5 TD, 47 rec" },
+        { level: "PROFESSIONAL", teamName: "Miami Dolphins", season: "2011", yearLabel: "2011", sortOrder: 306, gamesPlayed: 15, tournamentResult: "1,086 rush yds, 6 TD, 43 rec" },
+        { level: "PROFESSIONAL", teamName: "Miami Dolphins", season: "2012", yearLabel: "2012", sortOrder: 307, gamesPlayed: 16, tournamentResult: "986 rush yds, 6 TD, 35 rec" },
+        { level: "PROFESSIONAL", teamName: "Detroit Lions", season: "2013", yearLabel: "2013", sortOrder: 308, gamesPlayed: 14, tournamentResult: "506 rush yds, 3 TD, 54 rec" },
+      ],
       careerEvents: [
         { year: 2005, title: "Won Heisman Trophy (later vacated, restored 2024)", eventType: "AWARD" },
         { year: 2006, title: "Selected #2 overall by the New Orleans Saints", eventType: "DRAFT" },
@@ -102,6 +120,14 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2003-2005",
         statsNote: "1,302 rush yds, 24 TD in 2005 • 2,624 career rush yds at USC", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "Freshman", sortOrder: 101, gamesPlayed: 13, tournamentResult: "412 rush yds, 6 TD" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 13, tournamentResult: "1,136 rush yds, 15 TD" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Junior", sortOrder: 103, gamesPlayed: 12, tournamentResult: "1,302 rush yds, 24 TD" },
+        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2006", yearLabel: "2006", sortOrder: 301, gamesPlayed: 14, tournamentResult: "244 rush yds, 2 TD" },
+        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2007", yearLabel: "2007", sortOrder: 302, gamesPlayed: 16, tournamentResult: "1,110 rush yds, 7 TD" },
+        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2008", yearLabel: "2008 (Smash & Dash)", sortOrder: 303, gamesPlayed: 16, tournamentResult: "773 rush yds, 15 TD" },
+      ],
       careerEvents: [
         { year: 2006, title: "Selected #45 overall by the Tennessee Titans", eventType: "DRAFT" },
         { year: 2008, title: "Rushed for 15 TDs as part of 'Smash & Dash' with Chris Johnson", eventType: "CAREER" },
@@ -131,6 +157,11 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2004-2006",
         statsNote: "Two-time All-American • 91 rec, 1,274 yds, 16 TD in 2005", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "Freshman", sortOrder: 101, gamesPlayed: 13, tournamentResult: "56 rec, 1,029 yds, 9 TD" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 12, tournamentResult: "91 rec, 1,274 yds, 16 TD" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "Junior", sortOrder: 103, gamesPlayed: 13, tournamentResult: "64 rec, 1,060 yds, 11 TD" },
+      ],
       careerEvents: [
         { year: 2007, title: "Selected #45 overall by the Carolina Panthers", eventType: "DRAFT" },
         { year: 2010, title: "Released by Panthers after second DUI arrest", eventType: "OTHER" },
@@ -639,6 +670,14 @@ export const uscFootball2005: TeamSeed = {
         yearsAtSchool: "2004-2008",
         statsNote: "Walk-on turned star • 3x USC Special Teams Player of the Year", gamesPlayed: 13,
       },
+            seasonStats: [
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2009", yearLabel: "2009 (DROY finalist)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "51 tackles, 10.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2010", yearLabel: "2010 (Super Bowl Champion)", sortOrder: 302, gamesPlayed: 15, tournamentResult: "54 tackles, 13.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2012", yearLabel: "2012", sortOrder: 304, gamesPlayed: 16, tournamentResult: "50 tackles, 13.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2014", yearLabel: "2014 (Pro Bowl)", sortOrder: 306, gamesPlayed: 15, tournamentResult: "68 tackles, 11.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2017", yearLabel: "2017", sortOrder: 309, gamesPlayed: 14, tournamentResult: "52 tackles, 8.5 sacks" },
+        { level: "PROFESSIONAL", teamName: "Los Angeles Rams", season: "2019", yearLabel: "2019", sortOrder: 311, gamesPlayed: 16, tournamentResult: "37 tackles, 8.0 sacks" },
+      ],
       careerEvents: [
         { year: 2009, title: "Selected #26 overall by the Green Bay Packers", eventType: "DRAFT" },
         { year: 2011, title: "Won Super Bowl XLV with the Packers", eventType: "CHAMPIONSHIP" },
