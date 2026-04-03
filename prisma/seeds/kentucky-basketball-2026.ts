@@ -68,7 +68,7 @@ export const kentuckyBasketball2026: TeamSeed = {
         currentEmployer: "University of Kentucky",
         league: "SEC",
         location: "Lexington, KY",
-        statusNote: "Transfer from Arizona State. Five-star talent with elite athleticism and projected as a potential first-round NBA pick.",
+        statusNote: "Recovering from a torn ACL suffered during his freshman year. Returned for 4 games in December (10 pts, 8 reb, 2 blk in debut) before swelling returned. Projected top-5 to top-10 pick in the 2026 NBA Draft despite the injury.",
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/",
       },
       membership: { role: "PLAYER", jerseyNumber: 21, position: "Forward", yearsAtSchool: "2025-present", statsNote: "Transfer from Arizona State • Five-star talent" },

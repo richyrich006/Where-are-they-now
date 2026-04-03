@@ -76,7 +76,7 @@ export const kentuckyBasketball2022: TeamSeed = {
         currentEmployer: "Portland Trail Blazers",
         league: "NBA",
         location: "Portland, OR",
-        statusNote: "Never played a game at Kentucky but was drafted #7 overall by the Portland Trail Blazers in 2022. Having a breakout 2025-26 season averaging a career-high 21.5 PPG. Signed a 4-year, $90M extension in October 2025.",
+        statusNote: "Never played a game at Kentucky but was drafted #7 overall by the Portland Trail Blazers in 2022. Had a breakout 2025-26 season averaging 21.4 PPG before being sidelined in February 2026 with a stress reaction in his left fibula. Signed a 4-year, $90M extension in October 2025 — considered a bargain by many.",
         sourceUrl: "https://en.wikipedia.org/wiki/Shaedon_Sharpe",
       },
       membership: { role: "PLAYER", jerseyNumber: 21, position: "Guard", yearsAtSchool: "2021-2022", statsNote: "Freshman • Did NOT play • #7 overall pick without playing a game" },
