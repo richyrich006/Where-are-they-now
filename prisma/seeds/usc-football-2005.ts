@@ -825,11 +825,14 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "The backup quarterback behind Matt Leinart in 2005 who became USC's starter in 2007. Booty threw a key touchdown to Dwayne Jarrett in the 2005 season.",
       status: {
-        occupationType: "OTHER",
-        currentTitle: "Private Citizen",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Executive Vice President",
+        currentEmployer: "Ventus Group",
+        location: "Southern California",
+        linkedInUrl: "https://www.linkedin.com/in/john-david-booty-54046977/",
         statusNote:
-          "After starting for USC in 2007, Booty was selected in the fifth round by the Minnesota Vikings in 2008. His NFL career was brief, spending time with the Vikings and Jacksonville Jaguars. He has maintained a private life since leaving football and is believed to reside in the Shreveport, Louisiana area.",
-        sourceUrl: "https://en.wikipedia.org/wiki/John_David_Booty",
+          "After a 20-3 career record as USC's starting QB (6,125 passing yards, 55 TDs — both top-5 in school history), Booty was drafted in the 5th round by the Minnesota Vikings in 2008. His NFL career was brief. He pivoted to real estate development and is now Executive Vice President at Ventus Group, a Southern California-based developer specializing in multifamily housing. He writes for Multifamily Executive magazine and is a motivational speaker on leadership and resilience.",
+        sourceUrl: "https://www.linkedin.com/in/john-david-booty-54046977/",
       },
       membership: {
         role: "PLAYER",
