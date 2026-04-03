@@ -5,6 +5,13 @@ import { dukeBasketball2015 } from "./seeds/duke-basketball-2015";
 import { uscFootball2005 } from "./seeds/usc-football-2005";
 import { montverdeAcademy2020 } from "./seeds/montverde-academy-2020";
 import { alabamaFootball2015 } from "./seeds/alabama-football-2015";
+import { kentuckyBasketball2016 } from "./seeds/kentucky-basketball-2016";
+import { kentuckyBasketball2017 } from "./seeds/kentucky-basketball-2017";
+import { kentuckyBasketball2018 } from "./seeds/kentucky-basketball-2018";
+import { kentuckyBasketball2019 } from "./seeds/kentucky-basketball-2019";
+import { kentuckyBasketball2020 } from "./seeds/kentucky-basketball-2020";
+import { kentuckyBasketball2021 } from "./seeds/kentucky-basketball-2021";
+import { kentuckyBasketball2025 } from "./seeds/kentucky-basketball-2025";
 import { dukeBasketball2001 } from "./seeds/duke-basketball-2001";
 import { dukeBasketball2002 } from "./seeds/duke-basketball-2002";
 import { dukeBasketball2003 } from "./seeds/duke-basketball-2003";
@@ -21,6 +28,13 @@ const allTeams: TeamSeed[] = [
   dukeBasketball2003,
   dukeBasketball2002,
   dukeBasketball2001,
+  kentuckyBasketball2025,
+  kentuckyBasketball2021,
+  kentuckyBasketball2020,
+  kentuckyBasketball2019,
+  kentuckyBasketball2018,
+  kentuckyBasketball2017,
+  kentuckyBasketball2016,
   uscFootball2005,
   montverdeAcademy2020,
   alabamaFootball2015,
