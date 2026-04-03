@@ -116,41 +116,66 @@ function BasketballStatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showN
 }
 
 function FootballStatsTable({ rows, showNotesBelow, position }: { rows: StatRow[]; showNotesBelow?: string; position?: string }) {
-  // Determine column headers based on position
   const pos = (position ?? "").toLowerCase();
-  const isOffensiveSkill = pos.includes("quarterback") || pos.includes("running back") || pos.includes("wide receiver") || pos.includes("tight end") || pos.includes("fullback");
-  const isOL = pos.includes("offensive") && (pos.includes("tackle") || pos.includes("guard") || pos.includes("line")) || pos.includes("center");
-  const isDefensive = pos.includes("linebacker") || pos.includes("defensive") || pos.includes("safety") || pos.includes("cornerback");
-  const isSpecialTeams = pos.includes("kicker") || pos.includes("punter") || pos.includes("placekicker");
 
-  // Use numeric fields with position-appropriate headers
-  const hasPpg = hasAny(rows, "pointsPerGame");
-  const hasRpg = hasAny(rows, "reboundsPerGame");
-  const hasApg = hasAny(rows, "assistsPerGame");
-  const hasResult = hasAny(rows, "tournamentResult");
+  // Determine which numeric stat columns to show based on position
+  const isQB = pos.includes("quarterback");
+  const isRB = pos.includes("running back") || pos.includes("fullback");
+  const isWR = pos.includes("wide receiver") || pos.includes("tight end");
+  const isDL = pos.includes("defensive end") || pos.includes("defensive tackle");
+  const isLB = pos.includes("linebacker");
+  const isDB = pos.includes("cornerback") || pos.includes("safety");
+  const isOL = (pos.includes("offensive") && (pos.includes("tackle") || pos.includes("guard") || pos.includes("line"))) || pos === "center";
+  const isKP = pos.includes("kicker") || pos.includes("punter") || pos.includes("placekicker");
 
-  // Column labels based on position group
-  let col1Label = "STAT1";
-  let col2Label = "STAT2";
-  let col3Label = "STAT3";
+  const hasNums = hasAny(rows, "pointsPerGame");
 
-  if (pos.includes("quarterback")) {
-    col1Label = "YDS"; col2Label = "TD"; col3Label = "INT";
-  } else if (pos.includes("running back") || pos.includes("fullback")) {
-    col1Label = "YDS"; col2Label = "TD"; col3Label = "REC";
-  } else if (pos.includes("wide receiver") || pos.includes("tight end")) {
-    col1Label = "REC"; col2Label = "YDS"; col3Label = "TD";
-  } else if (isOL) {
-    col1Label = "STARTS"; col2Label = "—"; col3Label = "—";
-  } else if (pos.includes("linebacker") || pos.includes("defensive end") || pos.includes("defensive tackle")) {
-    col1Label = "TKL"; col2Label = "SACKS"; col3Label = "FF";
-  } else if (pos.includes("cornerback") || pos.includes("safety")) {
-    col1Label = "TKL"; col2Label = "INT"; col3Label = "PD";
-  } else if (pos.includes("kicker") || pos.includes("placekicker")) {
-    col1Label = "FGM"; col2Label = "PAT"; col3Label = "PTS";
-  } else if (pos.includes("punter")) {
-    col1Label = "PUNTS"; col2Label = "AVG"; col3Label = "IN20";
+  // Position-specific column config: [label, field, formatter]
+  type ColConfig = { label: string; field: "pointsPerGame" | "reboundsPerGame" | "assistsPerGame"; fmt: (v: number) => string };
+  let cols: ColConfig[] = [];
+
+  if (isQB && hasNums) {
+    cols = [
+      { label: "YDS", field: "pointsPerGame", fmt: (v) => v.toLocaleString() },
+      { label: "TD", field: "reboundsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "INT", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if (isRB && hasNums) {
+    cols = [
+      { label: "RUSH YDS", field: "pointsPerGame", fmt: (v) => v.toLocaleString() },
+      { label: "TD", field: "reboundsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "REC", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if (isWR && hasNums) {
+    cols = [
+      { label: "REC", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "REC YDS", field: "reboundsPerGame", fmt: (v) => v.toLocaleString() },
+      { label: "TD", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if ((isDL || isLB) && hasNums) {
+    cols = [
+      { label: "TKL", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "SACKS", field: "reboundsPerGame", fmt: (v) => v % 1 === 0 ? String(v) : v.toFixed(1) },
+      { label: "FF", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if (isDB && hasNums) {
+    cols = [
+      { label: "TKL", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "INT", field: "reboundsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "PD", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if (isKP && hasNums) {
+    cols = [
+      { label: "PUNTS/FG", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "AVG/PAT", field: "reboundsPerGame", fmt: (v) => v.toFixed(1) },
+    ];
   }
+  // OL and unknown positions: no stat columns, just show details
+
+  // Filter cols to only those that have data
+  cols = cols.filter((c) => rows.some((r) => r[c.field] != null));
+
+  const hasResult = hasAny(rows, "tournamentResult");
 
   return (
     <div className="overflow-x-auto">
@@ -160,10 +185,10 @@ function FootballStatsTable({ rows, showNotesBelow, position }: { rows: StatRow[
             <th className="py-2 pr-3">Year</th>
             <th className="py-2 pr-3">Team</th>
             <th className="py-2 pr-3 text-center">G</th>
-            {hasPpg && <th className="py-2 pr-3 text-center">{col1Label}</th>}
-            {hasRpg && <th className="py-2 pr-3 text-center">{col2Label}</th>}
-            {hasApg && <th className="py-2 pr-3 text-center">{col3Label}</th>}
-            {hasResult && <th className="py-2 pr-3">Details</th>}
+            {cols.map((c) => (
+              <th key={c.label} className="py-2 pr-3 text-center">{c.label}</th>
+            ))}
+            {hasResult && <th className="py-2 pr-3 text-left">Notes</th>}
           </tr>
         </thead>
         <tbody>
@@ -172,10 +197,17 @@ function FootballStatsTable({ rows, showNotesBelow, position }: { rows: StatRow[
               <td className="py-2 pr-3 font-medium text-gray-900 whitespace-nowrap">{row.yearLabel}</td>
               <td className="py-2 pr-3 text-gray-600 whitespace-nowrap">{row.teamName}</td>
               <td className="py-2 pr-3 text-center text-gray-700">{row.gamesPlayed ?? "—"}</td>
-              {hasPpg && <td className="py-2 pr-3 text-center text-gray-700">{row.pointsPerGame != null ? Math.round(row.pointsPerGame).toLocaleString() : "—"}</td>}
-              {hasRpg && <td className="py-2 pr-3 text-center text-gray-700">{row.reboundsPerGame != null ? (Number.isInteger(row.reboundsPerGame) ? row.reboundsPerGame : row.reboundsPerGame.toFixed(1)) : "—"}</td>}
-              {hasApg && <td className="py-2 pr-3 text-center text-gray-700">{row.assistsPerGame != null ? Math.round(row.assistsPerGame) : "—"}</td>}
-              {hasResult && <td className="py-2 pr-3 text-gray-600 text-sm">{row.tournamentResult ?? ""}</td>}
+              {cols.map((c) => {
+                const val = row[c.field];
+                return (
+                  <td key={c.label} className="py-2 pr-3 text-center text-gray-700">
+                    {val != null ? c.fmt(val as number) : "—"}
+                  </td>
+                );
+              })}
+              {hasResult && (
+                <td className="py-2 pr-3 text-gray-600 text-sm max-w-xs">{row.tournamentResult ?? ""}</td>
+              )}
             </tr>
           ))}
         </tbody>
