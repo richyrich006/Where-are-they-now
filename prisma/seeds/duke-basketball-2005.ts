@@ -119,12 +119,14 @@ export const dukeBasketball2005: TeamSeed = {
       isFeatured: false,
       bio: "A versatile guard/forward who was a four-year contributor at Duke, earning ACC All-Defensive Team honors and becoming a fan favorite for his hustle.",
       status: {
-        occupationType: "COACH",
-        currentTitle: "Basketball Coach",
-        location: "California",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Business Owner",
+        currentEmployer: "Ice Ventures Unlimited LLC",
+        location: "Las Vegas, NV",
+        linkedInUrl: "https://www.linkedin.com/in/demarcus-nelson/",
         statusNote:
-          "After graduating from Duke in 2008, Nelson went undrafted and played briefly in the NBA Summer League with the Warriors and overseas. He transitioned to coaching and player development, working with youth basketball programs in the Bay Area. He remains connected to Duke basketball.",
-        sourceUrl: "https://goduke.com/sports/mens-basketball/roster/demarcus-nelson/4244",
+          "First undrafted rookie to start on NBA opening night (Golden State Warriors, 2008). Spent 12 years playing professionally in Europe, primarily in France — winning the LNB Pro A championship and French Cup with ASVEL Lyon-Villeurbanne in 2019 as Finals MVP. Retired in 2020 after parting ways with Limoges. Inducted into Vallejo Sports Hall of Fame (2024) and had his #21 retired by Vallejo High — the first in 150 years. Now based in Las Vegas running Ice Ventures Unlimited LLC.",
+        sourceUrl: "https://en.wikipedia.org/wiki/DeMarcus_Nelson",
       },
       membership: {
         role: "PLAYER",
@@ -180,12 +182,13 @@ export const dukeBasketball2005: TeamSeed = {
       bio: "A sharpshooting guard and four-year contributor.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "Sports Agent",
-        currentEmployer: "Wasserman Media Group",
-        location: "Los Angeles, CA",
+        currentTitle: "Settlement Planner / Attorney",
+        currentEmployer: "Sage Settlement Consulting / Justice Partners",
+        location: "Atlanta, GA",
+        linkedInUrl: "https://www.linkedin.com/in/lee-m-melchionni-7b5820b4/",
         statusNote:
-          "After Duke, Melchionni played one season in Italy then became an NBA player agent at Wasserman Media Group.",
-        sourceUrl: "https://lancasteronline.com/sports/nba/basketball-still-melchionni-s-business/article_f4a85d66-0400-11e4-a2ab-001a4bcf6878.html",
+          "Played one season in Italy, spent 7 years as an NBA agent at Wasserman (while earning his J.D. from Loyola Law School at night), then pivoted to settlement law.",
+        sourceUrl: "https://www.sagesettlements.com/our-team/lee-melchionni/",
       },
       membership: {
         role: "PLAYER",
@@ -258,12 +261,12 @@ export const dukeBasketball2005: TeamSeed = {
       bio: "A walk-on who earned a scholarship and played five seasons at Duke (2004-09), known for his hustle and toughness.",
       status: {
         occupationType: "COACH",
-        currentTitle: "Player Development Coach",
-        currentEmployer: "San Antonio Spurs",
+        currentTitle: "Assistant Coach",
+        currentEmployer: "Memphis Grizzlies",
         league: "NBA",
-        location: "San Antonio, TX",
+        location: "Memphis, TN",
         statusNote:
-          "After Duke, McClure played in the D-League and Lithuania before knee injuries (six surgeries) ended his playing career. He joined the San Antonio Spurs in a player development coaching role and is a member of the NBA Coaches Association.",
+          "After Duke, McClure played in the D-League and Lithuania before six knee surgeries ended his playing career. Got into coaching through Chip Engelland (Duke alum on the Spurs staff). Career path: Spurs player development (2014-16), Indiana Pacers assistant (2016-19), Memphis Grizzlies assistant (2019-present). Known for making the buzzer-beating game-winner vs #17 Clemson in 2007. Board member of the NBA Coaches Association.",
         sourceUrl: "https://nbacoaches.com/david-mcclure/",
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Small Forward", yearsAtSchool: "2004-2009", statsNote: "Freshman walk-on • Earned scholarship" },

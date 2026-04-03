@@ -26,7 +26,7 @@ export const dukeBasketball2004: TeamSeed = {
         currentTitle: "President, South Sudan Basketball Federation",
         location: "London, England",
         statusNote:
-          "Selected #7 overall by the Chicago Bulls in 2004, Deng was a two-time All-Star over a 15-year NBA career with the Bulls, Cavaliers, Heat, Lakers, and Timberwolves, earning over $150 million. After retiring in 2019, he became president of the South Sudan Basketball Federation, personally funding the program. He led South Sudan to the 2024 Olympics — their first ever — establishing them as the top team in African basketball. He is also an investor in NBA Africa.",
+          "Selected #7 overall by the Chicago Bulls in 2004, Deng was a two-time All-Star earning ~$151M over a 15-year NBA career. After retiring in 2019, he became president of the South Sudan Basketball Federation, personally funding the entire program out of his own pocket — including the historic run to the 2024 Paris Olympics where South Sudan beat Puerto Rico for their first Olympic win. Re-elected president in 2024, he also serves as assistant coach. Has an extensive real estate portfolio valued at ~$200M. Born in war-torn Sudan, he fled civil war as a child and grew up in London.",
         sourceUrl: "https://en.wikipedia.org/wiki/Luol_Deng",
       },
       membership: {
@@ -328,11 +328,13 @@ export const dukeBasketball2004: TeamSeed = {
       bio: "A walk-on guard and team's lone senior in 2003-04 who won the Dr. Deryl Hart Award as Duke basketball's top scholar-athlete. Son of Boston Celtics co-owner Stephen Pagliuca.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "Co-Founder & President",
+        currentTitle: "Co-Founder and President",
+        currentEmployer: "Parquet Capital",
         location: "Boston, MA",
+        linkedInUrl: "https://www.linkedin.com/in/joseph-pagliuca-81352436/",
         statusNote:
-          "After graduating from Duke with an economics degree, Pagliuca pursued a career in biotech and venture capital. He co-founded a company focused on cell and genetic therapy. His father Stephen Pagliuca is co-chairman of Bain Capital and co-owner of the Boston Celtics.",
-        sourceUrl: "https://goduke.com/sports/mens-basketball/roster/joe-pagliuca/4286",
+          "BSc in Economics from Duke (cum laude, 3.8 GPA), MBA from Harvard Business School (2012). Co-founded Parquet Capital in 2017, an alternative investment management firm. Son of Stephen Pagliuca (Boston Celtics co-owner, Bain Capital co-chairman). His wife Felicia co-founded Semma Therapeutics (diabetes cell therapy, acquired by Vertex).",
+        sourceUrl: "https://www.linkedin.com/in/joseph-pagliuca-81352436/",
       },
       membership: { role: "PLAYER", jerseyNumber: 43, position: "Guard", yearsAtSchool: "2000-2004", statsNote: "Senior walk-on • Hart Award winner • Son of Celtics co-owner" },
       careerEvents: [{ year: 2004, title: "Won Dr. Deryl Hart Award as top scholar-athlete", eventType: "AWARD" }],

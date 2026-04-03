@@ -693,8 +693,8 @@ export const dukeBasketball2015: TeamSeed = {
       bio: "A walk-on guard who was part of the 2015 championship roster. After Duke, Besser channeled the walk-on spirit into life — founding 'Walk On! America,' a charity supporting people with intellectual and developmental disabilities (IDD), inspired by his sister Jacqueline. He completed a 3,400-mile cross-country bike ride in 69 days raising over $343,000 for the IDD community.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "CEO",
-        currentEmployer: "Ecostar Collaborative",
+        currentTitle: "Director of Strategic Partnerships and Innovation",
+        currentEmployer: "Intersport / ECO STAR LLC",
         location: "Chicago, IL",
         statusNote:
           "Founded 'Walk On! America,' a charity for the IDD community inspired by his sister Jacqueline, who has autism — completing a 3,400-mile cross-country bike ride raising over $343,000. Previously worked at Intersport on NFL and sports marketing. Now serves as CEO of Ecostar Collaborative.",
@@ -843,9 +843,9 @@ export const dukeBasketball2015: TeamSeed = {
       bio: "A walk-on guard and computer science major who turned down smaller D1 programs to walk on at Duke. His father Steve Pagliuca is a co-owner of the Boston Celtics and a 1977 Duke grad. Nick won the Deryl Hart Award (team's top scholar-athlete), was a National Merit Scholar, and interned at Apple — then went on to Harvard Business School and Palantir Technologies.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "Software / Data Professional",
-        currentEmployer: "Palantir Technologies",
-        location: "New York, NY",
+        currentTitle: "Attorney",
+        currentEmployer: "Gill & Chamas LLC",
+        location: "Woodbridge, NJ",
         statusNote:
           "After winning a national championship ring and earning the Deryl Hart Award (Duke's top scholar-athlete honor) as a computer science major, Pagliuca attended Harvard Business School. He joined Palantir Technologies in New York, working in data analytics and AI. His father Steve Pagliuca is co-founder of Bain Capital and a Boston Celtics co-owner; his brother Joe was also a Duke walk-on. Nick's path from Milton Academy to Duke computer science to HBS to Palantir reflects exactly the kind of excellence off the court that Coach K prized.",
         sourceUrl: "https://www.bostonglobe.com/metro/regionals/west/2015/04/16/campus-angle-nick-pagliuca-weston-duke-university-basketball/gC95R2oHaumOwKDWsNYjuJ/story.html",

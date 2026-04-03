@@ -244,12 +244,13 @@ export const dukeBasketball2003: TeamSeed = {
       bio: "A sharpshooting guard who was a four-year contributor and became a reliable perimeter threat for the Blue Devils.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "Sports Agent",
-        currentEmployer: "Wasserman Media Group",
-        location: "Los Angeles, CA",
+        currentTitle: "Settlement Planner / Attorney / Co-Founder",
+        currentEmployer: "Sage Settlement Consulting / Justice Partners",
+        location: "Atlanta, GA",
+        linkedInUrl: "https://www.linkedin.com/in/lee-m-melchionni-7b5820b4/",
         statusNote:
-          "After graduating from Duke in 2006, Melchionni played one professional season in Italy with Cimberio Novara. He then transitioned to sports representation, becoming an NBA player agent at Wasserman Media Group, representing clients such as Danilo Gallinari. He also attended Loyola Law School. His father Bill Melchionni was an ABA star with the New York Nets.",
-        sourceUrl: "https://lancasteronline.com/sports/nba/basketball-still-melchionni-s-business/article_f4a85d66-0400-11e4-a2ab-001a4bcf6878.html",
+          "After Duke, played one season in Italy, then became an NBA agent at Wasserman Media Group for 7 years (representing Danilo Gallinari, Marcus Smart) while attending Loyola Law School at night. Earned his J.D. and pivoted to law — now a Settlement Planner at Sage Settlement Consulting (since 2017), Founder/COO of Justice Partners (since 2021), and Senior Counsel at Milberg Coleman (since 2023). His father Bill Melchionni was an ABA star.",
+        sourceUrl: "https://www.sagesettlements.com/our-team/lee-melchionni/",
       },
       membership: {
         role: "PLAYER",

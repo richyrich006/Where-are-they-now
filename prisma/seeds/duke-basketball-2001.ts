@@ -246,9 +246,10 @@ export const dukeBasketball2001: TeamSeed = {
         occupationType: "ENTREPRENEUR_BUSINESS",
         currentTitle: "Financial Planner",
         location: "Tampa, FL",
+        linkedInUrl: "https://www.linkedin.com/in/caseysanders-2020/",
         statusNote:
-          "Sanders went undrafted in 2003 and played professionally overseas for about 6.5 years in Sweden, Venezuela, Poland, Hungary, Latvia, and the NBA D-League. After retiring, he worked in medical device sales and pharmaceutical marketing before transitioning to financial planning. He gives back to his alma mater Tampa Prep by speaking to students about financial literacy.",
-        sourceUrl: "https://blog.tampaprep.org/allschoolnews/alumni-spotlight-casey-sanders",
+          "Starting center on the 2001 championship team who went undrafted and played overseas for 6.5 years in Sweden, Venezuela, Poland, Hungary, Latvia, and the NBA D-League. After retiring, worked in medical device sales and pharmaceutical marketing (including GlaxoSmithKline) before transitioning to financial planning. Now self-employed as a financial representative in Tampa, actively mentoring students at his alma mater Tampa Prep on financial literacy.",
+        sourceUrl: "https://tampaprep.org/alumni-spotlight-casey-sanders/",
       },
       membership: {
         role: "PLAYER",
@@ -308,11 +309,12 @@ export const dukeBasketball2001: TeamSeed = {
       bio: "A two-sport athlete at Duke (basketball and football) who was part of the 2001 championship team. Love went on to serve as personal aide to President Barack Obama.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "Partner and Vice President",
-        currentEmployer: "Transatlantic Holdings",
-        location: "Washington, D.C.",
+        currentTitle: "Senior Advisor",
+        currentEmployer: "Apollo Global Management",
+        location: "New York, NY",
+        linkedInUrl: "https://www.linkedin.com/in/reginald-love-4085a35b/",
         statusNote:
-          "After graduating from Duke in 2005, Love became the personal aide ('body man') to President Barack Obama from 2009 to 2011. He earned his MBA from Wharton in 2013 and published the NYT bestseller 'Power Forward: My Presidential Education.' He is now a partner and VP at Transatlantic Holdings and serves on numerous boards including Cox Media Group.",
+          "After graduating from Duke in 2005, Love became the personal aide ('body man') to President Barack Obama from 2007 to 2011. He earned his MBA from Wharton in 2013 and published the NYT bestseller 'Power Forward: My Presidential Education.' Previously a Partner at RON Transatlantic EG (2012-2019) focused on financial services and energy investments, he is now Senior Advisor at Apollo Global Management.",
         sourceUrl: "https://en.wikipedia.org/wiki/Reggie_Love",
       },
       membership: {
@@ -343,9 +345,10 @@ export const dukeBasketball2001: TeamSeed = {
         currentTitle: "CEO and Portfolio Manager",
         currentEmployer: "Rose Park Advisors",
         location: "Boston, MA",
+        linkedInUrl: "https://www.linkedin.com/in/matthewchristensen41/",
         statusNote:
-          "After the 2001 championship, Christensen earned an MBA from Harvard Business School and became CEO and portfolio manager at Rose Park Advisors, a Boston-based investment firm focused on disruptive innovation. His Duke career was unique — he interrupted it for a two-year Mormon mission in Germany.",
-        sourceUrl: "https://goduke.com/sports/mens-basketball/roster/matt-christensen/4219",
+          "Co-founded Rose Park Advisors in 2007 with his late father, Professor Clayton Christensen (Harvard Business School), who developed the theory of 'Disruptive Innovation.' Holds a BSc in Economics and BSE in Civil Engineering from Duke plus an MBA from Harvard. Made a significant gift endowing the Center for Student Design Education at Duke's Pratt School of Engineering. His Duke career was unique — he interrupted it for a two-year Mormon mission in Germany.",
+        sourceUrl: "https://www.crunchbase.com/person/matthew-christensen",
       },
       membership: {
         role: "PLAYER",
@@ -459,9 +462,10 @@ export const dukeBasketball2001: TeamSeed = {
         currentTitle: "Founder & CEO",
         currentEmployer: "Waystation AI",
         location: "San Francisco, CA",
+        linkedInUrl: "https://www.linkedin.com/in/ryancaldbeck",
         statusNote:
-          "After graduating with a dual B.A. in Public Policy and Psychology, Caldbeck worked in private equity at Bain Capital and TSG Consumer Partners before co-founding CircleUp in 2011, a fintech investment platform named by CNBC as a Top 5 Most Disruptive Company in Finance. He is now founder and CEO of Waystation AI, building the intelligence layer for CPG procurement.",
-        sourceUrl: "https://www.linkedin.com/in/ryancaldbeck",
+          "After graduating with a dual B.A. in Public Policy and Psychology, Caldbeck worked in private equity at Bain Capital and TSG Consumer Partners before co-founding CircleUp in 2011, a fintech investment platform named by CNBC as a Top 5 Most Disruptive Company in Finance. Served as CEO until 2020, then Chairman. He is now founder and CEO of Waystation AI, building the intelligence layer for CPG procurement. Also holds an MBA from Stanford.",
+        sourceUrl: "https://ryancaldbeck.co/",
       },
       membership: {
         role: "PLAYER",
