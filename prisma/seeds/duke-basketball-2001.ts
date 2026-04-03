@@ -42,7 +42,16 @@ export const dukeBasketball2001: TeamSeed = {
         assistsPerGame: 2.2,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 19.9, reboundsPerGame: 7.3, assistsPerGame: 2.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 7.6, reboundsPerGame: 3.9, assistsPerGame: 1.6, fieldGoalPct: 0.476 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 39, pointsPerGame: 9.1, reboundsPerGame: 5.3, assistsPerGame: 2.0, fieldGoalPct: 0.478 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-2000", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 17.4, reboundsPerGame: 6.4, assistsPerGame: 2.5, fieldGoalPct: 0.489, threePointPct: 0.337 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Senior (National Champion, Naismith POY)", sortOrder: 204, gamesPlayed: 36, pointsPerGame: 19.9, reboundsPerGame: 7.3, assistsPerGame: 2.2, stealsPerGame: 2.0, fieldGoalPct: 0.477, threePointPct: 0.381, freeThrowPct: 0.819 },
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2001-02", yearLabel: "2001-02", sortOrder: 301, gamesPlayed: 78, pointsPerGame: 14.4, reboundsPerGame: 5.4, assistsPerGame: 2.8, stealsPerGame: 1.2, fieldGoalPct: 0.423, threePointPct: 0.354 },
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2005-06", yearLabel: "2005-06", sortOrder: 305, gamesPlayed: 80, pointsPerGame: 12.4, reboundsPerGame: 4.5, assistsPerGame: 2.8, stealsPerGame: 1.4, fieldGoalPct: 0.439, threePointPct: 0.402 },
+        { level: "PROFESSIONAL", teamName: "Houston Rockets", season: "2006-07", yearLabel: "2006-07", sortOrder: 306, gamesPlayed: 79, pointsPerGame: 10.1, reboundsPerGame: 5.6, assistsPerGame: 2.4, stealsPerGame: 1.1, fieldGoalPct: 0.429, threePointPct: 0.373 },
+        { level: "PROFESSIONAL", teamName: "Houston Rockets", season: "2008-09", yearLabel: "2008-09", sortOrder: 308, gamesPlayed: 79, pointsPerGame: 9.3, reboundsPerGame: 4.4, assistsPerGame: 2.7, stealsPerGame: 0.9, fieldGoalPct: 0.455, threePointPct: 0.413 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2011-12", yearLabel: "2011-12 (Champion)", sortOrder: 311, gamesPlayed: 66, pointsPerGame: 5.2, reboundsPerGame: 2.8, assistsPerGame: 1.3, fieldGoalPct: 0.430, threePointPct: 0.371 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2012-13", yearLabel: "2012-13 (Champion)", sortOrder: 312, gamesPlayed: 73, pointsPerGame: 4.8, reboundsPerGame: 2.3, assistsPerGame: 1.3, fieldGoalPct: 0.391, threePointPct: 0.356 },
       ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
@@ -219,7 +228,13 @@ export const dukeBasketball2001: TeamSeed = {
         assistsPerGame: 3.2,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 4.3, assistsPerGame: 3.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Freshman (National Champion)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 4.3, reboundsPerGame: 1.7, assistsPerGame: 3.2, stealsPerGame: 1.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 8.5, reboundsPerGame: 2.8, assistsPerGame: 5.9, stealsPerGame: 1.9 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 9.8, reboundsPerGame: 2.5, assistsPerGame: 5.7, stealsPerGame: 1.6 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Senior (Captain)", sortOrder: 204, gamesPlayed: 37, pointsPerGame: 10.2, reboundsPerGame: 3.0, assistsPerGame: 6.2, stealsPerGame: 1.8, fieldGoalPct: 0.413, threePointPct: 0.386, freeThrowPct: 0.815 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2004-05", yearLabel: "2004-05", sortOrder: 301, gamesPlayed: 82, pointsPerGame: 5.9, reboundsPerGame: 2.1, assistsPerGame: 4.9, stealsPerGame: 0.8, fieldGoalPct: 0.381, threePointPct: 0.361 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2005-06", yearLabel: "2005-06", sortOrder: 302, gamesPlayed: 82, pointsPerGame: 6.0, reboundsPerGame: 2.5, assistsPerGame: 5.0, fieldGoalPct: 0.397, threePointPct: 0.386 },
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2008-09", yearLabel: "2008-09 (22-ast game)", sortOrder: 305, gamesPlayed: 79, pointsPerGame: 11.1, reboundsPerGame: 3.5, assistsPerGame: 7.2, stealsPerGame: 1.3, fieldGoalPct: 0.397, threePointPct: 0.395 },
       ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke (freshman)", eventType: "CHAMPIONSHIP" },
