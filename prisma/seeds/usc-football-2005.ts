@@ -106,8 +106,9 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "The powerful complement to Reggie Bush in USC's backfield, White rushed for 1,302 yards and 24 touchdowns in 2005. Known as 'Thunder' to Bush's 'Lightning.'",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Podcast Co-Host",
+        occupationType: "BROADCASTER_ANALYST",
+        currentTitle: "Podcast Co-Host / Media Personality",
+        currentEmployer: "Smash & Dash Podcast (Bleav Network)",
         location: "Denver, CO",
         statusNote:
           "Selected in the second round by the Tennessee Titans in 2006, White rushed for 15 TDs in 2008 as part of the famed 'Smash & Dash' duo with Chris Johnson. A torn Achilles in 2010 preseason with Denver ended his playing career. After battling depression and substance abuse issues, White rebuilt his life with support from Johnson. He now co-hosts the Smash & Dash podcast with Johnson and resides in Denver.",
@@ -296,12 +297,13 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "A true freshman on the 2005 team who became one of the most decorated linebackers in USC history. Cushing played nine NFL seasons with the Houston Texans.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired NFL Player",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "Founder / Community Leader",
+        currentEmployer: "TACT Group (Cushing's Crusaders)",
         location: "Houston, TX",
         statusNote:
-          "Selected 15th overall by the Houston Texans in 2009, Cushing won the 2009 AP NFL Defensive Rookie of the Year award and became the Texans' all-time leading tackler over nine seasons. He was suspended twice for PED violations (2010, 2017). After retiring in 2018, he served as the Texans' assistant strength and conditioning coach from 2019 to 2020. He remains connected to the organization and resides in Houston.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Brian_Cushing",
+          "Selected 15th overall by the Houston Texans in 2009, Cushing won AP Defensive Rookie of the Year and became the franchise's all-time leading tackler over nine seasons. After retiring in 2018, he served as the Texans' assistant S&C coach (2019-2020). He now runs his TACT Group (also known as Cushing's Crusaders), a community-focused organization partnering with the Texans for charitable events. He also works as a motivational speaker through ENGAGE talent agency and remains deeply involved in Houston's sports and community scene.",
+        sourceUrl: "https://www.letsengage.com/talent/brian-cushing",
       },
       membership: {
         role: "PLAYER",
@@ -412,11 +414,14 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "A massive offensive tackle who protected Matt Leinart's blind side. Justice was a two-year starter at USC before entering the 2006 NFL Draft.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired NFL Player",
+        occupationType: "ENTREPRENEUR_BUSINESS",
+        currentTitle: "CEO",
+        currentEmployer: "SageSpring Private Wealth",
+        location: "Philadelphia, PA",
+        linkedInUrl: "https://www.linkedin.com/in/winstonjustice/",
         statusNote:
-          "Selected in the second round by the Philadelphia Eagles in 2006, Justice played seven NFL seasons with the Eagles and Indianapolis Colts. He started 53 games and was known as a dependable pass protector. After retiring from the NFL, Justice has maintained a low public profile.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Winston_Justice",
+          "One of the most impressive post-NFL career pivots. After seven seasons with the Eagles and Colts, Justice earned his MBA and CFA certification, completed programs at Wharton and Notre Dame, and worked his way up from associate analyst at Wells Fargo to portfolio manager at Pacific Income Advisors to VP at AllianceBernstein managing institutional assets. He is now CEO of SageSpring Private Wealth. He also owns Elixr Coffee Roasters, a chain with four locations in Philadelphia and one in State College, PA.",
+        sourceUrl: "https://www.linkedin.com/in/winstonjustice/",
       },
       membership: {
         role: "PLAYER",
@@ -440,11 +445,11 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "A dominant offensive tackle who started on the 2005 line as a sophomore. Baker went on to be a first-round NFL draft pick and started for the Atlanta Falcons.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired NFL Player",
-        location: "Southern California",
+        occupationType: "COACH",
+        currentTitle: "High School Football Coach",
+        location: "California",
         statusNote:
-          "Selected 21st overall by the Atlanta Falcons in 2008, Baker was a key starter on Atlanta's offensive line for five seasons. Chronic knee injuries forced him out of the league after 2013 despite starting 59 games. Since retirement, Baker has maintained a private life in Southern California.",
+          "Selected 21st overall by the Atlanta Falcons in 2008, Baker was a key starter for five seasons before chronic knee injuries forced him out at age 30 despite starting 59 games. After his release in 2015, Baker transitioned to high school football coaching in California, leveraging his experience as a three-time All-American at USC and seven-year NFL veteran to mentor the next generation.",
         sourceUrl: "https://en.wikipedia.org/wiki/Sam_Baker_(offensive_tackle)",
       },
       membership: {
@@ -911,11 +916,12 @@ export const uscFootball2005: TeamSeed = {
       isFeatured: false,
       bio: "A versatile tight end who served as both a receiving threat and effective blocker in USC's offense during the 2005 season.",
       status: {
-        occupationType: "RETIRED_ATHLETE",
-        currentTitle: "Retired NFL Player",
+        occupationType: "OTHER",
+        currentTitle: "USC Graduate / Community Leader",
+        location: "Los Angeles, CA",
         statusNote:
-          "Selected in the third round by the St. Louis Rams in 2006, Byrd played four NFL seasons with the Rams and Arizona Cardinals. His career was cut short by injuries. After football, he has maintained a quiet private life.",
-        sourceUrl: "https://en.wikipedia.org/wiki/Dominique_Byrd",
+          "Selected in the third round by the St. Louis Rams in 2006, Byrd played four NFL seasons with the Rams and Cardinals before injuries ended his career. In an inspiring post-football chapter, he returned to USC to complete his degree — proving that education was never forgotten. Active in community engagement and mentoring in the Los Angeles area.",
+        sourceUrl: "https://today.usc.edu/dominique-byrd-returns-from-a-career-in-football-to-earn-his-usc-degree/",
       },
       membership: {
         role: "PLAYER",
