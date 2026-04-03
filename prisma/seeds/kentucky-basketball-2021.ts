@@ -188,7 +188,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Forward", yearsAtSchool: "2019-2022", statsNote: "Sophomore • Key returning player" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 22, pointsPerGame: 4.4, reboundsPerGame: 3.0, assistsPerGame: 0.5 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 18, pointsPerGame: 10.3, reboundsPerGame: 4.4, assistsPerGame: 0.8 },
       ],
       careerEvents: [{ year: 2024, title: "Went undrafted; signed with Pelicans", eventType: "SIGNING" }],
     },

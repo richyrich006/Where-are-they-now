@@ -62,7 +62,7 @@ export const kentuckyBasketball2025: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Wing", yearsAtSchool: "2023-present", statsNote: "Sophomore • Transfer from Oklahoma • Key contributor" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 15.2, reboundsPerGame: 4.8, assistsPerGame: 2.1 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12.9, reboundsPerGame: 4.5, assistsPerGame: 2.0 },
       ],
       careerEvents: [],
     },
@@ -84,7 +84,7 @@ export const kentuckyBasketball2025: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Point Guard", yearsAtSchool: "2024-2025", statsNote: "Senior • Transfer from San Diego State • Starting PG" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 11.4, reboundsPerGame: 2.9, assistsPerGame: 4.3 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12.7, reboundsPerGame: 3.8, assistsPerGame: 4.7 },
       ],
       careerEvents: [
         { year: 2023, title: "Hit buzzer-beater to send SDSU to National Championship game", eventType: "OTHER" },
@@ -136,7 +136,7 @@ export const kentuckyBasketball2025: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Center", yearsAtSchool: "2024-2025", statsNote: "Senior • Transfer from Drexel • Led SEC in blocks" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 10.9, reboundsPerGame: 8.5, assistsPerGame: 3.2 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.6, reboundsPerGame: 8.3, assistsPerGame: 1.4 },
       ],
       careerEvents: [],
     },

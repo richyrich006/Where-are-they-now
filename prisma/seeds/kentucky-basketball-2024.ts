@@ -111,7 +111,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Guard", yearsAtSchool: "2022-2024", statsNote: "Graduate Senior • Team's leading scorer • 14.8 PPG" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14.8, reboundsPerGame: 2.4, assistsPerGame: 1.4 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 16.6, reboundsPerGame: 2.6, assistsPerGame: 1.5 },
       ],
       careerEvents: [
         { year: 2024, title: "Selected #47 overall by the Orlando Magic", eventType: "DRAFT" },
@@ -164,7 +164,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Forward / Center", yearsAtSchool: "2023-2024", statsNote: "Graduate • Transfer from Texas/WVU/UMass • 10.7 PPG, 7.2 RPG" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 10.7, reboundsPerGame: 7.2, assistsPerGame: 2.6 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 13.0, reboundsPerGame: 6.1, assistsPerGame: 1.3 },
       ],
       careerEvents: [{ year: 2024, title: "Went undrafted; began European career", eventType: "CAREER" }],
     },

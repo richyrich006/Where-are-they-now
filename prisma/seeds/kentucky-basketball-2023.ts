@@ -104,7 +104,7 @@ export const kentuckyBasketball2023: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Guard", yearsAtSchool: "2022-2024", statsNote: "Senior • Transfer from Illinois State • SEC Co-6th Man of Year" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 12.3, reboundsPerGame: 2.1, assistsPerGame: 1.2 },
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 14.6, reboundsPerGame: 2.5, assistsPerGame: 1.3 },
       ],
       careerEvents: [
         { year: 2023, title: "Won SEC Co-Sixth Man of the Year", eventType: "AWARD" },
