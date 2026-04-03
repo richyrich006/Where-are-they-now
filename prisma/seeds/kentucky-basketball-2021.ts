@@ -31,6 +31,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Brandon_Boston_Jr.",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Forward", yearsAtSchool: "2020-2021", statsNote: "Freshman • Five-star recruit • 11.5 PPG" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 11.5, reboundsPerGame: 4.5, assistsPerGame: 1.6 },
+      ],
       careerEvents: [
         { year: 2021, title: "Selected #51 overall by the LA Clippers", eventType: "DRAFT" },
         { year: 2025, title: "Signed with Fenerbahce Beko (EuroLeague)", eventType: "SIGNING" },
@@ -52,6 +55,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Terrence_Clarke_(basketball)",
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2020-2021", statsNote: "Freshman • Five-star recruit • 9.6 PPG in 8 games • Forever a Wildcat" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 8, pointsPerGame: 9.6, reboundsPerGame: 2.6, assistsPerGame: 2.0 },
+      ],
       careerEvents: [
         { year: 2021, title: "Tragically passed away in car accident at age 19", eventType: "OTHER" },
         { year: 2021, title: "Ceremonially drafted by the NBA between picks 14 and 15", eventType: "OTHER" },
@@ -77,6 +83,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Isaiah_Jackson_(basketball)",
       },
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Forward / Center", yearsAtSchool: "2020-2021", statsNote: "Freshman • 8.4 PPG, 6.6 RPG, 2.6 BPG" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 8.4, reboundsPerGame: 6.6, assistsPerGame: 0.4 },
+      ],
       careerEvents: [
         { year: 2021, title: "Selected #22 overall (traded to Indiana Pacers)", eventType: "DRAFT" },
         { year: 2026, title: "Traded to LA Clippers", eventType: "TRADE" },
@@ -101,6 +110,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Davion_Mintz",
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Guard", yearsAtSchool: "2020-2022", statsNote: "Graduate Senior • Transfer from Creighton • Team leader" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 11.5, reboundsPerGame: 2.8, assistsPerGame: 2.5 },
+      ],
       careerEvents: [
         { year: 2022, title: "Went undrafted; began European career", eventType: "CAREER" },
       ],
@@ -124,6 +136,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://www.nba.com/player/1630846/olivier-sarr",
       },
       membership: { role: "PLAYER", jerseyNumber: 30, position: "Center", yearsAtSchool: "2020-2021", statsNote: "Graduate Senior • Transfer from Wake Forest • French-Senegalese" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 10.8, reboundsPerGame: 5.2, assistsPerGame: 0.7 },
+      ],
       careerEvents: [
         { year: 2026, title: "Signed two-way contract with Cleveland Cavaliers", eventType: "SIGNING" },
       ],
@@ -147,6 +162,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://www.hoopsrumors.com/2025/12/hawks-jacob-toppin-undergoes-season-ending-shoulder-surgery.html",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Forward", yearsAtSchool: "2020-2023", statsNote: "Sophomore • Transfer from Rhode Island • Obi Toppin's brother" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 24, pointsPerGame: 5.0, reboundsPerGame: 3.3, assistsPerGame: 0.6 },
+      ],
       careerEvents: [
         { year: 2023, title: "Graduated from Kentucky after 3 seasons", eventType: "CAREER" },
       ],
@@ -169,6 +187,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Keion_Brooks_Jr.",
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Forward", yearsAtSchool: "2019-2022", statsNote: "Sophomore • Key returning player" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 22, pointsPerGame: 4.4, reboundsPerGame: 3.0, assistsPerGame: 0.5 },
+      ],
       careerEvents: [{ year: 2024, title: "Went undrafted; signed with Pelicans", eventType: "SIGNING" }],
     },
     {
@@ -189,6 +210,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://villanova.com/sports/mens-basketball/roster/devin-askew/15196",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "2020-2021", statsNote: "Freshman • Reclassified • Starting PG • Transferred to Texas" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 6.5, reboundsPerGame: 2.5, assistsPerGame: 3.1 },
+      ],
       careerEvents: [{ year: 2021, title: "Transferred to University of Texas", eventType: "OTHER" }],
     },
     {
@@ -210,6 +234,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://utamavs.com/news/2025/3/10/mens-basketball-mbb-lance-ware-earns-wac-all-defensive-team.aspx",
       },
       membership: { role: "PLAYER", jerseyNumber: 55, position: "Forward", yearsAtSchool: "2020-2022", statsNote: "Freshman • Physical rebounder" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 24, pointsPerGame: 2.2, reboundsPerGame: 2.6, assistsPerGame: 0.4 },
+      ],
       careerEvents: [{ year: 2025, title: "Went undrafted; signed in Greece", eventType: "SIGNING" }],
     },
     {
@@ -230,6 +257,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://highpointpanthers.com/news/2026/3/19/mens-basketball-high-point-makes-history.aspx",
       },
       membership: { role: "PLAYER", jerseyNumber: 21, position: "Forward", yearsAtSchool: "2020-2021", statsNote: "Freshman • Transferred to Florida State" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 18, pointsPerGame: 2.5, reboundsPerGame: 1.5, assistsPerGame: 0.3 },
+      ],
       careerEvents: [{ year: 2021, title: "Transferred to Florida State", eventType: "OTHER" }],
     },
     {
@@ -248,6 +278,9 @@ export const kentuckyBasketball2021: TeamSeed = {
         sourceUrl: "https://www.on3.com/teams/kentucky-wildcats/news/former-kentucky-wildcat-dontaie-allen-transfer-portal-wyoming/",
       },
       membership: { role: "PLAYER", jerseyNumber: 11, position: "Guard", yearsAtSchool: "2019-2022", statsNote: "Sophomore • KY Mr. Basketball • Sharpshooter" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 22, pointsPerGame: 3.9, reboundsPerGame: 1.4, assistsPerGame: 0.4 },
+      ],
       careerEvents: [],
     },
     {

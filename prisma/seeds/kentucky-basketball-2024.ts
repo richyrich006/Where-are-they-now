@@ -85,6 +85,9 @@ export const kentuckyBasketball2024: TeamSeed = {
         sourceUrl: "https://arkansasrazorbacks.com/roster/d-j-wagner/",
       },
       membership: { role: "PLAYER", jerseyNumber: 21, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 9.9 PPG, 3.3 APG • 3rd-gen UK legacy • Transferred to Arkansas" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 29, pointsPerGame: 9.9, reboundsPerGame: 1.6, assistsPerGame: 3.3 },
+      ],
       careerEvents: [
         { year: 2024, title: "Transferred to Arkansas to follow Calipari", eventType: "OTHER" },
       ],
@@ -107,6 +110,9 @@ export const kentuckyBasketball2024: TeamSeed = {
         sourceUrl: "https://www.nba.com/player/1641810/antonio-reeves",
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Guard", yearsAtSchool: "2022-2024", statsNote: "Graduate Senior • Team's leading scorer • 14.8 PPG" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14.8, reboundsPerGame: 2.4, assistsPerGame: 1.4 },
+      ],
       careerEvents: [
         { year: 2024, title: "Selected #47 overall by the Orlando Magic", eventType: "DRAFT" },
       ],
@@ -131,6 +137,9 @@ export const kentuckyBasketball2024: TeamSeed = {
         sourceUrl: "https://www.nba.com/player/1642348/justin-edwards",
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Forward", yearsAtSchool: "2023-2024", statsNote: "Freshman • Five-star recruit • 8.8 PPG • Now with 76ers" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.8, reboundsPerGame: 3.4, assistsPerGame: 1.6 },
+      ],
       careerEvents: [
         { year: 2024, title: "Went undrafted; signed two-way with Philadelphia 76ers", eventType: "SIGNING" },
       ],
@@ -154,6 +163,9 @@ export const kentuckyBasketball2024: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Tre_Mitchell",
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Forward / Center", yearsAtSchool: "2023-2024", statsNote: "Graduate • Transfer from Texas/WVU/UMass • 10.7 PPG, 7.2 RPG" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 10.7, reboundsPerGame: 7.2, assistsPerGame: 2.6 },
+      ],
       careerEvents: [{ year: 2024, title: "Went undrafted; began European career", eventType: "CAREER" }],
     },
     {
@@ -174,6 +186,9 @@ export const kentuckyBasketball2024: TeamSeed = {
         sourceUrl: "https://www.nba.com/player/1642876/adou-thiero",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Forward", yearsAtSchool: "2022-2024", statsNote: "Sophomore • 5.7 PPG • Later led Arkansas at 15.1 PPG" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 5.7, reboundsPerGame: 3.1, assistsPerGame: 1.1 },
+      ],
       careerEvents: [
         { year: 2024, title: "Transferred to Arkansas", eventType: "OTHER" },
         { year: 2025, title: "Selected #36 overall (traded to Lakers)", eventType: "DRAFT" },
@@ -197,6 +212,9 @@ export const kentuckyBasketball2024: TeamSeed = {
         sourceUrl: "https://www.espn.com/mens-college-basketball/player/_/id/5174665/zvonimir-ivisic",
       },
       membership: { role: "PLAYER", jerseyNumber: 44, position: "Center", yearsAtSchool: "2023-2024", statsNote: "Freshman • 7-2 Croatian • 5.5 PPG in 15 games • Missed first 16 (eligibility)" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 15, pointsPerGame: 5.5, reboundsPerGame: 3.3, assistsPerGame: 0.5 },
+      ],
       careerEvents: [
         { year: 2024, title: "Transferred to Arkansas, then Illinois", eventType: "OTHER" },
       ],
@@ -219,6 +237,9 @@ export const kentuckyBasketball2024: TeamSeed = {
         sourceUrl: "https://gotigersgo.com/sports/mens-basketball/roster/aaron-bradshaw/12209",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Center", yearsAtSchool: "2023-2024", statsNote: "Freshman • McDonald's All-American • 4.9 PPG" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 26, pointsPerGame: 4.9, reboundsPerGame: 3.3, assistsPerGame: 0.3 },
+      ],
       careerEvents: [
         { year: 2024, title: "Transferred to Ohio State", eventType: "OTHER" },
       ],
@@ -241,6 +262,9 @@ export const kentuckyBasketball2024: TeamSeed = {
         sourceUrl: "https://www.espn.com/mens-college-basketball/player/_/id/5037878/ugonna-onyenso",
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Center", yearsAtSchool: "2022-2024", statsNote: "Sophomore • Elite shot-blocker" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 3.2, reboundsPerGame: 3.0, assistsPerGame: 0.2 },
+      ],
       careerEvents: [
         { year: 2026, title: "Set ACC Tournament blocks record at Virginia", eventType: "OTHER" },
       ],

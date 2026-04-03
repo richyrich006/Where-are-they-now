@@ -31,6 +31,9 @@ export const kentuckyBasketball2023: TeamSeed = {
         sourceUrl: "https://www.nba.com/player/1641717/cason-wallace",
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Guard", yearsAtSchool: "2022-2023", statsNote: "Freshman • #10 overall pick • 2025 NBA Champion" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 11.7, reboundsPerGame: 3.7, assistsPerGame: 3.6 },
+      ],
       careerEvents: [
         { year: 2023, title: "Selected #10 overall by the Oklahoma City Thunder", eventType: "DRAFT" },
         { year: 2025, title: "Won NBA Championship with the Thunder", eventType: "CHAMPIONSHIP" },
@@ -75,6 +78,9 @@ export const kentuckyBasketball2023: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Chris_Livingston",
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Forward", yearsAtSchool: "2022-2023", statsNote: "Freshman • Five-star from Akron • #58 overall pick" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, pointsPerGame: 6.4, reboundsPerGame: 3.0, assistsPerGame: 0.8 },
+      ],
       careerEvents: [
         { year: 2023, title: "Selected #58 overall by the Milwaukee Bucks", eventType: "DRAFT" },
       ],
@@ -97,6 +103,9 @@ export const kentuckyBasketball2023: TeamSeed = {
         sourceUrl: "https://www.nba.com/player/1641810/antonio-reeves",
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Guard", yearsAtSchool: "2022-2024", statsNote: "Senior • Transfer from Illinois State • SEC Co-6th Man of Year" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 12.3, reboundsPerGame: 2.1, assistsPerGame: 1.2 },
+      ],
       careerEvents: [
         { year: 2023, title: "Won SEC Co-Sixth Man of the Year", eventType: "AWARD" },
         { year: 2024, title: "Selected #47 overall by the Orlando Magic", eventType: "DRAFT" },
@@ -121,6 +130,9 @@ export const kentuckyBasketball2023: TeamSeed = {
         sourceUrl: "https://www.nba.com/player/1642876/adou-thiero",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard / Forward", yearsAtSchool: "2022-2024", statsNote: "Freshman • From Guinea • Later followed Calipari to Arkansas" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 4.5, reboundsPerGame: 2.8, assistsPerGame: 0.9 },
+      ],
       careerEvents: [
         { year: 2024, title: "Transferred to Arkansas to follow Calipari", eventType: "OTHER" },
         { year: 2025, title: "Selected #36 overall by the Nets (traded to Lakers)", eventType: "DRAFT" },
@@ -144,6 +156,9 @@ export const kentuckyBasketball2023: TeamSeed = {
         sourceUrl: "https://www.espn.com/mens-college-basketball/player/_/id/5037878/ugonna-onyenso",
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Center", yearsAtSchool: "2022-2024", statsNote: "Freshman • Elite shot-blocker from Nigeria" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 2.6, reboundsPerGame: 2.6, assistsPerGame: 0.2 },
+      ],
       careerEvents: [
         { year: 2024, title: "Transferred to Kansas State", eventType: "OTHER" },
         { year: 2026, title: "Set ACC Tournament blocks record at Virginia (21 in 3 games)", eventType: "OTHER" },
@@ -167,6 +182,9 @@ export const kentuckyBasketball2023: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Sahvir_Wheeler",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "2021-2023", statsNote: "Senior • Led SEC in assists" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 8.8, reboundsPerGame: 2.3, assistsPerGame: 5.8 },
+      ],
       careerEvents: [{ year: 2023, title: "Transferred to University of Washington", eventType: "OTHER" }],
     },
     {
@@ -187,6 +205,9 @@ export const kentuckyBasketball2023: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Jacob_Toppin",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Forward", yearsAtSchool: "2020-2023", statsNote: "Senior • Fan favorite for dunking ability" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 8.2, reboundsPerGame: 4.6, assistsPerGame: 1.0 },
+      ],
       careerEvents: [{ year: 2023, title: "Went undrafted; signed two-way with Hawks", eventType: "SIGNING" }],
     },
     {

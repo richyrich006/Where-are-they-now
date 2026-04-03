@@ -59,6 +59,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://www.nba.com/player/1631102/tyty-washington-jr",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "2021-2022", statsNote: "Freshman • 12.5 PPG • #29 overall pick" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 29, pointsPerGame: 12.5, reboundsPerGame: 3.5, assistsPerGame: 3.9 },
+      ],
       careerEvents: [
         { year: 2022, title: "Selected #29 overall by the Memphis Grizzlies", eventType: "DRAFT" },
       ],
@@ -106,6 +109,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Sahvir_Wheeler",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "2021-2023", statsNote: "Junior • Transfer from Georgia • Led SEC in assists" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 10.1, reboundsPerGame: 2.6, assistsPerGame: 6.9 },
+      ],
       careerEvents: [{ year: 2024, title: "Went undrafted; began G League career", eventType: "CAREER" }],
     },
     {
@@ -127,6 +133,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Kellan_Grady",
       },
       membership: { role: "PLAYER", jerseyNumber: 31, position: "Guard", yearsAtSchool: "2021-2022", statsNote: "Graduate Senior • Transfer from Davidson • Elite three-point shooter" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 11.2, reboundsPerGame: 2.7, assistsPerGame: 1.0 },
+      ],
       careerEvents: [{ year: 2022, title: "Went undrafted; began European career", eventType: "CAREER" }],
     },
     {
@@ -147,6 +156,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Keion_Brooks_Jr.",
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Forward", yearsAtSchool: "2019-2022", statsNote: "Junior • 10.8 PPG" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 10.8, reboundsPerGame: 4.4, assistsPerGame: 1.2 },
+      ],
       careerEvents: [{ year: 2022, title: "Transferred to University of Washington", eventType: "OTHER" }],
     },
     {
@@ -168,6 +180,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Jacob_Toppin",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Forward", yearsAtSchool: "2020-2023", statsNote: "Junior • Obi Toppin's brother • High-flying dunker" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 6.2, reboundsPerGame: 3.2, assistsPerGame: 0.7 },
+      ],
       careerEvents: [{ year: 2023, title: "Went undrafted; signed two-way with Hawks", eventType: "SIGNING" }],
     },
     {
@@ -189,6 +204,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Davion_Mintz",
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Guard", yearsAtSchool: "2020-2022", statsNote: "Graduate • Second year at UK • Veteran leader" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Graduate", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 5.3, reboundsPerGame: 1.8, assistsPerGame: 1.4 },
+      ],
       careerEvents: [{ year: 2022, title: "Went undrafted; began European career", eventType: "CAREER" }],
     },
     {
@@ -209,6 +227,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Daimion_Collins",
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Forward / Center", yearsAtSchool: "2021-2023", statsNote: "Freshman • Five-star recruit" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 2.6, reboundsPerGame: 1.8, assistsPerGame: 0.2 },
+      ],
       careerEvents: [{ year: 2023, title: "Transferred to LSU", eventType: "OTHER" }],
     },
     {
@@ -229,6 +250,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://www.espn.com/mens-college-basketball/player/_/id/4565698/bryce-hopkins",
       },
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Forward", yearsAtSchool: "2021-2022", statsNote: "Freshman • Transferred to Providence" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 29, pointsPerGame: 3.2, reboundsPerGame: 2.6, assistsPerGame: 0.3 },
+      ],
       careerEvents: [
         { year: 2022, title: "Transferred to Providence", eventType: "OTHER" },
         { year: 2026, title: "Named All-Big East Second Team at St. John's", eventType: "AWARD" },
@@ -250,6 +274,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://www.aseaofblue.com/2025/4/10/24405583/cj-fredrick-retirement-basketball-cincinnati-bearcats-kentucky",
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Guard", yearsAtSchool: "2021-2023", statsNote: "Junior • Transfer from Iowa • Missed most of season (hamstring)" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 7, pointsPerGame: 2.6, reboundsPerGame: 0.7, assistsPerGame: 0.4 },
+      ],
       careerEvents: [{ year: 2025, title: "Retired from basketball due to injuries", eventType: "RETIREMENT" }],
     },
     {
@@ -271,6 +298,9 @@ export const kentuckyBasketball2022: TeamSeed = {
         sourceUrl: "https://www.proballers.com/basketball/player/233360/lance-ware",
       },
       membership: { role: "PLAYER", jerseyNumber: 55, position: "Forward", yearsAtSchool: "2020-2022", statsNote: "Sophomore • Physical rebounder" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 2.0, reboundsPerGame: 2.4, assistsPerGame: 0.5 },
+      ],
       careerEvents: [{ year: 2025, title: "Signed in Greece after UT Arlington", eventType: "SIGNING" }],
     },
     {

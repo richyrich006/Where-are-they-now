@@ -61,6 +61,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mens-basketball/roster/otega-oweh/",
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Wing", yearsAtSchool: "2023-present", statsNote: "Sophomore • Transfer from Oklahoma • Key contributor" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 15.2, reboundsPerGame: 4.8, assistsPerGame: 2.1 },
+      ],
       careerEvents: [],
     },
     {
@@ -80,6 +83,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://en.wikipedia.org/wiki/Lamont_Butler",
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Point Guard", yearsAtSchool: "2024-2025", statsNote: "Senior • Transfer from San Diego State • Starting PG" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 11.4, reboundsPerGame: 2.9, assistsPerGame: 4.3 },
+      ],
       careerEvents: [
         { year: 2023, title: "Hit buzzer-beater to send SDSU to National Championship game", eventType: "OTHER" },
       ],
@@ -103,6 +109,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mens-basketball/roster/jaxson-robinson/",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard / Wing", yearsAtSchool: "2024-2025", statsNote: "Senior • Transfer from Arkansas/BYU • Elite shooter" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 14.5, reboundsPerGame: 3.2, assistsPerGame: 1.8 },
+      ],
       careerEvents: [
         { year: 2025, title: "Selected in 2nd round of NBA Draft by Memphis Grizzlies", eventType: "DRAFT" },
       ],
@@ -126,6 +135,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://www.espn.com/nba/player/_/id/4702745/amari-williams",
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Center", yearsAtSchool: "2024-2025", statsNote: "Senior • Transfer from Drexel • Led SEC in blocks" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 10.9, reboundsPerGame: 8.5, assistsPerGame: 3.2 },
+      ],
       careerEvents: [],
     },
     {
@@ -144,6 +156,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mens-basketball/roster/andrew-carr/",
       },
       membership: { role: "PLAYER", jerseyNumber: 13, position: "Forward", yearsAtSchool: "2024-2025", statsNote: "Senior • Transfer from Wake Forest • Stretch four" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 8.5, reboundsPerGame: 4.2, assistsPerGame: 1.0 },
+      ],
       careerEvents: [],
     },
     {
@@ -165,6 +180,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://gobearcats.com/sports/mens-basketball/roster/player/kerr-kriisa",
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Point Guard", yearsAtSchool: "2024-2025", statsNote: "6th-year Senior • Transfer from Arizona/WVU • Estonian national" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "6th-year Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 6.2, reboundsPerGame: 1.5, assistsPerGame: 3.5 },
+      ],
       careerEvents: [],
     },
     {
@@ -186,6 +204,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://www.espn.com/nba/player/gamelog/_/id/4591259/koby-brea",
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Guard / Wing", yearsAtSchool: "2024-2025", statsNote: "6th-year Senior • Transfer from Dayton • 40%+ from three" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "6th-year Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 11.6, reboundsPerGame: 2.8, assistsPerGame: 1.2 },
+      ],
       careerEvents: [],
     },
     {
@@ -207,6 +228,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mens-basketball/roster/brandon-garrison/",
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Forward / Center", yearsAtSchool: "2023-present", statsNote: "Sophomore • Athletic rim protector" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.8, reboundsPerGame: 3.0, assistsPerGame: 0.5 },
+      ],
       careerEvents: [],
     },
     {
@@ -228,6 +252,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mens-basketball/roster/travis-perry/",
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Guard", yearsAtSchool: "2024-present", statsNote: "Freshman • KY Mr. Basketball • All-time KY HS scoring leader (4,437 pts)" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 5.5, reboundsPerGame: 1.8, assistsPerGame: 1.5 },
+      ],
       careerEvents: [],
     },
     {
@@ -249,6 +276,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://basketball.eurobasket.com/player/Ansley-Almonor/560681",
       },
       membership: { role: "PLAYER", jerseyNumber: 11, position: "Wing / Forward", yearsAtSchool: "2024-2025", statsNote: "Senior • Transfer from FDU • Key player in 16-over-1 Purdue upset" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 9.8, reboundsPerGame: 3.5, assistsPerGame: 1.0 },
+      ],
       careerEvents: [
         { year: 2023, title: "Part of FDU's historic 16-over-1 upset of Purdue", eventType: "OTHER" },
       ],
@@ -272,6 +302,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://www.tankathon.com/players/jayden-quaintance",
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Forward", yearsAtSchool: "2024-present", statsNote: "Freshman • Five-star • Tore ACL • Projected top-10 pick 2026" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 4, pointsPerGame: 5.0, reboundsPerGame: 5.0, assistsPerGame: 0.5 },
+      ],
       careerEvents: [
         { year: 2025, title: "Tore ACL during freshman season", eventType: "INJURY" },
       ],
@@ -295,6 +328,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mens-basketball/roster/collin-chandler/",
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Guard", yearsAtSchool: "2024-present", statsNote: "Sophomore • Transfer from BYU • Followed Pope" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 3.2, reboundsPerGame: 1.0, assistsPerGame: 0.8 },
+      ],
       careerEvents: [],
     },
     {
@@ -316,6 +352,9 @@ export const kentuckyBasketball2025: TeamSeed = {
         sourceUrl: "https://ukathletics.com/sports/mbball/roster/player/jasper-johnson/",
       },
       membership: { role: "PLAYER", position: "Guard", yearsAtSchool: "2024-present", statsNote: "Freshman • Five-star recruit • U19 World Cup gold medalist" },
+            seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 4.9, reboundsPerGame: 1.1, assistsPerGame: 1.6 },
+      ],
       careerEvents: [
         { year: 2025, title: "Won gold at U19 World Cup with Team USA", eventType: "AWARD" },
       ],
