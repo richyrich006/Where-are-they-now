@@ -161,7 +161,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       hometown: "Houston, TX",
       highSchool: "Victory Prep Academy, Houston, TX",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628981.png",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629020.png",
       bio: "A freshman forward who declared for the NBA after one injury-plagued season and became a valued NBA role player.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

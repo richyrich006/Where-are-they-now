@@ -54,7 +54,7 @@ export const dukeBasketball2002: TeamSeed = {
     },
     {
       slug: "carlos-boozer",
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/2744.png",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/2430.png",
       firstName: "Carlos",
       lastName: "Boozer",
       birthYear: 1981,
@@ -82,7 +82,7 @@ export const dukeBasketball2002: TeamSeed = {
         reboundsPerGame: 8.2,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 18.2, reboundsPerGame: 8.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 18.2, reboundsPerGame: 8.2 },
       ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
@@ -194,7 +194,7 @@ export const dukeBasketball2002: TeamSeed = {
         reboundsPerGame: 4.2,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 11.1, reboundsPerGame: 4.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 11.1, reboundsPerGame: 4.2 },
       ],
       careerEvents: [
         { year: 2003, title: "Selected #20 overall by the Celtics (traded to Memphis)", eventType: "DRAFT" },

@@ -41,7 +41,7 @@ export const dukeBasketball2004: TeamSeed = {
         assistsPerGame: 1.9,
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 15.1, reboundsPerGame: 6.9, assistsPerGame: 1.9 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 15.1, reboundsPerGame: 6.9, assistsPerGame: 1.9 },
       ],
       careerEvents: [
         { year: 2004, title: "Selected #7 overall by the Chicago Bulls", eventType: "DRAFT" },
