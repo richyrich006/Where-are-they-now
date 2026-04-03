@@ -229,7 +229,7 @@ export const dukeBasketball2002: TeamSeed = {
         statsNote: "Freshman contributor • Developed into four-year starter",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 5.5, reboundsPerGame: 1.8, assistsPerGame: 1.5 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 6.5, reboundsPerGame: 2.2, assistsPerGame: 1.3 },
       ],
       careerEvents: [
         { year: 2005, title: "Selected #32 overall by the LA Clippers", eventType: "DRAFT" },
@@ -253,7 +253,7 @@ export const dukeBasketball2002: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 20, position: "Center", yearsAtSchool: "1999-2003", statsNote: "Junior starter • Rim protector" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 4.2, reboundsPerGame: 3.8, assistsPerGame: 0.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 1.6, reboundsPerGame: 1.6, assistsPerGame: 0.2 },
       ],
       careerEvents: [{ year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" }],
     },
@@ -276,7 +276,7 @@ export const dukeBasketball2002: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Forward", yearsAtSchool: "1999-2004", statsNote: "Junior contributor" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 5.2, reboundsPerGame: 3.0, assistsPerGame: 0.6 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 1.5, reboundsPerGame: 2.1, assistsPerGame: 0.2 },
       ],
       careerEvents: [{ year: 2016, title: "Became physics teacher in New Zealand", eventType: "CAREER" }],
     },

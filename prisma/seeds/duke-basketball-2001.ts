@@ -314,7 +314,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "2001 National Champion • Minnesota Mr. Basketball 1999 • Physics/English double major",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.8, reboundsPerGame: 2.5, assistsPerGame: 0.5 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 6, pointsPerGame: 2.8, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
       ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
@@ -385,7 +385,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "2001 National Champion • Took 2 years off for Mormon mission",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 2.1, reboundsPerGame: 1.8, assistsPerGame: 0.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 1.6, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
       ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
@@ -418,7 +418,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "Walk-on • 2001 National Champion",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 1.5, reboundsPerGame: 0.8, assistsPerGame: 0.6 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 22, pointsPerGame: 0.2, reboundsPerGame: 0.5, assistsPerGame: 0.3 },
       ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },

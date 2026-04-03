@@ -145,7 +145,7 @@ export const dukeBasketball2003: TeamSeed = {
         statsNote: "Freshman contributor • Duke's all-time blocks leader",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.8, reboundsPerGame: 6.3, assistsPerGame: 0.5 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.2, reboundsPerGame: 5.9, assistsPerGame: 0.5 },
       ],
       careerEvents: [
         { year: 2006, title: "Selected #5 overall by the Atlanta Hawks", eventType: "DRAFT" },
@@ -215,7 +215,7 @@ export const dukeBasketball2003: TeamSeed = {
         statsNote: "McDonald's All-American • Local recruit from Raleigh",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 5.8, reboundsPerGame: 3.5, assistsPerGame: 0.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 26, pointsPerGame: 7.4, reboundsPerGame: 3.9, assistsPerGame: 0.5 },
       ],
       careerEvents: [
         { year: 2006, title: "Went undrafted; signed with Philadelphia 76ers", eventType: "SIGNING" },
@@ -281,7 +281,7 @@ export const dukeBasketball2003: TeamSeed = {
         statsNote: "Freshman contributor • Sharpshooter",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 4.2, reboundsPerGame: 1.5, assistsPerGame: 0.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 21, pointsPerGame: 1.0, reboundsPerGame: 0.7, assistsPerGame: 0.3 },
       ],
       careerEvents: [
         { year: 2006, title: "Graduated from Duke; played briefly overseas", eventType: "CAREER" },

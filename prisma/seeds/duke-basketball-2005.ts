@@ -145,7 +145,7 @@ export const dukeBasketball2005: TeamSeed = {
         statsNote: "Freshman contributor • ACC All-Defensive Team (later years)",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 3.5, reboundsPerGame: 2.0, assistsPerGame: 0.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 6.2, reboundsPerGame: 4.5, assistsPerGame: 0.8 },
       ],
       careerEvents: [
         { year: 2008, title: "Graduated from Duke; went undrafted", eventType: "CAREER" },
@@ -213,7 +213,7 @@ export const dukeBasketball2005: TeamSeed = {
         statsNote: "Junior • Reliable perimeter shooter",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.5, reboundsPerGame: 2.5, assistsPerGame: 1.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 7.7, reboundsPerGame: 3.4, assistsPerGame: 0.8 },
       ],
       careerEvents: [
         { year: 2006, title: "Graduated from Duke", eventType: "CAREER" },
@@ -295,7 +295,7 @@ export const dukeBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Small Forward", yearsAtSchool: "2004-2009", statsNote: "Freshman walk-on • Earned scholarship" },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Freshman walk-on", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 0.5, reboundsPerGame: 0.4, assistsPerGame: 0.1 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Freshman walk-on", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 1.7, reboundsPerGame: 1.0, assistsPerGame: 0.5 },
       ],
       careerEvents: [
         { year: 2009, title: "Graduated from Duke", eventType: "CAREER" },

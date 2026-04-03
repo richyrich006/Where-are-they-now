@@ -710,7 +710,7 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote: "Walk-on • Part of 2015 national championship team • Political science major",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-2016", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 6, pointsPerGame: 0.0, reboundsPerGame: 0.0, assistsPerGame: 0.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-2016", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 1, pointsPerGame: 0.0, reboundsPerGame: 0.0, assistsPerGame: 0.0 },
       ],
       careerEvents: [
         {
@@ -866,7 +866,7 @@ export const dukeBasketball2015: TeamSeed = {
           "Walk-on • Computer science major • National Merit Scholar • Deryl Hart Award (top scholar-athlete) • Played in 29 career games including 2015 NCAA Tournament",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-2016", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 29, pointsPerGame: 0.6, reboundsPerGame: 0.3, assistsPerGame: 0.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-2016", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 10, pointsPerGame: 0.0, reboundsPerGame: 0.4, assistsPerGame: 0.0 },
       ],
       careerEvents: [
         {

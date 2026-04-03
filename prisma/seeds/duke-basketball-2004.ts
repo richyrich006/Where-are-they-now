@@ -253,7 +253,7 @@ export const dukeBasketball2004: TeamSeed = {
         statsNote: "Freshman backup PG • Athletic defender",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 5.8, reboundsPerGame: 2.0, assistsPerGame: 1.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 3.0, reboundsPerGame: 1.4, assistsPerGame: 1.3 },
       ],
       careerEvents: [
         { year: 2007, title: "Graduated from Duke; began overseas career", eventType: "CAREER" },
