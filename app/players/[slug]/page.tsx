@@ -140,9 +140,13 @@ function FootballStatsTable({ rows, showNotesBelow, position }: { rows: StatRow[
       { label: "TD", field: "reboundsPerGame", fmt: (v) => String(Math.round(v)) },
       { label: "INT", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
     ];
+    if (rows.some((r) => r.fieldGoalPct != null)) cols.push({ label: "COMP%", field: "fieldGoalPct" as any, fmt: (v) => (v * 100).toFixed(1) + "%" });
+    if (rows.some((r) => r.stealsPerGame != null)) cols.splice(0, 0, { label: "ATT", field: "stealsPerGame" as any, fmt: (v) => String(Math.round(v)) });
   } else if (isRB && hasNums) {
     cols = [
+      { label: "ATT", field: "stealsPerGame" as any, fmt: (v) => String(Math.round(v)) },
       { label: "RUSH YDS", field: "pointsPerGame", fmt: (v) => v.toLocaleString() },
+      { label: "AVG", field: "fieldGoalPct" as any, fmt: (v) => v.toFixed(1) },
       { label: "TD", field: "reboundsPerGame", fmt: (v) => String(Math.round(v)) },
       { label: "REC", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
     ];
@@ -150,19 +154,23 @@ function FootballStatsTable({ rows, showNotesBelow, position }: { rows: StatRow[
     cols = [
       { label: "REC", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
       { label: "REC YDS", field: "reboundsPerGame", fmt: (v) => v.toLocaleString() },
+      { label: "AVG", field: "fieldGoalPct" as any, fmt: (v) => v.toFixed(1) },
       { label: "TD", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
     ];
   } else if ((isDL || isLB) && hasNums) {
     cols = [
-      { label: "TKL", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "TOT TKL", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
       { label: "SACKS", field: "reboundsPerGame", fmt: (v) => v % 1 === 0 ? String(v) : v.toFixed(1) },
-      { label: "FF", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "TFL", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "INT", field: "fieldGoalPct" as any, fmt: (v) => String(Math.round(v)) },
+      { label: "FF", field: "stealsPerGame" as any, fmt: (v) => String(Math.round(v)) },
     ];
   } else if (isDB && hasNums) {
     cols = [
-      { label: "TKL", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "TOT TKL", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
       { label: "INT", field: "reboundsPerGame", fmt: (v) => String(Math.round(v)) },
       { label: "PD", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "FF", field: "stealsPerGame" as any, fmt: (v) => String(Math.round(v)) },
     ];
   } else if (isKP && hasNums) {
     cols = [
