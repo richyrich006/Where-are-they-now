@@ -183,7 +183,8 @@ function FootballStatsTable({ rows, showNotesBelow, position }: { rows: StatRow[
   // Filter cols to only those that have data
   cols = cols.filter((c) => rows.some((r) => r[c.field] != null));
 
-  const hasResult = hasAny(rows, "tournamentResult");
+  // Only show Notes column if there are NO numeric stat columns (e.g. OL players)
+  const hasResult = cols.length === 0 && hasAny(rows, "tournamentResult");
 
   return (
     <div className="overflow-x-auto">

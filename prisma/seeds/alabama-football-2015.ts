@@ -138,9 +138,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Heisman Trophy · 2,219 rush yards · 28 TDs · Doak Walker Award · Maxwell Award", gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2013", yearLabel: "Freshman", sortOrder: 101, gamesPlayed: 9, pointsPerGame: 382, reboundsPerGame: 3, stealsPerGame: 35, fieldGoalPct: 10.9, tournamentResult: "382 rush yds, 3 TD" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 14, pointsPerGame: 990, reboundsPerGame: 11, stealsPerGame: 172, fieldGoalPct: 5.8, tournamentResult: "990 rush yds, 11 TD" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Junior (Heisman, National Champion)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 2219, reboundsPerGame: 28, stealsPerGame: 395, fieldGoalPct: 5.6, tournamentResult: "2,219 rush yds, 28 TD, Heisman Trophy" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2013", yearLabel: "2013", sortOrder: 101, gamesPlayed: 9, pointsPerGame: 382, reboundsPerGame: 3, stealsPerGame: 35, fieldGoalPct: 10.9, tournamentResult: "382 rush yds, 3 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "2014", sortOrder: 102, gamesPlayed: 14, pointsPerGame: 990, reboundsPerGame: 11, stealsPerGame: 172, fieldGoalPct: 5.8, tournamentResult: "990 rush yds, 11 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (Heisman, National Champion)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 2219, reboundsPerGame: 28, stealsPerGame: 395, fieldGoalPct: 5.6, tournamentResult: "2,219 rush yds, 28 TD, Heisman Trophy" },
         { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2016", yearLabel: "2016 (Rookie)", sortOrder: 301, gamesPlayed: 15, pointsPerGame: 490, reboundsPerGame: 5, stealsPerGame: 110, fieldGoalPct: 4.5, tournamentResult: "490 rush yds, 5 TD" },
         { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2017", yearLabel: "2017", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 744, reboundsPerGame: 5, stealsPerGame: 176, fieldGoalPct: 4.2, tournamentResult: "744 rush yds, 5 TD" },
         { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2018", yearLabel: "2018", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 1059, reboundsPerGame: 12, stealsPerGame: 215, fieldGoalPct: 4.9, tournamentResult: "1,059 rush yds, 12 TD" },
@@ -187,7 +187,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Senior (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 3110, reboundsPerGame: 21, assistsPerGame: 8, stealsPerGame: 393, fieldGoalPct: 0.636, tournamentResult: "250/393 passing, 3,110 yds, 21 TD, 8 INT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 3110, reboundsPerGame: 21, assistsPerGame: 8, stealsPerGame: 393, fieldGoalPct: 0.636, tournamentResult: "250/393 passing, 3,110 yds, 21 TD, 8 INT" },
       ],
       careerEvents: [
         { year: 2016, title: "Signed as UDFA with Arizona Cardinals", eventType: "SIGNING" },
@@ -223,9 +223,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "68 catches · 1,045 yards · 7 TDs as freshman · Led team in receiving", gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 89, reboundsPerGame: 1045, assistsPerGame: 7, tournamentResult: "89 rec, 1,045 yds, 7 TD" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 14, pointsPerGame: 72, reboundsPerGame: 769, assistsPerGame: 7, tournamentResult: "72 rec, 769 yds, 7 TD" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 63, reboundsPerGame: 967, assistsPerGame: 5, tournamentResult: "63 rec, 967 yds, 5 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 89, reboundsPerGame: 1045, assistsPerGame: 7, tournamentResult: "89 rec, 1,045 yds, 7 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 102, gamesPlayed: 14, pointsPerGame: 72, reboundsPerGame: 769, assistsPerGame: 7, tournamentResult: "72 rec, 769 yds, 7 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "2017", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 63, reboundsPerGame: 967, assistsPerGame: 5, tournamentResult: "63 rec, 967 yds, 5 TD" },
         { level: "PROFESSIONAL", teamName: "Atlanta Falcons", season: "2018", yearLabel: "2018 (Rookie)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 64, reboundsPerGame: 821, assistsPerGame: 10, tournamentResult: "64 rec, 821 yds, 10 TD" },
         { level: "PROFESSIONAL", teamName: "Atlanta Falcons", season: "2020", yearLabel: "2020", sortOrder: 303, gamesPlayed: 15, pointsPerGame: 90, reboundsPerGame: 1374, assistsPerGame: 9, tournamentResult: "90 rec, 1,374 yds, 9 TD" },
         { level: "PROFESSIONAL", teamName: "Atlanta Falcons", season: "2021", yearLabel: "2021 (Suspended)", sortOrder: 304, gamesPlayed: 5, pointsPerGame: 31, reboundsPerGame: 281, assistsPerGame: 2, tournamentResult: "31 rec, 281 yds, 2 TD" },
@@ -265,7 +265,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Senior (National Champion)", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 408, reboundsPerGame: 6, assistsPerGame: 22, tournamentResult: "408 rush yds, 6 TD, 22 rec, 267 rec yds, 4 KR TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 408, reboundsPerGame: 6, assistsPerGame: 22, tournamentResult: "408 rush yds, 6 TD, 22 rec, 267 rec yds, 4 KR TD" },
         { level: "PROFESSIONAL", teamName: "Miami Dolphins", season: "2016", yearLabel: "2016", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 179, reboundsPerGame: 1, assistsPerGame: 21, tournamentResult: "179 rush yds, 1 TD, 21 rec" },
         { level: "PROFESSIONAL", teamName: "Miami Dolphins", season: "2018", yearLabel: "2018", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 535, reboundsPerGame: 4, assistsPerGame: 22, tournamentResult: "535 rush yds, 4 TD, 22 rec" },
         { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2019", yearLabel: "2019", sortOrder: 304, gamesPlayed: 14, pointsPerGame: 643, reboundsPerGame: 8, tournamentResult: "643 rush yds, 8 TD (traded mid-season)" },
@@ -305,10 +305,10 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2012", yearLabel: "Freshman", sortOrder: 101, gamesPlayed: 13, tournamentResult: "Started 13 games at center" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2013", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 13, tournamentResult: "Started 13 games" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 15, tournamentResult: "Started 15 games" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Senior (Rimington Award, National Champion)", sortOrder: 104, gamesPlayed: 15, tournamentResult: "Started 15 games, Rimington Trophy (best center)" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2012", yearLabel: "2012", sortOrder: 101, gamesPlayed: 13, tournamentResult: "Started 13 games at center" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2013", yearLabel: "2013", sortOrder: 102, gamesPlayed: 13, tournamentResult: "Started 13 games" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "2014 (National Champion)", sortOrder: 103, gamesPlayed: 15, tournamentResult: "Started 15 games" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (Rimington Award, National Champion)", sortOrder: 104, gamesPlayed: 15, tournamentResult: "Started 15 games, Rimington Trophy (best center)" },
         { level: "PROFESSIONAL", teamName: "Indianapolis Colts", season: "2016", yearLabel: "2016 (1st round)", sortOrder: 301, gamesPlayed: 16, tournamentResult: "Started 16 games" },
         { level: "PROFESSIONAL", teamName: "Indianapolis Colts", season: "2018", yearLabel: "2018 (Pro Bowl)", sortOrder: 303, gamesPlayed: 16, tournamentResult: "Started 16 games" },
         { level: "PROFESSIONAL", teamName: "Indianapolis Colts", season: "2020", yearLabel: "2020", sortOrder: 305, gamesPlayed: 16, tournamentResult: "Started 16 games" },
@@ -349,7 +349,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Senior (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 102, reboundsPerGame: 1.5, tournamentResult: "102 tackles, 6 TFL, 1.5 sacks (Butkus finalist)" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 102, reboundsPerGame: 1.5, tournamentResult: "102 tackles, 6 TFL, 1.5 sacks (Butkus finalist)" },
         { level: "PROFESSIONAL", teamName: "Buffalo Bills", season: "2016", yearLabel: "2016 (torn ACL)", sortOrder: 301, gamesPlayed: 0, tournamentResult: "Torn ACL in training camp; missed entire season" },
         { level: "PROFESSIONAL", teamName: "Kansas City Chiefs", season: "2017", yearLabel: "2017 (traded)", sortOrder: 302, gamesPlayed: 14, pointsPerGame: 30, tournamentResult: "30 tackles" },
         { level: "PROFESSIONAL", teamName: "Kansas City Chiefs", season: "2018", yearLabel: "2018", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 42, tournamentResult: "42 tackles" },
@@ -391,7 +391,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Consensus All-American · 2x SEC Champion · 29 starts" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Consensus All-American · 2x SEC Champion · 29 starts" },
       ],
       careerEvents: [
         { year: 2016, title: "Drafted by Detroit Lions (2nd round, #46)", eventType: "DRAFT" },
@@ -427,7 +427,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "57 tackles · 1 sack · 28 career starts at Alabama" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "57 tackles · 1 sack · 28 career starts at Alabama" },
       ],
       careerEvents: [
         { year: 2016, title: "Drafted by Seattle Seahawks (2nd round, #49)", eventType: "DRAFT" },
@@ -465,8 +465,8 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Sophomore (National Champion)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 47, reboundsPerGame: 12.0, assistsPerGame: 5, tournamentResult: "47 tackles, 12.0 sacks" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Junior (SEC DPOY)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 69, reboundsPerGame: 10.5, assistsPerGame: 16, tournamentResult: "69 tackles, 10.5 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 47, reboundsPerGame: 12.0, assistsPerGame: 5, tournamentResult: "47 tackles, 12.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016 (SEC DPOY)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 69, reboundsPerGame: 10.5, assistsPerGame: 16, tournamentResult: "69 tackles, 10.5 sacks" },
         { level: "PROFESSIONAL", teamName: "Washington", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 12, pointsPerGame: 24, reboundsPerGame: 3.0, assistsPerGame: 5, tournamentResult: "24 tackles, 3.0 sacks" },
         { level: "PROFESSIONAL", teamName: "Washington", season: "2019", yearLabel: "2019", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 54, reboundsPerGame: 3.5, assistsPerGame: 6, tournamentResult: "54 tackles, 3.5 sacks" },
         { level: "PROFESSIONAL", teamName: "Washington", season: "2021", yearLabel: "2021 (Pro Bowl)", sortOrder: 305, gamesPlayed: 17, pointsPerGame: 64, reboundsPerGame: 9.0, assistsPerGame: 9, tournamentResult: "64 tackles, 9.0 sacks" },
@@ -507,8 +507,8 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Junior (National Champion)", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 68, reboundsPerGame: 2, stealsPerGame: 1, fieldGoalPct: 2, tournamentResult: "68 tackles, 2 INT, 1 FR" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Senior", sortOrder: 102, gamesPlayed: 8, pointsPerGame: 28, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "28 tackles, 2 INT (broken leg)" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 68, reboundsPerGame: 2, stealsPerGame: 1, fieldGoalPct: 2, tournamentResult: "68 tackles, 2 INT, 1 FR" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 102, gamesPlayed: 8, pointsPerGame: 28, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "28 tackles, 2 INT (broken leg)" },
         { level: "PROFESSIONAL", teamName: "Chicago Bears", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 15, pointsPerGame: 70, reboundsPerGame: 6, fieldGoalPct: 6, tournamentResult: "70 tackles, 6 INT (All-Pro)" },
         { level: "PROFESSIONAL", teamName: "Chicago Bears", season: "2018", yearLabel: "2018 (1st Team All-Pro)", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 51, reboundsPerGame: 6, fieldGoalPct: 6, tournamentResult: "51 tackles, 6 INT, 2 defensive TD" },
         { level: "PROFESSIONAL", teamName: "Chicago Bears", season: "2020", yearLabel: "2020", sortOrder: 304, gamesPlayed: 16, pointsPerGame: 64, reboundsPerGame: 3, fieldGoalPct: 3, tournamentResult: "64 tackles, 3 INT" },
@@ -550,9 +550,9 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 45, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "45 tackles, 2 INT" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore (Thorpe Award)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 48, reboundsPerGame: 6, fieldGoalPct: 6, tournamentResult: "48 tackles, 6 INT" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 58, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "58 tackles, 2 INT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 45, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "45 tackles, 2 INT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016 (Thorpe Award)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 48, reboundsPerGame: 6, fieldGoalPct: 6, tournamentResult: "48 tackles, 6 INT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "2017", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 58, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "58 tackles, 2 INT" },
         { level: "PROFESSIONAL", teamName: "MIA / Pittsburgh Steelers", season: "2018", yearLabel: "2018", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 80, reboundsPerGame: 2, assistsPerGame: 9, fieldGoalPct: 2, tournamentResult: "80 tackles, 2 INT" },
         { level: "PROFESSIONAL", teamName: "Pittsburgh Steelers", season: "2019", yearLabel: "2019 (1st Team All-Pro)", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 57, reboundsPerGame: 5, assistsPerGame: 8, fieldGoalPct: 5, tournamentResult: "57 tackles, 5 INT" },
         { level: "PROFESSIONAL", teamName: "Pittsburgh Steelers", season: "2020", yearLabel: "2020 (1st Team All-Pro)", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 79, reboundsPerGame: 4, assistsPerGame: 11, fieldGoalPct: 4, tournamentResult: "79 tackles, 4 INT" },
@@ -595,9 +595,9 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Freshman", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 27, reboundsPerGame: 1, fieldGoalPct: 1, tournamentResult: "27 tackles, 1 INT" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Sophomore (National Champion)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 37, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "37 tackles, 2 INT" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Junior", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 32, reboundsPerGame: 3, fieldGoalPct: 3, tournamentResult: "32 tackles, 3 INT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "2014", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 27, reboundsPerGame: 1, fieldGoalPct: 1, tournamentResult: "27 tackles, 1 INT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 37, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "37 tackles, 2 INT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 32, reboundsPerGame: 3, fieldGoalPct: 3, tournamentResult: "32 tackles, 3 INT" },
         { level: "PROFESSIONAL", teamName: "Baltimore Ravens", season: "2017", yearLabel: "2017 (1st round)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 33, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "33 tackles, 2 INT" },
         { level: "PROFESSIONAL", teamName: "Baltimore Ravens", season: "2019", yearLabel: "2019 (All-Pro)", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 65, reboundsPerGame: 3, assistsPerGame: 3, stealsPerGame: 3, fieldGoalPct: 3, tournamentResult: "65 tackles, 3 INT, 3 FF, 2 FR" },
         { level: "PROFESSIONAL", teamName: "Baltimore Ravens", season: "2020", yearLabel: "2020 (Pro Bowl)", sortOrder: 304, gamesPlayed: 16, pointsPerGame: 82, reboundsPerGame: 1, assistsPerGame: 8, stealsPerGame: 8, fieldGoalPct: 1, tournamentResult: "82 tackles, 1 INT, 8 FF" },
@@ -637,9 +637,9 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 10,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 23, reboundsPerGame: 1.0, tournamentResult: "23 tackles, 1.0 sacks" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 40, reboundsPerGame: 2.0, tournamentResult: "40 tackles, 2.0 sacks" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 53, reboundsPerGame: 3.5, tournamentResult: "53 tackles, 3.5 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 23, reboundsPerGame: 1.0, tournamentResult: "23 tackles, 1.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 40, reboundsPerGame: 2.0, tournamentResult: "40 tackles, 2.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "2017 (National Champion)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 53, reboundsPerGame: 3.5, tournamentResult: "53 tackles, 3.5 sacks" },
         { level: "PROFESSIONAL", teamName: "Washington", season: "2018", yearLabel: "2018 (1st round, #13)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 41, reboundsPerGame: 5.0, tournamentResult: "41 tackles, 5.0 sacks" },
         { level: "PROFESSIONAL", teamName: "Washington Commanders", season: "2021", yearLabel: "2021", sortOrder: 304, gamesPlayed: 17, pointsPerGame: 61, reboundsPerGame: 4.0, tournamentResult: "61 tackles, 4.0 sacks" },
         { level: "PROFESSIONAL", teamName: "Washington Commanders", season: "2022", yearLabel: "2022 (Pro Bowl)", sortOrder: 305, gamesPlayed: 17, pointsPerGame: 64, reboundsPerGame: 3.5, tournamentResult: "64 tackles, 3.5 sacks" },
@@ -675,7 +675,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Cotton Bowl Defensive MVP · 4 punt return TDs in 2015 · 42 returns for 530 yards" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Cotton Bowl Defensive MVP · 4 punt return TDs in 2015 · 42 returns for 530 yards" },
       ],
       careerEvents: [
         { year: 2016, title: "Drafted by New England Patriots (2nd round, #60)", eventType: "DRAFT" },
@@ -710,7 +710,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Key sophomore contributor in 2015 · Led team receiving in 2016" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Key sophomore contributor in 2015 · Led team receiving in 2016" },
       ],
       careerEvents: [
         { year: 2017, title: "Drafted by New York Jets (3rd round, #79)", eventType: "DRAFT" },
@@ -744,7 +744,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "38 catches · 5 TDs · Played in all 15 games · Graduate transfer from Oregon State" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "38 catches · 5 TDs · Played in all 15 games · Graduate transfer from Oregon State" },
       ],
       careerEvents: [
         { year: 2016, title: "Signed as UDFA with Houston Texans", eventType: "SIGNING" },
@@ -779,9 +779,9 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Sophomore", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 17, reboundsPerGame: 260, assistsPerGame: 2, tournamentResult: "17 rec, 260 yds, 2 TD" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Junior (National Champion)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 38, reboundsPerGame: 602, assistsPerGame: 2, tournamentResult: "38 rec, 602 yds, 2 TD (Natl Title game: 5 rec, 208 yds)" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Senior", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 45, reboundsPerGame: 595, assistsPerGame: 3, tournamentResult: "45 rec, 595 yds, 3 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "2014", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 17, reboundsPerGame: 260, assistsPerGame: 2, tournamentResult: "17 rec, 260 yds, 2 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 38, reboundsPerGame: 602, assistsPerGame: 2, tournamentResult: "38 rec, 602 yds, 2 TD (Natl Title game: 5 rec, 208 yds)" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 45, reboundsPerGame: 595, assistsPerGame: 3, tournamentResult: "45 rec, 595 yds, 3 TD" },
         { level: "PROFESSIONAL", teamName: "Tampa Bay Buccaneers", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 26, reboundsPerGame: 432, assistsPerGame: 6, tournamentResult: "26 rec, 432 yds, 6 TD" },
         { level: "PROFESSIONAL", teamName: "Tampa Bay Buccaneers", season: "2018", yearLabel: "2018", sortOrder: 302, gamesPlayed: 10, pointsPerGame: 34, reboundsPerGame: 565, assistsPerGame: 5, tournamentResult: "34 rec, 565 yds, 5 TD" },
         { level: "PROFESSIONAL", teamName: "Tampa Bay Buccaneers", season: "2020", yearLabel: "2020 (Super Bowl Champion)", sortOrder: 304, gamesPlayed: 4, pointsPerGame: 11, reboundsPerGame: 146, assistsPerGame: 2, tournamentResult: "11 rec, 146 yds, 2 TD (torn Achilles)" },
@@ -819,7 +819,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "357 career points · 57 FGs · 55-yard FG vs LSU · Crucial onside kick in championship" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "357 career points · 57 FGs · 55-yard FG vs LSU · Crucial onside kick in championship" },
       ],
       careerEvents: [
         { year: 2015, title: "55-yard field goal vs LSU", eventType: "MILESTONE" },
@@ -853,9 +853,9 @@ export const alabamaFootball2015: TeamSeed = {
         statsNote: "Started all 15 games at LT · First true freshman LT since Andre Smith · Outland Trophy winner (2016)", gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Freshman (started as true freshman)", sortOrder: 101, gamesPlayed: 15, tournamentResult: "Started 15 games at LT" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Sophomore (National Champion)", sortOrder: 102, gamesPlayed: 15, tournamentResult: "Started 15 games" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Junior (Outland Trophy)", sortOrder: 103, gamesPlayed: 14, tournamentResult: "Started 14 games, Outland Trophy winner" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "2014 (started as true freshman)", sortOrder: 101, gamesPlayed: 15, tournamentResult: "Started 15 games at LT" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 102, gamesPlayed: 15, tournamentResult: "Started 15 games" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016 (Outland Trophy)", sortOrder: 103, gamesPlayed: 14, tournamentResult: "Started 14 games, Outland Trophy winner" },
         { level: "PROFESSIONAL", teamName: "Jacksonville Jaguars", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 14, tournamentResult: "Started 14 games" },
         { level: "PROFESSIONAL", teamName: "Jacksonville Jaguars", season: "2020", yearLabel: "2020", sortOrder: 304, gamesPlayed: 16, tournamentResult: "Started 16 games" },
         { level: "PROFESSIONAL", teamName: "Jacksonville Jaguars", season: "2023", yearLabel: "2023 (franchise tag)", sortOrder: 307, gamesPlayed: 16, tournamentResult: "Started 16 games" },
@@ -893,7 +893,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Started at RG in 2015 · Moved to center in 2017 · All-American · 31 career starts" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Started at RG in 2015 · Moved to center in 2017 · All-American · 31 career starts" },
       ],
       careerEvents: [
         { year: 2018, title: "Drafted by Baltimore Ravens (6th round, #215)", eventType: "DRAFT" },
@@ -928,7 +928,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Started at LG in 2015 · 57 career starts · 3x All-SEC · Rimington Trophy finalist" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Started at LG in 2015 · 57 career starts · 3x All-SEC · Rimington Trophy finalist" },
       ],
       careerEvents: [
         { year: 2019, title: "Drafted by Washington (5th round, #153)", eventType: "DRAFT" },
@@ -962,7 +962,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Started all 15 games at RT · JUCO transfer · 48 knockdowns in 2015" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Started all 15 games at RT · JUCO transfer · 48 knockdowns in 2015" },
       ],
       careerEvents: [
         { year: 2016, title: "Signed as UDFA with Washington", eventType: "SIGNING" },
@@ -994,8 +994,8 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Sophomore (National Champion)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 73, reboundsPerGame: 1.5, tournamentResult: "73 tackles, 1.5 sacks" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Junior (Butkus Award)", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 115, reboundsPerGame: 5.0, tournamentResult: "115 tackles, 5.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 73, reboundsPerGame: 1.5, tournamentResult: "73 tackles, 1.5 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016 (Butkus Award)", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 115, reboundsPerGame: 5.0, tournamentResult: "115 tackles, 5.0 sacks" },
         { level: "PROFESSIONAL", teamName: "San Francisco 49ers", season: "2017", yearLabel: "2017 (1st round)", sortOrder: 301, gamesPlayed: 10, pointsPerGame: 72, reboundsPerGame: 1.0, tournamentResult: "72 tackles, 1.0 sacks" },
         { level: "PROFESSIONAL", teamName: "SF 49ers / Washington", season: "2018", yearLabel: "2018", sortOrder: 302, gamesPlayed: 6, pointsPerGame: 29, tournamentResult: "29 tackles (released, claimed by WAS)" },
       ],
@@ -1032,8 +1032,8 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Sophomore (National Champion)", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 19, reboundsPerGame: 5.0, tournamentResult: "19 tackles, 5.0 sacks" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Junior", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 29, reboundsPerGame: 10.5, tournamentResult: "29 tackles, 10.5 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 19, reboundsPerGame: 5.0, tournamentResult: "19 tackles, 5.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 29, reboundsPerGame: 10.5, tournamentResult: "29 tackles, 10.5 sacks" },
         { level: "PROFESSIONAL", teamName: "Baltimore Ravens", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 12, pointsPerGame: 5, reboundsPerGame: 1.5, tournamentResult: "5 tackles, 1.5 sacks" },
       ],
       careerEvents: [
@@ -1068,7 +1068,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Rotational OLB in 2015 · 1st-team All-SEC in 2016 · 19 career sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Rotational OLB in 2015 · 1st-team All-SEC in 2016 · 19 career sacks" },
       ],
       careerEvents: [
         { year: 2017, title: "Drafted by Washington (2nd round, #49)", eventType: "DRAFT" },
@@ -1104,9 +1104,9 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 12,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 14, tournamentResult: "14 tackles" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 37, reboundsPerGame: 5.0, tournamentResult: "37 tackles, 5.0 sacks" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 66, reboundsPerGame: 6.0, tournamentResult: "66 tackles, 6.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 14, tournamentResult: "14 tackles" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 37, reboundsPerGame: 5.0, tournamentResult: "37 tackles, 5.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "2017 (National Champion)", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 66, reboundsPerGame: 6.0, tournamentResult: "66 tackles, 6.0 sacks" },
         { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2018", yearLabel: "2018 (1st round, #22)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 58, reboundsPerGame: 1.0, tournamentResult: "58 tackles, 1.0 sacks" },
         { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2020", yearLabel: "2020", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 96, reboundsPerGame: 1.0, tournamentResult: "96 tackles, 1.0 sacks" },
         { level: "PROFESSIONAL", teamName: "Atlanta Falcons", season: "2022", yearLabel: "2022", sortOrder: 305, gamesPlayed: 16, pointsPerGame: 79, reboundsPerGame: 1.0, tournamentResult: "79 tackles, 1.0 sacks" },
@@ -1144,9 +1144,9 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "Sophomore", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 26, reboundsPerGame: 1.5, tournamentResult: "26 tackles, 1.5 sacks" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Junior (National Champion)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 36, reboundsPerGame: 3.0, tournamentResult: "36 tackles, 3.0 sacks" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Senior", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 62, reboundsPerGame: 3.5, tournamentResult: "62 tackles, 3.5 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2014", yearLabel: "2014", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 26, reboundsPerGame: 1.5, tournamentResult: "26 tackles, 1.5 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 36, reboundsPerGame: 3.0, tournamentResult: "36 tackles, 3.0 sacks" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 62, reboundsPerGame: 3.5, tournamentResult: "62 tackles, 3.5 sacks" },
         { level: "PROFESSIONAL", teamName: "New York Giants", season: "2017", yearLabel: "2017", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 49, reboundsPerGame: 1.0, tournamentResult: "49 tackles, 1.0 sacks" },
         { level: "PROFESSIONAL", teamName: "New York Giants", season: "2019", yearLabel: "2019", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 49, reboundsPerGame: 3.5, tournamentResult: "49 tackles, 3.5 sacks" },
         { level: "PROFESSIONAL", teamName: "Minnesota Vikings", season: "2021", yearLabel: "2021", sortOrder: 305, gamesPlayed: 16, pointsPerGame: 37, reboundsPerGame: 3.0, tournamentResult: "37 tackles, 3.0 sacks" },
@@ -1186,7 +1186,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 15, tournamentResult: "50 career games · 25 starts · 83 tackles · 6 sacks · 13 QB hurries" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "50 career games · 25 starts · 83 tackles · 6 sacks · 13 QB hurries" },
       ],
       careerEvents: [
         { year: 2016, title: "Joined Alabama football staff as personnel assistant", eventType: "CAREER_CHANGE" },
@@ -1221,9 +1221,9 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 15,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 55, reboundsPerGame: 45.4, tournamentResult: "55 punts, 45.4 avg, 16 inside 20" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 59, reboundsPerGame: 47.3, tournamentResult: "59 punts, 47.3 avg" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 51, reboundsPerGame: 44.7, tournamentResult: "51 punts, 44.7 avg" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 15, pointsPerGame: 55, reboundsPerGame: 45.4, tournamentResult: "55 punts, 45.4 avg, 16 inside 20" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 59, reboundsPerGame: 47.3, tournamentResult: "59 punts, 47.3 avg" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "2017 (National Champion)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 51, reboundsPerGame: 44.7, tournamentResult: "51 punts, 44.7 avg" },
         { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2018", yearLabel: "2018 (5th round)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 71, reboundsPerGame: 44.7, tournamentResult: "71 punts, 44.7 avg" },
         { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2019", yearLabel: "2019", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 64, reboundsPerGame: 43.4, tournamentResult: "64 punts, 43.4 avg" },
       ],
@@ -1430,10 +1430,10 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 10,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 157, reboundsPerGame: 1, tournamentResult: "157 rush yds, 1 TD" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 1037, reboundsPerGame: 2, tournamentResult: "1,037 rush yds, 2 TD" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 1000, reboundsPerGame: 11, tournamentResult: "1,000 rush yds, 11 TD" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2018", yearLabel: "Senior", sortOrder: 104, gamesPlayed: 15, pointsPerGame: 876, reboundsPerGame: 9, tournamentResult: "876 rush yds, 9 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 14, pointsPerGame: 157, reboundsPerGame: 1, tournamentResult: "157 rush yds, 1 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 102, gamesPlayed: 15, pointsPerGame: 1037, reboundsPerGame: 2, tournamentResult: "1,037 rush yds, 2 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "2017 (National Champion)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 1000, reboundsPerGame: 11, tournamentResult: "1,000 rush yds, 11 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2018", yearLabel: "2018", sortOrder: 104, gamesPlayed: 15, pointsPerGame: 876, reboundsPerGame: 9, tournamentResult: "876 rush yds, 9 TD" },
         { level: "PROFESSIONAL", teamName: "New England Patriots", season: "2019", yearLabel: "2019", sortOrder: 301, gamesPlayed: 4, pointsPerGame: 12, tournamentResult: "12 rush yds" },
         { level: "PROFESSIONAL", teamName: "New England Patriots", season: "2021", yearLabel: "2021", sortOrder: 303, gamesPlayed: 15, pointsPerGame: 929, reboundsPerGame: 15, tournamentResult: "929 rush yds, 15 TD" },
         { level: "PROFESSIONAL", teamName: "Buffalo Bills", season: "2023", yearLabel: "2023", sortOrder: 305, gamesPlayed: 9, pointsPerGame: 245, reboundsPerGame: 1, tournamentResult: "245 rush yds, 1 TD" },
@@ -1469,9 +1469,9 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 4,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "Freshman (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 298, reboundsPerGame: 6, tournamentResult: "298 rush yds, 6 TD" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "Sophomore", sortOrder: 102, gamesPlayed: 11, pointsPerGame: 594, reboundsPerGame: 6, tournamentResult: "594 rush yds, 6 TD" },
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "Junior (National Champion)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 596, reboundsPerGame: 8, tournamentResult: "596 rush yds, 8 TD (Natl Title game: 93 yds)" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015", yearLabel: "2015 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 298, reboundsPerGame: 6, tournamentResult: "298 rush yds, 6 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2016", yearLabel: "2016", sortOrder: 102, gamesPlayed: 11, pointsPerGame: 594, reboundsPerGame: 6, tournamentResult: "594 rush yds, 6 TD" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2017", yearLabel: "2017 (National Champion)", sortOrder: 103, gamesPlayed: 15, pointsPerGame: 596, reboundsPerGame: 8, tournamentResult: "596 rush yds, 8 TD (Natl Title game: 93 yds)" },
       ],
       careerEvents: [
         { year: 2018, title: "Drafted by Dallas Cowboys (7th round, #236)", eventType: "DRAFT" },
@@ -1505,7 +1505,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 12,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 12, tournamentResult: "True freshman contributor in 2015 · 2x National Champion" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 12, tournamentResult: "True freshman contributor in 2015 · 2x National Champion" },
       ],
       careerEvents: [
         { year: 2018, title: "Drafted by Jacksonville Jaguars (3rd round, #93)", eventType: "DRAFT" },
@@ -1538,7 +1538,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 14,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 14, tournamentResult: "Backup MLB in 2015 · Team captain in 2017 · 2x National Champion" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 14, tournamentResult: "Backup MLB in 2015 · Team captain in 2017 · 2x National Champion" },
       ],
       careerEvents: [
         { year: 2018, title: "Drafted by Washington (6th round, #197)", eventType: "DRAFT" },
@@ -1570,7 +1570,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 12,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 12, tournamentResult: "#1 overall recruit in 2014 class · Rotational DE in 2015" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 12, tournamentResult: "#1 overall recruit in 2014 class · Rotational DE in 2015" },
       ],
       careerEvents: [
         { year: 2018, title: "Drafted by Detroit Lions (4th round, #114)", eventType: "DRAFT" },
@@ -1601,7 +1601,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 12,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 12, tournamentResult: "Depth WR in 2015 · Breakout NFL rookie season in 2018" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 12, tournamentResult: "Depth WR in 2015 · Breakout NFL rookie season in 2018" },
       ],
       careerEvents: [
         { year: 2018, title: "Signed as UDFA with Buffalo Bills", eventType: "SIGNING" },
@@ -1633,7 +1633,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 5,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Unknown", sortOrder: 201, gamesPlayed: 5, tournamentResult: "Walk-on who earned scholarship · Reserve DB in 2015" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 5, tournamentResult: "Walk-on who earned scholarship · Reserve DB in 2015" },
       ],
       careerEvents: [
         { year: 2018, title: "Signed as UDFA with Buffalo Bills", eventType: "SIGNING" },
@@ -1665,7 +1665,7 @@ export const alabamaFootball2015: TeamSeed = {
         gamesPlayed: 8,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 8, tournamentResult: "True freshman OLB in 2015 · Part of deep pass-rush rotation" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 8, tournamentResult: "True freshman OLB in 2015 · Part of deep pass-rush rotation" },
       ],
       careerEvents: [
         { year: 2019, title: "Drafted by Carolina Panthers (4th round, #115)", eventType: "DRAFT" },
@@ -1690,7 +1690,7 @@ export const alabamaFootball2015: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 50, position: "Offensive Guard", yearsAtSchool: "2012-2015", statsNote: "Senior starter · Starting RG on championship O-line", gamesPlayed: 15 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior starter · Starting RG on championship O-line" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior starter · Starting RG on championship O-line" },
       ],
       careerEvents: [{ year: 2016, title: "Signed as UDFA with Cleveland Browns", eventType: "SIGNING" }],
     },
@@ -1712,7 +1712,7 @@ export const alabamaFootball2015: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Cornerback", yearsAtSchool: "2015-2017", statsNote: "True freshman · 5-star recruit · Later drafted by Packers", gamesPlayed: 12 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 12, tournamentResult: "True freshman · 5-star recruit · Later drafted by Packers" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 12, tournamentResult: "True freshman · 5-star recruit · Later drafted by Packers" },
       ],
       careerEvents: [{ year: 2018, title: "Drafted by Green Bay Packers (6th round)", eventType: "DRAFT" }],
     },
@@ -1734,7 +1734,7 @@ export const alabamaFootball2015: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 28, position: "Cornerback", yearsAtSchool: "2014-2017", statsNote: "Sophomore contributor · Later drafted by Ravens (4th round)", gamesPlayed: 12 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 12, tournamentResult: "Sophomore contributor · Later drafted by Ravens (4th round)" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 12, tournamentResult: "Sophomore contributor · Later drafted by Ravens (4th round)" },
       ],
       careerEvents: [{ year: 2018, title: "Drafted by Baltimore Ravens (4th round)", eventType: "DRAFT" }],
     },
@@ -1755,7 +1755,7 @@ export const alabamaFootball2015: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 24, position: "Safety", yearsAtSchool: "2012-2015", statsNote: "Senior starter · Starting safety alongside Eddie Jackson", gamesPlayed: 15 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior starter · Starting safety alongside Eddie Jackson" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior starter · Starting safety alongside Eddie Jackson" },
       ],
       careerEvents: [],
     },
@@ -1776,7 +1776,7 @@ export const alabamaFootball2015: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 57, position: "Defensive Tackle", yearsAtSchool: "2012-2015", statsNote: "Senior · Rotational DT alongside Robinson and Reed", gamesPlayed: 15 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior · Rotational DT alongside Robinson and Reed" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior · Rotational DT alongside Robinson and Reed" },
       ],
       careerEvents: [],
     },
@@ -1797,7 +1797,7 @@ export const alabamaFootball2015: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 47, position: "Defensive End / Outside Linebacker", yearsAtSchool: "2012-2015", statsNote: "Senior · Pass rush contributor", gamesPlayed: 15 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior · Pass rush contributor" },
+        { level: "COLLEGE", teamName: "Alabama Crimson Tide", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 15, tournamentResult: "Senior · Pass rush contributor" },
       ],
       careerEvents: [{ year: 2016, title: "Signed as UDFA with Cincinnati Bengals", eventType: "SIGNING" }],
     },
