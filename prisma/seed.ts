@@ -1,6 +1,7 @@
 import { PrismaClient } from "../app/generated/prisma/client";
 import { PrismaBetterSqlite3 } from "@prisma/adapter-better-sqlite3";
 import type { TeamSeed, PersonSeed } from "./seeds/types";
+import { dukeBasketball2006 } from "./seeds/duke-basketball-2006";
 import { dukeBasketball2010 } from "./seeds/duke-basketball-2010";
 import { dukeBasketball2011 } from "./seeds/duke-basketball-2011";
 import { dukeBasketball2012 } from "./seeds/duke-basketball-2012";
@@ -38,6 +39,7 @@ const allTeams: TeamSeed[] = [
   dukeBasketball2003,
   dukeBasketball2004,
   dukeBasketball2005,
+  dukeBasketball2006,
   dukeBasketball2010,
   dukeBasketball2011,
   dukeBasketball2012,
