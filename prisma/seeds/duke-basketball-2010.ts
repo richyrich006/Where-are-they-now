@@ -117,7 +117,6 @@ export const dukeBasketball2010: TeamSeed = {
       hometown: "Haddonfield, NJ",
       highSchool: "Haddonfield Memorial High School, Haddonfield, NJ",
       isFeatured: false,
-      linkedInUrl: "https://www.linkedin.com/in/brianzoubek/",
       bio: "The senior center who grabbed the most famous rebound in Duke history — the final rebound in the 2010 championship game, sealing Duke's 61-59 win over Butler.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
@@ -127,6 +126,7 @@ export const dukeBasketball2010: TeamSeed = {
         statusNote:
           "Set Duke's single-season offensive rebound record (145) as a senior. Famously grabbed the final rebound of the 2010 title game and was fouled, sealing Duke's 61-59 win over Butler. Went undrafted, briefly signed by the Nets. Opened Dream Puffz cream puff bakery in 2012 (closed 2013), then pivoted to real estate. Now runs Zoubek Properties in the Haddonfield, NJ area.",
         sourceUrl: "https://en.wikipedia.org/wiki/Brian_Zoubek",
+        linkedInUrl: "https://www.linkedin.com/in/brianzoubek/",
       },
       membership: { role: "PLAYER", jerseyNumber: 55, position: "Center", yearsAtSchool: "2006-2010", statsNote: "Senior • Grabbed final rebound of title game • Duke record 145 offensive rebounds", gamesPlayed: 35, pointsPerGame: 4.1, reboundsPerGame: 7.7, assistsPerGame: 0.5 },
       seasonStats: [
