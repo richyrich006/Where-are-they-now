@@ -6,6 +6,7 @@ import { uscFootball2005 } from "./seeds/usc-football-2005";
 import { montverdeAcademy2020 } from "./seeds/montverde-academy-2020";
 import { alabamaFootball2015 } from "./seeds/alabama-football-2015";
 import { floridaBasketball2004 } from "./seeds/florida-basketball-2004";
+import { floridaBasketball2005 } from "./seeds/florida-basketball-2005";
 import { kentuckyBasketball2016 } from "./seeds/kentucky-basketball-2016";
 import { kentuckyBasketball2017 } from "./seeds/kentucky-basketball-2017";
 import { kentuckyBasketball2018 } from "./seeds/kentucky-basketball-2018";
@@ -48,6 +49,7 @@ const allTeams: TeamSeed[] = [
   montverdeAcademy2020,
   alabamaFootball2015,
   floridaBasketball2004,
+  floridaBasketball2005,
 ];
 
 async function seedTeam(teamSeed: TeamSeed) {
