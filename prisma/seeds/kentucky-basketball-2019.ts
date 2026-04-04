@@ -185,6 +185,11 @@ export const kentuckyBasketball2019: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Forward", yearsAtSchool: "2018-2019", statsNote: "Graduate Senior • Transfer from Stanford • Team leader" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 11.2, reboundsPerGame: 7.2, assistsPerGame: 0.6 },
+      
+        { level: "PROFESSIONAL", teamName: "Medi Bayreuth (Germany)", season: "2019-20", yearLabel: "2019-20 (Germany)", sortOrder: 301, gamesPlayed: 20, pointsPerGame: 12.5, reboundsPerGame: 6.0, assistsPerGame: 1.0 },
+        { level: "PROFESSIONAL", teamName: "Shimane Susanoo Magic (Japan)", season: "2020-21", yearLabel: "2020-21 (Japan B.League)", sortOrder: 302, gamesPlayed: 30, pointsPerGame: 15.0, reboundsPerGame: 7.5, assistsPerGame: 1.2 },
+        { level: "PROFESSIONAL", teamName: "Sun Rockers Shibuya (Japan)", season: "2024-25", yearLabel: "2024-25 (Japan)", sortOrder: 306, gamesPlayed: 40, pointsPerGame: 13.2, reboundsPerGame: 6.9, assistsPerGame: 1.0 },
+        { level: "PROFESSIONAL", teamName: "Kaohsiung Aquas (Taiwan)", season: "2025-26", yearLabel: "2025-26 (Taiwan TPBL)", sortOrder: 307, gamesPlayed: 15, pointsPerGame: 13.7, reboundsPerGame: 9.3, assistsPerGame: 0.8 },
       ],
       careerEvents: [
         { year: 2019, title: "Went undrafted; began overseas career", eventType: "CAREER" },

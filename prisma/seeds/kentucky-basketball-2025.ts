@@ -111,6 +111,8 @@ export const kentuckyBasketball2025: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard / Wing", yearsAtSchool: "2024-2025", statsNote: "Senior • Transfer from Arkansas/BYU • Elite shooter" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2024-2025", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 14.5, reboundsPerGame: 3.2, assistsPerGame: 1.8 },
+      
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2025-26", yearLabel: "2025-26 (#45 pick)", sortOrder: 301, gamesPlayed: 40, pointsPerGame: 6.5, reboundsPerGame: 2.0, assistsPerGame: 1.0 },
       ],
       careerEvents: [
         { year: 2025, title: "Selected in 2nd round of NBA Draft by Memphis Grizzlies", eventType: "DRAFT" },

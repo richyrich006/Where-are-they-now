@@ -175,6 +175,9 @@ export const kentuckyBasketball2024: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Forward / Center", yearsAtSchool: "2023-2024", statsNote: "Graduate • Transfer from Texas/WVU/UMass • 10.7 PPG, 7.2 RPG" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 13.0, reboundsPerGame: 6.1, assistsPerGame: 1.3 },
+      
+        { level: "PROFESSIONAL", teamName: "Lowen Braunschweig (Germany)", season: "2024-25", yearLabel: "2024-25 (Germany)", sortOrder: 301, gamesPlayed: 25, pointsPerGame: 12.0, reboundsPerGame: 5.0, assistsPerGame: 2.0 },
+        { level: "PROFESSIONAL", teamName: "JL Bourg (France)", season: "2025-26", yearLabel: "2025-26 (France/EuroCup)", sortOrder: 302, gamesPlayed: 15, pointsPerGame: 10.9, reboundsPerGame: 3.0, assistsPerGame: 1.8 },
       ],
       careerEvents: [{ year: 2024, title: "Went undrafted; began European career", eventType: "CAREER" }],
     },
@@ -199,6 +202,8 @@ export const kentuckyBasketball2024: TeamSeed = {
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 4.5, reboundsPerGame: 2.8, assistsPerGame: 0.9 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 5.7, reboundsPerGame: 3.1, assistsPerGame: 1.1 },
+      
+        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2025-26", yearLabel: "2025-26 (Rookie, #36 pick)", sortOrder: 301, gamesPlayed: 15, pointsPerGame: 1.4, reboundsPerGame: 1.0, assistsPerGame: 0.3 },
       ],
       careerEvents: [
         { year: 2024, title: "Transferred to Arkansas", eventType: "OTHER" },

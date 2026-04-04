@@ -84,6 +84,10 @@ export const kentuckyBasketball2023: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Forward", yearsAtSchool: "2022-2023", statsNote: "Freshman • Five-star from Akron • #58 overall pick" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, pointsPerGame: 6.4, reboundsPerGame: 3.0, assistsPerGame: 0.8 },
+      
+        { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2023-24", yearLabel: "2023-24 (two-way)", sortOrder: 301, gamesPlayed: 8, pointsPerGame: 3.0, reboundsPerGame: 3.5, assistsPerGame: 0.3 },
+        { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2024-25", yearLabel: "2024-25", sortOrder: 302, gamesPlayed: 14, pointsPerGame: 7.6, reboundsPerGame: 8.7, assistsPerGame: 0.5 },
+        { level: "PROFESSIONAL", teamName: "Utah Jazz (two-way)", season: "2025-26", yearLabel: "2025-26", sortOrder: 303, gamesPlayed: 10, pointsPerGame: 5.0, reboundsPerGame: 6.0, assistsPerGame: 0.3 },
       ],
       careerEvents: [
         { year: 2023, title: "Selected #58 overall by the Milwaukee Bucks", eventType: "DRAFT" },

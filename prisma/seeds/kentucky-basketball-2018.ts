@@ -69,6 +69,12 @@ export const kentuckyBasketball2018: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Forward", yearsAtSchool: "2017-2018", statsNote: "Freshman • 15.6 PPG • #9 overall pick", gamesPlayed: 37, pointsPerGame: 15.6, reboundsPerGame: 5.4, assistsPerGame: 1.3 },
       seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 15.6, reboundsPerGame: 5.4, assistsPerGame: 1.3 },
+      
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2018-19", yearLabel: "2018-19 (Rookie, #9 pick)", sortOrder: 301, gamesPlayed: 75, pointsPerGame: 12.8, reboundsPerGame: 4.5, assistsPerGame: 1.1 },
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2019-20", yearLabel: "2019-20", sortOrder: 302, gamesPlayed: 65, pointsPerGame: 6.4, reboundsPerGame: 2.8, assistsPerGame: 0.5 },
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2020-21", yearLabel: "2020-21", sortOrder: 303, gamesPlayed: 46, pointsPerGame: 3.9, reboundsPerGame: 1.9, assistsPerGame: 0.4 },
+        { level: "PROFESSIONAL", teamName: "Atlanta Hawks", season: "2021-22", yearLabel: "2021-22", sortOrder: 304, gamesPlayed: 17, pointsPerGame: 3.3, reboundsPerGame: 1.5, assistsPerGame: 0.3 },
+        { level: "PROFESSIONAL", teamName: "Windy City Bulls (G League)", season: "2025-26", yearLabel: "2025-26 (G League)", sortOrder: 308, gamesPlayed: 30, pointsPerGame: 16.0, reboundsPerGame: 7.0, assistsPerGame: 2.0 },
       ],
       careerEvents: [
         { year: 2018, title: "Selected #9 overall by the New York Knicks", eventType: "DRAFT" },

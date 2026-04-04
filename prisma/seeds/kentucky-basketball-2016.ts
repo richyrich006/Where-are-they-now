@@ -97,6 +97,12 @@ export const kentuckyBasketball2016: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Center / Forward", yearsAtSchool: "2015-2016", statsNote: "Freshman • #1 recruit • #28 overall pick" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 12.6, reboundsPerGame: 6.3, assistsPerGame: 0.6 },
+      
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2016-17", yearLabel: "2016-17 (Rookie)", sortOrder: 301, gamesPlayed: 33, pointsPerGame: 5.2, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2017-18", yearLabel: "2017-18", sortOrder: 302, gamesPlayed: 55, pointsPerGame: 7.7, reboundsPerGame: 3.7, assistsPerGame: 0.5 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2018-19", yearLabel: "2018-19", sortOrder: 303, gamesPlayed: 21, pointsPerGame: 4.8, reboundsPerGame: 2.6, assistsPerGame: 0.5 },
+        { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2019-20", yearLabel: "2019-20", sortOrder: 304, gamesPlayed: 33, pointsPerGame: 5.0, reboundsPerGame: 2.8, assistsPerGame: 0.6 },
+        { level: "PROFESSIONAL", teamName: "Capital City Go-Go (G League)", season: "2025-26", yearLabel: "2025-26 (G League star)", sortOrder: 308, gamesPlayed: 40, pointsPerGame: 19.2, reboundsPerGame: 7.8, assistsPerGame: 1.5 },
       ],
       careerEvents: [
         { year: 2016, title: "Selected #28 overall by the Sacramento Kings", eventType: "DRAFT" },
