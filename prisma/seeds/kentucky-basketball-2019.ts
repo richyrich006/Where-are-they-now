@@ -68,6 +68,12 @@ export const kentuckyBasketball2019: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 25, position: "Forward", yearsAtSchool: "2017-2019", statsNote: "Sophomore • 15.2 PPG • First-round pick", gamesPlayed: 37, pointsPerGame: 15.2, reboundsPerGame: 7.5, assistsPerGame: 1.7 },
       seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 15.2, reboundsPerGame: 7.5, assistsPerGame: 1.7 },
+      
+        { level: "PROFESSIONAL", teamName: "Charlotte Hornets", season: "2019-20", yearLabel: "2019-20 (Rookie)", sortOrder: 301, gamesPlayed: 58, pointsPerGame: 12.2, reboundsPerGame: 5.4, assistsPerGame: 2.1 },
+        { level: "PROFESSIONAL", teamName: "Charlotte Hornets", season: "2020-21", yearLabel: "2020-21", sortOrder: 302, gamesPlayed: 64, pointsPerGame: 12.6, reboundsPerGame: 6.5, assistsPerGame: 2.5 },
+        { level: "PROFESSIONAL", teamName: "Charlotte Hornets", season: "2022-23", yearLabel: "2022-23", sortOrder: 304, gamesPlayed: 74, pointsPerGame: 15.7, reboundsPerGame: 6.2, assistsPerGame: 2.4 },
+        { level: "PROFESSIONAL", teamName: "CHA / Dallas Mavericks", season: "2023-24", yearLabel: "2023-24 (traded)", sortOrder: 305, gamesPlayed: 73, pointsPerGame: 13.6, reboundsPerGame: 5.5, assistsPerGame: 2.5 },
+        { level: "PROFESSIONAL", teamName: "Dallas Mavericks", season: "2024-25", yearLabel: "2024-25 ($89M deal)", sortOrder: 306, gamesPlayed: 72, pointsPerGame: 14.2, reboundsPerGame: 7.1, assistsPerGame: 1.8 },
       ],
       careerEvents: [
         { year: 2019, title: "Selected #12 overall by the Charlotte Hornets", eventType: "DRAFT" },
@@ -96,6 +102,12 @@ export const kentuckyBasketball2019: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Forward", yearsAtSchool: "2018-2019", statsNote: "Freshman • 13.5 PPG • First-round pick", gamesPlayed: 37, pointsPerGame: 13.5, reboundsPerGame: 5.9, assistsPerGame: 1.6 },
       seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 13.5, reboundsPerGame: 5.9, assistsPerGame: 1.6 },
+      
+        { level: "PROFESSIONAL", teamName: "San Antonio Spurs", season: "2019-20", yearLabel: "2019-20 (Rookie)", sortOrder: 301, gamesPlayed: 25, pointsPerGame: 9.1, reboundsPerGame: 3.4, assistsPerGame: 0.9 },
+        { level: "PROFESSIONAL", teamName: "San Antonio Spurs", season: "2020-21", yearLabel: "2020-21", sortOrder: 302, gamesPlayed: 69, pointsPerGame: 12.8, reboundsPerGame: 6.0, assistsPerGame: 1.8 },
+        { level: "PROFESSIONAL", teamName: "San Antonio Spurs", season: "2021-22", yearLabel: "2021-22", sortOrder: 303, gamesPlayed: 75, pointsPerGame: 17.0, reboundsPerGame: 6.1, assistsPerGame: 2.1 },
+        { level: "PROFESSIONAL", teamName: "San Antonio Spurs", season: "2022-23", yearLabel: "2022-23", sortOrder: 304, gamesPlayed: 63, pointsPerGame: 22.0, reboundsPerGame: 5.0, assistsPerGame: 3.2 },
+        { level: "PROFESSIONAL", teamName: "San Antonio Spurs", season: "2024-25", yearLabel: "2024-25", sortOrder: 306, gamesPlayed: 70, pointsPerGame: 12.5, reboundsPerGame: 4.5, assistsPerGame: 2.5 },
       ],
       careerEvents: [
         { year: 2019, title: "Selected #29 overall by the San Antonio Spurs", eventType: "DRAFT" },

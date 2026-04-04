@@ -33,6 +33,10 @@ export const kentuckyBasketball2023: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Guard", yearsAtSchool: "2022-2023", statsNote: "Freshman • #10 overall pick • 2025 NBA Champion" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 11.7, reboundsPerGame: 3.7, assistsPerGame: 3.6 },
+      
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2023-24", yearLabel: "2023-24 (Rookie)", sortOrder: 301, gamesPlayed: 71, pointsPerGame: 6.2, reboundsPerGame: 2.3, assistsPerGame: 1.8 },
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2024-25", yearLabel: "2024-25 (NBA Champion)", sortOrder: 302, gamesPlayed: 80, pointsPerGame: 8.6, reboundsPerGame: 3.1, assistsPerGame: 2.7 },
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2025-26", yearLabel: "2025-26", sortOrder: 303, gamesPlayed: 60, pointsPerGame: 8.6, reboundsPerGame: 3.1, assistsPerGame: 2.7 },
       ],
       careerEvents: [
         { year: 2023, title: "Selected #10 overall by the Oklahoma City Thunder", eventType: "DRAFT" },

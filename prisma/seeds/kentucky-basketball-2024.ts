@@ -33,6 +33,9 @@ export const kentuckyBasketball2024: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 12.5 PPG • 52.1% from three (led nation) • #3 overall pick", gamesPlayed: 33, pointsPerGame: 12.5, reboundsPerGame: 4.1, assistsPerGame: 4.5 },
       seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12.5, reboundsPerGame: 4.1, assistsPerGame: 4.5 },
+      
+        { level: "PROFESSIONAL", teamName: "Houston Rockets", season: "2024-25", yearLabel: "2024-25 (Rookie)", sortOrder: 301, gamesPlayed: 70, pointsPerGame: 10.5, reboundsPerGame: 2.8, assistsPerGame: 3.0 },
+        { level: "PROFESSIONAL", teamName: "Houston Rockets", season: "2025-26", yearLabel: "2025-26", sortOrder: 302, gamesPlayed: 65, pointsPerGame: 13.5, reboundsPerGame: 3.4, assistsPerGame: 2.9 },
       ],
       careerEvents: [
         { year: 2024, title: "Selected #3 overall by the Houston Rockets", eventType: "DRAFT" },
@@ -60,6 +63,9 @@ export const kentuckyBasketball2024: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 15.2 PPG off bench • 44.4% from three • #8 overall pick", gamesPlayed: 33, pointsPerGame: 15.2, assistsPerGame: 3.9 },
       seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15.2, assistsPerGame: 3.9 },
+      
+        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2024-25", yearLabel: "2024-25 (Rookie)", sortOrder: 301, gamesPlayed: 49, pointsPerGame: 4.5, reboundsPerGame: 1.0, assistsPerGame: 2.0 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2025-26", yearLabel: "2025-26 (traded)", sortOrder: 302, gamesPlayed: 30, pointsPerGame: 8.0, reboundsPerGame: 1.5, assistsPerGame: 3.5 },
       ],
       careerEvents: [
         { year: 2024, title: "Selected #8 overall by San Antonio (traded to Minnesota)", eventType: "DRAFT" },
@@ -140,6 +146,9 @@ export const kentuckyBasketball2024: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Forward", yearsAtSchool: "2023-2024", statsNote: "Freshman • Five-star recruit • 8.8 PPG • Now with 76ers" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.8, reboundsPerGame: 3.4, assistsPerGame: 1.6 },
+      
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2024-25", yearLabel: "2024-25 (undrafted)", sortOrder: 301, gamesPlayed: 44, pointsPerGame: 10.1, reboundsPerGame: 3.4, assistsPerGame: 1.6 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2025-26", yearLabel: "2025-26", sortOrder: 302, gamesPlayed: 50, pointsPerGame: 8.5, reboundsPerGame: 3.0, assistsPerGame: 1.5 },
       ],
       careerEvents: [
         { year: 2024, title: "Went undrafted; signed two-way with Philadelphia 76ers", eventType: "SIGNING" },

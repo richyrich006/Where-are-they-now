@@ -66,6 +66,13 @@ export const kentuckyBasketball2020: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2018-2020", statsNote: "Sophomore • SEC Player of the Year • 16.1 PPG", gamesPlayed: 31, pointsPerGame: 16.1, reboundsPerGame: 4.2, assistsPerGame: 1.9 },
       seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 16.1, reboundsPerGame: 4.2, assistsPerGame: 1.9 },
+      
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2020-21", yearLabel: "2020-21 (Rookie)", sortOrder: 301, gamesPlayed: 64, pointsPerGame: 11.4, reboundsPerGame: 2.1, assistsPerGame: 2.0 },
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2021-22", yearLabel: "2021-22", sortOrder: 302, gamesPlayed: 78, pointsPerGame: 11.3, reboundsPerGame: 3.2, assistsPerGame: 3.5 },
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2022-23", yearLabel: "2022-23", sortOrder: 303, gamesPlayed: 81, pointsPerGame: 14.9, reboundsPerGame: 4.1, assistsPerGame: 3.4 },
+        { level: "PROFESSIONAL", teamName: "NYK / Toronto Raptors", season: "2023-24", yearLabel: "2023-24 (traded)", sortOrder: 304, gamesPlayed: 38, pointsPerGame: 18.6, reboundsPerGame: 4.8, assistsPerGame: 6.8 },
+        { level: "PROFESSIONAL", teamName: "Toronto Raptors", season: "2024-25", yearLabel: "2024-25 ($162.5M)", sortOrder: 305, gamesPlayed: 33, pointsPerGame: 15.3, reboundsPerGame: 4.0, assistsPerGame: 4.0 },
+        { level: "PROFESSIONAL", teamName: "Toronto Raptors", season: "2025-26", yearLabel: "2025-26", sortOrder: 306, gamesPlayed: 55, pointsPerGame: 17.0, reboundsPerGame: 4.2, assistsPerGame: 6.0 },
       ],
       careerEvents: [
         { year: 2020, title: "Won SEC Player of the Year", eventType: "AWARD" },
@@ -96,6 +103,12 @@ export const kentuckyBasketball2020: TeamSeed = {
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 2.5, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 36, pointsPerGame: 4.0, reboundsPerGame: 3.6, assistsPerGame: 0.3 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 31, pointsPerGame: 14.0, reboundsPerGame: 7.8, assistsPerGame: 0.6 },
+      
+        { level: "PROFESSIONAL", teamName: "Charlotte Hornets", season: "2020-21", yearLabel: "2020-21 (Rookie)", sortOrder: 301, gamesPlayed: 23, pointsPerGame: 2.4, reboundsPerGame: 1.4, assistsPerGame: 0.2 },
+        { level: "PROFESSIONAL", teamName: "Charlotte Hornets", season: "2021-22", yearLabel: "2021-22", sortOrder: 302, gamesPlayed: 64, pointsPerGame: 4.1, reboundsPerGame: 3.7, assistsPerGame: 0.4 },
+        { level: "PROFESSIONAL", teamName: "Charlotte Hornets", season: "2022-23", yearLabel: "2022-23", sortOrder: 303, gamesPlayed: 74, pointsPerGame: 9.2, reboundsPerGame: 5.5, assistsPerGame: 0.5 },
+        { level: "PROFESSIONAL", teamName: "Charlotte Hornets", season: "2023-24", yearLabel: "2023-24", sortOrder: 304, gamesPlayed: 60, pointsPerGame: 8.0, reboundsPerGame: 5.0, assistsPerGame: 0.6 },
+        { level: "PROFESSIONAL", teamName: "CHA / PHX / CHI", season: "2025-26", yearLabel: "2025-26 (traded 3x)", sortOrder: 306, gamesPlayed: 50, pointsPerGame: 5.8, reboundsPerGame: 5.1, assistsPerGame: 0.4 },
       ],
       careerEvents: [
         { year: 2020, title: "Selected #42 overall by the Charlotte Hornets", eventType: "DRAFT" },

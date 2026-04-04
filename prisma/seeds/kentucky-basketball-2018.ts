@@ -175,6 +175,11 @@ export const kentuckyBasketball2018: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Forward", yearsAtSchool: "2017-2018", statsNote: "Freshman • Limited by injury • #41 overall pick" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 14, pointsPerGame: 5.9, reboundsPerGame: 7.1, assistsPerGame: 1.4 },
+      
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2019-20", yearLabel: "2019-20", sortOrder: 301, gamesPlayed: 14, pointsPerGame: 2.4, reboundsPerGame: 3.1, assistsPerGame: 0.5 },
+        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2021-22", yearLabel: "2021-22", sortOrder: 303, gamesPlayed: 74, pointsPerGame: 6.9, reboundsPerGame: 8.4, assistsPerGame: 1.3 },
+        { level: "PROFESSIONAL", teamName: "Utah / LA Lakers", season: "2022-23", yearLabel: "2022-23 (traded)", sortOrder: 304, gamesPlayed: 64, pointsPerGame: 8.8, reboundsPerGame: 7.2, assistsPerGame: 1.5 },
+        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2024-25", yearLabel: "2024-25 ($48M deal)", sortOrder: 306, gamesPlayed: 58, pointsPerGame: 5.5, reboundsPerGame: 5.0, assistsPerGame: 1.5 },
       ],
       careerEvents: [
         { year: 2018, title: "Selected #41 overall by Orlando (traded to Denver)", eventType: "DRAFT" },

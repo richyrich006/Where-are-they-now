@@ -85,6 +85,11 @@ export const kentuckyBasketball2021: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Forward / Center", yearsAtSchool: "2020-2021", statsNote: "Freshman • 8.4 PPG, 6.6 RPG, 2.6 BPG" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 8.4, reboundsPerGame: 6.6, assistsPerGame: 0.4 },
+      
+        { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2021-22", yearLabel: "2021-22 (Rookie)", sortOrder: 301, gamesPlayed: 52, pointsPerGame: 4.4, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
+        { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2022-23", yearLabel: "2022-23", sortOrder: 302, gamesPlayed: 33, pointsPerGame: 5.8, reboundsPerGame: 3.8, assistsPerGame: 0.6 },
+        { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2024-25", yearLabel: "2024-25 ($21M)", sortOrder: 304, gamesPlayed: 60, pointsPerGame: 6.4, reboundsPerGame: 5.6, assistsPerGame: 0.5 },
+        { level: "PROFESSIONAL", teamName: "LA Clippers", season: "2025-26", yearLabel: "2025-26 (traded)", sortOrder: 305, gamesPlayed: 20, pointsPerGame: 6.0, reboundsPerGame: 5.0, assistsPerGame: 0.5 },
       ],
       careerEvents: [
         { year: 2021, title: "Selected #22 overall (traded to Indiana Pacers)", eventType: "DRAFT" },

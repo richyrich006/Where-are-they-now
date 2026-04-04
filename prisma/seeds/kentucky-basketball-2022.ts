@@ -61,6 +61,9 @@ export const kentuckyBasketball2022: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "2021-2022", statsNote: "Freshman • 12.5 PPG • #29 overall pick" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 29, pointsPerGame: 12.5, reboundsPerGame: 3.5, assistsPerGame: 3.9 },
+      
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2022-23", yearLabel: "2022-23 (Rookie)", sortOrder: 301, gamesPlayed: 22, pointsPerGame: 3.4, reboundsPerGame: 1.3, assistsPerGame: 1.5 },
+        { level: "PROFESSIONAL", teamName: "Various", season: "2023-26", yearLabel: "2023-26 (two-way)", sortOrder: 302, gamesPlayed: 40, pointsPerGame: 2.5, reboundsPerGame: 1.0, assistsPerGame: 1.2 },
       ],
       careerEvents: [
         { year: 2022, title: "Selected #29 overall by the Memphis Grizzlies", eventType: "DRAFT" },
@@ -111,6 +114,11 @@ export const kentuckyBasketball2022: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "2021-2023", statsNote: "Junior • Transfer from Georgia • Led SEC in assists" },
             seasonStats: [
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 10.1, reboundsPerGame: 2.6, assistsPerGame: 6.9 },
+      
+        { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2022-23", yearLabel: "2022-23 (Rookie)", sortOrder: 301, gamesPlayed: 65, pointsPerGame: 9.9, reboundsPerGame: 2.6, assistsPerGame: 1.5 },
+        { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2023-24", yearLabel: "2023-24", sortOrder: 302, gamesPlayed: 48, pointsPerGame: 15.9, reboundsPerGame: 3.5, assistsPerGame: 2.0 },
+        { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2024-25", yearLabel: "2024-25", sortOrder: 303, gamesPlayed: 72, pointsPerGame: 18.5, reboundsPerGame: 4.0, assistsPerGame: 2.4 },
+        { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2025-26", yearLabel: "2025-26 ($90M extension)", sortOrder: 304, gamesPlayed: 40, pointsPerGame: 21.4, reboundsPerGame: 4.4, assistsPerGame: 2.6 },
       ],
       careerEvents: [{ year: 2024, title: "Went undrafted; began G League career", eventType: "CAREER" }],
     },
