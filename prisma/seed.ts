@@ -32,8 +32,10 @@ import { dukeBasketball2002 } from "./seeds/duke-basketball-2002";
 import { dukeBasketball2003 } from "./seeds/duke-basketball-2003";
 import { dukeBasketball2004 } from "./seeds/duke-basketball-2004";
 import { dukeBasketball2005 } from "./seeds/duke-basketball-2005";
+import { dukeBasketball2017 } from "./seeds/duke-basketball-2017";
 import { dukeBasketball2019 } from "./seeds/duke-basketball-2019";
 import { dukeBasketball2022 } from "./seeds/duke-basketball-2022";
+import { dukeBasketball2025 } from "./seeds/duke-basketball-2025";
 
 const adapter = new PrismaBetterSqlite3({ url: process.env.DATABASE_PATH ?? "./dev.db" });
 const prisma = new PrismaClient({ adapter } as any);
@@ -51,8 +53,10 @@ const allTeams: TeamSeed[] = [
   dukeBasketball2013,
   dukeBasketball2014,
   dukeBasketball2015,
+  dukeBasketball2017,
   dukeBasketball2019,
   dukeBasketball2022,
+  dukeBasketball2025,
   kentuckyBasketball2016,
   kentuckyBasketball2017,
   kentuckyBasketball2018,
