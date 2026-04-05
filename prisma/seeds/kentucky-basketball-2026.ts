@@ -31,6 +31,7 @@ export const kentuckyBasketball2026: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard", yearsAtSchool: "2023-present", statsNote: "Junior • All-SEC • Team's best player" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 32.8, reboundsPerGame: 5.2, assistsPerGame: 5.2 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 55, pointsPerGame: 18.5, reboundsPerGame: 5.2, assistsPerGame: 2.5 },
       ],
       careerEvents: [],
@@ -55,6 +56,7 @@ export const kentuckyBasketball2026: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "2025-present", statsNote: "Transfer from Pitt • Elite playmaker" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Allderdice High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 26.3, reboundsPerGame: 3.0, assistsPerGame: 9.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 55, pointsPerGame: 14.2, reboundsPerGame: 3.0, assistsPerGame: 5.8 },
       ],
       careerEvents: [],
@@ -100,6 +102,7 @@ export const kentuckyBasketball2026: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "2025-present", statsNote: "Freshman • Five-star recruit" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Reclassified to 2025 class", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.8, reboundsPerGame: 2.2, assistsPerGame: 5.6 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 55, pointsPerGame: 8.5, reboundsPerGame: 2.2, assistsPerGame: 2.8 },
       ],
       careerEvents: [],
@@ -124,6 +127,7 @@ export const kentuckyBasketball2026: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Guard", yearsAtSchool: "2025-present", statsNote: "Transfer from Florida • Canadian" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Transferred to Kentucky from Florida", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.0, reboundsPerGame: 2.5, assistsPerGame: 4.0 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior (transfer from Florida)", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 8.0, reboundsPerGame: 2.5, assistsPerGame: 1.5 },
       ],
       careerEvents: [],
@@ -190,6 +194,7 @@ export const kentuckyBasketball2026: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Center", yearsAtSchool: "2023-present", statsNote: "Junior • Returning big man • Expanded role" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Vandegrift High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.3, reboundsPerGame: 10.2, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 55, pointsPerGame: 6.2, reboundsPerGame: 5.5, assistsPerGame: 1.0 },
       ],
       careerEvents: [],
@@ -214,6 +219,7 @@ export const kentuckyBasketball2026: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2024-present", statsNote: "Junior • Followed Pope from BYU" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Boise High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 13.2, reboundsPerGame: 1.5, assistsPerGame: 3.6 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 45, pointsPerGame: 5.5, reboundsPerGame: 1.5, assistsPerGame: 1.2 },
       ],
       careerEvents: [],
@@ -238,6 +244,7 @@ export const kentuckyBasketball2026: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 24, position: "Center", yearsAtSchool: "2025-present", statsNote: "Freshman • 6-11 center" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "High school in the U.S.", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.8, reboundsPerGame: 6.9, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 4.5, reboundsPerGame: 3.0, assistsPerGame: 0.5 },
       ],
       careerEvents: [],
@@ -262,6 +269,7 @@ export const kentuckyBasketball2026: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Forward", yearsAtSchool: "2025-present", statsNote: "Freshman • 6-11 Croatian forward" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Croatian youth system", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.5, reboundsPerGame: 6.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Freshman (Croatian)", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 3.0, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
       ],
       careerEvents: [],
@@ -286,6 +294,7 @@ export const kentuckyBasketball2026: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Forward", yearsAtSchool: "2025-present", statsNote: "Freshman • Four-star recruit" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "High school in the U.S.", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.5, reboundsPerGame: 7.5, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 5.0, reboundsPerGame: 3.5, assistsPerGame: 0.5 },
       ],
       careerEvents: [],
@@ -310,6 +319,7 @@ export const kentuckyBasketball2026: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Center", yearsAtSchool: "2025-present", statsNote: "Transfer from Miami (OH) • 7-1 center" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Transferred from Miami (OH)", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 10.2, reboundsPerGame: 8.2, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2025-2026", yearLabel: "Junior (transfer from Miami OH)", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 3.5, reboundsPerGame: 4.0, assistsPerGame: 0.5 },
       ],
       careerEvents: [],

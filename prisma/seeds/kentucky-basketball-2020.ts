@@ -36,6 +36,7 @@ export const kentuckyBasketball2020: TeamSeed = {
         { year: 2024, title: "Won NBA Most Improved Player award", eventType: "AWARD" },
       ],
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "South Garland High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 26.0, reboundsPerGame: 3.7, assistsPerGame: 6.2 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-20", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 31, minutesPerGame: 30.3, pointsPerGame: 14.0, reboundsPerGame: 3.7, assistsPerGame: 3.2, stealsPerGame: 0.9, fieldGoalPct: 0.427, threePointPct: 0.292, freeThrowPct: 0.833 },
         { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2020-21", yearLabel: "2020-21", sortOrder: 301, gamesPlayed: 61, minutesPerGame: 15.3, pointsPerGame: 8.0, reboundsPerGame: 1.7, assistsPerGame: 2.0, stealsPerGame: 0.4, fieldGoalPct: 0.462, threePointPct: 0.301, freeThrowPct: 0.870 },
         { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2021-22", yearLabel: "2021-22", sortOrder: 302, gamesPlayed: 75, minutesPerGame: 35.3, pointsPerGame: 17.5, reboundsPerGame: 3.5, assistsPerGame: 4.3, stealsPerGame: 0.7, fieldGoalPct: 0.485, threePointPct: 0.405, freeThrowPct: 0.866 },
@@ -65,6 +66,7 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2018-2020", statsNote: "Sophomore • SEC Player of the Year • 16.1 PPG", gamesPlayed: 31, pointsPerGame: 16.1, reboundsPerGame: 4.2, assistsPerGame: 1.9 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "The John Carroll School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 29.2, reboundsPerGame: 4.2, assistsPerGame: 4.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 16.1, reboundsPerGame: 4.2, assistsPerGame: 1.9 },
       
         { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2020-21", yearLabel: "2020-21 (Rookie)", sortOrder: 301, gamesPlayed: 64, pointsPerGame: 11.4, reboundsPerGame: 2.1, assistsPerGame: 2.0 },
@@ -100,6 +102,7 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Center", yearsAtSchool: "2017-2020", statsNote: "Junior • 14.0 PPG, 7.8 RPG • SEC Defensive POY candidate" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "The Patrick School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 8.8, reboundsPerGame: 6.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 2.5, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 36, pointsPerGame: 4.0, reboundsPerGame: 3.6, assistsPerGame: 0.3 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 31, pointsPerGame: 14.0, reboundsPerGame: 7.8, assistsPerGame: 0.6 },
@@ -134,6 +137,7 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Point Guard", yearsAtSchool: "2018-2020", statsNote: "Sophomore • Left team late season" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Newton High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 16.6, reboundsPerGame: 3.4, assistsPerGame: 7.6 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 7.7, reboundsPerGame: 3.4, assistsPerGame: 4.3 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 30, pointsPerGame: 11.5, reboundsPerGame: 3.7, assistsPerGame: 6.4 },
       ],
@@ -159,6 +163,7 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Forward", yearsAtSchool: "2019-2020", statsNote: "Graduate Senior • Transfer from Bucknell • Stretch four" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Cameron County High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 13.6, reboundsPerGame: 9.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 5.7, reboundsPerGame: 4.6, assistsPerGame: 0.7 },
       ],
       careerEvents: [
@@ -186,6 +191,7 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Forward", yearsAtSchool: "2019-2022", statsNote: "Freshman • Four-star recruit" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "La Lumiere School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.8, reboundsPerGame: 7.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 4.5, reboundsPerGame: 3.2, assistsPerGame: 0.4 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 18, pointsPerGame: 10.3, reboundsPerGame: 4.4, assistsPerGame: 0.8 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2021-2022", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 10.8, reboundsPerGame: 4.4, assistsPerGame: 1.2 },
@@ -214,6 +220,7 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Guard", yearsAtSchool: "2019-2020", statsNote: "Freshman • Transferred to UCLA • Led UCLA to 2021 Final Four" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Harvard-Westlake School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.3, reboundsPerGame: 1.9, assistsPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 2.9, reboundsPerGame: 1.9, assistsPerGame: 0.4 },
       ],
       careerEvents: [
@@ -239,6 +246,7 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Forward", yearsAtSchool: "2019-2020", statsNote: "Freshman • Five-star recruit • Left team mid-season" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Roselle Catholic High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.9, reboundsPerGame: 4.6, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 10, pointsPerGame: 3.3, reboundsPerGame: 1.2, assistsPerGame: 0.3 },
       ],
       careerEvents: [
@@ -265,6 +273,7 @@ export const kentuckyBasketball2020: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Forward", yearsAtSchool: "2018-2020", statsNote: "Sophomore • Declared for NBA Draft" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Wheeler High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 10.7, reboundsPerGame: 8.5, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 3.8, reboundsPerGame: 4.2, assistsPerGame: 0.4 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 31, pointsPerGame: 5.8, reboundsPerGame: 5.2, assistsPerGame: 0.6 },
       ],

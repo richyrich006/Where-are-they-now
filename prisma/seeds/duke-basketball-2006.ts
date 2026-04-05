@@ -43,6 +43,7 @@ export const dukeBasketball2006: TeamSeed = {
         assistsPerGame: 2.6,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Cave Spring High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 35.0, reboundsPerGame: 2.0, assistsPerGame: 5.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-03", yearLabel: "2002-03 (Freshman)", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15.0, reboundsPerGame: 2.0, assistsPerGame: 2.0, threePointPct: 0.399 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-04", yearLabel: "2003-04 (Sophomore)", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 15.9, reboundsPerGame: 2.5, assistsPerGame: 2.2, threePointPct: 0.416 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-05", yearLabel: "2004-05 (Junior)", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 21.8, reboundsPerGame: 2.5, assistsPerGame: 2.8, threePointPct: 0.423 },
@@ -90,6 +91,7 @@ export const dukeBasketball2006: TeamSeed = {
         assistsPerGame: 1.5,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Midwest City High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 33.2, reboundsPerGame: 15.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-03", yearLabel: "2002-03 (Freshman)", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.2, reboundsPerGame: 5.9, assistsPerGame: 0.5, blocksPerGame: 1.6 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-04", yearLabel: "2003-04 (Sophomore)", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 11.2, reboundsPerGame: 8.3, assistsPerGame: 0.6, blocksPerGame: 2.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-05", yearLabel: "2004-05 (Junior)", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 14.5, reboundsPerGame: 9.7, assistsPerGame: 0.7, blocksPerGame: 2.6 },
@@ -128,6 +130,7 @@ export const dukeBasketball2006: TeamSeed = {
         gamesPlayed: 36, pointsPerGame: 8.7, reboundsPerGame: 5.3, assistsPerGame: 1.5,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Carmel High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 18.0, reboundsPerGame: 9.9, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "2005-06 (Freshman)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 8.7, reboundsPerGame: 5.3, assistsPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2006-07", yearLabel: "2006-07 (Sophomore, All-ACC)", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 12.8, reboundsPerGame: 6.5, assistsPerGame: 2.4 },
         { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2007-08", yearLabel: "2007-08 (Rookie)", sortOrder: 301, gamesPlayed: 46, pointsPerGame: 3.0, reboundsPerGame: 2.2, assistsPerGame: 0.5 },
@@ -165,6 +168,7 @@ export const dukeBasketball2006: TeamSeed = {
         gamesPlayed: 36, pointsPerGame: 6.7, reboundsPerGame: 1.6, assistsPerGame: 5.2,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Christian Brothers Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 15.1, reboundsPerGame: 1.6, assistsPerGame: 8.8 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "2005-06 (Freshman)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 6.7, reboundsPerGame: 1.6, assistsPerGame: 5.2 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2006-07", yearLabel: "2006-07 (Sophomore)", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 11.7, reboundsPerGame: 2.2, assistsPerGame: 3.8 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2007-08", yearLabel: "2007-08 (Junior)", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 9.3, reboundsPerGame: 2.5, assistsPerGame: 4.3 },
@@ -201,6 +205,7 @@ export const dukeBasketball2006: TeamSeed = {
         statsNote: "Incoming freshman • Would become #12 overall pick • Son of NBA player Gerald Henderson",
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Episcopal Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 15.2, reboundsPerGame: 6.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2006-07", yearLabel: "2006-07 (Freshman)", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 6.8, reboundsPerGame: 2.5, assistsPerGame: 0.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2007-08", yearLabel: "2007-08 (Sophomore)", sortOrder: 202, gamesPlayed: 34, pointsPerGame: 12.7, reboundsPerGame: 3.7, assistsPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "2008-09 (Junior, All-ACC, #12 pick)", sortOrder: 203, gamesPlayed: 37, pointsPerGame: 16.5, reboundsPerGame: 4.9, assistsPerGame: 2.5, fieldGoalPct: 0.465, freeThrowPct: 0.797 },
@@ -236,6 +241,7 @@ export const dukeBasketball2006: TeamSeed = {
         statsNote: "Freshman • First international 4-year Duke player • Lithuanian",
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "International recruit from Lithuania", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 8.8, reboundsPerGame: 0.8, assistsPerGame: 2.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "2005-06 (Freshman)", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 2.5, reboundsPerGame: 0.8, assistsPerGame: 0.3 },
       ],
       careerEvents: [
@@ -265,6 +271,7 @@ export const dukeBasketball2006: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 21, position: "Shooting Guard", yearsAtSchool: "2004-2008", statsNote: "Sophomore • Missed games (ankle surgery) • 7.1 PPG" },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Sheldon High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 15.6, reboundsPerGame: 3.4, assistsPerGame: 3.6 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "2005-06 (Sophomore)", sortOrder: 202, gamesPlayed: 24, pointsPerGame: 7.1, reboundsPerGame: 3.4, assistsPerGame: 1.2 },
       ],
       careerEvents: [
@@ -291,6 +298,7 @@ export const dukeBasketball2006: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "2002-2006", statsNote: "Senior tri-captain • 7.1 PPG, 2.6 APG, 1.7 SPG" },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Schaumburg High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 15.6, reboundsPerGame: 3.0, assistsPerGame: 5.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "2005-06 (Senior)", sortOrder: 204, gamesPlayed: 36, pointsPerGame: 7.1, reboundsPerGame: 3.0, assistsPerGame: 2.6, stealsPerGame: 1.7 },
       ],
       careerEvents: [
@@ -315,6 +323,7 @@ export const dukeBasketball2006: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 45, position: "Center", yearsAtSchool: "2005-2006", statsNote: "Freshman • 0.7 PPG • Transferred to Arizona State • 2012 Olympian" },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "St. Andrew's School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 6.0, reboundsPerGame: 3.8, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "2005-06 (Freshman)", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 0.7, reboundsPerGame: 0.6 },
       ],
       careerEvents: [
@@ -342,6 +351,7 @@ export const dukeBasketball2006: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 13, position: "Guard / Forward", yearsAtSchool: "2002-2006", statsNote: "Senior • 5.6 PPG • Four-year contributor" },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Germantown Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 13.4, reboundsPerGame: 5.9, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "2005-06 (Senior)", sortOrder: 204, gamesPlayed: 36, pointsPerGame: 5.6, reboundsPerGame: 2.2, assistsPerGame: 1.4 },
       ],
       careerEvents: [],
@@ -363,6 +373,7 @@ export const dukeBasketball2006: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Forward", yearsAtSchool: "2005-2006", statsNote: "Freshman • 1.0 PPG • Transferred to Cal" },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Fairfax High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 6.5, reboundsPerGame: 4.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "2005-06 (Freshman)", sortOrder: 201, gamesPlayed: 26, pointsPerGame: 1.0, reboundsPerGame: 0.8, assistsPerGame: 0.2 },
       ],
       careerEvents: [

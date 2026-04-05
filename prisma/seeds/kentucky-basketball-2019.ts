@@ -32,6 +32,7 @@ export const kentuckyBasketball2019: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Guard", yearsAtSchool: "2018-2019", statsNote: "Freshman • 14.0 PPG • Declared for NBA Draft", gamesPlayed: 37, pointsPerGame: 14.0, reboundsPerGame: 4.5, assistsPerGame: 2.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Whitnall High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 26.0, reboundsPerGame: 4.5, assistsPerGame: 5.2 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-19", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, minutesPerGame: 28.3, pointsPerGame: 14.0, reboundsPerGame: 4.5, assistsPerGame: 2.5, stealsPerGame: 0.9, fieldGoalPct: 0.462, threePointPct: 0.355, freeThrowPct: 0.935 },
         { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2019-20", yearLabel: "2019-20 (NBA Finals)", sortOrder: 301, gamesPlayed: 55, minutesPerGame: 27.4, pointsPerGame: 13.5, reboundsPerGame: 4.1, assistsPerGame: 2.2, stealsPerGame: 0.6, fieldGoalPct: 0.427, threePointPct: 0.389, freeThrowPct: 0.873 },
         { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2020-21", yearLabel: "2020-21", sortOrder: 302, gamesPlayed: 54, minutesPerGame: 31.9, pointsPerGame: 15.1, reboundsPerGame: 5.0, assistsPerGame: 3.4, stealsPerGame: 0.8, fieldGoalPct: 0.440, threePointPct: 0.361, freeThrowPct: 0.846 },
@@ -67,6 +68,7 @@ export const kentuckyBasketball2019: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 25, position: "Forward", yearsAtSchool: "2017-2019", statsNote: "Sophomore • 15.2 PPG • First-round pick", gamesPlayed: 37, pointsPerGame: 15.2, reboundsPerGame: 7.5, assistsPerGame: 1.7 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Findlay Prep", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 27.8, reboundsPerGame: 12.8, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 15.2, reboundsPerGame: 7.5, assistsPerGame: 1.7 },
       
         { level: "PROFESSIONAL", teamName: "Charlotte Hornets", season: "2019-20", yearLabel: "2019-20 (Rookie)", sortOrder: 301, gamesPlayed: 58, pointsPerGame: 12.2, reboundsPerGame: 5.4, assistsPerGame: 2.1 },
@@ -101,6 +103,7 @@ export const kentuckyBasketball2019: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Forward", yearsAtSchool: "2018-2019", statsNote: "Freshman • 13.5 PPG • First-round pick", gamesPlayed: 37, pointsPerGame: 13.5, reboundsPerGame: 5.9, assistsPerGame: 1.6 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Oak Hill Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 25.2, reboundsPerGame: 10.7, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 13.5, reboundsPerGame: 5.9, assistsPerGame: 1.6 },
       
         { level: "PROFESSIONAL", teamName: "San Antonio Spurs", season: "2019-20", yearLabel: "2019-20 (Rookie)", sortOrder: 301, gamesPlayed: 25, pointsPerGame: 9.1, reboundsPerGame: 3.4, assistsPerGame: 0.9 },
@@ -133,6 +136,7 @@ export const kentuckyBasketball2019: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "2018-2020", statsNote: "Freshman • Led SEC in steals • Elite defender" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Newton High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 16.6, reboundsPerGame: 3.4, assistsPerGame: 7.6 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 7.7, reboundsPerGame: 3.4, assistsPerGame: 4.3 },
       ],
       careerEvents: [
@@ -160,6 +164,7 @@ export const kentuckyBasketball2019: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Center", yearsAtSchool: "2017-2020", statsNote: "Sophomore • Developing shot-blocker" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "The Patrick School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.0, reboundsPerGame: 7.7, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 4.0, reboundsPerGame: 3.6, assistsPerGame: 0.3 },
       ],
       careerEvents: [
@@ -184,6 +189,7 @@ export const kentuckyBasketball2019: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Forward", yearsAtSchool: "2018-2019", statsNote: "Graduate Senior • Transfer from Stanford • Team leader" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "DeLaSalle High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 21.8, reboundsPerGame: 12.4, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 11.2, reboundsPerGame: 7.2, assistsPerGame: 0.6 },
       
         { level: "PROFESSIONAL", teamName: "Medi Bayreuth (Germany)", season: "2019-20", yearLabel: "2019-20 (Germany)", sortOrder: 301, gamesPlayed: 20, pointsPerGame: 12.5, reboundsPerGame: 6.0, assistsPerGame: 1.0 },
@@ -215,6 +221,7 @@ export const kentuckyBasketball2019: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Forward", yearsAtSchool: "2018-2020", statsNote: "Freshman • Five-star recruit" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Wheeler High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 10.7, reboundsPerGame: 8.5, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 3.8, reboundsPerGame: 4.2, assistsPerGame: 0.4 },
       ],
       careerEvents: [
@@ -242,6 +249,7 @@ export const kentuckyBasketball2019: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2018-2020", statsNote: "Freshman • Developed into 2020 SEC POY as sophomore" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "The John Carroll School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.8, reboundsPerGame: 1.5, assistsPerGame: 3.2 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 5.2, reboundsPerGame: 1.5, assistsPerGame: 0.9 },
       ],
       careerEvents: [
@@ -291,6 +299,7 @@ export const kentuckyBasketball2019: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Guard", yearsAtSchool: "2016-2019", statsNote: "Junior walk-on • Coach's son" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "MacDuffie School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.6, reboundsPerGame: 0.2, assistsPerGame: 2.3 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2018-2019", yearLabel: "Junior walk-on", sortOrder: 201, gamesPlayed: 14, pointsPerGame: 0.4, reboundsPerGame: 0.2, assistsPerGame: 0.2 },
       ],
       careerEvents: [

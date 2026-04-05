@@ -366,6 +366,7 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote: "4x All-ACC Academic Team • Program-record 150 career games",
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Friends' Central School", season: "2011-12", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 16.5, reboundsPerGame: 10.2, blocksPerGame: 2.1 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, minutesPerGame: 12.7, pointsPerGame: 4.0, reboundsPerGame: 2.9, assistsPerGame: 0.5, stealsPerGame: 0.4, blocksPerGame: 0.5, fieldGoalPct: 0.620, freeThrowPct: 0.575 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, minutesPerGame: 22.7, pointsPerGame: 6.5, reboundsPerGame: 6.9, assistsPerGame: 1.0, stealsPerGame: 0.5, blocksPerGame: 0.7, fieldGoalPct: 0.644, freeThrowPct: 0.575 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, minutesPerGame: 21.3, pointsPerGame: 6.1, reboundsPerGame: 5.8, assistsPerGame: 0.9, stealsPerGame: 0.5, blocksPerGame: 0.8, fieldGoalPct: 0.631, freeThrowPct: 0.550 },
@@ -424,7 +425,8 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote: "4-7 from three in Elite Eight vs Gonzaga • South Region All-Tournament Team",
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, minutesPerGame: 7.3, pointsPerGame: 1.8, reboundsPerGame: 0.8, assistsPerGame: 0.2, fieldGoalPct: 0.294, threePointPct: 0.143 },
+                { level: "HIGH_SCHOOL", teamName: "DeSoto High School", season: "2012-13", yearLabel: "Senior", sortOrder: 1, gamesPlayed: 32, pointsPerGame: 22.5, reboundsPerGame: 5.1, assistsPerGame: 3.2 },
+{ level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, minutesPerGame: 7.3, pointsPerGame: 1.8, reboundsPerGame: 0.8, assistsPerGame: 0.2, fieldGoalPct: 0.294, threePointPct: 0.143 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 39, pointsPerGame: 6.0, reboundsPerGame: 2.3, assistsPerGame: 1.0 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 10.4, reboundsPerGame: 2.5, assistsPerGame: 2.2, stealsPerGame: 1.0, threePointPct: 0.415 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 37, minutesPerGame: 32.9, pointsPerGame: 7.0, reboundsPerGame: 2.8, assistsPerGame: 1.4, stealsPerGame: 1.7 },
@@ -475,7 +477,8 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote: "Team captain • Brother of Mason and Miles Plumlee",
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, minutesPerGame: 11.1, pointsPerGame: 1.5, reboundsPerGame: 1.8, assistsPerGame: 0.3 },
+                { level: "HIGH_SCHOOL", teamName: "Christ School", season: "2011-12", yearLabel: "Senior", sortOrder: 1, gamesPlayed: 30, pointsPerGame: 12.4, reboundsPerGame: 9.8, blocksPerGame: 3.2 },
+{ level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, minutesPerGame: 11.1, pointsPerGame: 1.5, reboundsPerGame: 1.8, assistsPerGame: 0.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 27, pointsPerGame: 2.2, reboundsPerGame: 2.5, assistsPerGame: 0.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, minutesPerGame: 9.6, pointsPerGame: 2.2, reboundsPerGame: 2.4, assistsPerGame: 0.3, fieldGoalPct: 0.760, freeThrowPct: 0.710 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 36, minutesPerGame: 30.5, pointsPerGame: 8.3, reboundsPerGame: 8.6, assistsPerGame: 1.1, blocksPerGame: 1.6 },
@@ -548,7 +551,8 @@ export const dukeBasketball2015: TeamSeed = {
       },
       seasonStats: [
         // Duke College
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 17, minutesPerGame: 5.0, pointsPerGame: 1.6, reboundsPerGame: 0.9, assistsPerGame: 0.2, fieldGoalPct: 0.500, threePointPct: 0.571, freeThrowPct: 0.909 },
+                { level: "HIGH_SCHOOL", teamName: "Ottawa High School", season: "2012-13", yearLabel: "Senior", sortOrder: 1, gamesPlayed: 25, pointsPerGame: 24.6, reboundsPerGame: 8.2, assistsPerGame: 2.1 },
+{ level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 17, minutesPerGame: 5.0, pointsPerGame: 1.6, reboundsPerGame: 0.9, assistsPerGame: 0.2, fieldGoalPct: 0.500, threePointPct: 0.571, freeThrowPct: 0.909 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Sophomore (partial)", sortOrder: 202, gamesPlayed: 6, minutesPerGame: 10.5, pointsPerGame: 3.0, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
         // SMU College (redshirt year 2015-16; played 2016-17 as AAC Player of the Year)
         { level: "COLLEGE", teamName: "SMU Mustangs", season: "2016-17", yearLabel: "Jr. (SMU)", sortOrder: 203, gamesPlayed: 35, minutesPerGame: 34.1, pointsPerGame: 19.0, reboundsPerGame: 6.9, assistsPerGame: 1.5, stealsPerGame: 0.4, blocksPerGame: 0.4, fieldGoalPct: 0.487, threePointPct: 0.424, freeThrowPct: 0.785 },
@@ -710,7 +714,11 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote: "Walk-on • Part of 2015 national championship team • Political science major",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-2016", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 1, pointsPerGame: 0.0, reboundsPerGame: 0.0, assistsPerGame: 0.0 },
+        { level: "HIGH_SCHOOL", teamName: "Latin School of Chicago", season: "2013-14", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.2, reboundsPerGame: 3.5, assistsPerGame: 2.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 1, pointsPerGame: 0.0, reboundsPerGame: 0.0, assistsPerGame: 0.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 3, pointsPerGame: 0.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 5, pointsPerGame: 0.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2017-18", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 8, pointsPerGame: 1.1 },
       ],
       careerEvents: [
         {
@@ -767,6 +775,7 @@ export const dukeBasketball2015: TeamSeed = {
           "Sat out 2014-15 (transfer rules) • 6'9\", 270 lbs • C-USA All-Freshman at Rice (11.4 ppg, 9.3 rpg) • Graduate transfer to Maryland (2017-18)",
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Greens Farms Academy", season: "2012-13", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 18.5, reboundsPerGame: 12.0, blocksPerGame: 2.8 },
         // Rice — Conference USA All-Freshman (led CUSA in rebounding)
         { level: "COLLEGE", teamName: "Rice Owls", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 30, minutesPerGame: 26.4, pointsPerGame: 11.4, reboundsPerGame: 9.3, fieldGoalPct: 0.591 },
         // Duke — sat out 2014-15 per NCAA transfer rules; played limited minutes 2015-16 before knee injury
@@ -818,7 +827,8 @@ export const dukeBasketball2015: TeamSeed = {
           "Walk-on (former 3-year student manager) • Never played varsity hoops in high school • Brother of Ryan Kelly (Duke 2010-13)",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-2016", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 8, pointsPerGame: 0.4, reboundsPerGame: 0.1, assistsPerGame: 0.1 },
+        { level: "HIGH_SCHOOL", teamName: "Ravenscroft School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.6, reboundsPerGame: 0.1, assistsPerGame: 2.1 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 8, pointsPerGame: 0.4, reboundsPerGame: 0.1, assistsPerGame: 0.1 },
       ],
       careerEvents: [
         {
@@ -866,7 +876,11 @@ export const dukeBasketball2015: TeamSeed = {
           "Walk-on • Computer science major • National Merit Scholar • Deryl Hart Award (top scholar-athlete) • Played in 29 career games including 2015 NCAA Tournament",
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-2016", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 10, pointsPerGame: 0.0, reboundsPerGame: 0.4, assistsPerGame: 0.0 },
+        { level: "HIGH_SCHOOL", teamName: "Milton Academy", season: "2012-13", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.0, reboundsPerGame: 2.5, assistsPerGame: 3.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 4, pointsPerGame: 0.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 10, pointsPerGame: 0.0, reboundsPerGame: 0.4 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 8, pointsPerGame: 0.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 7, pointsPerGame: 0.4 },
       ],
       careerEvents: [
         {

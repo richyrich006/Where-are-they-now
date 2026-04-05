@@ -32,6 +32,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Guard", yearsAtSchool: "2017-2018", statsNote: "Freshman • 14.4 PPG, 5.1 APG • #11 overall pick • Now NBA MVP", gamesPlayed: 37, pointsPerGame: 14.4, reboundsPerGame: 4.1, assistsPerGame: 5.1 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Hamilton Heights Christian Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 26.6, reboundsPerGame: 4.1, assistsPerGame: 8.6 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-18", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, minutesPerGame: 32.6, pointsPerGame: 14.4, reboundsPerGame: 4.1, assistsPerGame: 5.1, stealsPerGame: 1.2, fieldGoalPct: 0.485, threePointPct: 0.404, freeThrowPct: 0.817 },
         { level: "PROFESSIONAL", teamName: "LA Clippers", season: "2018-19", yearLabel: "2018-19", sortOrder: 301, gamesPlayed: 82, minutesPerGame: 26.5, pointsPerGame: 10.8, reboundsPerGame: 2.8, assistsPerGame: 3.3, stealsPerGame: 1.2, fieldGoalPct: 0.477, threePointPct: 0.367, freeThrowPct: 0.800 },
         { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2019-20", yearLabel: "2019-20", sortOrder: 302, gamesPlayed: 70, minutesPerGame: 34.7, pointsPerGame: 19.0, reboundsPerGame: 6.0, assistsPerGame: 3.3, stealsPerGame: 1.1, fieldGoalPct: 0.472, threePointPct: 0.347, freeThrowPct: 0.807 },
@@ -68,6 +69,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Forward", yearsAtSchool: "2017-2018", statsNote: "Freshman • 15.6 PPG • #9 overall pick", gamesPlayed: 37, pointsPerGame: 15.6, reboundsPerGame: 5.4, assistsPerGame: 1.3 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Tampa Catholic High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 28.4, reboundsPerGame: 10.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 15.6, reboundsPerGame: 5.4, assistsPerGame: 1.3 },
       
         { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2018-19", yearLabel: "2018-19 (Rookie, #9 pick)", sortOrder: 301, gamesPlayed: 75, pointsPerGame: 12.8, reboundsPerGame: 4.5, assistsPerGame: 1.1 },
@@ -101,6 +103,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 25, position: "Forward", yearsAtSchool: "2017-2019", statsNote: "Freshman • 10.8 PPG, 5.7 RPG • Returned for sophomore year" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Findlay Prep", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 21.2, reboundsPerGame: 10.4, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 10.8, reboundsPerGame: 5.7, assistsPerGame: 1.0 },
       ],
       careerEvents: [
@@ -127,6 +130,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "2016-2018", statsNote: "Redshirt Freshman • 10.0 PPG • 2019 Dunk Contest winner" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Putnam Science Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 20.0, reboundsPerGame: 3.6, assistsPerGame: 3.6 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Redshirt Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 10.0, reboundsPerGame: 3.6, assistsPerGame: 1.2 },
       ],
       careerEvents: [
@@ -155,6 +159,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Center", yearsAtSchool: "2017-2020", statsNote: "Freshman • 5.5 PPG, 3.3 RPG" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "The Patrick School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 8.8, reboundsPerGame: 6.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 2.5, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
       ],
       careerEvents: [{ year: 2020, title: "Selected #42 overall by Charlotte Hornets", eventType: "DRAFT" }],
@@ -180,6 +185,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Forward", yearsAtSchool: "2017-2018", statsNote: "Freshman • Limited by injury • #41 overall pick" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Victory Prep Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 13.9, reboundsPerGame: 12.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 14, pointsPerGame: 5.9, reboundsPerGame: 7.1, assistsPerGame: 1.4 },
       
         { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2019-20", yearLabel: "2019-20", sortOrder: 301, gamesPlayed: 14, pointsPerGame: 2.4, reboundsPerGame: 3.1, assistsPerGame: 0.5 },
@@ -210,6 +216,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Point Guard", yearsAtSchool: "2017-2018", statsNote: "Freshman • 9.3 PPG • Transferred to Washington" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Neumann-Goretti High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 19.0, reboundsPerGame: 2.0, assistsPerGame: 5.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 9.3, reboundsPerGame: 2.0, assistsPerGame: 2.7 },
       ],
       careerEvents: [{ year: 2018, title: "Transferred to University of Washington", eventType: "OTHER" }],
@@ -235,6 +242,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 32, position: "Forward", yearsAtSchool: "2016-2018", statsNote: "Sophomore • Versatile wing" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Wilbraham & Monson Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.9, reboundsPerGame: 6.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.3, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 7.4, reboundsPerGame: 5.0, assistsPerGame: 0.5 },
       ],
@@ -260,6 +268,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 13, position: "Guard", yearsAtSchool: "2017-2019", statsNote: "Freshman • Missed season with knee injury" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Eleanor Roosevelt High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.5, reboundsPerGame: 3.0, assistsPerGame: 4.0 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Freshman (missed season — knee injury)", sortOrder: 201, gamesPlayed: 0 },
       ],
       careerEvents: [{ year: 2019, title: "Transferred to University of Arizona", eventType: "OTHER" }],

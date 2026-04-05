@@ -41,6 +41,7 @@ export const texasBasketball2006: TeamSeed = {
         assistsPerGame: 0.9,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Seagoville High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 27.5, reboundsPerGame: 15.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2004-05", yearLabel: "2004-05 (Freshman)", sortOrder: 201, gamesPlayed: 32, pointsPerGame: 9.9, reboundsPerGame: 6.2, assistsPerGame: 0.5, blocksPerGame: 2.0, fieldGoalPct: 0.544 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2005-06", yearLabel: "2005-06 (Sophomore, Big 12 POY, #2 pick)", sortOrder: 202, gamesPlayed: 35, minutesPerGame: 32.5, pointsPerGame: 15.0, reboundsPerGame: 9.2, assistsPerGame: 0.9, blocksPerGame: 2.2, fieldGoalPct: 0.545, freeThrowPct: 0.595 },
         { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2006-07", yearLabel: "2006-07 (Rookie)", sortOrder: 301, gamesPlayed: 63, pointsPerGame: 9.0, reboundsPerGame: 5.0, assistsPerGame: 0.7, fieldGoalPct: 0.458 },
@@ -86,6 +87,7 @@ export const texasBasketball2006: TeamSeed = {
         assistsPerGame: 1.6,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "William G. Enloe High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 25.9, reboundsPerGame: 11.8, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2003-04", yearLabel: "2003-04 (Freshman)", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 7.5, reboundsPerGame: 5.0, assistsPerGame: 1.2 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 11.0, reboundsPerGame: 5.8, assistsPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2005-06", yearLabel: "2005-06 (Junior, left for NBA)", sortOrder: 203, gamesPlayed: 37, pointsPerGame: 13.9, reboundsPerGame: 6.8, assistsPerGame: 1.6, stealsPerGame: 1.3, fieldGoalPct: 0.462, threePointPct: 0.376 },
@@ -131,6 +133,7 @@ export const texasBasketball2006: TeamSeed = {
         assistsPerGame: 2.4,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Jones High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 20.1, reboundsPerGame: 2.2, assistsPerGame: 5.1 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2005-06", yearLabel: "2005-06 (Freshman, one-and-done)", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 10.1, reboundsPerGame: 2.2, assistsPerGame: 2.4, fieldGoalPct: 0.445, threePointPct: 0.390, freeThrowPct: 0.825 },
         { level: "PROFESSIONAL", teamName: "Cleveland Cavaliers", season: "2006-07", yearLabel: "2006-07 (Rookie, 31 pts playoff game!)", sortOrder: 301, gamesPlayed: 55, pointsPerGame: 3.9, reboundsPerGame: 0.9, assistsPerGame: 1.0, fieldGoalPct: 0.370, threePointPct: 0.313 },
         { level: "PROFESSIONAL", teamName: "Cleveland Cavaliers", season: "2009-10", yearLabel: "2009-10", sortOrder: 304, gamesPlayed: 59, pointsPerGame: 10.2, reboundsPerGame: 2.3, assistsPerGame: 2.7, fieldGoalPct: 0.417, threePointPct: 0.411 },
@@ -171,6 +174,7 @@ export const texasBasketball2006: TeamSeed = {
         assistsPerGame: 1.5,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Ball High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.6, reboundsPerGame: 1.7, assistsPerGame: 4.0 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2005-06", yearLabel: "2005-06 (Sophomore, Sweet 16 game-winner!)", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 8.4, reboundsPerGame: 1.7, assistsPerGame: 1.5, threePointPct: 0.405 },
       ],
       careerEvents: [
@@ -196,6 +200,7 @@ export const texasBasketball2006: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Shooting Guard", yearsAtSchool: "2005-2009", statsNote: "Freshman • Would become Texas all-time 3PT leader (337)", gamesPlayed: 37, pointsPerGame: 8.4, reboundsPerGame: 1.3, assistsPerGame: 1.2 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Plano East Senior High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.6, reboundsPerGame: 1.3, assistsPerGame: 3.6 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2005-06", yearLabel: "2005-06 (Freshman)", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 8.4, reboundsPerGame: 1.3, assistsPerGame: 1.2 },
       ],
       careerEvents: [],
@@ -219,6 +224,7 @@ export const texasBasketball2006: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 35, position: "Power Forward", yearsAtSchool: "2002-2006", statsNote: "Senior • McDonald's All-American • 9.5 PPG, 7.0 RPG", gamesPlayed: 33, pointsPerGame: 9.5, reboundsPerGame: 7.0, assistsPerGame: 0.8 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Westlake High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 19.2, reboundsPerGame: 12.1, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2005-06", yearLabel: "2005-06 (Senior)", sortOrder: 204, gamesPlayed: 33, pointsPerGame: 9.5, reboundsPerGame: 7.0, assistsPerGame: 0.8 },
       ],
       careerEvents: [],
@@ -241,6 +247,7 @@ export const texasBasketball2006: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 32, position: "Center / Forward", yearsAtSchool: "2005-2010", statsNote: "Redshirt Freshman • 2.2 PPG", gamesPlayed: 28, pointsPerGame: 2.2, reboundsPerGame: 1.5, assistsPerGame: 0.2 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Clear Lake High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 8.3, reboundsPerGame: 5.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2005-06", yearLabel: "2005-06 (Redshirt Freshman)", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 2.2, reboundsPerGame: 1.5, assistsPerGame: 0.2 },
       ],
       careerEvents: [],
@@ -264,6 +271,7 @@ export const texasBasketball2006: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Forward", yearsAtSchool: "2004-2007", statsNote: "Junior walk-on • 1.0 PPG • Now NIL entrepreneur", gamesPlayed: 30, pointsPerGame: 1.0, reboundsPerGame: 0.8, assistsPerGame: 0.2 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "St. Michael's Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 6.5, reboundsPerGame: 4.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2005-06", yearLabel: "2005-06 (Junior walk-on)", sortOrder: 203, gamesPlayed: 30, pointsPerGame: 1.0, reboundsPerGame: 0.8, assistsPerGame: 0.2 },
       ],
       careerEvents: [],

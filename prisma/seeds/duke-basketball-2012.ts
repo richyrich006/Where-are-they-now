@@ -36,6 +36,7 @@ export const dukeBasketball2012: TeamSeed = {
         gamesPlayed: 34, pointsPerGame: 15.5, reboundsPerGame: 3.4, assistsPerGame: 2.1,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Winter Park High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 28.2, reboundsPerGame: 3.4, assistsPerGame: 4.7 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12 (Freshman, UNC buzzer-beater)", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 15.5, reboundsPerGame: 3.4, assistsPerGame: 2.1, fieldGoalPct: 0.423, threePointPct: 0.363, freeThrowPct: 0.768 },
         { level: "PROFESSIONAL", teamName: "New Orleans Hornets", season: "2012-13", yearLabel: "2012-13 (Rookie)", sortOrder: 301, gamesPlayed: 75, pointsPerGame: 6.2, reboundsPerGame: 1.7, assistsPerGame: 2.1, fieldGoalPct: 0.370 },
         { level: "PROFESSIONAL", teamName: "LA Clippers", season: "2015-16", yearLabel: "2015-16 (played for dad)", sortOrder: 304, gamesPlayed: 76, pointsPerGame: 8.9, reboundsPerGame: 2.3, assistsPerGame: 2.0, fieldGoalPct: 0.439, threePointPct: 0.355 },
@@ -68,6 +69,7 @@ export const dukeBasketball2012: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 30, position: "Guard", yearsAtSchool: "2008-2013", statsNote: "Junior • 13.2 PPG • 41.6% from three", gamesPlayed: 34, pointsPerGame: 13.2, reboundsPerGame: 2.5, assistsPerGame: 2.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Charlotte Christian School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 24.8, reboundsPerGame: 2.5, assistsPerGame: 5.2 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12 (Junior)", sortOrder: 204, gamesPlayed: 34, pointsPerGame: 13.2, reboundsPerGame: 2.5, assistsPerGame: 2.5, threePointPct: 0.416 },
       ],
       careerEvents: [],
@@ -92,6 +94,7 @@ export const dukeBasketball2012: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Center", yearsAtSchool: "2009-2013", statsNote: "Junior • 11.1 PPG, 9.2 RPG", gamesPlayed: 34, pointsPerGame: 11.1, reboundsPerGame: 9.2, assistsPerGame: 1.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Christ School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 21.6, reboundsPerGame: 15.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12 (Junior)", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 11.1, reboundsPerGame: 9.2, assistsPerGame: 1.5 },
       ],
       careerEvents: [],
@@ -113,6 +116,7 @@ export const dukeBasketball2012: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 21, position: "Forward / Center", yearsAtSchool: "2008-2012", statsNote: "Senior • 22 rebounds vs Maryland (Coach K record) • #26 pick", gamesPlayed: 34, pointsPerGame: 5.2, reboundsPerGame: 7.1, assistsPerGame: 0.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Christ School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.8, reboundsPerGame: 12.2, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12 (Senior)", sortOrder: 204, gamesPlayed: 34, pointsPerGame: 5.2, reboundsPerGame: 7.1, assistsPerGame: 0.5, fieldGoalPct: 0.610 },
         { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2012-13", yearLabel: "2012-13 (Rookie)", sortOrder: 301, gamesPlayed: 62, pointsPerGame: 2.8, reboundsPerGame: 2.5, assistsPerGame: 0.2 },
         { level: "PROFESSIONAL", teamName: "Phoenix Suns", season: "2014-15", yearLabel: "2014-15", sortOrder: 303, gamesPlayed: 58, pointsPerGame: 7.8, reboundsPerGame: 6.3, assistsPerGame: 0.5, fieldGoalPct: 0.515 },
@@ -140,6 +144,7 @@ export const dukeBasketball2012: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "2011-2015", statsNote: "Freshman • 4.4 PPG • Future 2x NBA champion", gamesPlayed: 33, pointsPerGame: 4.4, reboundsPerGame: 1.0, assistsPerGame: 1.9 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "DeMatha Catholic High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.6, reboundsPerGame: 1.0, assistsPerGame: 4.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12 (Freshman)", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 4.4, reboundsPerGame: 1.0, assistsPerGame: 1.9 },
       ],
       careerEvents: [],
@@ -163,6 +168,7 @@ export const dukeBasketball2012: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 34, position: "Forward", yearsAtSchool: "2009-2013", statsNote: "Junior • 11.8 PPG • Stretch four", gamesPlayed: 34, pointsPerGame: 11.8, reboundsPerGame: 5.4, assistsPerGame: 1.0 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Ravenscroft School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 22.7, reboundsPerGame: 10.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12 (Junior)", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 11.8, reboundsPerGame: 5.4, assistsPerGame: 1.0 },
       ],
       careerEvents: [],
@@ -215,6 +221,7 @@ export const dukeBasketball2012: TeamSeed = {
         gamesPlayed: 34, pointsPerGame: 4.1, reboundsPerGame: 1.6, assistsPerGame: 2.0,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Gonzaga College High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.1, reboundsPerGame: 1.6, assistsPerGame: 4.6 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12 (Sophomore, 19 starts)", sortOrder: 202, gamesPlayed: 34, pointsPerGame: 4.1, reboundsPerGame: 1.6, assistsPerGame: 2.0, fieldGoalPct: 0.379, threePointPct: 0.351 },
       ],
       careerEvents: [
@@ -250,6 +257,7 @@ export const dukeBasketball2012: TeamSeed = {
         gamesPlayed: 29, pointsPerGame: 2.7, reboundsPerGame: 1.4, assistsPerGame: 0.2,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montrose Christian School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.1, reboundsPerGame: 4.8, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12 (Sophomore)", sortOrder: 202, gamesPlayed: 29, pointsPerGame: 2.7, reboundsPerGame: 1.4, assistsPerGame: 0.2, fieldGoalPct: 0.449 },
       ],
       careerEvents: [
@@ -283,7 +291,8 @@ export const dukeBasketball2012: TeamSeed = {
         statsNote: "Redshirt Freshman • Did not play (redshirted with brothers Miles and Mason)",
         gamesPlayed: 0,
       },
-      seasonStats: [],
+      seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Christ School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.5, reboundsPerGame: 8.0, blocksPerGame: 2.5 },],
       careerEvents: [
         { year: 2015, title: "Won NCAA Championship with Duke (reserve role)", eventType: "CHAMPIONSHIP" },
         { year: 2016, title: "Captained Duke team; averaged 8.3 PPG, 8.6 RPG as senior", eventType: "OTHER" },
@@ -318,6 +327,7 @@ export const dukeBasketball2012: TeamSeed = {
         gamesPlayed: 19, pointsPerGame: 1.7, reboundsPerGame: 0.8, assistsPerGame: 0.4,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Benedictine College Preparatory", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.5, reboundsPerGame: 0.8, assistsPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12 (Freshman)", sortOrder: 201, gamesPlayed: 19, pointsPerGame: 1.7, reboundsPerGame: 0.8, assistsPerGame: 0.4 },
         { level: "COLLEGE", teamName: "Syracuse Orange", season: "2015-16", yearLabel: "2015-16 (Senior, Final Four)", sortOrder: 205, gamesPlayed: 37, pointsPerGame: 17.5, reboundsPerGame: 4.1, assistsPerGame: 4.3, stealsPerGame: 1.9, fieldGoalPct: 0.460, threePointPct: 0.390 },
       ],
@@ -352,7 +362,8 @@ export const dukeBasketball2012: TeamSeed = {
         statsNote: "Redshirt • Did not play in regular season games",
         gamesPlayed: 0,
       },
-      seasonStats: [],
+      seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "St. Mark's School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.5, reboundsPerGame: 8.0, blocksPerGame: 1.5 },],
       careerEvents: [
         { year: 2013, title: "Transferred from Duke to University of Florida", eventType: "OTHER" },
         { year: 2016, title: "Transferred to Northeastern; averaged 14.1 PPG as senior", eventType: "OTHER" },
@@ -385,6 +396,7 @@ export const dukeBasketball2012: TeamSeed = {
         gamesPlayed: 5, pointsPerGame: 0.2, reboundsPerGame: 0.2, assistsPerGame: 0.0,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Lake Forest Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.3, reboundsPerGame: 3.3, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12 (Junior)", sortOrder: 203, gamesPlayed: 5, pointsPerGame: 0.2, reboundsPerGame: 0.2, assistsPerGame: 0.0 },
       ],
       careerEvents: [

@@ -32,6 +32,7 @@ export const kentuckyBasketball2017: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Point Guard", yearsAtSchool: "2016-2017", statsNote: "Freshman • 16.7 PPG • 39 pts vs UCLA • #5 overall pick", gamesPlayed: 38, pointsPerGame: 16.7, reboundsPerGame: 4.0, assistsPerGame: 4.6 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Cypress Lakes High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 30.0, reboundsPerGame: 4.0, assistsPerGame: 8.0 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-17", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 38, minutesPerGame: 32.2, pointsPerGame: 16.7, reboundsPerGame: 4.0, assistsPerGame: 4.6, stealsPerGame: 1.5, fieldGoalPct: 0.479, threePointPct: 0.246, freeThrowPct: 0.739 },
         { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 73, minutesPerGame: 27.8, pointsPerGame: 11.6, reboundsPerGame: 2.8, assistsPerGame: 4.4, stealsPerGame: 1.0, fieldGoalPct: 0.412, threePointPct: 0.307, freeThrowPct: 0.726 },
         { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2018-19", yearLabel: "2018-19", sortOrder: 302, gamesPlayed: 81, minutesPerGame: 31.6, pointsPerGame: 17.3, reboundsPerGame: 3.8, assistsPerGame: 7.3, stealsPerGame: 1.6, fieldGoalPct: 0.458, threePointPct: 0.371, freeThrowPct: 0.727 },
@@ -69,6 +70,7 @@ export const kentuckyBasketball2017: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2016-2017", statsNote: "Freshman • 19.8 PPG • 47 pts vs UNC • #11 overall pick", gamesPlayed: 38, pointsPerGame: 19.8, reboundsPerGame: 2.5, assistsPerGame: 2.3 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Bentonville High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 34.7, reboundsPerGame: 2.5, assistsPerGame: 5.0 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 38, pointsPerGame: 19.8, reboundsPerGame: 2.5, assistsPerGame: 2.3 },
       ],
       careerEvents: [
@@ -96,6 +98,7 @@ export const kentuckyBasketball2017: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Center / Power Forward", yearsAtSchool: "2016-2017", statsNote: "Freshman • 13.0 PPG, 8.0 RPG • #14 overall pick", gamesPlayed: 38, pointsPerGame: 13.0, reboundsPerGame: 8.0, assistsPerGame: 1.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Northside High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 24.5, reboundsPerGame: 13.4, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-17", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 38, minutesPerGame: 24.9, pointsPerGame: 13.0, reboundsPerGame: 8.0, assistsPerGame: 1.5, stealsPerGame: 0.6, blocksPerGame: 1.5, fieldGoalPct: 0.599, freeThrowPct: 0.604 },
         { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 69, minutesPerGame: 19.8, pointsPerGame: 6.9, reboundsPerGame: 5.5, assistsPerGame: 1.5, blocksPerGame: 0.5, fieldGoalPct: 0.515, freeThrowPct: 0.721 },
         { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2018-19", yearLabel: "2018-19", sortOrder: 302, gamesPlayed: 82, minutesPerGame: 23.3, pointsPerGame: 8.9, reboundsPerGame: 7.3, assistsPerGame: 2.2, blocksPerGame: 0.8, fieldGoalPct: 0.576, freeThrowPct: 0.735 },
@@ -134,6 +137,7 @@ export const kentuckyBasketball2017: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 32, position: "Forward", yearsAtSchool: "2016-2018", statsNote: "Freshman • South Sudanese-American • Versatile wing" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Wilbraham & Monson Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.9, reboundsPerGame: 6.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.3, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
       ],
       careerEvents: [
@@ -185,6 +189,7 @@ export const kentuckyBasketball2017: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 13, position: "Guard", yearsAtSchool: "2015-2017", statsNote: "Sophomore • 13.5 PPG • Team's second-leading scorer" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Roselle Catholic High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 19.4, reboundsPerGame: 5.3, assistsPerGame: 6.0 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 9.6, reboundsPerGame: 5.3, assistsPerGame: 3.1 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 13.2, reboundsPerGame: 5.4, assistsPerGame: 3.1 },
       ],
@@ -210,6 +215,7 @@ export const kentuckyBasketball2017: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 35, position: "Power Forward", yearsAtSchool: "2013-2017", statsNote: "Senior • In-state recruit" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Western Hills High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 15.2, reboundsPerGame: 7.4, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 6.8, reboundsPerGame: 3.4, assistsPerGame: 0.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Senior", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 8.6, reboundsPerGame: 4.1, assistsPerGame: 0.7 },
       ],
@@ -233,6 +239,7 @@ export const kentuckyBasketball2017: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 25, position: "Guard", yearsAtSchool: "2013-2017", statsNote: "Senior • Walk-on • 2013 KY Mr. Basketball" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Madison Central High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 10.2, reboundsPerGame: 1.9, assistsPerGame: 4.3 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.5, reboundsPerGame: 1.9, assistsPerGame: 1.8 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Senior (SEC Tourney MOP)", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 3.4, reboundsPerGame: 1.7, assistsPerGame: 1.7 },
       ],
@@ -258,6 +265,7 @@ export const kentuckyBasketball2017: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Center", yearsAtSchool: "2015-2017", statsNote: "Sophomore • 7-footer from Australia" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "La Lumiere School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.4, reboundsPerGame: 4.6, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 1.6, reboundsPerGame: 1.2, assistsPerGame: 0.2 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 4.5, reboundsPerGame: 3.1, assistsPerGame: 0.5 },
       ],
@@ -283,6 +291,7 @@ export const kentuckyBasketball2017: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Power Forward / Center", yearsAtSchool: "2016-2018", statsNote: "Freshman • Five-star recruit" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Hamilton Heights Christian Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.5, reboundsPerGame: 4.3, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 24, pointsPerGame: 1.7, reboundsPerGame: 1.0, assistsPerGame: 0.1 },
       ],
       careerEvents: [
@@ -308,6 +317,7 @@ export const kentuckyBasketball2017: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Forward", yearsAtSchool: "2016-2018", statsNote: "Freshman • First New Zealander at Kentucky" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Rangitoto College", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.1, reboundsPerGame: 4.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 22, pointsPerGame: 1.4, reboundsPerGame: 0.9, assistsPerGame: 0.2 },
       ],
       careerEvents: [{ year: 2018, title: "Left Kentucky; suspended", eventType: "OTHER" }],

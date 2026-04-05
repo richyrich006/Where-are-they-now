@@ -32,6 +32,7 @@ export const kentuckyBasketball2023: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 22, position: "Guard", yearsAtSchool: "2022-2023", statsNote: "Freshman • #10 overall pick • 2025 NBA Champion" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Richardson High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 22.5, reboundsPerGame: 3.7, assistsPerGame: 6.7 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 11.7, reboundsPerGame: 3.7, assistsPerGame: 3.6 },
       
         { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2023-24", yearLabel: "2023-24 (Rookie)", sortOrder: 301, gamesPlayed: 71, pointsPerGame: 6.2, reboundsPerGame: 2.3, assistsPerGame: 1.8 },
@@ -83,6 +84,7 @@ export const kentuckyBasketball2023: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Forward", yearsAtSchool: "2022-2023", statsNote: "Freshman • Five-star from Akron • #58 overall pick" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Oak Hill Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.6, reboundsPerGame: 6.9, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, pointsPerGame: 6.4, reboundsPerGame: 3.0, assistsPerGame: 0.8 },
       
         { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2023-24", yearLabel: "2023-24 (two-way)", sortOrder: 301, gamesPlayed: 8, pointsPerGame: 3.0, reboundsPerGame: 3.5, assistsPerGame: 0.3 },
@@ -112,6 +114,7 @@ export const kentuckyBasketball2023: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Guard", yearsAtSchool: "2022-2024", statsNote: "Senior • Transfer from Illinois State • SEC Co-6th Man of Year" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Simeon Career Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 26.9, reboundsPerGame: 2.5, assistsPerGame: 3.7 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 14.6, reboundsPerGame: 2.5, assistsPerGame: 1.3 },
       ],
       careerEvents: [
@@ -139,6 +142,7 @@ export const kentuckyBasketball2023: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard / Forward", yearsAtSchool: "2022-2024", statsNote: "Freshman • From Guinea • Later followed Calipari to Arkansas" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Transferred to Kentucky from Guinea via D.C.", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.8, reboundsPerGame: 6.6, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 4.5, reboundsPerGame: 2.8, assistsPerGame: 0.9 },
       ],
       careerEvents: [
@@ -165,6 +169,7 @@ export const kentuckyBasketball2023: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Center", yearsAtSchool: "2022-2024", statsNote: "Freshman • Elite shot-blocker from Nigeria" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Prep school in the U.S.", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 8.9, reboundsPerGame: 6.4, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 2.6, reboundsPerGame: 2.6, assistsPerGame: 0.2 },
       ],
       careerEvents: [
@@ -191,6 +196,7 @@ export const kentuckyBasketball2023: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "2021-2023", statsNote: "Senior • Led SEC in assists" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Houston Christian High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 18.2, reboundsPerGame: 2.3, assistsPerGame: 9.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 8.8, reboundsPerGame: 2.3, assistsPerGame: 5.8 },
       ],
       careerEvents: [{ year: 2023, title: "Transferred to University of Washington", eventType: "OTHER" }],
@@ -214,6 +220,7 @@ export const kentuckyBasketball2023: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Forward", yearsAtSchool: "2020-2023", statsNote: "Senior • Fan favorite for dunking ability" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Ossining High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.3, reboundsPerGame: 9.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 8.2, reboundsPerGame: 4.6, assistsPerGame: 1.0 },
       ],
       careerEvents: [{ year: 2023, title: "Went undrafted; signed two-way with Hawks", eventType: "SIGNING" }],

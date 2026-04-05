@@ -32,6 +32,7 @@ export const floridaBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 42, position: "Center / Power Forward", yearsAtSchool: "2003-2007", statsNote: "Sophomore • Emerging star • 2x Future National Champion", gamesPlayed: 32, pointsPerGame: 10.0, reboundsPerGame: 6.5, assistsPerGame: 1.0 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Grand Ledge High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 20.0, reboundsPerGame: 11.5, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2003-04", yearLabel: "2003-04 (Freshman)", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 6.5, reboundsPerGame: 5.0, assistsPerGame: 0.8 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 10.0, reboundsPerGame: 6.5, assistsPerGame: 1.0 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2005-06", yearLabel: "2005-06 (Champion)", sortOrder: 203, gamesPlayed: 36, pointsPerGame: 11.3, reboundsPerGame: 7.5, assistsPerGame: 1.4 },
@@ -62,6 +63,7 @@ export const floridaBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 13, position: "Center", yearsAtSchool: "2003-2007", statsNote: "Sophomore • Growing into dominant role", gamesPlayed: 32, pointsPerGame: 6.5, reboundsPerGame: 5.0, assistsPerGame: 1.0 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Lawrenceville School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.8, reboundsPerGame: 9.5, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 6.5, reboundsPerGame: 5.0, assistsPerGame: 1.0 },
       ],
       careerEvents: [
@@ -87,6 +89,7 @@ export const floridaBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Small Forward", yearsAtSchool: "2003-2007", statsNote: "Sophomore • Defensive specialist", gamesPlayed: 32, pointsPerGame: 8.5, reboundsPerGame: 4.0, assistsPerGame: 1.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Portland High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.8, reboundsPerGame: 8.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 8.5, reboundsPerGame: 4.0, assistsPerGame: 1.5 },
       ],
       careerEvents: [
@@ -111,6 +114,7 @@ export const floridaBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 11, position: "Point Guard", yearsAtSchool: "2003-2007", statsNote: "Sophomore • Floor general", gamesPlayed: 32, pointsPerGame: 7.0, reboundsPerGame: 1.5, assistsPerGame: 3.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Mt. Zion Christian Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 15.5, reboundsPerGame: 1.5, assistsPerGame: 6.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 7.0, reboundsPerGame: 1.5, assistsPerGame: 3.5 },
       ],
       careerEvents: [
@@ -136,6 +140,7 @@ export const floridaBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 30, position: "Power Forward", yearsAtSchool: "2001-2005", statsNote: "Senior captain • First-team All-SEC • 16.0 PPG, 9.5 RPG", gamesPlayed: 32, pointsPerGame: 16.0, reboundsPerGame: 9.5, assistsPerGame: 2.0 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Chaminade College Prep", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 29.0, reboundsPerGame: 15.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Senior, All-SEC)", sortOrder: 204, gamesPlayed: 32, pointsPerGame: 16.0, reboundsPerGame: 9.5, assistsPerGame: 2.0 },
       ],
       careerEvents: [
@@ -161,6 +166,7 @@ export const floridaBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 44, position: "Forward", yearsAtSchool: "2001-2005", statsNote: "Senior • 15.0 PPG • Versatile scorer", gamesPlayed: 32, pointsPerGame: 15.0, reboundsPerGame: 5.0, assistsPerGame: 2.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Countryside High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 27.5, reboundsPerGame: 9.5, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Senior)", sortOrder: 204, gamesPlayed: 32, pointsPerGame: 15.0, reboundsPerGame: 5.0, assistsPerGame: 2.5 },
       ],
       careerEvents: [
@@ -186,6 +192,7 @@ export const floridaBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Guard", yearsAtSchool: "2003-2007", statsNote: "Sophomore • Elite three-point shooter", gamesPlayed: 32, pointsPerGame: 6.0, reboundsPerGame: 1.5, assistsPerGame: 1.0 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Maryville High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.0, reboundsPerGame: 1.5, assistsPerGame: 3.3 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 6.0, reboundsPerGame: 1.5, assistsPerGame: 1.0 },
       ],
       careerEvents: [
@@ -211,6 +218,7 @@ export const floridaBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 24, position: "Forward / Center", yearsAtSchool: "2004-2007", statsNote: "Freshman • 2x Future National Champion", gamesPlayed: 25, pointsPerGame: 3.0, reboundsPerGame: 3.0 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Provine High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.5, reboundsPerGame: 6.9, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Freshman)", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 3.0, reboundsPerGame: 3.0, assistsPerGame: 0.3 },
       ],
       careerEvents: [

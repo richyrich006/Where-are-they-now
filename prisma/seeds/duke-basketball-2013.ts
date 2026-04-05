@@ -36,6 +36,7 @@ export const dukeBasketball2013: TeamSeed = {
         gamesPlayed: 34, pointsPerGame: 17.5, reboundsPerGame: 3.9, assistsPerGame: 2.7,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Charlotte Christian School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 31.2, reboundsPerGame: 3.9, assistsPerGame: 5.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Senior, All-ACC)", sortOrder: 205, gamesPlayed: 34, pointsPerGame: 17.5, reboundsPerGame: 3.9, assistsPerGame: 2.7, threePointPct: 0.438 },
       ],
       careerEvents: [
@@ -68,6 +69,7 @@ export const dukeBasketball2013: TeamSeed = {
         gamesPlayed: 36, pointsPerGame: 17.1, reboundsPerGame: 10.1, assistsPerGame: 1.8,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Christ School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 30.7, reboundsPerGame: 15.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Senior, All-American)", sortOrder: 204, gamesPlayed: 36, pointsPerGame: 17.1, reboundsPerGame: 10.1, assistsPerGame: 1.8, fieldGoalPct: 0.609 },
       ],
       careerEvents: [
@@ -97,6 +99,7 @@ export const dukeBasketball2013: TeamSeed = {
         gamesPlayed: 36, pointsPerGame: 11.7, reboundsPerGame: 3.8, assistsPerGame: 5.3,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "DeMatha Catholic High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 22.5, reboundsPerGame: 3.8, assistsPerGame: 8.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Sophomore)", sortOrder: 202, gamesPlayed: 36, pointsPerGame: 11.7, reboundsPerGame: 3.8, assistsPerGame: 5.3 },
       ],
       careerEvents: [
@@ -128,6 +131,7 @@ export const dukeBasketball2013: TeamSeed = {
         gamesPlayed: 36, pointsPerGame: 11.6, reboundsPerGame: 3.4, assistsPerGame: 1.9,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Strake Jesuit College Prep", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 22.4, reboundsPerGame: 3.4, assistsPerGame: 4.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Freshman)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 11.6, reboundsPerGame: 3.4, assistsPerGame: 1.9, threePointPct: 0.384 },
       ],
       careerEvents: [
@@ -158,6 +162,7 @@ export const dukeBasketball2013: TeamSeed = {
         gamesPlayed: 23, pointsPerGame: 12.9, reboundsPerGame: 5.3, assistsPerGame: 1.6,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Ravenscroft School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 24.4, reboundsPerGame: 9.9, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Senior, 36 vs Miami!)", sortOrder: 204, gamesPlayed: 23, pointsPerGame: 12.9, reboundsPerGame: 5.3, assistsPerGame: 1.6 },
       ],
       careerEvents: [
@@ -189,6 +194,7 @@ export const dukeBasketball2013: TeamSeed = {
         gamesPlayed: 36, pointsPerGame: 6.1, reboundsPerGame: 5.8, assistsPerGame: 0.5,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Friends' Central School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.1, reboundsPerGame: 10.5, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Freshman)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 6.1, reboundsPerGame: 5.8, assistsPerGame: 0.5, fieldGoalPct: 0.631 },
       ],
       careerEvents: [
@@ -242,6 +248,7 @@ export const dukeBasketball2013: TeamSeed = {
         gamesPlayed: 36, pointsPerGame: 3.6, reboundsPerGame: 2.3, assistsPerGame: 2.2,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Gonzaga College High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 10.4, reboundsPerGame: 2.3, assistsPerGame: 4.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Junior, Elite Eight)", sortOrder: 203, gamesPlayed: 36, pointsPerGame: 3.6, reboundsPerGame: 2.3, assistsPerGame: 2.2, stealsPerGame: 1.3, threePointPct: 0.392 },
       ],
       careerEvents: [
@@ -274,6 +281,7 @@ export const dukeBasketball2013: TeamSeed = {
         gamesPlayed: 35, pointsPerGame: 2.4, reboundsPerGame: 1.9, assistsPerGame: 0.3,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montrose Christian School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 8.6, reboundsPerGame: 5.5, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Junior, Elite Eight)", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 2.4, reboundsPerGame: 1.9, assistsPerGame: 0.3 },
       ],
       careerEvents: [
@@ -307,6 +315,7 @@ export const dukeBasketball2013: TeamSeed = {
         gamesPlayed: 20, pointsPerGame: 1.9, reboundsPerGame: 2.3, assistsPerGame: 0.4,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Christ School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.8, reboundsPerGame: 6.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (RS Freshman, stress fracture)", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 1.9, reboundsPerGame: 2.3, assistsPerGame: 0.4 },
       ],
       careerEvents: [
@@ -341,6 +350,7 @@ export const dukeBasketball2013: TeamSeed = {
         gamesPlayed: 10, pointsPerGame: 0.5, reboundsPerGame: 0.3, assistsPerGame: 0.0,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Lake Forest Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.8, reboundsPerGame: 3.4, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Senior)", sortOrder: 204, gamesPlayed: 10, pointsPerGame: 0.5, reboundsPerGame: 0.3, assistsPerGame: 0.0 },
       ],
       careerEvents: [
@@ -370,7 +380,8 @@ export const dukeBasketball2013: TeamSeed = {
         statsNote: "Transfer from Mississippi State • Sat out 2012-13 per NCAA rules",
         gamesPlayed: 0,
       },
-      seasonStats: [],
+      seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Meridian High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.5, reboundsPerGame: 8.0, blocksPerGame: 1.5 },],
       careerEvents: [
         { year: 2014, title: "Selected #23 overall by the Utah Jazz", eventType: "DRAFT" },
         { year: 2020, title: "Torn Achilles tendon", eventType: "INJURY" },

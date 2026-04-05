@@ -32,6 +32,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Forward", yearsAtSchool: "2020-2021", statsNote: "Freshman • Five-star recruit • 11.5 PPG" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Sierra Canyon School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 22.2, reboundsPerGame: 8.9, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 11.5, reboundsPerGame: 4.5, assistsPerGame: 1.6 },
       ],
       careerEvents: [
@@ -56,6 +57,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2020-2021", statsNote: "Freshman • Five-star recruit • 9.6 PPG in 8 games • Forever a Wildcat" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Brewster Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 19.4, reboundsPerGame: 2.6, assistsPerGame: 4.6 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 8, pointsPerGame: 9.6, reboundsPerGame: 2.6, assistsPerGame: 2.0 },
       ],
       careerEvents: [
@@ -84,6 +86,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 23, position: "Forward / Center", yearsAtSchool: "2020-2021", statsNote: "Freshman • 8.4 PPG, 6.6 RPG, 2.6 BPG" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Waterford Mott High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.6, reboundsPerGame: 11.6, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 8.4, reboundsPerGame: 6.6, assistsPerGame: 0.4 },
       
         { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2021-22", yearLabel: "2021-22 (Rookie)", sortOrder: 301, gamesPlayed: 52, pointsPerGame: 4.4, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
@@ -116,6 +119,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 10, position: "Guard", yearsAtSchool: "2020-2022", statsNote: "Graduate Senior • Transfer from Creighton • Team leader" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "North Mecklenburg High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 22.2, reboundsPerGame: 2.8, assistsPerGame: 5.2 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 11.5, reboundsPerGame: 2.8, assistsPerGame: 2.5 },
       ],
       careerEvents: [
@@ -142,6 +146,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 30, position: "Center", yearsAtSchool: "2020-2021", statsNote: "Graduate Senior • Transfer from Wake Forest • French-Senegalese" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Sunrise Christian Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 21.2, reboundsPerGame: 9.8, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Graduate Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 10.8, reboundsPerGame: 5.2, assistsPerGame: 0.7 },
       ],
       careerEvents: [
@@ -168,6 +173,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Forward", yearsAtSchool: "2020-2023", statsNote: "Sophomore • Transfer from Rhode Island • Obi Toppin's brother" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Ossining High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.5, reboundsPerGame: 7.3, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 24, pointsPerGame: 5.0, reboundsPerGame: 3.3, assistsPerGame: 0.6 },
       ],
       careerEvents: [
@@ -193,6 +199,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Forward", yearsAtSchool: "2019-2022", statsNote: "Sophomore • Key returning player" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "La Lumiere School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 20.5, reboundsPerGame: 8.7, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 18, pointsPerGame: 10.3, reboundsPerGame: 4.4, assistsPerGame: 0.8 },
       ],
       careerEvents: [{ year: 2024, title: "Went undrafted; signed with Pelicans", eventType: "SIGNING" }],
@@ -216,6 +223,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "2020-2021", statsNote: "Freshman • Reclassified • Starting PG • Transferred to Texas" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Mater Dei High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.8, reboundsPerGame: 2.5, assistsPerGame: 6.0 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 6.5, reboundsPerGame: 2.5, assistsPerGame: 3.1 },
       ],
       careerEvents: [{ year: 2021, title: "Transferred to University of Texas", eventType: "OTHER" }],
@@ -240,6 +248,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 55, position: "Forward", yearsAtSchool: "2020-2022", statsNote: "Freshman • Physical rebounder" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Camden High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 8.3, reboundsPerGame: 6.4, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 24, pointsPerGame: 2.2, reboundsPerGame: 2.6, assistsPerGame: 0.4 },
       ],
       careerEvents: [{ year: 2025, title: "Went undrafted; signed in Greece", eventType: "SIGNING" }],
@@ -263,6 +272,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 21, position: "Forward", yearsAtSchool: "2020-2021", statsNote: "Freshman • Transferred to Florida State" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Vashon High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 8.8, reboundsPerGame: 5.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 18, pointsPerGame: 2.5, reboundsPerGame: 1.5, assistsPerGame: 0.3 },
       ],
       careerEvents: [{ year: 2021, title: "Transferred to Florida State", eventType: "OTHER" }],
@@ -284,6 +294,7 @@ export const kentuckyBasketball2021: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 11, position: "Guard", yearsAtSchool: "2019-2022", statsNote: "Sophomore • KY Mr. Basketball • Sharpshooter" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Pendleton County High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 10.8, reboundsPerGame: 1.4, assistsPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 22, pointsPerGame: 3.9, reboundsPerGame: 1.4, assistsPerGame: 0.4 },
       ],
       careerEvents: [],

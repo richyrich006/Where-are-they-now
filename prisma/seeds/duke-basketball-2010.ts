@@ -42,6 +42,7 @@ export const dukeBasketball2010: TeamSeed = {
         assistsPerGame: 4.9,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Glenbrook North High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 32.3, reboundsPerGame: 4.1, assistsPerGame: 8.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2006-07", yearLabel: "2006-07 (Freshman)", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 9.3, reboundsPerGame: 3.3, assistsPerGame: 1.7 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2007-08", yearLabel: "2007-08", sortOrder: 202, gamesPlayed: 34, pointsPerGame: 10.3, reboundsPerGame: 3.2, assistsPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "2008-09", sortOrder: 203, gamesPlayed: 37, pointsPerGame: 14.9, reboundsPerGame: 3.6, assistsPerGame: 4.2 },
@@ -72,6 +73,7 @@ export const dukeBasketball2010: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Small Forward", yearsAtSchool: "2007-2011", statsNote: "Junior • Final Four MOP • 17.7 PPG, 7.0 RPG", gamesPlayed: 38, pointsPerGame: 17.7, reboundsPerGame: 7.0, assistsPerGame: 1.9 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "South Medford High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 31.5, reboundsPerGame: 12.1, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2007-08", yearLabel: "2007-08 (Freshman)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 13.3, reboundsPerGame: 5.6, assistsPerGame: 1.2 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "2008-09", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 17.0, reboundsPerGame: 6.3, assistsPerGame: 1.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "2009-10 (Champion, Final Four MOP)", sortOrder: 203, gamesPlayed: 38, pointsPerGame: 17.7, reboundsPerGame: 7.0, assistsPerGame: 1.9, fieldGoalPct: 0.491, threePointPct: 0.415 },
@@ -101,6 +103,7 @@ export const dukeBasketball2010: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "2007-2011", statsNote: "Junior • 17.4 PPG • Third-Team All-ACC • National Champion", gamesPlayed: 38, pointsPerGame: 17.4, reboundsPerGame: 3.8, assistsPerGame: 5.1 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Oak Hill Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 31.1, reboundsPerGame: 3.8, assistsPerGame: 8.6 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "2009-10 (Champion)", sortOrder: 203, gamesPlayed: 38, pointsPerGame: 17.4, reboundsPerGame: 3.8, assistsPerGame: 5.1 },
       ],
       careerEvents: [
@@ -130,6 +133,7 @@ export const dukeBasketball2010: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 55, position: "Center", yearsAtSchool: "2006-2010", statsNote: "Senior • Grabbed final rebound of title game • Duke record 145 offensive rebounds", gamesPlayed: 35, pointsPerGame: 4.1, reboundsPerGame: 7.7, assistsPerGame: 0.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Haddonfield Memorial High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.1, reboundsPerGame: 13.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "2008-09", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 2.2, reboundsPerGame: 2.5, assistsPerGame: 0.2 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "2009-10 (Champion, final rebound!)", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 4.1, reboundsPerGame: 7.7, assistsPerGame: 0.5 },
       ],
@@ -158,6 +162,7 @@ export const dukeBasketball2010: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 42, position: "Power Forward", yearsAtSchool: "2006-2010", statsNote: "Senior • ACC All-Defensive Team • 4.8 PPG, 4.9 RPG", gamesPlayed: 38, pointsPerGame: 4.8, reboundsPerGame: 4.9, assistsPerGame: 0.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "St. Benedict's Prep", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.2, reboundsPerGame: 9.4, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "2009-10 (Champion)", sortOrder: 204, gamesPlayed: 38, pointsPerGame: 4.8, reboundsPerGame: 4.9, assistsPerGame: 0.5 },
         { level: "PROFESSIONAL", teamName: "New Orleans Hornets", season: "2010-11", yearLabel: "2010-11", sortOrder: 301, gamesPlayed: 37, pointsPerGame: 3.0, reboundsPerGame: 2.0, assistsPerGame: 0.3 },
         { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2015-16", yearLabel: "2015-16", sortOrder: 306, gamesPlayed: 63, pointsPerGame: 7.2, reboundsPerGame: 3.4, assistsPerGame: 0.9 },
@@ -190,6 +195,7 @@ export const dukeBasketball2010: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 5, position: "Forward / Center", yearsAtSchool: "2009-2013", statsNote: "Freshman • National Champion • Youngest Plumlee brother", gamesPlayed: 36, pointsPerGame: 3.1, reboundsPerGame: 2.8, assistsPerGame: 0.3 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Christ School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.7, reboundsPerGame: 6.6, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "2009-10 (Champion)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.1, reboundsPerGame: 2.8, assistsPerGame: 0.3 },
       ],
       careerEvents: [
@@ -218,6 +224,7 @@ export const dukeBasketball2010: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 34, position: "Power Forward", yearsAtSchool: "2009-2013", statsNote: "Freshman • National Champion • Stretch four", gamesPlayed: 35, pointsPerGame: 3.4, reboundsPerGame: 2.7, assistsPerGame: 0.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Ravenscroft School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 10.1, reboundsPerGame: 6.5, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "2009-10 (Champion)", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 3.4, reboundsPerGame: 2.7, assistsPerGame: 0.5 },
       ],
       careerEvents: [
@@ -245,6 +252,7 @@ export const dukeBasketball2010: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 20, position: "Shooting Guard", yearsAtSchool: "2009-2014", statsNote: "Freshman • National Champion • 7.6 PPG", gamesPlayed: 36, pointsPerGame: 7.6, reboundsPerGame: 1.8, assistsPerGame: 0.7 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Atlantic Shores Christian School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 16.4, reboundsPerGame: 1.8, assistsPerGame: 2.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "2009-10 (Champion)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 7.6, reboundsPerGame: 1.8, assistsPerGame: 0.7, threePointPct: 0.442 },
       ],
       careerEvents: [

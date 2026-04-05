@@ -40,6 +40,7 @@ export const dukeBasketball2003: TeamSeed = {
         assistsPerGame: 5.7,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Salmen High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 19.7, reboundsPerGame: 3.0, assistsPerGame: 9.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 9.8, assistsPerGame: 5.7 },
       ],
       careerEvents: [
@@ -77,6 +78,7 @@ export const dukeBasketball2003: TeamSeed = {
         reboundsPerGame: 4.7,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Steinert High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 26.6, reboundsPerGame: 9.1, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14.4, reboundsPerGame: 4.7 },
       ],
       careerEvents: [
@@ -112,6 +114,7 @@ export const dukeBasketball2003: TeamSeed = {
         statsNote: "Freshman contributor • Duke's all-time leading scorer (2,769 pts)",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Cave Spring High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 27.5, reboundsPerGame: 2.0, assistsPerGame: 4.6 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15.0, reboundsPerGame: 2.0, assistsPerGame: 2.0 },
       ],
       careerEvents: [
@@ -145,6 +148,7 @@ export const dukeBasketball2003: TeamSeed = {
         statsNote: "Freshman contributor • Duke's all-time blocks leader",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Midwest City High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.3, reboundsPerGame: 10.7, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.2, reboundsPerGame: 5.9, assistsPerGame: 0.5 },
       ],
       careerEvents: [
@@ -182,6 +186,7 @@ export const dukeBasketball2003: TeamSeed = {
         assistsPerGame: 2.8,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Willowridge High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 20.8, reboundsPerGame: 3.0, assistsPerGame: 5.6 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 10.5, assistsPerGame: 2.8 },
       ],
       careerEvents: [
@@ -215,6 +220,7 @@ export const dukeBasketball2003: TeamSeed = {
         statsNote: "McDonald's All-American • Local recruit from Raleigh",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Broughton High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 16.1, reboundsPerGame: 8.1, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 26, pointsPerGame: 7.4, reboundsPerGame: 3.9, assistsPerGame: 0.5 },
       ],
       careerEvents: [
@@ -247,6 +253,7 @@ export const dukeBasketball2003: TeamSeed = {
         statsNote: "Junior contributor • Physics/English double major",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Mounds View High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.8, reboundsPerGame: 6.6, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 4.5, reboundsPerGame: 2.8, assistsPerGame: 0.4 },
       ],
       careerEvents: [
@@ -281,6 +288,7 @@ export const dukeBasketball2003: TeamSeed = {
         statsNote: "Freshman contributor • Sharpshooter",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Germantown Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 6.5, reboundsPerGame: 0.7, assistsPerGame: 2.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 21, pointsPerGame: 1.0, reboundsPerGame: 0.7, assistsPerGame: 0.3 },
       ],
       careerEvents: [
@@ -305,6 +313,7 @@ export const dukeBasketball2003: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 20, position: "Center", yearsAtSchool: "1999-2003", statsNote: "Senior • Starting center" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Tampa Preparatory School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 10.2, reboundsPerGame: 7.2, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 3.5, reboundsPerGame: 3.2, assistsPerGame: 0.2 },
       ],
       careerEvents: [{ year: 2001, title: "Won NCAA National Championship", eventType: "CHAMPIONSHIP" }],
@@ -328,6 +337,7 @@ export const dukeBasketball2003: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "1999-2003", statsNote: "Senior walk-on" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "University Heights Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.2, reboundsPerGame: 0.7, assistsPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 1.5, reboundsPerGame: 0.7, assistsPerGame: 0.4 },
       ],
       careerEvents: [{ year: 2009, title: "Co-founded Higher Goals Now", eventType: "CAREER" }],
@@ -350,6 +360,7 @@ export const dukeBasketball2003: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 40, position: "Guard", yearsAtSchool: "1999-2004", statsNote: "Junior walk-on • Coach K's nephew" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Fayetteville Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.6, reboundsPerGame: 0.2, assistsPerGame: 2.1 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior walk-on", sortOrder: 201, gamesPlayed: 18, pointsPerGame: 0.4, reboundsPerGame: 0.2, assistsPerGame: 0.1 },
       ],
       careerEvents: [{ year: 2022, title: "Joined Memphis as assistant coach", eventType: "CAREER" }],
@@ -391,6 +402,7 @@ export const dukeBasketball2003: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Point Guard", yearsAtSchool: "2002-2006", statsNote: "Freshman • McDonald's All-American • 3.3 PPG", gamesPlayed: 33, pointsPerGame: 3.3 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Schaumburg High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.9, reboundsPerGame: 3.0, assistsPerGame: 4.0 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 3.3 },
       ],
       careerEvents: [{ year: 2005, title: "Hit half-court buzzer-beater vs Virginia Tech", eventType: "OTHER" }],

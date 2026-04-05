@@ -41,6 +41,7 @@ export const dukeBasketball2005: TeamSeed = {
         pointsPerGame: 21.8,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Cave Spring High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 35.0, reboundsPerGame: 3.0, assistsPerGame: 4.0 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 21.8 },
       ],
       careerEvents: [
@@ -76,6 +77,7 @@ export const dukeBasketball2005: TeamSeed = {
         reboundsPerGame: 9.7,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Midwest City High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 26.8, reboundsPerGame: 15.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.2, reboundsPerGame: 5.9, assistsPerGame: 0.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 11.2, reboundsPerGame: 8.3, assistsPerGame: 0.6 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 14.5, reboundsPerGame: 9.7, assistsPerGame: 0.7 },
@@ -114,6 +116,7 @@ export const dukeBasketball2005: TeamSeed = {
         assistsPerGame: 3.8,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Willowridge High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 29.3, reboundsPerGame: 2.2, assistsPerGame: 6.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 6.5, reboundsPerGame: 2.2, assistsPerGame: 1.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 10.5, reboundsPerGame: 2.5, assistsPerGame: 2.8 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 37, pointsPerGame: 13.5, reboundsPerGame: 3.0, assistsPerGame: 3.2 },
@@ -150,6 +153,7 @@ export const dukeBasketball2005: TeamSeed = {
         statsNote: "Freshman contributor • ACC All-Defensive Team (later years)",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Jesse Bethel High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.3, reboundsPerGame: 8.9, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 6.2, reboundsPerGame: 4.5, assistsPerGame: 0.8 },
       ],
       careerEvents: [
@@ -185,6 +189,7 @@ export const dukeBasketball2005: TeamSeed = {
         reboundsPerGame: 5.1,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Broughton High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.3, reboundsPerGame: 9.6, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.2, reboundsPerGame: 5.1 },
       ],
       careerEvents: [
@@ -218,6 +223,7 @@ export const dukeBasketball2005: TeamSeed = {
         statsNote: "Junior • Reliable perimeter shooter",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Germantown Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 6.5, reboundsPerGame: 0.7, assistsPerGame: 2.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 21, pointsPerGame: 1.0, reboundsPerGame: 0.7, assistsPerGame: 0.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 6.5, reboundsPerGame: 2.2, assistsPerGame: 1.0 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 7.7, reboundsPerGame: 3.4, assistsPerGame: 0.8 },
@@ -252,6 +258,7 @@ export const dukeBasketball2005: TeamSeed = {
         statsNote: "Sophomore • Hit legendary buzzer-beater vs Virginia Tech",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Vincent High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.9, reboundsPerGame: 1.4, assistsPerGame: 3.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 3.3, reboundsPerGame: 1.4, assistsPerGame: 1.0 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 3.0, reboundsPerGame: 1.4, assistsPerGame: 1.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior (buzzer-beater vs VT)", sortOrder: 203, gamesPlayed: 27, pointsPerGame: 6.2, reboundsPerGame: 2.8, assistsPerGame: 2.3 },
@@ -279,6 +286,7 @@ export const dukeBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 42, position: "Forward", yearsAtSchool: "2000-2005", statsNote: "Senior • Two-sport athlete" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Providence Day School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.7, reboundsPerGame: 4.3, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 1.8, reboundsPerGame: 1.0, assistsPerGame: 0.4 },
       ],
       careerEvents: [{ year: 2009, title: "Named personal aide to President Obama", eventType: "CAREER" }],
@@ -304,6 +312,7 @@ export const dukeBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Small Forward", yearsAtSchool: "2004-2009", statsNote: "Freshman walk-on • Earned scholarship" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Ridgefield High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.5, reboundsPerGame: 4.3, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Freshman walk-on", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 1.7, reboundsPerGame: 1.0, assistsPerGame: 0.5 },
       ],
       careerEvents: [
@@ -329,6 +338,7 @@ export const dukeBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 43, position: "Guard", yearsAtSchool: "2000-2004", statsNote: "Fifth-year walk-on • Hart Award winner" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Buckingham Browne & Nichols", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.0, reboundsPerGame: 0.0, assistsPerGame: 2.0 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Walk-on", sortOrder: 201, gamesPlayed: 6, pointsPerGame: 0.0, reboundsPerGame: 0.0, assistsPerGame: 0.0 },
       ],
       careerEvents: [{ year: 2004, title: "Won Dr. Deryl Hart Award as top scholar-athlete", eventType: "AWARD" }],
@@ -353,6 +363,7 @@ export const dukeBasketball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 24, position: "Forward / Center", yearsAtSchool: "2002-2006", statsNote: "Walk-on turned scholarship player • 22 games in 2004-05" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Glendora High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.6, reboundsPerGame: 4.4, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior walk-on", sortOrder: 201, gamesPlayed: 22, pointsPerGame: 0.4, reboundsPerGame: 1.1, assistsPerGame: 0.1 },
       ],
       careerEvents: [

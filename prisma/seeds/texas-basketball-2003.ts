@@ -41,6 +41,7 @@ export const texasBasketball2003: TeamSeed = {
         assistsPerGame: 7.7,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Willowridge High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 27.5, reboundsPerGame: 3.9, assistsPerGame: 12.0 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2001-02", yearLabel: "2001-02 (Freshman, led NCAA in assists)", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 10.8, reboundsPerGame: 3.7, assistsPerGame: 8.3, stealsPerGame: 2.0, fieldGoalPct: 0.441, freeThrowPct: 0.699 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2002-03", yearLabel: "2002-03 (Sophomore, Naismith/Wooden POY, Final Four)", sortOrder: 202, gamesPlayed: 33, minutesPerGame: 33.5, pointsPerGame: 15.0, reboundsPerGame: 3.9, assistsPerGame: 7.7, stealsPerGame: 2.3, fieldGoalPct: 0.466, threePointPct: 0.343, freeThrowPct: 0.739 },
         { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2003-04", yearLabel: "2003-04 (Rookie, #8 pick)", sortOrder: 301, gamesPlayed: 55, pointsPerGame: 7.1, reboundsPerGame: 2.2, assistsPerGame: 4.2, stealsPerGame: 1.1, fieldGoalPct: 0.423 },
@@ -89,6 +90,7 @@ export const texasBasketball2003: TeamSeed = {
         assistsPerGame: 1.6,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "St. Raymond's High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 16.9, reboundsPerGame: 2.5, assistsPerGame: 4.1 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2000-01", yearLabel: "2000-01 (Freshman)", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 5.5, reboundsPerGame: 2.0, assistsPerGame: 1.0 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2001-02", yearLabel: "2001-02 (Sophomore)", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 10.9, reboundsPerGame: 3.0, assistsPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2002-03", yearLabel: "2002-03 (Junior, Big 12 DPOY, Final Four)", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 7.9, reboundsPerGame: 2.5, assistsPerGame: 1.6, stealsPerGame: 1.5 },
@@ -135,6 +137,7 @@ export const texasBasketball2003: TeamSeed = {
         reboundsPerGame: 9.5,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Schenectady High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 20.0, reboundsPerGame: 15.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2001-02", yearLabel: "2001-02 (Freshman)", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 7.0, reboundsPerGame: 7.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2002-03", yearLabel: "2002-03 (Sophomore, Final Four)", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 10.0, reboundsPerGame: 9.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2003-04", yearLabel: "2003-04 (Junior)", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 9.5, reboundsPerGame: 8.0 },
@@ -174,6 +177,7 @@ export const texasBasketball2003: TeamSeed = {
         assistsPerGame: 1.3,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "St. Thomas More Catholic High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 31.7, reboundsPerGame: 4.6, assistsPerGame: 3.7 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2000-01", yearLabel: "2000-01 (Freshman)", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 5.4, reboundsPerGame: 2.3, assistsPerGame: 1.3 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2001-02", yearLabel: "2001-02 (Sophomore)", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 13.7, reboundsPerGame: 4.6, assistsPerGame: 1.3, threePointPct: 0.394 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2002-03", yearLabel: "2002-03 (Junior, Final Four)", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 17.8, reboundsPerGame: 4.6, assistsPerGame: 1.3 },
@@ -213,6 +217,7 @@ export const texasBasketball2003: TeamSeed = {
         assistsPerGame: 0.5,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Duncanville High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 20.9, reboundsPerGame: 12.1, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2002-03", yearLabel: "2002-03 (Junior, Final Four, 43.9% 3PT)", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 10.6, reboundsPerGame: 7.0, assistsPerGame: 0.5, threePointPct: 0.439 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2003-04", yearLabel: "2003-04 (Senior, 44.8% 3PT record)", sortOrder: 204, gamesPlayed: 33, pointsPerGame: 8.5, reboundsPerGame: 5.0, assistsPerGame: 0.5, threePointPct: 0.448 },
       ],
@@ -251,6 +256,7 @@ export const texasBasketball2003: TeamSeed = {
         assistsPerGame: 0.3,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Westlake High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.5, reboundsPerGame: 7.5, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2002-03", yearLabel: "2002-03 (Freshman, Final Four)", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 5.0, reboundsPerGame: 3.5, assistsPerGame: 0.3 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2003-04", yearLabel: "2003-04 (Sophomore)", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 8.5, reboundsPerGame: 6.0, assistsPerGame: 0.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2004-05", yearLabel: "2004-05 (Junior)", sortOrder: 203, gamesPlayed: 31, pointsPerGame: 12.5, reboundsPerGame: 8.3, assistsPerGame: 0.5, blocksPerGame: 1.5 },
@@ -281,6 +287,7 @@ export const texasBasketball2003: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Center", yearsAtSchool: "2000-2005", statsNote: "Junior • 6.7 PPG, 4.5 RPG • Interior presence", gamesPlayed: 33, pointsPerGame: 6.7, reboundsPerGame: 4.5, assistsPerGame: 0.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Weatherford High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 15.1, reboundsPerGame: 8.9, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2002-03", yearLabel: "2002-03 (Junior, Final Four)", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 6.7, reboundsPerGame: 4.5, assistsPerGame: 0.5 },
       ],
       careerEvents: [],
@@ -303,6 +310,7 @@ export const texasBasketball2003: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Guard", yearsAtSchool: "2001-2005", statsNote: "Sophomore • Dutch national team player • 5.6 PPG", gamesPlayed: 33, pointsPerGame: 5.6, reboundsPerGame: 2.0, assistsPerGame: 1.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Dutch youth system", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 13.4, reboundsPerGame: 2.0, assistsPerGame: 4.0 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2002-03", yearLabel: "2002-03 (Sophomore, Final Four)", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 5.6, reboundsPerGame: 2.0, assistsPerGame: 1.5 },
       ],
       careerEvents: [],
@@ -325,6 +333,7 @@ export const texasBasketball2003: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 24, position: "Forward", yearsAtSchool: "2001-2004", statsNote: "Junior • Transfer from North Texas • 5.8 PPG, .512 FG", gamesPlayed: 33, pointsPerGame: 5.8, reboundsPerGame: 2.8, assistsPerGame: 0.3 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "High school in Houston", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 13.7, reboundsPerGame: 6.6, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Texas Longhorns", season: "2002-03", yearLabel: "2002-03 (Junior, Final Four)", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 5.8, reboundsPerGame: 2.8, assistsPerGame: 0.3 },
       ],
       careerEvents: [],

@@ -32,6 +32,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 12.5 PPG • 52.1% from three (led nation) • #3 overall pick", gamesPlayed: 33, pointsPerGame: 12.5, reboundsPerGame: 4.1, assistsPerGame: 4.5 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "North Laurel High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 23.8, reboundsPerGame: 4.1, assistsPerGame: 7.9 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12.5, reboundsPerGame: 4.1, assistsPerGame: 4.5 },
       
         { level: "PROFESSIONAL", teamName: "Houston Rockets", season: "2024-25", yearLabel: "2024-25 (Rookie)", sortOrder: 301, gamesPlayed: 70, pointsPerGame: 10.5, reboundsPerGame: 2.8, assistsPerGame: 3.0 },
@@ -62,6 +63,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 15.2 PPG off bench • 44.4% from three • #8 overall pick", gamesPlayed: 33, pointsPerGame: 15.2, assistsPerGame: 3.9 },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Overtime Elite (previously Donda Academy)", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 27.8, reboundsPerGame: 1.0, assistsPerGame: 7.1 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15.2, assistsPerGame: 3.9 },
       
         { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2024-25", yearLabel: "2024-25 (Rookie)", sortOrder: 301, gamesPlayed: 49, pointsPerGame: 4.5, reboundsPerGame: 1.0, assistsPerGame: 2.0 },
@@ -92,6 +94,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 21, position: "Guard", yearsAtSchool: "2023-2024", statsNote: "Freshman • 9.9 PPG, 3.3 APG • 3rd-gen UK legacy • Transferred to Arkansas" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Camden High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 19.9, reboundsPerGame: 1.6, assistsPerGame: 6.3 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 29, pointsPerGame: 9.9, reboundsPerGame: 1.6, assistsPerGame: 3.3 },
       ],
       careerEvents: [
@@ -117,6 +120,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 12, position: "Guard", yearsAtSchool: "2022-2024", statsNote: "Graduate Senior • Team's leading scorer • 14.8 PPG" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Simeon Career Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 26.9, reboundsPerGame: 2.5, assistsPerGame: 3.7 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior (SEC Co-6MOY)", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 14.6, reboundsPerGame: 2.5, assistsPerGame: 1.3 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate Senior", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 16.6, reboundsPerGame: 2.6, assistsPerGame: 1.5 },
       ],
@@ -145,6 +149,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 1, position: "Forward", yearsAtSchool: "2023-2024", statsNote: "Freshman • Five-star recruit • 8.8 PPG • Now with 76ers" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Imhotep Institute Charter High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 18.2, reboundsPerGame: 7.4, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.8, reboundsPerGame: 3.4, assistsPerGame: 1.6 },
       
         { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2024-25", yearLabel: "2024-25 (undrafted)", sortOrder: 301, gamesPlayed: 44, pointsPerGame: 10.1, reboundsPerGame: 3.4, assistsPerGame: 1.6 },
@@ -174,6 +179,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 4, position: "Forward / Center", yearsAtSchool: "2023-2024", statsNote: "Graduate • Transfer from Texas/WVU/UMass • 10.7 PPG, 7.2 RPG" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Woodrow Wilson High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 24.5, reboundsPerGame: 10.9, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 13.0, reboundsPerGame: 6.1, assistsPerGame: 1.3 },
       
         { level: "PROFESSIONAL", teamName: "Lowen Braunschweig (Germany)", season: "2024-25", yearLabel: "2024-25 (Germany)", sortOrder: 301, gamesPlayed: 25, pointsPerGame: 12.0, reboundsPerGame: 5.0, assistsPerGame: 2.0 },
@@ -200,6 +206,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard / Forward", yearsAtSchool: "2022-2024", statsNote: "Sophomore • 5.7 PPG • Later led Arkansas at 15.1 PPG" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Transferred to Kentucky from Guinea via D.C.", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.8, reboundsPerGame: 6.6, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 4.5, reboundsPerGame: 2.8, assistsPerGame: 0.9 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 5.7, reboundsPerGame: 3.1, assistsPerGame: 1.1 },
       
@@ -229,6 +236,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 44, position: "Center", yearsAtSchool: "2023-2024", statsNote: "Freshman • 7-2 Croatian • 5.5 PPG in 15 games • Missed first 16 (eligibility)" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Croatian youth system", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 13.2, reboundsPerGame: 7.3, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 15, pointsPerGame: 5.5, reboundsPerGame: 3.3, assistsPerGame: 0.5 },
       ],
       careerEvents: [
@@ -254,6 +262,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Center", yearsAtSchool: "2023-2024", statsNote: "Freshman • McDonald's All-American • 4.9 PPG" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "IMG Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.4, reboundsPerGame: 7.3, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 26, pointsPerGame: 4.9, reboundsPerGame: 3.3, assistsPerGame: 0.3 },
       ],
       careerEvents: [
@@ -279,6 +288,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 33, position: "Center", yearsAtSchool: "2022-2024", statsNote: "Sophomore • Elite shot-blocker" },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Prep school in the U.S.", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 8.9, reboundsPerGame: 6.4, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 2.6, reboundsPerGame: 2.6, assistsPerGame: 0.2 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 30, pointsPerGame: 3.2, reboundsPerGame: 3.0, assistsPerGame: 0.2 },
       ],

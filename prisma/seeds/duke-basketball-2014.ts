@@ -37,6 +37,7 @@ export const dukeBasketball2014: TeamSeed = {
         gamesPlayed: 35, pointsPerGame: 19.1, reboundsPerGame: 8.7, assistsPerGame: 1.2,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Simeon Career Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 33.7, reboundsPerGame: 14.3, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14 (All-American, #2 pick)", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 19.1, reboundsPerGame: 8.7, assistsPerGame: 1.2, fieldGoalPct: 0.501, threePointPct: 0.360, freeThrowPct: 0.755 },
         { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2014-15", yearLabel: "2014-15 (Rookie, ACL tear)", sortOrder: 301, gamesPlayed: 25, pointsPerGame: 12.3, reboundsPerGame: 5.5, assistsPerGame: 1.7, fieldGoalPct: 0.498 },
         { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2016-17", yearLabel: "2016-17 (2nd ACL tear)", sortOrder: 303, gamesPlayed: 51, pointsPerGame: 20.1, reboundsPerGame: 6.2, assistsPerGame: 2.8, fieldGoalPct: 0.490 },
@@ -72,6 +73,7 @@ export const dukeBasketball2014: TeamSeed = {
         gamesPlayed: 35, pointsPerGame: 16.1, reboundsPerGame: 3.9, assistsPerGame: 2.1,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Meridian High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 29.2, reboundsPerGame: 8.1, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Sophomore)", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 10.3, reboundsPerGame: 2.8, assistsPerGame: 1.0 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14 (Junior, #23 pick)", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 16.1, reboundsPerGame: 3.9, assistsPerGame: 2.1, fieldGoalPct: 0.495, threePointPct: 0.417 },
         { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2014-15", yearLabel: "2014-15 (Rookie)", sortOrder: 301, gamesPlayed: 76, pointsPerGame: 8.7, reboundsPerGame: 2.1, assistsPerGame: 1.4, fieldGoalPct: 0.420, threePointPct: 0.343 },
@@ -106,6 +108,7 @@ export const dukeBasketball2014: TeamSeed = {
         statsNote: "Junior • Team leader • 11.6 PPG", gamesPlayed: 35, pointsPerGame: 11.6, reboundsPerGame: 2.2, assistsPerGame: 4.4,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "DeMatha Catholic High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 22.4, reboundsPerGame: 2.2, assistsPerGame: 7.7 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14 (Junior)", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 11.6, reboundsPerGame: 2.2, assistsPerGame: 4.4, threePointPct: 0.395 },
       ],
       careerEvents: [
@@ -137,6 +140,7 @@ export const dukeBasketball2014: TeamSeed = {
         statsNote: "Sophomore • 9.9 PPG • 41.0% from three • Later dismissed from team", gamesPlayed: 34, pointsPerGame: 9.9, reboundsPerGame: 2.4, assistsPerGame: 2.4,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Strake Jesuit College Prep", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 19.9, reboundsPerGame: 2.4, assistsPerGame: 5.1 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Freshman)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 11.6, reboundsPerGame: 3.4, assistsPerGame: 1.9, threePointPct: 0.384 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14 (Sophomore)", sortOrder: 202, gamesPlayed: 34, pointsPerGame: 9.9, reboundsPerGame: 2.4, assistsPerGame: 2.4, threePointPct: 0.410 },
       ],
@@ -169,6 +173,7 @@ export const dukeBasketball2014: TeamSeed = {
         statsNote: "Sophomore • Duke record 150 career games • Future NCAA + NBA champion as coach", gamesPlayed: 35, pointsPerGame: 5.0, reboundsPerGame: 5.5,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Friends' Central School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.5, reboundsPerGame: 10.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Freshman)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 6.1, reboundsPerGame: 5.8, assistsPerGame: 0.5, fieldGoalPct: 0.631 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14 (Sophomore)", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 5.0, reboundsPerGame: 5.5, assistsPerGame: 0.5 },
       ],
@@ -226,6 +231,7 @@ export const dukeBasketball2014: TeamSeed = {
         gamesPlayed: 35, pointsPerGame: 3.1, reboundsPerGame: 2.1, assistsPerGame: 2.4,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Gonzaga College High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.7, reboundsPerGame: 2.1, assistsPerGame: 5.1 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14 (Senior Captain)", sortOrder: 204, gamesPlayed: 35, pointsPerGame: 3.1, reboundsPerGame: 2.1, assistsPerGame: 2.4 },
       ],
       careerEvents: [
@@ -259,6 +265,7 @@ export const dukeBasketball2014: TeamSeed = {
         gamesPlayed: 29, pointsPerGame: 2.7, reboundsPerGame: 1.4, assistsPerGame: 0.1,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montrose Christian School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.1, reboundsPerGame: 4.8, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14 (Senior)", sortOrder: 204, gamesPlayed: 29, pointsPerGame: 2.7, reboundsPerGame: 1.4, assistsPerGame: 0.1 },
       ],
       careerEvents: [
@@ -292,6 +299,7 @@ export const dukeBasketball2014: TeamSeed = {
         gamesPlayed: 28, pointsPerGame: 1.4, reboundsPerGame: 1.8, assistsPerGame: 0.2,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Christ School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.1, reboundsPerGame: 5.3, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14 (Sophomore)", sortOrder: 202, gamesPlayed: 28, pointsPerGame: 1.4, reboundsPerGame: 1.8, assistsPerGame: 0.2 },
       ],
       careerEvents: [
@@ -326,6 +334,7 @@ export const dukeBasketball2014: TeamSeed = {
         gamesPlayed: 32, pointsPerGame: 1.8, reboundsPerGame: 0.8, assistsPerGame: 0.2,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "DeSoto High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.7, reboundsPerGame: 0.8, assistsPerGame: 2.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14 (Freshman)", sortOrder: 201, gamesPlayed: 32, pointsPerGame: 1.8, reboundsPerGame: 0.8, assistsPerGame: 0.2, fieldGoalPct: 0.294 },
       ],
       careerEvents: [
@@ -361,6 +370,7 @@ export const dukeBasketball2014: TeamSeed = {
         gamesPlayed: 17, pointsPerGame: 1.6, reboundsPerGame: 0.9, assistsPerGame: 0.1,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Ottawa High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.4, reboundsPerGame: 4.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14 (Freshman, transferred to SMU)", sortOrder: 201, gamesPlayed: 17, pointsPerGame: 1.6, reboundsPerGame: 0.9, assistsPerGame: 0.1, fieldGoalPct: 0.500, threePointPct: 0.571, freeThrowPct: 0.909 },
         { level: "COLLEGE", teamName: "SMU Mustangs", season: "2016-17", yearLabel: "2016-17 (Senior, AAC POY)", sortOrder: 204, gamesPlayed: 33, pointsPerGame: 18.9, reboundsPerGame: 6.8, assistsPerGame: 1.0, fieldGoalPct: 0.478, threePointPct: 0.434 },
         { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2017-18", yearLabel: "2017-18 (Rookie)", sortOrder: 301, gamesPlayed: 73, pointsPerGame: 3.0, reboundsPerGame: 1.6, assistsPerGame: 0.3, fieldGoalPct: 0.371, threePointPct: 0.313 },

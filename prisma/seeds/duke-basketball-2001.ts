@@ -42,6 +42,7 @@ export const dukeBasketball2001: TeamSeed = {
         assistsPerGame: 2.2,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Detroit Country Day School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 34.8, reboundsPerGame: 12.5, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 7.6, reboundsPerGame: 3.9, assistsPerGame: 1.6, fieldGoalPct: 0.476 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 39, pointsPerGame: 9.1, reboundsPerGame: 5.3, assistsPerGame: 2.0, fieldGoalPct: 0.478 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-2000", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 17.4, reboundsPerGame: 6.4, assistsPerGame: 2.5, fieldGoalPct: 0.489, threePointPct: 0.337 },
@@ -93,6 +94,7 @@ export const dukeBasketball2001: TeamSeed = {
         assistsPerGame: 5.9,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "St. Joseph High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 35.0, reboundsPerGame: 3.7, assistsPerGame: 9.7 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-2000", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 14.5, reboundsPerGame: 3.3, assistsPerGame: 4.2, stealsPerGame: 2.2, fieldGoalPct: 0.454, threePointPct: 0.341, freeThrowPct: 0.646 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore (National Champion)", sortOrder: 202, gamesPlayed: 36, minutesPerGame: 35.8, pointsPerGame: 21.6, reboundsPerGame: 3.7, assistsPerGame: 5.9, stealsPerGame: 2.4, fieldGoalPct: 0.472, threePointPct: 0.362, freeThrowPct: 0.838 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior (Naismith/Wooden POY)", sortOrder: 203, gamesPlayed: 35, minutesPerGame: 35.5, pointsPerGame: 21.3, reboundsPerGame: 3.5, assistsPerGame: 5.3, stealsPerGame: 2.0, fieldGoalPct: 0.465, threePointPct: 0.348, freeThrowPct: 0.850 },
@@ -135,6 +137,7 @@ export const dukeBasketball2001: TeamSeed = {
         reboundsPerGame: 5.9,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Juneau-Douglas High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 18.2, reboundsPerGame: 10.7, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Freshman (National Champion)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 8.8, reboundsPerGame: 5.9, assistsPerGame: 0.8, fieldGoalPct: 0.592, freeThrowPct: 0.680 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 18.2, reboundsPerGame: 8.2, assistsPerGame: 1.0, fieldGoalPct: 0.596, freeThrowPct: 0.686 },
         { level: "PROFESSIONAL", teamName: "Cleveland Cavaliers", season: "2002-03", yearLabel: "2002-03", sortOrder: 301, gamesPlayed: 81, pointsPerGame: 15.5, reboundsPerGame: 7.5, assistsPerGame: 1.9, fieldGoalPct: 0.504, freeThrowPct: 0.722 },
@@ -182,6 +185,7 @@ export const dukeBasketball2001: TeamSeed = {
         assistsPerGame: 2.5,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Jesuit High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 20.3, reboundsPerGame: 8.9, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-2000", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 7.2, reboundsPerGame: 3.1, assistsPerGame: 1.5, fieldGoalPct: 0.442, threePointPct: 0.356 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore (National Champion)", sortOrder: 202, gamesPlayed: 36, pointsPerGame: 10.2, reboundsPerGame: 4.5, assistsPerGame: 2.5, fieldGoalPct: 0.458, threePointPct: 0.368 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 17.3, reboundsPerGame: 7.2, assistsPerGame: 3.0, fieldGoalPct: 0.454, threePointPct: 0.378 },
@@ -228,6 +232,7 @@ export const dukeBasketball2001: TeamSeed = {
         assistsPerGame: 3.2,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Salmen High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.4, reboundsPerGame: 1.7, assistsPerGame: 6.2 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Freshman (National Champion)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 4.3, reboundsPerGame: 1.7, assistsPerGame: 3.2, stealsPerGame: 1.2 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, pointsPerGame: 8.5, reboundsPerGame: 2.8, assistsPerGame: 5.9, stealsPerGame: 1.9 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 33, pointsPerGame: 9.8, reboundsPerGame: 2.5, assistsPerGame: 5.7, stealsPerGame: 1.6 },
@@ -272,6 +277,7 @@ export const dukeBasketball2001: TeamSeed = {
         reboundsPerGame: 3.6,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "St. John's Catholic Prep", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 15.5, reboundsPerGame: 7.7, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 7.0, reboundsPerGame: 3.6 },
       ],
       careerEvents: [
@@ -310,6 +316,7 @@ export const dukeBasketball2001: TeamSeed = {
         reboundsPerGame: 3.2,
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Tampa Preparatory School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 10.1, reboundsPerGame: 7.2, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.4, reboundsPerGame: 3.2 },
       ],
       careerEvents: [
@@ -344,6 +351,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "2001 National Champion • Minnesota Mr. Basketball 1999 • Physics/English double major",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Mounds View High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.2, reboundsPerGame: 6.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 6, pointsPerGame: 2.8, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
       ],
       careerEvents: [
@@ -379,6 +387,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "2001 National Champion • Two-sport athlete (basketball & football)",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Providence Day School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 6.8, reboundsPerGame: 4.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, pointsPerGame: 1.2, reboundsPerGame: 0.8, assistsPerGame: 0.3 },
       ],
       careerEvents: [
@@ -415,6 +424,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "2001 National Champion • Took 2 years off for Mormon mission",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Belmont High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.4, reboundsPerGame: 6.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 1.6, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
       ],
       careerEvents: [
@@ -448,6 +458,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "Walk-on • 2001 National Champion",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "University Heights Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.3, reboundsPerGame: 0.5, assistsPerGame: 2.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 22, pointsPerGame: 0.2, reboundsPerGame: 0.5, assistsPerGame: 0.3 },
       ],
       careerEvents: [
@@ -479,6 +490,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "Walk-on • Senior tri-captain • 2001 National Champion",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "St. Francis High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.6, reboundsPerGame: 0.2, assistsPerGame: 2.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Senior walk-on", sortOrder: 201, gamesPlayed: 18, pointsPerGame: 0.4, reboundsPerGame: 0.2, assistsPerGame: 0.2 },
       ],
       careerEvents: [
@@ -511,6 +523,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "Freshman • Played 7 games • Transferred to Seton Hall",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Rice High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.0, reboundsPerGame: 3.8, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 7, pointsPerGame: 1.3, reboundsPerGame: 0.6, assistsPerGame: 0.1 },
       ],
       careerEvents: [
@@ -544,6 +557,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "Walk-on • 2001 National Champion",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Rice Memorial High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.5, reboundsPerGame: 0.1, assistsPerGame: 2.1 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Junior walk-on", sortOrder: 201, gamesPlayed: 15, pointsPerGame: 0.3, reboundsPerGame: 0.1, assistsPerGame: 0.1 },
       ],
       careerEvents: [
@@ -577,6 +591,7 @@ export const dukeBasketball2001: TeamSeed = {
         statsNote: "Walk-on • Coach K's nephew • Grandson of astronaut Frank Borman",
       },
             seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Fayetteville Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.3, reboundsPerGame: 0.1, assistsPerGame: 2.1 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore walk-on", sortOrder: 201, gamesPlayed: 12, pointsPerGame: 0.2, reboundsPerGame: 0.1, assistsPerGame: 0.1 },
       ],
       careerEvents: [
