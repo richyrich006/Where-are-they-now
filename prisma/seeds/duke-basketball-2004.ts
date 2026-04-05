@@ -43,6 +43,13 @@ export const dukeBasketball2004: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Blair Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 27.6, reboundsPerGame: 12.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 15.1, reboundsPerGame: 6.9, assistsPerGame: 1.9 },
+      
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2004-05", yearLabel: "2004-05 (Rookie)", sortOrder: 301, gamesPlayed: 61, minutesPerGame: 22.6, pointsPerGame: 11.7, reboundsPerGame: 5.3, assistsPerGame: 1.2, fieldGoalPct: 0.469, threePointPct: 0.267 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2006-07", yearLabel: "2006-07", sortOrder: 303, gamesPlayed: 82, minutesPerGame: 36.1, pointsPerGame: 18.8, reboundsPerGame: 7.1, assistsPerGame: 2.5, stealsPerGame: 0.9, fieldGoalPct: 0.472, threePointPct: 0.281, freeThrowPct: 0.749 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2011-12", yearLabel: "2011-12 (All-Star)", sortOrder: 308, gamesPlayed: 54, minutesPerGame: 38.4, pointsPerGame: 15.3, reboundsPerGame: 6.5, assistsPerGame: 2.8, stealsPerGame: 0.8, fieldGoalPct: 0.438, threePointPct: 0.333, freeThrowPct: 0.727 },
+        { level: "PROFESSIONAL", teamName: "Chicago / Cleveland", season: "2013-14", yearLabel: "2013-14", sortOrder: 310, gamesPlayed: 71, minutesPerGame: 34.7, pointsPerGame: 14.3, reboundsPerGame: 5.3, assistsPerGame: 3.0, fieldGoalPct: 0.452, threePointPct: 0.310, freeThrowPct: 0.799 },
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2014-15", yearLabel: "2014-15", sortOrder: 311, gamesPlayed: 72, minutesPerGame: 31.6, pointsPerGame: 14.0, reboundsPerGame: 5.2, assistsPerGame: 1.8, fieldGoalPct: 0.460, threePointPct: 0.355, freeThrowPct: 0.788 },
+        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2016-17", yearLabel: "2016-17", sortOrder: 313, gamesPlayed: 56, minutesPerGame: 26.0, pointsPerGame: 7.6, reboundsPerGame: 5.3, assistsPerGame: 1.3, fieldGoalPct: 0.387, threePointPct: 0.269, freeThrowPct: 0.726 }
       ],
       careerEvents: [
         { year: 2004, title: "Selected #7 overall by the Chicago Bulls", eventType: "DRAFT" },

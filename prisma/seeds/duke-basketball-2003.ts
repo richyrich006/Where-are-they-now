@@ -80,6 +80,11 @@ export const dukeBasketball2003: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Steinert High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 26.6, reboundsPerGame: 9.1, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14.4, reboundsPerGame: 4.7 },
+      
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2003-04", yearLabel: "2003-04 (Rookie)", sortOrder: 301, gamesPlayed: 35, minutesPerGame: 8.9, pointsPerGame: 3.1, reboundsPerGame: 0.8, assistsPerGame: 0.7, fieldGoalPct: 0.419 },
+        { level: "PROFESSIONAL", teamName: "Memphis Grizzlies", season: "2005-06", yearLabel: "2005-06", sortOrder: 303, gamesPlayed: 77, minutesPerGame: 16.8, pointsPerGame: 5.7, reboundsPerGame: 1.9, assistsPerGame: 0.8, fieldGoalPct: 0.431, threePointPct: 0.250 },
+        { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2009-10", yearLabel: "2009-10", sortOrder: 307, gamesPlayed: 82, minutesPerGame: 15.3, pointsPerGame: 5.6, reboundsPerGame: 2.0, assistsPerGame: 0.7, fieldGoalPct: 0.467 },
+        { level: "PROFESSIONAL", teamName: "Cleveland Cavaliers", season: "2015-16", yearLabel: "2015-16 (Champion)", sortOrder: 313, gamesPlayed: 7, minutesPerGame: 2.9, pointsPerGame: 0.3, fieldGoalPct: 0.200 }
       ],
       careerEvents: [
         { year: 2003, title: "Selected #20 overall by the Celtics (traded to Memphis)", eventType: "DRAFT" },

@@ -37,6 +37,14 @@ export const floridaBasketball2005: TeamSeed = {
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 10.0, reboundsPerGame: 6.5, assistsPerGame: 1.0 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2005-06", yearLabel: "2005-06 (Champion)", sortOrder: 203, gamesPlayed: 36, pointsPerGame: 11.3, reboundsPerGame: 7.5, assistsPerGame: 1.4 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2006-07", yearLabel: "2006-07 (Champion)", sortOrder: 204, gamesPlayed: 35, pointsPerGame: 13.2, reboundsPerGame: 9.5, assistsPerGame: 1.9, fieldGoalPct: 0.561 },
+      
+        { level: "PROFESSIONAL", teamName: "Atlanta Hawks", season: "2007-08", yearLabel: "2007-08 (Rookie)", sortOrder: 301, gamesPlayed: 81, minutesPerGame: 31.4, pointsPerGame: 10.1, reboundsPerGame: 9.7, assistsPerGame: 1.5, blocksPerGame: 0.9, fieldGoalPct: 0.499 },
+        { level: "PROFESSIONAL", teamName: "Atlanta Hawks", season: "2010-11", yearLabel: "2010-11 (All-Star)", sortOrder: 304, gamesPlayed: 77, minutesPerGame: 34.5, pointsPerGame: 15.3, reboundsPerGame: 9.3, assistsPerGame: 3.2, blocksPerGame: 1.0, fieldGoalPct: 0.557 },
+        { level: "PROFESSIONAL", teamName: "Atlanta Hawks", season: "2014-15", yearLabel: "2014-15 (All-Star)", sortOrder: 308, gamesPlayed: 76, minutesPerGame: 31.4, pointsPerGame: 15.2, reboundsPerGame: 7.2, assistsPerGame: 3.2, blocksPerGame: 0.8, fieldGoalPct: 0.538, threePointPct: 0.344 },
+        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2017-18", yearLabel: "2017-18", sortOrder: 311, gamesPlayed: 72, minutesPerGame: 31.6, pointsPerGame: 12.9, reboundsPerGame: 7.4, assistsPerGame: 4.7, blocksPerGame: 1.1, fieldGoalPct: 0.489, threePointPct: 0.429 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2019-20", yearLabel: "2019-20", sortOrder: 313, gamesPlayed: 67, minutesPerGame: 30.2, pointsPerGame: 11.9, reboundsPerGame: 6.8, assistsPerGame: 4.0, blocksPerGame: 0.8, fieldGoalPct: 0.459, threePointPct: 0.350 },
+        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2022-23", yearLabel: "2022-23", sortOrder: 316, gamesPlayed: 63, minutesPerGame: 26.6, pointsPerGame: 9.8, reboundsPerGame: 6.2, assistsPerGame: 3.0, blocksPerGame: 0.9, fieldGoalPct: 0.548, threePointPct: 0.360 },
+        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2023-24", yearLabel: "2023-24 (Champion)", sortOrder: 317, gamesPlayed: 67, minutesPerGame: 23.5, pointsPerGame: 8.6, reboundsPerGame: 5.4, assistsPerGame: 2.6, blocksPerGame: 0.6, fieldGoalPct: 0.516, threePointPct: 0.371 }
       ],
       careerEvents: [
         { year: 2006, title: "Won NCAA National Championship", eventType: "CHAMPIONSHIP" },
@@ -65,6 +73,11 @@ export const floridaBasketball2005: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Lawrenceville School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.8, reboundsPerGame: 9.5, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 6.5, reboundsPerGame: 5.0, assistsPerGame: 1.0 },
+      
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2007-08", yearLabel: "2007-08 (Rookie)", sortOrder: 301, gamesPlayed: 82, minutesPerGame: 20.5, pointsPerGame: 6.6, reboundsPerGame: 5.6, assistsPerGame: 1.0, blocksPerGame: 1.0, fieldGoalPct: 0.481 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2010-11", yearLabel: "2010-11", sortOrder: 304, gamesPlayed: 48, minutesPerGame: 30.6, pointsPerGame: 10.7, reboundsPerGame: 10.4, assistsPerGame: 2.2, blocksPerGame: 1.5, fieldGoalPct: 0.504 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2013-14", yearLabel: "2013-14 (All-Star, DPOY)", sortOrder: 307, gamesPlayed: 80, minutesPerGame: 35.0, pointsPerGame: 12.6, reboundsPerGame: 11.3, assistsPerGame: 5.4, blocksPerGame: 1.5, stealsPerGame: 1.2, fieldGoalPct: 0.475 },
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2016-17", yearLabel: "2016-17", sortOrder: 310, gamesPlayed: 46, minutesPerGame: 22.1, pointsPerGame: 5.0, reboundsPerGame: 8.8, assistsPerGame: 2.2, blocksPerGame: 0.8, fieldGoalPct: 0.428 }
       ],
       careerEvents: [
         { year: 2007, title: "Selected #9 overall by the Chicago Bulls", eventType: "DRAFT" },
@@ -91,6 +104,11 @@ export const floridaBasketball2005: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Portland High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.8, reboundsPerGame: 8.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 8.5, reboundsPerGame: 4.0, assistsPerGame: 1.5 },
+      
+        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2007-08", yearLabel: "2007-08 (Rookie)", sortOrder: 301, gamesPlayed: 79, minutesPerGame: 18.6, pointsPerGame: 5.8, reboundsPerGame: 2.1, assistsPerGame: 0.9, stealsPerGame: 1.0, fieldGoalPct: 0.402 },
+        { level: "PROFESSIONAL", teamName: "Minnesota Timberwolves", season: "2010-11", yearLabel: "2010-11", sortOrder: 304, gamesPlayed: 82, minutesPerGame: 26.7, pointsPerGame: 10.2, reboundsPerGame: 3.4, assistsPerGame: 1.3, stealsPerGame: 1.6, fieldGoalPct: 0.440 },
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2011-12", yearLabel: "2011-12", sortOrder: 305, gamesPlayed: 62, minutesPerGame: 27.5, pointsPerGame: 12.1, reboundsPerGame: 3.0, assistsPerGame: 1.3, stealsPerGame: 1.8, fieldGoalPct: 0.456, threePointPct: 0.359 },
+        { level: "PROFESSIONAL", teamName: "Houston Rockets", season: "2014-15", yearLabel: "2014-15", sortOrder: 308, gamesPlayed: 76, minutesPerGame: 24.2, pointsPerGame: 11.9, reboundsPerGame: 3.0, assistsPerGame: 0.9, stealsPerGame: 1.4, fieldGoalPct: 0.428, threePointPct: 0.377 }
       ],
       careerEvents: [
         { year: 2007, title: "Selected #7 overall by Minnesota", eventType: "DRAFT" },

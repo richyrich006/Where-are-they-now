@@ -121,6 +121,8 @@ export const dukeBasketball2005: TeamSeed = {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2002-2003", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 10.5, reboundsPerGame: 2.5, assistsPerGame: 2.8 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2003-2004", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 37, pointsPerGame: 13.5, reboundsPerGame: 3.0, assistsPerGame: 3.2 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Senior (Captain)", sortOrder: 204, gamesPlayed: 33, pointsPerGame: 16.2, reboundsPerGame: 3.5, assistsPerGame: 3.8 },
+      
+        { level: "PROFESSIONAL", teamName: "Los Angeles Clippers", season: "2005-06", yearLabel: "2005-06 (Rookie)", sortOrder: 301, gamesPlayed: 57, minutesPerGame: 13.3, pointsPerGame: 4.5, reboundsPerGame: 1.2, assistsPerGame: 1.5, fieldGoalPct: 0.403, threePointPct: 0.303 }
       ],
       careerEvents: [
         { year: 2005, title: "Selected #32 overall by the LA Clippers", eventType: "DRAFT" },

@@ -97,6 +97,8 @@ export const dukeBasketball2011: TeamSeed = {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "2008-09", sortOrder: 202, gamesPlayed: 36, pointsPerGame: 8.9, reboundsPerGame: 2.5, assistsPerGame: 2.8 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "2009-10 (National Champion)", sortOrder: 203, gamesPlayed: 39, pointsPerGame: 17.4, reboundsPerGame: 3.8, assistsPerGame: 5.1 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2010-11", yearLabel: "2010-11 (ACC POY)", sortOrder: 204, gamesPlayed: 37, pointsPerGame: 20.6, reboundsPerGame: 4.5, assistsPerGame: 5.1, fieldGoalPct: 0.468, threePointPct: 0.383, freeThrowPct: 0.835 },
+      
+        { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2011-12", yearLabel: "2011-12 (Rookie)", sortOrder: 301, gamesPlayed: 48, minutesPerGame: 6.6, pointsPerGame: 2.2, reboundsPerGame: 0.5, assistsPerGame: 0.6, fieldGoalPct: 0.383, threePointPct: 0.267 }
       ],
       careerEvents: [
         { year: 2010, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
@@ -138,6 +140,10 @@ export const dukeBasketball2011: TeamSeed = {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2007-08", yearLabel: "2007-08 (Freshman)", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 13.3, reboundsPerGame: 5.6, assistsPerGame: 1.2 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "2009-10 (Champion, Final Four MOP)", sortOrder: 203, gamesPlayed: 39, pointsPerGame: 17.7, reboundsPerGame: 7.0, assistsPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2010-11", yearLabel: "2010-11 (Senior)", sortOrder: 204, gamesPlayed: 37, pointsPerGame: 16.9, reboundsPerGame: 6.8, assistsPerGame: 1.6, fieldGoalPct: 0.449, threePointPct: 0.380 },
+      
+        { level: "PROFESSIONAL", teamName: "Detroit Pistons", season: "2012-13", yearLabel: "2012-13 (Rookie)", sortOrder: 301, gamesPlayed: 82, minutesPerGame: 24.1, pointsPerGame: 8.8, reboundsPerGame: 3.7, assistsPerGame: 1.2, fieldGoalPct: 0.401, threePointPct: 0.349, freeThrowPct: 0.859 },
+        { level: "PROFESSIONAL", teamName: "Detroit Pistons", season: "2013-14", yearLabel: "2013-14", sortOrder: 302, gamesPlayed: 81, minutesPerGame: 24.2, pointsPerGame: 8.6, reboundsPerGame: 3.3, assistsPerGame: 1.6, fieldGoalPct: 0.432, threePointPct: 0.383, freeThrowPct: 0.854 },
+        { level: "PROFESSIONAL", teamName: "DET / OKC Thunder", season: "2014-15", yearLabel: "2014-15", sortOrder: 303, gamesPlayed: 73, minutesPerGame: 18.8, pointsPerGame: 6.3, reboundsPerGame: 2.2, assistsPerGame: 0.8, fieldGoalPct: 0.361, threePointPct: 0.321, freeThrowPct: 0.788 }
       ],
       careerEvents: [
         { year: 2010, title: "Won NCAA Championship; named Final Four MOP", eventType: "CHAMPIONSHIP" },
@@ -312,6 +318,8 @@ export const dukeBasketball2011: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Atlantic Shores Christian School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.1, reboundsPerGame: 1.9, assistsPerGame: 2.8 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2010-11", yearLabel: "2010-11 (Sophomore)", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 8.1, reboundsPerGame: 1.9, assistsPerGame: 0.6, threePointPct: 0.427 },
+      
+        { level: "PROFESSIONAL", teamName: "Orlando Magic", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 7, minutesPerGame: 5.0, pointsPerGame: 1.7, reboundsPerGame: 0.4, fieldGoalPct: 0.333, threePointPct: 0.286 }
       ],
       careerEvents: [
         { year: 2024, title: "Named head coach at Charlottesville HS", eventType: "CAREER" },

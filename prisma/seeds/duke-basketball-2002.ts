@@ -47,6 +47,8 @@ export const dukeBasketball2002: TeamSeed = {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-2000", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 14.5, reboundsPerGame: 3.3, assistsPerGame: 4.2, stealsPerGame: 2.2, fieldGoalPct: 0.454, threePointPct: 0.341, freeThrowPct: 0.646 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-2001", yearLabel: "Sophomore (National Champion)", sortOrder: 202, gamesPlayed: 36, minutesPerGame: 35.8, pointsPerGame: 21.6, reboundsPerGame: 3.7, assistsPerGame: 5.9, stealsPerGame: 2.4, fieldGoalPct: 0.472, threePointPct: 0.362, freeThrowPct: 0.838 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2001-2002", yearLabel: "Junior (Naismith/Wooden POY)", sortOrder: 203, gamesPlayed: 35, minutesPerGame: 35.5, pointsPerGame: 21.3, reboundsPerGame: 3.5, assistsPerGame: 5.3, stealsPerGame: 2.0, fieldGoalPct: 0.465, threePointPct: 0.348, freeThrowPct: 0.850 },
+      
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2002-03", yearLabel: "2002-03 (Rookie)", sortOrder: 301, gamesPlayed: 75, minutesPerGame: 26.1, pointsPerGame: 9.5, reboundsPerGame: 2.6, assistsPerGame: 4.7, stealsPerGame: 1.2, fieldGoalPct: 0.394, threePointPct: 0.324, freeThrowPct: 0.645 }
       ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },

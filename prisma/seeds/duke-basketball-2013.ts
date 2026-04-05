@@ -38,6 +38,12 @@ export const dukeBasketball2013: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Charlotte Christian School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 31.2, reboundsPerGame: 3.9, assistsPerGame: 5.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Senior, All-ACC)", sortOrder: 205, gamesPlayed: 34, pointsPerGame: 17.5, reboundsPerGame: 3.9, assistsPerGame: 2.7, threePointPct: 0.438 },
+      
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2014-15", yearLabel: "2014-15", sortOrder: 301, gamesPlayed: 18, minutesPerGame: 7.3, pointsPerGame: 4.1, reboundsPerGame: 0.3, assistsPerGame: 0.6, fieldGoalPct: 0.455, threePointPct: 0.364 },
+        { level: "PROFESSIONAL", teamName: "Dallas Mavericks", season: "2016-17", yearLabel: "2016-17", sortOrder: 303, gamesPlayed: 70, minutesPerGame: 22.0, pointsPerGame: 12.8, reboundsPerGame: 2.0, assistsPerGame: 2.6, fieldGoalPct: 0.478, threePointPct: 0.425, freeThrowPct: 0.846 },
+        { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2018-19", yearLabel: "2018-19", sortOrder: 305, gamesPlayed: 74, minutesPerGame: 18.9, pointsPerGame: 7.9, reboundsPerGame: 1.5, assistsPerGame: 1.6, fieldGoalPct: 0.454, threePointPct: 0.450, freeThrowPct: 0.851 },
+        { level: "PROFESSIONAL", teamName: "Dallas / Philadelphia", season: "2020-21", yearLabel: "2020-21", sortOrder: 307, gamesPlayed: 57, minutesPerGame: 28.0, pointsPerGame: 12.5, reboundsPerGame: 2.3, assistsPerGame: 2.9, fieldGoalPct: 0.491, threePointPct: 0.450, freeThrowPct: 0.911 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia / Brooklyn", season: "2021-22", yearLabel: "2021-22", sortOrder: 308, gamesPlayed: 46, minutesPerGame: 23.3, pointsPerGame: 10.0, reboundsPerGame: 1.9, assistsPerGame: 1.8, fieldGoalPct: 0.467, threePointPct: 0.400, freeThrowPct: 0.882 }
       ],
       careerEvents: [
         { year: 2013, title: "Went undrafted; began NBA journey through D-League", eventType: "CAREER" },
@@ -71,6 +77,12 @@ export const dukeBasketball2013: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Christ School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 30.7, reboundsPerGame: 15.0, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Senior, All-American)", sortOrder: 204, gamesPlayed: 36, pointsPerGame: 17.1, reboundsPerGame: 10.1, assistsPerGame: 1.8, fieldGoalPct: 0.609 },
+      
+        { level: "PROFESSIONAL", teamName: "Brooklyn Nets", season: "2013-14", yearLabel: "2013-14 (Rookie)", sortOrder: 301, gamesPlayed: 70, minutesPerGame: 17.8, pointsPerGame: 7.4, reboundsPerGame: 4.4, assistsPerGame: 1.5, fieldGoalPct: 0.562 },
+        { level: "PROFESSIONAL", teamName: "Brooklyn Nets", season: "2014-15", yearLabel: "2014-15", sortOrder: 302, gamesPlayed: 82, minutesPerGame: 21.8, pointsPerGame: 8.7, reboundsPerGame: 5.8, assistsPerGame: 2.0, fieldGoalPct: 0.568 },
+        { level: "PROFESSIONAL", teamName: "Portland / Denver", season: "2016-17", yearLabel: "2016-17", sortOrder: 304, gamesPlayed: 82, minutesPerGame: 21.5, pointsPerGame: 9.1, reboundsPerGame: 6.4, assistsPerGame: 2.7, fieldGoalPct: 0.563 },
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2018-19", yearLabel: "2018-19", sortOrder: 306, gamesPlayed: 82, minutesPerGame: 22.4, pointsPerGame: 7.8, reboundsPerGame: 6.4, assistsPerGame: 3.0, fieldGoalPct: 0.587 },
+        { level: "PROFESSIONAL", teamName: "Detroit / Charlotte", season: "2021-22", yearLabel: "2021-22", sortOrder: 309, gamesPlayed: 56, minutesPerGame: 17.7, pointsPerGame: 5.3, reboundsPerGame: 4.1, assistsPerGame: 1.8, fieldGoalPct: 0.573 }
       ],
       careerEvents: [
         { year: 2013, title: "Selected #22 overall by the Brooklyn Nets", eventType: "DRAFT" },
@@ -164,6 +176,9 @@ export const dukeBasketball2013: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Ravenscroft School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 24.4, reboundsPerGame: 9.9, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (Senior, 36 vs Miami!)", sortOrder: 204, gamesPlayed: 23, pointsPerGame: 12.9, reboundsPerGame: 5.3, assistsPerGame: 1.6 },
+      
+        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2013-14", yearLabel: "2013-14 (Rookie)", sortOrder: 301, gamesPlayed: 48, minutesPerGame: 12.2, pointsPerGame: 4.6, reboundsPerGame: 2.1, assistsPerGame: 0.7, fieldGoalPct: 0.391, threePointPct: 0.342 },
+        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2014-15", yearLabel: "2014-15", sortOrder: 302, gamesPlayed: 54, minutesPerGame: 12.7, pointsPerGame: 4.8, reboundsPerGame: 2.3, assistsPerGame: 0.5, fieldGoalPct: 0.397, threePointPct: 0.313 }
       ],
       careerEvents: [
         { year: 2013, title: "Scored 36 points vs #1 Miami on return from 13-game absence", eventType: "OTHER" },

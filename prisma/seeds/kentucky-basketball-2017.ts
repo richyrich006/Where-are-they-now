@@ -72,6 +72,12 @@ export const kentuckyBasketball2017: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Bentonville High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 34.7, reboundsPerGame: 2.5, assistsPerGame: 5.0 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 38, pointsPerGame: 19.8, reboundsPerGame: 2.5, assistsPerGame: 2.3 },
+      
+        { level: "PROFESSIONAL", teamName: "Charlotte Hornets", season: "2017-18", yearLabel: "2017-18 (Rookie)", sortOrder: 301, gamesPlayed: 63, minutesPerGame: 15.7, pointsPerGame: 6.7, reboundsPerGame: 1.4, assistsPerGame: 1.3, fieldGoalPct: 0.362, threePointPct: 0.340 },
+        { level: "PROFESSIONAL", teamName: "Charlotte Hornets", season: "2019-20", yearLabel: "2019-20", sortOrder: 303, gamesPlayed: 52, minutesPerGame: 16.3, pointsPerGame: 10.3, reboundsPerGame: 2.3, assistsPerGame: 1.6, fieldGoalPct: 0.449, threePointPct: 0.333, freeThrowPct: 0.850 },
+        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2021-22", yearLabel: "2021-22", sortOrder: 305, gamesPlayed: 76, minutesPerGame: 28.6, pointsPerGame: 13.8, reboundsPerGame: 3.4, assistsPerGame: 2.9, fieldGoalPct: 0.470, threePointPct: 0.392, freeThrowPct: 0.863 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2022-23", yearLabel: "2022-23", sortOrder: 306, gamesPlayed: 82, minutesPerGame: 27.7, pointsPerGame: 13.4, reboundsPerGame: 2.6, assistsPerGame: 3.9, fieldGoalPct: 0.476, threePointPct: 0.363, freeThrowPct: 0.882 },
+        { level: "PROFESSIONAL", teamName: "Sacramento Kings", season: "2024-25", yearLabel: "2024-25", sortOrder: 308, gamesPlayed: 72, minutesPerGame: 30.1, pointsPerGame: 15.2, reboundsPerGame: 2.8, assistsPerGame: 4.3, fieldGoalPct: 0.462, threePointPct: 0.375, freeThrowPct: 0.880 }
       ],
       careerEvents: [
         { year: 2017, title: "Selected #11 overall by the Charlotte Hornets", eventType: "DRAFT" },
