@@ -281,6 +281,19 @@ export default async function PlayerPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
+      {/* Back button */}
+      {membership?.team && (
+        <a
+          href={`/teams/${membership.team.slug}`}
+          className="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-gray-500 hover:text-blue-700 transition"
+        >
+          <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+          </svg>
+          Back to {membership.team.name} ({membership.team.season})
+        </a>
+      )}
+
       {/* Hero */}
       <PlayerHero person={person} />
 
