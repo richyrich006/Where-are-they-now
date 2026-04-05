@@ -4,7 +4,7 @@ export const dukeBasketball2021: TeamSeed = {
   slug: "duke-basketball-2021",
   name: "Duke Blue Devils",
   season: "2020-2021",
-  sport: "Basketball",
+  sport: "Men's Basketball",
   school: "Duke University",
   conference: "ACC",
   accomplishment: "13-11 (COVID Year, No NCAA Tournament)",

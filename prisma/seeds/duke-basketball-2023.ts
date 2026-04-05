@@ -4,7 +4,7 @@ export const dukeBasketball2023: TeamSeed = {
   slug: "duke-basketball-2023",
   name: "Duke Blue Devils",
   season: "2022-2023",
-  sport: "Basketball",
+  sport: "Men's Basketball",
   school: "Duke University",
   conference: "ACC",
   accomplishment: "27-9, Second Round (Jon Scheyer's First Season)",

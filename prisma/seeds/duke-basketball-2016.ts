@@ -4,7 +4,7 @@ export const dukeBasketball2016: TeamSeed = {
   slug: "duke-basketball-2016",
   name: "Duke Blue Devils",
   season: "2015-2016",
-  sport: "Basketball",
+  sport: "Men's Basketball",
   school: "Duke University",
   conference: "ACC",
   accomplishment: "23-11, Sweet Sixteen",
