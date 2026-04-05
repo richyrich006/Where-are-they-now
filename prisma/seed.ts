@@ -32,6 +32,7 @@ import { dukeBasketball2002 } from "./seeds/duke-basketball-2002";
 import { dukeBasketball2003 } from "./seeds/duke-basketball-2003";
 import { dukeBasketball2004 } from "./seeds/duke-basketball-2004";
 import { dukeBasketball2005 } from "./seeds/duke-basketball-2005";
+import { dukeBasketball2016 } from "./seeds/duke-basketball-2016";
 import { dukeBasketball2017 } from "./seeds/duke-basketball-2017";
 import { dukeBasketball2018 } from "./seeds/duke-basketball-2018";
 import { dukeBasketball2019 } from "./seeds/duke-basketball-2019";
@@ -54,6 +55,7 @@ const allTeams: TeamSeed[] = [
   dukeBasketball2013,
   dukeBasketball2014,
   dukeBasketball2015,
+  dukeBasketball2016,
   dukeBasketball2017,
   dukeBasketball2018,
   dukeBasketball2019,
