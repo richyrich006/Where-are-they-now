@@ -34,6 +34,9 @@ export const kentuckyBasketball2021: TeamSeed = {
             seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Sierra Canyon School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 22.2, reboundsPerGame: 8.9, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2020-2021", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 11.5, reboundsPerGame: 4.5, assistsPerGame: 1.6 },
+      
+        { level: "PROFESSIONAL", teamName: "Los Angeles Clippers", season: "2021-22", yearLabel: "2021-22 (Rookie)", sortOrder: 301, gamesPlayed: 51, minutesPerGame: 17.2, pointsPerGame: 6.3, reboundsPerGame: 1.9, assistsPerGame: 1.1, fieldGoalPct: 0.373, threePointPct: 0.303 },
+        { level: "PROFESSIONAL", teamName: "Los Angeles Clippers", season: "2022-23", yearLabel: "2022-23", sortOrder: 302, gamesPlayed: 62, minutesPerGame: 16.3, pointsPerGame: 5.3, reboundsPerGame: 2.4, assistsPerGame: 1.4, fieldGoalPct: 0.369, threePointPct: 0.303 },
       ],
       careerEvents: [
         { year: 2021, title: "Selected #51 overall by the LA Clippers", eventType: "DRAFT" },

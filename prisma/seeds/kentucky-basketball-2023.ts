@@ -222,6 +222,8 @@ export const kentuckyBasketball2023: TeamSeed = {
             seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Ossining High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.3, reboundsPerGame: 9.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 8.2, reboundsPerGame: 4.6, assistsPerGame: 1.0 },
+      
+        { level: "PROFESSIONAL", teamName: "New York Knicks / Atlanta Hawks", season: "2024-25", yearLabel: "2024-25", sortOrder: 301, gamesPlayed: 40, minutesPerGame: 8.5, pointsPerGame: 3.2, reboundsPerGame: 1.8, assistsPerGame: 0.5, fieldGoalPct: 0.480 },
       ],
       careerEvents: [{ year: 2023, title: "Went undrafted; signed two-way with Hawks", eventType: "SIGNING" }],
     },

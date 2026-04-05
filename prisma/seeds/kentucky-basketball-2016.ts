@@ -33,6 +33,9 @@ export const kentuckyBasketball2016: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Marian Catholic High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 31.0, reboundsPerGame: 2.9, assistsPerGame: 11.1 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 17.3, reboundsPerGame: 2.9, assistsPerGame: 7.0 },
+      
+        { level: "PROFESSIONAL", teamName: "Phoenix Suns", season: "2016-17", yearLabel: "2016-17 (Rookie)", sortOrder: 301, gamesPlayed: 61, minutesPerGame: 18.9, pointsPerGame: 7.3, reboundsPerGame: 1.3, assistsPerGame: 3.2, stealsPerGame: 0.7, fieldGoalPct: 0.376, threePointPct: 0.341, freeThrowPct: 0.776 },
+        { level: "PROFESSIONAL", teamName: "Phoenix / Chicago / SAC", season: "2017-18", yearLabel: "2017-18", sortOrder: 302, gamesPlayed: 40, minutesPerGame: 11.2, pointsPerGame: 3.7, reboundsPerGame: 0.8, assistsPerGame: 2.2, fieldGoalPct: 0.343, threePointPct: 0.289 },
       ],
       careerEvents: [
         { year: 2016, title: "Won SEC Player of the Year", eventType: "AWARD" },

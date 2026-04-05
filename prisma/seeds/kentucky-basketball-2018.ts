@@ -132,6 +132,10 @@ export const kentuckyBasketball2018: TeamSeed = {
             seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Putnam Science Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 20.0, reboundsPerGame: 3.6, assistsPerGame: 3.6 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Redshirt Freshman", sortOrder: 201, gamesPlayed: 37, pointsPerGame: 10.0, reboundsPerGame: 3.6, assistsPerGame: 1.2 },
+      
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2018-19", yearLabel: "2018-19 (Rookie)", sortOrder: 301, gamesPlayed: 51, minutesPerGame: 17.1, pointsPerGame: 5.9, reboundsPerGame: 2.2, assistsPerGame: 0.5, fieldGoalPct: 0.474 },
+        { level: "PROFESSIONAL", teamName: "Oklahoma City Thunder", season: "2019-20", yearLabel: "2019-20", sortOrder: 302, gamesPlayed: 56, minutesPerGame: 24.0, pointsPerGame: 6.9, reboundsPerGame: 3.5, assistsPerGame: 0.6, fieldGoalPct: 0.429 },
+        { level: "PROFESSIONAL", teamName: "Detroit Pistons", season: "2021-22", yearLabel: "2021-22", sortOrder: 304, gamesPlayed: 58, minutesPerGame: 26.1, pointsPerGame: 11.0, reboundsPerGame: 4.8, assistsPerGame: 1.5, fieldGoalPct: 0.436 },
       ],
       careerEvents: [
         { year: 2018, title: "Selected #45 overall by the Brooklyn Nets", eventType: "DRAFT" },
@@ -245,6 +249,9 @@ export const kentuckyBasketball2018: TeamSeed = {
         { level: "HIGH_SCHOOL", teamName: "Wilbraham & Monson Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 9.9, reboundsPerGame: 6.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 3.3, reboundsPerGame: 2.5, assistsPerGame: 0.3 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2017-2018", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 7.4, reboundsPerGame: 5.0, assistsPerGame: 0.5 },
+      
+        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2021-22", yearLabel: "2021-22", sortOrder: 301, gamesPlayed: 25, minutesPerGame: 12.3, pointsPerGame: 3.9, reboundsPerGame: 3.2, blocksPerGame: 0.6, fieldGoalPct: 0.508 },
+        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2022-23", yearLabel: "2022-23", sortOrder: 302, gamesPlayed: 44, minutesPerGame: 8.6, pointsPerGame: 2.5, reboundsPerGame: 2.4, fieldGoalPct: 0.524 },
       ],
       careerEvents: [{ year: 2018, title: "Went undrafted; began pro career", eventType: "CAREER" }],
     },
