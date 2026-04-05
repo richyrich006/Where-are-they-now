@@ -94,6 +94,15 @@ export async function getRemarkableStories() {
   return [pro, unique, coach].filter((p) => p !== null);
 }
 
+export async function getAllTeams() {
+  return prisma.team.findMany({
+    include: {
+      _count: { select: { memberships: true } },
+    },
+    orderBy: { season: "desc" },
+  });
+}
+
 export async function getTeamCount() {
   return prisma.team.count();
 }

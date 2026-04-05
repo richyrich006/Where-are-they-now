@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Suspense } from "react";
-import { getFeaturedPlayers, getPersonCount, getTeamCount, getRemarkableStories } from "@/lib/queries";
+import { getFeaturedPlayers, getPersonCount, getTeamCount, getRemarkableStories, getAllTeams } from "@/lib/queries";
 import { PlayerCard } from "@/components/players/PlayerCard";
 import { SearchBar } from "@/components/search/SearchBar";
 import { formatOccupationType } from "@/lib/utils";
@@ -22,11 +22,12 @@ const storyIcon: Record<string, string> = {
 };
 
 export default async function HomePage() {
-  const [featured, totalCount, teamCount, stories] = await Promise.all([
+  const [featured, totalCount, teamCount, stories, allTeams] = await Promise.all([
     getFeaturedPlayers(),
     getPersonCount(),
     getTeamCount(),
     getRemarkableStories(),
+    getAllTeams(),
   ]);
 
   return (
@@ -36,10 +37,10 @@ export default async function HomePage() {
         <div className="mx-auto max-w-6xl px-4 py-16 sm:py-24">
           <div className="max-w-2xl">
             <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-blue-300">
-              2015 NCAA National Champions
+              Duke Blue Devils Basketball
             </p>
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
-              Duke Blue Devils —<br />Where Are They Now?
+              Where Are They Now?
             </h1>
             <p className="mt-4 text-lg text-blue-100">
               From NBA championships to the U.S. Army, from the sidelines to the boardroom.
@@ -52,10 +53,10 @@ export default async function HomePage() {
             </div>
             <div className="mt-6 flex flex-wrap gap-4 text-sm">
               <Link
-                href="/teams/duke-basketball-2015"
+                href="#teams"
                 className="rounded-lg bg-white px-5 py-2.5 font-semibold text-blue-800 hover:bg-blue-50 transition"
               >
-                View Full Roster →
+                Browse All Teams
               </Link>
               <span className="flex items-center text-blue-200">
                 {totalCount} athletes tracked across {teamCount}{" "}
@@ -70,12 +71,6 @@ export default async function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-12">
         <div className="mb-6 flex items-center justify-between">
           <h2 className="text-2xl font-bold text-gray-900">Featured Players</h2>
-          <Link
-            href="/teams/duke-basketball-2015"
-            className="text-sm font-semibold text-blue-700 hover:underline"
-          >
-            See full roster →
-          </Link>
         </div>
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
           {featured.map((person) => (
@@ -84,9 +79,39 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* All Teams */}
+      <section id="teams" className="border-t border-gray-200 bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-12">
+          <h2 className="mb-6 text-2xl font-bold text-gray-900">
+            All Teams ({allTeams.length} seasons)
+          </h2>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {allTeams.map((team) => (
+              <Link
+                key={team.slug}
+                href={`/teams/${team.slug}`}
+                className="group flex items-center justify-between rounded-xl border border-gray-200 bg-gray-50 px-5 py-4 transition hover:border-blue-300 hover:bg-blue-50"
+              >
+                <div>
+                  <h3 className="font-bold text-gray-900 group-hover:text-blue-700">
+                    {team.season}
+                  </h3>
+                  {team.accomplishment && (
+                    <p className="mt-0.5 text-sm text-gray-500">{team.accomplishment}</p>
+                  )}
+                </div>
+                <div className="text-right text-sm text-gray-400">
+                  {team._count.memberships} members
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Remarkable Journeys — generated from DB */}
       {stories.length > 0 && (
-        <section className="border-y border-gray-200 bg-white">
+        <section className="border-y border-gray-200 bg-gray-50">
           <div className="mx-auto max-w-6xl px-4 py-12">
             <h2 className="mb-6 text-2xl font-bold text-gray-900">Remarkable Journeys</h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -103,7 +128,7 @@ export default async function HomePage() {
                   <Link
                     key={person.slug}
                     href={`/players/${person.slug}`}
-                    className="group rounded-xl border border-gray-200 bg-gray-50 p-5 transition hover:border-blue-300 hover:bg-blue-50"
+                    className="group rounded-xl border border-gray-200 bg-white p-5 transition hover:border-blue-300 hover:bg-blue-50"
                   >
                     <div className="mb-2 text-3xl">{icon}</div>
                     <h3 className="font-bold text-gray-900 group-hover:text-blue-700">
