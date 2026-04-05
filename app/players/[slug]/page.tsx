@@ -122,10 +122,11 @@ function FootballStatsTable({ rows, showNotesBelow, position }: { rows: StatRow[
   const isQB = pos.includes("quarterback");
   const isRB = pos.includes("running back") || pos.includes("fullback");
   const isWR = pos.includes("wide receiver") || pos.includes("tight end");
-  const isDL = pos.includes("defensive end") || pos.includes("defensive tackle");
+  const isDL = pos.includes("defensive end") || pos.includes("defensive tackle") || pos.includes("defensive lineman") || pos.includes("nose guard") || pos.includes("nose tackle");
   const isLB = pos.includes("linebacker");
-  const isDB = pos.includes("cornerback") || pos.includes("safety");
-  const isOL = (pos.includes("offensive") && (pos.includes("tackle") || pos.includes("guard") || pos.includes("line"))) || pos === "center";
+  const isDB = pos.includes("cornerback") || pos.includes("safety") || pos.includes("defensive back") || pos.includes("nickelback");
+  const isOL = (pos.includes("offensive") && (pos.includes("tackle") || pos.includes("guard") || pos.includes("line"))) || pos === "center" || pos.includes("center");
+  const isRET = pos.includes("return specialist") || pos.includes("kick returner") || pos.includes("punt returner");
   const isKP = pos.includes("kicker") || pos.includes("punter") || pos.includes("placekicker");
 
   const hasNums = hasAny(rows, "pointsPerGame");
@@ -171,6 +172,13 @@ function FootballStatsTable({ rows, showNotesBelow, position }: { rows: StatRow[
       { label: "INT", field: "reboundsPerGame", fmt: (v) => String(Math.round(v)) },
       { label: "PD", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
       { label: "FF", field: "stealsPerGame" as any, fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if (isRET && hasNums) {
+    cols = [
+      { label: "RET", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "RET YDS", field: "reboundsPerGame", fmt: (v) => v.toLocaleString() },
+      { label: "AVG", field: "fieldGoalPct" as any, fmt: (v) => v.toFixed(1) },
+      { label: "TD", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
     ];
   } else if (isKP && hasNums) {
     cols = [

@@ -38,12 +38,12 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "2004 Heisman Trophy • 3,815 yds, 28 TD, 8 INT in 2005 • 37-2 career record as starter", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "2003 (National Champion)", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 3556, reboundsPerGame: 38, assistsPerGame: 9, stealsPerGame: 383, fieldGoalPct: 0.666, tournamentResult: "255/383 passing, 3,556 yds, 38 TD, 9 INT" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (Heisman)", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 3322, reboundsPerGame: 33, assistsPerGame: 6, stealsPerGame: 412, fieldGoalPct: 0.701, tournamentResult: "289/412 passing, 3,322 yds, 33 TD, 6 INT" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 104, gamesPlayed: 12, pointsPerGame: 3815, reboundsPerGame: 28, assistsPerGame: 8, stealsPerGame: 360, fieldGoalPct: 0.656, tournamentResult: "236/360 passing, 3,815 yds, 28 TD, 8 INT" },
-        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2006", yearLabel: "2006 (Rookie)", sortOrder: 301, gamesPlayed: 11, pointsPerGame: 2547, reboundsPerGame: 11, assistsPerGame: 12, stealsPerGame: 377, fieldGoalPct: 0.568, tournamentResult: "214/377 passing, 2,547 yds, 11 TD, 12 INT" },
-        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2007", yearLabel: "2007", sortOrder: 302, gamesPlayed: 5, pointsPerGame: 396, reboundsPerGame: 2, assistsPerGame: 4, stealsPerGame: 67, fieldGoalPct: 0.597, tournamentResult: "40/67 passing, 396 yds, 2 TD, 4 INT" },
-        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2009", yearLabel: "2009", sortOrder: 304, gamesPlayed: 6, pointsPerGame: 500, reboundsPerGame: 2, assistsPerGame: 3, stealsPerGame: 72, fieldGoalPct: 0.597, tournamentResult: "43/72 passing, 500 yds, 2 TD, 3 INT" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "2003 (National Champion)", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 3556, reboundsPerGame: 38, assistsPerGame: 9, stealsPerGame: 383, fieldGoalPct: 0.666 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (Heisman)", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 3322, reboundsPerGame: 33, assistsPerGame: 6, stealsPerGame: 412, fieldGoalPct: 0.701 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 104, gamesPlayed: 12, pointsPerGame: 3815, reboundsPerGame: 28, assistsPerGame: 8, stealsPerGame: 360, fieldGoalPct: 0.656 },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2006", yearLabel: "2006 (Rookie)", sortOrder: 301, gamesPlayed: 11, pointsPerGame: 2547, reboundsPerGame: 11, assistsPerGame: 12, stealsPerGame: 377, fieldGoalPct: 0.568 },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2007", yearLabel: "2007", sortOrder: 302, gamesPlayed: 5, pointsPerGame: 396, reboundsPerGame: 2, assistsPerGame: 4, stealsPerGame: 67, fieldGoalPct: 0.597 },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2009", yearLabel: "2009", sortOrder: 304, gamesPlayed: 6, pointsPerGame: 500, reboundsPerGame: 2, assistsPerGame: 3, stealsPerGame: 72, fieldGoalPct: 0.597 },
       ],
       careerEvents: [
         { year: 2004, title: "Won Heisman Trophy", eventType: "AWARD" },
@@ -78,14 +78,14 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "2005 Heisman Trophy • 1,740 rush yds, 16 TD • 478 rec yds in 2005", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "2003", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 521, reboundsPerGame: 8, assistsPerGame: 15, stealsPerGame: 119, fieldGoalPct: 4.4, tournamentResult: "521 rush yds, 8 TD, 15 rec" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 908, reboundsPerGame: 9, assistsPerGame: 37, stealsPerGame: 200, fieldGoalPct: 4.5, tournamentResult: "908 rush yds, 9 TD, 37 rec" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (Heisman)", sortOrder: 103, gamesPlayed: 12, pointsPerGame: 1740, reboundsPerGame: 16, assistsPerGame: 37, stealsPerGame: 200, fieldGoalPct: 8.7, tournamentResult: "1,740 rush yds, 16 TD, 37 rec, 478 rec yds" },
-        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2006", yearLabel: "2006 (Rookie)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 565, reboundsPerGame: 6, assistsPerGame: 88, stealsPerGame: 155, fieldGoalPct: 3.6, tournamentResult: "565 rush yds, 6 TD, 88 rec" },
-        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2009", yearLabel: "2009 (Super Bowl Champion)", sortOrder: 304, gamesPlayed: 14, pointsPerGame: 390, reboundsPerGame: 5, assistsPerGame: 47, stealsPerGame: 70, fieldGoalPct: 5.6, tournamentResult: "390 rush yds, 5 TD, 47 rec" },
-        { level: "PROFESSIONAL", teamName: "Miami Dolphins", season: "2011", yearLabel: "2011", sortOrder: 306, gamesPlayed: 15, pointsPerGame: 1086, reboundsPerGame: 6, assistsPerGame: 43, stealsPerGame: 216, fieldGoalPct: 5.0, tournamentResult: "1,086 rush yds, 6 TD, 43 rec" },
-        { level: "PROFESSIONAL", teamName: "Miami Dolphins", season: "2012", yearLabel: "2012", sortOrder: 307, gamesPlayed: 16, pointsPerGame: 986, reboundsPerGame: 6, assistsPerGame: 35, stealsPerGame: 227, fieldGoalPct: 4.3, tournamentResult: "986 rush yds, 6 TD, 35 rec" },
-        { level: "PROFESSIONAL", teamName: "Detroit Lions", season: "2013", yearLabel: "2013", sortOrder: 308, gamesPlayed: 14, pointsPerGame: 506, reboundsPerGame: 3, assistsPerGame: 54, stealsPerGame: 223, fieldGoalPct: 4.5, tournamentResult: "506 rush yds, 3 TD, 54 rec" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "2003", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 521, reboundsPerGame: 8, assistsPerGame: 15, stealsPerGame: 119, fieldGoalPct: 4.4 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 908, reboundsPerGame: 9, assistsPerGame: 37, stealsPerGame: 200, fieldGoalPct: 4.5 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (Heisman)", sortOrder: 103, gamesPlayed: 12, pointsPerGame: 1740, reboundsPerGame: 16, assistsPerGame: 37, stealsPerGame: 200, fieldGoalPct: 8.7 },
+        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2006", yearLabel: "2006 (Rookie)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 565, reboundsPerGame: 6, assistsPerGame: 88, stealsPerGame: 155, fieldGoalPct: 3.6 },
+        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2009", yearLabel: "2009 (Super Bowl Champion)", sortOrder: 304, gamesPlayed: 14, pointsPerGame: 390, reboundsPerGame: 5, assistsPerGame: 47, stealsPerGame: 70, fieldGoalPct: 5.6 },
+        { level: "PROFESSIONAL", teamName: "Miami Dolphins", season: "2011", yearLabel: "2011", sortOrder: 306, gamesPlayed: 15, pointsPerGame: 1086, reboundsPerGame: 6, assistsPerGame: 43, stealsPerGame: 216, fieldGoalPct: 5.0 },
+        { level: "PROFESSIONAL", teamName: "Miami Dolphins", season: "2012", yearLabel: "2012", sortOrder: 307, gamesPlayed: 16, pointsPerGame: 986, reboundsPerGame: 6, assistsPerGame: 35, stealsPerGame: 227, fieldGoalPct: 4.3 },
+        { level: "PROFESSIONAL", teamName: "Detroit Lions", season: "2013", yearLabel: "2013", sortOrder: 308, gamesPlayed: 14, pointsPerGame: 506, reboundsPerGame: 3, assistsPerGame: 54, stealsPerGame: 223, fieldGoalPct: 4.5 },
       ],
       careerEvents: [
         { year: 2005, title: "Won Heisman Trophy (later vacated, restored 2024)", eventType: "AWARD" },
@@ -122,12 +122,12 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "1,302 rush yds, 24 TD in 2005 • 2,624 career rush yds at USC", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "2003", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 412, reboundsPerGame: 6, stealsPerGame: 98, fieldGoalPct: 4.2, tournamentResult: "412 rush yds, 6 TD" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 1136, reboundsPerGame: 15, stealsPerGame: 218, fieldGoalPct: 5.2, tournamentResult: "1,136 rush yds, 15 TD" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 103, gamesPlayed: 12, pointsPerGame: 1302, reboundsPerGame: 24, stealsPerGame: 254, fieldGoalPct: 5.1, tournamentResult: "1,302 rush yds, 24 TD" },
-        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2006", yearLabel: "2006", sortOrder: 301, gamesPlayed: 14, pointsPerGame: 244, reboundsPerGame: 2, stealsPerGame: 61, fieldGoalPct: 4.0, tournamentResult: "244 rush yds, 2 TD" },
-        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2007", yearLabel: "2007", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 1110, reboundsPerGame: 7, stealsPerGame: 303, fieldGoalPct: 3.7, tournamentResult: "1,110 rush yds, 7 TD" },
-        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2008", yearLabel: "2008 (Smash & Dash)", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 773, reboundsPerGame: 15, stealsPerGame: 200, fieldGoalPct: 3.9, tournamentResult: "773 rush yds, 15 TD" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2003", yearLabel: "2003", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 412, reboundsPerGame: 6, stealsPerGame: 98, fieldGoalPct: 4.2 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 1136, reboundsPerGame: 15, stealsPerGame: 218, fieldGoalPct: 5.2 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 103, gamesPlayed: 12, pointsPerGame: 1302, reboundsPerGame: 24, stealsPerGame: 254, fieldGoalPct: 5.1 },
+        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2006", yearLabel: "2006", sortOrder: 301, gamesPlayed: 14, pointsPerGame: 244, reboundsPerGame: 2, stealsPerGame: 61, fieldGoalPct: 4.0 },
+        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2007", yearLabel: "2007", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 1110, reboundsPerGame: 7, stealsPerGame: 303, fieldGoalPct: 3.7 },
+        { level: "PROFESSIONAL", teamName: "Tennessee Titans", season: "2008", yearLabel: "2008 (Smash & Dash)", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 773, reboundsPerGame: 15, stealsPerGame: 200, fieldGoalPct: 3.9 },
       ],
       careerEvents: [
         { year: 2006, title: "Selected #45 overall by the Tennessee Titans", eventType: "DRAFT" },
@@ -160,9 +160,9 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Two-time All-American • 91 rec, 1,274 yds, 16 TD in 2005", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 56, reboundsPerGame: 1029, assistsPerGame: 9, tournamentResult: "56 rec, 1,029 yds, 9 TD" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 91, reboundsPerGame: 1274, assistsPerGame: 16, tournamentResult: "91 rec, 1,274 yds, 16 TD" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 64, reboundsPerGame: 1060, assistsPerGame: 11, tournamentResult: "64 rec, 1,060 yds, 11 TD" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 56, reboundsPerGame: 1029, assistsPerGame: 9 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 91, reboundsPerGame: 1274, assistsPerGame: 16 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 64, reboundsPerGame: 1060, assistsPerGame: 11 },
       ],
       careerEvents: [
         { year: 2007, title: "Selected #45 overall by the Carolina Panthers", eventType: "DRAFT" },
@@ -196,11 +196,11 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "63 rec, 959 yds, 6 TD in 2005 • All-American", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 49, reboundsPerGame: 635, assistsPerGame: 3, tournamentResult: "49 rec, 635 yds, 3 TD" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 103, gamesPlayed: 12, pointsPerGame: 63, reboundsPerGame: 959, assistsPerGame: 6, tournamentResult: "63 rec, 959 yds, 6 TD" },
-        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2007", yearLabel: "2007", sortOrder: 301, gamesPlayed: 10, pointsPerGame: 11, reboundsPerGame: 108, assistsPerGame: 0, tournamentResult: "11 rec, 108 yds, 0 TD" },
-        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2009", yearLabel: "2009 (Pro Bowl alt)", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 107, reboundsPerGame: 1220, assistsPerGame: 7, tournamentResult: "107 rec, 1,220 yds, 7 TD" },
-        { level: "PROFESSIONAL", teamName: "Philadelphia Eagles", season: "2011", yearLabel: "2011", sortOrder: 305, gamesPlayed: 15, pointsPerGame: 11, reboundsPerGame: 124, assistsPerGame: 0, tournamentResult: "11 rec, 124 yds, 0 TD" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 49, reboundsPerGame: 635, assistsPerGame: 3 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 103, gamesPlayed: 12, pointsPerGame: 63, reboundsPerGame: 959, assistsPerGame: 6 },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2007", yearLabel: "2007", sortOrder: 301, gamesPlayed: 10, pointsPerGame: 11, reboundsPerGame: 108, assistsPerGame: 0 },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2009", yearLabel: "2009 (Pro Bowl alt)", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 107, reboundsPerGame: 1220, assistsPerGame: 7 },
+        { level: "PROFESSIONAL", teamName: "Philadelphia Eagles", season: "2011", yearLabel: "2011", sortOrder: 305, gamesPlayed: 15, pointsPerGame: 11, reboundsPerGame: 124, assistsPerGame: 0 },
       ],
       careerEvents: [
         { year: 2007, title: "Selected #51 overall by the New York Giants", eventType: "DRAFT" },
@@ -233,12 +233,12 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Wore USC's prestigious #55 • 240 career tackles, 18.5 TFL", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 80, tournamentResult: "80 tackles, 7 TFL" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 81, tournamentResult: "81 tackles, 10 TFL" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 79, reboundsPerGame: 1.5, tournamentResult: "79 tackles, 1.5 sacks" },
-        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2008", yearLabel: "2008 (#9 pick, broken jaw)", sortOrder: 301, gamesPlayed: 7, pointsPerGame: 24, tournamentResult: "24 tackles (broken jaw, Hines Ward block)" },
-        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2010", yearLabel: "2010", sortOrder: 303, gamesPlayed: 15, pointsPerGame: 55, tournamentResult: "55 tackles" },
-        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2012", yearLabel: "2012", sortOrder: 305, gamesPlayed: 16, pointsPerGame: 52, tournamentResult: "52 tackles" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 80 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 81 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 79, reboundsPerGame: 1.5 },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2008", yearLabel: "2008 (#9 pick, broken jaw)", sortOrder: 301, gamesPlayed: 7, pointsPerGame: 24 },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2010", yearLabel: "2010", sortOrder: 303, gamesPlayed: 15, pointsPerGame: 55 },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2012", yearLabel: "2012", sortOrder: 305, gamesPlayed: 16, pointsPerGame: 52 },
       ],
       careerEvents: [
         { year: 2008, title: "Selected #9 overall by the Cincinnati Bengals", eventType: "DRAFT" },
@@ -273,12 +273,12 @@ export const uscFootball2005: TeamSeed = {
       },
             seasonStats: [
         { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 101, gamesPlayed: 13, tournamentResult: "Limited role as true freshman" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 74, reboundsPerGame: 6.5, tournamentResult: "74 tackles, 6.5 sacks" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007 (Rose Bowl Def. MVP)", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 92, reboundsPerGame: 7.0, tournamentResult: "92 tackles, 7.0 sacks" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "2008 (Bednarik Award)", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 86, reboundsPerGame: 3.5, tournamentResult: "86 tackles, 3.5 sacks (unanimous All-American)" },
-        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2009", yearLabel: "2009", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 63, tournamentResult: "63 tackles" },
-        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2012", yearLabel: "2012", sortOrder: 304, gamesPlayed: 16, pointsPerGame: 83, tournamentResult: "83 tackles" },
-        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2015", yearLabel: "2015", sortOrder: 307, gamesPlayed: 16, pointsPerGame: 52, tournamentResult: "52 tackles" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 74, reboundsPerGame: 6.5 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007 (Rose Bowl Def. MVP)", sortOrder: 103, gamesPlayed: 14, pointsPerGame: 92, reboundsPerGame: 7.0 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "2008 (Bednarik Award)", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 86, reboundsPerGame: 3.5 },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2009", yearLabel: "2009", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 63 },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2012", yearLabel: "2012", sortOrder: 304, gamesPlayed: 16, pointsPerGame: 83 },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2015", yearLabel: "2015", sortOrder: 307, gamesPlayed: 16, pointsPerGame: 52 },
       ],
       careerEvents: [
         { year: 2009, title: "Selected #38 overall by the Cincinnati Bengals", eventType: "DRAFT" },
@@ -315,11 +315,11 @@ export const uscFootball2005: TeamSeed = {
       },
             seasonStats: [
         { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 101, gamesPlayed: 13, tournamentResult: "Limited role as true freshman LB" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 64, reboundsPerGame: 5.5, tournamentResult: "64 tackles, 5.5 sacks" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "2008", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 75, reboundsPerGame: 4.5, tournamentResult: "75 tackles, 4.5 sacks" },
-        { level: "PROFESSIONAL", teamName: "Houston Texans", season: "2009", yearLabel: "2009 (DROY)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 89, reboundsPerGame: 4.0, tournamentResult: "89 tackles, 4.0 sacks (AP Def. Rookie of Year)" },
-        { level: "PROFESSIONAL", teamName: "Houston Texans", season: "2011", yearLabel: "2011", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 81, reboundsPerGame: 5.5, tournamentResult: "81 tackles, 5.5 sacks (Pro Bowl)" },
-        { level: "PROFESSIONAL", teamName: "Houston Texans", season: "2014", yearLabel: "2014", sortOrder: 306, gamesPlayed: 13, pointsPerGame: 60, reboundsPerGame: 2.0, tournamentResult: "60 tackles, 2.0 sacks" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 64, reboundsPerGame: 5.5 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "2008", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 75, reboundsPerGame: 4.5 },
+        { level: "PROFESSIONAL", teamName: "Houston Texans", season: "2009", yearLabel: "2009 (DROY)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 89, reboundsPerGame: 4.0 },
+        { level: "PROFESSIONAL", teamName: "Houston Texans", season: "2011", yearLabel: "2011", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 81, reboundsPerGame: 5.5 },
+        { level: "PROFESSIONAL", teamName: "Houston Texans", season: "2014", yearLabel: "2014", sortOrder: 306, gamesPlayed: 13, pointsPerGame: 60, reboundsPerGame: 2.0 },
       ],
       careerEvents: [
         { year: 2009, title: "Selected #15 overall by the Houston Texans", eventType: "DRAFT" },
@@ -353,12 +353,12 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Unanimous All-American • Pac-10 Defensive Player of the Year 2007", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 35, reboundsPerGame: 4.0, tournamentResult: "35 tackles, 4.0 sacks" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 42, reboundsPerGame: 5.5, tournamentResult: "42 tackles, 5.5 sacks" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007 (Pac-10 DPOY)", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 55, reboundsPerGame: 12.5, tournamentResult: "55 tackles, 12.5 sacks" },
-        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2008", yearLabel: "2008 (#7 pick)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 30, reboundsPerGame: 2.0, tournamentResult: "30 tackles, 2.0 sacks" },
-        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2009", yearLabel: "2009 (Super Bowl Champion)", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 37, reboundsPerGame: 2.5, tournamentResult: "37 tackles, 2.5 sacks" },
-        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2010", yearLabel: "2010", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 44, reboundsPerGame: 6.0, tournamentResult: "44 tackles, 6.0 sacks" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 35, reboundsPerGame: 4.0 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 42, reboundsPerGame: 5.5 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007 (Pac-10 DPOY)", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 55, reboundsPerGame: 12.5 },
+        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2008", yearLabel: "2008 (#7 pick)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 30, reboundsPerGame: 2.0 },
+        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2009", yearLabel: "2009 (Super Bowl Champion)", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 37, reboundsPerGame: 2.5 },
+        { level: "PROFESSIONAL", teamName: "New Orleans Saints", season: "2010", yearLabel: "2010", sortOrder: 303, gamesPlayed: 16, pointsPerGame: 44, reboundsPerGame: 6.0 },
       ],
       careerEvents: [
         { year: 2008, title: "Selected #7 overall by the New Orleans Saints", eventType: "DRAFT" },
@@ -392,12 +392,12 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "First Team All-Pac-10 2005 • Transfer from Colorado State", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 28, reboundsPerGame: 3.5, tournamentResult: "28 tackles, 3.5 sacks" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (All-Pac-10)", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 38, reboundsPerGame: 5.0, tournamentResult: "38 tackles, 5.0 sacks" },
-        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2006", yearLabel: "2006", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 22, reboundsPerGame: 2.0, tournamentResult: "22 tackles, 2.0 sacks" },
-        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2010", yearLabel: "2010", sortOrder: 305, gamesPlayed: 16, pointsPerGame: 32, reboundsPerGame: 3.5, tournamentResult: "32 tackles, 3.5 sacks" },
-        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2013", yearLabel: "2013", sortOrder: 308, gamesPlayed: 16, pointsPerGame: 37, reboundsPerGame: 4.0, tournamentResult: "37 tackles, 4.0 sacks" },
-        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2016", yearLabel: "2016", sortOrder: 311, gamesPlayed: 16, pointsPerGame: 25, reboundsPerGame: 3.0, tournamentResult: "25 tackles, 3.0 sacks" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 28, reboundsPerGame: 3.5 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (All-Pac-10)", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 38, reboundsPerGame: 5.0 },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2006", yearLabel: "2006", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 22, reboundsPerGame: 2.0 },
+        { level: "PROFESSIONAL", teamName: "Cincinnati Bengals", season: "2010", yearLabel: "2010", sortOrder: 305, gamesPlayed: 16, pointsPerGame: 32, reboundsPerGame: 3.5 },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2013", yearLabel: "2013", sortOrder: 308, gamesPlayed: 16, pointsPerGame: 37, reboundsPerGame: 4.0 },
+        { level: "PROFESSIONAL", teamName: "Arizona Cardinals", season: "2016", yearLabel: "2016", sortOrder: 311, gamesPlayed: 16, pointsPerGame: 25, reboundsPerGame: 3.0 },
       ],
       careerEvents: [
         { year: 2006, title: "Selected #91 overall by the Cincinnati Bengals", eventType: "DRAFT" },
@@ -432,7 +432,8 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Two-year starter protecting Matt Leinart's blind side", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Two-year starter protecting Matt Leinart's blind side" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, tournamentResult: "Started 13 games at LT" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 12, tournamentResult: "Started 12 games at LT" },
       ],
       careerEvents: [
         { year: 2006, title: "Selected #39 overall by the Philadelphia Eagles", eventType: "DRAFT" },
@@ -464,7 +465,9 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Started as sophomore on 2005 line • First-round pick", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Started as sophomore on 2005 line • First-round pick" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 101, gamesPlayed: 12, tournamentResult: "Started 12 games at OT (sophomore)" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 102, gamesPlayed: 13, tournamentResult: "Started 13 games" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007 (All-American)", sortOrder: 103, gamesPlayed: 13, tournamentResult: "Started 13 games, Consensus All-American" },
       ],
       careerEvents: [
         { year: 2008, title: "Selected #21 overall by the Atlanta Falcons", eventType: "DRAFT" },
@@ -497,7 +500,10 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "8 sacks in senior season • First-round pick", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "8 sacks in senior season • First-round pick" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 101, gamesPlayed: 12, pointsPerGame: 32, reboundsPerGame: 4.5, assistsPerGame: 6 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 38, reboundsPerGame: 5.5, assistsPerGame: 8 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007 (1st round)", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 52, reboundsPerGame: 8.0, assistsPerGame: 12 },
+        { level: "PROFESSIONAL", teamName: "Seattle Seahawks", season: "2008", yearLabel: "2008 (#28 overall)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 38, reboundsPerGame: 4.0, assistsPerGame: 5 },
       ],
       careerEvents: [
         { year: 2008, title: "Selected #28 overall by the Seattle Seahawks", eventType: "DRAFT" },
@@ -530,7 +536,8 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Key starter in secondary • Originally recruited as WR/ATH", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Key starter in secondary • Originally recruited as WR/ATH" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 45, reboundsPerGame: 2, assistsPerGame: 5 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 62, reboundsPerGame: 3, assistsPerGame: 8, stealsPerGame: 1 },
       ],
       careerEvents: [
         { year: 2006, title: "Went undrafted; signed as free agent with Oakland Raiders", eventType: "SIGNING" },
@@ -562,7 +569,8 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Four-year contributor • Steady tackler and defensive leader", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Four-year contributor • Steady tackler and defensive leader" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 48, reboundsPerGame: 1.0, assistsPerGame: 5 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 62, reboundsPerGame: 2.0, assistsPerGame: 8 },
       ],
       careerEvents: [
         { year: 2006, title: "Went undrafted; brief stint with Cleveland Browns", eventType: "SIGNING" },
@@ -594,7 +602,8 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Lead blocker for Bush and White • Key contributor to USC's rushing attack", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Lead blocker for Bush and White • Key contributor to USC's rushing attack" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 48, reboundsPerGame: 2, assistsPerGame: 5, stealsPerGame: 12 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 62, reboundsPerGame: 3, assistsPerGame: 8, stealsPerGame: 15 },
       ],
       careerEvents: [
         { year: 2006, title: "Went undrafted; signed as free agent with San Diego Chargers", eventType: "SIGNING" },
@@ -753,12 +762,12 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Walk-on turned star • 3x USC Special Teams Player of the Year", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2009", yearLabel: "2009 (DROY finalist)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 51, reboundsPerGame: 10.0, assistsPerGame: 13, stealsPerGame: 1, tournamentResult: "51 tackles, 10.0 sacks" },
-        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2010", yearLabel: "2010 (Super Bowl Champion)", sortOrder: 302, gamesPlayed: 15, pointsPerGame: 54, reboundsPerGame: 13.5, assistsPerGame: 13, stealsPerGame: 1, tournamentResult: "54 tackles, 13.5 sacks" },
-        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2012", yearLabel: "2012", sortOrder: 304, gamesPlayed: 16, pointsPerGame: 50, reboundsPerGame: 13.0, assistsPerGame: 13, stealsPerGame: 3, tournamentResult: "50 tackles, 13.0 sacks" },
-        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2014", yearLabel: "2014 (Pro Bowl)", sortOrder: 306, gamesPlayed: 15, pointsPerGame: 68, reboundsPerGame: 11.0, assistsPerGame: 14, stealsPerGame: 3, tournamentResult: "68 tackles, 11.0 sacks" },
-        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2017", yearLabel: "2017", sortOrder: 309, gamesPlayed: 14, pointsPerGame: 52, reboundsPerGame: 8.5, assistsPerGame: 10, stealsPerGame: 1, tournamentResult: "52 tackles, 8.5 sacks" },
-        { level: "PROFESSIONAL", teamName: "Los Angeles Rams", season: "2019", yearLabel: "2019", sortOrder: 311, gamesPlayed: 16, pointsPerGame: 37, reboundsPerGame: 8.0, assistsPerGame: 8, stealsPerGame: 2, tournamentResult: "37 tackles, 8.0 sacks" },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2009", yearLabel: "2009 (DROY finalist)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 51, reboundsPerGame: 10.0, assistsPerGame: 13, stealsPerGame: 1 },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2010", yearLabel: "2010 (Super Bowl Champion)", sortOrder: 302, gamesPlayed: 15, pointsPerGame: 54, reboundsPerGame: 13.5, assistsPerGame: 13, stealsPerGame: 1 },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2012", yearLabel: "2012", sortOrder: 304, gamesPlayed: 16, pointsPerGame: 50, reboundsPerGame: 13.0, assistsPerGame: 13, stealsPerGame: 3 },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2014", yearLabel: "2014 (Pro Bowl)", sortOrder: 306, gamesPlayed: 15, pointsPerGame: 68, reboundsPerGame: 11.0, assistsPerGame: 14, stealsPerGame: 3 },
+        { level: "PROFESSIONAL", teamName: "Green Bay Packers", season: "2017", yearLabel: "2017", sortOrder: 309, gamesPlayed: 14, pointsPerGame: 52, reboundsPerGame: 8.5, assistsPerGame: 10, stealsPerGame: 1 },
+        { level: "PROFESSIONAL", teamName: "Los Angeles Rams", season: "2019", yearLabel: "2019", sortOrder: 311, gamesPlayed: 16, pointsPerGame: 37, reboundsPerGame: 8.0, assistsPerGame: 8, stealsPerGame: 2 },
       ],
       careerEvents: [
         { year: 2009, title: "Selected #26 overall by the Green Bay Packers", eventType: "DRAFT" },
@@ -793,10 +802,10 @@ export const uscFootball2005: TeamSeed = {
       },
             seasonStats: [
         { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (Redshirt)", sortOrder: 101, gamesPlayed: 0, tournamentResult: "Redshirted behind Matt Leinart" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "2008 (Rose Bowl MVP)", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 3207, reboundsPerGame: 34, assistsPerGame: 10, stealsPerGame: 351, fieldGoalPct: 0.607, tournamentResult: "213/351 passing, 3,207 yds, 34 TD, 10 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2009", yearLabel: "2009 (AFC Championship)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 2444, reboundsPerGame: 12, assistsPerGame: 20, stealsPerGame: 364, fieldGoalPct: 0.538, tournamentResult: "196/364 passing, 2,444 yds, 12 TD, 20 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2010", yearLabel: "2010 (AFC Championship)", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 3291, reboundsPerGame: 17, assistsPerGame: 13, stealsPerGame: 369, fieldGoalPct: 0.539, tournamentResult: "199/369 passing, 3,291 yds, 17 TD, 13 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2012", yearLabel: "2012 (Butt Fumble)", sortOrder: 304, gamesPlayed: 11, pointsPerGame: 1364, reboundsPerGame: 6, assistsPerGame: 14, stealsPerGame: 225, fieldGoalPct: 0.52, tournamentResult: "117/225 passing, 1,364 yds, 6 TD, 14 INT" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2008", yearLabel: "2008 (Rose Bowl MVP)", sortOrder: 104, gamesPlayed: 13, pointsPerGame: 3207, reboundsPerGame: 34, assistsPerGame: 10, stealsPerGame: 351, fieldGoalPct: 0.607 },
+        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2009", yearLabel: "2009 (AFC Championship)", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 2444, reboundsPerGame: 12, assistsPerGame: 20, stealsPerGame: 364, fieldGoalPct: 0.538 },
+        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2010", yearLabel: "2010 (AFC Championship)", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 3291, reboundsPerGame: 17, assistsPerGame: 13, stealsPerGame: 369, fieldGoalPct: 0.539 },
+        { level: "PROFESSIONAL", teamName: "New York Jets", season: "2012", yearLabel: "2012 (Butt Fumble)", sortOrder: 304, gamesPlayed: 11, pointsPerGame: 1364, reboundsPerGame: 6, assistsPerGame: 14, stealsPerGame: 225, fieldGoalPct: 0.52 },
       ],
       careerEvents: [
         { year: 2009, title: "Selected #5 overall by the New York Jets", eventType: "DRAFT" },
@@ -876,7 +885,8 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Backup QB in 2005 • Started for USC in 2007", gamesPlayed: 10,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 10, tournamentResult: "Backup QB in 2005 • Started for USC in 2007" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (backup)", sortOrder: 101, gamesPlayed: 10, pointsPerGame: 280, reboundsPerGame: 3, assistsPerGame: 1, stealsPerGame: 22, fieldGoalPct: 0.636 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007 (starter)", sortOrder: 103, gamesPlayed: 12, pointsPerGame: 3225, reboundsPerGame: 27, assistsPerGame: 12, stealsPerGame: 391, fieldGoalPct: 0.604 },
       ],
       careerEvents: [
         { year: 2008, title: "Selected by the Minnesota Vikings (5th round)", eventType: "DRAFT" },
@@ -906,7 +916,9 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "True freshman in 2005 • 13 rec, 145 yds, 2 TD • Second-round NFL pick", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "True freshman in 2005 • 13 rec, 145 yds, 2 TD • Second-round NFL pick" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 101, gamesPlayed: 12, pointsPerGame: 13, reboundsPerGame: 145, assistsPerGame: 2 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006", sortOrder: 102, gamesPlayed: 13, pointsPerGame: 52, reboundsPerGame: 680, assistsPerGame: 5 },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2007", yearLabel: "2007 (2nd round)", sortOrder: 301, gamesPlayed: 15, pointsPerGame: 10, reboundsPerGame: 66, assistsPerGame: 0 },
       ],
       careerEvents: [
         { year: 2008, title: "Selected #48 overall by the Washington Redskins", eventType: "DRAFT" },
@@ -937,7 +949,9 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Key run blocker for Bush and White • Second-round NFL pick", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Key run blocker for Bush and White • Second-round NFL pick" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, tournamentResult: "Started 13 games at RG" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 12, tournamentResult: "Started 12 games" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2006", yearLabel: "2006 (All-American)", sortOrder: 103, gamesPlayed: 13, tournamentResult: "Started 13 games, All-American" },
       ],
       careerEvents: [
         { year: 2006, title: "Selected #41 overall by the Arizona Cardinals", eventType: "DRAFT" },
@@ -969,7 +983,9 @@ export const uscFootball2005: TeamSeed = {
         statsNote: "Versatile TE • Third-round NFL pick", gamesPlayed: 13,
       },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Versatile TE • Third-round NFL pick" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 28, reboundsPerGame: 352, assistsPerGame: 3 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 32, reboundsPerGame: 410, assistsPerGame: 4 },
+        { level: "PROFESSIONAL", teamName: "St. Louis Rams", season: "2006", yearLabel: "2006 (3rd round)", sortOrder: 301, gamesPlayed: 14, pointsPerGame: 8, reboundsPerGame: 72, assistsPerGame: 0 },
       ],
       careerEvents: [
         { year: 2006, title: "Selected #71 overall by the St. Louis Rams", eventType: "DRAFT" },
@@ -1023,10 +1039,10 @@ export const uscFootball2005: TeamSeed = {
       membership: { role: "PLAYER", jerseyNumber: 28, position: "Cornerback", yearsAtSchool: "2004-2007", statsNote: "Started first 2 games before knee injury • 2nd-round pick • Super Bowl champ", gamesPlayed: 2 },
             seasonStats: [
         { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (knee injury game 2)", sortOrder: 101, gamesPlayed: 2, tournamentResult: "Tore knee ligaments vs Arkansas" },
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 54, reboundsPerGame: 4, fieldGoalPct: 4, tournamentResult: "54 tackles, 4 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2008", yearLabel: "2008", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 63, reboundsPerGame: 2, fieldGoalPct: 2, tournamentResult: "63 tackles, 2 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2009", yearLabel: "2009", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 57, reboundsPerGame: 5, fieldGoalPct: 5, tournamentResult: "57 tackles, 5 INT" },
-        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2011", yearLabel: "2011 (Super Bowl Champion)", sortOrder: 304, gamesPlayed: 4, pointsPerGame: 12, tournamentResult: "12 tackles (torn ACL, won Super Bowl XLVI)" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2007", yearLabel: "2007", sortOrder: 103, gamesPlayed: 13, pointsPerGame: 54, reboundsPerGame: 4, fieldGoalPct: 4 },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2008", yearLabel: "2008", sortOrder: 301, gamesPlayed: 16, pointsPerGame: 63, reboundsPerGame: 2, fieldGoalPct: 2 },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2009", yearLabel: "2009", sortOrder: 302, gamesPlayed: 16, pointsPerGame: 57, reboundsPerGame: 5, fieldGoalPct: 5 },
+        { level: "PROFESSIONAL", teamName: "New York Giants", season: "2011", yearLabel: "2011 (Super Bowl Champion)", sortOrder: 304, gamesPlayed: 4, pointsPerGame: 12 },
       ],
       careerEvents: [
         { year: 2008, title: "Selected in 2nd round by the NY Giants", eventType: "DRAFT" },
@@ -1050,7 +1066,8 @@ export const uscFootball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 29, position: "Free Safety", yearsAtSchool: "2002-2005", statsNote: "Senior starter • All-Pac-10 second team", gamesPlayed: 13 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Senior starter • All-Pac-10 second team" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 42, reboundsPerGame: 1.0, assistsPerGame: 5 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (All-Pac-10)", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 68, reboundsPerGame: 2.5, assistsPerGame: 9 },
       ],
       careerEvents: [{ year: 2006, title: "Signed as UDFA by Philadelphia Eagles", eventType: "SIGNING" }],
     },
@@ -1071,7 +1088,8 @@ export const uscFootball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 24, position: "Cornerback", yearsAtSchool: "2002-2005", statsNote: "Senior starter • Two-year starting CB", gamesPlayed: 13 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Senior starter • Two-year starting CB" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 35, reboundsPerGame: 2, assistsPerGame: 6 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 42, reboundsPerGame: 3, assistsPerGame: 8 },
       ],
       careerEvents: [{ year: 2006, title: "Signed as UDFA with Arizona Cardinals", eventType: "SIGNING" }],
     },
@@ -1094,7 +1112,8 @@ export const uscFootball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 42, position: "Linebacker", yearsAtSchool: "2002-2005", statsNote: "Senior starter • 2x team captain • Dislocated shoulder vs Arkansas", gamesPlayed: 3 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 3, tournamentResult: "Senior starter • 2x team captain • Dislocated shoulder vs Arkansas" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 55, reboundsPerGame: 2, assistsPerGame: 7, stealsPerGame: 1 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (injured game 3)", sortOrder: 102, gamesPlayed: 3, pointsPerGame: 18, reboundsPerGame: 1, assistsPerGame: 2 },
       ],
       careerEvents: [{ year: 2007, title: "Selected by Washington Redskins (5th round)", eventType: "DRAFT" }],
     },
@@ -1115,7 +1134,8 @@ export const uscFootball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 51, position: "Offensive Guard", yearsAtSchool: "2003-2006", statsNote: "3-year starter • All-Pac-10 second team • 7th-round pick", gamesPlayed: 13 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "3-year starter • All-Pac-10 second team • 7th-round pick" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 48, reboundsPerGame: 1.5, assistsPerGame: 6 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (All-Pac-10)", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 72, reboundsPerGame: 3.0, assistsPerGame: 10 },
       ],
       careerEvents: [
         { year: 2006, title: "Selected by Detroit Lions (7th round)", eventType: "DRAFT" },
@@ -1139,7 +1159,8 @@ export const uscFootball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 19, position: "Placekicker", yearsAtSchool: "2004-2006", statsNote: "83-of-86 PATs (NCAA record) • 11-of-12 FGs in 2005", gamesPlayed: 13 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "83-of-86 PATs (NCAA record) • 11-of-12 FGs in 2005" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 15, reboundsPerGame: 55.0 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 11, reboundsPerGame: 86.0 },
       ],
       careerEvents: [{ year: 2007, title: "Passed away at age 21", eventType: "OTHER" }],
     },
@@ -1160,7 +1181,8 @@ export const uscFootball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Punter", yearsAtSchool: "2002-2005", statsNote: "4-year starter • First-team All-American • First All-American punter in USC history", gamesPlayed: 13 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "4-year starter • First-team All-American • First All-American punter in USC history" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2004", yearLabel: "2004 (National Champion)", sortOrder: 101, gamesPlayed: 13, pointsPerGame: 48, reboundsPerGame: 44.2 },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005 (All-American)", sortOrder: 102, gamesPlayed: 12, pointsPerGame: 52, reboundsPerGame: 45.1 },
       ],
       careerEvents: [{ year: 2006, title: "Signed as UDFA by San Francisco 49ers", eventType: "SIGNING" }],
     },
@@ -1183,7 +1205,7 @@ export const uscFootball2005: TeamSeed = {
       },
       membership: { role: "PLAYER", jerseyNumber: 82, position: "Wide Receiver", yearsAtSchool: "2002-2005", statsNote: "Started 6 games • 17 rec, 172 yds in 2005", gamesPlayed: 13 },
             seasonStats: [
-        { level: "COLLEGE", teamName: "USC Trojans", season: "2005-2006", yearLabel: "2005-2006", sortOrder: 201, gamesPlayed: 13, tournamentResult: "Started 6 games • 17 rec, 172 yds in 2005" },
+        { level: "COLLEGE", teamName: "USC Trojans", season: "2005", yearLabel: "2005", sortOrder: 101, gamesPlayed: 12, pointsPerGame: 17, reboundsPerGame: 172, assistsPerGame: 1 },
       ],
       careerEvents: [{ year: 2007, title: "Signed as free agent with Oakland Raiders", eventType: "SIGNING" }],
     },
