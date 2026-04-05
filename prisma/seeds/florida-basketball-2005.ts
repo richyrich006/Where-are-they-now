@@ -134,6 +134,8 @@ export const floridaBasketball2005: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Mt. Zion Christian Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 15.5, reboundsPerGame: 1.5, assistsPerGame: 6.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 7.0, reboundsPerGame: 1.5, assistsPerGame: 3.5 },
+      
+        { level: "PROFESSIONAL", teamName: "Portland Trail Blazers", season: "2007-08", yearLabel: "2007-08 (Rookie)", sortOrder: 301, gamesPlayed: 11, minutesPerGame: 4.7, pointsPerGame: 1.9, reboundsPerGame: 0.3, assistsPerGame: 0.5, fieldGoalPct: 0.370 },
       ],
       careerEvents: [
         { year: 2007, title: "Selected #52 by Portland", eventType: "DRAFT" },
@@ -160,6 +162,12 @@ export const floridaBasketball2005: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Chaminade College Prep", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 29.0, reboundsPerGame: 15.0, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Senior, All-SEC)", sortOrder: 204, gamesPlayed: 32, pointsPerGame: 16.0, reboundsPerGame: 9.5, assistsPerGame: 2.0 },
+      
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2005-06", yearLabel: "2005-06 (Rookie)", sortOrder: 301, gamesPlayed: 67, minutesPerGame: 19.3, pointsPerGame: 5.6, reboundsPerGame: 5.6, assistsPerGame: 0.8, fieldGoalPct: 0.535 },
+        { level: "PROFESSIONAL", teamName: "New York Knicks", season: "2008-09", yearLabel: "2008-09 (All-Star)", sortOrder: 304, gamesPlayed: 81, minutesPerGame: 37.5, pointsPerGame: 20.2, reboundsPerGame: 11.7, assistsPerGame: 3.6, fieldGoalPct: 0.544 },
+        { level: "PROFESSIONAL", teamName: "Golden State Warriors", season: "2012-13", yearLabel: "2012-13 (All-Star)", sortOrder: 308, gamesPlayed: 79, minutesPerGame: 30.3, pointsPerGame: 18.5, reboundsPerGame: 11.2, assistsPerGame: 3.5, fieldGoalPct: 0.519 },
+        { level: "PROFESSIONAL", teamName: "Golden State Warriors", season: "2014-15", yearLabel: "2014-15 (Champion)", sortOrder: 310, gamesPlayed: 57, minutesPerGame: 17.6, pointsPerGame: 7.9, reboundsPerGame: 5.2, assistsPerGame: 1.3, fieldGoalPct: 0.498 },
+        { level: "PROFESSIONAL", teamName: "Dallas / San Antonio", season: "2016-17", yearLabel: "2016-17 (Champion)", sortOrder: 312, gamesPlayed: 79, minutesPerGame: 12.2, pointsPerGame: 3.4, reboundsPerGame: 3.6, assistsPerGame: 0.8, fieldGoalPct: 0.554 },
       ],
       careerEvents: [
         { year: 2005, title: "Selected #30 overall by the New York Knicks", eventType: "DRAFT" },
@@ -186,6 +194,8 @@ export const floridaBasketball2005: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Countryside High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 27.5, reboundsPerGame: 9.5, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Senior)", sortOrder: 204, gamesPlayed: 32, pointsPerGame: 15.0, reboundsPerGame: 5.0, assistsPerGame: 2.5 },
+      
+        { level: "PROFESSIONAL", teamName: "Miami Heat", season: "2005-06", yearLabel: "2005-06", sortOrder: 301, gamesPlayed: 3, minutesPerGame: 2.7, pointsPerGame: 0.7, reboundsPerGame: 0.3 },
       ],
       careerEvents: [
         { year: 2005, title: "Went undrafted; signed with Miami Heat", eventType: "SIGNING" },
@@ -212,6 +222,8 @@ export const floridaBasketball2005: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Maryville High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.0, reboundsPerGame: 1.5, assistsPerGame: 3.3 },
         { level: "COLLEGE", teamName: "Florida Gators", season: "2004-05", yearLabel: "2004-05 (Sophomore)", sortOrder: 202, gamesPlayed: 32, pointsPerGame: 6.0, reboundsPerGame: 1.5, assistsPerGame: 1.0 },
+      
+        { level: "PROFESSIONAL", teamName: "Orlando Magic / overseas", season: "2007-08", yearLabel: "2007-08", sortOrder: 301, gamesPlayed: 4, minutesPerGame: 2.3, pointsPerGame: 0.5, reboundsPerGame: 0.0, fieldGoalPct: 0.250 },
       ],
       careerEvents: [
         { year: 2006, title: "Won NCAA National Championship", eventType: "CHAMPIONSHIP" },

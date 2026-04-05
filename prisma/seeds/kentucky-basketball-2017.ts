@@ -274,6 +274,9 @@ export const kentuckyBasketball2017: TeamSeed = {
         { level: "HIGH_SCHOOL", teamName: "La Lumiere School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 7.4, reboundsPerGame: 4.6, blocksPerGame: 2.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 1.6, reboundsPerGame: 1.2, assistsPerGame: 0.2 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 4.5, reboundsPerGame: 3.1, assistsPerGame: 0.5 },
+      
+        { level: "PROFESSIONAL", teamName: "NBL (Adelaide 36ers)", season: "2021-22", yearLabel: "2021-22", sortOrder: 301, gamesPlayed: 28, minutesPerGame: 17.5, pointsPerGame: 8.2, reboundsPerGame: 5.8, blocksPerGame: 1.2, fieldGoalPct: 0.520 },
+        { level: "PROFESSIONAL", teamName: "NBL (Adelaide 36ers)", season: "2022-23", yearLabel: "2022-23", sortOrder: 302, gamesPlayed: 26, minutesPerGame: 19.0, pointsPerGame: 9.6, reboundsPerGame: 6.4, blocksPerGame: 1.5, fieldGoalPct: 0.540 },
       ],
       careerEvents: [{ year: 2023, title: "Came out publicly as gay — first in a top league", eventType: "OTHER" }],
     },

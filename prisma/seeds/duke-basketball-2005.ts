@@ -193,6 +193,9 @@ export const dukeBasketball2005: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Broughton High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 17.3, reboundsPerGame: 9.6, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2004-2005", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.2, reboundsPerGame: 5.1 },
+      
+        { level: "PROFESSIONAL", teamName: "Philadelphia 76ers", season: "2005-06", yearLabel: "2005-06", sortOrder: 301, gamesPlayed: 20, minutesPerGame: 7.8, pointsPerGame: 2.5, reboundsPerGame: 2.5, fieldGoalPct: 0.452 },
+        { level: "PROFESSIONAL", teamName: "Boston Celtics", season: "2012-13", yearLabel: "2012-13", sortOrder: 302, gamesPlayed: 18, minutesPerGame: 6.3, pointsPerGame: 1.8, reboundsPerGame: 1.7, fieldGoalPct: 0.462 },
       ],
       careerEvents: [
         { year: 2006, title: "Went undrafted; signed with 76ers", eventType: "SIGNING" },

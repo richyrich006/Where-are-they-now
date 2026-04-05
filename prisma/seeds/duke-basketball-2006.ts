@@ -353,6 +353,8 @@ export const dukeBasketball2006: TeamSeed = {
       seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Germantown Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 13.4, reboundsPerGame: 5.9, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "2005-06 (Senior)", sortOrder: 204, gamesPlayed: 36, pointsPerGame: 5.6, reboundsPerGame: 2.2, assistsPerGame: 1.4 },
+      
+        { level: "PROFESSIONAL", teamName: "Cleveland Cavaliers", season: "2006-07", yearLabel: "2006-07", sortOrder: 301, gamesPlayed: 5, minutesPerGame: 3.4, pointsPerGame: 0.6, reboundsPerGame: 0.2, fieldGoalPct: 0.250 },
       ],
       careerEvents: [],
     },

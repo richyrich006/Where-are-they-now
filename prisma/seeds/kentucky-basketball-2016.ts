@@ -136,6 +136,8 @@ export const kentuckyBasketball2016: TeamSeed = {
             seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Northeast High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 20.3, reboundsPerGame: 10.2, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 35, pointsPerGame: 10.2, reboundsPerGame: 5.5, assistsPerGame: 0.8 },
+      
+        { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2017-18", yearLabel: "2017-18", sortOrder: 301, gamesPlayed: 21, minutesPerGame: 8.2, pointsPerGame: 3.3, reboundsPerGame: 2.0, fieldGoalPct: 0.417 },
       ],
       careerEvents: [
         { year: 2016, title: "Went undrafted; began overseas career", eventType: "CAREER" },
