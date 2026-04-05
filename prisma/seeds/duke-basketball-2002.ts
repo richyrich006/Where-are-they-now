@@ -95,6 +95,15 @@ export const dukeBasketball2002: TeamSeed = {
         { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2006-07", yearLabel: "2006-07 (All-Star)", sortOrder: 305, gamesPlayed: 74, pointsPerGame: 20.9, reboundsPerGame: 11.7, assistsPerGame: 3.0, fieldGoalPct: 0.561, freeThrowPct: 0.739 },
         { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2007-08", yearLabel: "2007-08 (All-Star)", sortOrder: 306, gamesPlayed: 81, pointsPerGame: 21.1, reboundsPerGame: 10.4, assistsPerGame: 2.5, fieldGoalPct: 0.545, freeThrowPct: 0.718 },
         { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2010-11", yearLabel: "2010-11", sortOrder: 309, gamesPlayed: 59, pointsPerGame: 17.5, reboundsPerGame: 9.6, assistsPerGame: 2.5, fieldGoalPct: 0.500, freeThrowPct: 0.708 },
+      
+        { level: "PROFESSIONAL", teamName: "Cleveland Cavaliers", season: "2003-04", yearLabel: "2003-04", sortOrder: 302, gamesPlayed: 75, minutesPerGame: 35.3, pointsPerGame: 15.5, reboundsPerGame: 11.4, assistsPerGame: 2.6, fieldGoalPct: 0.484, freeThrowPct: 0.754 },
+        { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2005-06", yearLabel: "2005-06", sortOrder: 304, gamesPlayed: 33, minutesPerGame: 38.4, pointsPerGame: 20.9, reboundsPerGame: 9.0, assistsPerGame: 2.6, fieldGoalPct: 0.530, freeThrowPct: 0.784 },
+        { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2008-09", yearLabel: "2008-09", sortOrder: 307, gamesPlayed: 78, minutesPerGame: 37.2, pointsPerGame: 16.2, reboundsPerGame: 10.0, assistsPerGame: 3.0, fieldGoalPct: 0.497, freeThrowPct: 0.722 },
+        { level: "PROFESSIONAL", teamName: "Utah Jazz", season: "2009-10", yearLabel: "2009-10", sortOrder: 308, gamesPlayed: 78, minutesPerGame: 36.6, pointsPerGame: 19.5, reboundsPerGame: 11.2, assistsPerGame: 2.5, fieldGoalPct: 0.521, freeThrowPct: 0.750 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2011-12", yearLabel: "2011-12", sortOrder: 310, gamesPlayed: 66, minutesPerGame: 32.1, pointsPerGame: 15.0, reboundsPerGame: 8.5, assistsPerGame: 1.8, fieldGoalPct: 0.457, freeThrowPct: 0.717 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2012-13", yearLabel: "2012-13", sortOrder: 311, gamesPlayed: 79, minutesPerGame: 32.1, pointsPerGame: 16.2, reboundsPerGame: 9.8, assistsPerGame: 2.0, fieldGoalPct: 0.481, freeThrowPct: 0.718 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2013-14", yearLabel: "2013-14", sortOrder: 312, gamesPlayed: 79, minutesPerGame: 28.7, pointsPerGame: 13.7, reboundsPerGame: 8.3, assistsPerGame: 1.9, fieldGoalPct: 0.474, freeThrowPct: 0.690 },
+        { level: "PROFESSIONAL", teamName: "Los Angeles Lakers", season: "2014-15", yearLabel: "2014-15", sortOrder: 313, gamesPlayed: 71, minutesPerGame: 23.8, pointsPerGame: 12.3, reboundsPerGame: 6.8, assistsPerGame: 1.2, fieldGoalPct: 0.499, freeThrowPct: 0.681 },
       ],
       careerEvents: [
         { year: 2001, title: "Won NCAA National Championship with Duke", eventType: "CHAMPIONSHIP" },
@@ -142,6 +151,13 @@ export const dukeBasketball2002: TeamSeed = {
         { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2011-12", yearLabel: "2011-12", sortOrder: 310, gamesPlayed: 55, pointsPerGame: 12.3, reboundsPerGame: 5.3, assistsPerGame: 3.0, threePointPct: 0.388 },
         { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2014-15", yearLabel: "2014-15", sortOrder: 313, gamesPlayed: 63, pointsPerGame: 9.4, reboundsPerGame: 4.1, assistsPerGame: 2.3, threePointPct: 0.407 },
         { level: "PROFESSIONAL", teamName: "Cleveland Cavaliers", season: "2015-16", yearLabel: "2015-16 (Champion)", sortOrder: 314, gamesPlayed: 37, pointsPerGame: 6.5, reboundsPerGame: 2.3, threePointPct: 0.418 },
+      
+        { level: "PROFESSIONAL", teamName: "Golden State Warriors", season: "2003-04", yearLabel: "2003-04", sortOrder: 302, gamesPlayed: 75, minutesPerGame: 31.1, pointsPerGame: 11.7, reboundsPerGame: 5.1, assistsPerGame: 3.0, fieldGoalPct: 0.425, threePointPct: 0.323, freeThrowPct: 0.790 },
+        { level: "PROFESSIONAL", teamName: "Golden State Warriors", season: "2004-05", yearLabel: "2004-05", sortOrder: 303, gamesPlayed: 81, minutesPerGame: 29.5, pointsPerGame: 13.4, reboundsPerGame: 4.3, assistsPerGame: 2.8, fieldGoalPct: 0.441, threePointPct: 0.340, freeThrowPct: 0.855 },
+        { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2006-07", yearLabel: "2006-07", sortOrder: 305, gamesPlayed: 63, minutesPerGame: 31.3, pointsPerGame: 15.9, reboundsPerGame: 5.2, assistsPerGame: 2.5, fieldGoalPct: 0.447, threePointPct: 0.349, freeThrowPct: 0.799 },
+        { level: "PROFESSIONAL", teamName: "Indiana Pacers", season: "2009-10", yearLabel: "2009-10", sortOrder: 308, gamesPlayed: 69, minutesPerGame: 31.2, pointsPerGame: 15.1, reboundsPerGame: 5.3, assistsPerGame: 3.2, fieldGoalPct: 0.442, threePointPct: 0.399, freeThrowPct: 0.802 },
+        { level: "PROFESSIONAL", teamName: "Milwaukee Bucks", season: "2012-13", yearLabel: "2012-13", sortOrder: 311, gamesPlayed: 75, minutesPerGame: 32.3, pointsPerGame: 12.3, reboundsPerGame: 4.5, assistsPerGame: 2.4, fieldGoalPct: 0.415, threePointPct: 0.347, freeThrowPct: 0.826 },
+        { level: "PROFESSIONAL", teamName: "Chicago Bulls", season: "2013-14", yearLabel: "2013-14", sortOrder: 312, gamesPlayed: 82, minutesPerGame: 27.3, pointsPerGame: 11.2, reboundsPerGame: 4.0, assistsPerGame: 2.1, fieldGoalPct: 0.437, threePointPct: 0.368, freeThrowPct: 0.821 },
       ],
       careerEvents: [
         { year: 2002, title: "Selected #3 overall by the Golden State Warriors", eventType: "DRAFT" },
