@@ -165,6 +165,8 @@ export const kentuckyBasketball2016: TeamSeed = {
             seasonStats: [
         { level: "HIGH_SCHOOL", teamName: "Deer Valley High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 11.3, reboundsPerGame: 9.1, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 4.2, reboundsPerGame: 4.7, assistsPerGame: 0.5 },
+      
+        { level: "PROFESSIONAL", teamName: "Cairns Taipans (NBL)", season: "2018-19", yearLabel: "2018-19", sortOrder: 301, gamesPlayed: 28, minutesPerGame: 18.0, pointsPerGame: 7.5, reboundsPerGame: 6.8, blocksPerGame: 1.0, fieldGoalPct: 0.520 },
       ],
       careerEvents: [
         { year: 2016, title: "Withdrew from NBA Draft; transferred to Cal", eventType: "OTHER" },

@@ -198,6 +198,8 @@ export const kentuckyBasketball2017: TeamSeed = {
         { level: "HIGH_SCHOOL", teamName: "Roselle Catholic High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 19.4, reboundsPerGame: 5.3, assistsPerGame: 6.0 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 9.6, reboundsPerGame: 5.3, assistsPerGame: 3.1 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 13.2, reboundsPerGame: 5.4, assistsPerGame: 3.1 },
+      
+        { level: "PROFESSIONAL", teamName: "Orlando Magic", season: "2018-19", yearLabel: "2018-19", sortOrder: 301, gamesPlayed: 39, minutesPerGame: 10.5, pointsPerGame: 3.5, reboundsPerGame: 1.9, assistsPerGame: 2.2, fieldGoalPct: 0.422, freeThrowPct: 0.600 },
       ],
       careerEvents: [{ year: 2017, title: "Went undrafted", eventType: "CAREER" }],
     },
@@ -224,6 +226,8 @@ export const kentuckyBasketball2017: TeamSeed = {
         { level: "HIGH_SCHOOL", teamName: "Western Hills High School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 15.2, reboundsPerGame: 7.4, blocksPerGame: 1.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2015-2016", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 6.8, reboundsPerGame: 3.4, assistsPerGame: 0.5 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2016-2017", yearLabel: "Senior", sortOrder: 202, gamesPlayed: 37, pointsPerGame: 8.6, reboundsPerGame: 4.1, assistsPerGame: 0.7 },
+      
+        { level: "PROFESSIONAL", teamName: "Paris Basketball (LNB Pro A)", season: "2021-22", yearLabel: "2021-22", sortOrder: 301, gamesPlayed: 30, minutesPerGame: 15.0, pointsPerGame: 6.2, reboundsPerGame: 3.5, fieldGoalPct: 0.450, threePointPct: 0.380 },
       ],
       careerEvents: [{ year: 2017, title: "Graduated; began European career", eventType: "CAREER" }],
     },

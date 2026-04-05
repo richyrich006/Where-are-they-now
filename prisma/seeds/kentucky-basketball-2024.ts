@@ -123,6 +123,8 @@ export const kentuckyBasketball2024: TeamSeed = {
         { level: "HIGH_SCHOOL", teamName: "Simeon Career Academy", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 26.9, reboundsPerGame: 2.5, assistsPerGame: 3.7 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2022-2023", yearLabel: "Senior (SEC Co-6MOY)", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 14.6, reboundsPerGame: 2.5, assistsPerGame: 1.3 },
         { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2023-2024", yearLabel: "Graduate Senior", sortOrder: 202, gamesPlayed: 33, pointsPerGame: 16.6, reboundsPerGame: 2.6, assistsPerGame: 1.5 },
+      
+        { level: "PROFESSIONAL", teamName: "New Orleans Pelicans", season: "2024-25", yearLabel: "2024-25", sortOrder: 301, gamesPlayed: 44, minutesPerGame: 10.0, pointsPerGame: 6.9, reboundsPerGame: 1.4, assistsPerGame: 0.9, fieldGoalPct: 0.456, threePointPct: 0.395, freeThrowPct: 0.850 },
       ],
       careerEvents: [
         { year: 2024, title: "Selected #47 overall by the Orlando Magic", eventType: "DRAFT" },
