@@ -13,7 +13,6 @@ export const dukeBasketball2004: TeamSeed = {
   people: [
     {
       slug: "luol-deng",
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2066.png",
       firstName: "Luol",
       lastName: "Deng",
       birthYear: 1985,
@@ -102,7 +101,6 @@ export const dukeBasketball2004: TeamSeed = {
     },
     {
       slug: "jj-redick",
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2067.png",
       firstName: "J.J.",
       lastName: "Redick",
       birthYear: 1984,

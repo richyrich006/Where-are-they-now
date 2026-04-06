@@ -19,7 +19,6 @@ export const dukeBasketball2013: TeamSeed = {
       hometown: "Charlotte, NC",
       highSchool: "Charlotte Christian School, Charlotte, NC",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3136.png",
       bio: "A senior sharpshooter who averaged 17.5 PPG and shot 43.8% from three. Named All-ACC First Team.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -58,7 +57,6 @@ export const dukeBasketball2013: TeamSeed = {
       hometown: "Warsaw, IN",
       highSchool: "Christ School, Arden, NC",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3134.png",
       bio: "A dominant senior center who averaged 17.1 PPG and 10.1 RPG. Named ACC POY runner-up and First-Team All-American.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -97,7 +95,6 @@ export const dukeBasketball2013: TeamSeed = {
       hometown: "Washington, D.C.",
       highSchool: "DeMatha Catholic High School, Hyattsville, MD",
       isFeatured: false,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/63582.png",
       bio: "A sophomore point guard who averaged 11.7 PPG and 5.3 APG. Would captain the 2015 championship team.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

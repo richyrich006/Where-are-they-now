@@ -19,7 +19,6 @@ export const dukeBasketball2022: TeamSeed = {
       hometown: "Seattle, WA",
       highSchool: "O'Dea High School, Seattle, WA",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4706934.png",
       bio: "The #1 overall pick in 2022. Banchero was a dominant freshman who averaged 17.2 PPG with 7.8 RPG, leading Duke to the Final Four in Coach K's farewell season. Named Most Outstanding Player of the East Regional.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -53,7 +52,6 @@ export const dukeBasketball2022: TeamSeed = {
       hometown: "Norfolk, VA",
       highSchool: "IMG Academy, Bradenton, FL",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4433246.png",
       bio: "Sophomore center who had a breakout season, averaging 11.2 PPG, 7.4 RPG, and a team-high 2.8 BPG. His shot-blocking ability was crucial to Duke's Final Four run.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -84,7 +82,6 @@ export const dukeBasketball2022: TeamSeed = {
       hometown: "Ossining, NY",
       highSchool: "Archbishop Stepinac, White Plains, NY",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4706936.png",
       bio: "Freshman sharpshooter who overcame two torn ACLs in high school to become one of college basketball's best three-point shooters at 44.7%. Son of former NBA player Adrian Griffin.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -111,7 +108,6 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 2001,
       hometown: "Concord, NC",
       highSchool: "Cox Mill High School, Concord, NC",
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432179.png",
       bio: "Junior wing who had a breakout season averaging 13.4 PPG and 4.4 APG. Named first-team All-ACC and was crucial to Duke's balanced attack.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -139,8 +135,7 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 2003,
       hometown: "Lutz, FL",
       highSchool: "Paul VI Catholic High School, Chantilly, VA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4706938.png",      bio: "Freshman guard who started all 39 games and was the team's most reliable perimeter defender. Averaged 11.5 PPG and was a key contributor in the NCAA Tournament.",
+      bio: "Freshman guard who started all 39 games and was the team's most reliable perimeter defender. Averaged 11.5 PPG and was a key contributor in the NCAA Tournament.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
@@ -165,8 +160,7 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 2002,
       hometown: "Leesburg, VA",
       highSchool: "Paul VI Catholic High School, Chantilly, VA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432178.png",      bio: "Sophomore point guard who was the steady hand guiding Duke's offense. Had a huge NCAA Tournament run, averaging 15.5 PPG in the Final Four and hit clutch shots throughout March.",
+      bio: "Sophomore point guard who was the steady hand guiding Duke's offense. Had a huge NCAA Tournament run, averaging 15.5 PPG in the Final Four and hit clutch shots throughout March.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
@@ -193,8 +187,7 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 1999,
       hometown: "Minneapolis, MN",
       highSchool: "DeLaSalle High School, Minneapolis, MN",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4277848.png",      bio: "Graduate transfer center from Marquette who provided veteran presence and shot-blocking depth. Started 20 games as the backup big behind Mark Williams.",
+      bio: "Graduate transfer center from Marquette who provided veteran presence and shot-blocking depth. Started 20 games as the backup big behind Mark Williams.",
       status: {
         occupationType: "OTHER",
         currentTitle: "Private Citizen",
@@ -215,8 +208,7 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 2003,
       hometown: "Manakin-Sabot, VA",
       highSchool: "Blessed Sacrament Huguenot, Powhatan, VA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4706940.png",      bio: "Freshman guard who provided energy and defense off the bench. Known for his fearless on-ball defense despite being undersized.",
+      bio: "Freshman guard who provided energy and defense off the bench. Known for his fearless on-ball defense despite being undersized.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -240,8 +232,7 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 1999,
       hometown: "Fayetteville, NC",
       highSchool: "Trinity Christian School, Fayetteville, NC",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395632.png",      bio: "Senior sharpshooter who hit crucial three-pointers throughout Coach K's final season. Shot 38.4% from three across his Duke career.",
+      bio: "Senior sharpshooter who hit crucial three-pointers throughout Coach K's final season. Shot 38.4% from three across his Duke career.",
       status: {
         occupationType: "OTHER",
         currentTitle: "Private Citizen",

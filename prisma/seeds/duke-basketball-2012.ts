@@ -19,7 +19,6 @@ export const dukeBasketball2012: TeamSeed = {
       hometown: "Winter Park, FL",
       highSchool: "Winter Park High School, Winter Park, FL",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/6443.png",
       bio: "A dynamic one-and-done freshman who averaged 15.5 PPG and hit the iconic game-winning three-pointer against North Carolina. Son of NBA coach Doc Rivers.",
       status: {
         occupationType: "BROADCASTER_ANALYST",
@@ -57,7 +56,6 @@ export const dukeBasketball2012: TeamSeed = {
       hometown: "Charlotte, NC",
       highSchool: "Charlotte Christian School, Charlotte, NC",
       isFeatured: false,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3136.png",
       bio: "A junior who averaged 13.2 PPG with elite three-point shooting.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -82,7 +80,6 @@ export const dukeBasketball2012: TeamSeed = {
       hometown: "Warsaw, IN",
       highSchool: "Christ School, Arden, NC",
       isFeatured: false,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3134.png",
       bio: "A junior center who averaged 11.1 PPG and 9.2 RPG.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

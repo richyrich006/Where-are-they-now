@@ -19,7 +19,6 @@ export const dukeBasketball2023: TeamSeed = {
       hometown: "Philadelphia, PA",
       highSchool: "Westtown School, West Chester, PA",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4899907.png",
       bio: "The #1 overall recruit in the 2022 class who became one of the NCAA's best shot blockers. Averaged 7.3 PPG, 5.8 RPG, and 2.4 BPG as a freshman before being drafted #12 overall. His rim protection transformed Duke's defense.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -49,8 +48,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2003,
       hometown: "Wilbraham, MA",
       highSchool: "Wilbraham & Monson Academy, Wilbraham, MA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4899903.png",      isFeatured: true,
+      isFeatured: true,
       bio: "Freshman center/forward who was Duke's leading scorer at 15.1 PPG. Named ACC Freshman of the Year and was one of the most efficient big men in college basketball.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -79,8 +77,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2002,
       hometown: "Leesburg, VA",
       highSchool: "Paul VI Catholic High School, Chantilly, VA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432178.png",      bio: "Junior point guard and three-year starter who averaged 13.2 PPG and 4.8 APG. Duke's most experienced guard and emotional leader.",
+      bio: "Junior point guard and three-year starter who averaged 13.2 PPG and 4.8 APG. Duke's most experienced guard and emotional leader.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
@@ -102,7 +99,6 @@ export const dukeBasketball2023: TeamSeed = {
       hometown: "Newark, NJ",
       highSchool: "Montverde Academy, Montverde, FL",
       isFeatured: false,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4899905.png",
       bio: "Five-star freshman wing who was the #2 recruit in the class but missed the first month with a foot injury. Showed flashes of elite talent when healthy.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -131,8 +127,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2003,
       hometown: "Sydney, Australia",
       highSchool: "NBA Global Academy, Canberra, Australia",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4896869.png",      bio: "Australian freshman point guard who showed poise and playmaking ability despite a steep learning curve in his first season in the US.",
+      bio: "Australian freshman point guard who showed poise and playmaking ability despite a steep learning curve in his first season in the US.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -155,8 +150,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2004,
       hometown: "Kansas City, MO",
       highSchool: "Sunrise Christian Academy, Bel Aire, KS",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4899906.png",      bio: "Five-star freshman forward who averaged 7.9 PPG. His athleticism and defensive potential made him a key contributor on a talented roster.",
+      bio: "Five-star freshman forward who averaged 7.9 PPG. His athleticism and defensive potential made him a key contributor on a talented roster.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -183,8 +177,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2000,
       hometown: "Chatsworth, CA",
       highSchool: "Sierra Canyon School, Chatsworth, CA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4397103.png",      bio: "Grad transfer from Illinois who provided veteran scoring and shooting. Averaged 7.5 PPG and shot 35% from three.",
+      bio: "Grad transfer from Illinois who provided veteran scoring and shooting. Averaged 7.5 PPG and shot 35% from three.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard / Forward",
@@ -226,8 +219,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2003,
       hometown: "Manakin-Sabot, VA",
       highSchool: "Blessed Sacrament Huguenot, Powhatan, VA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4706940.png",      bio: "Sophomore guard known for his fearless on-ball defense and energy. Averaged 4.5 PPG off the bench.",
+      bio: "Sophomore guard known for his fearless on-ball defense and energy. Averaged 4.5 PPG off the bench.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -250,8 +242,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2005,
       hometown: "Wilmington, NC",
       highSchool: "Notre Dame High School, Sherman Oaks, CA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105887.png",      bio: "Five-star freshman point guard recruit who enrolled early. Did not play in 2022-23 (arrived for 2023-24).",
+      bio: "Five-star freshman point guard recruit who enrolled early. Did not play in 2022-23 (arrived for 2023-24).",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -272,8 +263,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 1999,
       hometown: "Fayetteville, NC",
       highSchool: "Trinity Christian School, Fayetteville, NC",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395632.png",      bio: "Fifth-year senior who provided veteran shooting off the bench. A key presence in the locker room across five Duke seasons.",
+      bio: "Fifth-year senior who provided veteran shooting off the bench. A key presence in the locker room across five Duke seasons.",
       status: {
         occupationType: "OTHER",
         currentTitle: "Private Citizen",
@@ -294,8 +284,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2003,
       hometown: "Las Vegas, NV",
       highSchool: "Brewster Academy, Wolfeboro, NH",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4899908.png",      bio: "Freshman forward who provided defensive energy and toughness. Son of former WNBA star Tamika Catchings.",
+      bio: "Freshman forward who provided defensive energy and toughness. Son of former WNBA star Tamika Catchings.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",

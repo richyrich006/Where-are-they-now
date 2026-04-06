@@ -20,7 +20,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Chicago, IL",
       highSchool: "Whitney Young Magnet High School, Chicago, IL",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3121999.png",
       bio: "One-and-done center who was the ACC Player of the Year and a consensus All-American in 2015. Selected #3 overall in the NBA Draft by the Philadelphia 76ers.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -91,7 +90,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Apple Valley, MN",
       highSchool: "Apple Valley High School, Apple Valley, MN",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3122000.png",
       bio: "The heart of the 2015 championship team. Jones scored 23 points in the national title game against Wisconsin to earn Most Outstanding Player honors.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -162,7 +160,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Jacksonville, FL",
       highSchool: "Providence School, Jacksonville, FL",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3130407.png",
       bio: "Came off the bench as a freshman to score 16 points in the national championship game. Stayed at Duke all four years before entering the NBA Draft.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -230,7 +227,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Houston, TX",
       highSchool: "St. John's School, Houston, TX",
       isFeatured: false,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3122001.png",
       bio: "A versatile defensive stopper who anchored Duke's perimeter defense during the championship run. Selected 10th overall by the Miami Heat.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -290,7 +286,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Washington, D.C.",
       highSchool: "DeMatha Catholic High School, Hyattsville, MD",
       isFeatured: false,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/63582.png",
       bio: "The senior captain who led Duke's locker room culture during the championship season. Despite going undrafted, Cook carved out a six-year NBA career and won two championships.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -346,7 +341,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Philadelphia, PA",
       highSchool: "Friends' Central School, Wynnewood, PA",
       isFeatured: false,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2580052.png",
       bio: "A workhorse power forward who chose to return to Duke multiple times. After a brief NBA career, he transitioned into coaching.",
       status: {
         occupationType: "COACH",
@@ -457,7 +451,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Warsaw, IN",
       highSchool: "Christ School, Arden, NC",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2489704.png",
       bio: "The youngest of three Plumlee brothers to play at Duke. After his NBA career, Marshall took one of the most extraordinary paths in college basketball history — from the 75th Ranger Regiment to Harvard Business School to Blackstone.",
       status: {
         occupationType: "FRONT_OFFICE",
@@ -530,7 +523,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Aurora, CO",
       highSchool: "Ottawa High School, Ottawa, KS",
       isFeatured: false,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/63584.png",
       bio: "Transferred from Duke to SMU where he became a star before being drafted by the Boston Celtics. Has continued his professional career in European leagues.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

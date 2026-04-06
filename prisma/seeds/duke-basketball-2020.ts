@@ -19,7 +19,6 @@ export const dukeBasketball2020: TeamSeed = {
       hometown: "Apple Valley, MN",
       highSchool: "Apple Valley High School, Apple Valley, MN",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395629.png",
       bio: "Sophomore point guard who won ACC Player of the Year, averaging 16.2 PPG and 6.4 APG. Led Duke to a #1 seed before COVID-19 cancelled the tournament.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -44,7 +43,6 @@ export const dukeBasketball2020: TeamSeed = {
       hometown: "Fort Lauderdale, FL",
       highSchool: "University School, Fort Lauderdale, FL",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432166.png",
       bio: "Freshman center and McDonald's All-American who dominated inside, averaging 17.8 PPG and 8.8 RPG. Named ACC Rookie of the Year.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -70,8 +68,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 2000,
       hometown: "Los Angeles, CA",
       highSchool: "Sierra Canyon School, Chatsworth, CA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432815.png",      bio: "Athletic freshman guard who averaged 12.6 PPG with electric dunking ability. Won the 2021 NBA Slam Dunk Contest.",
+      bio: "Athletic freshman guard who averaged 12.6 PPG with electric dunking ability. Won the 2021 NBA Slam Dunk Contest.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
@@ -97,8 +94,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 2000,
       hometown: "Rochester, MN",
       highSchool: "John Marshall High School, Rochester, MN",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432171.png",      bio: "Freshman forward/center who showed flashes of his offensive repertoire with 9.7 PPG, including a 25-point game vs Georgia Tech. Returned for sophomore year.",
+      bio: "Freshman forward/center who showed flashes of his offensive repertoire with 9.7 PPG, including a 25-point game vs Georgia Tech. Returned for sophomore year.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Forward",
@@ -123,8 +119,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 2001,
       hometown: "Concord, NC",
       highSchool: "Cox Mill High School, Concord, NC",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432179.png",      bio: "Freshman wing who averaged 5.2 PPG in a supporting role. Would develop into a first-team All-ACC player and first-round pick by his junior year.",
+      bio: "Freshman wing who averaged 5.2 PPG in a supporting role. Would develop into a first-team All-ACC player and first-round pick by his junior year.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard / Forward",
@@ -145,8 +140,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 1999,
       hometown: "Norcross, GA",
       highSchool: "Norcross High School, Norcross, GA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4278017.png",      bio: "Junior guard who became a defensive catalyst, ranking among Duke leaders in steals. Stepped into a larger role when Tre Jones was injured, showing toughness and playmaking ability.",
+      bio: "Junior guard who became a defensive catalyst, ranking among Duke leaders in steals. Stepped into a larger role when Tre Jones was injured, showing toughness and playmaking ability.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
@@ -170,8 +164,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 1997,
       hometown: "Traralgon, Australia",
       highSchool: "The Southport School, Southport, QLD, Australia",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066290.png",      bio: "Australian senior forward and team captain who provided veteran leadership and defensive toughness. A four-year letterwinner who was part of two ACC Tournament championship teams.",
+      bio: "Australian senior forward and team captain who provided veteran leadership and defensive toughness. A four-year letterwinner who was part of two ACC Tournament championship teams.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Forward",
@@ -198,8 +191,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 1998,
       hometown: "Mechanicsville, VA",
       highSchool: "Atlee High School, Mechanicsville, VA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066635.png",      bio: "Senior forward and team captain who was a four-year letterwinner and beloved teammate. Set career highs across the board in his senior season with 3.8 PPG and an incredible 74.7% field goal percentage.",
+      bio: "Senior forward and team captain who was a four-year letterwinner and beloved teammate. Set career highs across the board in his senior season with 3.8 PPG and an incredible 74.7% field goal percentage.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Forward",
@@ -223,8 +215,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 2000,
       hometown: "Fayetteville, NC",
       highSchool: "Trinity Christian School, Fayetteville, NC",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395632.png",      bio: "Sophomore sharpshooter who provided a dangerous three-point threat off the bench, shooting 40.5% from beyond the arc. Had a breakout 22-point game against Wofford.",
+      bio: "Sophomore sharpshooter who provided a dangerous three-point threat off the bench, shooting 40.5% from beyond the arc. Had a breakout 22-point game against Wofford.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard / Forward",
@@ -248,8 +239,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 1999,
       hometown: "Roswell, GA",
       highSchool: "Blessed Trinity Catholic High School, Roswell, GA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4278087.png",      bio: "Junior guard who provided scoring off the bench, averaging 5.2 PPG. A versatile wing who could shoot from distance and attack the basket.",
+      bio: "Junior guard who provided scoring off the bench, averaging 5.2 PPG. A versatile wing who could shoot from distance and attack the basket.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
@@ -273,8 +263,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 1996,
       hometown: "San Antonio, TX",
       highSchool: "San Antonio Christian School, San Antonio, TX",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432170.png",      bio: "Graduate transfer forward and son of NBA Hall of Famer David Robinson. A team captain who brought veteran leadership and energy, capping his career with a 13-point, 6-rebound, 4-block Senior Night performance against UNC.",
+      bio: "Graduate transfer forward and son of NBA Hall of Famer David Robinson. A team captain who brought veteran leadership and energy, capping his career with a 13-point, 6-rebound, 4-block Senior Night performance against UNC.",
       status: {
         occupationType: "COACH",
         currentTitle: "Director of Player Development",

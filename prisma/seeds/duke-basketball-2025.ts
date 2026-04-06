@@ -19,7 +19,6 @@ export const dukeBasketball2025: TeamSeed = {
       hometown: "Newport, ME",
       highSchool: "Montverde Academy, Montverde, FL",
       isFeatured: true,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105961.png",
       bio: "The consensus #1 recruit in the 2024 class and projected #1 overall pick in the 2025 NBA Draft. Flagg averaged 20.2 PPG, 8.5 RPG, and 4.0 APG as a freshman, winning ACC Player of the Year and leading Duke to the Final Four. The most hyped freshman since Zion Williamson.",
       status: {
         occupationType: "STUDENT",
@@ -47,8 +46,7 @@ export const dukeBasketball2025: TeamSeed = {
       birthYear: 2005,
       hometown: "Milwaukee, WI",
       highSchool: "Wisconsin Lutheran High School, Milwaukee, WI",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105959.png",      isFeatured: true,
+      isFeatured: true,
       bio: "Freshman wing who was Duke's second-leading scorer at 14.5 PPG with elite shooting. A projected lottery pick in the 2025 NBA Draft.",
       status: {
         occupationType: "STUDENT",
@@ -74,7 +72,6 @@ export const dukeBasketball2025: TeamSeed = {
       hometown: "Sydney, Australia",
       highSchool: "NBA Global Academy, Canberra, Australia",
       isFeatured: false,
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4896869.png",
       bio: "Australian junior point guard who served as the team's floor general. Third-year starter who improved his shooting significantly as a junior.",
       status: {
         occupationType: "STUDENT",
@@ -100,8 +97,7 @@ export const dukeBasketball2025: TeamSeed = {
       birthYear: 2006,
       hometown: "Kernersville, NC",
       highSchool: "East Forsyth High School, Kernersville, NC",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105960.png",      bio: "Five-star freshman wing who provided scoring punch off the bench. Shot 38% from three in his first college season.",
+      bio: "Five-star freshman wing who provided scoring punch off the bench. Shot 38% from three in his first college season.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -125,8 +121,7 @@ export const dukeBasketball2025: TeamSeed = {
       birthYear: 2003,
       hometown: "Methuen, MA",
       highSchool: "Brewster Academy, Wolfeboro, NH",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4899900.png",      bio: "Sophomore forward who transferred from Syracuse and became a key two-way player for Duke. His versatility and energy were critical to Duke's Final Four run.",
+      bio: "Sophomore forward who transferred from Syracuse and became a key two-way player for Duke. His versatility and energy were critical to Duke's Final Four run.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -153,8 +148,7 @@ export const dukeBasketball2025: TeamSeed = {
       birthYear: 2001,
       hometown: "New Castle, IN",
       highSchool: "New Castle Chrysler High School, New Castle, IN",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432186.png",      bio: "Graduate transfer from Purdue who brought veteran toughness and championship experience (2024 national runner-up with Purdue). Played a key role as a stretch-four.",
+      bio: "Graduate transfer from Purdue who brought veteran toughness and championship experience (2024 national runner-up with Purdue). Played a key role as a stretch-four.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "Graduate Student",
@@ -180,8 +174,7 @@ export const dukeBasketball2025: TeamSeed = {
       birthYear: 2004,
       hometown: "Houston, TX",
       highSchool: "Kinkaid School, Houston, TX",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105885.png",      bio: "Sophomore guard who transferred from Clemson and became a key two-way contributor. His toughness and versatility were crucial to Duke's Final Four run.",
+      bio: "Sophomore guard who transferred from Clemson and became a key two-way contributor. His toughness and versatility were crucial to Duke's Final Four run.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -205,8 +198,7 @@ export const dukeBasketball2025: TeamSeed = {
       birthYear: 2005,
       hometown: "Charlotte, NC",
       highSchool: "Link Year Prep, Branson, MO",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105957.png",      bio: "Freshman center who provided rim protection and rebounding. At 6-11 and 250 lbs, he gave Duke size off the bench.",
+      bio: "Freshman center who provided rim protection and rebounding. At 6-11 and 250 lbs, he gave Duke size off the bench.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -230,8 +222,7 @@ export const dukeBasketball2025: TeamSeed = {
       birthYear: 2006,
       hometown: "Juba, South Sudan",
       highSchool: "NBA Academy Africa / AZ Compass Prep",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105958.png",      bio: "Freshman center from South Sudan who was the #2 recruit in the class. At 7-2 with a massive wingspan, his rim protection and shot-blocking were elite for a freshman.",
+      bio: "Freshman center from South Sudan who was the #2 recruit in the class. At 7-2 with a massive wingspan, his rim protection and shot-blocking were elite for a freshman.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -320,8 +311,7 @@ export const dukeBasketball2025: TeamSeed = {
       birthYear: 2005,
       hometown: "Philadelphia, PA",
       highSchool: "Imhotep Institute, Philadelphia, PA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105889.png",      bio: "Sophomore guard who showed improved shooting ability. Provided bench scoring with 5.5 PPG.",
+      bio: "Sophomore guard who showed improved shooting ability. Provided bench scoring with 5.5 PPG.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -344,8 +334,7 @@ export const dukeBasketball2025: TeamSeed = {
       birthYear: 2003,
       hometown: "Manakin-Sabot, VA",
       highSchool: "Blessed Sacrament Huguenot, Powhatan, VA",
-
-      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4706940.png",      bio: "Senior guard and four-year Duke player who provided defensive energy and leadership in his final season.",
+      bio: "Senior guard and four-year Duke player who provided defensive energy and leadership in his final season.",
       status: {
         occupationType: "OTHER",
         currentTitle: "Duke Graduate",
