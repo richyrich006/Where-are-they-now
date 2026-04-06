@@ -19,7 +19,7 @@ export const dukeBasketball2018: TeamSeed = {
       hometown: "Phoenix, AZ",
       highSchool: "Sierra Canyon School, Chatsworth, CA",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628963.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395724.png",
       bio: "The consensus #1 recruit who reclassified to join Duke a year early. Averaged 21.0 PPG and 11.1 RPG — recording 22 double-doubles, the most by a Duke freshman ever. Named ACC Player of the Year and Rookie of the Year.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -50,7 +50,7 @@ export const dukeBasketball2018: TeamSeed = {
       hometown: "Atlanta, GA",
       highSchool: "Pace Academy, Atlanta, GA",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628976.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395725.png",
       bio: "Five-star freshman center who was the team's defensive anchor. Averaged 13.5 PPG, 9.1 RPG, and 2.0 BPG, earning All-ACC Freshman Team honors.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -84,7 +84,7 @@ export const dukeBasketball2018: TeamSeed = {
       hometown: "Columbus, OH",
       highSchool: "Prolific Prep, Napa, CA",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629018.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4277956.png",
       bio: "Freshman guard who shot 40.2% from three and was Duke's most reliable perimeter shooter. Son of former NBA player Gary Trent Sr.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -119,7 +119,7 @@ export const dukeBasketball2018: TeamSeed = {
       hometown: "Jacksonville, FL",
       highSchool: "Providence School, Jacksonville, FL",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628425.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3130407.png",
       bio: "Senior captain who led the team in experience. Averaged 15.5 PPG and was the emotional leader of the 2017-18 squad that reached the Elite Eight.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -150,7 +150,8 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 1999,
       hometown: "New Castle, DE",
       highSchool: "IMG Academy, Bradenton, FL",
-      bio: "The #1 point guard recruit in the 2017 class who ran Duke's offense. His passing and speed were elite, but his outside shooting was inconsistent. Averaged 10.3 PPG and 5.6 APG.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4277947.png",      bio: "The #1 point guard recruit in the 2017 class who ran Duke's offense. His passing and speed were elite, but his outside shooting was inconsistent. Averaged 10.3 PPG and 5.6 APG.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Point Guard",
@@ -174,7 +175,8 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 1998,
       hometown: "DeSoto, TX",
       highSchool: "DeSoto High School, DeSoto, TX",
-      bio: "Sophomore center who battled knee issues but played a role as the backup big. Improved defensively and was a solid rim protector when healthy.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066636.png",      bio: "Sophomore center who battled knee issues but played a role as the backup big. Improved defensively and was a solid rim protector when healthy.",
       status: {
         occupationType: "RETIRED_ATHLETE",
         currentTitle: "Retired",
@@ -195,7 +197,8 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 1997,
       hometown: "Traralgon, Victoria, Australia",
       highSchool: "Caulfield Grammar School, Melbourne, Australia",
-      bio: "Australian sophomore forward who saw limited playing time in 2017-18 but would go on to become a key contributor in his junior and senior years. A versatile 6'7\" wing who defended multiple positions and provided toughness and energy off the bench.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066290.png",      bio: "Australian sophomore forward who saw limited playing time in 2017-18 but would go on to become a key contributor in his junior and senior years. A versatile 6'7\" wing who defended multiple positions and provided toughness and energy off the bench.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Small Forward",
@@ -220,7 +223,8 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 1999,
       hometown: "Roswell, GA",
       highSchool: "Milton High School, Alpharetta, GA",
-      bio: "Freshman shooting guard who finished as Duke's most accurate three-point shooter at 48.9% from beyond the arc. Played behind Grayson Allen but showed flashes of his scoring ability, averaging 3.3 PPG in limited minutes.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4278087.png",      bio: "Freshman shooting guard who finished as Duke's most accurate three-point shooter at 48.9% from beyond the arc. Played behind Grayson Allen but showed flashes of his scoring ability, averaging 3.3 PPG in limited minutes.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Shooting Guard",
@@ -246,7 +250,8 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 1998,
       hometown: "Shipman, VA",
       highSchool: "St. Anne's-Belfield School, Charlottesville, VA",
-      bio: "Sophomore power forward who served as the primary backup to Wendell Carter Jr. An energetic rim-runner and shot-blocker who shot 64.3% from the field. Averaged 3.4 PPG and 4.0 RPG in 33 games while providing critical depth in the frontcourt.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066635.png",      bio: "Sophomore power forward who served as the primary backup to Wendell Carter Jr. An energetic rim-runner and shot-blocker who shot 64.3% from the field. Averaged 3.4 PPG and 4.0 RPG in 33 games while providing critical depth in the frontcourt.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Power Forward / Center",
@@ -271,7 +276,8 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 1999,
       hometown: "Norcross, GA",
       highSchool: "Norcross High School, Norcross, GA",
-      bio: "Freshman point guard who provided defensive intensity off the bench. Appeared in 26 games with limited minutes, averaging 1.0 PPG and 0.9 APG. Would later develop into one of Duke's best defensive players, earning ACC All-Defensive Team honors as a senior.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4278017.png",      bio: "Freshman point guard who provided defensive intensity off the bench. Appeared in 26 games with limited minutes, averaging 1.0 PPG and 0.9 APG. Would later develop into one of Duke's best defensive players, earning ACC All-Defensive Team honors as a senior.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Point Guard",

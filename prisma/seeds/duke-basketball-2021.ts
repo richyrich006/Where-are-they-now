@@ -19,7 +19,7 @@ export const dukeBasketball2021: TeamSeed = {
       hometown: "Milwaukee, WI",
       highSchool: "Nicolet High School, Glendale, WI / IMG Academy",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630224.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4701230.png",
       bio: "Five-star freshman who left Duke mid-season to prepare for the NBA Draft, playing only 13 games. Despite the abbreviated college career, his talent was undeniable — 11.2 PPG, 6.1 RPG, and 2.2 APG in limited action.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -51,7 +51,8 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2000,
       hometown: "Rochester, MN",
       highSchool: "John Marshall High School, Rochester, MN",
-      bio: "Sophomore who led Duke in scoring at 18.3 PPG on 55.8% shooting. Named first-team All-ACC in a difficult season for the program.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432171.png",      bio: "Sophomore who led Duke in scoring at 18.3 PPG on 55.8% shooting. Named first-team All-ACC in a difficult season for the program.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Forward",
@@ -72,7 +73,8 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2001,
       hometown: "Chicago, IL",
       highSchool: "Whitney Young High School, Chicago, IL",
-      bio: "Freshman guard who averaged 13.0 PPG with explosive scoring ability. Left for the NBA Draft after one season.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432816.png",      bio: "Freshman guard who averaged 13.0 PPG with explosive scoring ability. Left for the NBA Draft after one season.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
@@ -97,7 +99,7 @@ export const dukeBasketball2021: TeamSeed = {
       hometown: "Norfolk, VA",
       highSchool: "IMG Academy, Bradenton, FL",
 
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631110.png",      bio: "Freshman center who played limited minutes (11.2 MPG) as a raw prospect. Would explode as a sophomore to become the #15 pick in 2022.",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4433246.png",      bio: "Freshman center who played limited minutes (11.2 MPG) as a raw prospect. Would explode as a sophomore to become the #15 pick in 2022.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Center",
@@ -121,7 +123,7 @@ export const dukeBasketball2021: TeamSeed = {
       hometown: "Concord, NC",
       highSchool: "Cox Mill High School, Concord, NC",
 
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631112.png",      bio: "Sophomore who averaged 8.0 PPG while becoming a key two-way player. Would blossom as a junior to become a first-round pick.",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432179.png",      bio: "Sophomore who averaged 8.0 PPG while becoming a key two-way player. Would blossom as a junior to become a first-round pick.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard / Forward",
@@ -142,7 +144,8 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2002,
       hometown: "Leesburg, VA",
       highSchool: "Paul VI Catholic High School, Chantilly, VA",
-      bio: "Freshman point guard who started 20 games and showed poise beyond his years. Averaged 8.7 PPG and 3.3 APG in the COVID-shortened season.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432178.png",      bio: "Freshman point guard who started 20 games and showed poise beyond his years. Averaged 8.7 PPG and 3.3 APG in the COVID-shortened season.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
@@ -163,7 +166,8 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 1999,
       hometown: "Norcross, GA",
       highSchool: "Norcross High School, Norcross, GA",
-      bio: "Senior guard who led the ACC in assist-to-turnover ratio (+2.82) and ranked second in steals (2.25 SPG). A defensive stalwart who became the heart and soul of a struggling team.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4278017.png",      bio: "Senior guard who led the ACC in assist-to-turnover ratio (+2.82) and ranked second in steals (2.25 SPG). A defensive stalwart who became the heart and soul of a struggling team.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
@@ -187,7 +191,8 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2000,
       hometown: "Fayetteville, NC",
       highSchool: "Trinity Christian School, Fayetteville, NC",
-      bio: "Junior wing who saw reduced playing time in a crowded rotation, averaging 2.9 PPG. A reliable three-point shooter who would return for Coach K's final season.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395632.png",      bio: "Junior wing who saw reduced playing time in a crowded rotation, averaging 2.9 PPG. A reliable three-point shooter who would return for Coach K's final season.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard / Forward",
@@ -210,7 +215,8 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2002,
       hometown: "Jackson, MS",
       highSchool: "Huntington Prep, Huntington, WV",
-      bio: "Four-star freshman forward who appeared in 22 games, averaging 3.5 PPG and 2.5 RPG. Showed flashes of his potential as a versatile scorer but struggled with consistency in a difficult season.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432814.png",      bio: "Four-star freshman forward who appeared in 22 games, averaging 3.5 PPG and 2.5 RPG. Showed flashes of his potential as a versatile scorer but struggled with consistency in a difficult season.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Forward",
@@ -234,7 +240,8 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2002,
       hometown: "Richmond, VA",
       highSchool: "Trinity Episcopal School, Richmond, VA",
-      bio: "Four-star freshman forward who saw limited action in 19 games, averaging 1.1 PPG in 5.0 minutes per game. Never got to experience fans in Cameron Indoor due to COVID restrictions.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432813.png",      bio: "Four-star freshman forward who saw limited action in 19 games, averaging 1.1 PPG in 5.0 minutes per game. Never got to experience fans in Cameron Indoor due to COVID restrictions.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Forward",

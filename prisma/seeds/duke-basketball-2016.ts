@@ -19,7 +19,7 @@ export const dukeBasketball2016: TeamSeed = {
       hometown: "Kinston, NC",
       highSchool: "Kinston High School, Kinston, NC",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1627742.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3913176.png",
       bio: "The consensus #2 overall pick in 2016, Ingram was a lanky 6'9\" wing who averaged 17.3 PPG as a freshman. His scoring versatility and length made him an elite NBA prospect from the moment he stepped on campus.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -56,7 +56,7 @@ export const dukeBasketball2016: TeamSeed = {
       hometown: "Franklin, OH",
       highSchool: "Franklin High School, Franklin, OH",
 
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png",      bio: "Freshman who showed elite shooting ability from day one, averaging 10.6 PPG off the bench and shooting 37.0% from three.",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3907500.png",      bio: "Freshman who showed elite shooting ability from day one, averaging 10.6 PPG off the bench and shooting 37.0% from three.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Shooting Guard",
@@ -80,7 +80,7 @@ export const dukeBasketball2016: TeamSeed = {
       hometown: "Jacksonville, FL",
       highSchool: "Providence School, Jacksonville, FL",
 
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628425.png",      isFeatured: false,
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3130407.png",      isFeatured: false,
       bio: "Sophomore who led the team in scoring at 21.6 PPG — the highest scoring average by a Duke player since J.J. Redick. Named first-team All-ACC.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -126,7 +126,8 @@ export const dukeBasketball2016: TeamSeed = {
       birthYear: 1992,
       hometown: "Warsaw, IN",
       highSchool: "Christ School, Arden, NC",
-      bio: "Senior center and third Plumlee brother to play at Duke. Had his best season as a senior, averaging 8.4 PPG and 7.0 RPG while starting all 34 games.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2489704.png",      bio: "Senior center and third Plumlee brother to play at Duke. Had his best season as a senior, averaging 8.4 PPG and 7.0 RPG while starting all 34 games.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
         currentTitle: "Investor",
@@ -154,7 +155,8 @@ export const dukeBasketball2016: TeamSeed = {
       birthYear: 1997,
       hometown: "Chatsworth, CA",
       highSchool: "Findlay Prep, Henderson, NV",
-      bio: "Freshman point guard who started 21 games before losing his starting spot. Transferred to USC after the season.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066294.png",      bio: "Freshman point guard who started 21 games before losing his starting spot. Transferred to USC after the season.",
       status: {
         occupationType: "OTHER",
         currentTitle: "Private Citizen",
@@ -178,7 +180,8 @@ export const dukeBasketball2016: TeamSeed = {
       birthYear: 1993,
       hometown: "Philadelphia, PA",
       highSchool: "Friends' Central School, Wynnewood, PA",
-      bio: "Senior forward who was the team's leading rebounder and most experienced player before suffering a right foot fracture nine games into the season. Jefferson started all nine games he played, averaging 11.4 PPG and 10.3 RPG before his injury ended his season. He received a medical redshirt and returned for a fifth year in 2016-17.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2580052.png",      bio: "Senior forward who was the team's leading rebounder and most experienced player before suffering a right foot fracture nine games into the season. Jefferson started all nine games he played, averaging 11.4 PPG and 10.3 RPG before his injury ended his season. He received a medical redshirt and returned for a fifth year in 2016-17.",
       status: {
         occupationType: "COACH",
         currentTitle: "Assistant Coach",
@@ -208,7 +211,8 @@ export const dukeBasketball2016: TeamSeed = {
       birthYear: 1997,
       hometown: "Las Vegas, NV",
       highSchool: "Bishop Gorman High School, Las Vegas, NV",
-      bio: "Five-star freshman forward and McDonald's All-American who was Nevada's Gatorade Player of the Year. Saw limited playing time behind Marshall Plumlee and Amile Jefferson, averaging 1.9 PPG and 1.9 RPG in 32 games. Transferred to Arizona after his sophomore year.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3913183.png",      bio: "Five-star freshman forward and McDonald's All-American who was Nevada's Gatorade Player of the Year. Saw limited playing time behind Marshall Plumlee and Amile Jefferson, averaging 1.9 PPG and 1.9 RPG in 32 games. Transferred to Arizona after his sophomore year.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Power Forward / Center",
@@ -233,7 +237,8 @@ export const dukeBasketball2016: TeamSeed = {
       birthYear: 1995,
       hometown: "Lagos, Nigeria",
       highSchool: "Prestonwood Christian Academy, Plano, TX",
-      bio: "Transfer from Rice who sat out 2014-15 per NCAA rules. At Rice, he had averaged 11.4 PPG and a Conference USA-leading 9.3 RPG as a freshman. Saw very limited action in 2015-16 with only 10 games played, averaging 0.5 PPG and 1.0 RPG.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3134028.png",      bio: "Transfer from Rice who sat out 2014-15 per NCAA rules. At Rice, he had averaged 11.4 PPG and a Conference USA-leading 9.3 RPG as a freshman. Saw very limited action in 2015-16 with only 10 games played, averaging 0.5 PPG and 1.0 RPG.",
       status: {
         occupationType: "OTHER",
         currentTitle: "Business Professional",

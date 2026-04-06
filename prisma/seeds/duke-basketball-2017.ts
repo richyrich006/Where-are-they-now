@@ -19,7 +19,7 @@ export const dukeBasketball2017: TeamSeed = {
       hometown: "St. Louis, MO",
       highSchool: "Chaminade College Prep, St. Louis, MO",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3907497.png",
       bio: "One of the most talented freshmen in Duke history, Tatum averaged 16.8 PPG and was named ACC Rookie of the Year. He became one of the NBA's best players and led the Boston Celtics to the 2024 championship.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -56,7 +56,7 @@ export const dukeBasketball2017: TeamSeed = {
       hometown: "Franklin, OH",
       highSchool: "Franklin High School, Franklin, OH",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3907500.png",
       bio: "Sophomore sharpshooter who led Duke in scoring at 19.5 PPG on 49.3% FG. His ability to score from all three levels made him one of college basketball's best offensive players.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -91,7 +91,7 @@ export const dukeBasketball2017: TeamSeed = {
       hometown: "Jacksonville, FL",
       highSchool: "Providence School, Jacksonville, FL",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628425.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3130407.png",
       bio: "Junior who averaged 14.5 PPG. One of the most talented and polarizing players in college basketball, Allen was known for his scoring ability and controversial on-court incidents.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -115,7 +115,8 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1994,
       hometown: "Philadelphia, PA",
       highSchool: "Friends' Central School, Wynnewood, PA",
-      bio: "Super-senior center who finally got his full healthy season in 2016-17 after a medical redshirt. Averaged 10.9 PPG and 8.4 RPG as the team's emotional leader.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2580052.png",      bio: "Super-senior center who finally got his full healthy season in 2016-17 after a medical redshirt. Averaged 10.9 PPG and 8.4 RPG as the team's emotional leader.",
       status: {
         occupationType: "COACH",
         currentTitle: "Assistant Coach",
@@ -138,7 +139,7 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1998,
       hometown: "Washington, DC",
       highSchool: "Cannon School, Concord, NC",
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628402.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3934673.png",
       bio: "Dynamic freshman guard who averaged 10.9 PPG off the bench. His athleticism and scoring ability made him a projected first-round pick before a foot injury.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -165,7 +166,7 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1998,
       hometown: "Winston-Salem, NC",
       highSchool: "Oak Hill Academy, Mouth of Wilson, VA",
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628385.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066258.png",
       bio: "Once the #1 recruit in the country, Giles came to Duke after two ACL surgeries in high school. His limited Duke career (11.2 MPG) couldn't showcase his immense talent, but his potential kept him in the first round of the draft.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -215,7 +216,8 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1998,
       hometown: "DeSoto, TX",
       highSchool: "DeSoto High School, DeSoto, TX",
-      bio: "Freshman center who battled knee injuries but showed potential as a shot blocker and rim protector.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066636.png",      bio: "Freshman center who battled knee injuries but showed potential as a shot blocker and rim protector.",
       status: {
         occupationType: "RETIRED_ATHLETE",
         currentTitle: "Retired",
@@ -237,7 +239,8 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1997,
       hometown: "Las Vegas, NV",
       highSchool: "Bishop Gorman High School, Las Vegas, NV",
-      bio: "Sophomore forward who provided interior depth. Transferred to Arizona after the season.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3913183.png",      bio: "Sophomore forward who provided interior depth. Transferred to Arizona after the season.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Professional Basketball Player",
@@ -261,7 +264,8 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1994,
       hometown: "Lagos, Nigeria",
       highSchool: "Greens Farms Academy, Westport, CT",
-      bio: "Grad transfer from Rice who provided depth at center. The Nigerian-born big man added veteran presence to a young team.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/3134028.png",      bio: "Grad transfer from Rice who provided depth at center. The Nigerian-born big man added veteran presence to a young team.",
       status: {
         occupationType: "OTHER",
         currentTitle: "Private Citizen",
@@ -281,7 +285,8 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1997,
       hometown: "Geelong, Australia",
       highSchool: "The Scots College, Sydney, Australia",
-      bio: "Freshman from Australia who played limited minutes but showed defensive potential that would make him a starter by 2019.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066290.png",      bio: "Freshman from Australia who played limited minutes but showed defensive potential that would make him a starter by 2019.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Professional Basketball Player",

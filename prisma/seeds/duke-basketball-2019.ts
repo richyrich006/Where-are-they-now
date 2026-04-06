@@ -19,7 +19,7 @@ export const dukeBasketball2019: TeamSeed = {
       hometown: "Spartanburg, SC",
       highSchool: "Spartanburg Day School, Spartanburg, SC",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629627.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395628.png",
       bio: "The most hyped college basketball prospect in a generation. Williamson averaged 22.6 PPG with 8.9 RPG as a freshman, winning virtually every national player of the year award. His shoe-blowing-out moment against UNC became an iconic sports moment.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -52,7 +52,7 @@ export const dukeBasketball2019: TeamSeed = {
       hometown: "Mississauga, ON, Canada",
       highSchool: "Montverde Academy, Montverde, FL",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629628.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395625.png",
       bio: "Canadian-born wing who led Duke in scoring as a freshman with 22.6 PPG. A McDonald's All-American and Gatorade National Player of the Year in high school, Barrett was the co-alpha alongside Zion Williamson.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -86,7 +86,7 @@ export const dukeBasketball2019: TeamSeed = {
       hometown: "Norristown, PA",
       highSchool: "Westtown School, West Chester, PA",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629629.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395626.png",
       bio: "Five-star recruit and McDonald's All-American who was the third member of Duke's historically talented freshman class. His shooting struggled at Duke but his NBA potential was always evident due to his 6'8\" frame and versatile skill set.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -119,7 +119,7 @@ export const dukeBasketball2019: TeamSeed = {
       hometown: "Apple Valley, MN",
       highSchool: "Apple Valley High School, Apple Valley, MN",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630200.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395629.png",
       bio: "Younger brother of Tyus Jones, Tre was the starting point guard who orchestrated Duke's offense. Named ACC Defensive Player of the Year as a freshman — the first freshman to win it.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -151,7 +151,8 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 1998,
       hometown: "DeSoto, TX",
       highSchool: "DeSoto High School, DeSoto, TX",
-      bio: "Junior center who battled knee injuries throughout his Duke career but was a key contributor in 2018-19, starting 24 games and providing rim protection.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066636.png",      bio: "Junior center who battled knee injuries throughout his Duke career but was a key contributor in 2018-19, starting 24 games and providing rim protection.",
       status: {
         occupationType: "RETIRED_ATHLETE",
         currentTitle: "Retired",
@@ -177,7 +178,8 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 1997,
       hometown: "Geelong, Australia",
       highSchool: "The Scots College, Sydney, Australia",
-      bio: "Australian-born junior wing who was a key glue guy and defensive specialist on the 2019 team. His toughness and effort earned him a starting spot despite modest scoring numbers.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066290.png",      bio: "Australian-born junior wing who was a key glue guy and defensive specialist on the 2019 team. His toughness and effort earned him a starting spot despite modest scoring numbers.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Professional Basketball Player",
@@ -204,7 +206,8 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 1997,
       hometown: "Shippensburg, PA",
       highSchool: "IMG Academy, Bradenton, FL",
-      bio: "Senior center and energy player who was a fan favorite for his effort and emotion. Provided key minutes as the backup big behind Bolden and Williamson.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4066635.png",      bio: "Senior center and energy player who was a fan favorite for his effort and emotion. Provided key minutes as the backup big behind Bolden and Williamson.",
       status: {
         occupationType: "OTHER",
         currentTitle: "Private Citizen",
@@ -226,7 +229,8 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 1998,
       hometown: "Milton, GA",
       highSchool: "Milton High School, Alpharetta, GA",
-      bio: "Sophomore guard who provided outside shooting off the bench. Hit a key three-pointer to send the UCF game to overtime in the NCAA Tournament second round.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4278087.png",      bio: "Sophomore guard who provided outside shooting off the bench. Hit a key three-pointer to send the UCF game to overtime in the NCAA Tournament second round.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Professional Basketball Player",
@@ -250,7 +254,8 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 1999,
       hometown: "Fayetteville, NC",
       highSchool: "Trinity Christian School, Fayetteville, NC",
-      bio: "Freshman sharpshooter who had a limited role in 2018-19 but developed into a key rotation player in subsequent seasons. Shot 38.4% from three across his Duke career.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4395632.png",      bio: "Freshman sharpshooter who had a limited role in 2018-19 but developed into a key rotation player in subsequent seasons. Shot 38.4% from three across his Duke career.",
       status: {
         occupationType: "OTHER",
         currentTitle: "Private Citizen",
@@ -272,7 +277,8 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 1998,
       hometown: "Norcross, GA",
       highSchool: "Greater Atlanta Christian School, Norcross, GA",
-      bio: "Sophomore guard who was one of Duke's best on-ball defenders. Provided key minutes off the bench as a disruptive perimeter defender.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4278017.png",      bio: "Sophomore guard who was one of Duke's best on-ball defenders. Provided key minutes off the bench as a disruptive perimeter defender.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",

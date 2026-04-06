@@ -19,7 +19,7 @@ export const dukeBasketball2024: TeamSeed = {
       hometown: "Centennial, CO",
       highSchool: "Centennial High School, Las Vegas, NV",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642259.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105886.png",
       bio: "Dynamic freshman guard who became one of the best scorers in Duke history, averaging 14.3 PPG with elite three-point shooting. Also known for his massive TikTok following (3M+). Named All-ACC Second Team.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -48,7 +48,8 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2003,
       hometown: "Wilbraham, MA",
       highSchool: "Wilbraham & Monson Academy, Wilbraham, MA",
-      bio: "Sophomore big man who led Duke in scoring at 16.4 PPG and rebounding at 8.3 RPG. Named first-team All-ACC in his second season.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4899903.png",      bio: "Sophomore big man who led Duke in scoring at 16.4 PPG and rebounding at 8.3 RPG. Named first-team All-ACC in his second season.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Center / Power Forward",
@@ -71,7 +72,8 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2002,
       hometown: "Leesburg, VA",
       highSchool: "Paul VI Catholic High School, Chantilly, VA",
-      bio: "Senior captain and four-year starter who averaged 13.5 PPG in his final season. One of the most accomplished players in Duke history by games played and leadership.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432178.png",      bio: "Senior captain and four-year starter who averaged 13.5 PPG in his final season. One of the most accomplished players in Duke history by games played and leadership.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
         currentTitle: "Guard",
@@ -92,7 +94,8 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2005,
       hometown: "Wilmington, NC",
       highSchool: "Notre Dame High School, Sherman Oaks, CA",
-      bio: "Five-star freshman point guard who battled injuries throughout the season. When healthy, he showed elite vision and floor-generalship.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105887.png",      bio: "Five-star freshman point guard who battled injuries throughout the season. When healthy, he showed elite vision and floor-generalship.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -117,7 +120,8 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2003,
       hometown: "Sydney, Australia",
       highSchool: "NBA Global Academy, Canberra, Australia",
-      bio: "Sophomore point guard who took a major leap, averaging 10.0 PPG and 4.2 APG while becoming the team's primary ball-handler.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4896869.png",      bio: "Sophomore point guard who took a major leap, averaging 10.0 PPG and 4.2 APG while becoming the team's primary ball-handler.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -140,7 +144,8 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2004,
       hometown: "Kansas City, MO",
       highSchool: "Sunrise Christian Academy, Bel Aire, KS",
-      bio: "Sophomore forward who improved to 11.5 PPG and became a key starter. His athleticism and two-way play made him a reliable contributor.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4899906.png",      bio: "Sophomore forward who improved to 11.5 PPG and became a key starter. His athleticism and two-way play made him a reliable contributor.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -163,7 +168,8 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2005,
       hometown: "Windermere, FL",
       highSchool: "Montverde Academy, Montverde, FL",
-      bio: "Five-star freshman forward who provided energy and athleticism off the bench. Averaged 4.5 PPG and 3.8 RPG.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105888.png",      bio: "Five-star freshman forward who provided energy and athleticism off the bench. Averaged 4.5 PPG and 3.8 RPG.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -187,7 +193,8 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2003,
       hometown: "Manakin-Sabot, VA",
       highSchool: "Blessed Sacrament Huguenot, Powhatan, VA",
-      bio: "Junior guard who continued to provide defensive energy and hustle. Averaged 4.0 PPG off the bench.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4706940.png",      bio: "Junior guard who continued to provide defensive energy and hustle. Averaged 4.0 PPG off the bench.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -254,7 +261,8 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2004,
       hometown: "Houston, TX",
       highSchool: "Kinkaid School, Houston, TX",
-      bio: "Freshman Clemson transfer who sat out the 2023-24 season per transfer rules. Would become a key contributor in 2024-25.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105885.png",      bio: "Freshman Clemson transfer who sat out the 2023-24 season per transfer rules. Would become a key contributor in 2024-25.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
@@ -277,7 +285,8 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2005,
       hometown: "Philadelphia, PA",
       highSchool: "Imhotep Institute, Philadelphia, PA",
-      bio: "Freshman guard who showed elite shooting ability. Averaged 3.5 PPG with flashes of his scoring potential.",
+
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/5105889.png",      bio: "Freshman guard who showed elite shooting ability. Averaged 3.5 PPG with flashes of his scoring potential.",
       status: {
         occupationType: "STUDENT",
         currentTitle: "College Basketball Player",
