@@ -70,7 +70,7 @@ export const kentuckyBasketball2021: TeamSeed = {
     },
     {
       slug: "isaiah-jackson",
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4432170.png",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630543.png",
       firstName: "Isaiah",
       lastName: "Jackson",
       birthYear: 2002,

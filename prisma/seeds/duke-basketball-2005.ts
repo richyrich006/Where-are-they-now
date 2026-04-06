@@ -13,7 +13,7 @@ export const dukeBasketball2005: TeamSeed = {
   people: [
     {
       slug: "jj-redick",
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/3024.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2067.png",
       firstName: "J.J.",
       lastName: "Redick",
       birthYear: 1984,

@@ -50,7 +50,7 @@ export const kentuckyBasketball2024: TeamSeed = {
       hometown: "Hickory, NC",
       highSchool: "Overtime Elite (previously Donda Academy)",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642264.png",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642265.png",
       bio: "A flashy freshman point guard who came off the bench but provided instant offense with 15.2 PPG and 44.4% from three.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

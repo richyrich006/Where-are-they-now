@@ -19,7 +19,7 @@ export const dukeBasketball2014: TeamSeed = {
       hometown: "Chicago, IL",
       highSchool: "Simeon Career Academy, Chicago, IL",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/203953.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2987622.png",
       bio: "A consensus First-Team All-American freshman who averaged 19.1 PPG and 8.7 RPG. Named USBWA Freshman of the Year. The #2 overall pick in the 2014 NBA Draft.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -94,7 +94,7 @@ export const dukeBasketball2014: TeamSeed = {
       hometown: "Washington, D.C.",
       highSchool: "DeMatha Catholic High School, Hyattsville, MD",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626188.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/63582.png",
       bio: "A junior point guard who would captain the 2015 championship team the following year.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -157,7 +157,7 @@ export const dukeBasketball2014: TeamSeed = {
       hometown: "Philadelphia, PA",
       highSchool: "Friends' Central School, Wynnewood, PA",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628518.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2580052.png",
       bio: "A sophomore forward who would go on to play a program-record 150 games at Duke.",
       status: {
         occupationType: "COACH",

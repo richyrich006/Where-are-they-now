@@ -49,7 +49,7 @@ export const kentuckyBasketball2019: TeamSeed = {
     },
     {
       slug: "pj-washington",
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4278078.png",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629023.png",
       firstName: "PJ",
       lastName: "Washington",
       birthYear: 1998,
@@ -84,7 +84,7 @@ export const kentuckyBasketball2019: TeamSeed = {
     },
     {
       slug: "keldon-johnson",
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4395723.png",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629640.png",
       firstName: "Keldon",
       lastName: "Johnson",
       birthYear: 1999,
@@ -145,7 +145,7 @@ export const kentuckyBasketball2019: TeamSeed = {
     },
     {
       slug: "nick-richards",
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4395726.png",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630208.png",
       firstName: "Nick",
       lastName: "Richards",
       birthYear: 1997,
@@ -230,7 +230,7 @@ export const kentuckyBasketball2019: TeamSeed = {
     },
     {
       slug: "immanuel-quickley",
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4395724.png",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630193.png",
       firstName: "Immanuel",
       lastName: "Quickley",
       birthYear: 1999,

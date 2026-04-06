@@ -90,7 +90,7 @@ export const kentuckyBasketball2018: TeamSeed = {
       hometown: "Dallas, TX",
       highSchool: "Findlay Prep, Henderson, NV",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4278078.png",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629023.png",
       bio: "A freshman forward who would return for his sophomore year and become a lottery pick.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -144,7 +144,7 @@ export const kentuckyBasketball2018: TeamSeed = {
     },
     {
       slug: "nick-richards",
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/4395726.png",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630208.png",
       firstName: "Nick",
       lastName: "Richards",
       birthYear: 1997,

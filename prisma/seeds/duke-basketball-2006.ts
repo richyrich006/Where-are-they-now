@@ -19,7 +19,7 @@ export const dukeBasketball2006: TeamSeed = {
       hometown: "Roanoke, VA",
       highSchool: "Cave Spring High School, Roanoke, VA",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/200755.png",
+      imageUrl: "https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/2067.png",
       bio: "Duke's all-time leading scorer (2,769 points) and the 2006 Naismith Player of the Year. Redick averaged 26.8 PPG as a senior — the highest single-season average in Duke history. One of the greatest shooters in both college and NBA history.",
       status: {
         occupationType: "COACH",
