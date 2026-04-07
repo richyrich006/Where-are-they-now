@@ -18,6 +18,7 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 2000,
       hometown: "Spartanburg, SC",
       highSchool: "Spartanburg Day School, Spartanburg, SC",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629627.png",
       isFeatured: true,
       bio: "The most hyped college basketball prospect in a generation. Williamson averaged 22.6 PPG with 8.9 RPG as a freshman, winning virtually every national player of the year award. His shoe-blowing-out moment against UNC became an iconic sports moment.",
       status: {
@@ -50,6 +51,7 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 2000,
       hometown: "Mississauga, ON, Canada",
       highSchool: "Montverde Academy, Montverde, FL",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629628.png",
       isFeatured: true,
       bio: "Canadian-born wing who led Duke in scoring as a freshman with 22.6 PPG. A McDonald's All-American and Gatorade National Player of the Year in high school, Barrett was the co-alpha alongside Zion Williamson.",
       status: {
@@ -83,6 +85,7 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 2000,
       hometown: "Norristown, PA",
       highSchool: "Westtown School, West Chester, PA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629629.png",
       isFeatured: true,
       bio: "Five-star recruit and McDonald's All-American who was the third member of Duke's historically talented freshman class. His shooting struggled at Duke but his NBA potential was always evident due to his 6'8\" frame and versatile skill set.",
       status: {
@@ -115,6 +118,7 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 2000,
       hometown: "Apple Valley, MN",
       highSchool: "Apple Valley High School, Apple Valley, MN",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630200.png",
       isFeatured: false,
       bio: "Younger brother of Tyus Jones, Tre was the starting point guard who orchestrated Duke's offense. Named ACC Defensive Player of the Year as a freshman — the first freshman to win it.",
       status: {
@@ -173,6 +177,7 @@ export const dukeBasketball2019: TeamSeed = {
       birthYear: 1997,
       hometown: "Geelong, Australia",
       highSchool: "The Scots College, Sydney, Australia",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631298.png",
       bio: "Australian-born junior wing who was a key glue guy and defensive specialist on the 2019 team. His toughness and effort earned him a starting spot despite modest scoring numbers.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

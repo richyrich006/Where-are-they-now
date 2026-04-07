@@ -18,6 +18,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 2000,
       hometown: "Apple Valley, MN",
       highSchool: "Apple Valley High School, Apple Valley, MN",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630200.png",
       isFeatured: true,
       bio: "Sophomore point guard who won ACC Player of the Year, averaging 16.2 PPG and 6.4 APG. Led Duke to a #1 seed before COVID-19 cancelled the tournament.",
       status: {
@@ -42,6 +43,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 2001,
       hometown: "Fort Lauderdale, FL",
       highSchool: "University School, Fort Lauderdale, FL",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630176.png",
       isFeatured: true,
       bio: "Freshman center and McDonald's All-American who dominated inside, averaging 17.8 PPG and 8.8 RPG. Named ACC Rookie of the Year.",
       status: {
@@ -68,6 +70,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 2000,
       hometown: "Los Angeles, CA",
       highSchool: "Sierra Canyon School, Chatsworth, CA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630199.png",
       bio: "Athletic freshman guard who averaged 12.6 PPG with electric dunking ability. Won the 2021 NBA Slam Dunk Contest.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -94,6 +97,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 2000,
       hometown: "Rochester, MN",
       highSchool: "John Marshall High School, Rochester, MN",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630562.png",
       bio: "Freshman forward/center who showed flashes of his offensive repertoire with 9.7 PPG, including a 25-point game vs Georgia Tech. Returned for sophomore year.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -119,6 +123,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 2001,
       hometown: "Concord, NC",
       highSchool: "Cox Mill High School, Concord, NC",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631111.png",
       bio: "Freshman wing who averaged 5.2 PPG in a supporting role. Would develop into a first-team All-ACC player and first-round pick by his junior year.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -164,6 +169,7 @@ export const dukeBasketball2020: TeamSeed = {
       birthYear: 1997,
       hometown: "Traralgon, Australia",
       highSchool: "The Southport School, Southport, QLD, Australia",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631298.png",
       bio: "Australian senior forward and team captain who provided veteran leadership and defensive toughness. A four-year letterwinner who was part of two ACC Tournament championship teams.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

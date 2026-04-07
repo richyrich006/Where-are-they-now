@@ -18,6 +18,7 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2002,
       hometown: "Milwaukee, WI",
       highSchool: "Nicolet High School, Glendale, WI / IMG Academy",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630552.png",
       isFeatured: true,
       bio: "Five-star freshman who left Duke mid-season to prepare for the NBA Draft, playing only 13 games. Despite the abbreviated college career, his talent was undeniable — 11.2 PPG, 6.1 RPG, and 2.2 APG in limited action.",
       status: {
@@ -50,6 +51,7 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2000,
       hometown: "Rochester, MN",
       highSchool: "John Marshall High School, Rochester, MN",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630562.png",
       bio: "Sophomore who led Duke in scoring at 18.3 PPG on 55.8% shooting. Named first-team All-ACC in a difficult season for the program.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -71,6 +73,7 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2001,
       hometown: "Chicago, IL",
       highSchool: "Whitney Young High School, Chicago, IL",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630569.png",
       bio: "Freshman guard who averaged 13.0 PPG with explosive scoring ability. Left for the NBA Draft after one season.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -95,6 +98,7 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2001,
       hometown: "Norfolk, VA",
       highSchool: "IMG Academy, Bradenton, FL",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631109.png",
       bio: "Freshman center who played limited minutes (11.2 MPG) as a raw prospect. Would explode as a sophomore to become the #15 pick in 2022.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -118,6 +122,7 @@ export const dukeBasketball2021: TeamSeed = {
       birthYear: 2001,
       hometown: "Concord, NC",
       highSchool: "Cox Mill High School, Concord, NC",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631111.png",
       bio: "Sophomore who averaged 8.0 PPG while becoming a key two-way player. Would blossom as a junior to become a first-round pick.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

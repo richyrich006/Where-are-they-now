@@ -18,6 +18,7 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 2002,
       hometown: "Seattle, WA",
       highSchool: "O'Dea High School, Seattle, WA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631094.png",
       isFeatured: true,
       bio: "The #1 overall pick in 2022. Banchero was a dominant freshman who averaged 17.2 PPG with 7.8 RPG, leading Duke to the Final Four in Coach K's farewell season. Named Most Outstanding Player of the East Regional.",
       status: {
@@ -51,6 +52,7 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 2001,
       hometown: "Norfolk, VA",
       highSchool: "IMG Academy, Bradenton, FL",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631109.png",
       isFeatured: true,
       bio: "Sophomore center who had a breakout season, averaging 11.2 PPG, 7.4 RPG, and a team-high 2.8 BPG. His shot-blocking ability was crucial to Duke's Final Four run.",
       status: {
@@ -81,6 +83,7 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 2003,
       hometown: "Ossining, NY",
       highSchool: "Archbishop Stepinac, White Plains, NY",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631100.png",
       isFeatured: true,
       bio: "Freshman sharpshooter who overcame two torn ACLs in high school to become one of college basketball's best three-point shooters at 44.7%. Son of former NBA player Adrian Griffin.",
       status: {
@@ -108,6 +111,7 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 2001,
       hometown: "Concord, NC",
       highSchool: "Cox Mill High School, Concord, NC",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631111.png",
       bio: "Junior wing who had a breakout season averaging 13.4 PPG and 4.4 APG. Named first-team All-ACC and was crucial to Duke's balanced attack.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -135,6 +139,7 @@ export const dukeBasketball2022: TeamSeed = {
       birthYear: 2003,
       hometown: "Lutz, FL",
       highSchool: "Paul VI Catholic High School, Chantilly, VA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631211.png",
       bio: "Freshman guard who started all 39 games and was the team's most reliable perimeter defender. Averaged 11.5 PPG and was a key contributor in the NCAA Tournament.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

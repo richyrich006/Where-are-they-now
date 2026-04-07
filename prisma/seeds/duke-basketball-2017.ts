@@ -18,6 +18,7 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1998,
       hometown: "St. Louis, MO",
       highSchool: "Chaminade College Prep, St. Louis, MO",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628369.png",
       isFeatured: true,
       bio: "One of the most talented freshmen in Duke history, Tatum averaged 16.8 PPG and was named ACC Rookie of the Year. He became one of the NBA's best players and led the Boston Celtics to the 2024 championship.",
       status: {
@@ -54,6 +55,7 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1996,
       hometown: "Franklin, OH",
       highSchool: "Franklin High School, Franklin, OH",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png",
       isFeatured: true,
       bio: "Sophomore sharpshooter who led Duke in scoring at 19.5 PPG on 49.3% FG. His ability to score from all three levels made him one of college basketball's best offensive players.",
       status: {
@@ -88,6 +90,7 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1995,
       hometown: "Jacksonville, FL",
       highSchool: "Providence School, Jacksonville, FL",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
       isFeatured: false,
       bio: "Junior who averaged 14.5 PPG. One of the most talented and polarizing players in college basketball, Allen was known for his scoring ability and controversial on-court incidents.",
       status: {
@@ -135,6 +138,7 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1998,
       hometown: "Washington, DC",
       highSchool: "Cannon School, Concord, NC",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628402.png",
       bio: "Dynamic freshman guard who averaged 10.9 PPG off the bench. His athleticism and scoring ability made him a projected first-round pick before a foot injury.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -161,6 +165,7 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1998,
       hometown: "Winston-Salem, NC",
       highSchool: "Oak Hill Academy, Mouth of Wilson, VA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628385.png",
       bio: "Once the #1 recruit in the country, Giles came to Duke after two ACL surgeries in high school. His limited Duke career (11.2 MPG) couldn't showcase his immense talent, but his potential kept him in the first round of the draft.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -276,6 +281,7 @@ export const dukeBasketball2017: TeamSeed = {
       birthYear: 1997,
       hometown: "Geelong, Australia",
       highSchool: "The Scots College, Sydney, Australia",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631298.png",
       bio: "Freshman from Australia who played limited minutes but showed defensive potential that would make him a starter by 2019.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

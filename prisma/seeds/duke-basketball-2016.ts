@@ -18,6 +18,7 @@ export const dukeBasketball2016: TeamSeed = {
       birthYear: 1997,
       hometown: "Kinston, NC",
       highSchool: "Kinston High School, Kinston, NC",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1627742.png",
       isFeatured: true,
       bio: "The consensus #2 overall pick in 2016, Ingram was a lanky 6'9\" wing who averaged 17.3 PPG as a freshman. His scoring versatility and length made him an elite NBA prospect from the moment he stepped on campus.",
       status: {
@@ -54,6 +55,7 @@ export const dukeBasketball2016: TeamSeed = {
       birthYear: 1996,
       hometown: "Franklin, OH",
       highSchool: "Franklin High School, Franklin, OH",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628379.png",
       bio: "Freshman who showed elite shooting ability from day one, averaging 10.6 PPG off the bench and shooting 37.0% from three.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -77,6 +79,7 @@ export const dukeBasketball2016: TeamSeed = {
       birthYear: 1995,
       hometown: "Jacksonville, FL",
       highSchool: "Providence School, Jacksonville, FL",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
       isFeatured: false,
       bio: "Sophomore who led the team in scoring at 21.6 PPG — the highest scoring average by a Duke player since J.J. Redick. Named first-team All-ACC.",
       status: {

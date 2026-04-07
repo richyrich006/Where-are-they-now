@@ -18,6 +18,7 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2004,
       hometown: "Centennial, CO",
       highSchool: "Centennial High School, Las Vegas, NV",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642272.png",
       isFeatured: true,
       bio: "Dynamic freshman guard who became one of the best scorers in Duke history, averaging 14.3 PPG with elite three-point shooting. Also known for his massive TikTok following (3M+). Named All-ACC Second Team.",
       status: {
@@ -47,6 +48,7 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2003,
       hometown: "Wilbraham, MA",
       highSchool: "Wilbraham & Monson Academy, Wilbraham, MA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642271.png",
       bio: "Sophomore big man who led Duke in scoring at 16.4 PPG and rebounding at 8.3 RPG. Named first-team All-ACC in his second season.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

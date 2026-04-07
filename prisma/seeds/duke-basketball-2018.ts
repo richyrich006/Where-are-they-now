@@ -18,6 +18,7 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 2000,
       hometown: "Phoenix, AZ",
       highSchool: "Sierra Canyon School, Chatsworth, CA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628963.png",
       isFeatured: true,
       bio: "The consensus #1 recruit who reclassified to join Duke a year early. Averaged 21.0 PPG and 11.1 RPG — recording 22 double-doubles, the most by a Duke freshman ever. Named ACC Player of the Year and Rookie of the Year.",
       status: {
@@ -48,6 +49,7 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 2000,
       hometown: "Atlanta, GA",
       highSchool: "Pace Academy, Atlanta, GA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628976.png",
       isFeatured: true,
       bio: "Five-star freshman center who was the team's defensive anchor. Averaged 13.5 PPG, 9.1 RPG, and 2.0 BPG, earning All-ACC Freshman Team honors.",
       status: {
@@ -81,6 +83,7 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 1999,
       hometown: "Columbus, OH",
       highSchool: "Prolific Prep, Napa, CA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1629018.png",
       isFeatured: false,
       bio: "Freshman guard who shot 40.2% from three and was Duke's most reliable perimeter shooter. Son of former NBA player Gary Trent Sr.",
       status: {
@@ -115,6 +118,7 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 1995,
       hometown: "Jacksonville, FL",
       highSchool: "Providence School, Jacksonville, FL",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
       isFeatured: false,
       bio: "Senior captain who led the team in experience. Averaged 15.5 PPG and was the emotional leader of the 2017-18 squad that reached the Elite Eight.",
       status: {
@@ -146,6 +150,7 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 1999,
       hometown: "New Castle, DE",
       highSchool: "IMG Academy, Bradenton, FL",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628979.png",
       bio: "The #1 point guard recruit in the 2017 class who ran Duke's offense. His passing and speed were elite, but his outside shooting was inconsistent. Averaged 10.3 PPG and 5.6 APG.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -191,6 +196,7 @@ export const dukeBasketball2018: TeamSeed = {
       birthYear: 1997,
       hometown: "Traralgon, Victoria, Australia",
       highSchool: "Caulfield Grammar School, Melbourne, Australia",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631298.png",
       bio: "Australian sophomore forward who saw limited playing time in 2017-18 but would go on to become a key contributor in his junior and senior years. A versatile 6'7\" wing who defended multiple positions and provided toughness and energy off the bench.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

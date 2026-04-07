@@ -18,6 +18,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2004,
       hometown: "Philadelphia, PA",
       highSchool: "Westtown School, West Chester, PA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1641726.png",
       isFeatured: true,
       bio: "The #1 overall recruit in the 2022 class who became one of the NCAA's best shot blockers. Averaged 7.3 PPG, 5.8 RPG, and 2.4 BPG as a freshman before being drafted #12 overall. His rim protection transformed Duke's defense.",
       status: {
@@ -48,6 +49,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2003,
       hometown: "Wilbraham, MA",
       highSchool: "Wilbraham & Monson Academy, Wilbraham, MA",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642271.png",
       isFeatured: true,
       bio: "Freshman center/forward who was Duke's leading scorer at 15.1 PPG. Named ACC Freshman of the Year and was one of the most efficient big men in college basketball.",
       status: {
@@ -98,6 +100,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2003,
       hometown: "Newark, NJ",
       highSchool: "Montverde Academy, Montverde, FL",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1641727.png",
       isFeatured: false,
       bio: "Five-star freshman wing who was the #2 recruit in the class but missed the first month with a foot injury. Showed flashes of elite talent when healthy.",
       status: {
