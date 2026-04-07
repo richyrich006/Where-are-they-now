@@ -333,6 +333,49 @@ export const montverdeAcademy2020: TeamSeed = {
     },
     // ── Coach ────────────────────────────────────────────────────────────────
     {
+      slug: "day-day-cunningham",
+      firstName: "Day'Ron",
+      lastName: "Cunningham",
+      birthYear: 2002,
+      hometown: "Memphis, TN",
+      highSchool: "Montverde Academy, Montverde, FL",
+      bio: "Bench player on the historic 2019-20 Montverde team that featured four eventual NBA lottery picks. Played a supporting role as the team rolled through the season undefeated.",
+      status: {
+        occupationType: "OTHER",
+        currentTitle: "Private Citizen",
+        location: "Florida",
+        statusNote: "Played briefly in college after Montverde before transitioning away from basketball. Maintains a low public profile.",
+        sourceUrl: "https://montverdeacademy.com/athletics/basketball/",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 14, position: "Guard", yearsAtSchool: "2019-2020", statsNote: "Reserve guard on undefeated 2019-20 squad" },
+      seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy", season: "2019-20", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 4.5, reboundsPerGame: 1.8, assistsPerGame: 1.5 },
+      ],
+      careerEvents: [],
+    },
+    {
+      slug: "ace-baldwin",
+      firstName: "Ace",
+      lastName: "Baldwin Jr.",
+      birthYear: 2002,
+      hometown: "Baltimore, MD",
+      highSchool: "Montverde Academy, Montverde, FL",
+      bio: "Underclassman point guard on the 2019-20 Montverde team. Would later become the Atlantic 10 Player of the Year at VCU before transferring to Penn State.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Point Guard",
+        league: "Overseas / G-League",
+        statusNote: "Played college ball at VCU (2020-23) where he won A-10 Player of the Year, then transferred to Penn State for his senior year. Has played professionally overseas and in the G-League since going undrafted in 2024.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Ace_Baldwin_Jr.",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 5, position: "Point Guard", yearsAtSchool: "2019-2020", statsNote: "Underclassman PG · Later A-10 POY at VCU" },
+      seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy", season: "2019-20", yearLabel: "Junior", sortOrder: 1, pointsPerGame: 8.5, reboundsPerGame: 2.5, assistsPerGame: 4.0 },
+      ],
+      careerEvents: [],
+    },
+    // ── Coach ────────────────────────────────────────────────────────────────
+    {
       slug: "kevin-boyle",
       firstName: "Kevin",
       lastName: "Boyle",
