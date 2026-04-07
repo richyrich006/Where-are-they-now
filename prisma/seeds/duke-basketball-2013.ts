@@ -219,6 +219,41 @@ export const dukeBasketball2013: TeamSeed = {
       ],
     },
     {
+      slug: "alex-murphy",
+      firstName: "Alex",
+      lastName: "Murphy",
+      birthYear: 1993,
+      hometown: "Wakefield, RI",
+      highSchool: "St. Mark's School, Southborough, MA",
+      isFeatured: false,
+      bio: "A redshirt freshman forward who played in 31 games in 2012-13, averaging 2.1 PPG and shooting 49.1% from the field. Murphy would transfer after the season — first to Florida, then to Northeastern — before turning pro and going on to represent Finland at the FIBA Basketball World Cup.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Power Forward",
+        currentEmployer: "Fuenlabrada",
+        league: "LEB Gold (Spain)",
+        location: "Madrid, Spain",
+        statusNote:
+          "After playing 31 games at Duke as a redshirt freshman and then transferring to Florida (5.1 PPG) and Northeastern (14.1 PPG as senior), Murphy turned pro in 2017. Through his Finnish mother he holds Finnish citizenship and has represented the Finland national team, competing in the 2023 FIBA Basketball World Cup. He has played professionally in Finland, Hungary, Japan's B.League, and Spain's LEB Gold league with Fuenlabrada.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Alex_Murphy_(basketball)",
+      },
+      membership: {
+        role: "PLAYER", jerseyNumber: 12, position: "Forward", yearsAtSchool: "2011-2013",
+        statsNote: "Redshirt Freshman • 31 games • 2.1 PPG • 49.1% FG • Transferred to Florida",
+        gamesPlayed: 31, pointsPerGame: 2.1, reboundsPerGame: 1.5, assistsPerGame: 0.3,
+      },
+      seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "St. Mark's School", season: "2011-12", yearLabel: "Senior", sortOrder: 101, pointsPerGame: 12.5, reboundsPerGame: 8.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13 (RS Freshman, 31 games)", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 2.1, reboundsPerGame: 1.5, assistsPerGame: 0.3, fieldGoalPct: 0.491 },
+      ],
+      careerEvents: [
+        { year: 2013, title: "Transferred from Duke to University of Florida", eventType: "CAREER" },
+        { year: 2016, title: "Transferred to Northeastern; averaged 14.1 PPG as senior", eventType: "CAREER" },
+        { year: 2017, title: "Signed first professional contract in Finland", eventType: "SIGNING" },
+        { year: 2023, title: "Represented Finland at FIBA Basketball World Cup", eventType: "OTHER" },
+      ],
+    },
+    {
       slug: "mike-krzyzewski",
       firstName: "Mike",
       lastName: "Krzyzewski",
