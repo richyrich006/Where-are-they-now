@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getPersonCount, getTeamCount, getAllSchools } from "@/lib/queries";
+import { OnThisDay } from "@/components/home/OnThisDay";
+import { RecentUpdates } from "@/components/home/RecentUpdates";
 
 export const metadata = {
   title: "Where Are They Now? | Championship Teams",
@@ -32,6 +34,12 @@ export default async function HomePage() {
           </p>
         </div>
       </section>
+
+      {/* On This Day */}
+      <OnThisDay />
+
+      {/* Recent Updates */}
+      <RecentUpdates />
 
       {/* Schools */}
       <section className="mx-auto max-w-6xl px-4 py-12">

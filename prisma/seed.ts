@@ -208,6 +208,8 @@ async function seedPerson(p: PersonSeed, teamId: number) {
         data: {
           personId: person.id,
           year: event.year,
+          month: event.month ?? null,
+          day: event.day ?? null,
           title: event.title,
           eventType: event.eventType ?? null,
           detail: event.detail ?? null,

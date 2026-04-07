@@ -142,3 +142,95 @@ export async function getTeamCount() {
 export async function getPersonCount() {
   return prisma.person.count();
 }
+
+export async function getOnThisDayEvents(month: number, day: number) {
+  const events = await prisma.careerEvent.findMany({
+    where: { month, day },
+    include: {
+      person: {
+        include: {
+          currentStatus: true,
+          memberships: { include: { team: true }, take: 1 },
+        },
+      },
+    },
+    orderBy: { year: "desc" },
+    take: 12,
+  });
+  return events;
+}
+
+export async function getPlayerLocations() {
+  const locations = await prisma.playerLocation.findMany({
+    include: {
+      person: {
+        include: {
+          currentStatus: true,
+          memberships: { include: { team: true }, take: 1 },
+        },
+      },
+    },
+  });
+  return locations;
+}
+
+export type PlayerFilter = {
+  occupation?: string;
+  school?: string;
+  league?: string;
+  query?: string;
+};
+
+export async function getFilteredPlayers(filter: PlayerFilter) {
+  const where: Record<string, unknown> = {};
+
+  if (filter.occupation || filter.league) {
+    const statusWhere: Record<string, unknown> = {};
+    if (filter.occupation) statusWhere.occupationType = filter.occupation;
+    if (filter.league) statusWhere.league = { contains: filter.league };
+    where.currentStatus = statusWhere;
+  }
+
+  if (filter.school) {
+    where.memberships = { some: { team: { school: filter.school } } };
+  }
+
+  if (filter.query) {
+    where.OR = [
+      { firstName: { contains: filter.query } },
+      { lastName: { contains: filter.query } },
+      { currentStatus: { currentEmployer: { contains: filter.query } } },
+      { currentStatus: { currentTitle: { contains: filter.query } } },
+    ];
+  }
+
+  return prisma.person.findMany({
+    where,
+    include: {
+      currentStatus: true,
+      memberships: { include: { team: true }, take: 1 },
+    },
+    orderBy: [{ lastName: "asc" }, { firstName: "asc" }],
+    take: 200,
+  });
+}
+
+export async function getRecentUpdates(limit = 10) {
+  const updates = await prisma.playerUpdate.findMany({
+    orderBy: { detectedAt: "desc" },
+    take: limit,
+  });
+  if (updates.length === 0) return [];
+
+  const personIds = [...new Set(updates.map((u) => u.personId))];
+  const people = await prisma.person.findMany({
+    where: { id: { in: personIds } },
+    select: { id: true, slug: true, firstName: true, lastName: true },
+  });
+  const personMap = new Map(people.map((p) => [p.id, p]));
+
+  return updates.map((u) => ({
+    ...u,
+    person: personMap.get(u.personId) ?? null,
+  }));
+}

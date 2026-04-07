@@ -61,6 +61,8 @@ export type PersonSeed = {
   }[];
   careerEvents?: {
     year: number;
+    month?: number;
+    day?: number;
     title: string;
     eventType?: string;
     detail?: string;

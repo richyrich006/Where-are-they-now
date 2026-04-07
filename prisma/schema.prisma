@@ -67,6 +67,7 @@ model Person {
   currentStatus CurrentStatus?
   careerEvents  CareerEvent[]
   seasonStats   SeasonStats[]
+  location      PlayerLocation?
   createdAt     DateTime         @default(now())
   updatedAt     DateTime         @updatedAt
 }
@@ -130,11 +131,56 @@ model SeasonStats {
 }
 
 model CareerEvent {
-  id        Int     @id @default(autoincrement())
+  id        Int      @id @default(autoincrement())
   personId  Int
-  person    Person  @relation(fields: [personId], references: [id])
+  person    Person   @relation(fields: [personId], references: [id])
   year      Int
+  month     Int?
+  day       Int?
   title     String
   eventType String?
   detail    String?
+}
+
+enum SubmissionStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+model Submission {
+  id          Int              @id @default(autoincrement())
+  personSlug  String?
+  personName  String?
+  submitterName  String?
+  submitterEmail String?
+  field       String
+  currentValue String?
+  suggestedValue String
+  reason      String?
+  sourceUrl   String?
+  status      SubmissionStatus @default(PENDING)
+  createdAt   DateTime         @default(now())
+  reviewedAt  DateTime?
+}
+
+model PlayerLocation {
+  id        Int     @id @default(autoincrement())
+  personId  Int     @unique
+  person    Person  @relation(fields: [personId], references: [id])
+  city      String
+  region    String?
+  country   String  @default("USA")
+  latitude  Float
+  longitude Float
+}
+
+model PlayerUpdate {
+  id          Int      @id @default(autoincrement())
+  personId    Int
+  field       String
+  oldValue    String?
+  newValue    String?
+  source      String
+  detectedAt  DateTime @default(now())
 }

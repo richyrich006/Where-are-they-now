@@ -4,6 +4,7 @@ import { getPlayerBySlug, getAllPlayerSlugs } from "@/lib/queries";
 import { PlayerHero } from "@/components/players/PlayerHero";
 import { StatusCard } from "@/components/ui/StatusCard";
 import { CareerTimeline } from "@/components/players/CareerTimeline";
+import { SubmissionForm } from "@/components/players/SubmissionForm";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -389,6 +390,17 @@ export default async function PlayerPage({ params }: Props) {
           <CareerTimeline events={person.careerEvents} />
         </div>
       )}
+
+      {/* Submission Form */}
+      <div className="mt-8">
+        <SubmissionForm
+          personSlug={person.slug}
+          personName={`${person.firstName} ${person.lastName}`}
+          currentTitle={person.currentStatus?.currentTitle}
+          currentEmployer={person.currentStatus?.currentEmployer}
+          currentLocation={person.currentStatus?.location}
+        />
+      </div>
     </div>
   );
 }

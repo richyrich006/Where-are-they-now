@@ -20,6 +20,12 @@ export function Navbar() {
           <Link href="/" className="hover:text-blue-700">
             Teams
           </Link>
+          <Link href="/players" className="hover:text-blue-700">
+            Players
+          </Link>
+          <Link href="/map" className="hover:text-blue-700">
+            Map
+          </Link>
           <Link href="/search" className="hover:text-blue-700 sm:hidden">
             Search
           </Link>
