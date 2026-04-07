@@ -18,6 +18,8 @@ export const dukeBasketball2011: TeamSeed = {
       birthYear: 1992,
       hometown: "West Orange, NJ",
       highSchool: "St. Patrick High School, Elizabeth, NJ",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/202681.png",
       isFeatured: true,
       bio: "One of the most talented players to ever play at Duke, Irving's freshman season was cut short to just 11 games by a toe injury. Despite the limited sample, he showed enough to be selected #1 overall in the 2011 NBA Draft.",
       status: {
@@ -165,6 +167,8 @@ export const dukeBasketball2011: TeamSeed = {
       birthYear: 1990,
       hometown: "Charlotte, NC",
       highSchool: "Charlotte Christian School, Charlotte, NC",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png",
       isFeatured: true,
       bio: "Steph Curry's younger brother who developed into one of the best shooters in Duke history over four years. Now teammates with his brother on the Warriors.",
       status: {
@@ -212,6 +216,8 @@ export const dukeBasketball2011: TeamSeed = {
       birthYear: 1990,
       hometown: "Warsaw, IN",
       highSchool: "Christ School, Arden, NC",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png",
       isFeatured: false,
       bio: "The middle Plumlee brother who developed into a first-round pick over four years at Duke. A dominant rebounder and rim-runner.",
       status: {

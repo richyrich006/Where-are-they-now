@@ -55,6 +55,8 @@ export const dukeBasketball2012: TeamSeed = {
       birthYear: 1990,
       hometown: "Charlotte, NC",
       highSchool: "Charlotte Christian School, Charlotte, NC",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png",
       isFeatured: false,
       bio: "A junior who averaged 13.2 PPG with elite three-point shooting.",
       status: {
@@ -79,6 +81,8 @@ export const dukeBasketball2012: TeamSeed = {
       birthYear: 1990,
       hometown: "Warsaw, IN",
       highSchool: "Christ School, Arden, NC",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png",
       isFeatured: false,
       bio: "A junior center who averaged 11.1 PPG and 9.2 RPG.",
       status: {

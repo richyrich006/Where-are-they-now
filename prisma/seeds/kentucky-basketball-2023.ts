@@ -102,6 +102,8 @@ export const kentuckyBasketball2023: TeamSeed = {
       birthYear: 2001,
       hometown: "Chicago, IL",
       highSchool: "Simeon Career Academy, Chicago, IL",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1641810.png",
       isFeatured: false,
       bio: "A sharpshooting transfer from Illinois State who won SEC Co-Sixth Man of the Year and returned for a second season.",
       status: {
@@ -129,6 +131,8 @@ export const kentuckyBasketball2023: TeamSeed = {
       birthYear: 2004,
       hometown: "Washington, D.C.",
       highSchool: "Transferred to Kentucky from Guinea via D.C.",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642876.png",
       isFeatured: false,
       bio: "A Guinean-American freshman guard/forward who would go on to follow Calipari to Arkansas and get drafted by the Lakers.",
       status: {
@@ -208,6 +212,8 @@ export const kentuckyBasketball2023: TeamSeed = {
       birthYear: 2000,
       hometown: "Brooklyn, NY",
       highSchool: "Ossining High School, Ossining, NY",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631210.png",
       isFeatured: false,
       bio: "Senior forward completing his Kentucky career.",
       status: {

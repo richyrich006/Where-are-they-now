@@ -181,6 +181,8 @@ export const dukeBasketball2010: TeamSeed = {
       birthYear: 1990,
       hometown: "Warsaw, IN",
       highSchool: "Christ School, Arden, NC",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png",
       isFeatured: false,
       bio: "A freshman big man on the championship team who would develop into a first-round NBA pick over four years at Duke.",
       status: {
@@ -290,6 +292,8 @@ export const dukeBasketball2010: TeamSeed = {
       birthYear: 1990,
       hometown: "Charlotte, NC",
       highSchool: "Charlotte Christian School, Charlotte, NC",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png",
       bio: "Younger brother of Stephen Curry who walked on at Duke as a freshman. Transferred to Liberty after his sophomore year before returning to Duke.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",

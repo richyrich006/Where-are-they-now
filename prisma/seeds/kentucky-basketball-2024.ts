@@ -108,6 +108,8 @@ export const kentuckyBasketball2024: TeamSeed = {
       birthYear: 2001,
       hometown: "Chicago, IL",
       highSchool: "Simeon Career Academy, Chicago, IL",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1641810.png",
       isFeatured: false,
       bio: "Returned for a second season at Kentucky as the team's leading scorer.",
       status: {
@@ -196,6 +198,8 @@ export const kentuckyBasketball2024: TeamSeed = {
       birthYear: 2004,
       hometown: "Washington, D.C.",
       highSchool: "Transferred to Kentucky from Guinea via D.C.",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642876.png",
       isFeatured: false,
       bio: "A sophomore guard/forward who followed Calipari to Arkansas and became their leading scorer.",
       status: {

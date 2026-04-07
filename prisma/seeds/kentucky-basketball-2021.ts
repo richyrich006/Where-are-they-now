@@ -136,6 +136,8 @@ export const kentuckyBasketball2021: TeamSeed = {
       birthYear: 1999,
       hometown: "Toulouse, France",
       highSchool: "Sunrise Christian Academy, Bel Aire, KS",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630846.png",
       isFeatured: false,
       bio: "A French-Senegalese graduate transfer from Wake Forest who provided size and experience in the post.",
       status: {
@@ -163,6 +165,8 @@ export const kentuckyBasketball2021: TeamSeed = {
       birthYear: 2000,
       hometown: "Brooklyn, NY",
       highSchool: "Ossining High School, Ossining, NY",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631210.png",
       isFeatured: false,
       bio: "Obi Toppin's younger brother who transferred from Rhode Island and played three seasons at Kentucky, becoming a fan favorite for his athleticism.",
       status: {

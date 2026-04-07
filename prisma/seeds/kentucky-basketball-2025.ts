@@ -99,6 +99,8 @@ export const kentuckyBasketball2025: TeamSeed = {
       birthYear: 2002,
       hometown: "Ada, OK",
       highSchool: "Ada High School, Ada, OK",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642283.png",
       isFeatured: false,
       bio: "An elite three-point shooter who transferred from BYU to Arkansas to Kentucky, following his connection to Mark Pope.",
       status: {
@@ -128,6 +130,8 @@ export const kentuckyBasketball2025: TeamSeed = {
       birthYear: 2001,
       hometown: "London, England",
       highSchool: "Sunrise Christian Academy, Bel Aire, KS",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642873.png",
       isFeatured: false,
       bio: "A dominant defensive center from London who transferred from Drexel and led the SEC in blocks.",
       status: {
@@ -200,6 +204,8 @@ export const kentuckyBasketball2025: TeamSeed = {
       birthYear: 2000,
       hometown: "Montreal, QC, Canada",
       highSchool: "Northfield Mount Hermon, Gill, MA",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642886.png",
       isFeatured: false,
       bio: "A Canadian sharpshooter who transferred from Dayton and shot over 40% from three at Kentucky.",
       status: {

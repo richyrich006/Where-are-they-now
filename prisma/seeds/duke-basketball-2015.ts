@@ -89,6 +89,8 @@ export const dukeBasketball2015: TeamSeed = {
       birthYear: 1996,
       hometown: "Apple Valley, MN",
       highSchool: "Apple Valley High School, Apple Valley, MN",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png",
       isFeatured: true,
       bio: "The heart of the 2015 championship team. Jones scored 23 points in the national title game against Wisconsin to earn Most Outstanding Player honors.",
       status: {
@@ -159,6 +161,8 @@ export const dukeBasketball2015: TeamSeed = {
       birthYear: 1995,
       hometown: "Jacksonville, FL",
       highSchool: "Providence School, Jacksonville, FL",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
       isFeatured: true,
       bio: "Came off the bench as a freshman to score 16 points in the national championship game. Stayed at Duke all four years before entering the NBA Draft.",
       status: {

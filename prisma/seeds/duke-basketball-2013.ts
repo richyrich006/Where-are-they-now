@@ -18,6 +18,8 @@ export const dukeBasketball2013: TeamSeed = {
       birthYear: 1990,
       hometown: "Charlotte, NC",
       highSchool: "Charlotte Christian School, Charlotte, NC",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/203552.png",
       isFeatured: true,
       bio: "A senior sharpshooter who averaged 17.5 PPG and shot 43.8% from three. Named All-ACC First Team.",
       status: {
@@ -56,6 +58,8 @@ export const dukeBasketball2013: TeamSeed = {
       birthYear: 1990,
       hometown: "Warsaw, IN",
       highSchool: "Christ School, Arden, NC",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/203486.png",
       isFeatured: true,
       bio: "A dominant senior center who averaged 17.1 PPG and 10.1 RPG. Named ACC POY runner-up and First-Team All-American.",
       status: {

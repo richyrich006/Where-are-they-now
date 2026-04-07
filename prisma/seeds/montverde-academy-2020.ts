@@ -90,6 +90,8 @@ export const montverdeAcademy2020: TeamSeed = {
       birthYear: 2001,
       hometown: "Greenville, NC",
       highSchool: "South Central High School, Winterville, NC (transferred to Montverde Academy)",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630549.png",
       isFeatured: false,
       bio: "A physically imposing center who anchored Montverde's frontcourt. Sharpe was a McDonald's All-American who chose North Carolina before being drafted into the NBA.",
       status: {
@@ -123,6 +125,8 @@ export const montverdeAcademy2020: TeamSeed = {
       birthYear: 2002,
       hometown: "Little Rock, AR",
       highSchool: "North Little Rock High School, North Little Rock, AR (transferred to Montverde Academy)",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630541.png",
       isFeatured: false,
       bio: "A silky-smooth shooting guard with an NBA-ready game from day one. Moody was a five-star recruit and McDonald's All-American who spent one year at Arkansas before going pro.",
       status: {
@@ -157,6 +161,8 @@ export const montverdeAcademy2020: TeamSeed = {
       birthYear: 2003,
       hometown: "Mississauga, ON, Canada",
       highSchool: "Transferred to Montverde Academy from Canada",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631216.png",
       isFeatured: false,
       bio: "A talented Canadian shooting guard who was one of the top international recruits in the 2021 class. Houstan spent two years at Montverde before heading to Michigan.",
       status: {
@@ -192,6 +198,8 @@ export const montverdeAcademy2020: TeamSeed = {
       birthYear: 2003,
       hometown: "Newark, NJ",
       highSchool: "University High School, Newark, NJ (transferred to Montverde Academy)",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1641727.png",
       isFeatured: false,
       bio: "A long, athletic wing who was a five-star recruit and McDonald's All-American in 2022. Whitehead spent three years at Montverde before playing one season at Duke.",
       status: {
@@ -293,6 +301,8 @@ export const montverdeAcademy2020: TeamSeed = {
       birthYear: 2003,
       hometown: "Aurora, ON, Canada",
       highSchool: "Transferred to Montverde Academy from Canada",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642948.png",
       isFeatured: false,
       bio: "A crafty Canadian point guard who was a key playmaker on the 2019-20 Montverde team. Nembhard's vision and court sense made him a standout distributor.",
       status: {

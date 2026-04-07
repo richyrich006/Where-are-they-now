@@ -181,6 +181,8 @@ export const kentuckyBasketball2022: TeamSeed = {
       birthYear: 2000,
       hometown: "Brooklyn, NY",
       highSchool: "Ossining High School, Ossining, NY",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631210.png",
       isFeatured: false,
       bio: "Obi Toppin's younger brother who developed into a high-flying contributor.",
       status: {
