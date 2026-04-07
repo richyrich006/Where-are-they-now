@@ -62,7 +62,7 @@ function fmtPct(v: number | null) {
   return v != null ? (v * 100).toFixed(1) + "%" : "—";
 }
 
-function StatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNotesBelow?: string }) {
+function BasketballStatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNotesBelow?: string }) {
   const showMin = hasAny(rows, "minutesPerGame");
   const showSpg = hasAny(rows, "stealsPerGame");
   const showBpg = hasAny(rows, "blocksPerGame");
@@ -115,6 +115,127 @@ function StatsTable({ rows, showNotesBelow }: { rows: StatRow[]; showNotesBelow?
   );
 }
 
+function FootballStatsTable({ rows, showNotesBelow, position }: { rows: StatRow[]; showNotesBelow?: string; position?: string }) {
+  const pos = (position ?? "").toLowerCase();
+
+  // Determine which numeric stat columns to show based on position
+  const isQB = pos.includes("quarterback");
+  const isRB = pos.includes("running back") || pos.includes("fullback");
+  const isWR = pos.includes("wide receiver") || pos.includes("tight end");
+  const isDL = pos.includes("defensive end") || pos.includes("defensive tackle") || pos.includes("defensive lineman") || pos.includes("nose guard") || pos.includes("nose tackle");
+  const isLB = pos.includes("linebacker");
+  const isDB = pos.includes("cornerback") || pos.includes("safety") || pos.includes("defensive back") || pos.includes("nickelback");
+  const isOL = (pos.includes("offensive") && (pos.includes("tackle") || pos.includes("guard") || pos.includes("line"))) || pos === "center" || pos.includes("center");
+  const isRET = pos.includes("return specialist") || pos.includes("kick returner") || pos.includes("punt returner");
+  const isKP = pos.includes("kicker") || pos.includes("punter") || pos.includes("placekicker");
+
+  const hasNums = hasAny(rows, "pointsPerGame");
+
+  // Position-specific column config: [label, field, formatter]
+  type ColConfig = { label: string; field: "pointsPerGame" | "reboundsPerGame" | "assistsPerGame"; fmt: (v: number) => string };
+  let cols: ColConfig[] = [];
+
+  if (isQB && hasNums) {
+    cols = [
+      { label: "YDS", field: "pointsPerGame", fmt: (v) => v.toLocaleString() },
+      { label: "TD", field: "reboundsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "INT", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+    ];
+    if (rows.some((r) => r.fieldGoalPct != null)) cols.push({ label: "COMP%", field: "fieldGoalPct" as any, fmt: (v) => (v * 100).toFixed(1) + "%" });
+    if (rows.some((r) => r.stealsPerGame != null)) cols.splice(0, 0, { label: "ATT", field: "stealsPerGame" as any, fmt: (v) => String(Math.round(v)) });
+  } else if (isRB && hasNums) {
+    cols = [
+      { label: "ATT", field: "stealsPerGame" as any, fmt: (v) => String(Math.round(v)) },
+      { label: "RUSH YDS", field: "pointsPerGame", fmt: (v) => v.toLocaleString() },
+      { label: "AVG", field: "fieldGoalPct" as any, fmt: (v) => v.toFixed(1) },
+      { label: "TD", field: "reboundsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "REC", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if (isWR && hasNums) {
+    cols = [
+      { label: "REC", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "REC YDS", field: "reboundsPerGame", fmt: (v) => v.toLocaleString() },
+      { label: "AVG", field: "fieldGoalPct" as any, fmt: (v) => v.toFixed(1) },
+      { label: "TD", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if ((isDL || isLB) && hasNums) {
+    cols = [
+      { label: "TOT TKL", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "SACKS", field: "reboundsPerGame", fmt: (v) => v % 1 === 0 ? String(v) : v.toFixed(1) },
+      { label: "TFL", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "INT", field: "fieldGoalPct" as any, fmt: (v) => String(Math.round(v)) },
+      { label: "FF", field: "stealsPerGame" as any, fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if (isDB && hasNums) {
+    cols = [
+      { label: "TOT TKL", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "INT", field: "reboundsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "PD", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "FF", field: "stealsPerGame" as any, fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if (isRET && hasNums) {
+    cols = [
+      { label: "RET", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "RET YDS", field: "reboundsPerGame", fmt: (v) => v.toLocaleString() },
+      { label: "AVG", field: "fieldGoalPct" as any, fmt: (v) => v.toFixed(1) },
+      { label: "TD", field: "assistsPerGame", fmt: (v) => String(Math.round(v)) },
+    ];
+  } else if (isKP && hasNums) {
+    cols = [
+      { label: "PUNTS/FG", field: "pointsPerGame", fmt: (v) => String(Math.round(v)) },
+      { label: "AVG/PAT", field: "reboundsPerGame", fmt: (v) => v.toFixed(1) },
+    ];
+  }
+  // OL and unknown positions: no stat columns, just show details
+
+  // Filter cols to only those that have data
+  cols = cols.filter((c) => rows.some((r) => r[c.field] != null));
+
+  // Only show Notes column if there are NO numeric stat columns (e.g. OL players)
+  const hasResult = cols.length === 0 && hasAny(rows, "tournamentResult");
+
+  return (
+    <div className="overflow-x-auto">
+      <table className="w-full text-sm">
+        <thead>
+          <tr className="border-b border-gray-200 text-left text-xs font-semibold uppercase tracking-wide text-gray-500">
+            <th className="py-2 pr-3">Year</th>
+            <th className="py-2 pr-3">Team</th>
+            <th className="py-2 pr-3 text-center">G</th>
+            {cols.map((c) => (
+              <th key={c.label} className="py-2 pr-3 text-center">{c.label}</th>
+            ))}
+            {hasResult && <th className="py-2 pr-3 text-left">Notes</th>}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row) => (
+            <tr key={row.id} className="border-b border-gray-100 last:border-0">
+              <td className="py-2 pr-3 font-medium text-gray-900 whitespace-nowrap">{row.yearLabel}</td>
+              <td className="py-2 pr-3 text-gray-600 whitespace-nowrap">{row.teamName}</td>
+              <td className="py-2 pr-3 text-center text-gray-700">{row.gamesPlayed ?? "—"}</td>
+              {cols.map((c) => {
+                const val = row[c.field];
+                return (
+                  <td key={c.label} className="py-2 pr-3 text-center text-gray-700">
+                    {val != null ? c.fmt(val as number) : "—"}
+                  </td>
+                );
+              })}
+              {hasResult && (
+                <td className="py-2 pr-3 text-gray-600 text-sm max-w-xs">{row.tournamentResult ?? ""}</td>
+              )}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      {showNotesBelow && (
+        <p className="mt-3 text-sm leading-relaxed text-gray-700">{showNotesBelow}</p>
+      )}
+    </div>
+  );
+}
+
 function CoachingTable({ rows }: { rows: StatRow[] }) {
   const showResult = rows.some((r) => r.tournamentResult != null);
   return (
@@ -151,10 +272,16 @@ export default async function PlayerPage({ params }: Props) {
   if (!person) notFound();
 
   const membership = person.memberships[0];
+  const isFootball = membership?.team?.sport === "Football";
   const hsStats = person.seasonStats.filter((s) => s.level === "HIGH_SCHOOL");
   const collegeStats = person.seasonStats.filter((s) => s.level === "COLLEGE");
   const proStats = person.seasonStats.filter((s) => s.level === "PROFESSIONAL");
   const coachingStats = person.seasonStats.filter((s) => s.level === "COACHING");
+
+  const playerPosition = membership?.position ?? "";
+  const StatsTable = isFootball
+    ? (props: { rows: StatRow[]; showNotesBelow?: string }) => <FootballStatsTable {...props} position={playerPosition} />
+    : BasketballStatsTable;
 
   // Fallback: show aggregate boxes if no college seasonStats rows exist
   const showCollegeAggregate =
@@ -162,6 +289,19 @@ export default async function PlayerPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
+      {/* Back button */}
+      {membership?.team && (
+        <a
+          href={`/teams/${membership.team.slug}`}
+          className="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-gray-500 hover:text-blue-700 transition"
+        >
+          <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+          </svg>
+          Back to {membership.team.name} ({membership.team.season})
+        </a>
+      )}
+
       {/* Hero */}
       <PlayerHero person={person} />
 

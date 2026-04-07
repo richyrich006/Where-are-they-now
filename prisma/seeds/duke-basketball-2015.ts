@@ -3,8 +3,8 @@ import type { TeamSeed } from "./types";
 export const dukeBasketball2015: TeamSeed = {
   slug: "duke-basketball-2015",
   name: "Duke Blue Devils",
-  season: "2014-2015",
-  sport: "Mens Basketball",
+  season: "2015-2016",
+  sport: "Men's Basketball",
   school: "Duke University",
   conference: "ACC",
   accomplishment: "NCAA National Champions",
@@ -20,7 +20,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Chicago, IL",
       highSchool: "Whitney Young Magnet High School, Chicago, IL",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626143.png",
       bio: "One-and-done center who was the ACC Player of the Year and a consensus All-American in 2015. Selected #3 overall in the NBA Draft by the Philadelphia 76ers.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -90,8 +89,9 @@ export const dukeBasketball2015: TeamSeed = {
       birthYear: 1996,
       hometown: "Apple Valley, MN",
       highSchool: "Apple Valley High School, Apple Valley, MN",
-      isFeatured: true,
+
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626145.png",
+      isFeatured: true,
       bio: "The heart of the 2015 championship team. Jones scored 23 points in the national title game against Wisconsin to earn Most Outstanding Player honors.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -161,8 +161,9 @@ export const dukeBasketball2015: TeamSeed = {
       birthYear: 1995,
       hometown: "Jacksonville, FL",
       highSchool: "Providence School, Jacksonville, FL",
-      isFeatured: true,
+
       imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628960.png",
+      isFeatured: true,
       bio: "Came off the bench as a freshman to score 16 points in the national championship game. Stayed at Duke all four years before entering the NBA Draft.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -230,7 +231,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Houston, TX",
       highSchool: "St. John's School, Houston, TX",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626159.png",
       bio: "A versatile defensive stopper who anchored Duke's perimeter defense during the championship run. Selected 10th overall by the Miami Heat.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -290,7 +290,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Washington, D.C.",
       highSchool: "DeMatha Catholic High School, Hyattsville, MD",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626188.png",
       bio: "The senior captain who led Duke's locker room culture during the championship season. Despite going undrafted, Cook carved out a six-year NBA career and won two championships.",
       status: {
         occupationType: "RETIRED_ATHLETE",
@@ -346,7 +345,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Philadelphia, PA",
       highSchool: "Friends' Central School, Wynnewood, PA",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628518.png",
       bio: "A workhorse power forward who chose to return to Duke multiple times. After a brief NBA career, he transitioned into coaching.",
       status: {
         occupationType: "COACH",
@@ -366,6 +364,7 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote: "4x All-ACC Academic Team • Program-record 150 career games",
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Friends' Central School", season: "2011-12", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 16.5, reboundsPerGame: 10.2, blocksPerGame: 2.1 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, minutesPerGame: 12.7, pointsPerGame: 4.0, reboundsPerGame: 2.9, assistsPerGame: 0.5, stealsPerGame: 0.4, blocksPerGame: 0.5, fieldGoalPct: 0.620, freeThrowPct: 0.575 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 35, minutesPerGame: 22.7, pointsPerGame: 6.5, reboundsPerGame: 6.9, assistsPerGame: 1.0, stealsPerGame: 0.5, blocksPerGame: 0.7, fieldGoalPct: 0.644, freeThrowPct: 0.575 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, minutesPerGame: 21.3, pointsPerGame: 6.1, reboundsPerGame: 5.8, assistsPerGame: 0.9, stealsPerGame: 0.5, blocksPerGame: 0.8, fieldGoalPct: 0.631, freeThrowPct: 0.550 },
@@ -424,7 +423,8 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote: "4-7 from three in Elite Eight vs Gonzaga • South Region All-Tournament Team",
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, minutesPerGame: 7.3, pointsPerGame: 1.8, reboundsPerGame: 0.8, assistsPerGame: 0.2, fieldGoalPct: 0.294, threePointPct: 0.143 },
+                { level: "HIGH_SCHOOL", teamName: "DeSoto High School", season: "2012-13", yearLabel: "Senior", sortOrder: 1, gamesPlayed: 32, pointsPerGame: 22.5, reboundsPerGame: 5.1, assistsPerGame: 3.2 },
+{ level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 32, minutesPerGame: 7.3, pointsPerGame: 1.8, reboundsPerGame: 0.8, assistsPerGame: 0.2, fieldGoalPct: 0.294, threePointPct: 0.143 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 39, pointsPerGame: 6.0, reboundsPerGame: 2.3, assistsPerGame: 1.0 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 35, pointsPerGame: 10.4, reboundsPerGame: 2.5, assistsPerGame: 2.2, stealsPerGame: 1.0, threePointPct: 0.415 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 37, minutesPerGame: 32.9, pointsPerGame: 7.0, reboundsPerGame: 2.8, assistsPerGame: 1.4, stealsPerGame: 1.7 },
@@ -455,7 +455,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Warsaw, IN",
       highSchool: "Christ School, Arden, NC",
       isFeatured: true,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1627850.png",
       bio: "The youngest of three Plumlee brothers to play at Duke. After his NBA career, Marshall took one of the most extraordinary paths in college basketball history — from the 75th Ranger Regiment to Harvard Business School to Blackstone.",
       status: {
         occupationType: "FRONT_OFFICE",
@@ -475,7 +474,8 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote: "Team captain • Brother of Mason and Miles Plumlee",
       },
       seasonStats: [
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, minutesPerGame: 11.1, pointsPerGame: 1.5, reboundsPerGame: 1.8, assistsPerGame: 0.3 },
+                { level: "HIGH_SCHOOL", teamName: "Christ School", season: "2011-12", yearLabel: "Senior", sortOrder: 1, gamesPlayed: 30, pointsPerGame: 12.4, reboundsPerGame: 9.8, blocksPerGame: 3.2 },
+{ level: "COLLEGE", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 25, minutesPerGame: 11.1, pointsPerGame: 1.5, reboundsPerGame: 1.8, assistsPerGame: 0.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 27, pointsPerGame: 2.2, reboundsPerGame: 2.5, assistsPerGame: 0.4 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, minutesPerGame: 9.6, pointsPerGame: 2.2, reboundsPerGame: 2.4, assistsPerGame: 0.3, fieldGoalPct: 0.760, freeThrowPct: 0.710 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 36, minutesPerGame: 30.5, pointsPerGame: 8.3, reboundsPerGame: 8.6, assistsPerGame: 1.1, blocksPerGame: 1.6 },
@@ -527,7 +527,6 @@ export const dukeBasketball2015: TeamSeed = {
       hometown: "Aurora, CO",
       highSchool: "Ottawa High School, Ottawa, KS",
       isFeatured: false,
-      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1628400.png",
       bio: "Transferred from Duke to SMU where he became a star before being drafted by the Boston Celtics. Has continued his professional career in European leagues.",
       status: {
         occupationType: "ACTIVE_PRO_ATHLETE",
@@ -548,7 +547,8 @@ export const dukeBasketball2015: TeamSeed = {
       },
       seasonStats: [
         // Duke College
-        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 17, minutesPerGame: 5.0, pointsPerGame: 1.6, reboundsPerGame: 0.9, assistsPerGame: 0.2, fieldGoalPct: 0.500, threePointPct: 0.571, freeThrowPct: 0.909 },
+                { level: "HIGH_SCHOOL", teamName: "Ottawa High School", season: "2012-13", yearLabel: "Senior", sortOrder: 1, gamesPlayed: 25, pointsPerGame: 24.6, reboundsPerGame: 8.2, assistsPerGame: 2.1 },
+{ level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 17, minutesPerGame: 5.0, pointsPerGame: 1.6, reboundsPerGame: 0.9, assistsPerGame: 0.2, fieldGoalPct: 0.500, threePointPct: 0.571, freeThrowPct: 0.909 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Sophomore (partial)", sortOrder: 202, gamesPlayed: 6, minutesPerGame: 10.5, pointsPerGame: 3.0, reboundsPerGame: 2.3, assistsPerGame: 0.2 },
         // SMU College (redshirt year 2015-16; played 2016-17 as AAC Player of the Year)
         { level: "COLLEGE", teamName: "SMU Mustangs", season: "2016-17", yearLabel: "Jr. (SMU)", sortOrder: 203, gamesPlayed: 35, minutesPerGame: 34.1, pointsPerGame: 19.0, reboundsPerGame: 6.9, assistsPerGame: 1.5, stealsPerGame: 0.4, blocksPerGame: 0.4, fieldGoalPct: 0.487, threePointPct: 0.424, freeThrowPct: 0.785 },
@@ -693,8 +693,8 @@ export const dukeBasketball2015: TeamSeed = {
       bio: "A walk-on guard who was part of the 2015 championship roster. After Duke, Besser channeled the walk-on spirit into life — founding 'Walk On! America,' a charity supporting people with intellectual and developmental disabilities (IDD), inspired by his sister Jacqueline. He completed a 3,400-mile cross-country bike ride in 69 days raising over $343,000 for the IDD community.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "CEO",
-        currentEmployer: "Ecostar Collaborative",
+        currentTitle: "Director of Strategic Partnerships and Innovation",
+        currentEmployer: "Intersport / ECO STAR LLC",
         location: "Chicago, IL",
         statusNote:
           "Founded 'Walk On! America,' a charity for the IDD community inspired by his sister Jacqueline, who has autism — completing a 3,400-mile cross-country bike ride raising over $343,000. Previously worked at Intersport on NFL and sports marketing. Now serves as CEO of Ecostar Collaborative.",
@@ -709,6 +709,13 @@ export const dukeBasketball2015: TeamSeed = {
         yearsAtSchool: "2014-2018",
         statsNote: "Walk-on • Part of 2015 national championship team • Political science major",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Latin School of Chicago", season: "2013-14", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 14.2, reboundsPerGame: 3.5, assistsPerGame: 2.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 1, pointsPerGame: 0.0, reboundsPerGame: 0.0, assistsPerGame: 0.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 3, pointsPerGame: 0.3 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 5, pointsPerGame: 0.8 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2017-18", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 8, pointsPerGame: 1.1 },
+      ],
       careerEvents: [
         {
           year: 2015,
@@ -764,6 +771,7 @@ export const dukeBasketball2015: TeamSeed = {
           "Sat out 2014-15 (transfer rules) • 6'9\", 270 lbs • C-USA All-Freshman at Rice (11.4 ppg, 9.3 rpg) • Graduate transfer to Maryland (2017-18)",
       },
       seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Greens Farms Academy", season: "2012-13", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 18.5, reboundsPerGame: 12.0, blocksPerGame: 2.8 },
         // Rice — Conference USA All-Freshman (led CUSA in rebounding)
         { level: "COLLEGE", teamName: "Rice Owls", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 30, minutesPerGame: 26.4, pointsPerGame: 11.4, reboundsPerGame: 9.3, fieldGoalPct: 0.591 },
         // Duke — sat out 2014-15 per NCAA transfer rules; played limited minutes 2015-16 before knee injury
@@ -814,6 +822,10 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote:
           "Walk-on (former 3-year student manager) • Never played varsity hoops in high school • Brother of Ryan Kelly (Duke 2010-13)",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Ravenscroft School", season: "Senior", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 5.6, reboundsPerGame: 0.1, assistsPerGame: 2.1 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 8, pointsPerGame: 0.4, reboundsPerGame: 0.1, assistsPerGame: 0.1 },
+      ],
       careerEvents: [
         {
           year: 2015,
@@ -843,9 +855,9 @@ export const dukeBasketball2015: TeamSeed = {
       bio: "A walk-on guard and computer science major who turned down smaller D1 programs to walk on at Duke. His father Steve Pagliuca is a co-owner of the Boston Celtics and a 1977 Duke grad. Nick won the Deryl Hart Award (team's top scholar-athlete), was a National Merit Scholar, and interned at Apple — then went on to Harvard Business School and Palantir Technologies.",
       status: {
         occupationType: "ENTREPRENEUR_BUSINESS",
-        currentTitle: "Software / Data Professional",
-        currentEmployer: "Palantir Technologies",
-        location: "New York, NY",
+        currentTitle: "Attorney",
+        currentEmployer: "Gill & Chamas LLC",
+        location: "Woodbridge, NJ",
         statusNote:
           "After winning a national championship ring and earning the Deryl Hart Award (Duke's top scholar-athlete honor) as a computer science major, Pagliuca attended Harvard Business School. He joined Palantir Technologies in New York, working in data analytics and AI. His father Steve Pagliuca is co-founder of Bain Capital and a Boston Celtics co-owner; his brother Joe was also a Duke walk-on. Nick's path from Milton Academy to Duke computer science to HBS to Palantir reflects exactly the kind of excellence off the court that Coach K prized.",
         sourceUrl: "https://www.bostonglobe.com/metro/regionals/west/2015/04/16/campus-angle-nick-pagliuca-weston-duke-university-basketball/gC95R2oHaumOwKDWsNYjuJ/story.html",
@@ -859,6 +871,13 @@ export const dukeBasketball2015: TeamSeed = {
         statsNote:
           "Walk-on • Computer science major • National Merit Scholar • Deryl Hart Award (top scholar-athlete) • Played in 29 career games including 2015 NCAA Tournament",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Milton Academy", season: "2012-13", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 12.0, reboundsPerGame: 2.5, assistsPerGame: 3.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Freshman", sortOrder: 201, gamesPlayed: 4, pointsPerGame: 0.0 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Sophomore", sortOrder: 202, gamesPlayed: 10, pointsPerGame: 0.0, reboundsPerGame: 0.4 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 8, pointsPerGame: 0.2 },
+        { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 7, pointsPerGame: 0.4 },
+      ],
       careerEvents: [
         {
           year: 2015,
@@ -915,54 +934,54 @@ export const dukeBasketball2015: TeamSeed = {
       },
       seasonStats: [
         // Army coaching record (1975-80) — 73-59 total
-        { level: "COACHING", teamName: "Army Black Knights", season: "1975-76", yearLabel: "Year 1", sortOrder: 401, wins: 11, losses: 14 },
-        { level: "COACHING", teamName: "Army Black Knights", season: "1976-77", yearLabel: "Year 2", sortOrder: 402, wins: 20, losses: 8, tournamentResult: "ECAC" },
-        { level: "COACHING", teamName: "Army Black Knights", season: "1977-78", yearLabel: "Year 3", sortOrder: 403, wins: 19, losses: 9, tournamentResult: "NIT" },
-        { level: "COACHING", teamName: "Army Black Knights", season: "1978-79", yearLabel: "Year 4", sortOrder: 404, wins: 12, losses: 14 },
-        { level: "COACHING", teamName: "Army Black Knights", season: "1979-80", yearLabel: "Year 5", sortOrder: 405, wins: 11, losses: 14 },
+        { level: "COACHING", teamName: "Army Black Knights", season: "1975-76", yearLabel: "1975-76", sortOrder: 401, wins: 11, losses: 14 },
+        { level: "COACHING", teamName: "Army Black Knights", season: "1976-77", yearLabel: "1976-77", sortOrder: 402, wins: 20, losses: 8, tournamentResult: "ECAC" },
+        { level: "COACHING", teamName: "Army Black Knights", season: "1977-78", yearLabel: "1977-78", sortOrder: 403, wins: 19, losses: 9, tournamentResult: "NIT" },
+        { level: "COACHING", teamName: "Army Black Knights", season: "1978-79", yearLabel: "1978-79", sortOrder: 404, wins: 12, losses: 14 },
+        { level: "COACHING", teamName: "Army Black Knights", season: "1979-80", yearLabel: "1979-80", sortOrder: 405, wins: 11, losses: 14 },
         // Duke coaching record (1980-2022) — 1,129-309 in 42 seasons; 5 titles
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1980-81", yearLabel: "Year 1", sortOrder: 411, wins: 17, losses: 13, tournamentResult: "NIT" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1981-82", yearLabel: "Year 2", sortOrder: 412, wins: 10, losses: 17 },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1982-83", yearLabel: "Year 3", sortOrder: 413, wins: 11, losses: 17 },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1983-84", yearLabel: "Year 4", sortOrder: 414, wins: 24, losses: 10, tournamentResult: "NCAA R32" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1984-85", yearLabel: "Year 5", sortOrder: 415, wins: 23, losses: 8, tournamentResult: "NCAA R64" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1985-86", yearLabel: "Year 6", sortOrder: 416, wins: 37, losses: 3, tournamentResult: "NCAA Runner-Up" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1986-87", yearLabel: "Year 7", sortOrder: 417, wins: 24, losses: 9, tournamentResult: "NCAA Sweet 16" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1987-88", yearLabel: "Year 8", sortOrder: 418, wins: 28, losses: 7, tournamentResult: "NCAA Final Four" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1988-89", yearLabel: "Year 9", sortOrder: 419, wins: 28, losses: 8, tournamentResult: "NCAA Final Four" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1989-90", yearLabel: "Year 10", sortOrder: 420, wins: 29, losses: 9, tournamentResult: "NCAA Runner-Up" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1990-91", yearLabel: "Year 11", sortOrder: 421, wins: 32, losses: 7, tournamentResult: "NCAA Champion 🏆" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1991-92", yearLabel: "Year 12", sortOrder: 422, wins: 34, losses: 2, tournamentResult: "NCAA Champion 🏆" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1992-93", yearLabel: "Year 13", sortOrder: 423, wins: 24, losses: 8, tournamentResult: "NCAA R32" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1993-94", yearLabel: "Year 14", sortOrder: 424, wins: 28, losses: 6, tournamentResult: "NCAA Runner-Up" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1994-95", yearLabel: "Year 15", sortOrder: 425, wins: 13, losses: 18 },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1995-96", yearLabel: "Year 16", sortOrder: 426, wins: 18, losses: 13, tournamentResult: "NCAA R32" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1996-97", yearLabel: "Year 17", sortOrder: 427, wins: 24, losses: 9, tournamentResult: "NCAA Sweet 16" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "Year 18", sortOrder: 428, wins: 32, losses: 4, tournamentResult: "NCAA Elite Eight" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Year 19", sortOrder: 429, wins: 37, losses: 2, tournamentResult: "NCAA Runner-Up" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Year 20", sortOrder: 430, wins: 29, losses: 5, tournamentResult: "NCAA Sweet 16" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2000-01", yearLabel: "Year 21", sortOrder: 431, wins: 35, losses: 4, tournamentResult: "NCAA Champion 🏆" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2001-02", yearLabel: "Year 22", sortOrder: 432, wins: 31, losses: 4, tournamentResult: "NCAA Sweet 16" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2002-03", yearLabel: "Year 23", sortOrder: 433, wins: 26, losses: 7, tournamentResult: "NCAA R32" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2003-04", yearLabel: "Year 24", sortOrder: 434, wins: 31, losses: 6, tournamentResult: "NCAA Elite Eight" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2004-05", yearLabel: "Year 25", sortOrder: 435, wins: 27, losses: 6, tournamentResult: "NCAA Sweet 16" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "Year 26", sortOrder: 436, wins: 32, losses: 4, tournamentResult: "NCAA Elite Eight" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2006-07", yearLabel: "Year 27", sortOrder: 437, wins: 22, losses: 11, tournamentResult: "NCAA R64" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2007-08", yearLabel: "Year 28", sortOrder: 438, wins: 28, losses: 6, tournamentResult: "NCAA R32" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "Year 29", sortOrder: 439, wins: 30, losses: 7, tournamentResult: "NCAA Elite Eight" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "Year 30", sortOrder: 440, wins: 35, losses: 5, tournamentResult: "NCAA Champion 🏆" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2010-11", yearLabel: "Year 31", sortOrder: 441, wins: 32, losses: 4, tournamentResult: "NCAA Elite Eight" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "Year 32", sortOrder: 442, wins: 27, losses: 7, tournamentResult: "NCAA Sweet 16" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "Year 33", sortOrder: 443, wins: 30, losses: 6, tournamentResult: "NCAA R32" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "Year 34", sortOrder: 444, wins: 26, losses: 9, tournamentResult: "NCAA R32" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "Year 35", sortOrder: 445, wins: 35, losses: 4, tournamentResult: "NCAA Champion 🏆" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "Year 36", sortOrder: 446, wins: 25, losses: 11, tournamentResult: "NCAA R32" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "Year 37", sortOrder: 447, wins: 28, losses: 9, tournamentResult: "NCAA Sweet 16" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2017-18", yearLabel: "Year 38", sortOrder: 448, wins: 29, losses: 8, tournamentResult: "NCAA R32" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2018-19", yearLabel: "Year 39", sortOrder: 449, wins: 32, losses: 6, tournamentResult: "NCAA Elite Eight" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2019-20", yearLabel: "Year 40", sortOrder: 450, wins: 25, losses: 6, tournamentResult: "COVID cancellation" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2020-21", yearLabel: "Year 41", sortOrder: 451, wins: 13, losses: 11 },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2021-22", yearLabel: "Year 42 (final)", sortOrder: 452, wins: 32, losses: 7, tournamentResult: "NCAA Final Four" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1980-81", yearLabel: "1980-81", sortOrder: 411, wins: 17, losses: 13, tournamentResult: "NIT" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1981-82", yearLabel: "1981-82", sortOrder: 412, wins: 10, losses: 17 },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1982-83", yearLabel: "1982-83", sortOrder: 413, wins: 11, losses: 17 },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1983-84", yearLabel: "1983-84", sortOrder: 414, wins: 24, losses: 10, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1984-85", yearLabel: "1984-85", sortOrder: 415, wins: 23, losses: 8, tournamentResult: "NCAA R64" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1985-86", yearLabel: "1985-86", sortOrder: 416, wins: 37, losses: 3, tournamentResult: "NCAA Runner-Up" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1986-87", yearLabel: "1986-87", sortOrder: 417, wins: 24, losses: 9, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1987-88", yearLabel: "1987-88", sortOrder: 418, wins: 28, losses: 7, tournamentResult: "NCAA Final Four" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1988-89", yearLabel: "1988-89", sortOrder: 419, wins: 28, losses: 8, tournamentResult: "NCAA Final Four" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1989-90", yearLabel: "1989-90", sortOrder: 420, wins: 29, losses: 9, tournamentResult: "NCAA Runner-Up" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1990-91", yearLabel: "1990-91", sortOrder: 421, wins: 32, losses: 7, tournamentResult: "NCAA Champion 🏆" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1991-92", yearLabel: "1991-92", sortOrder: 422, wins: 34, losses: 2, tournamentResult: "NCAA Champion 🏆" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1992-93", yearLabel: "1992-93", sortOrder: 423, wins: 24, losses: 8, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1993-94", yearLabel: "1993-94", sortOrder: 424, wins: 28, losses: 6, tournamentResult: "NCAA Runner-Up" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1994-95", yearLabel: "1994-95", sortOrder: 425, wins: 13, losses: 18 },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1995-96", yearLabel: "1995-96", sortOrder: 426, wins: 18, losses: 13, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1996-97", yearLabel: "1996-97", sortOrder: 427, wins: 24, losses: 9, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1997-98", yearLabel: "1997-98", sortOrder: 428, wins: 32, losses: 4, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "1998-99", sortOrder: 429, wins: 37, losses: 2, tournamentResult: "NCAA Runner-Up" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "1999-00", sortOrder: 430, wins: 29, losses: 5, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2000-01", yearLabel: "2000-01", sortOrder: 431, wins: 35, losses: 4, tournamentResult: "NCAA Champion 🏆" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2001-02", yearLabel: "2001-02", sortOrder: 432, wins: 31, losses: 4, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2002-03", yearLabel: "2002-03", sortOrder: 433, wins: 26, losses: 7, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2003-04", yearLabel: "2003-04", sortOrder: 434, wins: 31, losses: 6, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2004-05", yearLabel: "2004-05", sortOrder: 435, wins: 27, losses: 6, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2005-06", yearLabel: "2005-06", sortOrder: 436, wins: 32, losses: 4, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2006-07", yearLabel: "2006-07", sortOrder: 437, wins: 22, losses: 11, tournamentResult: "NCAA R64" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2007-08", yearLabel: "2007-08", sortOrder: 438, wins: 28, losses: 6, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "2008-09", sortOrder: 439, wins: 30, losses: 7, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "2009-10", sortOrder: 440, wins: 35, losses: 5, tournamentResult: "NCAA Champion 🏆" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2010-11", yearLabel: "2010-11", sortOrder: 441, wins: 32, losses: 4, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2011-12", yearLabel: "2011-12", sortOrder: 442, wins: 27, losses: 7, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2012-13", yearLabel: "2012-13", sortOrder: 443, wins: 30, losses: 6, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2013-14", yearLabel: "2013-14", sortOrder: 444, wins: 26, losses: 9, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2014-15", yearLabel: "2014-15", sortOrder: 445, wins: 35, losses: 4, tournamentResult: "NCAA Champion 🏆" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2015-16", yearLabel: "2015-16", sortOrder: 446, wins: 25, losses: 11, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2016-17", yearLabel: "2016-17", sortOrder: 447, wins: 28, losses: 9, tournamentResult: "NCAA Sweet 16" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2017-18", yearLabel: "2017-18", sortOrder: 448, wins: 29, losses: 8, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2018-19", yearLabel: "2018-19", sortOrder: 449, wins: 32, losses: 6, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2019-20", yearLabel: "2019-20", sortOrder: 450, wins: 25, losses: 6, tournamentResult: "COVID cancellation" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2020-21", yearLabel: "2020-21", sortOrder: 451, wins: 13, losses: 11 },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2021-22", yearLabel: "2021-22 (final)", sortOrder: 452, wins: 32, losses: 7, tournamentResult: "NCAA Final Four" },
       ],
       careerEvents: [
         {
@@ -1025,9 +1044,9 @@ export const dukeBasketball2015: TeamSeed = {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1995-96", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 31, minutesPerGame: 35.0, pointsPerGame: 16.6, reboundsPerGame: 3.0, assistsPerGame: 3.7 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1996-97", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 33, pointsPerGame: 12.4, assistsPerGame: 2.6 },
         // Pro playing career — undrafted 1997; played in CBA and France
-        { level: "PROFESSIONAL", teamName: "Grand Rapids Hoops (CBA)", season: "1997-98", yearLabel: "Year 1", sortOrder: 301, gamesPlayed: 56, pointsPerGame: 11.9 },
-        { level: "PROFESSIONAL", teamName: "Élan Chalon (France LNB)", season: "1999", yearLabel: "Year 2", sortOrder: 302, gamesPlayed: 2, pointsPerGame: 5.5 },
-        { level: "PROFESSIONAL", teamName: "Grand Rapids Hoops (CBA)", season: "1999-00", yearLabel: "Year 3", sortOrder: 303, gamesPlayed: 33, pointsPerGame: 8.1 },
+        { level: "PROFESSIONAL", teamName: "Grand Rapids Hoops (CBA)", season: "1997-98", yearLabel: "1997-98", sortOrder: 301, gamesPlayed: 56, pointsPerGame: 11.9 },
+        { level: "PROFESSIONAL", teamName: "Élan Chalon (France LNB)", season: "1999", yearLabel: "1999", sortOrder: 302, gamesPlayed: 2, pointsPerGame: 5.5 },
+        { level: "PROFESSIONAL", teamName: "Grand Rapids Hoops (CBA)", season: "1999-00", yearLabel: "1999-00", sortOrder: 303, gamesPlayed: 33, pointsPerGame: 8.1 },
         // Coaching record — VCU head coach (2002-06)
         { level: "COACHING", teamName: "VCU Rams", season: "2002-03", yearLabel: "VCU Year 1", sortOrder: 401, wins: 18, losses: 10 },
         { level: "COACHING", teamName: "VCU Rams", season: "2003-04", yearLabel: "VCU Year 2", sortOrder: 402, wins: 23, losses: 8, tournamentResult: "NCAA R64" },
@@ -1096,13 +1115,13 @@ export const dukeBasketball2015: TeamSeed = {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2008-09", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 37, minutesPerGame: 32.8, pointsPerGame: 14.9, reboundsPerGame: 3.6, assistsPerGame: 2.8, fieldGoalPct: 0.397, threePointPct: 0.385, freeThrowPct: 0.836 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2009-10", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 40, minutesPerGame: 36.8, pointsPerGame: 18.2, assistsPerGame: 4.9, fieldGoalPct: 0.407, threePointPct: 0.383, freeThrowPct: 0.878 },
         // Pro playing career — undrafted 2010; career ended at 25 due to eye injury (retinal tear)
-        { level: "PROFESSIONAL", teamName: "Rio Grande Valley Vipers (NBA D-League)", season: "2010-11", yearLabel: "Year 1", sortOrder: 301, gamesPlayed: 16, minutesPerGame: 33.9, pointsPerGame: 13.8, reboundsPerGame: 3.9, assistsPerGame: 4.1 },
-        { level: "PROFESSIONAL", teamName: "Maccabi Tel Aviv (Israel / EuroLeague)", season: "2011-12", yearLabel: "Year 2", sortOrder: 302, gamesPlayed: 23, minutesPerGame: 10.5, pointsPerGame: 2.5, reboundsPerGame: 0.9, assistsPerGame: 0.7, fieldGoalPct: 0.353, threePointPct: 0.333 },
-        { level: "PROFESSIONAL", teamName: "Gran Canaria (Spanish Liga ACB)", season: "2012-13", yearLabel: "Year 3", sortOrder: 303, gamesPlayed: 30, minutesPerGame: 20.5, pointsPerGame: 5.6, assistsPerGame: 2.0, fieldGoalPct: 0.313 },
+        { level: "PROFESSIONAL", teamName: "Rio Grande Valley Vipers (NBA D-League)", season: "2010-11", yearLabel: "2010-11", sortOrder: 301, gamesPlayed: 16, minutesPerGame: 33.9, pointsPerGame: 13.8, reboundsPerGame: 3.9, assistsPerGame: 4.1 },
+        { level: "PROFESSIONAL", teamName: "Maccabi Tel Aviv (Israel / EuroLeague)", season: "2011-12", yearLabel: "2011-12", sortOrder: 302, gamesPlayed: 23, minutesPerGame: 10.5, pointsPerGame: 2.5, reboundsPerGame: 0.9, assistsPerGame: 0.7, fieldGoalPct: 0.353, threePointPct: 0.333 },
+        { level: "PROFESSIONAL", teamName: "Gran Canaria (Spanish Liga ACB)", season: "2012-13", yearLabel: "2012-13", sortOrder: 303, gamesPlayed: 30, minutesPerGame: 20.5, pointsPerGame: 5.6, assistsPerGame: 2.0, fieldGoalPct: 0.313 },
         // Coaching record at Duke (2022-present)
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2022-23", yearLabel: "Year 1", sortOrder: 401, wins: 27, losses: 9, tournamentResult: "NCAA Elite Eight" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2023-24", yearLabel: "Year 2", sortOrder: 402, wins: 27, losses: 9, tournamentResult: "NCAA R32" },
-        { level: "COACHING", teamName: "Duke Blue Devils", season: "2024-25", yearLabel: "Year 3", sortOrder: 403, wins: 35, losses: 4, tournamentResult: "NCAA Final Four" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2022-23", yearLabel: "2022-23", sortOrder: 401, wins: 27, losses: 9, tournamentResult: "NCAA Elite Eight" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2023-24", yearLabel: "2023-24", sortOrder: 402, wins: 27, losses: 9, tournamentResult: "NCAA R32" },
+        { level: "COACHING", teamName: "Duke Blue Devils", season: "2024-25", yearLabel: "2024-25", sortOrder: 403, wins: 35, losses: 4, tournamentResult: "NCAA Final Four" },
       ],
       careerEvents: [
         {
@@ -1164,17 +1183,17 @@ export const dukeBasketball2015: TeamSeed = {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 34, pointsPerGame: 11.0, reboundsPerGame: 4.5 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "2000-01", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 39, pointsPerGame: 12.3, reboundsPerGame: 5.2, fieldGoalPct: 0.473, threePointPct: 0.335, freeThrowPct: 0.733 },
         // Pro playing career — undrafted 2001; played in 12+ countries
-        { level: "PROFESSIONAL", teamName: "Carolinas Basketball League", season: "2002-03", yearLabel: "Year 1", sortOrder: 301 },
-        { level: "PROFESSIONAL", teamName: "Kaposvári KK (Hungary)", season: "2003-04", yearLabel: "Year 2", sortOrder: 302 },
-        { level: "PROFESSIONAL", teamName: "Anjou BC (France)", season: "2003-04", yearLabel: "Year 2b", sortOrder: 303 },
-        { level: "PROFESSIONAL", teamName: "KK Široki (Bosnia-Herzegovina)", season: "2003-04", yearLabel: "Year 3", sortOrder: 304 },
-        { level: "PROFESSIONAL", teamName: "Pitágoras / Minas (Brazil)", season: "2004-05", yearLabel: "Year 4", sortOrder: 305 },
-        { level: "PROFESSIONAL", teamName: "EiffelTowers Nijmegen (Netherlands)", season: "2005-06", yearLabel: "Year 5", sortOrder: 306 },
-        { level: "PROFESSIONAL", teamName: "Toyama Grouses (Japan)", season: "2006-07", yearLabel: "Year 6", sortOrder: 307 },
-        { level: "PROFESSIONAL", teamName: "Basket Kwidzyn (Poland)", season: "2007-08", yearLabel: "Year 7", sortOrder: 308 },
+        { level: "PROFESSIONAL", teamName: "Carolinas Basketball League", season: "2002-03", yearLabel: "2002-03", sortOrder: 301 },
+        { level: "PROFESSIONAL", teamName: "Kaposvári KK (Hungary)", season: "2003-04", yearLabel: "2003-04", sortOrder: 302 },
+        { level: "PROFESSIONAL", teamName: "Anjou BC (France)", season: "2003-04", yearLabel: "2003-04", sortOrder: 303 },
+        { level: "PROFESSIONAL", teamName: "KK Široki (Bosnia-Herzegovina)", season: "2003-04", yearLabel: "2003-04", sortOrder: 304 },
+        { level: "PROFESSIONAL", teamName: "Pitágoras / Minas (Brazil)", season: "2004-05", yearLabel: "2004-05", sortOrder: 305 },
+        { level: "PROFESSIONAL", teamName: "EiffelTowers Nijmegen (Netherlands)", season: "2005-06", yearLabel: "2005-06", sortOrder: 306 },
+        { level: "PROFESSIONAL", teamName: "Toyama Grouses (Japan)", season: "2006-07", yearLabel: "2006-07", sortOrder: 307 },
+        { level: "PROFESSIONAL", teamName: "Basket Kwidzyn (Poland)", season: "2007-08", yearLabel: "2007-08", sortOrder: 308 },
         // Head coaching record — Austin Peay (2021-23)
-        { level: "COACHING", teamName: "Austin Peay Governors", season: "2021-22", yearLabel: "Year 1", sortOrder: 401, wins: 9, losses: 21 },
-        { level: "COACHING", teamName: "Austin Peay Governors", season: "2022-23", yearLabel: "Year 2", sortOrder: 402, wins: 12, losses: 18 },
+        { level: "COACHING", teamName: "Austin Peay Governors", season: "2021-22", yearLabel: "2021-22", sortOrder: 401, wins: 9, losses: 21 },
+        { level: "COACHING", teamName: "Austin Peay Governors", season: "2022-23", yearLabel: "2022-23", sortOrder: 402, wins: 12, losses: 18 },
       ],
       careerEvents: [
         {
@@ -1230,13 +1249,13 @@ export const dukeBasketball2015: TeamSeed = {
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1998-99", yearLabel: "Junior", sortOrder: 203, gamesPlayed: 39, minutesPerGame: 27.2, pointsPerGame: 9.9, reboundsPerGame: 4.8, assistsPerGame: 3.3 },
         { level: "COLLEGE", teamName: "Duke Blue Devils", season: "1999-00", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 34, minutesPerGame: 35.6, pointsPerGame: 16.9, reboundsPerGame: 6.1, assistsPerGame: 3.2, fieldGoalPct: 0.480, threePointPct: 0.360, freeThrowPct: 0.780 },
         // Pro playing career — drafted 41st by San Antonio Spurs (2000); never played for Spurs
-        { level: "PROFESSIONAL", teamName: "Asheville Altitude (NBA D-League)", season: "2001-02", yearLabel: "Year 1", sortOrder: 301, gamesPlayed: 56, minutesPerGame: 22.9, pointsPerGame: 7.3, reboundsPerGame: 3.6, assistsPerGame: 1.8 },
-        { level: "PROFESSIONAL", teamName: "Žalgiris Kaunas (Lithuania)", season: "2002-03", yearLabel: "Year 2", sortOrder: 302 },
-        { level: "PROFESSIONAL", teamName: "Various (Germany)", season: "2003-04", yearLabel: "Year 3", sortOrder: 303 },
-        { level: "PROFESSIONAL", teamName: "Sydney Kings (Australian NBL)", season: "2003-04", yearLabel: "Year 3 (NBL)", sortOrder: 304, gamesPlayed: 18, pointsPerGame: 13.1, reboundsPerGame: 7.1, assistsPerGame: 2.7, fieldGoalPct: 0.520 },
-        { level: "PROFESSIONAL", teamName: "Alaska Aces (Philippines PBA)", season: "2002-03", yearLabel: "Year 2b (PBA)", sortOrder: 305, gamesPlayed: 3, pointsPerGame: 18.3, reboundsPerGame: 8.7, fieldGoalPct: 0.440, threePointPct: 0.000, freeThrowPct: 0.355 },
-        { level: "PROFESSIONAL", teamName: "Fayetteville Patriots (ABA)", season: "2005-06", yearLabel: "Year 5 — ABA MVP & Champion", sortOrder: 306 },
-        { level: "PROFESSIONAL", teamName: "Nijmegen Magixx (Netherlands)", season: "2006-07", yearLabel: "Year 6", sortOrder: 307 },
+        { level: "PROFESSIONAL", teamName: "Asheville Altitude (NBA D-League)", season: "2001-02", yearLabel: "2001-02", sortOrder: 301, gamesPlayed: 56, minutesPerGame: 22.9, pointsPerGame: 7.3, reboundsPerGame: 3.6, assistsPerGame: 1.8 },
+        { level: "PROFESSIONAL", teamName: "Žalgiris Kaunas (Lithuania)", season: "2002-03", yearLabel: "2002-03", sortOrder: 302 },
+        { level: "PROFESSIONAL", teamName: "Various (Germany)", season: "2003-04", yearLabel: "2003-04", sortOrder: 303 },
+        { level: "PROFESSIONAL", teamName: "Sydney Kings (Australian NBL)", season: "2003-04", yearLabel: "2003-04 (NBL)", sortOrder: 304, gamesPlayed: 18, pointsPerGame: 13.1, reboundsPerGame: 7.1, assistsPerGame: 2.7, fieldGoalPct: 0.520 },
+        { level: "PROFESSIONAL", teamName: "Alaska Aces (Philippines PBA)", season: "2002-03", yearLabel: "2002-03 (PBA)", sortOrder: 305, gamesPlayed: 3, pointsPerGame: 18.3, reboundsPerGame: 8.7, fieldGoalPct: 0.440, threePointPct: 0.000, freeThrowPct: 0.355 },
+        { level: "PROFESSIONAL", teamName: "Fayetteville Patriots (ABA)", season: "2005-06", yearLabel: "2005-06 (ABA MVP & Champion)", sortOrder: 306 },
+        { level: "PROFESSIONAL", teamName: "Nijmegen Magixx (Netherlands)", season: "2006-07", yearLabel: "2006-07", sortOrder: 307 },
       ],
       careerEvents: [
         {

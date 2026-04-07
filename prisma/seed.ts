@@ -1,14 +1,94 @@
 import { PrismaClient } from "../app/generated/prisma/client";
 import { PrismaBetterSqlite3 } from "@prisma/adapter-better-sqlite3";
 import type { TeamSeed, PersonSeed } from "./seeds/types";
+import { dukeBasketball2006 } from "./seeds/duke-basketball-2006";
+import { dukeBasketball2010 } from "./seeds/duke-basketball-2010";
+import { dukeBasketball2011 } from "./seeds/duke-basketball-2011";
+import { dukeBasketball2012 } from "./seeds/duke-basketball-2012";
+import { dukeBasketball2013 } from "./seeds/duke-basketball-2013";
+import { dukeBasketball2014 } from "./seeds/duke-basketball-2014";
 import { dukeBasketball2015 } from "./seeds/duke-basketball-2015";
 import { uscFootball2005 } from "./seeds/usc-football-2005";
 import { montverdeAcademy2020 } from "./seeds/montverde-academy-2020";
+import { alabamaFootball2015 } from "./seeds/alabama-football-2015";
+import { texasBasketball2003 } from "./seeds/texas-basketball-2003";
+import { texasBasketball2006 } from "./seeds/texas-basketball-2006";
+import { texasBasketball2007 } from "./seeds/texas-basketball-2007";
+import { floridaBasketball2004 } from "./seeds/florida-basketball-2004";
+import { floridaBasketball2005 } from "./seeds/florida-basketball-2005";
+import { kentuckyBasketball2016 } from "./seeds/kentucky-basketball-2016";
+import { kentuckyBasketball2017 } from "./seeds/kentucky-basketball-2017";
+import { kentuckyBasketball2018 } from "./seeds/kentucky-basketball-2018";
+import { kentuckyBasketball2019 } from "./seeds/kentucky-basketball-2019";
+import { kentuckyBasketball2020 } from "./seeds/kentucky-basketball-2020";
+import { kentuckyBasketball2021 } from "./seeds/kentucky-basketball-2021";
+import { kentuckyBasketball2022 } from "./seeds/kentucky-basketball-2022";
+import { kentuckyBasketball2023 } from "./seeds/kentucky-basketball-2023";
+import { kentuckyBasketball2024 } from "./seeds/kentucky-basketball-2024";
+import { kentuckyBasketball2025 } from "./seeds/kentucky-basketball-2025";
+import { kentuckyBasketball2026 } from "./seeds/kentucky-basketball-2026";
+import { dukeBasketball2001 } from "./seeds/duke-basketball-2001";
+import { dukeBasketball2002 } from "./seeds/duke-basketball-2002";
+import { dukeBasketball2003 } from "./seeds/duke-basketball-2003";
+import { dukeBasketball2004 } from "./seeds/duke-basketball-2004";
+import { dukeBasketball2005 } from "./seeds/duke-basketball-2005";
+import { dukeBasketball2016 } from "./seeds/duke-basketball-2016";
+import { dukeBasketball2017 } from "./seeds/duke-basketball-2017";
+import { dukeBasketball2018 } from "./seeds/duke-basketball-2018";
+import { dukeBasketball2019 } from "./seeds/duke-basketball-2019";
+import { dukeBasketball2020 } from "./seeds/duke-basketball-2020";
+import { dukeBasketball2021 } from "./seeds/duke-basketball-2021";
+import { dukeBasketball2022 } from "./seeds/duke-basketball-2022";
+import { dukeBasketball2023 } from "./seeds/duke-basketball-2023";
+import { dukeBasketball2024 } from "./seeds/duke-basketball-2024";
+import { dukeBasketball2025 } from "./seeds/duke-basketball-2025";
 
 const adapter = new PrismaBetterSqlite3({ url: process.env.DATABASE_PATH ?? "./dev.db" });
 const prisma = new PrismaClient({ adapter } as any);
 
-const allTeams: TeamSeed[] = [dukeBasketball2015, uscFootball2005, montverdeAcademy2020];
+const allTeams: TeamSeed[] = [
+  dukeBasketball2001,
+  dukeBasketball2002,
+  dukeBasketball2003,
+  dukeBasketball2004,
+  dukeBasketball2005,
+  dukeBasketball2006,
+  dukeBasketball2010,
+  dukeBasketball2011,
+  dukeBasketball2012,
+  dukeBasketball2013,
+  dukeBasketball2014,
+  dukeBasketball2015,
+  dukeBasketball2016,
+  dukeBasketball2017,
+  dukeBasketball2018,
+  dukeBasketball2019,
+  dukeBasketball2020,
+  dukeBasketball2021,
+  dukeBasketball2022,
+  dukeBasketball2023,
+  dukeBasketball2024,
+  dukeBasketball2025,
+  kentuckyBasketball2016,
+  kentuckyBasketball2017,
+  kentuckyBasketball2018,
+  kentuckyBasketball2019,
+  kentuckyBasketball2020,
+  kentuckyBasketball2021,
+  kentuckyBasketball2022,
+  kentuckyBasketball2023,
+  kentuckyBasketball2024,
+  kentuckyBasketball2025,
+  kentuckyBasketball2026,
+  uscFootball2005,
+  montverdeAcademy2020,
+  alabamaFootball2015,
+  floridaBasketball2004,
+  floridaBasketball2005,
+  texasBasketball2003,
+  texasBasketball2006,
+  texasBasketball2007,
+];
 
 async function seedTeam(teamSeed: TeamSeed) {
   const teamData = {

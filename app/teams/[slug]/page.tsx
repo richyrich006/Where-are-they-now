@@ -28,8 +28,22 @@ export default async function TeamPage({ params }: Props) {
 
   const membersWithTeam = team.memberships.map((m) => ({ ...m, team }));
 
+  // Generate school slug for back navigation
+  const schoolSlug = team.school.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
+      {/* Back to school */}
+      <a
+        href={`/schools/${schoolSlug}`}
+        className="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-gray-500 hover:text-blue-700 transition"
+      >
+        <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+        </svg>
+        Back to {team.school}
+      </a>
+
       {/* Team Header */}
       <div className="mb-10">
         <div className="flex flex-wrap items-center gap-4">

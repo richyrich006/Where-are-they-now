@@ -13,6 +13,7 @@ export const montverdeAcademy2020: TeamSeed = {
     // ── Batch 1: NBA Stars ──────────────────────────────────────────────────
     {
       slug: "cade-cunningham",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630595.png",
       firstName: "Cade",
       lastName: "Cunningham",
       birthYear: 2001,
@@ -36,6 +37,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2020",
         statsNote: "Naismith Prep Player of the Year • McDonald's All-American • Led 25-0 season",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 24.0, reboundsPerGame: 7.5, assistsPerGame: 4.0 },
+      ],
       careerEvents: [
         { year: 2020, title: "Named Naismith Prep Player of the Year", eventType: "AWARD" },
         { year: 2021, title: "Selected #1 overall by the Detroit Pistons", eventType: "DRAFT" },
@@ -45,6 +49,7 @@ export const montverdeAcademy2020: TeamSeed = {
     },
     {
       slug: "scottie-barnes",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630567.png",
       firstName: "Scottie",
       lastName: "Barnes",
       birthYear: 2001,
@@ -68,6 +73,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2018-2020",
         statsNote: "McDonald's All-American • Five-star recruit • Ultimate versatile playmaker",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 16.0, reboundsPerGame: 8.0, assistsPerGame: 5.5 },
+      ],
       careerEvents: [
         { year: 2021, title: "Selected #4 overall by the Toronto Raptors", eventType: "DRAFT" },
         { year: 2022, title: "Won NBA Rookie of the Year", eventType: "AWARD" },
@@ -82,6 +90,8 @@ export const montverdeAcademy2020: TeamSeed = {
       birthYear: 2001,
       hometown: "Greenville, NC",
       highSchool: "South Central High School, Winterville, NC (transferred to Montverde Academy)",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630549.png",
       isFeatured: false,
       bio: "A physically imposing center who anchored Montverde's frontcourt. Sharpe was a McDonald's All-American who chose North Carolina before being drafted into the NBA.",
       status: {
@@ -100,6 +110,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2020",
         statsNote: "McDonald's All-American • Dominant rebounder and rim protector",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 12.5, reboundsPerGame: 9.0, assistsPerGame: 1.0 },
+      ],
       careerEvents: [
         { year: 2021, title: "Selected #29 overall by the Suns (traded to Nets)", eventType: "DRAFT" },
         { year: 2025, title: "Signed one-year, $6.25M deal with Brooklyn Nets", eventType: "SIGNING" },
@@ -112,6 +125,8 @@ export const montverdeAcademy2020: TeamSeed = {
       birthYear: 2002,
       hometown: "Little Rock, AR",
       highSchool: "North Little Rock High School, North Little Rock, AR (transferred to Montverde Academy)",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1630541.png",
       isFeatured: false,
       bio: "A silky-smooth shooting guard with an NBA-ready game from day one. Moody was a five-star recruit and McDonald's All-American who spent one year at Arkansas before going pro.",
       status: {
@@ -130,6 +145,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2020",
         statsNote: "McDonald's All-American • Five-star recruit • Elite shooter",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 14.0, reboundsPerGame: 5.5, assistsPerGame: 1.5 },
+      ],
       careerEvents: [
         { year: 2021, title: "Selected #14 overall by the Golden State Warriors", eventType: "DRAFT" },
         { year: 2022, title: "Won NBA Championship with the Warriors as a rookie", eventType: "CHAMPIONSHIP" },
@@ -143,6 +161,8 @@ export const montverdeAcademy2020: TeamSeed = {
       birthYear: 2003,
       hometown: "Mississauga, ON, Canada",
       highSchool: "Transferred to Montverde Academy from Canada",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1631216.png",
       isFeatured: false,
       bio: "A talented Canadian shooting guard who was one of the top international recruits in the 2021 class. Houstan spent two years at Montverde before heading to Michigan.",
       status: {
@@ -161,6 +181,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2021",
         statsNote: "Top international recruit • Elite perimeter shooter",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 10.0, reboundsPerGame: 4.0, assistsPerGame: 1.0 },
+      ],
       careerEvents: [
         { year: 2022, title: "Selected #32 overall by the Orlando Magic", eventType: "DRAFT" },
         { year: 2025, title: "Signed with the Atlanta Hawks", eventType: "SIGNING" },
@@ -175,6 +198,8 @@ export const montverdeAcademy2020: TeamSeed = {
       birthYear: 2003,
       hometown: "Newark, NJ",
       highSchool: "University High School, Newark, NJ (transferred to Montverde Academy)",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1641727.png",
       isFeatured: false,
       bio: "A long, athletic wing who was a five-star recruit and McDonald's All-American in 2022. Whitehead spent three years at Montverde before playing one season at Duke.",
       status: {
@@ -193,6 +218,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2022",
         statsNote: "McDonald's All-American (2022) • Five-star recruit",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Sophomore", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 8.0, reboundsPerGame: 3.5, assistsPerGame: 1.0 },
+      ],
       careerEvents: [
         { year: 2023, title: "Selected #31 overall by the Pacers (traded to Nets)", eventType: "DRAFT" },
         { year: 2025, title: "Waived by the Brooklyn Nets", eventType: "OTHER" },
@@ -224,6 +252,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2021",
         statsNote: "Five-star recruit • McDonald's All-American nominee",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Junior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 11.0, reboundsPerGame: 3.0, assistsPerGame: 2.0 },
+      ],
       careerEvents: [
         { year: 2021, title: "Enrolled at Baylor University", eventType: "CAREER" },
         { year: 2025, title: "Transferred to Georgetown University", eventType: "CAREER" },
@@ -254,6 +285,9 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2020",
         statsNote: "Four-star recruit • Floor general and facilitator",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 8.5, reboundsPerGame: 2.5, assistsPerGame: 3.5 },
+      ],
       careerEvents: [
         { year: 2020, title: "Enrolled at University of Michigan", eventType: "CAREER" },
         { year: 2023, title: "Transferred to VCU", eventType: "CAREER" },
@@ -267,6 +301,8 @@ export const montverdeAcademy2020: TeamSeed = {
       birthYear: 2003,
       hometown: "Aurora, ON, Canada",
       highSchool: "Transferred to Montverde Academy from Canada",
+
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642948.png",
       isFeatured: false,
       bio: "A crafty Canadian point guard who was a key playmaker on the 2019-20 Montverde team. Nembhard's vision and court sense made him a standout distributor.",
       status: {
@@ -285,12 +321,58 @@ export const montverdeAcademy2020: TeamSeed = {
         yearsAtSchool: "2019-2020",
         statsNote: "Elite passer and floor general • Canadian national team prospect",
       },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 7.0, reboundsPerGame: 2.0, assistsPerGame: 4.5 },
+      ],
       careerEvents: [
         { year: 2021, title: "Enrolled at Creighton University", eventType: "CAREER" },
         { year: 2023, title: "Transferred to Gonzaga University", eventType: "CAREER" },
         { year: 2025, title: "Signed two-way deal with the Dallas Mavericks (undrafted)", eventType: "SIGNING" },
         { year: 2026, title: "Converted to standard multi-year NBA contract", eventType: "SIGNING" },
       ],
+    },
+    // ── Coach ────────────────────────────────────────────────────────────────
+    {
+      slug: "day-day-cunningham",
+      firstName: "Day'Ron",
+      lastName: "Cunningham",
+      birthYear: 2002,
+      hometown: "Memphis, TN",
+      highSchool: "Montverde Academy, Montverde, FL",
+      bio: "Bench player on the historic 2019-20 Montverde team that featured four eventual NBA lottery picks. Played a supporting role as the team rolled through the season undefeated.",
+      status: {
+        occupationType: "OTHER",
+        currentTitle: "Private Citizen",
+        location: "Florida",
+        statusNote: "Played briefly in college after Montverde before transitioning away from basketball. Maintains a low public profile.",
+        sourceUrl: "https://montverdeacademy.com/athletics/basketball/",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 14, position: "Guard", yearsAtSchool: "2019-2020", statsNote: "Reserve guard on undefeated 2019-20 squad" },
+      seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy", season: "2019-20", yearLabel: "Senior", sortOrder: 1, pointsPerGame: 4.5, reboundsPerGame: 1.8, assistsPerGame: 1.5 },
+      ],
+      careerEvents: [],
+    },
+    {
+      slug: "ace-baldwin",
+      firstName: "Ace",
+      lastName: "Baldwin Jr.",
+      birthYear: 2002,
+      hometown: "Baltimore, MD",
+      highSchool: "Montverde Academy, Montverde, FL",
+      bio: "Underclassman point guard on the 2019-20 Montverde team. Would later become the Atlantic 10 Player of the Year at VCU before transferring to Penn State.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Point Guard",
+        league: "Overseas / G-League",
+        statusNote: "Played college ball at VCU (2020-23) where he won A-10 Player of the Year, then transferred to Penn State for his senior year. Has played professionally overseas and in the G-League since going undrafted in 2024.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Ace_Baldwin_Jr.",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 5, position: "Point Guard", yearsAtSchool: "2019-2020", statsNote: "Underclassman PG · Later A-10 POY at VCU" },
+      seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy", season: "2019-20", yearLabel: "Junior", sortOrder: 1, pointsPerGame: 8.5, reboundsPerGame: 2.5, assistsPerGame: 4.0 },
+      ],
+      careerEvents: [],
     },
     // ── Coach ────────────────────────────────────────────────────────────────
     {
@@ -323,6 +405,106 @@ export const montverdeAcademy2020: TeamSeed = {
         { year: 2024, title: "Departed Montverde Academy", eventType: "CAREER" },
         { year: 2024, title: "Hired as head coach at SPIRE Academy", eventType: "CAREER" },
       ],
+    },
+    {
+      slug: "jesse-jones-mva",
+      firstName: "Jesse",
+      lastName: "Jones",
+      birthYear: 2001,
+      hometown: "Clermont, FL",
+      highSchool: "Montverde Academy, Montverde, FL",
+      isFeatured: false,
+      bio: "Valedictorian with a 4.47 GPA and Student-Athlete of the Year. A guard who prioritized academics alongside basketball.",
+      status: {
+        occupationType: "OTHER",
+        currentTitle: "Finance Professional",
+        location: "Florida",
+        statusNote:
+          "After Montverde, Jones played at Babson College for two years then transferred to Florida State, where he earned both a bachelor's (2024) and master's (2025) in finance. A standout student-athlete who was valedictorian at Montverde.",
+        sourceUrl: "https://seminoles.com/sports/mens-basketball/roster/jesse-jones/7256",
+      },
+      membership: { role: "PLAYER", position: "Guard", yearsAtSchool: "2019-2020", statsNote: "Senior • Valedictorian (4.47 GPA) • Student-Athlete of the Year" },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior (Valedictorian)", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 5.0, reboundsPerGame: 2.0, assistsPerGame: 2.0 },
+      ],
+      careerEvents: [
+        { year: 2025, title: "Earned master's degree in finance from Florida State", eventType: "CAREER" },
+      ],
+    },
+    {
+      slug: "keegan-harvey",
+      firstName: "Keegan",
+      lastName: "Harvey",
+      birthYear: 2002,
+      hometown: "Newcastle, Australia",
+      highSchool: "Montverde Academy, Montverde, FL (from Australia)",
+      isFeatured: false,
+      bio: "An Australian forward who came to Montverde as an international recruit.",
+      status: {
+        occupationType: "STUDENT",
+        currentTitle: "College Basketball Player",
+        currentEmployer: "Bryant University",
+        location: "Smithfield, RI",
+        statusNote:
+          "After Montverde, Harvey played at the College of Charleston, transferred to George Washington, then transferred again to Bryant University. His journey from Newcastle, Australia through multiple college programs is a testament to his persistence.",
+        sourceUrl: "https://news.bryant.edu/keegan-harveys-walkabout-route-australia-bryant",
+      },
+      membership: { role: "PLAYER", position: "Forward", yearsAtSchool: "2019-2020", statsNote: "Senior • International recruit from Australia" },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Senior (Australian)", sortOrder: 201, gamesPlayed: 25, pointsPerGame: 4.0, reboundsPerGame: 3.5, assistsPerGame: 0.5 },
+      ],
+      careerEvents: [
+        { year: 2020, title: "Enrolled at College of Charleston", eventType: "CAREER" },
+      ],
+    },
+    {
+      slug: "abdou-halil-barre",
+      firstName: "Abdou-Halil",
+      lastName: "Barre",
+      birthYear: 2003,
+      hometown: "Paris, France (born in Cotonou, Benin)",
+      highSchool: "Montverde Academy, Montverde, FL",
+      isFeatured: false,
+      bio: "A versatile forward/center from Benin who was raised in Paris, France before coming to Montverde.",
+      status: {
+        occupationType: "STUDENT",
+        currentTitle: "College Basketball Player",
+        currentEmployer: "Duquesne University",
+        location: "Pittsburgh, PA",
+        statusNote:
+          "After Montverde, Barre enrolled at Duquesne University where he plays college basketball. An international prospect who came to the U.S. from France via Benin.",
+        sourceUrl: "https://247sports.com/player/abdou-halil-barre-46103241/",
+      },
+      membership: { role: "PLAYER", position: "Forward / Center", yearsAtSchool: "2019-2021", statsNote: "Junior • International recruit from Benin/France" },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Junior (from Benin/France)", sortOrder: 201, gamesPlayed: 20, pointsPerGame: 3.5, reboundsPerGame: 4.0, assistsPerGame: 0.5 },
+      ],
+      careerEvents: [
+        { year: 2021, title: "Enrolled at Duquesne University", eventType: "CAREER" },
+      ],
+    },
+    {
+      slug: "yonghao-michael-wu",
+      firstName: "Yonghao Michael",
+      lastName: "Wu",
+      birthYear: 2002,
+      hometown: "Beijing, China",
+      highSchool: "Montverde Academy, Montverde, FL (from China)",
+      isFeatured: false,
+      bio: "A forward from Beijing, China who was part of Montverde's deep and internationally diverse roster.",
+      status: {
+        occupationType: "OTHER",
+        currentTitle: "Private Citizen",
+        location: "China",
+        statusNote:
+          "Wu was part of Montverde's internationally diverse 2019-20 roster. Post-Montverde career information is limited. He is believed to have returned to China after his time at the academy.",
+        sourceUrl: "https://mvasports.com/sports/mens-basketball/roster/yonghao-michael-wu/1387",
+      },
+      membership: { role: "PLAYER", position: "Forward", yearsAtSchool: "2019-2020", statsNote: "Junior • International player from Beijing, China" },
+            seasonStats: [
+        { level: "HIGH_SCHOOL", teamName: "Montverde Academy Eagles", season: "2019-2020", yearLabel: "Junior (from Beijing)", sortOrder: 201, gamesPlayed: 15, pointsPerGame: 2.0, reboundsPerGame: 2.0, assistsPerGame: 0.3 },
+      ],
+      careerEvents: [],
     },
   ],
 };

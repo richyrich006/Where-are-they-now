@@ -1,21 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Person, TeamMembership, Team } from "@/app/generated/prisma/client";
+import { JerseyBlock } from "@/components/players/PlayerCard";
 
 type PlayerHeroProps = {
   person: Person & {
     memberships: (TeamMembership & { team: Team })[];
   };
 };
-
-function InitialsBlock({ firstName, lastName }: { firstName: string; lastName: string }) {
-  const initials = `${firstName[0]}${lastName[0]}`.toUpperCase();
-  return (
-    <div className="flex h-full w-full items-center justify-center rounded-2xl bg-blue-900">
-      <span className="text-4xl font-bold tracking-tight text-white/80">{initials}</span>
-    </div>
-  );
-}
 
 export function PlayerHero({ person }: PlayerHeroProps) {
   const membership = person.memberships[0];
@@ -34,7 +26,13 @@ export function PlayerHero({ person }: PlayerHeroProps) {
             priority
           />
         ) : (
-          <InitialsBlock firstName={person.firstName} lastName={person.lastName} />
+          <JerseyBlock
+            jerseyNumber={membership?.jerseyNumber ?? null}
+            firstName={person.firstName}
+            lastName={person.lastName}
+            school={membership?.team?.school}
+            sport={membership?.team?.sport}
+          />
         )}
       </div>
       <div>

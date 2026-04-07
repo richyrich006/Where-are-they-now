@@ -17,8 +17,8 @@ export function Navbar() {
           </Suspense>
         </div>
         <nav className="flex items-center gap-4 text-sm font-medium text-gray-600">
-          <Link href="/teams/duke-basketball-2015" className="hover:text-blue-700">
-            2015 Duke
+          <Link href="/" className="hover:text-blue-700">
+            Teams
           </Link>
           <Link href="/search" className="hover:text-blue-700 sm:hidden">
             Search

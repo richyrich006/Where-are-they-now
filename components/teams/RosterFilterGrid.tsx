@@ -9,13 +9,14 @@ type MemberWithPerson = TeamMembership & {
   team: Team;
 };
 
-type Filter = "all" | "pro" | "coaching" | "business" | "other";
+type Filter = "all" | "pro" | "coaching" | "business" | "linkedin" | "other";
 
 const FILTERS: { id: Filter; label: string }[] = [
   { id: "all", label: "All" },
   { id: "pro", label: "Active Pro" },
   { id: "coaching", label: "Coaching" },
   { id: "business", label: "Business" },
+  { id: "linkedin", label: "Has LinkedIn" },
   { id: "other", label: "Other" },
 ];
 
@@ -30,6 +31,8 @@ function matchesFilter(member: MemberWithPerson, filter: Filter): boolean {
       occ === "FRONT_OFFICE" ||
       occ === "BROADCASTER_ANALYST"
     );
+  if (filter === "linkedin")
+    return member.person.currentStatus?.linkedInUrl != null;
   if (filter === "other")
     return (
       !occ ||
