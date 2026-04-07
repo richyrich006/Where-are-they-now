@@ -118,6 +118,7 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2003,
       hometown: "Sydney, Australia",
       highSchool: "NBA Global Academy, Canberra, Australia",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642878.png",
       bio: "Sophomore point guard who took a major leap, averaging 10.0 PPG and 4.2 APG while becoming the team's primary ball-handler.",
       status: {
         occupationType: "STUDENT",
@@ -255,6 +256,7 @@ export const dukeBasketball2024: TeamSeed = {
       birthYear: 2004,
       hometown: "Houston, TX",
       highSchool: "Kinkaid School, Houston, TX",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642883.png",
       bio: "Freshman Clemson transfer who sat out the 2023-24 season per transfer rules. Would become a key contributor in 2024-25.",
       status: {
         occupationType: "STUDENT",

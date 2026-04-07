@@ -130,6 +130,7 @@ export const dukeBasketball2023: TeamSeed = {
       birthYear: 2003,
       hometown: "Sydney, Australia",
       highSchool: "NBA Global Academy, Canberra, Australia",
+      imageUrl: "https://cdn.nba.com/headshots/nba/latest/1040x760/1642878.png",
       bio: "Australian freshman point guard who showed poise and playmaking ability despite a steep learning curve in his first season in the US.",
       status: {
         occupationType: "STUDENT",
