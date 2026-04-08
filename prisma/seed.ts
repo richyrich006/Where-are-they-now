@@ -4,6 +4,7 @@ import type { TeamSeed, PersonSeed } from "./seeds/types";
 import { dukeBasketball2006 } from "./seeds/duke-basketball-2006";
 import { dukeBasketball2007 } from "./seeds/duke-basketball-2007";
 import { dukeBasketball2008 } from "./seeds/duke-basketball-2008";
+import { dukeBasketball2009 } from "./seeds/duke-basketball-2009";
 import { dukeBasketball2010 } from "./seeds/duke-basketball-2010";
 import { dukeBasketball2011 } from "./seeds/duke-basketball-2011";
 import { dukeBasketball2012 } from "./seeds/duke-basketball-2012";
@@ -18,6 +19,10 @@ import { texasBasketball2006 } from "./seeds/texas-basketball-2006";
 import { texasBasketball2007 } from "./seeds/texas-basketball-2007";
 import { floridaBasketball2004 } from "./seeds/florida-basketball-2004";
 import { floridaBasketball2005 } from "./seeds/florida-basketball-2005";
+import { kentuckyBasketball2012 } from "./seeds/kentucky-basketball-2012";
+import { kentuckyBasketball2013 } from "./seeds/kentucky-basketball-2013";
+import { kentuckyBasketball2014 } from "./seeds/kentucky-basketball-2014";
+import { kentuckyBasketball2015 } from "./seeds/kentucky-basketball-2015";
 import { kentuckyBasketball2016 } from "./seeds/kentucky-basketball-2016";
 import { kentuckyBasketball2017 } from "./seeds/kentucky-basketball-2017";
 import { kentuckyBasketball2018 } from "./seeds/kentucky-basketball-2018";
@@ -57,6 +62,7 @@ const allTeams: TeamSeed[] = [
   dukeBasketball2006,
   dukeBasketball2007,
   dukeBasketball2008,
+  dukeBasketball2009,
   dukeBasketball2010,
   dukeBasketball2011,
   dukeBasketball2012,
@@ -73,6 +79,10 @@ const allTeams: TeamSeed[] = [
   dukeBasketball2023,
   dukeBasketball2024,
   dukeBasketball2025,
+  kentuckyBasketball2012,
+  kentuckyBasketball2013,
+  kentuckyBasketball2014,
+  kentuckyBasketball2015,
   kentuckyBasketball2016,
   kentuckyBasketball2017,
   kentuckyBasketball2018,
