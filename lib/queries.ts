@@ -234,3 +234,209 @@ export async function getRecentUpdates(limit = 10) {
     person: personMap.get(u.personId) ?? null,
   }));
 }
+
+// ── Coach queries ──────────────────────────────────────────────────────────
+
+export async function getAllCoaches() {
+  const coaches = await prisma.person.findMany({
+    where: {
+      memberships: {
+        some: {
+          role: { in: ["HEAD_COACH", "ASSISTANT_COACH"] },
+        },
+      },
+    },
+    include: {
+      currentStatus: true,
+      memberships: {
+        where: { role: { in: ["HEAD_COACH", "ASSISTANT_COACH"] } },
+        include: { team: true },
+        orderBy: { team: { season: "desc" } },
+      },
+    },
+    orderBy: { lastName: "asc" },
+  });
+  return coaches;
+}
+
+export async function getCoachBySlug(slug: string) {
+  const coach = await prisma.person.findUnique({
+    where: { slug },
+    include: {
+      currentStatus: true,
+      careerEvents: { orderBy: { year: "asc" } },
+      seasonStats: { orderBy: { sortOrder: "asc" } },
+      memberships: {
+        where: { role: { in: ["HEAD_COACH", "ASSISTANT_COACH"] } },
+        include: {
+          team: {
+            include: {
+              memberships: {
+                where: { role: "PLAYER" },
+                include: {
+                  person: { include: { currentStatus: true } },
+                },
+              },
+            },
+          },
+        },
+        orderBy: { team: { season: "asc" } },
+      },
+    },
+  });
+  if (!coach || coach.memberships.length === 0) return null;
+  return coach;
+}
+
+export async function getCoachingTree(coachPersonId: number) {
+  // Find all players who played for this coach
+  const coachTeams = await prisma.teamMembership.findMany({
+    where: {
+      personId: coachPersonId,
+      role: { in: ["HEAD_COACH", "ASSISTANT_COACH"] },
+    },
+    select: { teamId: true },
+  });
+  const teamIds = coachTeams.map((t) => t.teamId);
+  if (teamIds.length === 0) return { players: [], coaches: [] };
+
+  // All players who played on those teams
+  const playerMemberships = await prisma.teamMembership.findMany({
+    where: {
+      teamId: { in: teamIds },
+      role: "PLAYER",
+    },
+    select: { personId: true, teamId: true },
+  });
+
+  const playerIds = [...new Set(playerMemberships.map((m) => m.personId))];
+  if (playerIds.length === 0) return { players: [], coaches: [] };
+
+  // Full records for those players
+  const players = await prisma.person.findMany({
+    where: { id: { in: playerIds } },
+    include: {
+      currentStatus: true,
+      memberships: {
+        where: { role: { in: ["HEAD_COACH", "ASSISTANT_COACH"] } },
+        include: { team: true },
+      },
+    },
+    orderBy: [{ lastName: "asc" }],
+  });
+
+  // Split: who became coaches themselves?
+  const becameCoaches = players.filter(
+    (p) =>
+      p.memberships.length > 0 ||
+      p.currentStatus?.occupationType === "COACH" ||
+      p.currentStatus?.occupationType === "RETIRED_COACH",
+  );
+
+  return {
+    players,
+    coaches: becameCoaches,
+  };
+}
+
+// ── Teammate graph / six-degrees ────────────────────────────────────────────
+
+export async function getAllPeopleForGraph() {
+  return prisma.person.findMany({
+    select: {
+      id: true,
+      slug: true,
+      firstName: true,
+      lastName: true,
+      memberships: {
+        select: {
+          teamId: true,
+          role: true,
+          team: { select: { id: true, name: true, season: true, school: true } },
+        },
+      },
+    },
+  });
+}
+
+export type PathStep = {
+  fromPlayer: { slug: string; firstName: string; lastName: string };
+  toPlayer: { slug: string; firstName: string; lastName: string };
+  via: { id: number; name: string; season: string; school: string };
+};
+
+export async function findTeammatePath(
+  fromSlug: string,
+  toSlug: string,
+): Promise<PathStep[] | null> {
+  if (fromSlug === toSlug) return [];
+
+  const people = await getAllPeopleForGraph();
+  const bySlug = new Map(people.map((p) => [p.slug, p]));
+  const byId = new Map(people.map((p) => [p.id, p]));
+
+  const start = bySlug.get(fromSlug);
+  const end = bySlug.get(toSlug);
+  if (!start || !end) return null;
+
+  // Build team → player ids index
+  const teamPlayers = new Map<number, { personId: number; team: PathStep["via"] }[]>();
+  for (const p of people) {
+    for (const m of p.memberships) {
+      const arr = teamPlayers.get(m.teamId) ?? [];
+      arr.push({ personId: p.id, team: m.team });
+      teamPlayers.set(m.teamId, arr);
+    }
+  }
+
+  // BFS where nodes are person ids, edges are "shared team"
+  // Record the parent + the team used to reach each node
+  type Parent = { from: number; via: PathStep["via"] };
+  const parent = new Map<number, Parent | null>();
+  parent.set(start.id, null);
+  const queue: number[] = [start.id];
+
+  while (queue.length > 0) {
+    const current = queue.shift()!;
+    if (current === end.id) break;
+    const currentPerson = byId.get(current);
+    if (!currentPerson) continue;
+    for (const m of currentPerson.memberships) {
+      const teammates = teamPlayers.get(m.teamId) ?? [];
+      for (const t of teammates) {
+        if (t.personId === current) continue;
+        if (parent.has(t.personId)) continue;
+        parent.set(t.personId, { from: current, via: m.team });
+        queue.push(t.personId);
+        if (t.personId === end.id) {
+          queue.length = 0;
+          break;
+        }
+      }
+      if (queue.length === 0) break;
+    }
+  }
+
+  if (!parent.has(end.id)) return null;
+
+  // Reconstruct path
+  const steps: PathStep[] = [];
+  let cursor: number | null = end.id;
+  while (cursor !== null) {
+    const par = parent.get(cursor);
+    if (!par) break;
+    const fromP = byId.get(par.from)!;
+    const toP = byId.get(cursor)!;
+    steps.unshift({
+      fromPlayer: {
+        slug: fromP.slug,
+        firstName: fromP.firstName,
+        lastName: fromP.lastName,
+      },
+      toPlayer: { slug: toP.slug, firstName: toP.firstName, lastName: toP.lastName },
+      via: par.via,
+    });
+    cursor = par.from;
+  }
+  return steps;
+}

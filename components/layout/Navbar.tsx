@@ -23,6 +23,12 @@ export function Navbar() {
           <Link href="/players" className="hover:text-blue-700">
             Players
           </Link>
+          <Link href="/coaches" className="hover:text-blue-700">
+            Coaches
+          </Link>
+          <Link href="/connect" className="hover:text-blue-700">
+            Connect
+          </Link>
           <Link href="/map" className="hover:text-blue-700">
             Map
           </Link>
