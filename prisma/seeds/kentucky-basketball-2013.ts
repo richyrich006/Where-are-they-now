@@ -305,6 +305,27 @@ export const kentuckyBasketball2013: TeamSeed = {
       careerEvents: [],
     },
     {
+      slug: "tod-lanter",
+      firstName: "Tod",
+      lastName: "Lanter",
+      birthYear: 1992,
+      hometown: "Frankfort, KY",
+      highSchool: "Western Hills High School, Frankfort, KY",
+      bio: "A freshman walk-on guard from Frankfort who joined the Wildcats during the 2012-13 NIT season.",
+      status: {
+        occupationType: "OTHER",
+        currentTitle: "Professional",
+        location: "Kentucky",
+        statusNote: "A Kentucky native walk-on who stayed with the program through 2015, now works in the Kentucky area.",
+        sourceUrl: "https://ukathletics.com/roster/mens-basketball/tod-lanter/",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 1, position: "Guard", yearsAtSchool: "2012-2015", statsNote: "Freshman walk-on", gamesPlayed: 6 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2012-13", yearLabel: "Freshman (walk-on)", sortOrder: 201, gamesPlayed: 6 },
+      ],
+      careerEvents: [],
+    },
+    {
       slug: "john-calipari",
       firstName: "John",
       lastName: "Calipari",
