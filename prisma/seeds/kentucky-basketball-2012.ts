@@ -349,6 +349,29 @@ export const kentuckyBasketball2012: TeamSeed = {
       ],
     },
     {
+      slug: "ryan-harrow",
+      firstName: "Ryan",
+      lastName: "Harrow",
+      birthYear: 1991,
+      hometown: "Marietta, GA",
+      highSchool: "Walton High School, Marietta, GA",
+      bio: "A redshirt freshman point guard who transferred in from NC State and sat out the 2011-12 championship season due to NCAA transfer rules.",
+      status: {
+        occupationType: "RETIRED_ATHLETE",
+        currentTitle: "Retired Professional Athlete",
+        location: "Atlanta, GA",
+        statusNote: "After sitting out the 2012 title season, Harrow played sparingly in 2012-13 before transferring to Georgia State where he became an All-Sun Belt selection. Played professionally overseas in Europe and Asia after college.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Ryan_Harrow",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 12, position: "Point Guard", yearsAtSchool: "2011-2013", statsNote: "NC State transfer sit-out • NCAA Champion (redshirt)", gamesPlayed: 0 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2011-12", yearLabel: "Redshirt Freshman (transfer sit-out)", sortOrder: 201, gamesPlayed: 0 },
+      ],
+      careerEvents: [
+        { year: 2012, title: "Part of NCAA Championship team (redshirted)", eventType: "CHAMPIONSHIP" },
+      ],
+    },
+    {
       slug: "john-calipari",
       firstName: "John",
       lastName: "Calipari",

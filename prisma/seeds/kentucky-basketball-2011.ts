@@ -303,6 +303,29 @@ export const kentuckyBasketball2011: TeamSeed = {
       careerEvents: [],
     },
     {
+      slug: "enes-kanter-kentucky",
+      firstName: "Enes",
+      lastName: "Kanter",
+      birthYear: 1992,
+      hometown: "Zurich, Switzerland",
+      highSchool: "Stoneridge Preparatory School, Simi Valley, CA",
+      bio: "The Turkish big man was ruled permanently ineligible by the NCAA in 2010 for accepting money from his Turkish pro club and never played a game at Kentucky.",
+      status: {
+        occupationType: "RETIRED_ATHLETE",
+        currentTitle: "Retired NBA Player / Activist",
+        location: "New York, NY",
+        statusNote: "Selected #3 overall by the Utah Jazz in the 2011 NBA Draft despite never playing a college game. Played 11 NBA seasons with the Jazz, Thunder, Knicks, Trail Blazers, Celtics, and Rockets. Became an outspoken political activist and critic of the Turkish government, legally changing his name to Enes Kanter Freedom.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Enes_Kanter_Freedom",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 0, position: "Center", yearsAtSchool: "2010-2011", statsNote: "Ruled ineligible by NCAA • Never played", gamesPlayed: 0 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Kentucky Wildcats", season: "2010-11", yearLabel: "Freshman (ineligible)", sortOrder: 201, gamesPlayed: 0 },
+      ],
+      careerEvents: [
+        { year: 2011, title: "Selected #3 overall by the Utah Jazz", eventType: "DRAFT" },
+      ],
+    },
+    {
       slug: "john-calipari",
       firstName: "John",
       lastName: "Calipari",
