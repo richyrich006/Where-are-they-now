@@ -1,0 +1,93 @@
+import type { TeamSeed } from "./types";
+
+export const clemsonBasketball2024: TeamSeed = {
+  slug: "clemson-basketball-2024",
+  name: "Clemson Tigers",
+  season: "2023-2024",
+  sport: "Men's Basketball",
+  school: "Clemson University",
+  conference: "ACC",
+  accomplishment: "Elite Eight (24-12)",
+  logoUrl: "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+  mascotName: "Tiger",
+  people: [
+    {
+      slug: "pj-hall-clemson",
+      firstName: "PJ",
+      lastName: "Hall",
+      birthYear: 2002,
+      hometown: "Dorchester, SC",
+      highSchool: "Dorchester Academy, Summerville, SC",
+      isFeatured: true,
+      bio: "The All-ACC senior center who was the heart of Clemson's deepest NCAA Tournament run in decades — reaching the Elite Eight for the first time since 1980. His post moves and mid-range game made him virtually unguardable in the ACC.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Center (Two-Way Contract)",
+        currentEmployer: "Charlotte Hornets / Greensboro Swarm",
+        league: "NBA / G League",
+        location: "Charlotte, NC",
+        statusNote: "After going undrafted in the 2024 NBA Draft, Hall signed a two-way contract with the Denver Nuggets and made 19 appearances. He was later waived and signed with the Memphis Grizzlies on a two-way deal before being waived again. In December 2025, he signed a two-way contract with the Charlotte Hornets and their G League affiliate, the Greensboro Swarm. Hall's post game and toughness have translated well to the professional level, and he continues to work toward a full NBA roster spot.",
+        sourceUrl: "https://en.wikipedia.org/wiki/PJ_Hall_(basketball)",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 24, position: "Center", yearsAtSchool: "2020-2024", statsNote: "All-ACC • First Clemson Elite Eight since 1980", gamesPlayed: 36, pointsPerGame: 15.9, reboundsPerGame: 5.7, assistsPerGame: 1.4 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Clemson Tigers", season: "2023-24", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 36, minutesPerGame: 29.5, pointsPerGame: 15.9, reboundsPerGame: 5.7, assistsPerGame: 1.4, fieldGoalPct: 0.538 },
+        { level: "PROFESSIONAL", teamName: "Denver Nuggets", season: "2024-25", yearLabel: "2024-25 (Rookie)", sortOrder: 301, gamesPlayed: 19, pointsPerGame: 1.7, reboundsPerGame: 1.2 },
+      ],
+      careerEvents: [
+        { year: 2024, title: "Led Clemson to first Elite Eight since 1980", eventType: "MILESTONE" },
+        { year: 2025, title: "Signed two-way contract with Charlotte Hornets", eventType: "SIGNING" },
+      ],
+    },
+    {
+      slug: "chase-hunter",
+      firstName: "Chase",
+      lastName: "Hunter",
+      birthYear: 2001,
+      hometown: "Atlanta, GA",
+      highSchool: "Westlake High School, Atlanta, GA",
+      bio: "The senior point guard who was the steady hand running Clemson's offense during the Elite Eight run. His composure under pressure and ability to create for others defined the Tigers' postseason surge.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Professional Basketball Player",
+        league: "G League / Overseas",
+        location: "United States",
+        statusNote: "After leading Clemson to the Elite Eight, Hunter entered the professional ranks. He played NBA Summer League and has been pursuing his pro career in the G League and overseas. His four-year career at Clemson saw steady improvement each season, culminating in the deepest tournament run in modern program history.",
+        sourceUrl: "https://clemsontigers.com/roster/chase-hunter/",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 1, position: "Point Guard", yearsAtSchool: "2020-2024", statsNote: "Senior PG • Floor general • Elite Eight", gamesPlayed: 36, pointsPerGame: 14.2, reboundsPerGame: 3.1, assistsPerGame: 4.8 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Clemson Tigers", season: "2023-24", yearLabel: "Senior", sortOrder: 204, gamesPlayed: 36, minutesPerGame: 33.5, pointsPerGame: 14.2, reboundsPerGame: 3.1, assistsPerGame: 4.8 },
+      ],
+      careerEvents: [
+        { year: 2024, title: "Led Clemson to first Elite Eight since 1980", eventType: "MILESTONE" },
+      ],
+    },
+    {
+      slug: "brad-brownell",
+      firstName: "Brad",
+      lastName: "Brownell",
+      birthYear: 1968,
+      hometown: "Evansville, IN",
+      highSchool: "DePauw University (played at)",
+      isFeatured: true,
+      bio: "The longtime head coach who finally broke through with a deep tournament run after 14 seasons at Clemson. The Elite Eight appearance in 2024 validated his methodical program-building approach.",
+      status: {
+        occupationType: "COACH",
+        currentTitle: "Head Men's Basketball Coach",
+        currentEmployer: "Clemson University",
+        location: "Clemson, SC",
+        statusNote: "Brad Brownell has been Clemson's head coach since 2010, making him one of the longest-tenured coaches in the ACC. After years of being on the bubble and facing fan frustration, Brownell led the Tigers to the Elite Eight in 2024 — their deepest NCAA Tournament run since 1980. The achievement earned him a contract extension and quieted years of calls for his firing. Before Clemson, he coached at UNC Wilmington and Wright State.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Brad_Brownell",
+      },
+      membership: { role: "HEAD_COACH", position: "Head Coach", yearsAtSchool: "2010-present", statsNote: "First Clemson Elite Eight since 1980 • 15th season in 2024" },
+      seasonStats: [
+        { level: "COACHING", teamName: "Clemson Tigers", season: "2023-24", yearLabel: "2023-24", sortOrder: 214, wins: 24, losses: 12, tournamentResult: "Elite Eight" },
+      ],
+      careerEvents: [
+        { year: 2010, title: "Named Clemson head coach", eventType: "CAREER_CHANGE" },
+        { year: 2024, title: "Led Clemson to first Elite Eight since 1980", eventType: "MILESTONE" },
+      ],
+    },
+  ],
+};
