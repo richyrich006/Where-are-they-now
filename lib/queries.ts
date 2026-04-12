@@ -115,22 +115,34 @@ export async function getTeamsBySchool(school: string) {
 
 export async function getAllSchools() {
   const teams = await prisma.team.findMany({
-    select: { school: true, logoUrl: true, sport: true },
+    select: { school: true, logoUrl: true, sport: true, _count: { select: { memberships: true } } },
     orderBy: { school: "asc" },
   });
-  const schoolMap = new Map<string, { logoUrl: string | null; sports: Set<string> }>();
+  const schoolMap = new Map<
+    string,
+    { logoUrl: string | null; sports: Set<string>; teamCount: number; playerCount: number }
+  >();
   for (const t of teams) {
     const existing = schoolMap.get(t.school);
     if (existing) {
       existing.sports.add(t.sport);
+      existing.teamCount++;
+      existing.playerCount += t._count.memberships;
     } else {
-      schoolMap.set(t.school, { logoUrl: t.logoUrl, sports: new Set([t.sport]) });
+      schoolMap.set(t.school, {
+        logoUrl: t.logoUrl,
+        sports: new Set([t.sport]),
+        teamCount: 1,
+        playerCount: t._count.memberships,
+      });
     }
   }
   return Array.from(schoolMap.entries()).map(([school, data]) => ({
     school,
     logoUrl: data.logoUrl,
     sports: Array.from(data.sports),
+    teamCount: data.teamCount,
+    playerCount: data.playerCount,
     slug: school.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""),
   }));
 }
