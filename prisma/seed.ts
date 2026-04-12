@@ -19,6 +19,8 @@ import { texasBasketball2006 } from "./seeds/texas-basketball-2006";
 import { texasBasketball2007 } from "./seeds/texas-basketball-2007";
 import { floridaBasketball2004 } from "./seeds/florida-basketball-2004";
 import { floridaBasketball2005 } from "./seeds/florida-basketball-2005";
+import { uncBasketball2009 } from "./seeds/unc-basketball-2009";
+import { virginiaBasketball2019 } from "./seeds/virginia-basketball-2019";
 import { kentuckyBasketball2010 } from "./seeds/kentucky-basketball-2010";
 import { kentuckyBasketball2011 } from "./seeds/kentucky-basketball-2011";
 import { kentuckyBasketball2012 } from "./seeds/kentucky-basketball-2012";
@@ -106,6 +108,8 @@ const allTeams: TeamSeed[] = [
   texasBasketball2003,
   texasBasketball2006,
   texasBasketball2007,
+  uncBasketball2009,
+  virginiaBasketball2019,
 ];
 
 async function seedTeam(teamSeed: TeamSeed) {
