@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 import Link from "next/link";
 
 type Location = {
@@ -20,28 +20,13 @@ type Location = {
 
 type Props = { locations: Location[] };
 
-// Equirectangular projection — simple lat/lon → pixel
-// Map covers full globe in a 1000x500 viewbox
-const MAP_W = 1000;
-const MAP_H = 500;
-
-function project(lat: number, lon: number) {
-  const x = ((lon + 180) / 360) * MAP_W;
-  const y = ((90 - lat) / 180) * MAP_H;
-  return { x, y };
-}
-
-// Group locations by city to cluster overlapping pins
 function clusterByCity(locations: Location[]) {
   const map = new Map<string, Location[]>();
   for (const loc of locations) {
     const key = `${loc.city}|${loc.region ?? ""}|${loc.country}`;
     const existing = map.get(key);
-    if (existing) {
-      existing.push(loc);
-    } else {
-      map.set(key, [loc]);
-    }
+    if (existing) existing.push(loc);
+    else map.set(key, [loc]);
   }
   return Array.from(map.entries()).map(([_key, locs]) => ({
     city: locs[0].city,
@@ -54,8 +39,10 @@ function clusterByCity(locations: Location[]) {
 }
 
 export function AlumniMap({ locations }: Props) {
-  const [hoveredCity, setHoveredCity] = useState<string | null>(null);
   const [filter, setFilter] = useState("");
+  const [selectedCity, setSelectedCity] = useState<string | null>(null);
+  const mapRef = useRef<HTMLDivElement>(null);
+  const leafletRef = useRef<any>(null);
 
   const filtered = useMemo(() => {
     if (!filter) return locations;
@@ -72,9 +59,96 @@ export function AlumniMap({ locations }: Props) {
   const clusters = useMemo(() => clusterByCity(filtered), [filtered]);
 
   const selectedCluster = useMemo(
-    () => clusters.find((c) => `${c.city}|${c.region ?? ""}|${c.country}` === hoveredCity) ?? null,
-    [clusters, hoveredCity],
+    () =>
+      clusters.find(
+        (c) => `${c.city}|${c.region ?? ""}|${c.country}` === selectedCity,
+      ) ?? null,
+    [clusters, selectedCity],
   );
+
+  useEffect(() => {
+    if (!mapRef.current || leafletRef.current) return;
+
+    // Dynamic import of leaflet to avoid SSR issues
+    Promise.all([import("leaflet"), import("react-leaflet")]).then(
+      ([L]) => {
+        // Fix default marker icons in webpack
+        delete (L.Icon.Default.prototype as any)._getIconUrl;
+        L.Icon.Default.mergeOptions({
+          iconRetinaUrl:
+            "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",
+          iconUrl:
+            "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",
+          shadowUrl:
+            "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
+        });
+
+        const map = L.map(mapRef.current!, {
+          scrollWheelZoom: true,
+          zoomControl: true,
+        }).setView([35, -40], 2);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          attribution:
+            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          maxZoom: 18,
+        }).addTo(map);
+
+        leafletRef.current = { map, markers: L.layerGroup().addTo(map), L };
+        updateMarkers();
+      },
+    );
+
+    return () => {
+      if (leafletRef.current) {
+        leafletRef.current.map.remove();
+        leafletRef.current = null;
+      }
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    updateMarkers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [clusters]);
+
+  function updateMarkers() {
+    if (!leafletRef.current) return;
+    const { markers, L } = leafletRef.current;
+    markers.clearLayers();
+
+    for (const cluster of clusters) {
+      const radius = Math.min(8 + Math.sqrt(cluster.players.length) * 4, 30);
+      const key = `${cluster.city}|${cluster.region ?? ""}|${cluster.country}`;
+
+      const marker = L.circleMarker([cluster.lat, cluster.lon], {
+        radius,
+        fillColor: "#1d4ed8",
+        fillOpacity: 0.7,
+        color: "#ffffff",
+        weight: 2,
+      });
+
+      const names = cluster.players
+        .slice(0, 5)
+        .map((p: Location) => `${p.person.firstName} ${p.person.lastName}`)
+        .join("<br>");
+      const extra = cluster.players.length > 5 ? `<br>+${cluster.players.length - 5} more` : "";
+      marker.bindPopup(
+        `<strong>${cluster.city}${cluster.region ? ", " + cluster.region : ""}</strong><br>${cluster.players.length} player${cluster.players.length === 1 ? "" : "s"}<hr style="margin:4px 0">${names}${extra}`,
+      );
+
+      marker.on("click", () => setSelectedCity(key));
+      markers.addLayer(marker);
+    }
+
+    // Fit bounds if we have data
+    if (clusters.length > 0) {
+      const bounds = L.latLngBounds(clusters.map((c: any) => [c.lat, c.lon]));
+      leafletRef.current.map.fitBounds(bounds, { padding: [30, 30], maxZoom: 5 });
+    }
+  }
 
   return (
     <div>
@@ -92,82 +166,18 @@ export function AlumniMap({ locations }: Props) {
         </span>
       </div>
 
-      <div className="rounded-2xl border border-gray-200 bg-blue-50 p-2 shadow-sm">
-        <svg
-          viewBox={`0 0 ${MAP_W} ${MAP_H}`}
-          className="h-auto w-full"
-          role="img"
-          aria-label="World map of player locations"
-        >
-          {/* Ocean background */}
-          <rect width={MAP_W} height={MAP_H} fill="#dbeafe" />
+      {/* Leaflet CSS */}
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
+      />
 
-          {/* Continental landmass approximations (simplified blocks) */}
-          <g fill="#e0f2f1" stroke="#94a3b8" strokeWidth="0.5">
-            {/* North America */}
-            <path d="M 100 80 L 280 60 L 320 110 L 310 200 L 250 260 L 180 270 L 130 220 L 100 150 Z" />
-            {/* Central America */}
-            <path d="M 230 250 L 270 270 L 280 320 L 250 310 L 240 280 Z" />
-            {/* South America */}
-            <path d="M 280 290 L 340 290 L 360 380 L 330 460 L 290 470 L 270 380 Z" />
-            {/* Europe */}
-            <path d="M 470 90 L 560 80 L 580 130 L 560 180 L 480 180 L 460 130 Z" />
-            {/* Africa */}
-            <path d="M 480 200 L 580 200 L 620 290 L 580 380 L 530 410 L 490 360 L 470 270 Z" />
-            {/* Asia */}
-            <path d="M 580 80 L 820 70 L 880 180 L 850 240 L 750 230 L 680 200 L 600 170 Z" />
-            {/* Southeast Asia / Oceania */}
-            <path d="M 800 280 L 900 280 L 920 360 L 880 400 L 820 380 L 800 320 Z" />
-            {/* Australia */}
-            <path d="M 820 380 L 920 370 L 940 440 L 880 460 L 830 440 Z" />
-          </g>
+      <div
+        ref={mapRef}
+        className="h-[500px] w-full rounded-2xl border border-gray-200 shadow-sm"
+        style={{ zIndex: 0 }}
+      />
 
-          {/* Equator + grid lines */}
-          <g stroke="#94a3b8" strokeWidth="0.3" strokeDasharray="2 4" opacity="0.5">
-            <line x1="0" y1={MAP_H / 2} x2={MAP_W} y2={MAP_H / 2} />
-            <line x1={MAP_W / 2} y1="0" x2={MAP_W / 2} y2={MAP_H} />
-          </g>
-
-          {/* Pins */}
-          {clusters.map((cluster) => {
-            const { x, y } = project(cluster.lat, cluster.lon);
-            const radius = Math.min(4 + Math.sqrt(cluster.players.length) * 1.5, 14);
-            const key = `${cluster.city}|${cluster.region ?? ""}|${cluster.country}`;
-            const isHovered = hoveredCity === key;
-            return (
-              <g key={key}>
-                <circle
-                  cx={x}
-                  cy={y}
-                  r={radius}
-                  fill={isHovered ? "#dc2626" : "#1d4ed8"}
-                  fillOpacity={isHovered ? 0.9 : 0.7}
-                  stroke="#fff"
-                  strokeWidth="1"
-                  onMouseEnter={() => setHoveredCity(key)}
-                  onMouseLeave={() => setHoveredCity(null)}
-                  className="cursor-pointer transition-all"
-                />
-                {cluster.players.length > 1 && (
-                  <text
-                    x={x}
-                    y={y + 3}
-                    textAnchor="middle"
-                    fontSize="8"
-                    fill="white"
-                    fontWeight="bold"
-                    pointerEvents="none"
-                  >
-                    {cluster.players.length}
-                  </text>
-                )}
-              </g>
-            );
-          })}
-        </svg>
-      </div>
-
-      {/* Hovered city detail */}
       {selectedCluster && (
         <div className="mt-4 rounded-xl border border-blue-200 bg-blue-50 p-4">
           <h3 className="font-bold text-gray-900">

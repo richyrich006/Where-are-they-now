@@ -3,7 +3,7 @@ import type { TeamSeed } from "./types";
 export const dukeBasketball2015: TeamSeed = {
   slug: "duke-basketball-2015",
   name: "Duke Blue Devils",
-  season: "2015-2016",
+  season: "2014-2015",
   sport: "Men's Basketball",
   school: "Duke University",
   conference: "ACC",
