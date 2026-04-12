@@ -24,6 +24,7 @@ import { uncBasketball2017 } from "./seeds/unc-basketball-2017";
 import { uncBasketball2022 } from "./seeds/unc-basketball-2022";
 import { ncstateBasketball2024 } from "./seeds/ncstate-basketball-2024";
 import { louisvilleBasketball2013 } from "./seeds/louisville-basketball-2013";
+import { syracuseBasketball2016 } from "./seeds/syracuse-basketball-2016";
 import { virginiaBasketball2019 } from "./seeds/virginia-basketball-2019";
 import { kentuckyBasketball2010 } from "./seeds/kentucky-basketball-2010";
 import { kentuckyBasketball2011 } from "./seeds/kentucky-basketball-2011";
@@ -118,6 +119,7 @@ const allTeams: TeamSeed[] = [
   virginiaBasketball2019,
   ncstateBasketball2024,
   louisvilleBasketball2013,
+  syracuseBasketball2016,
 ];
 
 async function seedTeam(teamSeed: TeamSeed) {
