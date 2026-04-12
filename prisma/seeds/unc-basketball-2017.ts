@@ -25,8 +25,9 @@ export const uncBasketball2017: TeamSeed = {
         currentTitle: "College Basketball Analyst",
         currentEmployer: "ACC Network / ESPN",
         location: "Charlotte, NC",
-        statusNote: "After going undrafted in 2018, Berry played briefly in the G League and overseas before transitioning to broadcasting. He joined the ACC Network in October 2021 as a studio analyst and regularly appears on the signature show 'Nothing But Net.' He provides insights on ACC basketball across ESPN platforms and has built a growing media career covering college basketball.",
+        statusNote: "After going undrafted in 2018, Berry played two seasons in the NBA G League with the Erie BayHawks and one season professionally in Turkey before retiring from playing in 2021. He immediately pivoted to broadcasting, joining the ACC Network in October 2021 as a studio analyst. He regularly appears on the signature show 'Nothing But Net' and has expanded to guest appearances on ESPN's main college basketball coverage. Berry also has experience at Truist Wealth in financial services. His campus legacy includes 1,813 career points and 451 assists across 144 games — making him one of the most accomplished point guards in UNC history. He won a national championship in 2017 and led UNC back to the title game in 2016 (the infamous Villanova buzzer-beater loss).",
         sourceUrl: "https://en.wikipedia.org/wiki/Joel_Berry_II",
+        linkedInUrl: "https://www.linkedin.com/in/joel-berry-ii-73274121b/",
       },
       membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "2014-2018", statsNote: "2017 Final Four MOP • NCAA Champion", gamesPlayed: 36, pointsPerGame: 14.7, reboundsPerGame: 3.1, assistsPerGame: 3.6 },
       seasonStats: [

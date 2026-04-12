@@ -25,8 +25,9 @@ export const uncBasketball2009: TeamSeed = {
         currentTitle: "Color Analyst / Podcast Host",
         currentEmployer: "ACC Network / SleepHawk Worldwide",
         location: "Chapel Hill, NC",
-        statusNote: "Selected #13 overall by the Indiana Pacers in 2009, Hansbrough played 7 NBA seasons with the Pacers, Raptors, and Hornets before retiring in 2016. He has since become a color commentator for the ACC Network and hosts the SleepHawk Worldwide podcast. He was inducted into the NC Sports Hall of Fame in 2026 as part of the inaugural class. He remains a fixture around the UNC program.",
+        statusNote: "Selected #13 overall by the Indiana Pacers in 2009, Hansbrough played 7 NBA seasons with the Pacers, Raptors, and Hornets before retiring in 2016. He has since built a diverse post-playing career: he joined the ACC Network in 2021 as a color commentator, hosts the SleepHawk Worldwide podcast, and in September 2025 became a visiting professor at UNC's Hussman School of Journalism and Media, co-teaching MEJO 377: Sports Communication. He was inducted into the NC Sports Hall of Fame in 2026 as part of the inaugural class. He remains a fixture around the UNC program, frequently attending games and playing summer pickup at the Smith Center.",
         sourceUrl: "https://en.wikipedia.org/wiki/Tyler_Hansbrough",
+        linkedInUrl: "https://www.linkedin.com/in/tyler-hansbrough-199222396",
       },
       membership: { role: "PLAYER", jerseyNumber: 50, position: "Power Forward", yearsAtSchool: "2005-2009", statsNote: "2008 Naismith POY • UNC all-time leading scorer • NCAA Champion", gamesPlayed: 37, pointsPerGame: 20.7, reboundsPerGame: 8.1, assistsPerGame: 1.0 },
       seasonStats: [
@@ -85,7 +86,7 @@ export const uncBasketball2009: TeamSeed = {
         location: "Los Angeles, CA",
         statusNote: "Retired from the NBA in October 2024 after 15 seasons. He is one of only four players in history to win NBA championships with three different teams. Since retiring, Green works as a color analyst for ESPN and Spectrum SportsNet, hosts two podcasts ('Inside the Green Room' and 'No Fouls Given' with Paul Pierce), and runs the GreenLight venture fund dedicated to empowering innovative entrepreneurs. He also leads the Between the Lines mentorship program.",
         sourceUrl: "https://en.wikipedia.org/wiki/Danny_Green_(basketball)",
-        linkedInUrl: "https://www.linkedin.com/in/danny-green-3x-champ/",
+        linkedInUrl: "https://www.linkedin.com/in/dannygreenjr/",
       },
       membership: { role: "PLAYER", jerseyNumber: 14, position: "Shooting Guard", yearsAtSchool: "2005-2009", statsNote: "3x NBA Champion • Senior captain • NCAA Champion", gamesPlayed: 37, pointsPerGame: 9.7, reboundsPerGame: 4.5, assistsPerGame: 2.5 },
       seasonStats: [
