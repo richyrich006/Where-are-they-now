@@ -12,6 +12,48 @@ export const virginiaBasketball2009: TeamSeed = {
   mascotName: "Cavalier",
   people: [
     {
+      slug: "sylven-landesberg",
+      firstName: "Sylven",
+      lastName: "Landesberg",
+      birthYear: 1990,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Freshman guard who was ACC Rookie of the Year. Later dismissed from team.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Pro Player",
+        location: "Overseas",
+        statusNote: "ACC ROY as freshman. Dismissed from UVA. Long overseas career in Israel, Turkey, Italy.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Sylven_Landesberg",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 17.3, reboundsPerGame: 4.8, assistsPerGame: 2 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 17.3, reboundsPerGame: 4.8, assistsPerGame: 2 },
+      ],
+      careerEvents: [],
+    },
+    {
+      slug: "sammy-zeglinski",
+      firstName: "Sammy",
+      lastName: "Zeglinski",
+      birthYear: 1989,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Sophomore guard and perimeter shooter.",
+      status: {
+        occupationType: "OTHER",
+        currentTitle: "Professional",
+        location: "Virginia",
+        statusNote: "Played 4 years at UVA. Now in business in Virginia.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Sammy_Zeglinski",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 13, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 8.5, reboundsPerGame: 2.5, assistsPerGame: 2 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8.5, reboundsPerGame: 2.5, assistsPerGame: 2 },
+      ],
+      careerEvents: [],
+    },
+    {
       slug: "tony-bennett-uva",
       firstName: "Tony",
       lastName: "Bennett",

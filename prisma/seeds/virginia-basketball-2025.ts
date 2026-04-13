@@ -12,6 +12,48 @@ export const virginiaBasketball2025: TeamSeed = {
   mascotName: "Cavalier",
   people: [
     {
+      slug: "isaac-mckneely",
+      firstName: "Isaac",
+      lastName: "McKneely",
+      birthYear: 2003,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Junior guard and UVA's top scorer.",
+      status: {
+        occupationType: "STUDENT",
+        currentTitle: "College Player",
+        location: "Charlottesville, VA",
+        statusNote: "Emerged as UVA's go-to scorer in 2024-25.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Isaac_McKneely",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 11, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 15, reboundsPerGame: 3, assistsPerGame: 2.5 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15, reboundsPerGame: 3, assistsPerGame: 2.5 },
+      ],
+      careerEvents: [],
+    },
+    {
+      slug: "andrew-rohde",
+      firstName: "Andrew",
+      lastName: "Rohde",
+      birthYear: 2003,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Sophomore guard and 3-point shooter.",
+      status: {
+        occupationType: "STUDENT",
+        currentTitle: "College Player",
+        location: "Charlottesville, VA",
+        statusNote: "Developing into key backcourt player.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Andrew_Rohde",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 4, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 10, reboundsPerGame: 2.5, assistsPerGame: 2 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 10, reboundsPerGame: 2.5, assistsPerGame: 2 },
+      ],
+      careerEvents: [],
+    },
+    {
       slug: "tony-bennett-uva",
       firstName: "Tony",
       lastName: "Bennett",

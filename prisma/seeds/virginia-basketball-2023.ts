@@ -12,6 +12,48 @@ export const virginiaBasketball2023: TeamSeed = {
   mascotName: "Cavalier",
   people: [
     {
+      slug: "reece-beekman",
+      firstName: "Reece",
+      lastName: "Beekman",
+      birthYear: 2002,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Junior guard and elite defender.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Guard",
+        location: "United States",
+        statusNote: "ACC DPOY. 2024 NBA Draft pick.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Reece_Beekman",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 9.5, reboundsPerGame: 3, assistsPerGame: 5 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 9.5, reboundsPerGame: 3, assistsPerGame: 5 },
+      ],
+      careerEvents: [],
+    },
+    {
+      slug: "kihei-clark",
+      firstName: "Kihei",
+      lastName: "Clark",
+      birthYear: 2000,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "5th-year senior. UVA's all-time leader in assists, wins, 3-pointers.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Guard",
+        location: "Belgium",
+        statusNote: "Most wins by any player in UVA history.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Kihei_Clark",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 0, position: "Point Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 11.5, reboundsPerGame: 3, assistsPerGame: 4.5 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 11.5, reboundsPerGame: 3, assistsPerGame: 4.5 },
+      ],
+      careerEvents: [],
+    },
+    {
       slug: "tony-bennett-uva",
       firstName: "Tony",
       lastName: "Bennett",

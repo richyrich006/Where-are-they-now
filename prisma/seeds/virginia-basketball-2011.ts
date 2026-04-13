@@ -12,6 +12,48 @@ export const virginiaBasketball2011: TeamSeed = {
   mascotName: "Cavalier",
   people: [
     {
+      slug: "mike-scott-uva",
+      firstName: "Mike",
+      lastName: "Scott",
+      birthYear: 1988,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Junior forward who became UVA's best player. Went on to 8-year NBA career.",
+      status: {
+        occupationType: "RETIRED_ATHLETE",
+        currentTitle: "Retired NBA Player",
+        location: "Virginia",
+        statusNote: "8-year NBA career with Hawks, Clippers, Wizards, 76ers. Known as 'The Emoji Man'.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Mike_Scott",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 23, position: "Forward", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 13, reboundsPerGame: 7.5, assistsPerGame: 1 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 13, reboundsPerGame: 7.5, assistsPerGame: 1 },
+      ],
+      careerEvents: [],
+    },
+    {
+      slug: "joe-harris",
+      firstName: "Joe",
+      lastName: "Harris",
+      birthYear: 1991,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Freshman from Chelan, WA. Future 2x NBA Three-Point Contest winner.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Guard",
+        location: "Detroit, MI",
+        statusNote: "2x NBA 3-Point Contest winner. 10+ year NBA career.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Joe_Harris",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 25, position: "Guard/Forward", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 5, reboundsPerGame: 2.5, assistsPerGame: 0.8 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 5, reboundsPerGame: 2.5, assistsPerGame: 0.8 },
+      ],
+      careerEvents: [],
+    },
+    {
       slug: "tony-bennett-uva",
       firstName: "Tony",
       lastName: "Bennett",

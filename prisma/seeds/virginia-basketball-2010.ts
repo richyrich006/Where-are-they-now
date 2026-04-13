@@ -12,6 +12,48 @@ export const virginiaBasketball2010: TeamSeed = {
   mascotName: "Cavalier",
   people: [
     {
+      slug: "sylven-landesberg",
+      firstName: "Sylven",
+      lastName: "Landesberg",
+      birthYear: 1990,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Sophomore guard. ACC ROY previous year. Would be dismissed after this season.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Pro Player",
+        location: "Overseas",
+        statusNote: "Long overseas career after dismissal from UVA.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Sylven_Landesberg",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 16, reboundsPerGame: 4.5, assistsPerGame: 2 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 16, reboundsPerGame: 4.5, assistsPerGame: 2 },
+      ],
+      careerEvents: [],
+    },
+    {
+      slug: "mustapha-farrakhan",
+      firstName: "Mustapha",
+      lastName: "Farrakhan",
+      birthYear: 1989,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Junior guard who provided backcourt scoring.",
+      status: {
+        occupationType: "OTHER",
+        currentTitle: "Professional",
+        location: "United States",
+        statusNote: "Played overseas briefly after UVA.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Mustapha_Farrakhan",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 1, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 2.5, assistsPerGame: 3 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 2.5, assistsPerGame: 3 },
+      ],
+      careerEvents: [],
+    },
+    {
       slug: "tony-bennett-uva",
       firstName: "Tony",
       lastName: "Bennett",

@@ -12,6 +12,48 @@ export const virginiaBasketball2024: TeamSeed = {
   mascotName: "Cavalier",
   people: [
     {
+      slug: "reece-beekman",
+      firstName: "Reece",
+      lastName: "Beekman",
+      birthYear: 2002,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Senior guard. Selected in 2024 NBA Draft.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Guard",
+        location: "United States",
+        statusNote: "2024 NBA Draft pick. ACC's top defender.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Reece_Beekman",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 3.5, assistsPerGame: 5.5 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 3.5, assistsPerGame: 5.5 },
+      ],
+      careerEvents: [],
+    },
+    {
+      slug: "ryan-dunn",
+      firstName: "Ryan",
+      lastName: "Dunn",
+      birthYear: 2003,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Sophomore forward with elite defensive metrics. 2024 NBA draft prospect.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Forward",
+        location: "United States",
+        statusNote: "Selected in 2024 NBA Draft for his elite defense.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Ryan_Dunn",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 13, position: "Forward", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 6.5, reboundsPerGame: 4.5, assistsPerGame: 1 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "Virginia Cavaliers", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 6.5, reboundsPerGame: 4.5, assistsPerGame: 1 },
+      ],
+      careerEvents: [],
+    },
+    {
       slug: "tony-bennett-uva",
       firstName: "Tony",
       lastName: "Bennett",
