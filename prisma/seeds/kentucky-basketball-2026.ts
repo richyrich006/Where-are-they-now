@@ -346,6 +346,18 @@ export const kentuckyBasketball2026: TeamSeed = {
       careerEvents: [],
     },
     {
+      slug: "chin-coleman",
+      firstName: "Chin",
+      lastName: "Coleman",
+      birthYear: 1979,
+      hometown: "Chicago, IL",
+      highSchool: "Chicago, IL",
+      bio: "Assistant coach who came to Kentucky from Illinois alongside Orlando Antigua in 2021. Known as an elite recruiter and player developer.",
+      status: { occupationType: "COACH", currentTitle: "Assistant Coach", currentEmployer: "Kentucky basketball program", location: "Lexington, KY", statusNote: "Coleman joined Kentucky's staff in 2021 after working at Illinois. He remained on staff through Calipari's final season and the transition to Mark Pope. Known for his recruiting connections in the Midwest and South.", sourceUrl: "https://ukathletics.com/sports/mbball/roster/coach/chin-coleman/" },
+      membership: { role: "ASSISTANT_COACH", position: "Assistant Coach", yearsAtSchool: "2021-2024" },
+      careerEvents: [],
+    },
+    {
       slug: "mark-pope",
       firstName: "Mark",
       lastName: "Pope",

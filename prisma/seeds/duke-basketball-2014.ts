@@ -181,6 +181,18 @@ export const dukeBasketball2014: TeamSeed = {
       ],
     },
     {
+      slug: "jeff-capel",
+      firstName: "Jeff",
+      lastName: "Capel",
+      birthYear: 1975,
+      hometown: "Fayetteville, NC",
+      highSchool: "South View High School, Hope Mills, NC",
+      bio: "Former Duke point guard (1993-97) who returned to Coach K's staff after head coaching stints at VCU and Oklahoma. Later became head coach at Pitt.",
+      status: { occupationType: "COACH", currentTitle: "Head Men's Basketball Coach", currentEmployer: "University of Pittsburgh", location: "Pittsburgh, PA", statusNote: "After serving as Duke assistant (2011-2018), Capel became head coach at Pittsburgh where he has rebuilt the Panthers program in the ACC. Previously was head coach at VCU (2002-06) and Oklahoma (2006-11). His father Jeff Capel II was also a college basketball coach.", sourceUrl: "https://en.wikipedia.org/wiki/Jeff_Capel" },
+      membership: { role: "ASSISTANT_COACH", position: "Associate Head Coach", yearsAtSchool: "2011-2018" },
+      careerEvents: [{ year: 2018, title: "Named head coach at University of Pittsburgh", eventType: "CAREER_CHANGE" }],
+    },
+    {
       slug: "mike-krzyzewski",
       firstName: "Mike",
       lastName: "Krzyzewski",

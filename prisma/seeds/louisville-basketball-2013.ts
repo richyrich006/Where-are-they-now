@@ -202,6 +202,18 @@ export const louisvilleBasketball2013: TeamSeed = {
       ],
     },
     {
+      slug: "kevin-keatts",
+      firstName: "Kevin",
+      lastName: "Keatts",
+      birthYear: 1972,
+      hometown: "Norfolk, VA",
+      highSchool: "Maury High School, Norfolk, VA",
+      bio: "Louisville's associate head coach and top recruiter who later became head coach at UNC-Wilmington and NC State, where he led the Wolfpack to the 2024 Final Four.",
+      status: { occupationType: "COACH", currentTitle: "Head Men's Basketball Coach", currentEmployer: "NC State University", location: "Raleigh, NC", statusNote: "After 3 years on Pitino's Louisville staff (2011-2014), Keatts became HC at UNC-Wilmington (2014-17, 72-28) then NC State (2017-present). He led NC State to the 2024 ACC Tournament title and Final Four — the school's first since 1983. A key member of Rick Pitino's coaching tree.", sourceUrl: "https://en.wikipedia.org/wiki/Kevin_Keatts" },
+      membership: { role: "ASSISTANT_COACH", position: "Associate Head Coach", yearsAtSchool: "2011-2014" },
+      careerEvents: [{ year: 2014, title: "Named head coach at UNC-Wilmington", eventType: "CAREER_CHANGE" }, { year: 2024, title: "Led NC State to Final Four", eventType: "MILESTONE" }],
+    },
+    {
       slug: "rick-pitino",
       firstName: "Rick",
       lastName: "Pitino",

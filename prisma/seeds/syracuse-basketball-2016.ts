@@ -159,6 +159,18 @@ export const syracuseBasketball2016: TeamSeed = {
       ],
     },
     {
+      slug: "gerry-mcnamara",
+      firstName: "Gerry",
+      lastName: "McNamara",
+      birthYear: 1983,
+      hometown: "Scranton, PA",
+      highSchool: "Bishop Hannan High School, Scranton, PA",
+      bio: "Former Syracuse star guard (2002-06) who became Jim Boeheim's top assistant. Known as one of the greatest players in Syracuse history — hit 6 threes in the 2003 title game.",
+      status: { occupationType: "COACH", currentTitle: "Assistant Coach", currentEmployer: "Syracuse University", location: "Syracuse, NY", statusNote: "After a brief professional career, McNamara joined Boeheim's coaching staff and has been a Syracuse assistant since 2011. He is widely considered the leading candidate to eventually become Syracuse's head coach. As a player, he hit 6 three-pointers in the 2003 national championship game against Kansas.", sourceUrl: "https://en.wikipedia.org/wiki/Gerry_McNamara" },
+      membership: { role: "ASSISTANT_COACH", position: "Assistant Coach", yearsAtSchool: "2011-present" },
+      careerEvents: [],
+    },
+    {
       slug: "jim-boeheim",
       firstName: "Jim",
       lastName: "Boeheim",

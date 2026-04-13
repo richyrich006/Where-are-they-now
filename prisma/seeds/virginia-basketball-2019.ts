@@ -249,6 +249,18 @@ export const virginiaBasketball2019: TeamSeed = {
       ],
     },
     {
+      slug: "ron-sanchez",
+      firstName: "Ron",
+      lastName: "Sanchez",
+      birthYear: 1973,
+      hometown: "New York, NY",
+      highSchool: "New York, NY",
+      bio: "Tony Bennett's associate head coach and defensive mastermind who helped architect the Pack Line defense that won the 2019 national championship.",
+      status: { occupationType: "COACH", currentTitle: "Head Men's Basketball Coach", currentEmployer: "Charlotte 49ers", location: "Charlotte, NC", statusNote: "After serving as Virginia's associate head coach (2009-2019), Sanchez became head coach at Charlotte in 2019. He was a key figure in building the Pack Line defensive system that made Virginia the nation's top defense and ultimately won the 2019 national title.", sourceUrl: "https://en.wikipedia.org/wiki/Ron_Sanchez_(basketball)" },
+      membership: { role: "ASSISTANT_COACH", position: "Associate Head Coach", yearsAtSchool: "2009-2019" },
+      careerEvents: [{ year: 2019, title: "Won NCAA Championship as Virginia assistant", eventType: "CHAMPIONSHIP" }, { year: 2019, title: "Named head coach at Charlotte", eventType: "CAREER_CHANGE" }],
+    },
+    {
       slug: "tony-bennett-uva",
       firstName: "Tony",
       lastName: "Bennett",

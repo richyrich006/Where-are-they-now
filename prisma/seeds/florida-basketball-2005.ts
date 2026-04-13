@@ -489,6 +489,18 @@ export const floridaBasketball2005: TeamSeed = {
       ],
     },
     {
+      slug: "steve-robinson-unc",
+      firstName: "Steve",
+      lastName: "Robinson",
+      birthYear: 1957,
+      hometown: "Roanoke, VA",
+      highSchool: "Radford University (played at)",
+      bio: "Roy Williams' most trusted assistant who followed him from Kansas. Master recruiter who helped build three championship teams at UNC.",
+      status: { occupationType: "RETIRED_COACH", currentTitle: "Retired Assistant Coach", location: "North Carolina", statusNote: "Served 18 years as assistant under Roy Williams at UNC (2003-2021), winning 3 national titles. Not retained when Hubert Davis became head coach. Previously HC at Tulsa and Florida State.", sourceUrl: "https://goheels.com/sports/mens-basketball/roster/coaches/steve-robinson/691" },
+      membership: { role: "ASSISTANT_COACH", position: "Associate Head Coach", yearsAtSchool: "2003-2021" },
+      careerEvents: [],
+    },
+    {
       slug: "billy-donovan",
       firstName: "Billy",
       lastName: "Donovan",
