@@ -12,6 +12,48 @@ export const uncBasketball2020: TeamSeed = {
   mascotName: "Tar Heel",
   people: [
     {
+      slug: "cole-anthony",
+      firstName: "Cole",
+      lastName: "Anthony",
+      birthYear: 2000,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Freshman star and son of NBA player Greg Anthony. #15 pick.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Guard",
+        location: "Orlando, FL",
+        statusNote: "Selected #15 by Orlando Magic. Starting NBA guard.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Cole_Anthony",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 2, position: "Point Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 18.5, reboundsPerGame: 5.7, assistsPerGame: 4 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "North Carolina Tar Heels", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 18.5, reboundsPerGame: 5.7, assistsPerGame: 4 },
+      ],
+      careerEvents: [],
+    },
+    {
+      slug: "armando-bacot",
+      firstName: "Armando",
+      lastName: "Bacot",
+      birthYear: 2000,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Freshman center from Richmond. Future UNC all-time rebounder.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Pro Player",
+        location: "Istanbul, Turkey",
+        statusNote: "Now with Fenerbahce (EuroLeague). NCAA record 31 double-doubles in 2022.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Armando_Bacot",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 5, position: "Center", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 9.6, reboundsPerGame: 8.2, assistsPerGame: 0.7 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "North Carolina Tar Heels", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 9.6, reboundsPerGame: 8.2, assistsPerGame: 0.7 },
+      ],
+      careerEvents: [],
+    },
+    {
       slug: "roy-williams",
       firstName: "Roy",
       lastName: "Williams",

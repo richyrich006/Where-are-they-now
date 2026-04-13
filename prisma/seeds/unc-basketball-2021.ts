@@ -12,6 +12,48 @@ export const uncBasketball2021: TeamSeed = {
   mascotName: "Tar Heel",
   people: [
     {
+      slug: "armando-bacot",
+      firstName: "Armando",
+      lastName: "Bacot",
+      birthYear: 2000,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Sophomore center becoming dominant force.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Pro Player",
+        location: "Istanbul, Turkey",
+        statusNote: "UNC's all-time leading rebounder. Now playing for Fenerbahce.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Armando_Bacot",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 5, position: "Center", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 12.3, reboundsPerGame: 7.8, assistsPerGame: 0.9 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "North Carolina Tar Heels", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12.3, reboundsPerGame: 7.8, assistsPerGame: 0.9 },
+      ],
+      careerEvents: [],
+    },
+    {
+      slug: "caleb-love",
+      firstName: "Caleb",
+      lastName: "Love",
+      birthYear: 2001,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Freshman guard from St. Louis. Future 30-pt scorer vs Duke.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Guard (two-way)",
+        location: "Portland, OR",
+        statusNote: "Now with Portland Trail Blazers on two-way contract.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Caleb_Love",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 10.5, reboundsPerGame: 3, assistsPerGame: 2.5 },
+      seasonStats: [
+        { level: "COLLEGE", teamName: "North Carolina Tar Heels", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 10.5, reboundsPerGame: 3, assistsPerGame: 2.5 },
+      ],
+      careerEvents: [],
+    },
+    {
       slug: "roy-williams",
       firstName: "Roy",
       lastName: "Williams",
