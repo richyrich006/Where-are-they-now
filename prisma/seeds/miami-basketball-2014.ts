@@ -12,6 +12,14 @@ export const miamiBasketball2014: TeamSeed = {
   mascotName: "Hurricane",
   people: [
     {
+      slug: "rion-brown", firstName: "Rion", lastName: "Brown", birthYear: 1990, hometown: "United States", highSchool: "United States",
+      bio: "Senior guard and veteran leader.",
+      status: { occupationType: "RETIRED_ATHLETE", currentTitle: "Retired", location: "United States", statusNote: "Played overseas briefly.", sourceUrl: "https://en.wikipedia.org/wiki/Rion_Brown" },
+      membership: { role: "PLAYER", jerseyNumber: 15, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 13, reboundsPerGame: 4, assistsPerGame: 2 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 13, reboundsPerGame: 4, assistsPerGame: 2 }],
+      careerEvents: [],
+    },
+    {
       slug: "jim-larranaga",
       firstName: "Jim",
       lastName: "Larranaga",

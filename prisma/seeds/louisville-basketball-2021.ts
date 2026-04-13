@@ -12,6 +12,14 @@ export const louisvilleBasketball2021: TeamSeed = {
   mascotName: "Cardinal",
   people: [
     {
+      slug: "david-johnson-lou", firstName: "David", lastName: "Johnson", birthYear: 1999, hometown: "United States", highSchool: "United States",
+      bio: "Junior who declared for draft.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "United States", statusNote: "#29 pick by Raptors.", sourceUrl: "https://en.wikipedia.org/wiki/David_Johnson" },
+      membership: { role: "PLAYER", jerseyNumber: 13, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 13, reboundsPerGame: 4.5, assistsPerGame: 4 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 13, reboundsPerGame: 4.5, assistsPerGame: 4 }],
+      careerEvents: [],
+    },
+    {
       slug: "chris-mack",
       firstName: "Chris",
       lastName: "Mack",

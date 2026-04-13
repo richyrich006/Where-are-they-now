@@ -12,6 +12,22 @@ export const louisvilleBasketball2015: TeamSeed = {
   mascotName: "Cardinal",
   people: [
     {
+      slug: "montrezl-harrell", firstName: "Montrezl", lastName: "Harrell", birthYear: 1994, hometown: "United States", highSchool: "United States",
+      bio: "Junior star. #32 pick.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "United States", statusNote: "#32 pick. 2020 NBA 6MOY.", sourceUrl: "https://en.wikipedia.org/wiki/Montrezl_Harrell" },
+      membership: { role: "PLAYER", jerseyNumber: 24, position: "Forward", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 15.5, reboundsPerGame: 9, assistsPerGame: 1 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15.5, reboundsPerGame: 9, assistsPerGame: 1 }],
+      careerEvents: [],
+    },
+    {
+      slug: "terry-rozier", firstName: "Terry", lastName: "Rozier", birthYear: 1994, hometown: "United States", highSchool: "United States",
+      bio: "Freshman. Future #16 pick and NBA starter.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "Charlotte, NC", statusNote: "#16 pick by Celtics. Starting PG for Hornets. $97M contract.", sourceUrl: "https://en.wikipedia.org/wiki/Terry_Rozier" },
+      membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 6, reboundsPerGame: 2.5, assistsPerGame: 2 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 6, reboundsPerGame: 2.5, assistsPerGame: 2 }],
+      careerEvents: [],
+    },
+    {
       slug: "rick-pitino",
       firstName: "Rick",
       lastName: "Pitino",

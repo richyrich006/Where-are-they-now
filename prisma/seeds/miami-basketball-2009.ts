@@ -12,6 +12,22 @@ export const miamiBasketball2009: TeamSeed = {
   mascotName: "Hurricane",
   people: [
     {
+      slug: "jack-mcclinton", firstName: "Jack", lastName: "McClinton", birthYear: 1986, hometown: "United States", highSchool: "United States",
+      bio: "Senior guard. ACC leading scorer.",
+      status: { occupationType: "RETIRED_ATHLETE", currentTitle: "Retired", location: "United States", statusNote: "ACC's leading scorer. Played overseas.", sourceUrl: "https://en.wikipedia.org/wiki/Jack_McClinton" },
+      membership: { role: "PLAYER", jerseyNumber: 33, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 19, reboundsPerGame: 3, assistsPerGame: 2 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 19, reboundsPerGame: 3, assistsPerGame: 2 }],
+      careerEvents: [],
+    },
+    {
+      slug: "dwayne-collins", firstName: "Dwayne", lastName: "Collins", birthYear: 1987, hometown: "United States", highSchool: "United States",
+      bio: "Junior forward.",
+      status: { occupationType: "RETIRED_ATHLETE", currentTitle: "Retired", location: "United States", statusNote: "Played overseas after Miami.", sourceUrl: "https://en.wikipedia.org/wiki/Dwayne_Collins" },
+      membership: { role: "PLAYER", jerseyNumber: 21, position: "Forward", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 14, reboundsPerGame: 7.5, assistsPerGame: 1 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14, reboundsPerGame: 7.5, assistsPerGame: 1 }],
+      careerEvents: [],
+    },
+    {
       slug: "frank-haith",
       firstName: "Frank",
       lastName: "Haith",

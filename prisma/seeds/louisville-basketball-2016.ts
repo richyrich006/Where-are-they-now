@@ -12,6 +12,14 @@ export const louisvilleBasketball2016: TeamSeed = {
   mascotName: "Cardinal",
   people: [
     {
+      slug: "donovan-mitchell-lou", firstName: "Donovan", lastName: "Mitchell", birthYear: 1996, hometown: "United States", highSchool: "United States",
+      bio: "Freshman guard. Future #13 pick and All-Star.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "Cleveland, OH", statusNote: "#13 pick by Jazz. 3x All-Star. Now Cavaliers star. $195M contract.", sourceUrl: "https://en.wikipedia.org/wiki/Donovan_Mitchell" },
+      membership: { role: "PLAYER", jerseyNumber: 45, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 7.4, reboundsPerGame: 1.7, assistsPerGame: 1.4 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 7.4, reboundsPerGame: 1.7, assistsPerGame: 1.4 }],
+      careerEvents: [],
+    },
+    {
       slug: "rick-pitino",
       firstName: "Rick",
       lastName: "Pitino",

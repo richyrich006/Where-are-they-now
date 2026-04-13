@@ -12,6 +12,22 @@ export const miamiBasketball2022: TeamSeed = {
   mascotName: "Hurricane",
   people: [
     {
+      slug: "isaiah-wong", firstName: "Isaiah", lastName: "Wong", birthYear: 2001, hometown: "United States", highSchool: "United States",
+      bio: "Junior. Rising star.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "United States", statusNote: "ACC POY next year.", sourceUrl: "https://en.wikipedia.org/wiki/Isaiah_Wong" },
+      membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 15.5, reboundsPerGame: 4.5, assistsPerGame: 3 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15.5, reboundsPerGame: 4.5, assistsPerGame: 3 }],
+      careerEvents: [],
+    },
+    {
+      slug: "charlie-moore", firstName: "Charlie", lastName: "Moore", birthYear: 1997, hometown: "United States", highSchool: "United States",
+      bio: "Grad transfer from DePaul.",
+      status: { occupationType: "RETIRED_ATHLETE", currentTitle: "Retired", location: "United States", statusNote: "4-school player. Veteran leader.", sourceUrl: "https://en.wikipedia.org/wiki/Charlie_Moore" },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 3, assistsPerGame: 4 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 3, assistsPerGame: 4 }],
+      careerEvents: [],
+    },
+    {
       slug: "jim-larranaga",
       firstName: "Jim",
       lastName: "Larranaga",

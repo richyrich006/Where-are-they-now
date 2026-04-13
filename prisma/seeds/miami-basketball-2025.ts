@@ -12,6 +12,14 @@ export const miamiBasketball2025: TeamSeed = {
   mascotName: "Hurricane",
   people: [
     {
+      slug: "matthew-cleveland", firstName: "Matthew", lastName: "Cleveland", birthYear: 2003, hometown: "United States", highSchool: "United States",
+      bio: "Senior guard.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "United States", statusNote: "Miami's top player after Final Four roster departed.", sourceUrl: "https://en.wikipedia.org/wiki/Matthew_Cleveland" },
+      membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 15, reboundsPerGame: 5, assistsPerGame: 3.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15, reboundsPerGame: 5, assistsPerGame: 3.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "miami-coach-2025",
       firstName: "Jim",
       lastName: "Larranaga successor",

@@ -12,6 +12,14 @@ export const louisvilleBasketball2024: TeamSeed = {
   mascotName: "Cardinal",
   people: [
     {
+      slug: "skyy-clark", firstName: "Skyy", lastName: "Clark", birthYear: 2003, hometown: "United States", highSchool: "United States",
+      bio: "Sophomore guard. Former 5-star.",
+      status: { occupationType: "STUDENT", currentTitle: "College Player", location: "United States", statusNote: "Former 5-star recruit. Transferred from Kentucky.", sourceUrl: "https://en.wikipedia.org/wiki/Skyy_Clark" },
+      membership: { role: "PLAYER", jerseyNumber: 55, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 9.5, reboundsPerGame: 2.5, assistsPerGame: 3.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 9.5, reboundsPerGame: 2.5, assistsPerGame: 3.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "kenny-payne",
       firstName: "Kenny",
       lastName: "Payne",

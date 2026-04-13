@@ -12,6 +12,14 @@ export const louisvilleBasketball2022: TeamSeed = {
   mascotName: "Cardinal",
   people: [
     {
+      slug: "el-ellis", firstName: "El", lastName: "Ellis", birthYear: 1999, hometown: "United States", highSchool: "United States",
+      bio: "Junior guard and electric scorer.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "Overseas", statusNote: "Dynamic guard. Played overseas.", sourceUrl: "https://en.wikipedia.org/wiki/El_Ellis" },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 13, reboundsPerGame: 3, assistsPerGame: 4 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 13, reboundsPerGame: 3, assistsPerGame: 4 }],
+      careerEvents: [],
+    },
+    {
       slug: "chris-mack",
       firstName: "Chris",
       lastName: "Mack",

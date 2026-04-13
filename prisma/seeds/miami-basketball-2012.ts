@@ -12,6 +12,14 @@ export const miamiBasketball2012: TeamSeed = {
   mascotName: "Hurricane",
   people: [
     {
+      slug: "durand-scott", firstName: "Durand", lastName: "Scott", birthYear: 1990, hometown: "United States", highSchool: "United States",
+      bio: "Junior guard.",
+      status: { occupationType: "RETIRED_ATHLETE", currentTitle: "Retired", location: "United States", statusNote: "Emerged as Miami's go-to player.", sourceUrl: "https://en.wikipedia.org/wiki/Durand_Scott" },
+      membership: { role: "PLAYER", jerseyNumber: 1, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 14, reboundsPerGame: 4, assistsPerGame: 4 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14, reboundsPerGame: 4, assistsPerGame: 4 }],
+      careerEvents: [],
+    },
+    {
       slug: "jim-larranaga",
       firstName: "Jim",
       lastName: "Larranaga",

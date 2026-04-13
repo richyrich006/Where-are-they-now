@@ -12,6 +12,14 @@ export const miamiBasketball2010: TeamSeed = {
   mascotName: "Hurricane",
   people: [
     {
+      slug: "durand-scott", firstName: "Durand", lastName: "Scott", birthYear: 1990, hometown: "United States", highSchool: "United States",
+      bio: "Freshman guard becoming star.",
+      status: { occupationType: "RETIRED_ATHLETE", currentTitle: "Retired", location: "United States", statusNote: "Played overseas. 4-year starter.", sourceUrl: "https://en.wikipedia.org/wiki/Durand_Scott" },
+      membership: { role: "PLAYER", jerseyNumber: 1, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 10, reboundsPerGame: 3, assistsPerGame: 3 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 10, reboundsPerGame: 3, assistsPerGame: 3 }],
+      careerEvents: [],
+    },
+    {
       slug: "frank-haith",
       firstName: "Frank",
       lastName: "Haith",

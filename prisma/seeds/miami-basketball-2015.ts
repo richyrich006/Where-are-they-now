@@ -12,6 +12,14 @@ export const miamiBasketball2015: TeamSeed = {
   mascotName: "Hurricane",
   people: [
     {
+      slug: "sheldon-mcclellan", firstName: "Sheldon", lastName: "McClellan", birthYear: 1992, hometown: "United States", highSchool: "United States",
+      bio: "Junior transfer from Texas.",
+      status: { occupationType: "RETIRED_ATHLETE", currentTitle: "Retired", location: "United States", statusNote: "Played briefly for Wizards. Overseas career.", sourceUrl: "https://en.wikipedia.org/wiki/Sheldon_McClellan" },
+      membership: { role: "PLAYER", jerseyNumber: 10, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 4, assistsPerGame: 1.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 4, assistsPerGame: 1.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "jim-larranaga",
       firstName: "Jim",
       lastName: "Larranaga",

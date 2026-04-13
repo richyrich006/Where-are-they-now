@@ -12,6 +12,14 @@ export const miamiBasketball2020: TeamSeed = {
   mascotName: "Hurricane",
   people: [
     {
+      slug: "chris-lykes", firstName: "Chris", lastName: "Lykes", birthYear: 1999, hometown: "United States", highSchool: "United States",
+      bio: "Junior before injury.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "Overseas", statusNote: "5'7 scorer. Transferred to Arkansas.", sourceUrl: "https://en.wikipedia.org/wiki/Chris_Lykes" },
+      membership: { role: "PLAYER", jerseyNumber: 0, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 16, reboundsPerGame: 3, assistsPerGame: 3.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 16, reboundsPerGame: 3, assistsPerGame: 3.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "jim-larranaga",
       firstName: "Jim",
       lastName: "Larranaga",

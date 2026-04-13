@@ -12,6 +12,14 @@ export const louisvilleBasketball2018: TeamSeed = {
   mascotName: "Cardinal",
   people: [
     {
+      slug: "deng-adel", firstName: "Deng", lastName: "Adel", birthYear: 1996, hometown: "United States", highSchool: "United States",
+      bio: "Senior. Australian forward.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "Overseas", statusNote: "Played briefly in NBA. Now overseas.", sourceUrl: "https://en.wikipedia.org/wiki/Deng_Adel" },
+      membership: { role: "PLAYER", jerseyNumber: 22, position: "Forward", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 13.5, reboundsPerGame: 5, assistsPerGame: 2 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 13.5, reboundsPerGame: 5, assistsPerGame: 2 }],
+      careerEvents: [],
+    },
+    {
       slug: "david-padgett",
       firstName: "David",
       lastName: "Padgett",

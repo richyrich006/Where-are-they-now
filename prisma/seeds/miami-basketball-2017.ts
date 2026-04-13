@@ -12,6 +12,14 @@ export const miamiBasketball2017: TeamSeed = {
   mascotName: "Hurricane",
   people: [
     {
+      slug: "bruce-brown-miami", firstName: "Bruce", lastName: "Brown", birthYear: 1996, hometown: "United States", highSchool: "United States",
+      bio: "Freshman. Future NBA starter.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "Toronto, ON", statusNote: "#42 pick. NBA starter for Nets/Nuggets. Won 2023 WCF.", sourceUrl: "https://en.wikipedia.org/wiki/Bruce_Brown" },
+      membership: { role: "PLAYER", jerseyNumber: 11, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 9, reboundsPerGame: 5, assistsPerGame: 2 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 9, reboundsPerGame: 5, assistsPerGame: 2 }],
+      careerEvents: [],
+    },
+    {
       slug: "jim-larranaga",
       firstName: "Jim",
       lastName: "Larranaga",

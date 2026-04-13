@@ -12,6 +12,14 @@ export const louisvilleBasketball2023: TeamSeed = {
   mascotName: "Cardinal",
   people: [
     {
+      slug: "el-ellis", firstName: "El", lastName: "Ellis", birthYear: 1999, hometown: "United States", highSchool: "United States",
+      bio: "Senior scorer under Kenny Payne.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "Overseas", statusNote: "Louisville's top scorer in Payne era.", sourceUrl: "https://en.wikipedia.org/wiki/El_Ellis" },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 13, reboundsPerGame: 3, assistsPerGame: 4.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 13, reboundsPerGame: 3, assistsPerGame: 4.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "kenny-payne",
       firstName: "Kenny",
       lastName: "Payne",

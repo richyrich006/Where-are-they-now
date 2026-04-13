@@ -12,6 +12,22 @@ export const louisvilleBasketball2020: TeamSeed = {
   mascotName: "Cardinal",
   people: [
     {
+      slug: "david-johnson-lou", firstName: "David", lastName: "Johnson", birthYear: 1999, hometown: "United States", highSchool: "United States",
+      bio: "Sophomore guard. #29 pick.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "United States", statusNote: "#29 pick by Raptors in 2021.", sourceUrl: "https://en.wikipedia.org/wiki/David_Johnson" },
+      membership: { role: "PLAYER", jerseyNumber: 13, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 12.5, reboundsPerGame: 4, assistsPerGame: 3.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12.5, reboundsPerGame: 4, assistsPerGame: 3.5 }],
+      careerEvents: [],
+    },
+    {
+      slug: "carlik-jones", firstName: "Carlik", lastName: "Jones", birthYear: 1997, hometown: "United States", highSchool: "United States",
+      bio: "Grad transfer from Radford. All-ACC.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "United States", statusNote: "All-ACC as grad transfer. Played for Mavs.", sourceUrl: "https://en.wikipedia.org/wiki/Carlik_Jones" },
+      membership: { role: "PLAYER", jerseyNumber: 1, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 16, reboundsPerGame: 4.5, assistsPerGame: 4.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 16, reboundsPerGame: 4.5, assistsPerGame: 4.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "chris-mack",
       firstName: "Chris",
       lastName: "Mack",

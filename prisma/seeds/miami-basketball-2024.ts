@@ -12,6 +12,22 @@ export const miamiBasketball2024: TeamSeed = {
   mascotName: "Hurricane",
   people: [
     {
+      slug: "matthew-cleveland", firstName: "Matthew", lastName: "Cleveland", birthYear: 2003, hometown: "United States", highSchool: "United States",
+      bio: "Junior guard. ACC All-Conference.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "United States", statusNote: "Declared for 2024 NBA Draft after Junior year.", sourceUrl: "https://en.wikipedia.org/wiki/Matthew_Cleveland" },
+      membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 14, reboundsPerGame: 5, assistsPerGame: 3 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14, reboundsPerGame: 5, assistsPerGame: 3 }],
+      careerEvents: [],
+    },
+    {
+      slug: "norchad-omier", firstName: "Norchad", lastName: "Omier", birthYear: 2001, hometown: "United States", highSchool: "United States",
+      bio: "Nicaraguan center. Transferred to Baylor.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Forward", location: "United States", statusNote: "Transferred to Baylor after Final Four. 2024 draft prospect.", sourceUrl: "https://en.wikipedia.org/wiki/Norchad_Omier" },
+      membership: { role: "PLAYER", jerseyNumber: 15, position: "Forward", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 8, assistsPerGame: 1 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Miami Hurricanes", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 8, assistsPerGame: 1 }],
+      careerEvents: [],
+    },
+    {
       slug: "jim-larranaga",
       firstName: "Jim",
       lastName: "Larranaga",

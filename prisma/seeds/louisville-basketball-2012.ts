@@ -12,6 +12,38 @@ export const louisvilleBasketball2012: TeamSeed = {
   mascotName: "Cardinal",
   people: [
     {
+      slug: "peyton-siva", firstName: "Peyton", lastName: "Siva", birthYear: 1990, hometown: "United States", highSchool: "United States",
+      bio: "Junior PG. Final Four team.",
+      status: { occupationType: "COACH", currentTitle: "Dir. Player Development", location: "Louisville, KY", statusNote: "Final Four captain.", sourceUrl: "https://en.wikipedia.org/wiki/Peyton_Siva" },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 11.5, reboundsPerGame: 3, assistsPerGame: 5.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 11.5, reboundsPerGame: 3, assistsPerGame: 5.5 }],
+      careerEvents: [],
+    },
+    {
+      slug: "russ-smith", firstName: "Russ", lastName: "Smith", birthYear: 1991, hometown: "United States", highSchool: "United States",
+      bio: "Sophomore. Russdiculous.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "Italy", statusNote: "Famous for 61 PPG in China. Long overseas career.", sourceUrl: "https://en.wikipedia.org/wiki/Russ_Smith" },
+      membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 11.5, reboundsPerGame: 2.5, assistsPerGame: 2.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 11.5, reboundsPerGame: 2.5, assistsPerGame: 2.5 }],
+      careerEvents: [],
+    },
+    {
+      slug: "kyle-kuric", firstName: "Kyle", lastName: "Kuric", birthYear: 1989, hometown: "United States", highSchool: "United States",
+      bio: "Senior and team's best shooter.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "Overseas", statusNote: "Barcelona star in EuroLeague.", sourceUrl: "https://en.wikipedia.org/wiki/Kyle_Kuric" },
+      membership: { role: "PLAYER", jerseyNumber: 14, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 14, reboundsPerGame: 4, assistsPerGame: 2 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 14, reboundsPerGame: 4, assistsPerGame: 2 }],
+      careerEvents: [],
+    },
+    {
+      slug: "gorgui-dieng", firstName: "Gorgui", lastName: "Dieng", birthYear: 1990, hometown: "United States", highSchool: "United States",
+      bio: "Sophomore center from Senegal.",
+      status: { occupationType: "FRONT_OFFICE", currentTitle: "Basketball Ops", location: "San Antonio, TX", statusNote: "10-yr NBA career. Now Spurs basketball ops. Philanthropy in Senegal.", sourceUrl: "https://en.wikipedia.org/wiki/Gorgui_Dieng" },
+      membership: { role: "PLAYER", jerseyNumber: 10, position: "Center", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 8, reboundsPerGame: 7, assistsPerGame: 0.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Louisville Cardinals", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 8, reboundsPerGame: 7, assistsPerGame: 0.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "rick-pitino",
       firstName: "Rick",
       lastName: "Pitino",
