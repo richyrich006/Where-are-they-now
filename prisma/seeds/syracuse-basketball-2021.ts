@@ -12,6 +12,19 @@ export const syracuseBasketball2021: TeamSeed = {
   mascotName: "Orange",
   people: [
     {
+      slug: "buddy-boeheim",
+      firstName: "Buddy",
+      lastName: "Boeheim",
+      birthYear: 1999,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Junior. Coach Boeheim's son. Elite 3-point shooter.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "Overseas", statusNote: "Jim Boeheim's son. Played for Pistons briefly. Now overseas. Legendary tournament shooter.", sourceUrl: "https://en.wikipedia.org/wiki/Buddy_Boeheim" },
+      membership: { role: "PLAYER", jerseyNumber: 35, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 17.5, reboundsPerGame: 3, assistsPerGame: 1.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Syracuse Orange", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 17.5, reboundsPerGame: 3, assistsPerGame: 1.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "jim-boeheim",
       firstName: "Jim",
       lastName: "Boeheim",

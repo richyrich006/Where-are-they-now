@@ -12,6 +12,19 @@ export const syracuseBasketball2024: TeamSeed = {
   mascotName: "Orange",
   people: [
     {
+      slug: "judah-mintz",
+      firstName: "Judah",
+      lastName: "Mintz",
+      birthYear: 2003,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Sophomore star. Declared for 2024 NBA Draft.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "United States", statusNote: "2024 NBA Draft pick. Dynamic scorer and playmaker.", sourceUrl: "https://en.wikipedia.org/wiki/Judah_Mintz" },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 19.5, reboundsPerGame: 4, assistsPerGame: 6 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Syracuse Orange", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 19.5, reboundsPerGame: 4, assistsPerGame: 6 }],
+      careerEvents: [],
+    },
+    {
       slug: "adrian-autry",
       firstName: "Adrian",
       lastName: "Autry",

@@ -12,6 +12,19 @@ export const ncstateBasketball2010: TeamSeed = {
   mascotName: "Wolfpack",
   people: [
     {
+      slug: "tracy-smith-ncst",
+      firstName: "Tracy",
+      lastName: "Smith",
+      birthYear: 1987,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "5th-year senior and team captain.",
+      status: { occupationType: "RETIRED_ATHLETE", currentTitle: "Retired", location: "NC", statusNote: "Played overseas after NC State.", sourceUrl: "https://en.wikipedia.org/wiki/Tracy_Smith" },
+      membership: { role: "PLAYER", jerseyNumber: 30, position: "Forward", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 16, reboundsPerGame: 8.5, assistsPerGame: 1 },
+      seasonStats: [{ level: "COLLEGE", teamName: "NC State Wolfpack", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 16, reboundsPerGame: 8.5, assistsPerGame: 1 }],
+      careerEvents: [],
+    },
+    {
       slug: "sidney-lowe",
       firstName: "Sidney",
       lastName: "Lowe",

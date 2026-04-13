@@ -12,6 +12,19 @@ export const ncstateBasketball2014: TeamSeed = {
   mascotName: "Wolfpack",
   people: [
     {
+      slug: "tj-warren",
+      firstName: "T.J.",
+      lastName: "Warren",
+      birthYear: 1993,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Sophomore ACC POY who was #14 pick. Scored 24+ PPG.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Forward", location: "United States", statusNote: "#14 pick by Suns. Averaged 50 PPG in NBA bubble. Injuries derailed career. Comeback attempts ongoing.", sourceUrl: "https://en.wikipedia.org/wiki/T.J._Warren" },
+      membership: { role: "PLAYER", jerseyNumber: 24, position: "Forward", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 24.9, reboundsPerGame: 7.1, assistsPerGame: 1.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "NC State Wolfpack", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 24.9, reboundsPerGame: 7.1, assistsPerGame: 1.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "mark-gottfried",
       firstName: "Mark",
       lastName: "Gottfried",

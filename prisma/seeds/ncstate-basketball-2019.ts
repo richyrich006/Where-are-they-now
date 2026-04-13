@@ -12,6 +12,19 @@ export const ncstateBasketball2019: TeamSeed = {
   mascotName: "Wolfpack",
   people: [
     {
+      slug: "markell-johnson",
+      firstName: "Markell",
+      lastName: "Johnson",
+      birthYear: 1997,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Junior floor general.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "Overseas", statusNote: "NC State's primary playmaker for 3 years.", sourceUrl: "https://en.wikipedia.org/wiki/Markell_Johnson" },
+      membership: { role: "PLAYER", jerseyNumber: 11, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 3, assistsPerGame: 5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "NC State Wolfpack", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 12, reboundsPerGame: 3, assistsPerGame: 5 }],
+      careerEvents: [],
+    },
+    {
       slug: "kevin-keatts",
       firstName: "Kevin",
       lastName: "Keatts",

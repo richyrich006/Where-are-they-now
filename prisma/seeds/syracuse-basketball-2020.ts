@@ -12,6 +12,19 @@ export const syracuseBasketball2020: TeamSeed = {
   mascotName: "Orange",
   people: [
     {
+      slug: "elijah-hughes",
+      firstName: "Elijah",
+      lastName: "Hughes",
+      birthYear: 1998,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Junior wing. Team's leading scorer and All-ACC.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Pro Player", location: "Overseas", statusNote: "Drafted by Jazz. Played in G League and overseas.", sourceUrl: "https://en.wikipedia.org/wiki/Elijah_Hughes" },
+      membership: { role: "PLAYER", jerseyNumber: 33, position: "Guard/Forward", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 19, reboundsPerGame: 5, assistsPerGame: 3.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Syracuse Orange", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 19, reboundsPerGame: 5, assistsPerGame: 3.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "jim-boeheim",
       firstName: "Jim",
       lastName: "Boeheim",

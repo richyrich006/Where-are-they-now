@@ -12,6 +12,19 @@ export const syracuseBasketball2025: TeamSeed = {
   mascotName: "Orange",
   people: [
     {
+      slug: "jj-starling",
+      firstName: "J.J.",
+      lastName: "Starling",
+      birthYear: 2003,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Notre Dame transfer. Team's top scorer under Adrian Autry.",
+      status: { occupationType: "STUDENT", currentTitle: "College Player", location: "Syracuse, NY", statusNote: "Notre Dame transfer providing scoring.", sourceUrl: "https://en.wikipedia.org/wiki/J.J._Starling" },
+      membership: { role: "PLAYER", jerseyNumber: 2, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 15, reboundsPerGame: 3, assistsPerGame: 2.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Syracuse Orange", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 15, reboundsPerGame: 3, assistsPerGame: 2.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "adrian-autry",
       firstName: "Adrian",
       lastName: "Autry",

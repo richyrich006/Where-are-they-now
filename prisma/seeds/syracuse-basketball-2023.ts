@@ -12,6 +12,19 @@ export const syracuseBasketball2023: TeamSeed = {
   mascotName: "Orange",
   people: [
     {
+      slug: "judah-mintz",
+      firstName: "Judah",
+      lastName: "Mintz",
+      birthYear: 2003,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "Freshman sensation who became team's go-to scorer.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "United States", statusNote: "Selected in 2024 NBA Draft after sophomore season.", sourceUrl: "https://en.wikipedia.org/wiki/Judah_Mintz" },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 17, reboundsPerGame: 3.5, assistsPerGame: 5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Syracuse Orange", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 17, reboundsPerGame: 3.5, assistsPerGame: 5 }],
+      careerEvents: [],
+    },
+    {
       slug: "jim-boeheim",
       firstName: "Jim",
       lastName: "Boeheim",

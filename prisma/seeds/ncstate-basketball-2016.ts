@@ -12,6 +12,19 @@ export const ncstateBasketball2016: TeamSeed = {
   mascotName: "Wolfpack",
   people: [
     {
+      slug: "dennis-smith-jr",
+      firstName: "Dennis",
+      lastName: "Smith Jr.",
+      birthYear: 1997,
+      hometown: "United States",
+      highSchool: "United States",
+      bio: "5-star freshman who was #9 pick in 2017. Electric athlete.",
+      status: { occupationType: "ACTIVE_PRO_ATHLETE", currentTitle: "Guard", location: "United States", statusNote: "#9 pick by Mavericks. Played for Mavs, Knicks, Pistons, Nets, Hornets, Trail Blazers. Career affected by injuries.", sourceUrl: "https://en.wikipedia.org/wiki/Dennis_Smith_Jr." },
+      membership: { role: "PLAYER", jerseyNumber: 4, position: "Point Guard", yearsAtSchool: "undefined", gamesPlayed: 33, pointsPerGame: 18.1, reboundsPerGame: 4.6, assistsPerGame: 6.2 },
+      seasonStats: [{ level: "COLLEGE", teamName: "NC State Wolfpack", season: "undefined", yearLabel: "undefined", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 18.1, reboundsPerGame: 4.6, assistsPerGame: 6.2 }],
+      careerEvents: [],
+    },
+    {
       slug: "mark-gottfried",
       firstName: "Mark",
       lastName: "Gottfried",
