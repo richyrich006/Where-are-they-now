@@ -12,6 +12,14 @@ export const wakeForestBasketball2018: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"bryant-crawford",firstName:"Bryant",lastName:"Crawford",birthYear:1996,hometown:"United States",highSchool:"United States",
+      bio:"Junior guard and floor general.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"3-year starter at Wake Forest.",sourceUrl:"https://en.wikipedia.org/wiki/Bryant_Crawford"},
+      membership:{role:"PLAYER",jerseyNumber:13,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:15.5,reboundsPerGame:4,assistsPerGame:6},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:15.5,reboundsPerGame:4,assistsPerGame:6}],
+      careerEvents:[],
+    },
+    {
       slug: "danny-manning",
       firstName: "Danny",
       lastName: "Manning",

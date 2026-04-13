@@ -12,6 +12,14 @@ export const wakeForestBasketball2015: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"devin-thomas-wf",firstName:"Devin",lastName:"Thomas",birthYear:1993,hometown:"United States",highSchool:"United States",
+      bio:"Senior captain.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Senior leader.",sourceUrl:"https://en.wikipedia.org/wiki/Devin_Thomas"},
+      membership:{role:"PLAYER",jerseyNumber:2,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:14,reboundsPerGame:8,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:14,reboundsPerGame:8,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
       slug: "danny-manning",
       firstName: "Danny",
       lastName: "Manning",

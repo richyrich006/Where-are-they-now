@@ -12,6 +12,14 @@ export const clemsonBasketball2022: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"pj-hall-clemson",firstName:"PJ",lastName:"Hall",birthYear:2002,hometown:"United States",highSchool:"United States",
+      bio:"Freshman center emerging.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Center (two-way)",location:"Charlotte, NC",statusNote:"Now Hornets two-way contract. 2024 Elite Eight star.",sourceUrl:"https://en.wikipedia.org/wiki/PJ_Hall"},
+      membership:{role:"PLAYER",jerseyNumber:24,position:"Center",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:8,reboundsPerGame:4,assistsPerGame:0.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:8,reboundsPerGame:4,assistsPerGame:0.5}],
+      careerEvents:[],
+    },
+    {
       slug: "brad-brownell",
       firstName: "Brad",
       lastName: "Brownell",

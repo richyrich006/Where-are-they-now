@@ -12,6 +12,14 @@ export const wakeForestBasketball2011: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"al-farouq-aminu",firstName:"Al-Farouq",lastName:"Aminu",birthYear:1990,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"#8 pick. 10 NBA seasons.",sourceUrl:"https://en.wikipedia.org/wiki/Al-Farouq_Aminu"},
+      membership:{role:"PLAYER",jerseyNumber:1,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:12.5,reboundsPerGame:7,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:12.5,reboundsPerGame:7,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
       slug: "jeff-bzdelik",
       firstName: "Jeff",
       lastName: "Bzdelik",

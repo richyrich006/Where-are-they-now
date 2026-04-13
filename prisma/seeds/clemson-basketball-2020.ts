@@ -12,6 +12,14 @@ export const clemsonBasketball2020: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"aamir-simms",firstName:"Aamir",lastName:"Simms",birthYear:1998,hometown:"United States",highSchool:"United States",
+      bio:"Junior forward and team leader.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"3-year starter. ACC All-Conference.",sourceUrl:"https://en.wikipedia.org/wiki/Aamir_Simms"},
+      membership:{role:"PLAYER",jerseyNumber:25,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:13,reboundsPerGame:7,assistsPerGame:2.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:13,reboundsPerGame:7,assistsPerGame:2.5}],
+      careerEvents:[],
+    },
+    {
       slug: "brad-brownell",
       firstName: "Brad",
       lastName: "Brownell",

@@ -12,6 +12,22 @@ export const clemsonBasketball2017: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"jaron-blossomgame",firstName:"Jaron",lastName:"Blossomgame",birthYear:1993,hometown:"United States",highSchool:"United States",
+      bio:"Senior. #59 pick.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Drafted by Spurs after senior year.",sourceUrl:"https://en.wikipedia.org/wiki/Jaron_Blossomgame"},
+      membership:{role:"PLAYER",jerseyNumber:5,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:18,reboundsPerGame:7,assistsPerGame:2.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:18,reboundsPerGame:7,assistsPerGame:2.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"marcquise-reed",firstName:"Marcquise",lastName:"Reed",birthYear:1996,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore guard.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Transferred from Robert Morris. Became starter.",sourceUrl:"https://en.wikipedia.org/wiki/Marcquise_Reed"},
+      membership:{role:"PLAYER",jerseyNumber:2,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:11,reboundsPerGame:3,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:11,reboundsPerGame:3,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
       slug: "brad-brownell",
       firstName: "Brad",
       lastName: "Brownell",

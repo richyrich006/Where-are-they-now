@@ -12,6 +12,22 @@ export const wakeForestBasketball2017: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"john-collins-wf",firstName:"John",lastName:"Collins",birthYear:1997,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore star. #19 pick.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Forward",location:"United States",statusNote:"#19 pick. $125M contract with Hawks/Jazz/Spurs.",sourceUrl:"https://en.wikipedia.org/wiki/John_Collins"},
+      membership:{role:"PLAYER",jerseyNumber:20,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:15,reboundsPerGame:7.5,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:15,reboundsPerGame:7.5,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"bryant-crawford",firstName:"Bryant",lastName:"Crawford",birthYear:1996,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore guard.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"3-year starter. Played overseas.",sourceUrl:"https://en.wikipedia.org/wiki/Bryant_Crawford"},
+      membership:{role:"PLAYER",jerseyNumber:13,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:14,reboundsPerGame:3.5,assistsPerGame:5.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:14,reboundsPerGame:3.5,assistsPerGame:5.5}],
+      careerEvents:[],
+    },
+    {
       slug: "danny-manning",
       firstName: "Danny",
       lastName: "Manning",

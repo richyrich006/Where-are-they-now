@@ -12,6 +12,22 @@ export const clemsonBasketball2016: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"jaron-blossomgame",firstName:"Jaron",lastName:"Blossomgame",birthYear:1993,hometown:"United States",highSchool:"United States",
+      bio:"Junior star.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Drafted #59 by Spurs.",sourceUrl:"https://en.wikipedia.org/wiki/Jaron_Blossomgame"},
+      membership:{role:"PLAYER",jerseyNumber:5,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:17.5,reboundsPerGame:6.5,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:17.5,reboundsPerGame:6.5,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
+      slug:"donte-grantham",firstName:"Donte",lastName:"Grantham",birthYear:1995,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Played overseas. Versatile forward.",sourceUrl:"https://en.wikipedia.org/wiki/Donte_Grantham"},
+      membership:{role:"PLAYER",jerseyNumber:15,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:9,reboundsPerGame:4,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:9,reboundsPerGame:4,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
       slug: "brad-brownell",
       firstName: "Brad",
       lastName: "Brownell",

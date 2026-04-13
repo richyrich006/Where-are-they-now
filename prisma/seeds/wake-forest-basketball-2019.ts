@@ -12,6 +12,22 @@ export const wakeForestBasketball2019: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"bryant-crawford",firstName:"Bryant",lastName:"Crawford",birthYear:1996,hometown:"United States",highSchool:"United States",
+      bio:"Senior captain.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Wake Forest career assists leader.",sourceUrl:"https://en.wikipedia.org/wiki/Bryant_Crawford"},
+      membership:{role:"PLAYER",jerseyNumber:13,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:15,reboundsPerGame:3.5,assistsPerGame:5.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:15,reboundsPerGame:3.5,assistsPerGame:5.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"brandon-childress",firstName:"Brandon",lastName:"Childress",birthYear:1997,hometown:"United States",highSchool:"United States",
+      bio:"Junior guard. Son of NFL player.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Son of NFL's Randall Childress.",sourceUrl:"https://en.wikipedia.org/wiki/Brandon_Childress"},
+      membership:{role:"PLAYER",jerseyNumber:0,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:11,reboundsPerGame:2,assistsPerGame:3.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:11,reboundsPerGame:2,assistsPerGame:3.5}],
+      careerEvents:[],
+    },
+    {
       slug: "danny-manning",
       firstName: "Danny",
       lastName: "Manning",

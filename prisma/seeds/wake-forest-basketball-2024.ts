@@ -12,6 +12,14 @@ export const wakeForestBasketball2024: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"hunter-sallis",firstName:"Hunter",lastName:"Sallis",birthYear:2003,hometown:"United States",highSchool:"United States",
+      bio:"Junior. First-Team All-ACC.",
+      status:{occupationType:"STUDENT",currentTitle:"2025 NBA Draft",location:"United States",statusNote:"2x First-Team All-ACC. First since Tim Duncan.",sourceUrl:"https://en.wikipedia.org/wiki/Hunter_Sallis"},
+      membership:{role:"PLAYER",jerseyNumber:22,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:17,reboundsPerGame:5,assistsPerGame:2.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:17,reboundsPerGame:5,assistsPerGame:2.5}],
+      careerEvents:[],
+    },
+    {
       slug: "steve-forbes",
       firstName: "Steve",
       lastName: "Forbes",

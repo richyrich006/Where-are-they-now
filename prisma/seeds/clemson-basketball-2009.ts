@@ -12,6 +12,22 @@ export const clemsonBasketball2009: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"terrence-oglesby",firstName:"Terrence",lastName:"Oglesby",birthYear:1986,hometown:"United States",highSchool:"United States",
+      bio:"Senior sharpshooter.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"3-point specialist. Played overseas.",sourceUrl:"https://en.wikipedia.org/wiki/Terrence_Oglesby"},
+      membership:{role:"PLAYER",jerseyNumber:24,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:11,reboundsPerGame:2,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:11,reboundsPerGame:2,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"trevor-booker-clem",firstName:"Trevor",lastName:"Booker",birthYear:1987,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore forward. Future NBA player.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"#23 pick by Wizards. 8 NBA seasons.",sourceUrl:"https://en.wikipedia.org/wiki/Trevor_Booker"},
+      membership:{role:"PLAYER",jerseyNumber:35,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:12,reboundsPerGame:7,assistsPerGame:1},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:12,reboundsPerGame:7,assistsPerGame:1}],
+      careerEvents:[],
+    },
+    {
       slug: "oliver-purnell",
       firstName: "Oliver",
       lastName: "Purnell",

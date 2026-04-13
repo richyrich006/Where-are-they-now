@@ -12,6 +12,14 @@ export const wakeForestBasketball2023: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"tyree-appleby",firstName:"Tyree",lastName:"Appleby",birthYear:1999,hometown:"United States",highSchool:"United States",
+      bio:"Grad transfer. ACC Tournament MVP.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"2023 ACC Tournament MVP. Led upset wins.",sourceUrl:"https://en.wikipedia.org/wiki/Tyree_Appleby"},
+      membership:{role:"PLAYER",jerseyNumber:1,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:13,reboundsPerGame:3,assistsPerGame:5.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:13,reboundsPerGame:3,assistsPerGame:5.5}],
+      careerEvents:[],
+    },
+    {
       slug: "steve-forbes",
       firstName: "Steve",
       lastName: "Forbes",

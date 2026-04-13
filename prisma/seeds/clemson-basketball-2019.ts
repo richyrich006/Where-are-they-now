@@ -12,6 +12,14 @@ export const clemsonBasketball2019: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"marcquise-reed",firstName:"Marcquise",lastName:"Reed",birthYear:1996,hometown:"United States",highSchool:"United States",
+      bio:"Senior captain.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Clemson's go-to scorer.",sourceUrl:"https://en.wikipedia.org/wiki/Marcquise_Reed"},
+      membership:{role:"PLAYER",jerseyNumber:2,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:15.5,reboundsPerGame:4,assistsPerGame:3.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:15.5,reboundsPerGame:4,assistsPerGame:3.5}],
+      careerEvents:[],
+    },
+    {
       slug: "brad-brownell",
       firstName: "Brad",
       lastName: "Brownell",

@@ -12,6 +12,22 @@ export const clemsonBasketball2023: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"pj-hall-clemson",firstName:"PJ",lastName:"Hall",birthYear:2002,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore developing.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Center (two-way)",location:"Charlotte, NC",statusNote:"2024 Elite Eight. Now Hornets.",sourceUrl:"https://en.wikipedia.org/wiki/PJ_Hall"},
+      membership:{role:"PLAYER",jerseyNumber:24,position:"Center",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:13,reboundsPerGame:5,assistsPerGame:1},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:13,reboundsPerGame:5,assistsPerGame:1}],
+      careerEvents:[],
+    },
+    {
+      slug:"chase-hunter",firstName:"Chase",lastName:"Hunter",birthYear:2001,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore PG.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Pro Player",location:"United States",statusNote:"4-year starter. Elite Eight PG.",sourceUrl:"https://en.wikipedia.org/wiki/Chase_Hunter"},
+      membership:{role:"PLAYER",jerseyNumber:1,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:10,reboundsPerGame:2.5,assistsPerGame:3.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:10,reboundsPerGame:2.5,assistsPerGame:3.5}],
+      careerEvents:[],
+    },
+    {
       slug: "brad-brownell",
       firstName: "Brad",
       lastName: "Brownell",

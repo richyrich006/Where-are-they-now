@@ -12,6 +12,14 @@ export const wakeForestBasketball2012: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"cj-harris-wf",firstName:"C.J.",lastName:"Harris",birthYear:1989,hometown:"United States",highSchool:"United States",
+      bio:"Senior guard.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"4-year starter. Played overseas.",sourceUrl:"https://en.wikipedia.org/wiki/C.J._Harris"},
+      membership:{role:"PLAYER",jerseyNumber:11,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:14,reboundsPerGame:3,assistsPerGame:3},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:14,reboundsPerGame:3,assistsPerGame:3}],
+      careerEvents:[],
+    },
+    {
       slug: "jeff-bzdelik",
       firstName: "Jeff",
       lastName: "Bzdelik",

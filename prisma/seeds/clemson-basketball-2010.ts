@@ -12,6 +12,22 @@ export const clemsonBasketball2010: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"trevor-booker-clem",firstName:"Trevor",lastName:"Booker",birthYear:1987,hometown:"United States",highSchool:"United States",
+      bio:"Junior star. #23 pick in 2010.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"#23 pick. 8 NBA seasons with Wizards, Jazz, Nets, Pacers.",sourceUrl:"https://en.wikipedia.org/wiki/Trevor_Booker"},
+      membership:{role:"PLAYER",jerseyNumber:35,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:15,reboundsPerGame:8.5,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:15,reboundsPerGame:8.5,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"demontez-stitt",firstName:"Demontez",lastName:"Stitt",birthYear:1988,hometown:"United States",highSchool:"United States",
+      bio:"Senior PG.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"4-year starter. Played overseas.",sourceUrl:"https://en.wikipedia.org/wiki/Demontez_Stitt"},
+      membership:{role:"PLAYER",jerseyNumber:2,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:12,reboundsPerGame:3,assistsPerGame:4},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:12,reboundsPerGame:3,assistsPerGame:4}],
+      careerEvents:[],
+    },
+    {
       slug: "oliver-purnell",
       firstName: "Oliver",
       lastName: "Purnell",

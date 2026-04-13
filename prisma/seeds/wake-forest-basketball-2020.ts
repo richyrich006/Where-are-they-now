@@ -12,6 +12,14 @@ export const wakeForestBasketball2020: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"brandon-childress",firstName:"Brandon",lastName:"Childress",birthYear:1997,hometown:"United States",highSchool:"United States",
+      bio:"Senior captain.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Son of NFL player Randall Childress.",sourceUrl:"https://en.wikipedia.org/wiki/Brandon_Childress"},
+      membership:{role:"PLAYER",jerseyNumber:0,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:13,reboundsPerGame:2.5,assistsPerGame:4},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:13,reboundsPerGame:2.5,assistsPerGame:4}],
+      careerEvents:[],
+    },
+    {
       slug: "danny-manning",
       firstName: "Danny",
       lastName: "Manning",

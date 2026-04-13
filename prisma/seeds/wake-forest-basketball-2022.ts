@@ -12,6 +12,22 @@ export const wakeForestBasketball2022: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"jake-laravia",firstName:"Jake",lastName:"LaRavia",birthYear:2001,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore. #19 pick by Grizzlies.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Forward",location:"Memphis, TN",statusNote:"#19 pick by Grizzlies in 2022. NBA rotation player.",sourceUrl:"https://en.wikipedia.org/wiki/Jake_LaRavia"},
+      membership:{role:"PLAYER",jerseyNumber:0,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:14.5,reboundsPerGame:6.5,assistsPerGame:3.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:14.5,reboundsPerGame:6.5,assistsPerGame:3.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"alondes-williams-wf",firstName:"Alondes",lastName:"Williams",birthYear:1999,hometown:"United States",highSchool:"United States",
+      bio:"Grad transfer. All-ACC.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Pro Player",location:"United States",statusNote:"All-ACC as grad transfer from Oklahoma.",sourceUrl:"https://en.wikipedia.org/wiki/Alondes_Williams"},
+      membership:{role:"PLAYER",jerseyNumber:10,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:18.5,reboundsPerGame:6.5,assistsPerGame:5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:18.5,reboundsPerGame:6.5,assistsPerGame:5}],
+      careerEvents:[],
+    },
+    {
       slug: "steve-forbes",
       firstName: "Steve",
       lastName: "Forbes",

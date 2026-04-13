@@ -12,6 +12,14 @@ export const wakeForestBasketball2016: TeamSeed = {
   mascotName: "Demon Deacon",
   people: [
     {
+      slug:"john-collins-wf",firstName:"John",lastName:"Collins",birthYear:1997,hometown:"United States",highSchool:"United States",
+      bio:"Freshman. Future #19 pick and NBA All-Star candidate.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Forward",location:"United States",statusNote:"#19 pick by Hawks. Averaged 20+ PPG. $125M contract.",sourceUrl:"https://en.wikipedia.org/wiki/John_Collins"},
+      membership:{role:"PLAYER",jerseyNumber:20,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:7.3,reboundsPerGame:4,assistsPerGame:0.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Wake Forest Demon Deacons",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:7.3,reboundsPerGame:4,assistsPerGame:0.5}],
+      careerEvents:[],
+    },
+    {
       slug: "danny-manning",
       firstName: "Danny",
       lastName: "Manning",

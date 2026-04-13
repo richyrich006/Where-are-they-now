@@ -12,6 +12,22 @@ export const clemsonBasketball2018: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"marcquise-reed",firstName:"Marcquise",lastName:"Reed",birthYear:1996,hometown:"United States",highSchool:"United States",
+      bio:"Junior guard and team leader.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Leading scorer for Clemson.",sourceUrl:"https://en.wikipedia.org/wiki/Marcquise_Reed"},
+      membership:{role:"PLAYER",jerseyNumber:2,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:16,reboundsPerGame:3.5,assistsPerGame:3},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:16,reboundsPerGame:3.5,assistsPerGame:3}],
+      careerEvents:[],
+    },
+    {
+      slug:"shelton-mitchell-clem",firstName:"Shelton",lastName:"Mitchell",birthYear:1996,hometown:"United States",highSchool:"United States",
+      bio:"Junior PG.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"3-year starter at Clemson.",sourceUrl:"https://en.wikipedia.org/wiki/Shelton_Mitchell"},
+      membership:{role:"PLAYER",jerseyNumber:4,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:13,reboundsPerGame:3,assistsPerGame:4},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:13,reboundsPerGame:3,assistsPerGame:4}],
+      careerEvents:[],
+    },
+    {
       slug: "brad-brownell",
       firstName: "Brad",
       lastName: "Brownell",

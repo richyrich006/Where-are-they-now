@@ -12,6 +12,22 @@ export const clemsonBasketball2025: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"chase-hunter",firstName:"Chase",lastName:"Hunter",birthYear:2001,hometown:"United States",highSchool:"United States",
+      bio:"5th-yr senior after Elite Eight.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Pro Player",location:"United States",statusNote:"Returned after Elite Eight run.",sourceUrl:"https://en.wikipedia.org/wiki/Chase_Hunter"},
+      membership:{role:"PLAYER",jerseyNumber:1,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:14.5,reboundsPerGame:3.5,assistsPerGame:5},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:14.5,reboundsPerGame:3.5,assistsPerGame:5}],
+      careerEvents:[],
+    },
+    {
+      slug:"ian-schieffelin",firstName:"Ian",lastName:"Schieffelin",birthYear:2002,hometown:"United States",highSchool:"United States",
+      bio:"Senior forward. Do-everything player.",
+      status:{occupationType:"STUDENT",currentTitle:"2025 Draft prospect",location:"Clemson, SC",statusNote:"Versatile forward. 2025 draft prospect.",sourceUrl:"https://en.wikipedia.org/wiki/Ian_Schieffelin"},
+      membership:{role:"PLAYER",jerseyNumber:5,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:12,reboundsPerGame:8,assistsPerGame:3.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:12,reboundsPerGame:8,assistsPerGame:3.5}],
+      careerEvents:[],
+    },
+    {
       slug: "brad-brownell",
       firstName: "Brad",
       lastName: "Brownell",

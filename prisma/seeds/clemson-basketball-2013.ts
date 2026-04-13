@@ -12,6 +12,14 @@ export const clemsonBasketball2013: TeamSeed = {
   mascotName: "Tiger",
   people: [
     {
+      slug:"kj-mcdaniels",firstName:"K.J.",lastName:"McDaniels",birthYear:1993,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore forward.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"#32 pick by 76ers. NBA career.",sourceUrl:"https://en.wikipedia.org/wiki/K.J._McDaniels"},
+      membership:{role:"PLAYER",jerseyNumber:32,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:12,reboundsPerGame:5.5,assistsPerGame:1},
+      seasonStats:[{level:"COLLEGE",teamName:"Clemson Tigers",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:12,reboundsPerGame:5.5,assistsPerGame:1}],
+      careerEvents:[],
+    },
+    {
       slug: "brad-brownell",
       firstName: "Brad",
       lastName: "Brownell",
