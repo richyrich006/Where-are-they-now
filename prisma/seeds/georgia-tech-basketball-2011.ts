@@ -12,6 +12,14 @@ export const georgiaTechBasketball2011: TeamSeed = {
   mascotName: "Yellow Jacket",
   people: [
     {
+      slug:"iman-shumpert",firstName:"Iman",lastName:"Shumpert",birthYear:1990,hometown:"United States",highSchool:"United States",
+      bio:"Junior star. #17 pick. DWTS winner.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Media Personality",location:"Los Angeles, CA",statusNote:"#17 pick. 2016 NBA champ. Won Dancing with the Stars 2021.",sourceUrl:"https://en.wikipedia.org/wiki/Iman_Shumpert"},
+      membership:{role:"PLAYER",jerseyNumber:1,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:17,reboundsPerGame:6,assistsPerGame:3.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:17,reboundsPerGame:6,assistsPerGame:3.5}],
+      careerEvents:[],
+    },
+    {
       slug: "paul-hewitt",
       firstName: "Paul",
       lastName: "Hewitt",

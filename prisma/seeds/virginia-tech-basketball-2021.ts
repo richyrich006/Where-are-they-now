@@ -12,6 +12,22 @@ export const virginiaTechBasketball2021: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"keve-aluma",firstName:"Keve",lastName:"Aluma",birthYear:1997,hometown:"United States",highSchool:"United States",
+      bio:"Junior. Wofford transfer. All-ACC.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"All-ACC. Transferred from Wofford with Mike Young.",sourceUrl:"https://en.wikipedia.org/wiki/Keve_Aluma"},
+      membership:{role:"PLAYER",jerseyNumber:22,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:15.5,reboundsPerGame:7.5,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:15.5,reboundsPerGame:7.5,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"nahiem-alleyne",firstName:"Nahiem",lastName:"Alleyne",birthYear:2000,hometown:"United States",highSchool:"United States",
+      bio:"Junior guard.",
+      status:{occupationType:"STUDENT",currentTitle:"College Player",location:"United States",statusNote:"VT starter. Later UConn transfer.",sourceUrl:"https://en.wikipedia.org/wiki/Nahiem_Alleyne"},
+      membership:{role:"PLAYER",jerseyNumber:4,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:11,reboundsPerGame:4,assistsPerGame:2.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:11,reboundsPerGame:4,assistsPerGame:2.5}],
+      careerEvents:[],
+    },
+    {
       slug: "mike-young",
       firstName: "Mike",
       lastName: "Young",

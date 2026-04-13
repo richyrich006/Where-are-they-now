@@ -12,6 +12,14 @@ export const virginiaTechBasketball2025: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"myles-wilmoth",firstName:"Myles",lastName:"Wilmoth",birthYear:2001,hometown:"United States",highSchool:"United States",
+      bio:"Senior forward.",
+      status:{occupationType:"STUDENT",currentTitle:"College Player",location:"Blacksburg, VA",statusNote:"Key contributor under Mike Young.",sourceUrl:"https://en.wikipedia.org/wiki/Myles_Wilmoth"},
+      membership:{role:"PLAYER",jerseyNumber:24,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:11,reboundsPerGame:6,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:11,reboundsPerGame:6,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
       slug: "mike-young",
       firstName: "Mike",
       lastName: "Young",

@@ -12,6 +12,14 @@ export const georgiaTechBasketball2016: TeamSeed = {
   mascotName: "Yellow Jacket",
   people: [
     {
+      slug:"josh-okogie",firstName:"Josh",lastName:"Okogie",birthYear:1998,hometown:"United States",highSchool:"United States",
+      bio:"Freshman guard. Future #20 pick.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Guard",location:"United States",statusNote:"#20 pick by Timberwolves. 5+ NBA seasons.",sourceUrl:"https://en.wikipedia.org/wiki/Josh_Okogie"},
+      membership:{role:"PLAYER",jerseyNumber:5,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:8,reboundsPerGame:4,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:8,reboundsPerGame:4,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
       slug: "brian-gregory",
       firstName: "Brian",
       lastName: "Gregory",

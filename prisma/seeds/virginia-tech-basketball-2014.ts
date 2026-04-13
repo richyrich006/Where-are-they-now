@@ -12,6 +12,14 @@ export const virginiaTechBasketball2014: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"ben-emelogu",firstName:"Ben",lastName:"Emelogu",birthYear:1993,hometown:"United States",highSchool:"United States",
+      bio:"Junior guard.",
+      status:{occupationType:"OTHER",currentTitle:"Professional",location:"United States",statusNote:"Played in Europe briefly.",sourceUrl:"https://en.wikipedia.org/wiki/Ben_Emelogu"},
+      membership:{role:"PLAYER",jerseyNumber:15,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:10,reboundsPerGame:2.5,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:10,reboundsPerGame:2.5,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
       slug: "james-johnson-vt",
       firstName: "James",
       lastName: "Johnson",

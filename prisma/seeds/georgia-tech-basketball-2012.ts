@@ -12,6 +12,14 @@ export const georgiaTechBasketball2012: TeamSeed = {
   mascotName: "Yellow Jacket",
   people: [
     {
+      slug:"glen-rice-jr",firstName:"Glen",lastName:"Rice Jr.",birthYear:1991,hometown:"United States",highSchool:"United States",
+      bio:"Junior guard. Son of Glen Rice.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Son of NBA All-Star Glen Rice. Played briefly for Wizards.",sourceUrl:"https://en.wikipedia.org/wiki/Glen_Rice_Jr."},
+      membership:{role:"PLAYER",jerseyNumber:41,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:11,reboundsPerGame:4,assistsPerGame:2.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:11,reboundsPerGame:4,assistsPerGame:2.5}],
+      careerEvents:[],
+    },
+    {
       slug: "brian-gregory",
       firstName: "Brian",
       lastName: "Gregory",

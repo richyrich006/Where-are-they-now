@@ -12,6 +12,22 @@ export const virginiaTechBasketball2009: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"malcolm-delaney",firstName:"Malcolm",lastName:"Delaney",birthYear:1989,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore guard. Future EuroLeague star.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Pro Player",location:"Overseas",statusNote:"Played for Hawks. Won EuroLeague MVP. Long career in Europe.",sourceUrl:"https://en.wikipedia.org/wiki/Malcolm_Delaney"},
+      membership:{role:"PLAYER",jerseyNumber:23,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:14,reboundsPerGame:3,assistsPerGame:4.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:14,reboundsPerGame:3,assistsPerGame:4.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"jeff-allen-vt",firstName:"Jeff",lastName:"Allen",birthYear:1987,hometown:"United States",highSchool:"United States",
+      bio:"Senior forward.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Played overseas.",sourceUrl:"https://en.wikipedia.org/wiki/Jeff_Allen"},
+      membership:{role:"PLAYER",jerseyNumber:0,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:12,reboundsPerGame:7,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:12,reboundsPerGame:7,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
       slug: "seth-greenberg",
       firstName: "Seth",
       lastName: "Greenberg",

@@ -12,6 +12,14 @@ export const virginiaTechBasketball2010: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"malcolm-delaney",firstName:"Malcolm",lastName:"Delaney",birthYear:1989,hometown:"United States",highSchool:"United States",
+      bio:"Junior star. ACC All-Conference.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Pro Player",location:"Overseas",statusNote:"EuroLeague MVP. Played for Hawks in NBA.",sourceUrl:"https://en.wikipedia.org/wiki/Malcolm_Delaney"},
+      membership:{role:"PLAYER",jerseyNumber:23,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:17,reboundsPerGame:3.5,assistsPerGame:5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:17,reboundsPerGame:3.5,assistsPerGame:5}],
+      careerEvents:[],
+    },
+    {
       slug: "seth-greenberg",
       firstName: "Seth",
       lastName: "Greenberg",

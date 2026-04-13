@@ -12,6 +12,22 @@ export const virginiaTechBasketball2018: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"nickeil-alexander-walker",firstName:"Nickeil",lastName:"Alexander-Walker",birthYear:1998,hometown:"United States",highSchool:"United States",
+      bio:"Freshman star. #17 pick.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Guard",location:"Minneapolis, MN",statusNote:"#17 pick. Shai's cousin. NBA career ongoing.",sourceUrl:"https://en.wikipedia.org/wiki/Nickeil_Alexander-Walker"},
+      membership:{role:"PLAYER",jerseyNumber:4,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:16,reboundsPerGame:4,assistsPerGame:3},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:16,reboundsPerGame:4,assistsPerGame:3}],
+      careerEvents:[],
+    },
+    {
+      slug:"ahmed-hill",firstName:"Ahmed",lastName:"Hill",birthYear:1996,hometown:"United States",highSchool:"United States",
+      bio:"Senior.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"Georgia",statusNote:"4-year player.",sourceUrl:"https://en.wikipedia.org/wiki/Ahmed_Hill"},
+      membership:{role:"PLAYER",jerseyNumber:13,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:11.5,reboundsPerGame:3,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:11.5,reboundsPerGame:3,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
       slug: "buzz-williams",
       firstName: "Buzz",
       lastName: "Williams",

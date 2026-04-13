@@ -12,6 +12,22 @@ export const georgiaTechBasketball2009: TeamSeed = {
   mascotName: "Yellow Jacket",
   people: [
     {
+      slug:"gani-lawal",firstName:"Gani",lastName:"Lawal",birthYear:1988,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore forward from Nigeria.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Pro Player",location:"South America",statusNote:"#46 pick by Suns. Nigerian national team.",sourceUrl:"https://en.wikipedia.org/wiki/Gani_Lawal"},
+      membership:{role:"PLAYER",jerseyNumber:31,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:11,reboundsPerGame:7.5,assistsPerGame:0.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:11,reboundsPerGame:7.5,assistsPerGame:0.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"lewis-clinch",firstName:"Lewis",lastName:"Clinch",birthYear:1988,hometown:"United States",highSchool:"United States",
+      bio:"Junior guard.",
+      status:{occupationType:"OTHER",currentTitle:"Professional",location:"United States",statusNote:"Role player at GT.",sourceUrl:"https://en.wikipedia.org/wiki/Lewis_Clinch"},
+      membership:{role:"PLAYER",jerseyNumber:30,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:8,reboundsPerGame:2,assistsPerGame:3},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:8,reboundsPerGame:2,assistsPerGame:3}],
+      careerEvents:[],
+    },
+    {
       slug: "paul-hewitt",
       firstName: "Paul",
       lastName: "Hewitt",

@@ -12,6 +12,22 @@ export const virginiaTechBasketball2020: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"tyrece-radford",firstName:"Tyrece",lastName:"Radford",birthYear:2000,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore guard.",
+      status:{occupationType:"STUDENT",currentTitle:"College Player",location:"United States",statusNote:"Transferred to Texas A&M. ACC contributor.",sourceUrl:"https://en.wikipedia.org/wiki/Tyrece_Radford"},
+      membership:{role:"PLAYER",jerseyNumber:23,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:11,reboundsPerGame:5,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:11,reboundsPerGame:5,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
+      slug:"nahiem-alleyne",firstName:"Nahiem",lastName:"Alleyne",birthYear:2000,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore guard.",
+      status:{occupationType:"STUDENT",currentTitle:"College Player",location:"United States",statusNote:"Played at VT then UConn.",sourceUrl:"https://en.wikipedia.org/wiki/Nahiem_Alleyne"},
+      membership:{role:"PLAYER",jerseyNumber:4,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:10,reboundsPerGame:4,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:10,reboundsPerGame:4,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
       slug: "mike-young",
       firstName: "Mike",
       lastName: "Young",

@@ -12,6 +12,22 @@ export const georgiaTechBasketball2018: TeamSeed = {
   mascotName: "Yellow Jacket",
   people: [
     {
+      slug:"josh-okogie",firstName:"Josh",lastName:"Okogie",birthYear:1998,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore star who declared.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Guard",location:"United States",statusNote:"#20 pick by Timberwolves. Elite defender.",sourceUrl:"https://en.wikipedia.org/wiki/Josh_Okogie"},
+      membership:{role:"PLAYER",jerseyNumber:5,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:18,reboundsPerGame:6,assistsPerGame:2.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:18,reboundsPerGame:6,assistsPerGame:2.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"jose-alvarado",firstName:"Jose",lastName:"Alvarado",birthYear:1998,hometown:"United States",highSchool:"United States",
+      bio:"Freshman guard from Brooklyn.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Guard",location:"New Orleans, LA",statusNote:"Undrafted. Became Pelicans fan favorite. 'Grand Theft Alvarado'.",sourceUrl:"https://en.wikipedia.org/wiki/Jose_Alvarado"},
+      membership:{role:"PLAYER",jerseyNumber:10,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:8.5,reboundsPerGame:2.5,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:8.5,reboundsPerGame:2.5,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
       slug: "josh-pastner",
       firstName: "Josh",
       lastName: "Pastner",

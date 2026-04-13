@@ -12,6 +12,14 @@ export const georgiaTechBasketball2025: TeamSeed = {
   mascotName: "Yellow Jacket",
   people: [
     {
+      slug:"baye-ndongo",firstName:"Baye",lastName:"Ndongo",birthYear:2004,hometown:"United States",highSchool:"United States",
+      bio:"Freshman. Former 5-star from Senegal.",
+      status:{occupationType:"STUDENT",currentTitle:"College Player",location:"Atlanta, GA",statusNote:"5-star recruit from Senegal. Stoudamire's first big recruit.",sourceUrl:"https://en.wikipedia.org/wiki/Baye_Ndongo"},
+      membership:{role:"PLAYER",jerseyNumber:11,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:12,reboundsPerGame:7,assistsPerGame:1},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:12,reboundsPerGame:7,assistsPerGame:1}],
+      careerEvents:[],
+    },
+    {
       slug: "damon-stoudamire",
       firstName: "Damon",
       lastName: "Stoudamire",

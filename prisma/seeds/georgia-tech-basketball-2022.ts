@@ -12,6 +12,14 @@ export const georgiaTechBasketball2022: TeamSeed = {
   mascotName: "Yellow Jacket",
   people: [
     {
+      slug:"michael-devoe",firstName:"Michael",lastName:"Devoe",birthYear:1999,hometown:"United States",highSchool:"United States",
+      bio:"Senior guard. Prolific scorer.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Pro Player",location:"Overseas",statusNote:"Played overseas. GT scoring leader.",sourceUrl:"https://en.wikipedia.org/wiki/Michael_Devoe"},
+      membership:{role:"PLAYER",jerseyNumber:0,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:18,reboundsPerGame:4,assistsPerGame:3},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:18,reboundsPerGame:4,assistsPerGame:3}],
+      careerEvents:[],
+    },
+    {
       slug: "josh-pastner",
       firstName: "Josh",
       lastName: "Pastner",

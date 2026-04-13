@@ -12,6 +12,22 @@ export const virginiaTechBasketball2016: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"zach-leday",firstName:"Zach",lastName:"LeDay",birthYear:1993,hometown:"United States",highSchool:"United States",
+      bio:"Junior forward. Transfer from USF.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Pro Player",location:"Overseas",statusNote:"Won EuroLeague title with Olympiacos.",sourceUrl:"https://en.wikipedia.org/wiki/Zach_LeDay"},
+      membership:{role:"PLAYER",jerseyNumber:32,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:12.5,reboundsPerGame:7,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:12.5,reboundsPerGame:7,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"seth-allen-vt",firstName:"Seth",lastName:"Allen",birthYear:1993,hometown:"United States",highSchool:"United States",
+      bio:"Senior guard. Maryland transfer.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Solid veteran leader.",sourceUrl:"https://en.wikipedia.org/wiki/Seth_Allen"},
+      membership:{role:"PLAYER",jerseyNumber:4,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:14,reboundsPerGame:3,assistsPerGame:3.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:14,reboundsPerGame:3,assistsPerGame:3.5}],
+      careerEvents:[],
+    },
+    {
       slug: "buzz-williams",
       firstName: "Buzz",
       lastName: "Williams",

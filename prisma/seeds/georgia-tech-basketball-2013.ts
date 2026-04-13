@@ -12,6 +12,14 @@ export const georgiaTechBasketball2013: TeamSeed = {
   mascotName: "Yellow Jacket",
   people: [
     {
+      slug:"robert-carter",firstName:"Robert",lastName:"Carter",birthYear:1993,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore forward.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Transferred to Maryland.",sourceUrl:"https://en.wikipedia.org/wiki/Robert_Carter"},
+      membership:{role:"PLAYER",jerseyNumber:4,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:10,reboundsPerGame:6,assistsPerGame:1},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:10,reboundsPerGame:6,assistsPerGame:1}],
+      careerEvents:[],
+    },
+    {
       slug: "brian-gregory",
       firstName: "Brian",
       lastName: "Gregory",

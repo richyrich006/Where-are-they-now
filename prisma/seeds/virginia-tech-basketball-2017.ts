@@ -12,6 +12,22 @@ export const virginiaTechBasketball2017: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"zach-leday",firstName:"Zach",lastName:"LeDay",birthYear:1993,hometown:"United States",highSchool:"United States",
+      bio:"Senior. All-ACC.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Pro Player",location:"Overseas",statusNote:"EuroLeague champion with Olympiacos.",sourceUrl:"https://en.wikipedia.org/wiki/Zach_LeDay"},
+      membership:{role:"PLAYER",jerseyNumber:32,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:16,reboundsPerGame:7.5,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:16,reboundsPerGame:7.5,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
+      slug:"ahmed-hill",firstName:"Ahmed",lastName:"Hill",birthYear:1996,hometown:"United States",highSchool:"United States",
+      bio:"Junior shooter.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"Georgia",statusNote:"Became key starter.",sourceUrl:"https://en.wikipedia.org/wiki/Ahmed_Hill"},
+      membership:{role:"PLAYER",jerseyNumber:13,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:10.5,reboundsPerGame:3,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:10.5,reboundsPerGame:3,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
       slug: "buzz-williams",
       firstName: "Buzz",
       lastName: "Williams",

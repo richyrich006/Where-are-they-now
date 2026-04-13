@@ -12,6 +12,14 @@ export const georgiaTechBasketball2023: TeamSeed = {
   mascotName: "Yellow Jacket",
   people: [
     {
+      slug:"miles-kelly",firstName:"Miles",lastName:"Kelly",birthYear:2002,hometown:"United States",highSchool:"United States",
+      bio:"Sophomore guard.",
+      status:{occupationType:"STUDENT",currentTitle:"College Player",location:"United States",statusNote:"Emerging scorer at GT.",sourceUrl:"https://en.wikipedia.org/wiki/Miles_Kelly"},
+      membership:{role:"PLAYER",jerseyNumber:13,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:13,reboundsPerGame:4,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:13,reboundsPerGame:4,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
       slug: "josh-pastner",
       firstName: "Josh",
       lastName: "Pastner",

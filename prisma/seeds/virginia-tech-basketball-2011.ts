@@ -12,6 +12,22 @@ export const virginiaTechBasketball2011: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"malcolm-delaney",firstName:"Malcolm",lastName:"Delaney",birthYear:1989,hometown:"United States",highSchool:"United States",
+      bio:"Senior. All-ACC.",
+      status:{occupationType:"ACTIVE_PRO_ATHLETE",currentTitle:"Pro Player",location:"Overseas",statusNote:"NBA stint with Hawks. EuroLeague MVP.",sourceUrl:"https://en.wikipedia.org/wiki/Malcolm_Delaney"},
+      membership:{role:"PLAYER",jerseyNumber:23,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:19.5,reboundsPerGame:4,assistsPerGame:5.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:19.5,reboundsPerGame:4,assistsPerGame:5.5}],
+      careerEvents:[],
+    },
+    {
+      slug:"dorenzo-hudson",firstName:"Dorenzo",lastName:"Hudson",birthYear:1989,hometown:"United States",highSchool:"United States",
+      bio:"Senior guard.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"4-year starter. Played overseas briefly.",sourceUrl:"https://en.wikipedia.org/wiki/Dorenzo_Hudson"},
+      membership:{role:"PLAYER",jerseyNumber:5,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:15,reboundsPerGame:4,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:15,reboundsPerGame:4,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
       slug: "seth-greenberg",
       firstName: "Seth",
       lastName: "Greenberg",

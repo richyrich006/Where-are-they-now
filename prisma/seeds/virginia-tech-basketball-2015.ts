@@ -12,6 +12,14 @@ export const virginiaTechBasketball2015: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"ahmed-hill",firstName:"Ahmed",lastName:"Hill",birthYear:1996,hometown:"United States",highSchool:"United States",
+      bio:"Freshman guard.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"Georgia",statusNote:"4-year starter under Buzz Williams.",sourceUrl:"https://en.wikipedia.org/wiki/Ahmed_Hill"},
+      membership:{role:"PLAYER",jerseyNumber:13,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:6,reboundsPerGame:2.5,assistsPerGame:1},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:6,reboundsPerGame:2.5,assistsPerGame:1}],
+      careerEvents:[],
+    },
+    {
       slug: "buzz-williams",
       firstName: "Buzz",
       lastName: "Williams",

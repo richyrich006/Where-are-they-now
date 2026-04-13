@@ -12,6 +12,22 @@ export const virginiaTechBasketball2023: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"hunter-cattoor",firstName:"Hunter",lastName:"Cattoor",birthYear:2000,hometown:"United States",highSchool:"United States",
+      bio:"Senior shooter.",
+      status:{occupationType:"STUDENT",currentTitle:"College Player",location:"United States",statusNote:"VT's career 3-point leader.",sourceUrl:"https://en.wikipedia.org/wiki/Hunter_Cattoor"},
+      membership:{role:"PLAYER",jerseyNumber:0,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:13,reboundsPerGame:3.5,assistsPerGame:3},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:13,reboundsPerGame:3.5,assistsPerGame:3}],
+      careerEvents:[],
+    },
+    {
+      slug:"grant-basile",firstName:"Grant",lastName:"Basile",birthYear:1999,hometown:"United States",highSchool:"United States",
+      bio:"Grad transfer from Wright State.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Productive grad transfer.",sourceUrl:"https://en.wikipedia.org/wiki/Grant_Basile"},
+      membership:{role:"PLAYER",jerseyNumber:21,position:"Forward",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:14.5,reboundsPerGame:5.5,assistsPerGame:1.5},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:14.5,reboundsPerGame:5.5,assistsPerGame:1.5}],
+      careerEvents:[],
+    },
+    {
       slug: "mike-young",
       firstName: "Mike",
       lastName: "Young",

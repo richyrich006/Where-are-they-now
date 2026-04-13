@@ -12,6 +12,14 @@ export const georgiaTechBasketball2014: TeamSeed = {
   mascotName: "Yellow Jacket",
   people: [
     {
+      slug:"marcus-georges-hunt",firstName:"Marcus",lastName:"Georges-Hunt",birthYear:1993,hometown:"United States",highSchool:"United States",
+      bio:"Junior guard.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Played briefly for Timberwolves.",sourceUrl:"https://en.wikipedia.org/wiki/Marcus_Georges-Hunt"},
+      membership:{role:"PLAYER",jerseyNumber:3,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:14,reboundsPerGame:5,assistsPerGame:2},
+      seasonStats:[{level:"COLLEGE",teamName:"Georgia Tech Yellow Jackets",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:14,reboundsPerGame:5,assistsPerGame:2}],
+      careerEvents:[],
+    },
+    {
       slug: "brian-gregory",
       firstName: "Brian",
       lastName: "Gregory",

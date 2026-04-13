@@ -12,6 +12,14 @@ export const virginiaTechBasketball2013: TeamSeed = {
   mascotName: "Hokie",
   people: [
     {
+      slug:"erick-green-vt",firstName:"Erick",lastName:"Green",birthYear:1991,hometown:"United States",highSchool:"United States",
+      bio:"Senior. Led ACC in scoring 25 PPG.",
+      status:{occupationType:"RETIRED_ATHLETE",currentTitle:"Retired",location:"United States",statusNote:"Led ACC in scoring at 25.0 PPG. #46 pick by Jazz.",sourceUrl:"https://en.wikipedia.org/wiki/Erick_Green"},
+      membership:{role:"PLAYER",jerseyNumber:11,position:"Guard",yearsAtSchool:"undefined",gamesPlayed:33,pointsPerGame:25,reboundsPerGame:3.5,assistsPerGame:4},
+      seasonStats:[{level:"COLLEGE",teamName:"Virginia Tech Hokies",season:"undefined",yearLabel:"undefined",sortOrder:201,gamesPlayed:33,pointsPerGame:25,reboundsPerGame:3.5,assistsPerGame:4}],
+      careerEvents:[],
+    },
+    {
       slug: "james-johnson-vt",
       firstName: "James",
       lastName: "Johnson",
