@@ -12,6 +12,25 @@ export const pittBasketball2014: TeamSeed = {
   mascotName: "Panther",
   people: [
     {
+      slug: "talib-zanna",
+      firstName: "Talib",
+      lastName: "Zanna",
+      birthYear: 1991,
+      hometown: "Lagos, Nigeria",
+      highSchool: "Hargrave Military",
+      bio: "Senior big man from Nigeria. Played overseas pro career.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Pro Player",
+        location: "Overseas",
+        statusNote: "Plays professionally in Europe after Pitt career.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Talib_Zanna",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 42, position: "Forward", yearsAtSchool: "2013-2014", gamesPlayed: 36, pointsPerGame: 13.1, reboundsPerGame: 8.2, assistsPerGame: 0.7 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Pittsburgh Panthers", season: "2013-2014", yearLabel: "2013-2014", sortOrder: 201, gamesPlayed: 36, pointsPerGame: 13.1, reboundsPerGame: 8.2, assistsPerGame: 0.7 }],
+      careerEvents: [],
+    },
+    {
       slug: "lamar-patterson",
       firstName: "Lamar",
       lastName: "Patterson",

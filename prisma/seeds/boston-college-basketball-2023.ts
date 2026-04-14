@@ -12,6 +12,25 @@ export const bostonCollegeBasketball2023: TeamSeed = {
   mascotName: "Eagle",
   people: [
     {
+      slug: "quinten-post",
+      firstName: "Quinten",
+      lastName: "Post",
+      birthYear: 2000,
+      hometown: "Amsterdam, Netherlands",
+      highSchool: "Canarias Basketball Academy",
+      bio: "Senior center from Netherlands. Transferred from Mississippi State.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Center",
+        location: "San Francisco, CA",
+        statusNote: "#52 pick by Warriors in 2024. On two-way contract with Golden State.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Quinten_Post",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 12, position: "Center", yearsAtSchool: "2022-2023", gamesPlayed: 28, pointsPerGame: 15.1, reboundsPerGame: 5.6, assistsPerGame: 1.2 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Boston College Eagles", season: "2022-2023", yearLabel: "2022-2023", sortOrder: 201, gamesPlayed: 28, pointsPerGame: 15.1, reboundsPerGame: 5.6, assistsPerGame: 1.2 }],
+      careerEvents: [{ date: "2024-06-27", month: 6, day: 27, year: 2024, title: "Drafted #52 by Golden State Warriors", description: "Selected in 2024 NBA Draft after BC career." }],
+    },
+    {
       slug: "earl-grant",
       firstName: "Earl",
       lastName: "Grant",

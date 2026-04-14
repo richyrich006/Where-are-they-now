@@ -12,6 +12,25 @@ export const pittBasketball2022: TeamSeed = {
   mascotName: "Panther",
   people: [
     {
+      slug: "jamarius-burton",
+      firstName: "Jamarius",
+      lastName: "Burton",
+      birthYear: 1999,
+      hometown: "Charlotte, NC",
+      highSchool: "Providence Day",
+      bio: "Junior guard. Transferred from Texas Tech.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Pro Player",
+        location: "Overseas",
+        statusNote: "Plays overseas after finishing career at Pitt.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Jamarius_Burton",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 11, position: "Guard", yearsAtSchool: "2021-2022", gamesPlayed: 30, pointsPerGame: 10.9, reboundsPerGame: 3.3, assistsPerGame: 3.0 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Pittsburgh Panthers", season: "2021-2022", yearLabel: "2021-2022", sortOrder: 201, gamesPlayed: 30, pointsPerGame: 10.9, reboundsPerGame: 3.3, assistsPerGame: 3.0 }],
+      careerEvents: [],
+    },
+    {
       slug: "jeff-capel",
       firstName: "Jeff",
       lastName: "Capel",

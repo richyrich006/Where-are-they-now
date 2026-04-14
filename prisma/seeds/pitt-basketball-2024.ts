@@ -12,6 +12,25 @@ export const pittBasketball2024: TeamSeed = {
   mascotName: "Panther",
   people: [
     {
+      slug: "bub-carrington",
+      firstName: "Carlton \"Bub\"",
+      lastName: "Carrington",
+      birthYear: 2005,
+      hometown: "Baltimore, MD",
+      highSchool: "St. Frances Academy",
+      bio: "One-and-done freshman guard. #14 pick by Portland Trail Blazers.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Guard",
+        location: "Washington, DC",
+        statusNote: "Traded to Washington Wizards on draft night. Rookie of the Year candidate.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Bub_Carrington",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 7, position: "Guard", yearsAtSchool: "2023-2024", gamesPlayed: 33, pointsPerGame: 13.8, reboundsPerGame: 5.2, assistsPerGame: 4.1 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Pittsburgh Panthers", season: "2023-2024", yearLabel: "2023-2024", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 13.8, reboundsPerGame: 5.2, assistsPerGame: 4.1 }],
+      careerEvents: [{ date: "2024-06-26", month: 6, day: 26, year: 2024, title: "Drafted #14 by Portland (traded to Wizards)", description: "Selected 14th overall in 2024 NBA Draft." }],
+    },
+    {
       slug: "jeff-capel",
       firstName: "Jeff",
       lastName: "Capel",

@@ -12,6 +12,25 @@ export const bostonCollegeBasketball2015: TeamSeed = {
   mascotName: "Eagle",
   people: [
     {
+      slug: "olivier-hanlan",
+      firstName: "Olivier",
+      lastName: "Hanlan",
+      birthYear: 1993,
+      hometown: "Ottawa, ON",
+      highSchool: "Notre Dame Prep",
+      bio: "Junior guard from Canada. #42 pick by Utah Jazz in 2015.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Pro Player",
+        location: "Overseas",
+        statusNote: "Long EuroLeague career. Canadian national team.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Olivier_Hanlan",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 21, position: "Guard", yearsAtSchool: "2014-2015", gamesPlayed: 31, pointsPerGame: 19.5, reboundsPerGame: 3.6, assistsPerGame: 3.4 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Boston College Eagles", season: "2014-2015", yearLabel: "2014-2015", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 19.5, reboundsPerGame: 3.6, assistsPerGame: 3.4 }],
+      careerEvents: [{ date: "2015-06-25", month: 6, day: 25, year: 2015, title: "Drafted #42 by Utah Jazz", description: "Selected 42nd overall in 2015 NBA Draft." }],
+    },
+    {
       slug: "jim-christian",
       firstName: "Jim",
       lastName: "Christian",
