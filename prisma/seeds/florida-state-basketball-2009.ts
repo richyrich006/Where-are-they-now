@@ -12,6 +12,25 @@ export const floridaStateBasketball2009: TeamSeed = {
   mascotName: "Seminole",
   people: [
     {
+      slug: "toney-douglas",
+      firstName: "Toney",
+      lastName: "Douglas",
+      birthYear: 1986,
+      hometown: "Jonesboro, GA",
+      highSchool: "Jonesboro",
+      bio: "Senior guard. ACC Player of the Year. #29 pick by Lakers.",
+      status: {
+        occupationType: "RETIRED_ATHLETE",
+        currentTitle: "Retired",
+        location: "United States",
+        statusNote: "Played 8 NBA seasons. Long overseas career after NBA.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Toney_Douglas",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 23, position: "Guard", yearsAtSchool: "2008-2009", gamesPlayed: 33, pointsPerGame: 21.5, reboundsPerGame: 3.9, assistsPerGame: 3.0 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Florida State Seminoles", season: "2008-2009", yearLabel: "2008-2009", sortOrder: 201, gamesPlayed: 33, pointsPerGame: 21.5, reboundsPerGame: 3.9, assistsPerGame: 3.0 }],
+      careerEvents: [{ date: "2009-06-25", month: 6, day: 25, year: 2009, title: "Drafted #29 by Lakers (traded to Knicks)", description: "Selected 29th overall in 2009 NBA Draft." }],
+    },
+    {
       slug: "leonard-hamilton",
       firstName: "Leonard",
       lastName: "Hamilton",

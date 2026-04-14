@@ -12,6 +12,25 @@ export const floridaStateBasketball2016: TeamSeed = {
   mascotName: "Seminole",
   people: [
     {
+      slug: "malik-beasley",
+      firstName: "Malik",
+      lastName: "Beasley",
+      birthYear: 1996,
+      hometown: "Atlanta, GA",
+      highSchool: "St. Francis",
+      bio: "One-and-done freshman guard. #19 pick by Denver Nuggets in 2016.",
+      status: {
+        occupationType: "ACTIVE_PRO_ATHLETE",
+        currentTitle: "Guard",
+        location: "Detroit, MI",
+        statusNote: "Now with Detroit Pistons. Elite 3-point shooter who had breakout 2024-25 season.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Malik_Beasley",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 5, position: "Guard", yearsAtSchool: "2015-2016", gamesPlayed: 34, pointsPerGame: 15.6, reboundsPerGame: 5.3, assistsPerGame: 1.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Florida State Seminoles", season: "2015-2016", yearLabel: "2015-2016", sortOrder: 201, gamesPlayed: 34, pointsPerGame: 15.6, reboundsPerGame: 5.3, assistsPerGame: 1.5 }],
+      careerEvents: [{ date: "2016-06-23", month: 6, day: 23, year: 2016, title: "Drafted #19 by Denver Nuggets", description: "Selected 19th overall in 2016 NBA Draft." }],
+    },
+    {
       slug: "leonard-hamilton",
       firstName: "Leonard",
       lastName: "Hamilton",

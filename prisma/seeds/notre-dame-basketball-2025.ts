@@ -12,6 +12,25 @@ export const notreDameBasketball2025: TeamSeed = {
   mascotName: "Fighting Irish",
   people: [
     {
+      slug: "markus-burton",
+      firstName: "Markus",
+      lastName: "Burton",
+      birthYear: 2004,
+      hometown: "South Bend, IN",
+      highSchool: "Penn",
+      bio: "Sophomore PG. 2024 ACC Freshman of the Year.",
+      status: {
+        occupationType: "STUDENT",
+        currentTitle: "College Player",
+        location: "South Bend, IN",
+        statusNote: "Notre Dame's star under Micah Shrewsberry. Future NBA prospect.",
+        sourceUrl: "https://en.wikipedia.org/wiki/Markus_Burton",
+      },
+      membership: { role: "PLAYER", jerseyNumber: 3, position: "Guard", yearsAtSchool: "2024-2025", gamesPlayed: 31, pointsPerGame: 21.0, reboundsPerGame: 3.5, assistsPerGame: 4.5 },
+      seasonStats: [{ level: "COLLEGE", teamName: "Notre Dame Fighting Irish", season: "2024-2025", yearLabel: "2024-2025", sortOrder: 201, gamesPlayed: 31, pointsPerGame: 21.0, reboundsPerGame: 3.5, assistsPerGame: 4.5 }],
+      careerEvents: [],
+    },
+    {
       slug: "micah-shrewsberry",
       firstName: "Micah",
       lastName: "Shrewsberry",
